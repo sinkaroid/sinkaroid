@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-03, 15:25:54",
+    "last_sync": "2022-08-03, 08:55:29",
     "data": [
         {
             "name": "booru",
@@ -90,7 +90,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 9 days ago)",
+            "date": "June 28, 2022 (Updated: 8 days ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -127,7 +127,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 17 days ago)",
+            "date": "January 21, 2022 (Updated: 16 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "visit": "https://sinkaroid.github.io/jalter",
             "description": "A NodeJS wrapper for Discord Selfbot"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "84aae738912e0c03e5d54686fd9e290c80957bcc"
+    "sha_commit": "b54982fb7faea0f13e089a3e063fcbd0d4a78441"
 }
