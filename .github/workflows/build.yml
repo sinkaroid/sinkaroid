@@ -1,9 +1,9 @@
-name: Fetch repo
+name: Retrieve repository info
 
 on:
   create:
     branches:
-      - web
+      - master
   push:
   schedule:
     - cron: "0 */12 * * *"
