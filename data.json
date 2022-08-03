@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-03, 09:14:35",
+    "last_sync": "2022-08-03, 12:01:52",
     "data": [
         {
             "name": "booru",
@@ -127,7 +127,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 16 days ago)",
+            "date": "January 21, 2022 (Updated: 17 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "visit": "https://sinkaroid.github.io/jalter",
             "description": "A NodeJS wrapper for Discord Selfbot"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "ad11e06763a142222bc69a1551c19fa047c9677e"
+    "sha_commit": "5bda47e0e44b53d8cd025e362fa999b4403af286"
 }
