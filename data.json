@@ -1,0 +1,586 @@
+{
+    "last_sync": "2022-08-03, 15:25:54",
+    "data": [
+        {
+            "name": "booru",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/1654f3032c9a7789e38e7028a3c00d96eb298b1e/sinkaroid/booru"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "asyncio",
+                "booru"
+            ],
+            "category": "Python",
+            "date": "April 07, 2022 (Updated: 21 days ago)",
+            "github": "https://github.com/sinkaroid/booru",
+            "visit": "https://sinkaroid.github.io/booru",
+            "description": "Python bindings for booru imageboards"
+        },
+        {
+            "name": "tomoe",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/958709479082b8463c95953b415e04e467af9204/sinkaroid/tomoe"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "asyncio",
+                "doujin",
+                "downloader",
+                "hentaifox",
+                "nhentai",
+                "pururin"
+            ],
+            "category": "Python",
+            "date": "March 18, 2022 (Updated: 9 days ago)",
+            "github": "https://github.com/sinkaroid/tomoe",
+            "visit": "https://github.com/sinkaroid/tomoe",
+            "description": "An exalted doujinshi downloader with ease"
+        },
+        {
+            "name": "scathach-api",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/25f5241a256742a40db91f9e7a987239dd1b761e/sinkaroid/scathach-api"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "December 26, 2020 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/scathach-api",
+            "visit": "https://sinkaroid.github.io/scathach-api",
+            "description": "A NodeJS wrapper to interacts with Scathach bot"
+        },
+        {
+            "name": "jandapress",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/98a6e4e02d160484a2564def8d9a25e37dceecc9/sinkaroid/jandapress"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "hentaifox",
+                "nhentai",
+                "pururin"
+            ],
+            "category": "TypeScript",
+            "date": "June 03, 2022 (Updated: 9 days ago)",
+            "github": "https://github.com/sinkaroid/jandapress",
+            "visit": "https://janda.mod.land",
+            "description": "RESTful and experimental API for the doujinboards"
+        },
+        {
+            "name": "disgrowth",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/cc14d22b257cb85e54f7cadf541664b5714b54c7/sinkaroid/disgrowth"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "chartjs",
+                "discord-bot",
+                "vue"
+            ],
+            "category": "Vue",
+            "date": "June 28, 2022 (Updated: 9 days ago)",
+            "github": "https://github.com/sinkaroid/disgrowth",
+            "visit": "https://graph.scathach.dev",
+            "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
+        },
+        {
+            "name": "hensuki",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/c6304eb78a0c23efb4793f204f14b0d53bdeb50d/sinkaroid/hensuki"
+                }
+            ],
+            "technologies": [
+                "Shell",
+                "nhentai",
+                "one-liners",
+                "regex"
+            ],
+            "category": "Shell",
+            "date": "August 08, 2019 (Updated: 9 days ago)",
+            "github": "https://github.com/sinkaroid/hensuki",
+            "visit": "https://github.com/sinkaroid/hensuki",
+            "description": "Turn out regex magic into one-liner doujin grabber"
+        },
+        {
+            "name": "jalter",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/1c10be36b365c2d6cca6b46f88dd62740f343ad2/sinkaroid/jalter"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "discord",
+                "selfbot"
+            ],
+            "category": "TypeScript",
+            "date": "January 21, 2022 (Updated: 17 days ago)",
+            "github": "https://github.com/sinkaroid/jalter",
+            "visit": "https://sinkaroid.github.io/jalter",
+            "description": "A NodeJS wrapper for Discord Selfbot"
+        },
+        {
+            "name": "janda",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/fc5d58e5bef399f01722defded471c79c4496171/sinkaroid/janda"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "asmhentai",
+                "asyncio",
+                "doujinshi",
+                "hentai2read",
+                "hentaifox",
+                "hybrid",
+                "nhentai",
+                "pururin",
+                "simply-hentai"
+            ],
+            "category": "Python",
+            "date": "March 15, 2022 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/janda",
+            "visit": "https://sinkaroid.github.io/janda",
+            "description": "Python library for Jandapress"
+        },
+        {
+            "name": "badut",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/2d48c366e5b4bdb10e97777c57f7e5c3c8d587f8/sinkaroid/badut"
+                }
+            ],
+            "technologies": [
+                "Python"
+            ],
+            "category": "Python",
+            "date": "April 17, 2022 (Updated: 3 months ago)",
+            "github": "https://github.com/sinkaroid/badut",
+            "visit": "https://sinkaroid.github.io/badut",
+            "description": "Python HTTP client designed to be simple and async context"
+        },
+        {
+            "name": "cabul",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/b9a8c5108a59225e0fa1f524a124b39cde047ac5/sinkaroid/cabul"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "nsfw",
+                "reddit",
+                "reddit-api"
+            ],
+            "category": "TypeScript",
+            "date": "March 24, 2021 (Updated: 8 days ago)",
+            "github": "https://github.com/sinkaroid/cabul",
+            "visit": "https://sinkaroid.github.io/cabul",
+            "description": "Proxied and unfiltered API around Reddit"
+        },
+        {
+            "name": "cabul",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/095f14810f3b9714ff69e73184df88fd5ca645c3/sinkaroid/cabul"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "nsfw",
+                "reddit",
+                "reddit-api"
+            ],
+            "category": "TypeScript",
+            "date": "March 24, 2021 (Updated: 8 days ago)",
+            "github": "https://github.com/sinkaroid/cabul",
+            "visit": "https://sinkaroid.github.io/cabul",
+            "description": "Proxied and unfiltered API around Reddit"
+        },
+        {
+            "name": "disgrow",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/902b4fe3bad4dfcfb8becd48123d45a8a7f4a2e3/sinkaroid/disgrow"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "June 28, 2022 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/disgrow",
+            "visit": "https://github.com/sinkaroid/disgrow",
+            "description": "A growth increments for your Discord bots"
+        },
+        {
+            "name": "disgrow",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/ce0e0116088040f35b0690a9043811634f7825bd/sinkaroid/disgrow"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "June 28, 2022 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/disgrow",
+            "visit": "https://github.com/sinkaroid/disgrow",
+            "description": "A growth increments for your Discord bots"
+        },
+        {
+            "name": "simpleocr",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/1989d141b65a6d1c1c3f4576eac1fac46fb055ff/sinkaroid/simpleocr"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "ocr",
+                "tesseract-ocr",
+                "text-recognition"
+            ],
+            "category": "Python",
+            "date": "September 25, 2019 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/simpleocr",
+            "visit": "https://github.com/sinkaroid/simpleocr",
+            "description": "simple textrecognition"
+        },
+        {
+            "name": "umarun",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/e4c048fb5f7820ed48b8231bdc6ea695a94a38fc/sinkaroid/umarun"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "base64",
+                "decompiler",
+                "marshal",
+                "python-marshal"
+            ],
+            "category": "Python",
+            "date": "August 10, 2020 (Updated: 2 months ago)",
+            "github": "https://github.com/sinkaroid/umarun",
+            "visit": "https://github.com/sinkaroid/umarun",
+            "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code."
+        },
+        {
+            "name": "shielder",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/069b3fa260aa6df5d79ae4b726b39f49906bbff3/sinkaroid/shielder"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "backdoor-finder",
+                "brute-force",
+                "bulk",
+                "http-requests"
+            ],
+            "category": "Python",
+            "date": "August 10, 2020 (Updated: 4 months ago)",
+            "github": "https://github.com/sinkaroid/shielder",
+            "visit": "https://github.com/sinkaroid/shielder",
+            "description": "Shielder offers modular brute-forcing outside root privilege"
+        },
+        {
+            "name": "pururin",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/1f4342f690864498e5dded9e58fe34389cfe48ec/sinkaroid/pururin"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "api",
+                "asyncio",
+                "pururin"
+            ],
+            "category": "Python",
+            "date": "March 10, 2022 (Updated: 4 months ago)",
+            "github": "https://github.com/sinkaroid/pururin",
+            "visit": "https://pururin.to",
+            "description": "Pururin unofficial API wrapper"
+        },
+        {
+            "name": "jandabooru",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/53d2fa79b8b15516df64d9429b25c2932eec9028/sinkaroid/jandabooru"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "beautifulsoup4",
+                "booru",
+                "bulk-downloader",
+                "lewd"
+            ],
+            "category": "Python",
+            "date": "February 21, 2021 (Updated: 4 months ago)",
+            "github": "https://github.com/sinkaroid/jandabooru",
+            "visit": "https://github.com/sinkaroid/jandabooru",
+            "description": "Bulk image downloader for booru imageboards"
+        },
+        {
+            "name": "strygwyr",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/60f746a115be7691411c4c0a7adbe905df297772/sinkaroid/strygwyr"
+                }
+            ],
+            "technologies": [
+                "JavaScript",
+                "dota-2",
+                "dota2-api",
+                "liquipedia",
+                "wrapper"
+            ],
+            "category": "JavaScript",
+            "date": "March 12, 2021 (Updated: 7 months ago)",
+            "github": "https://github.com/sinkaroid/strygwyr",
+            "visit": "https://strygwyr.js.org",
+            "description": "Getter dota heroes from their localized names."
+        },
+        {
+            "name": "behoifer",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/66f3f4db82e8e41300a4583adb278f8e24abfd47/sinkaroid/behoifer"
+                }
+            ],
+            "technologies": [
+                "Shell",
+                "bash",
+                "behoimi",
+                "danbooru"
+            ],
+            "category": "Shell",
+            "date": "March 17, 2021 (Updated: a year ago)",
+            "github": "https://github.com/sinkaroid/behoifer",
+            "visit": "https://github.com/sinkaroid/behoifer",
+            "description": "Referer implementation to help with bulk downloading images from behoimi.org"
+        },
+        {
+            "name": "illustrator-tracker",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/031868fedd54c7709ec262007dfe5791090ca612/sinkaroid/illustrator-tracker"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "artist-tracker",
+                "doujinshi",
+                "http-response",
+                "nsfw"
+            ],
+            "category": "Python",
+            "date": "August 17, 2019 (Updated: 2 months ago)",
+            "github": "https://github.com/sinkaroid/illustrator-tracker",
+            "visit": "https://github.com/sinkaroid/illustrator-tracker",
+            "description": "A quick and simple things to find out and track your favorite doujinshi Artist to get more artworks ins't bad enough"
+        },
+        {
+            "name": "dotabuff",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/8d36a096d37a16839790a6578af8ca4ff2276233/sinkaroid/dotabuff"
+                }
+            ],
+            "technologies": [
+                "Shell",
+                "bash",
+                "dota2",
+                "dotabuff",
+                "regex"
+            ],
+            "category": "Shell",
+            "date": "January 30, 2020 (Updated: 5 months ago)",
+            "github": "https://github.com/sinkaroid/dotabuff",
+            "visit": "https://www.dotabuff.com/",
+            "description": "Dotabuff bash scrape"
+        },
+        {
+            "name": "Simple-logbait",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/ccdc036c8ec23065dbf5a623ff3f684296672537/sinkaroid/Simple-logbait"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "iplogger",
+                "social-engineering"
+            ],
+            "category": "PHP",
+            "date": "March 06, 2019 (Updated: 9 months ago)",
+            "github": "https://github.com/sinkaroid/Simple-logbait",
+            "visit": "https://github.com/sinkaroid/Simple-logbait",
+            "description": "Just simple bait to get Ua and IPaddress from your victim."
+        },
+        {
+            "name": "Blackjasmine",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/59d8756e157f5e635c8f53b5f7673a6645b3129b/sinkaroid/Blackjasmine"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "backdoor",
+                "bypasser",
+                "php"
+            ],
+            "category": "PHP",
+            "date": "January 05, 2019 (Updated: 5 months ago)",
+            "github": "https://github.com/sinkaroid/Blackjasmine",
+            "visit": "https://github.com/sinkaroid/Blackjasmine",
+            "description": "cli PHPWebshell"
+        },
+        {
+            "name": "Blackseroja",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/8b15697f4b0bfde514c60a93f5e5448e5a2ff96a/sinkaroid/Blackseroja"
+                }
+            ],
+            "technologies": [
+                "PHP"
+            ],
+            "category": "PHP",
+            "date": "February 13, 2019 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/Blackseroja",
+            "visit": "https://github.com/sinkaroid/Blackseroja",
+            "description": "Another flower, Blackser0ja just my tools collection from 2k12 till now."
+        },
+        {
+            "name": "HiddenFlower",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/0133be6013c72c5996f93132f9d93852ff50e7a2/sinkaroid/HiddenFlower"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "backdooring"
+            ],
+            "category": "PHP",
+            "date": "January 05, 2019 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/HiddenFlower",
+            "visit": "https://github.com/sinkaroid/HiddenFlower",
+            "description": "a uploader can inject in another file, article, etc."
+        },
+        {
+            "name": "webNovelCrawler",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/983732879b9d40410e1cbf31e3d1d15e10682f10/sinkaroid/webNovelCrawler"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "crawler",
+                "dompdf",
+                "webnovel"
+            ],
+            "category": "PHP",
+            "date": "July 26, 2019 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/webNovelCrawler",
+            "visit": "https://github.com/sinkaroid/webNovelCrawler",
+            "description": "Simple PHPcurl and getRequest to grab Light Novel and WebNovel, then create parser with DOMpdf."
+        },
+        {
+            "name": "antk",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/6588013f3f126635c6c82a9fb2d6ee270213285d/sinkaroid/antk"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "anime-scraper",
+                "curl",
+                "parser-library",
+                "regex"
+            ],
+            "category": "PHP",
+            "date": "May 25, 2019 (Updated: 4 months ago)",
+            "github": "https://github.com/sinkaroid/antk",
+            "visit": "https://kato.kireisubs.org",
+            "description": "Redkato, - Indonesian anime scraper"
+        },
+        {
+            "name": "weevcrot",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/1312f84df57b23c68eb9a5903424a3fc87ac7888/sinkaroid/weevcrot"
+                }
+            ],
+            "technologies": [
+                "PHP"
+            ],
+            "category": "PHP",
+            "date": "January 05, 2019 (Updated: 7 months ago)",
+            "github": "https://github.com/sinkaroid/weevcrot",
+            "visit": "https://github.com/sinkaroid/weevcrot",
+            "description": "Extended weevely backdoor over the network at runtime."
+        },
+        {
+            "name": "Shell-Checker",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/4a07af9578d679413e72ca2c88bee8e95385fa84/sinkaroid/Shell-Checker"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "checker",
+                "shellcheck"
+            ],
+            "category": "PHP",
+            "date": "November 24, 2018 (Updated: 4 years ago)",
+            "github": "https://github.com/sinkaroid/Shell-Checker",
+            "visit": "https://github.com/sinkaroid/Shell-Checker",
+            "description": "A php source for track ur webshell( shell uploaded on your victim) to identify if still found or gone."
+        },
+        {
+            "name": "Stupidc0de-Shell-2016",
+            "pictures": [
+                {
+                    "img": "https://opengraph.githubassets.com/8bcdcc1073216b53a893e3d4e941e0715f42e9b4/sinkaroid/Stupidc0de-Shell-2016"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "backdoor",
+                "shell"
+            ],
+            "category": "PHP",
+            "date": "January 05, 2019 (Updated: 5 months ago)",
+            "github": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
+            "visit": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
+            "description": "Sc0Shell, Development based on b374k and Gallers Shell."
+        }
+    ],
+    "sha_commit": "84aae738912e0c03e5d54686fd9e290c80957bcc"
+}
