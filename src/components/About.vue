@@ -78,7 +78,7 @@ export default {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
+  font-family: "Helvetica";
 }
 
 .title {

@@ -44,7 +44,7 @@
       </div>
    <center>
         <p><img :src="nightMode ? 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/dracula/3-stats.svg' : 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/vue/3-stats.svg'" />
-        <img :src="nightMode ? 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/ststs/profile-summary-card-output/dracula/2-most-commit-language.svg' : 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/vue/2-most-commit-language.svg'"></p>
+        <img :src="nightMode ? 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/dracula/2-most-commit-language.svg' : 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/vue/2-most-commit-language.svg'"></p>
       </center>
     </div>
   </div>
