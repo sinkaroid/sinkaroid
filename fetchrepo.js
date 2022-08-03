@@ -1,15 +1,9 @@
 const axios = require("axios");
-require("dotenv").config();
 const fs = require("fs");
 const moment = require("moment");
 const today = moment().format("YYYY-MM-DD");
 const time = moment().format("HH:mm:ss");
-const cfg = process.argv.slice(2);
-
-let GH_TOKEN;
-if (cfg.length === 0) GH_TOKEN = process.env.GH_TOKEN;
-else GH_TOKEN = cfg;
-
+const GH_TOKEN = process.argv.slice(2);
 
 const convertDate = (date) => {
   let dateArray = date.split("-");
