@@ -8,7 +8,7 @@ const cfg = process.argv.slice(2);
 
 let GH_TOKEN;
 if (cfg.length === 0) GH_TOKEN = process.env.GH_TOKEN;
-else GH_TOKEN = cfg[0];
+else GH_TOKEN = cfg;
 
 
 const convertDate = (date) => {
