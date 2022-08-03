@@ -19,7 +19,7 @@
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
           >Contact</span
         >
-        <br>I’m available for every opportunity!
+        <br>I’m always keep moving forward and available for every opportunity!
       </div>
       <hr
         width="50%"
