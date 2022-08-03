@@ -3,7 +3,7 @@ name: Fetch repo
 on:
   create:
     branches:
-      - master
+      - web
   push:
   schedule:
     - cron: "0 */12 * * *"
