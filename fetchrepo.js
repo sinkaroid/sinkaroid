@@ -3,7 +3,7 @@ const fs = require("fs");
 const moment = require("moment");
 const today = moment().format("YYYY-MM-DD");
 const time = moment().format("HH:mm:ss");
-const GH_TOKEN = process.argv.slice(2);
+const GH_TOKEN = process.argv.slice(2)[0];
 
 const convertDate = (date) => {
   let dateArray = date.split("-");
