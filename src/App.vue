@@ -14,8 +14,7 @@
       <go-top
       :size="60"
       />
-
-      <!--
+      
       <custom-cursor
         :targets="['a', 'button', 'input', 'textarea']"
         :circleColor="nightMode ? '#fff' : 'red'"
@@ -24,7 +23,6 @@
         :dotColorHover="nightMode ? '#fff' : '#000'"
         :hoverSize="1.5"
       />
-      -->
 
       
       
@@ -44,7 +42,7 @@ import Recommendation from "./components/Recommendation";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import GoTop from "@inotom/vue-go-top";
-// import CustomCursor from "./components/CustomCursor.vue";
+import CustomCursor from "./components/CustomCursor.vue";
 import info from "../info";
 
 export default {
@@ -59,7 +57,7 @@ export default {
     Contact,
     Footer,
     GoTop,
-    // CustomCursor,
+    CustomCursor,
   },
   data() {
     return {
