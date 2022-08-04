@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-04, 00:03:09",
+    "last_sync": "2022-08-04, 09:55:04",
     "data": [
         {
             "name": "booru",
@@ -14,7 +14,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 21 days ago)",
+            "date": "April 07, 2022 (Updated: 22 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Python bindings for booru imageboards"
@@ -187,7 +187,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 9 days ago)",
+            "date": "March 24, 2021 (Updated: 9 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 9 days ago)",
+            "date": "March 24, 2021 (Updated: 9 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "de3ea1d32910365490d08bf100df4f19036b581f"
+    "sha_commit": "0d4c4e0412d896738252d6ab508a8959cdb4d505"
 }
