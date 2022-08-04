@@ -70,7 +70,7 @@ export default {
         );
         this.latest_commit = response.data.sha;
         this.base_repo = `https://github.com/sinkaroid/sinkaroid/commit/${this.latest_commit}`;
-        lscache.set("latest_commit", response.data.sha, 1440);
+        lscache.set("latest_commit", response.data.sha, 300);
         // alert("api fetched");
       } catch (err) {
         alert(err.message);
