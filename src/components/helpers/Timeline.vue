@@ -27,6 +27,7 @@
           >
             <li class="m-0 pb-2">
               <div>
+                <a :href="e.link" style="color:#89CFF0;" target="_blank"><i class="fa fa-link"></i> Learn more.</a>
                 <div class="px-2 title2">{{ e.name }}, {{ e.place }}</div>
                 <div class="px-2 title3">
                   {{ e.degree || e.position }}
@@ -34,9 +35,9 @@
                 </div>
                 <div class="px-2 date">{{ e.date }}</div>
                 <div class="px-2 pb-2 pt-2" style="text-align: justify;">
-                  {{ e.description }}
+                 <img align="left" :src="e.photo" width="100">{{ e.description }} 
                 </div>
-                <span
+                 <span
                   class="mx-2 badge p-2 mb-2"
                   v-for="s in e.skills"
                   :key="s"
@@ -129,4 +130,6 @@ ul.timeline > li:before {
 .bg-dark2 {
   background-color: #3c4148 !important;
 }
+
+
 </style>

@@ -57,15 +57,19 @@ let info = {
   experience: [
     {
       name: "ScathachGrip",
+      link: "https://github.com/ScathachGrip",
+      photo: "https://cdn.discordapp.com/attachments/952117487166705747/1006890840762884096/scathachgrip.png",
       place: "Indonesia - Thailand",
       date: "Jun, 2021 - Present",
       position: "Software Engineer - Developer Relations",
       description:
-        "Focused on embeded products like discord, telegram, and other automated and scraping bots, tools, libraries for It's services mostly dealing with NSFW stuff related actionable data as it over-engineering which makes daily use easily. We created a successful product that over 25.000 server invites, and over with 3M users on Discord. Part of the biggest Discord products that developed by Indonesian creators.",
+        "Focused on micro products like discord, telegram, and other automated and scraping bots, tools, libraries for It's services mostly dealing with NSFW stuff related actionable data as it over-engineering which makes daily use easily. We created a successful product that over 25.000 server invites, and over with 3M users on Discord. Part of the biggest Discord products that created by Indonesian.",
       skills: ["JavaScript/TypeScript", "NodeJS", "Rust", "Python", "Embedded Software", "Microservices", "Restful API"]
     },
     {
       name: "PT. Telekomunikasi Indonesia (Telkom) Tbk",
+      link: "https://www.telkom.co.id/",
+      photo: "https://cdn.discordapp.com/attachments/952117487166705747/1006890841232650291/telkom.png",
       place: "Yogyakarta, Indonesia",
       date: "2018 - 2019",
       position: "	Industrial Solutions & Services",
@@ -75,6 +79,8 @@ let info = {
     },
     {
       name: "Redsplit LTD",
+      link: "https://github.com/Redsplit",
+      photo: "https://cdn.discordapp.com/attachments/952117487166705747/1006890840226017401/redsplitorg.png",
       place: "Yogyakarta, Indonesia",
       date: "2018 - 2021",
       position: "Self-taught Programmer",
@@ -84,23 +90,25 @@ let info = {
     },
     {
       name: "Angelz.space LTD",
+      link: "https://web.facebook.com/undefined",
+      photo: "https://cdn.discordapp.com/attachments/952117487166705747/1006892590496485386/angeldotid.png",
       place: "Jakarta, Indonesia",
       date: "2015 - 2018",
       position: "Defacer - Exploiter",
-      link: ["https://web.facebook.com/groups/anegelzspace"],
       description:
         "A limited company and is completely Blackhat for it's services. After pwned the targets, We just collected a webshells & root data and contanstly sell it them to foreigners end users, chinese spammer was rely on us.",
       skills: ["Backdoor", "Mailers", "Scampage", "CSRF-Vulnerability", "RCE Vulnerability", "PHP"]
     },
     {
       name: "PhantomGhost - Sanjungan Jiwa Team - JKT48 CYBER TEAM",
+      link: "https://web.facebook.com/undefined",
+      photo: "https://cdn.discordapp.com/attachments/952117487166705747/1006894707961507840/sj.png",
       place: "Southeast Asia",
       date: "2011 - 2015",
       position: "Defacer - Hacker Relations",
       vendor: ["abc", "def"],
-      link: ["https://www.zone-h.org/archive/notifier=sinkaroid", "https://www.zone-h.org/archive/notifier=PhantomGhost"],
       description:
-        "When I was in elementary school until junior school, I started my computer career by doing Blackhat stuff, mostly defacing and social engineering actions. Me and my team pwned a fuckton website arround the world. I've been on many teams and met proficient underground people with great mindset, Thankyou PG, SJ, JKT48 Cyber Team! Those teams was boost my character so that I can become what I am today.",
+        "When I was in elementary school until junior school, I started my computer career by doing Blackhat stuff, mostly defacing and social engineering actions. Me and my team pwned a fuckton website arround the world. I've been on many teams and met proficient underground people with great mindset, Thankyou PG, SJ, JKT48 Cyber Team! Those teams was boost my character and built my thought.",
       skills: ["CSRF-Vulnerability", "RCE Vulnerability", "Joomla", "WordPress", "PHP", "Exploiter", "Rooting server"]
     }
   ],
