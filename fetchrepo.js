@@ -5,6 +5,10 @@ const today = moment().format("YYYY-MM-DD");
 const time = moment().format("HH:mm:ss");
 const GH_TOKEN = process.argv.slice(2)[0];
 
+async function pendingSebentar(ms) {
+  await new Promise(resolve => setTimeout(resolve, ms));
+}
+
 const convertDate = (date) => {
   let dateArray = date.split("-");
   let year = dateArray[0];
@@ -183,6 +187,8 @@ const getInfo = async () => {
   for (let i = 0; i < project.repo.length; i++) {
     let res = await axios.get(`https://api.github.com/repos/sinkaroid/${project.repo[i].name}`, 
       { headers: { "Authorization": `token ${GH_TOKEN}` } });
+
+    await pendingSebentar(2000);
     let resSha = await axios.get(`https://api.github.com/repos/sinkaroid/${project.repo[i].name}/commits/${project.repo[i].branch}`,
       { headers: { "Authorization": `token ${GH_TOKEN}` } });
 
@@ -208,6 +214,8 @@ const getInfo = async () => {
     await axios.get(`https://opengraph.githubassets.com/${resSha.data.sha}/${res.data.full_name}`).then(res => {
       console.log(`Image ${project.repo[i].name} #${project.repo[i].branch} appears with status ${res.status}`);
     });
+
+    await pendingSebentar(2000);
   }
   return info;
 };
