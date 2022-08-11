@@ -65,6 +65,118 @@ const project = {
       name: "scathach-api",
       branch: "master",
     },
+    {
+      name: "jandapress",
+      branch: "master",
+    },
+    {
+      name: "disgrowth",
+      branch: "master",
+    },
+    {
+      name: "hensuki",
+      branch: "master",
+    },
+    {
+      name: "jalter",
+      branch: "master",
+    },
+    {
+      name: "janda",
+      branch: "master",
+    },
+    {
+      name: "badut",
+      branch: "master",
+    },
+    {
+      name: "cabul",
+      branch: "master",
+    },
+    {
+      name: "cabul",
+      branch: "proxy",
+    },
+    {
+      name: "disgrow",
+      branch: "master",
+    },
+    {
+      name: "disgrow",
+      branch: "api",
+    },
+    {
+      name: "simpleocr",
+      branch: "master",
+    },
+    {
+      name: "umarun",
+      branch: "master",
+    },
+    {
+      name: "shielder",
+      branch: "master",
+    },
+    {
+      name: "pururin",
+      branch: "master",
+    },
+    {
+      name: "jandabooru",
+      branch: "main",
+    },
+    {
+      name: "strygwyr",
+      branch: "main",
+    },
+    {
+      name: "behoifer",
+      branch: "main",
+    },
+    {
+      name: "illustrator-tracker",
+      branch: "master",
+    },
+    {
+      name: "dotabuff",
+      branch: "master",
+    },
+    {
+      name: "Simple-logbait",
+      branch: "master",
+    },
+    {
+      name: "Blackjasmine",
+      branch: "master",
+    },
+    {
+      name: "Blackseroja",
+      branch: "master",
+    },
+    {
+      name: "HiddenFlower",
+      branch: "master",
+    },
+    {
+      name: "webNovelCrawler",
+      branch: "master",
+    },
+    {
+      name: "antk",
+      branch: "master",
+    },
+    {
+      name: "weevcrot",
+      branch: "master",
+    },
+    {
+      name: "Shell-Checker",
+      branch: "master",
+    },
+    {
+      name: "Stupidc0de-Shell-2016",
+      branch: "master",
+    }
   ]
 };
 
