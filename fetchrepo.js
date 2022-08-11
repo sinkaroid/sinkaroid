@@ -65,118 +65,6 @@ const project = {
       name: "scathach-api",
       branch: "master",
     },
-    {
-      name: "jandapress",
-      branch: "master",
-    },
-    {
-      name: "disgrow-visualization",
-      branch: "master",
-    },
-    {
-      name: "hensuki",
-      branch: "master",
-    },
-    {
-      name: "jalter",
-      branch: "master",
-    },
-    {
-      name: "janda",
-      branch: "master",
-    },
-    {
-      name: "badut",
-      branch: "master",
-    },
-    {
-      name: "cabul",
-      branch: "master",
-    },
-    {
-      name: "cabul",
-      branch: "proxy",
-    },
-    {
-      name: "disgrow",
-      branch: "master",
-    },
-    {
-      name: "disgrow",
-      branch: "api",
-    },
-    {
-      name: "simpleocr",
-      branch: "master",
-    },
-    {
-      name: "umarun",
-      branch: "master",
-    },
-    {
-      name: "shielder",
-      branch: "master",
-    },
-    {
-      name: "pururin",
-      branch: "master",
-    },
-    {
-      name: "jandabooru",
-      branch: "main",
-    },
-    {
-      name: "strygwyr",
-      branch: "main",
-    },
-    {
-      name: "behoifer",
-      branch: "main",
-    },
-    {
-      name: "illustrator-tracker",
-      branch: "master",
-    },
-    {
-      name: "dotabuff",
-      branch: "master",
-    },
-    {
-      name: "Simple-logbait",
-      branch: "master",
-    },
-    {
-      name: "Blackjasmine",
-      branch: "master",
-    },
-    {
-      name: "Blackseroja",
-      branch: "master",
-    },
-    {
-      name: "HiddenFlower",
-      branch: "master",
-    },
-    {
-      name: "webNovelCrawler",
-      branch: "master",
-    },
-    {
-      name: "antk",
-      branch: "master",
-    },
-    {
-      name: "weevcrot",
-      branch: "master",
-    },
-    {
-      name: "Shell-Checker",
-      branch: "master",
-    },
-    {
-      name: "Stupidc0de-Shell-2016",
-      branch: "master",
-    }
   ]
 };
 
@@ -199,7 +87,7 @@ const getInfo = async () => {
       name: res.data.name,
       pictures: [
         {
-          img: `https://opengraph.githubassets.com/${resSha.data.sha}/${res.data.full_name}`,
+          img: `https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`,
         }
       ],
       technologies: topics,
@@ -211,9 +99,14 @@ const getInfo = async () => {
       //sha: resSha.data.sha,
     });
     console.log(`Pushing ${project.repo[i].name} #${project.repo[i].branch} to portfolio data`);
-    await axios.get(`https://opengraph.githubassets.com/${resSha.data.sha}/${res.data.full_name}`).then(res => {
-      console.log(`Image ${project.repo[i].name} #${project.repo[i].branch} appears with status ${res.status}`);
-    });
+    
+    await axios({
+      method: "get",
+      url: `https://opengraph.githubassets.com/${resSha.data.sha}/${res.data.full_name}`,
+      responseType: "stream"
+    }).then(function (response) {
+      response.data.pipe(fs.createWriteStream(`./assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`));
+    }).catch(err => console.log(err));
 
     await pendingSebentar(2000);
   }
