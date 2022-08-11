@@ -1,6 +1,6 @@
 # Hi there
 🔑: [`03CD B858 129F 2DD8`](https://keybase.io/staticmethod/pgp_keys.asc) | 📝: [`sinkaroid.org`](https://sinkaroid.org/)
-<img align="right" src="assets/41eb506c06b7ce74cba7cef056d0b1dd.png" width=22%>
+<img align="right" src="assets/other/41eb506c06b7ce74cba7cef056d0b1dd.png" width=22%>
 
 <!--
 ```
