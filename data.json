@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-11, 06:19:15",
+    "last_sync": "2022-08-11, 12:01:56",
     "data": [
         {
             "name": "booru",
@@ -90,7 +90,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 4 days ago)",
+            "date": "June 28, 2022 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -127,7 +127,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 24 days ago)",
+            "date": "January 21, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "visit": "https://sinkaroid.github.io/jalter",
             "description": "A NodeJS wrapper for Discord Selfbot"
@@ -187,7 +187,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 39 minutes ago)",
+            "date": "March 24, 2021 (Updated: 6 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 39 minutes ago)",
+            "date": "March 24, 2021 (Updated: 6 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "e0328b44c3f25fbe1e3795c3da23f02011688cf2"
+    "sha_commit": "197a93a2268ab0252edded1bbf541086fbae930d"
 }
