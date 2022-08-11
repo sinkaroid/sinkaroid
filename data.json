@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-11, 06:05:40",
+    "last_sync": "2022-08-11, 06:19:15",
     "data": [
         {
             "name": "booru",
@@ -187,7 +187,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 26 minutes ago)",
+            "date": "March 24, 2021 (Updated: 39 minutes ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 26 minutes ago)",
+            "date": "March 24, 2021 (Updated: 39 minutes ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "3dde4dc5fa11cf3daf55d94839c7160e931bd429"
+    "sha_commit": "e0328b44c3f25fbe1e3795c3da23f02011688cf2"
 }
