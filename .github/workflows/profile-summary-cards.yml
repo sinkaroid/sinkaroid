@@ -1,13 +1,12 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  create:
-    branches:
-      - stats
-  push:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: '0 */12 * * *'
   workflow_dispatch:
+  push:
+    branches:
+    - stats
 
 jobs:
   build:
