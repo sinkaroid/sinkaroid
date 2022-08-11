@@ -1,6 +1,6 @@
 {
   "name": "sinkaroid",
-  "version": "1.0.6-dev",
+  "version": "1.0.7-dev",
   "description": "vuejs, clearly, simple and minimalist portfolio site",
   "scripts": {
     "serve": "vue-cli-service serve",
