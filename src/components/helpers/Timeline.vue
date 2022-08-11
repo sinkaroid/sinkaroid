@@ -35,7 +35,8 @@
                 </div>
                 <div class="px-2 date">{{ e.date }}</div>
                 <div class="px-2 pb-2 pt-2" style="text-align: justify;">
-                 <img align="left" :src="e.photo" width="100">{{ e.description }} 
+                 <!-- <img align="left" :src="e.photo" width="100"> --> 
+                 {{ e.description }} 
                 </div>
                  <span
                   class="mx-2 badge p-2 mb-2"
