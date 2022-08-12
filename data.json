@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-12, 00:02:57",
+    "last_sync": "2022-08-12, 12:02:03",
     "data": [
         {
             "name": "booru",
@@ -71,7 +71,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 2 hours ago)",
+            "date": "June 03, 2022 (Updated: 14 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards. Which it's covers nhentai api, pururin, hentaifox, and more."
@@ -90,7 +90,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 5 days ago)",
+            "date": "June 28, 2022 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -109,7 +109,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 5 days ago)",
+            "date": "August 08, 2019 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber"
@@ -127,7 +127,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 25 days ago)",
+            "date": "January 21, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "visit": "https://sinkaroid.github.io/jalter",
             "description": "A NodeJS wrapper for Discord Selfbot"
@@ -187,7 +187,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 18 hours ago)",
+            "date": "March 24, 2021 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 18 hours ago)",
+            "date": "March 24, 2021 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "796e058340cb91127ff9d5c3d856bfb1e4b49fe9"
+    "sha_commit": "027b29189388ecef894c367b72a426b869847eba"
 }
