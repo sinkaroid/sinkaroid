@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-11, 12:01:56",
+    "last_sync": "2022-08-12, 00:02:57",
     "data": [
         {
             "name": "booru",
@@ -36,7 +36,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 17 days ago)",
+            "date": "March 18, 2022 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -71,10 +71,10 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: a day ago)",
+            "date": "June 03, 2022 (Updated: 2 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
-            "description": "RESTful and experimental API for the doujinboards"
+            "description": "RESTful and experimental API for the doujinboards. Which it's covers nhentai api, pururin, hentaifox, and more."
         },
         {
             "name": "disgrowth",
@@ -187,7 +187,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 6 hours ago)",
+            "date": "March 24, 2021 (Updated: 18 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 6 hours ago)",
+            "date": "March 24, 2021 (Updated: 18 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "197a93a2268ab0252edded1bbf541086fbae930d"
+    "sha_commit": "796e058340cb91127ff9d5c3d856bfb1e4b49fe9"
 }
