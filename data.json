@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-12, 12:02:03",
+    "last_sync": "2022-08-13, 00:03:07",
     "data": [
         {
             "name": "booru",
@@ -36,7 +36,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 18 days ago)",
+            "date": "March 18, 2022 (Updated: 19 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -71,10 +71,10 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 14 hours ago)",
+            "date": "June 03, 2022 (Updated: 7 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
-            "description": "RESTful and experimental API for the doujinboards. Which it's covers nhentai api, pururin, hentaifox, and more."
+            "description": "RESTful and experimental API for the doujinboards. It's covers nhentai api, pururin, hentaifox, and more."
         },
         {
             "name": "disgrowth",
@@ -187,7 +187,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: a day ago)",
+            "date": "March 24, 2021 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: a day ago)",
+            "date": "March 24, 2021 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -468,7 +468,7 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "February 13, 2019 (Updated: 3 years ago)",
+            "date": "February 13, 2019 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/Blackseroja",
             "visit": "https://github.com/sinkaroid/Blackseroja",
             "description": "Another flower, Blackser0ja just my tools collection from 2k12 till now."
@@ -485,7 +485,7 @@
                 "backdooring"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 3 years ago)",
+            "date": "January 05, 2019 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/HiddenFlower",
             "visit": "https://github.com/sinkaroid/HiddenFlower",
             "description": "a uploader can inject in another file, article, etc."
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "027b29189388ecef894c367b72a426b869847eba"
+    "sha_commit": "0ddceccde22e362fb063daa1efc8b6f062503ce1"
 }
