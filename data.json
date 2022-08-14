@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-13, 12:01:53",
+    "last_sync": "2022-08-14, 00:03:32",
     "data": [
         {
             "name": "booru",
@@ -36,7 +36,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 19 days ago)",
+            "date": "March 18, 2022 (Updated: 20 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -71,7 +71,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 19 hours ago)",
+            "date": "June 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards. It's covers nhentai api, pururin, hentaifox, and more."
@@ -187,7 +187,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 2 days ago)",
+            "date": "March 24, 2021 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 2 days ago)",
+            "date": "March 24, 2021 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "bad03e541ee62f064592bec8c3cbc2259915f929"
+    "sha_commit": "f84fd6e437d60ab97f720ab8ffe469792d0703c9"
 }
