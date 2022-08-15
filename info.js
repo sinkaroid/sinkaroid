@@ -100,15 +100,15 @@ let info = {
       skills: ["Backdoor", "Mailers", "Scampage", "CSRF-Vulnerability", "RCE Vulnerability", "PHP"]
     },
     {
-      name: "PhantomGhost - Sanjungan Jiwa Team - JKT48 CYBER TEAM",
+      name: "Sanjungan Jiwa Team",
       link: "https://web.facebook.com/undefined",
       photo: "https://cdn.discordapp.com/attachments/952117487166705747/1006894707961507840/sj.png",
-      place: "Southeast Asia",
-      date: "2011 - 2015",
+      place: "Indonesia",
+      date: "2013 - 2016",
       position: "Defacer - Hacker Relations",
       vendor: ["abc", "def"],
       description:
-        "When I was in elementary school until junior school, I started my computer career by doing Blackhat stuff, mostly defacing and social engineering actions. Me and my team pwned a fuckton website arround the world. I've been on many teams and met proficient underground people with great mindset, Thankyou PG, SJ, JKT48 Cyber Team! Those teams was boost my character and built my thought.",
+        "When I was in elementary school until junior school, I started my computer career by doing Blackhat stuff, mostly defacing and social engineering actions. Me and my team pwned a fuckton website arround the world. I've been on many teams and met proficient underground people with great mindset.",
       skills: ["CSRF-Vulnerability", "RCE Vulnerability", "Joomla", "WordPress", "PHP", "Exploiter", "Rooting server"]
     }
   ],
