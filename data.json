@@ -1,6 +1,25 @@
 {
-    "last_sync": "2022-08-15, 00:03:08",
+    "last_sync": "2022-08-15, 07:39:25",
     "data": [
+        {
+            "name": "eiyuu",
+            "pictures": [
+                {
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "booru",
+                "imageboard",
+                "resolver"
+            ],
+            "category": "TypeScript",
+            "date": "August 14, 2022 (Updated: 7 hours ago)",
+            "github": "https://github.com/sinkaroid/eiyuu",
+            "visit": "https://github.com/sinkaroid/eiyuu",
+            "description": "A query completion for Booru imageboards"
+        },
         {
             "name": "booru",
             "pictures": [
@@ -71,7 +90,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 14 hours ago)",
+            "date": "June 03, 2022 (Updated: 21 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards. It's covers nhentai api, pururin, hentaifox, and more."
@@ -109,7 +128,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 8 days ago)",
+            "date": "August 08, 2019 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber"
@@ -152,7 +171,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 15 hours ago)",
+            "date": "March 15, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -187,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 11 hours ago)",
+            "date": "March 24, 2021 (Updated: 19 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +225,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 11 hours ago)",
+            "date": "March 24, 2021 (Updated: 19 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -297,7 +316,7 @@
                 "http-requests"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 4 months ago)",
+            "date": "August 10, 2020 (Updated: 5 months ago)",
             "github": "https://github.com/sinkaroid/shielder",
             "visit": "https://github.com/sinkaroid/shielder",
             "description": "Shielder offers modular brute-forcing outside root privilege"
@@ -582,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "3e2dc2323670923f64a795ce1083c3c6b35e92a7"
+    "sha_commit": "2892756b7a4c66393126b9d3e28a44924a955367"
 }
