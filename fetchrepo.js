@@ -54,6 +54,10 @@ const convertTime = (tgl) => {
 const project = {
   repo: [
     {
+      name: "eiyuu",
+      branch: "master",
+    },
+    {
       name: "booru",
       branch: "master",
     },
