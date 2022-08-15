@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-14, 12:01:57",
+    "last_sync": "2022-08-15, 00:03:08",
     "data": [
         {
             "name": "booru",
@@ -36,7 +36,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 20 days ago)",
+            "date": "March 18, 2022 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -71,7 +71,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 2 hours ago)",
+            "date": "June 03, 2022 (Updated: 14 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards. It's covers nhentai api, pururin, hentaifox, and more."
@@ -152,7 +152,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 3 hours ago)",
+            "date": "March 15, 2022 (Updated: 15 hours ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -187,7 +187,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 7 hours ago)",
+            "date": "March 24, 2021 (Updated: 11 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 7 hours ago)",
+            "date": "March 24, 2021 (Updated: 11 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -582,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "456e8364defc9e49c24bad8c8e7aecf1b39bb395"
+    "sha_commit": "3e2dc2323670923f64a795ce1083c3c6b35e92a7"
 }
