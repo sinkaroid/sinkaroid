@@ -1,25 +1,6 @@
 {
-    "last_sync": "2022-08-15, 07:39:25",
+    "last_sync": "2022-08-15, 00:03:08",
     "data": [
-        {
-            "name": "eiyuu",
-            "pictures": [
-                {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "booru",
-                "imageboard",
-                "resolver"
-            ],
-            "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 7 hours ago)",
-            "github": "https://github.com/sinkaroid/eiyuu",
-            "visit": "https://github.com/sinkaroid/eiyuu",
-            "description": "A query completion for Booru imageboards"
-        },
         {
             "name": "booru",
             "pictures": [
@@ -601,5 +582,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "2892756b7a4c66393126b9d3e28a44924a955367"
+    "sha_commit": "3e2dc2323670923f64a795ce1083c3c6b35e92a7"
 }
