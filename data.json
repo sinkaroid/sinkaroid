@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-17, 00:03:15",
+    "last_sync": "2022-08-17, 12:01:43",
     "data": [
         {
             "name": "eiyuu",
@@ -15,7 +15,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: a day ago)",
+            "date": "August 14, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
             "description": "A query completion for Booru imageboards"
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 11 hours ago)",
+            "date": "April 07, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous Python bindings for booru imageboards"
@@ -109,7 +109,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 10 days ago)",
+            "date": "June 28, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -128,7 +128,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 10 days ago)",
+            "date": "August 08, 2019 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 2 days ago)",
+            "date": "March 24, 2021 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -225,7 +225,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 2 days ago)",
+            "date": "March 24, 2021 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -601,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "2325a53c21b27df73cea761f050d4e45a1d3531a"
+    "sha_commit": "10517940a38d515c6b86812b57209c8715e60b14"
 }
