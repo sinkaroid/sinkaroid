@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-17, 12:01:43",
+    "last_sync": "2022-08-18, 00:02:58",
     "data": [
         {
             "name": "eiyuu",
@@ -15,10 +15,10 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 2 days ago)",
+            "date": "August 14, 2022 (Updated: 8 hours ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
-            "description": "A query completion for Booru imageboards"
+            "description": "A query completion for booru imageboards"
         },
         {
             "name": "booru",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: a day ago)",
+            "date": "April 07, 2022 (Updated: 8 hours ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous Python bindings for booru imageboards"
@@ -55,7 +55,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 23 days ago)",
+            "date": "March 18, 2022 (Updated: 24 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -90,10 +90,10 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 3 days ago)",
+            "date": "June 03, 2022 (Updated: 8 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
-            "description": "RESTful and experimental API for the doujinboards. It's covers nhentai api, pururin, hentaifox, and more."
+            "description": "RESTful and experimental API for the doujinboards."
         },
         {
             "name": "disgrowth",
@@ -171,7 +171,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 3 days ago)",
+            "date": "March 15, 2022 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -601,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "10517940a38d515c6b86812b57209c8715e60b14"
+    "sha_commit": "a3ab4640dd8fd921ce655bab2354ae6f873465e4"
 }
