@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-19, 11:40:29",
+    "last_sync": "2022-08-19, 12:01:51",
     "data": [
         {
             "name": "eiyuu",
@@ -601,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "d4e4cfcd5a3fe29f975994bd3864b2254dea41e2"
+    "sha_commit": "39b43ebd01e231efaca60c72deba3765e7d08d92"
 }
