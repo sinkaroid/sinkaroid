@@ -1,6 +1,25 @@
 {
-    "last_sync": "2022-08-15, 00:03:08",
+    "last_sync": "2022-08-19, 00:03:55",
     "data": [
+        {
+            "name": "eiyuu",
+            "pictures": [
+                {
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "booru",
+                "imageboard",
+                "resolver"
+            ],
+            "category": "TypeScript",
+            "date": "August 14, 2022 (Updated: a day ago)",
+            "github": "https://github.com/sinkaroid/eiyuu",
+            "visit": "https://eiyuu.js.org",
+            "description": "A query completion for booru imageboards"
+        },
         {
             "name": "booru",
             "pictures": [
@@ -14,10 +33,10 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: a month ago)",
+            "date": "April 07, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
-            "description": "Python bindings for booru imageboards"
+            "description": "Asynchronous Python bindings for booru imageboards"
         },
         {
             "name": "tomoe",
@@ -36,7 +55,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 21 days ago)",
+            "date": "March 18, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -71,10 +90,10 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 21 hours ago)",
+            "date": "June 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
-            "description": "RESTful and experimental API for the doujinboards. It's covers nhentai api, pururin, hentaifox, and more."
+            "description": "RESTful and experimental API for the doujinboards."
         },
         {
             "name": "disgrowth",
@@ -90,7 +109,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 8 days ago)",
+            "date": "June 28, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -109,7 +128,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 9 days ago)",
+            "date": "August 08, 2019 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber"
@@ -152,7 +171,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: a day ago)",
+            "date": "March 15, 2022 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -187,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 19 hours ago)",
+            "date": "March 24, 2021 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -206,7 +225,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 19 hours ago)",
+            "date": "March 24, 2021 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied and unfiltered API around Reddit"
@@ -582,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "3e2dc2323670923f64a795ce1083c3c6b35e92a7"
+    "sha_commit": "fcfac802bb0cc0ea583b78cd9374f2c90afe0c26"
 }
