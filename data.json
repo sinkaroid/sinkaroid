@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-19, 10:50:28",
+    "last_sync": "2022-08-19, 11:40:29",
     "data": [
         {
             "name": "eiyuu",
@@ -109,7 +109,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 12 days ago)",
+            "date": "June 28, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -601,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "a4cc380b0270c395c4ba541e10a9d19a5309477e"
+    "sha_commit": "d4e4cfcd5a3fe29f975994bd3864b2254dea41e2"
 }
