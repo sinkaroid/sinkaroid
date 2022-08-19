@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-18, 12:02:02",
+    "last_sync": "2022-08-19, 00:03:55",
     "data": [
         {
             "name": "eiyuu",
@@ -15,7 +15,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 20 hours ago)",
+            "date": "August 14, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
             "description": "A query completion for booru imageboards"
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 20 hours ago)",
+            "date": "April 07, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous Python bindings for booru imageboards"
@@ -55,7 +55,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 24 days ago)",
+            "date": "March 18, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -90,7 +90,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 20 hours ago)",
+            "date": "June 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -171,7 +171,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 4 days ago)",
+            "date": "March 15, 2022 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -601,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "d6bac9e36bdf70382207f334d27dfb58336524f3"
+    "sha_commit": "fcfac802bb0cc0ea583b78cd9374f2c90afe0c26"
 }
