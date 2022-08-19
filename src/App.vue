@@ -101,8 +101,13 @@ export default {
 </script>
 
 <style>
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./../assets/fonts/helveticaneue.ttf');
+}
+
 #app {
-  font-family: "Helvetica";
+  font-family: "Helvetica Neue";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
