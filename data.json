@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-19, 12:01:51",
+    "last_sync": "2022-08-20, 00:02:46",
     "data": [
         {
             "name": "eiyuu",
@@ -55,7 +55,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 25 days ago)",
+            "date": "March 18, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -171,7 +171,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 5 days ago)",
+            "date": "March 15, 2022 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -601,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "39b43ebd01e231efaca60c72deba3765e7d08d92"
+    "sha_commit": "383ba289eaa6a22a1a2b77dbf4f8d334dd6f845c"
 }
