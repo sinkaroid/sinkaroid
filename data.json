@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-21, 12:01:44",
+    "last_sync": "2022-08-22, 00:03:39",
     "data": [
         {
             "name": "eiyuu",
@@ -55,7 +55,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: a day ago)",
+            "date": "March 18, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -171,7 +171,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 7 days ago)",
+            "date": "March 15, 2022 (Updated: 8 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -296,7 +296,7 @@
                 "python-marshal"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: a day ago)",
+            "date": "August 10, 2020 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/umarun",
             "visit": "https://github.com/sinkaroid/umarun",
             "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code."
@@ -335,7 +335,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 10, 2022 (Updated: a day ago)",
+            "date": "March 10, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/pururin",
             "visit": "https://pururin.to",
             "description": "Pururin unofficial API wrapper"
@@ -601,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "9abe665d3f91cf373bfff07b3a18c545de06e532"
+    "sha_commit": "92623b280bf24cf8b77ae081fe644f792727a298"
 }
