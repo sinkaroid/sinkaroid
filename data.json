@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-29, 00:03:25",
+    "last_sync": "2022-08-29, 12:01:31",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 11 days ago)",
+            "date": "April 07, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous Python bindings for booru imageboards"
@@ -55,7 +55,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 2 days ago)",
+            "date": "March 18, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -71,7 +71,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 2 days ago)",
+            "date": "December 26, 2020 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -90,7 +90,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 11 days ago)",
+            "date": "June 03, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -109,7 +109,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 22 days ago)",
+            "date": "June 28, 2022 (Updated: 23 days ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -128,7 +128,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 22 days ago)",
+            "date": "August 08, 2019 (Updated: 23 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber"
@@ -206,7 +206,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 2 days ago)",
+            "date": "March 24, 2021 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless arround Subreddit API"
@@ -225,7 +225,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 2 days ago)",
+            "date": "March 24, 2021 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless arround Subreddit API"
@@ -452,7 +452,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 9 months ago)",
+            "date": "March 06, 2019 (Updated: 10 months ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
             "description": "Just simple bait to get Ua and IPaddress from your victim."
@@ -601,5 +601,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "b1bc6b6ae7010ec00d203a810df7d6ad96aedc19"
+    "sha_commit": "048668742cd773ea0425fc425cc01d4e30b5910c"
 }
