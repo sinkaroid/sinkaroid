@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-31, 00:02:46",
+    "last_sync": "2022-08-31, 12:01:56",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 13 days ago)",
+            "date": "April 07, 2022 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous Python bindings for booru imageboards"
@@ -53,7 +53,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: a day ago)",
+            "date": "March 18, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -69,7 +69,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 4 days ago)",
+            "date": "December 26, 2020 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 13 days ago)",
+            "date": "June 03, 2022 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -107,7 +107,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 24 days ago)",
+            "date": "June 28, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -204,7 +204,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 4 days ago)",
+            "date": "March 24, 2021 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless arround Subreddit API"
@@ -223,7 +223,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 4 days ago)",
+            "date": "March 24, 2021 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless arround Subreddit API"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "b2da460b773924a07135d30537891d43e59a31ce"
+    "sha_commit": "f29315d5989576fa4de50e84f1d8abd0ac2491d9"
 }
