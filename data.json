@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-01, 00:02:54",
+    "last_sync": "2022-09-01, 12:01:40",
     "data": [
         {
             "name": "eiyuu",
@@ -15,10 +15,10 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 10 days ago)",
+            "date": "August 14, 2022 (Updated: 10 hours ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
-            "description": "A query completion for booru imageboards"
+            "description": "A query and tags completion for booru imageboards"
         },
         {
             "name": "booru",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 14 days ago)",
+            "date": "April 07, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous Python bindings for booru imageboards"
@@ -53,7 +53,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 2 days ago)",
+            "date": "March 18, 2022 (Updated: 5 hours ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -69,7 +69,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 5 days ago)",
+            "date": "December 26, 2020 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 14 days ago)",
+            "date": "June 03, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -107,7 +107,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 25 days ago)",
+            "date": "June 28, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -204,10 +204,10 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 5 days ago)",
+            "date": "March 24, 2021 (Updated: 6 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
-            "description": "Proxied, unfiltered, seamless arround Subreddit API"
+            "description": "Proxied, unfiltered, seamless around Subreddit API"
         },
         {
             "name": "cabul",
@@ -223,10 +223,10 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 5 days ago)",
+            "date": "March 24, 2021 (Updated: 6 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
-            "description": "Proxied, unfiltered, seamless arround Subreddit API"
+            "description": "Proxied, unfiltered, seamless around Subreddit API"
         },
         {
             "name": "disgrow",
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "648f05a7ecaddeed7dc642e70562fb656c72ae2e"
+    "sha_commit": "ae4e943f7ee39ba64b6a8487ac76377de6fc6dc1"
 }
