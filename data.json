@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-08-31, 12:01:56",
+    "last_sync": "2022-09-01, 00:02:54",
     "data": [
         {
             "name": "eiyuu",
@@ -15,7 +15,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 9 days ago)",
+            "date": "August 14, 2022 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
             "description": "A query completion for booru imageboards"
@@ -126,7 +126,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: a day ago)",
+            "date": "August 08, 2019 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber. This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe"
@@ -169,7 +169,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 17 days ago)",
+            "date": "March 15, 2022 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -185,7 +185,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 17, 2022 (Updated: a day ago)",
+            "date": "April 17, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/badut",
             "visit": "https://sinkaroid.github.io/badut",
             "description": "Python HTTP client designed to be simple"
@@ -294,7 +294,7 @@
                 "python-marshal"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 11 days ago)",
+            "date": "August 10, 2020 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/umarun",
             "visit": "https://github.com/sinkaroid/umarun",
             "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code."
@@ -333,7 +333,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 10, 2022 (Updated: 11 days ago)",
+            "date": "March 10, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/pururin",
             "visit": "https://pururin.to",
             "description": "Pururin unofficial API wrapper"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "f29315d5989576fa4de50e84f1d8abd0ac2491d9"
+    "sha_commit": "648f05a7ecaddeed7dc642e70562fb656c72ae2e"
 }
