@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-01, 12:01:40",
+    "last_sync": "2022-09-02, 00:02:32",
     "data": [
         {
             "name": "eiyuu",
@@ -15,7 +15,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 10 hours ago)",
+            "date": "August 14, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
             "description": "A query and tags completion for booru imageboards"
@@ -53,7 +53,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 5 hours ago)",
+            "date": "March 18, 2022 (Updated: 17 hours ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -126,7 +126,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 2 days ago)",
+            "date": "August 08, 2019 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber. This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe"
@@ -169,7 +169,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 18 days ago)",
+            "date": "March 15, 2022 (Updated: 19 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -185,7 +185,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 17, 2022 (Updated: 2 days ago)",
+            "date": "April 17, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/badut",
             "visit": "https://sinkaroid.github.io/badut",
             "description": "Python HTTP client designed to be simple"
@@ -204,7 +204,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 6 hours ago)",
+            "date": "March 24, 2021 (Updated: 18 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless around Subreddit API"
@@ -223,7 +223,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 6 hours ago)",
+            "date": "March 24, 2021 (Updated: 18 hours ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless around Subreddit API"
@@ -294,7 +294,7 @@
                 "python-marshal"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 12 days ago)",
+            "date": "August 10, 2020 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/umarun",
             "visit": "https://github.com/sinkaroid/umarun",
             "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code."
@@ -333,7 +333,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 10, 2022 (Updated: 12 days ago)",
+            "date": "March 10, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/pururin",
             "visit": "https://pururin.to",
             "description": "Pururin unofficial API wrapper"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "ae4e943f7ee39ba64b6a8487ac76377de6fc6dc1"
+    "sha_commit": "c7ed4278e4e37967630ff5a03324af79d6a2a956"
 }
