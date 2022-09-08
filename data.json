@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-08, 00:03:57",
+    "last_sync": "2022-09-08, 12:01:55",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 5 days ago)",
+            "date": "April 07, 2022 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -69,7 +69,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 12 days ago)",
+            "date": "December 26, 2020 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 21 days ago)",
+            "date": "June 03, 2022 (Updated: 22 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "ea14fc477b4b874562515c2bf8990b1e8bcc910b"
+    "sha_commit": "a977071075f601939f6ff02b27f55d5a7a9b844e"
 }
