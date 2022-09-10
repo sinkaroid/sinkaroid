@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-10, 00:03:12",
+    "last_sync": "2022-09-10, 12:01:45",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 7 days ago)",
+            "date": "April 07, 2022 (Updated: 8 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -69,7 +69,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 14 days ago)",
+            "date": "December 26, 2020 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 23 days ago)",
+            "date": "June 03, 2022 (Updated: 24 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -353,7 +353,7 @@
                 "lewd"
             ],
             "category": "Python",
-            "date": "February 21, 2021 (Updated: 5 months ago)",
+            "date": "February 21, 2021 (Updated: 6 months ago)",
             "github": "https://github.com/sinkaroid/jandabooru",
             "visit": "https://github.com/sinkaroid/jandabooru",
             "description": "Bulk image downloader for booru imageboards"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "4de531eb9a683237b8b23aa81abba9041907bc84"
+    "sha_commit": "84721a96f81cae36bf0f789e0aa547dbf8b12b36"
 }
