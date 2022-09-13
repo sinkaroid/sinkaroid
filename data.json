@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-13, 00:03:52",
+    "last_sync": "2022-09-13, 12:01:45",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 10 days ago)",
+            "date": "April 07, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -69,7 +69,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 17 days ago)",
+            "date": "December 26, 2020 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 2 days ago)",
+            "date": "June 03, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -239,7 +239,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 2 months ago)",
+            "date": "June 28, 2022 (Updated: 3 months ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://github.com/sinkaroid/disgrow",
             "description": "A growth increments for your Discord bots"
@@ -255,7 +255,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 2 months ago)",
+            "date": "June 28, 2022 (Updated: 3 months ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://github.com/sinkaroid/disgrow",
             "description": "A growth increments for your Discord bots"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "b0d71ce8a37b6d62483676168ae0638798e9a07f"
+    "sha_commit": "c4eea7952ef0c56690ed6df9a1cc1d064eaa8ab4"
 }
