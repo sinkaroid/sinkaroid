@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-19, 12:01:46",
+    "last_sync": "2022-09-20, 00:04:48",
     "data": [
         {
             "name": "eiyuu",
@@ -15,7 +15,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 18 days ago)",
+            "date": "August 14, 2022 (Updated: 19 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
             "description": "A query and tags completion for booru imageboards"
@@ -53,7 +53,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 2 days ago)",
+            "date": "March 18, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 3 hours ago)",
+            "date": "June 03, 2022 (Updated: 15 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -126,7 +126,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 20 days ago)",
+            "date": "August 08, 2019 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber. This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe"
@@ -185,7 +185,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 17, 2022 (Updated: 20 days ago)",
+            "date": "April 17, 2022 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/badut",
             "visit": "https://sinkaroid.github.io/badut",
             "description": "Python HTTP client designed to be simple"
@@ -204,7 +204,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 18 days ago)",
+            "date": "March 24, 2021 (Updated: 19 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless around Subreddit API"
@@ -223,7 +223,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 18 days ago)",
+            "date": "March 24, 2021 (Updated: 19 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless around Subreddit API"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "30f0f71394066a19adeade8829ebe4f9a4be4520"
+    "sha_commit": "02dbb964adaa0a0566dcced42c7e2a9e0cb9d2cc"
 }
