@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-21, 00:04:16",
+    "last_sync": "2022-09-21, 12:01:54",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 18 days ago)",
+            "date": "April 07, 2022 (Updated: 19 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -69,7 +69,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 25 days ago)",
+            "date": "December 26, 2020 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "c5200ec5ed1b470b256b0c3d8a4d23109e74132b"
+    "sha_commit": "ff3c9205aaf4f23416f25c59d0e3ba2edc313f00"
 }
