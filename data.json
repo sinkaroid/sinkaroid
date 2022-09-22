@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-22, 00:03:51",
+    "last_sync": "2022-09-22, 12:02:14",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 19 days ago)",
+            "date": "April 07, 2022 (Updated: 20 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -107,7 +107,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: a month ago)",
+            "date": "June 28, 2022 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "5e9ef3668cb584275663c3ba8bc99b05a3390613"
+    "sha_commit": "a182c3bd751f32f7205a5506e7da759b85c156e1"
 }
