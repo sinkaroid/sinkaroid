@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-23, 00:03:06",
+    "last_sync": "2022-09-23, 12:01:47",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 20 days ago)",
+            "date": "April 07, 2022 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "838df2f7bb19a8e853a52105b65e6a7b55bdb744"
+    "sha_commit": "c3769522a3ccad8fd1a1bed8992370aefb5b120c"
 }
