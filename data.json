@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-26, 00:03:49",
+    "last_sync": "2022-09-26, 12:01:32",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 9 hours ago)",
+            "date": "April 07, 2022 (Updated: 21 hours ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 7 days ago)",
+            "date": "June 03, 2022 (Updated: 4 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "36a65061509dcbc5c33ea0b3ea173e35adaec2ed"
+    "sha_commit": "13e5d522745569d0faa97a17c9ad0b81a5adf490"
 }
