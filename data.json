@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-27, 00:06:42",
+    "last_sync": "2022-09-27, 12:01:36",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: a day ago)",
+            "date": "April 07, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 16 hours ago)",
+            "date": "June 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -373,7 +373,7 @@
                 "wrapper"
             ],
             "category": "JavaScript",
-            "date": "March 12, 2021 (Updated: 8 months ago)",
+            "date": "March 12, 2021 (Updated: 9 months ago)",
             "github": "https://github.com/sinkaroid/strygwyr",
             "visit": "https://strygwyr.js.org",
             "description": "Getter dota heroes from their localized names."
@@ -541,7 +541,7 @@
                 "regex"
             ],
             "category": "PHP",
-            "date": "May 25, 2019 (Updated: 5 months ago)",
+            "date": "May 25, 2019 (Updated: 6 months ago)",
             "github": "https://github.com/sinkaroid/antk",
             "visit": "https://kato.kireisubs.org",
             "description": "Redkato, - Indonesian anime scraper"
@@ -557,7 +557,7 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 8 months ago)",
+            "date": "January 05, 2019 (Updated: 9 months ago)",
             "github": "https://github.com/sinkaroid/weevcrot",
             "visit": "https://github.com/sinkaroid/weevcrot",
             "description": "Extended weevely backdoor over the network at runtime."
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "c3de7901d0b08f4ad2a25a3c0e0539a086a52499"
+    "sha_commit": "cc6d462e5f478c3aa250eea2b6151f4c09548042"
 }
