@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-09-29, 00:06:55",
+    "last_sync": "2022-09-29, 12:01:46",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 3 days ago)",
+            "date": "April 07, 2022 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -450,7 +450,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 10 months ago)",
+            "date": "March 06, 2019 (Updated: a year ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
             "description": "Just simple bait to get Ua and IPaddress from your victim."
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "ac710a8bc9f1843a65d2302f130a1c56e253ecba"
+    "sha_commit": "d339015bea75c90639b71fc76536d056d92f88d1"
 }
