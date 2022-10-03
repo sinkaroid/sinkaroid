@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-10-02, 12:01:40",
+    "last_sync": "2022-10-03, 00:04:49",
     "data": [
         {
             "name": "eiyuu",
@@ -53,7 +53,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 15 days ago)",
+            "date": "March 18, 2022 (Updated: 16 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 6 days ago)",
+            "date": "June 03, 2022 (Updated: 7 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -239,7 +239,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 15 hours ago)",
+            "date": "June 28, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -255,7 +255,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 15 hours ago)",
+            "date": "June 28, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "4b9b25bcd91dd41ba23cd2fe27efbf799c83b7eb"
+    "sha_commit": "4825bacc00afc1f6c94faa7f501bb7552380995d"
 }
