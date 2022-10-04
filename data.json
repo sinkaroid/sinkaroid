@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-10-04, 00:05:12",
+    "last_sync": "2022-10-04, 12:01:37",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 8 days ago)",
+            "date": "April 07, 2022 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -239,7 +239,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 2 days ago)",
+            "date": "June 28, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -255,7 +255,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 2 days ago)",
+            "date": "June 28, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "4db30142007647139860b0c3f3204c8e11ba81b2"
+    "sha_commit": "7c8a15d0237d9b97110106bfde5adb8d21557f82"
 }
