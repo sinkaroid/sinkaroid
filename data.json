@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-10-04, 12:01:37",
+    "last_sync": "2022-10-05, 00:05:06",
     "data": [
         {
             "name": "eiyuu",
@@ -53,7 +53,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 17 days ago)",
+            "date": "March 18, 2022 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted doujinshi downloader with ease"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 8 days ago)",
+            "date": "June 03, 2022 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "7c8a15d0237d9b97110106bfde5adb8d21557f82"
+    "sha_commit": "3ed97d1b20e42ef632806be6d17c448feff184f2"
 }
