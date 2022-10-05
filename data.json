@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-10-05, 00:05:06",
+    "last_sync": "2022-10-05, 12:02:05",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 9 days ago)",
+            "date": "April 07, 2022 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -239,7 +239,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 3 days ago)",
+            "date": "June 28, 2022 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -255,7 +255,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 3 days ago)",
+            "date": "June 28, 2022 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -294,7 +294,7 @@
                 "python-marshal"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: a month ago)",
+            "date": "August 10, 2020 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/umarun",
             "visit": "https://github.com/sinkaroid/umarun",
             "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code."
@@ -333,7 +333,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 10, 2022 (Updated: a month ago)",
+            "date": "March 10, 2022 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/pururin",
             "visit": "https://pururin.to",
             "description": "Pururin unofficial API wrapper"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "3ed97d1b20e42ef632806be6d17c448feff184f2"
+    "sha_commit": "7bb4d8126fa0b53cd18e5d943613efdf3ec02edf"
 }
