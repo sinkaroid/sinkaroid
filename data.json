@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-10-15, 00:04:34",
+    "last_sync": "2022-10-15, 12:01:41",
     "data": [
         {
             "name": "eiyuu",
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 19 days ago)",
+            "date": "April 07, 2022 (Updated: 20 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 9 hours ago)",
+            "date": "June 03, 2022 (Updated: 21 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -126,7 +126,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: a month ago)",
+            "date": "August 08, 2019 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "visit": "https://github.com/sinkaroid/hensuki",
             "description": "Turn out regex magic into one-liner doujin grabber. This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe"
@@ -185,7 +185,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 17, 2022 (Updated: a month ago)",
+            "date": "April 17, 2022 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/badut",
             "visit": "https://sinkaroid.github.io/badut",
             "description": "Python HTTP client designed to be simple"
@@ -239,7 +239,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 13 days ago)",
+            "date": "June 28, 2022 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -255,7 +255,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 13 days ago)",
+            "date": "June 28, 2022 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "f33c8d4d8bc0535b1ddfa3a6b98534666bb50816"
+    "sha_commit": "fc7eb9a32d167de7cdea75ac82c28d59fb8a8004"
 }
