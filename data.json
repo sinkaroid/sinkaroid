@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-10-15, 12:01:41",
+    "last_sync": "2022-10-16, 00:04:34",
     "data": [
         {
             "name": "eiyuu",
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 21 hours ago)",
+            "date": "June 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "fc7eb9a32d167de7cdea75ac82c28d59fb8a8004"
+    "sha_commit": "b0305bc76c4d5c017b4b23f9b02fef5397da1da7"
 }
