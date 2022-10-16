@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-10-16, 00:04:34",
+    "last_sync": "2022-10-16, 12:01:48",
     "data": [
         {
             "name": "eiyuu",
@@ -15,7 +15,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: a month ago)",
+            "date": "August 14, 2022 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
             "description": "A query and tags completion for booru imageboards"
@@ -33,7 +33,7 @@
                 "booru"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 20 days ago)",
+            "date": "April 07, 2022 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Asynchronous python bindings for booru imageboards"
@@ -88,7 +88,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: a day ago)",
+            "date": "June 03, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinboards."
@@ -204,7 +204,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: a month ago)",
+            "date": "March 24, 2021 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless around Subreddit API"
@@ -223,7 +223,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: a month ago)",
+            "date": "March 24, 2021 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Proxied, unfiltered, seamless around Subreddit API"
@@ -239,7 +239,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 14 days ago)",
+            "date": "June 28, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -255,7 +255,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 14 days ago)",
+            "date": "June 28, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -314,7 +314,7 @@
                 "http-requests"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 6 months ago)",
+            "date": "August 10, 2020 (Updated: 7 months ago)",
             "github": "https://github.com/sinkaroid/shielder",
             "visit": "https://github.com/sinkaroid/shielder",
             "description": "Shielder offers modular brute-forcing outside root privilege"
@@ -599,5 +599,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "b0305bc76c4d5c017b4b23f9b02fef5397da1da7"
+    "sha_commit": "309d417fd4b14d73cdb1b3d5cc42d333590c8d4d"
 }
