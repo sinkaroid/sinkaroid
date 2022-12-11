@@ -16,13 +16,15 @@ border="0" alt=""/></a> -->
       <img :src="hovered ? picture_x : picture" 
       @mouseover="hovered = true, role = 'Digital Illustrator'"
       @mouseout="hovered = false, role = 'Software Developer'"
+      
       />
   
         
           
           <br><br>
           <h4>{{ role }}</h4>
-          <br><br>
+     
+          <iframe src="https://github.com/sponsors/sinkaroid/button" title="Sponsor sinkaroid" height="35" width="116" style="border: 0;"></iframe>
           
         </div>
         
@@ -62,15 +64,31 @@ border="0" alt=""/></a> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('github')"
-              v-tooltip.bottom="'GitHub'"
+              v-tooltip.bottom="'Sinkaroid Github'"
             >
               <i class="fab fa-github"></i>
             </button>
 
             <button
               class="btn btn-outline-secondary mx-2"
+              @click="open('pypi')"
+              v-tooltip.bottom="'Sinkaroid Pypi'"
+            >
+              <i class="fab fa-python"></i>
+            </button>
+
+            <button
+              class="btn btn-outline-secondary mx-2"
+              @click="open('npm')"
+              v-tooltip.bottom="'Sinkaroid Npm'"
+            >
+              <i class="fab fa-js"></i>
+            </button>
+
+            <button
+              class="btn btn-outline-secondary mx-2"
               @click="open('linkedin')"
-              v-tooltip.bottom="'LinkedIn'"
+              v-tooltip.bottom="'Sinkaroid LinkedIn'"
             >
               <i class="fab fa-linkedin"></i>
             </button>
@@ -78,7 +96,7 @@ border="0" alt=""/></a> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('steam')"
-              v-tooltip.bottom="'Steam'"
+              v-tooltip.bottom="'Sinkaroid Steam'"
             >
               <i class="fab fa-steam"></i>
             </button>
@@ -86,45 +104,21 @@ border="0" alt=""/></a> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('twitter')"
-              v-tooltip.bottom="'Twitter'"
+              v-tooltip.bottom="'Sinkaroid Twitter'"
             >
               <i class="fab fa-twitter"></i>
             </button>
 
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('instagram')"
-              v-tooltip.bottom="'Instagram'"
-            >
-              <i class="fab fa-instagram"></i>
-            </button>
-
-   
-
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('paypal')"
-              v-tooltip.bottom="'PayPal'"
-            >
-              <i class="fab fa-paypal"></i>
-            </button>
 
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('patreon')"
-              v-tooltip.bottom="'Patreon'"
+              v-tooltip.bottom="'Sinkaroid Patreon'"
             >
               <i class="fab fa-patreon"></i>
             </button>
             
-            
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-              v-tooltip.bottom="'Resume'"
-            >
-              <i class="fa fa-file"></i>
-            </button>
+    
           </div>
         </div>
       </div>
@@ -155,6 +149,9 @@ export default {
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
+      npm: info.links.npm,
+      pypi: info.links.pypi,
+      docker: info.links.docker,
       patreon: info.links.patreon,
       paypal: info.links.paypal,
       twitter: info.links.twitter,
@@ -171,6 +168,15 @@ export default {
           break;
         case "github":
           window.open(this.github, "_blank");
+          break;
+        case "npm":
+          window.open(this.npm, "_blank");
+          break;
+        case "pypi":
+          window.open(this.pypi, "_blank");
+          break;
+        case "docker":
+          window.open(this.docker, "_blank");
           break;
         case "paypal":
           window.open(this.paypal, "_blank");
@@ -273,21 +279,22 @@ img {
 }
 
 .btn {
+  border-radius: 10%;
   position:relative;
   z-index:9999;
-  border-color: #669db3ff;
-  color: #669db3ff;
+  border-color: #ee44da;
+  color: #8f9def;
 }
 
 .btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #41eb41;
+  border-color: #41eb41;
   color: white;
 }
 
 .btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #41eb41;
+  border-color: #41eb41;
   color: white;
 }
 

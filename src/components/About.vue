@@ -16,8 +16,8 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-        >Pronouns & codename</span><br>
-        <h3><code>He/him 🌺 Sinkaroid/indra 🌺 インドラ</code></h3><br>
+        >Pronouns & Codename</span><br>
+        <h3>He/him 🌺 sinkaroid/indra 🌺 インドラ</h3><br>
         
       </div>
       
