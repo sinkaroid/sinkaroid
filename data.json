@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-11, 17:58:07",
+    "last_sync": "2022-12-11, 11:47:53",
     "data": [
         {
             "name": "booru",
@@ -57,7 +57,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: a day ago)",
+            "date": "June 03, 2022 (Updated: 18 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinshi"
@@ -96,7 +96,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 12 days ago)",
+            "date": "August 14, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
             "description": "A query and tags completion for booru imageboards"
@@ -112,7 +112,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 12 days ago)",
+            "date": "December 26, 2020 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -131,7 +131,7 @@
                 "probot"
             ],
             "category": "TypeScript",
-            "date": "October 03, 2022 (Updated: 7 hours ago)",
+            "date": "October 03, 2022 (Updated: an hour ago)",
             "github": "https://github.com/ScathachGrip/da-vinci",
             "visit": "https://davinci.sinkaroid.org",
             "description": "Experimental github bots to automate PR and Issues workflows"
@@ -187,7 +187,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 12 days ago)",
+            "date": "January 21, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "visit": "https://sinkaroid.github.io/jalter",
             "description": "A NodeJS wrapper for Discord Selfbot"
@@ -282,7 +282,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 12 days ago)",
+            "date": "June 28, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -298,7 +298,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 12 days ago)",
+            "date": "June 28, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -622,5 +622,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "cb8b40c187637f45d7e6ac6fcea6411166b62c7c"
+    "sha_commit": "83ebbe014ed461c3786796662616e8b1fd8aff1f"
 }
