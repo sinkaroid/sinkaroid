@@ -1,25 +1,6 @@
 {
-    "last_sync": "2022-10-18, 12:01:45",
+    "last_sync": "2022-12-11, 17:58:07",
     "data": [
-        {
-            "name": "eiyuu",
-            "pictures": [
-                {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "booru",
-                "imageboard",
-                "resolver"
-            ],
-            "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 2 months ago)",
-            "github": "https://github.com/sinkaroid/eiyuu",
-            "visit": "https://eiyuu.js.org",
-            "description": "A query and tags completion for booru imageboards"
-        },
         {
             "name": "booru",
             "pictures": [
@@ -29,14 +10,57 @@
             ],
             "technologies": [
                 "Python",
-                "asyncio",
-                "booru"
+                "booru",
+                "danbooru",
+                "gelbooru",
+                "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 23 days ago)",
+            "date": "April 07, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
-            "description": "Asynchronous python bindings for booru imageboards"
+            "description": "Python bindings for booru imageboards"
+        },
+        {
+            "name": "jigoku",
+            "pictures": [
+                {
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jigoku_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "booru",
+                "bulk-download",
+                "danbooru",
+                "downloader",
+                "mass-downloader",
+                "rule34"
+            ],
+            "category": "Python",
+            "date": "December 04, 2022 (Updated: 3 days ago)",
+            "github": "https://github.com/sinkaroid/jigoku",
+            "visit": "https://github.com/sinkaroid/jigoku",
+            "description": "Bulk downloader for booru with good intentions"
+        },
+        {
+            "name": "jandapress",
+            "pictures": [
+                {
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jandapress_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "hentaifox",
+                "nhentai",
+                "pururin"
+            ],
+            "category": "TypeScript",
+            "date": "June 03, 2022 (Updated: a day ago)",
+            "github": "https://github.com/sinkaroid/jandapress",
+            "visit": "https://janda.mod.land",
+            "description": "RESTful and experimental API for the doujinshi"
         },
         {
             "name": "tomoe",
@@ -53,10 +77,29 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: a month ago)",
+            "date": "March 18, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
-            "description": "An exalted doujinshi downloader with ease"
+            "description": "An exalted manga & doujinshi downloader with ease"
+        },
+        {
+            "name": "eiyuu",
+            "pictures": [
+                {
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "booru",
+                "imageboard",
+                "resolver"
+            ],
+            "category": "TypeScript",
+            "date": "August 14, 2022 (Updated: 12 days ago)",
+            "github": "https://github.com/sinkaroid/eiyuu",
+            "visit": "https://eiyuu.js.org",
+            "description": "A query and tags completion for booru imageboards"
         },
         {
             "name": "scathach-api",
@@ -69,29 +112,29 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 2 months ago)",
+            "date": "December 26, 2020 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
         },
         {
-            "name": "jandapress",
+            "name": "da-vinci",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jandapress_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/da-vinci_master.webp"
                 }
             ],
             "technologies": [
                 "TypeScript",
-                "hentaifox",
-                "nhentai",
-                "pururin"
+                "continuous-integration",
+                "github-bot",
+                "probot"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 4 days ago)",
-            "github": "https://github.com/sinkaroid/jandapress",
-            "visit": "https://janda.mod.land",
-            "description": "RESTful and experimental API for the doujinboards."
+            "date": "October 03, 2022 (Updated: 7 hours ago)",
+            "github": "https://github.com/ScathachGrip/da-vinci",
+            "visit": "https://davinci.sinkaroid.org",
+            "description": "Experimental github bots to automate PR and Issues workflows"
         },
         {
             "name": "disgrowth",
@@ -107,7 +150,7 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: 2 months ago)",
+            "date": "June 28, 2022 (Updated: 4 months ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "visit": "https://graph.scathach.dev",
             "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
@@ -144,7 +187,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 3 months ago)",
+            "date": "January 21, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "visit": "https://sinkaroid.github.io/jalter",
             "description": "A NodeJS wrapper for Discord Selfbot"
@@ -169,7 +212,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 2 months ago)",
+            "date": "March 15, 2022 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -185,7 +228,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 17, 2022 (Updated: 2 months ago)",
+            "date": "April 17, 2022 (Updated: 3 months ago)",
             "github": "https://github.com/sinkaroid/badut",
             "visit": "https://sinkaroid.github.io/badut",
             "description": "Python HTTP client designed to be simple"
@@ -204,10 +247,10 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 2 months ago)",
+            "date": "March 24, 2021 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
-            "description": "Proxied, unfiltered, seamless around Subreddit API"
+            "description": "Subreddit API but proxied and NSFW only.."
         },
         {
             "name": "cabul",
@@ -223,10 +266,10 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 2 months ago)",
+            "date": "March 24, 2021 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
-            "description": "Proxied, unfiltered, seamless around Subreddit API"
+            "description": "Subreddit API but proxied and NSFW only.."
         },
         {
             "name": "disgrow",
@@ -239,7 +282,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 17 days ago)",
+            "date": "June 28, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -255,7 +298,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 17 days ago)",
+            "date": "June 28, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -294,7 +337,7 @@
                 "python-marshal"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 2 months ago)",
+            "date": "August 10, 2020 (Updated: 4 months ago)",
             "github": "https://github.com/sinkaroid/umarun",
             "visit": "https://github.com/sinkaroid/umarun",
             "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code."
@@ -314,7 +357,7 @@
                 "http-requests"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 7 months ago)",
+            "date": "August 10, 2020 (Updated: 8 months ago)",
             "github": "https://github.com/sinkaroid/shielder",
             "visit": "https://github.com/sinkaroid/shielder",
             "description": "Shielder offers modular brute-forcing outside root privilege"
@@ -333,30 +376,10 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 10, 2022 (Updated: 2 months ago)",
+            "date": "March 10, 2022 (Updated: 4 months ago)",
             "github": "https://github.com/sinkaroid/pururin",
             "visit": "https://pururin.to",
             "description": "Pururin unofficial API wrapper"
-        },
-        {
-            "name": "jandabooru",
-            "pictures": [
-                {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jandabooru_main.webp"
-                }
-            ],
-            "technologies": [
-                "Python",
-                "beautifulsoup4",
-                "booru",
-                "bulk-downloader",
-                "lewd"
-            ],
-            "category": "Python",
-            "date": "February 21, 2021 (Updated: 7 months ago)",
-            "github": "https://github.com/sinkaroid/jandabooru",
-            "visit": "https://github.com/sinkaroid/jandabooru",
-            "description": "Bulk image downloader for booru imageboards"
         },
         {
             "name": "strygwyr",
@@ -373,7 +396,7 @@
                 "wrapper"
             ],
             "category": "JavaScript",
-            "date": "March 12, 2021 (Updated: 9 months ago)",
+            "date": "March 12, 2021 (Updated: a year ago)",
             "github": "https://github.com/sinkaroid/strygwyr",
             "visit": "https://strygwyr.js.org",
             "description": "Getter dota heroes from their localized names."
@@ -412,7 +435,7 @@
                 "nsfw"
             ],
             "category": "Python",
-            "date": "August 17, 2019 (Updated: 4 months ago)",
+            "date": "August 17, 2019 (Updated: 6 months ago)",
             "github": "https://github.com/sinkaroid/illustrator-tracker",
             "visit": "https://github.com/sinkaroid/illustrator-tracker",
             "description": "A quick and simple things to find out and track your favorite doujinshi Artist to get more artworks ins't bad enough"
@@ -432,7 +455,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "January 30, 2020 (Updated: 7 months ago)",
+            "date": "January 30, 2020 (Updated: 9 months ago)",
             "github": "https://github.com/sinkaroid/dotabuff",
             "visit": "https://www.dotabuff.com/",
             "description": "Dotabuff bash scrape"
@@ -450,7 +473,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: a year ago)",
+            "date": "March 06, 2019 (Updated: 8 days ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
             "description": "Just simple bait to get Ua and IPaddress from your victim."
@@ -469,7 +492,7 @@
                 "php"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 8 months ago)",
+            "date": "January 05, 2019 (Updated: 10 months ago)",
             "github": "https://github.com/sinkaroid/Blackjasmine",
             "visit": "https://github.com/sinkaroid/Blackjasmine",
             "description": "cli PHPWebshell"
@@ -521,7 +544,7 @@
                 "webnovel"
             ],
             "category": "PHP",
-            "date": "July 26, 2019 (Updated: 4 months ago)",
+            "date": "July 26, 2019 (Updated: 6 months ago)",
             "github": "https://github.com/sinkaroid/webNovelCrawler",
             "visit": "https://github.com/sinkaroid/webNovelCrawler",
             "description": "Simple PHPcurl and getRequest to grab Light Novel and WebNovel, then create parser with DOMpdf."
@@ -541,7 +564,7 @@
                 "regex"
             ],
             "category": "PHP",
-            "date": "May 25, 2019 (Updated: 6 months ago)",
+            "date": "May 25, 2019 (Updated: 8 months ago)",
             "github": "https://github.com/sinkaroid/antk",
             "visit": "https://kato.kireisubs.org",
             "description": "Redkato, - Indonesian anime scraper"
@@ -557,7 +580,7 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 9 months ago)",
+            "date": "January 05, 2019 (Updated: a year ago)",
             "github": "https://github.com/sinkaroid/weevcrot",
             "visit": "https://github.com/sinkaroid/weevcrot",
             "description": "Extended weevely backdoor over the network at runtime."
@@ -593,11 +616,11 @@
                 "shell"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 8 months ago)",
+            "date": "January 05, 2019 (Updated: 10 months ago)",
             "github": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
             "visit": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "d2889fb82f3fb932733acb706487053b56dd4df4"
+    "sha_commit": "cb8b40c187637f45d7e6ac6fcea6411166b62c7c"
 }

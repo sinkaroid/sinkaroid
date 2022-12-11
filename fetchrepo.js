@@ -54,130 +54,167 @@ const convertTime = (tgl) => {
 const project = {
   repo: [
     {
-      name: "eiyuu",
-      branch: "master",
-    },
-    {
+      user: "sinkaroid",
       name: "booru",
       branch: "master",
     },
     {
-      name: "tomoe",
+      user: "sinkaroid",
+      name: "jigoku",
       branch: "master",
     },
     {
-      name: "scathach-api",
-      branch: "master",
-    },
-    {
+      user: "sinkaroid",
       name: "jandapress",
       branch: "master",
     },
     {
+      user: "sinkaroid",
+      name: "tomoe",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "eiyuu",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "scathach-api",
+      branch: "master",
+    },
+    {
+      user: "scathachgrip",
+      name: "da-vinci",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
       name: "disgrowth",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "hensuki",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "jalter",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "janda",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "badut",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "cabul",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "cabul",
       branch: "proxy",
     },
     {
+      user: "sinkaroid",
       name: "disgrow",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "disgrow",
       branch: "api",
     },
     {
+      user: "sinkaroid",
       name: "simpleocr",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "umarun",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "shielder",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "pururin",
       branch: "master",
     },
     {
-      name: "jandabooru",
-      branch: "main",
-    },
-    {
+      user: "sinkaroid",
       name: "strygwyr",
       branch: "main",
     },
     {
+      user: "sinkaroid",
       name: "behoifer",
       branch: "main",
     },
     {
+      user: "sinkaroid",
       name: "illustrator-tracker",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "dotabuff",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "Simple-logbait",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "Blackjasmine",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "Blackseroja",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "HiddenFlower",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "webNovelCrawler",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "antk",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "weevcrot",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "Shell-Checker",
       branch: "master",
     },
     {
+      user: "sinkaroid",
       name: "Stupidc0de-Shell-2016",
       branch: "master",
     }
@@ -189,11 +226,11 @@ const getInfo = async () => {
   let info = [];
 
   for (let i = 0; i < project.repo.length; i++) {
-    let res = await axios.get(`https://api.github.com/repos/sinkaroid/${project.repo[i].name}`, 
+    let res = await axios.get(`https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}`, 
       { headers: { "Authorization": `token ${GH_TOKEN}` } });
 
     await pendingSebentar(2000);
-    let resSha = await axios.get(`https://api.github.com/repos/sinkaroid/${project.repo[i].name}/commits/${project.repo[i].branch}`,
+    let resSha = await axios.get(`https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}/commits/${project.repo[i].branch}`,
       { headers: { "Authorization": `token ${GH_TOKEN}` } });
 
     let topics = res.data.topics;

@@ -17,6 +17,9 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/sinkaroid/",
     github: "https://github.com/sinkaroid",
+    npm: "https://www.npmjs.com/~sinkaroid",
+    pypi: "https://pypi.org/user/sinkaroid/",
+    docker: "https://github.com/sinkaroid?tab=packages",
     paypal: "https://paypal.me/sinkaroid",
     patreon: "https://www.patreon.com/scathach_bot",
     twitter: "https://twitter.com/sinkaroid",
@@ -119,8 +122,7 @@ let info = {
         "Python",
         "Javascript/TypeScript",
         "PHP",
-        "Ruby",
-        "Rust (unproficient)",
+        "Rust",
       ],
       icon: "fa fa-code"
     },
@@ -188,12 +190,12 @@ let info = {
   portfolio: data,
   portfolio_design: [
     {
-      name: "Scathach Skadi",
-      title: "Book of Lore: Scathach Skadi",
+      name: "Project Livium",
+      title: "Darkness Livium Requiem",
       pictures: [
         {
-          img: require("./src/assets/designs/scathach-skadi.png"),
-          title: "Book of Lore"
+          img: require("./src/assets/designs/livium.jpg"),
+          title: "Royal Commander | Tanya degurechaff assets by @CasulCasulCasul"
         }
       ],
       technologies: ["Adobe Photoshop", "Adobe Illustrator"],
@@ -202,7 +204,24 @@ let info = {
       date: "2022",
       visit: "",
       description:
-        "Illustration of the spirit heroes Scathach and Skadi"
+      "I won't be tolerating even to the tiniest threat."
+    },
+    {
+      name: "Project Livium",
+      title: "A God's Puppet",
+      pictures: [
+        {
+          img: require("./src/assets/designs/livium2.jpg"),
+          title: "Royal Commander | Tanya degurechaff assets by @CasulCasulCasul"
+        }
+      ],
+      technologies: ["Adobe Photoshop", "Adobe Illustrator"],
+      category: "Visual Design",
+      github: "",
+      date: "2022",
+      visit: "",
+      description:
+      "Royal Commander became puppets"
     },
     {
       name: "WPU CHESS",
@@ -482,7 +501,7 @@ let info = {
   
     {
       name: "Scathach API",
-      title: "Scathach - Restful API",
+      title: "Scathach API - Microservices",
       pictures: [
         {
           img: require("./src/assets/standalone/scathachapi.png"),
@@ -540,7 +559,7 @@ let info = {
       author: "@soujiokita",
       position: "Programmer",
       company: "ScathachGrip",
-      location: "Nonthaburi",
+      location: "Udon Thani",
       flag: "https://iconarchive.com/download/i109313/wikipedia/flags/TH-Thailand-Flag.ico",
       picture: "https://avatars.githubusercontent.com/u/47995444?v=4",
       score: 4
