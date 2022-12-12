@@ -16,7 +16,7 @@
             }}</span>
             <a
               class="pull-right"
-              style="font-size: 18px;"
+              style="font-size: 18px"
               @click="$emit('close')"
               ><i class="fas fa-times"></i
             ></a>
@@ -42,7 +42,7 @@
               >
             </div>
 
-            <div style="text-align: justify;">
+            <div style="text-align: justify">
               <span v-html="portfolio.description"></span>
             </div>
             <hr />

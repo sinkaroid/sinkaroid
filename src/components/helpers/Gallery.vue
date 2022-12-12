@@ -1,5 +1,5 @@
 <template>
-  <div style="overflow: auto;">
+  <div style="overflow: auto">
     <div class="prow">
       <div
         class="pcolumn"
@@ -13,7 +13,7 @@
       >
         <img
           :src="i.img"
-          style="width:100%"
+          style="width: 100%"
           :id="`gi${idx}`"
           @click="showImg(idx)"
           class="g-img"
@@ -57,7 +57,7 @@ export default {
 
       var span = document.getElementsByClassName("close")[0];
 
-      span.onclick = function() {
+      span.onclick = function () {
         modalImg.classList.add("closeModal");
         modal.classList.add("modalClose");
         setTimeout(() => {

@@ -25,66 +25,74 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span style="color: gray; font-size: 23px;"
+          <span style="color: gray; font-size: 23px"
             ><i class="fas fa-bars"></i
           ></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <h4><li class="nav-item mx-2">
-              
-              <a
-                class="nav-link"
-                href="/about"
-                @click.prevent="$emit('scroll', 'about')"
-                :class="{ 'text-light': nightMode }"
-                ><i class="fa fa-comments" aria-hidden="true"></i> about</a
-              >
-            </li></h4>
-            <h4><li class="nav-item mx-2">
-              <a
-                class="nav-link"
-                href="/skills"
-                @click.prevent="$emit('scroll', 'skills')"
-                :class="{ 'text-light': nightMode }"
-                ><i class="fa fa-bolt" aria-hidden="true"></i> skills</a
-              >
-            </li></h4>
-            <h4><li class="nav-item mx-2 ">
-              <a
-                class="nav-link"
-                href="/portfolio"
-                @click.prevent="$emit('scroll', 'portfolio')"
-                :class="{ 'text-light': nightMode }"
-                ><i class="fa fa-rocket" aria-hidden="true"></i> portfolio</a
-              >
-            </li></h4>
-            <h4><li class="nav-item mx-2">
-              <a
-                class="nav-link"
-                href="/contact"
-                @click.prevent="$emit('scroll', 'contact')"
-                :class="{ 'text-light': nightMode }"
-                ><i class="fa fa-share" aria-hidden="true"></i> contact</a
-              >
-            </li></h4>
-            <h4><li class="nav-item ml-2">
-              <a
-                class="nav-link"
-                href="#"
-                @click.prevent="switchMode"
-                :class="{ 'text-light': nightMode }"
-                ><i
-                  :class="{
-                    'fas fa-moon': nightMode,
-                    'fas fa-cloud-sun': !nightMode,
-                  }"
-                  v-tooltip.bottom="nightMode ? 'Light Mode' : 'Night Mode'"
-                ></i
-              ></a>
-            </li></h4>
-            
+            <h4>
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link"
+                  href="/about"
+                  @click.prevent="$emit('scroll', 'about')"
+                  :class="{ 'text-light': nightMode }"
+                  ><i class="fa fa-comments" aria-hidden="true"></i> about</a
+                >
+              </li>
+            </h4>
+            <h4>
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link"
+                  href="/skills"
+                  @click.prevent="$emit('scroll', 'skills')"
+                  :class="{ 'text-light': nightMode }"
+                  ><i class="fa fa-bolt" aria-hidden="true"></i> skills</a
+                >
+              </li>
+            </h4>
+            <h4>
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link"
+                  href="/portfolio"
+                  @click.prevent="$emit('scroll', 'portfolio')"
+                  :class="{ 'text-light': nightMode }"
+                  ><i class="fa fa-rocket" aria-hidden="true"></i> portfolio</a
+                >
+              </li>
+            </h4>
+            <h4>
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link"
+                  href="/contact"
+                  @click.prevent="$emit('scroll', 'contact')"
+                  :class="{ 'text-light': nightMode }"
+                  ><i class="fa fa-share" aria-hidden="true"></i> contact</a
+                >
+              </li>
+            </h4>
+            <h4>
+              <li class="nav-item ml-2">
+                <a
+                  class="nav-link"
+                  href="#"
+                  @click.prevent="switchMode"
+                  :class="{ 'text-light': nightMode }"
+                  ><i
+                    :class="{
+                      'fas fa-moon': nightMode,
+                      'fas fa-cloud-sun': !nightMode,
+                    }"
+                    v-tooltip.bottom="nightMode ? 'Light Mode' : 'Night Mode'"
+                  ></i
+                ></a>
+              </li>
+            </h4>
           </ul>
         </div>
       </div>

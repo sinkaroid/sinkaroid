@@ -8,7 +8,7 @@
         'bg-dark3': nightMode,
       }"
     >
-      <div style="height: 180px;">
+      <div style="height: 180px">
         <img
           class="card-img-top"
           :src="portfolio.pictures[0].img"
@@ -20,7 +20,7 @@
         <div>
           <div class="pb-1 bheight">
             <span
-              class="badge mr-2 mb-2 "
+              class="badge mr-2 mb-2"
               v-for="tech in portfolio.technologies"
               :key="tech"
               :class="{ 'bg-dark4': nightMode }"
@@ -34,8 +34,7 @@
                 ? portfolio.description.substring(0, 45) + '...'
                 : portfolio.description
             "
-          >
-          </p>
+          ></p>
         </div>
         <div class="text-center mt-2">
           <button
@@ -122,37 +121,36 @@ div.img-div {
 }
 
 .pcard:hover {
-    border-radius: 10px;
-    border: none;
+  border-radius: 10px;
+  border: none;
 
-  
-    height: 460px;
-    border: 2px solid rgb(186, 167, 243);
-  }
-  
-  .pcard {
-    border-radius: 10px;
-    border: none;
-    height: 460px;
-    border: 2px solid #686768;
-    /* cursor: pointer; */
-    box-shadow: 1px 1px 12px rgb(53, 53, 53);
-  }
+  height: 460px;
+  border: 2px solid rgb(186, 167, 243);
+}
+
+.pcard {
+  border-radius: 10px;
+  border: none;
+  height: 460px;
+  border: 2px solid #686768;
+  /* cursor: pointer; */
+  box-shadow: 1px 1px 12px rgb(53, 53, 53);
+}
 
 .pcard-dark:hover {
-    border-radius: 10px;
-    border: none;
-    height: 460px;
-    border: 2px solid #ffffff;
-  }
-  
-  .pcard-dark {
-    border-radius: 10px;
-    border: none;
-    height: 460px;
-    border: 2px solid #fa5c5c;
-    box-shadow: 1px 1px 12px rgb(53, 53, 53);
-  }
+  border-radius: 10px;
+  border: none;
+  height: 460px;
+  border: 2px solid #ffffff;
+}
+
+.pcard-dark {
+  border-radius: 10px;
+  border: none;
+  height: 460px;
+  border: 2px solid #fa5c5c;
+  box-shadow: 1px 1px 12px rgb(53, 53, 53);
+}
 
 .pcard-body {
   border-top: 1px solid rgb(220, 220, 220);

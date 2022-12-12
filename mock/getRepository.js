@@ -6,7 +6,7 @@ const time = moment().format("HH:mm:ss");
 const GH_TOKEN = process.argv.slice(2)[0];
 
 async function pendingSebentar(ms) {
-  await new Promise(resolve => setTimeout(resolve, ms));
+  await new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 const convertDate = (date) => {
@@ -28,12 +28,11 @@ const convertDate = (date) => {
     "November",
     "December",
   ];
-  
+
   let monthName = monthArray[month - 1];
   let dateString = `${monthName} ${day}, ${year}`;
   return dateString;
 };
-
 
 //create function to convert date to timeago format, example "2022-06-21T02:29:44Z" to "2 months ago"
 const convertTime = (tgl) => {
@@ -50,7 +49,6 @@ const convertTime = (tgl) => {
   let timeago = moment(dateUpdate).fromNow();
   return timeago;
 };
-
 
 const project = {
   repo: [
@@ -218,21 +216,24 @@ const project = {
       user: "sinkaroid",
       name: "Stupidc0de-Shell-2016",
       branch: "master",
-    }
-  ]
+    },
+  ],
 };
-
 
 const getInfo = async () => {
   let info = [];
 
   for (let i = 0; i < project.repo.length; i++) {
-    let res = await axios.get(`https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}`, 
-      { headers: { "Authorization": `token ${GH_TOKEN}` } });
+    let res = await axios.get(
+      `https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}`,
+      { headers: { Authorization: `token ${GH_TOKEN}` } }
+    );
 
     await pendingSebentar(2000);
-    let resSha = await axios.get(`https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}/commits/${project.repo[i].branch}`,
-      { headers: { "Authorization": `token ${GH_TOKEN}` } });
+    let resSha = await axios.get(
+      `https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}/commits/${project.repo[i].branch}`,
+      { headers: { Authorization: `token ${GH_TOKEN}` } }
+    );
 
     let topics = res.data.topics;
     topics.unshift(res.data.language);
@@ -242,25 +243,35 @@ const getInfo = async () => {
       pictures: [
         {
           img: `https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`,
-        }
+        },
       ],
       technologies: topics,
       category: res.data.language,
-      date: `${convertDate(res.data.created_at)} (Updated: ${convertTime(res.data.updated_at)})`,
+      date: `${convertDate(res.data.created_at)} (Updated: ${convertTime(
+        res.data.updated_at
+      )})`,
       github: res.data.html_url,
       visit: res.data.homepage ? res.data.homepage : res.data.html_url,
       description: res.data.description,
       //sha: resSha.data.sha,
     });
-    console.log(`Pushing ${project.repo[i].name} #${project.repo[i].branch} to portfolio data`);
-    
+    console.log(
+      `Pushing ${project.repo[i].name} #${project.repo[i].branch} to portfolio data`
+    );
+
     await axios({
       method: "get",
       url: `https://opengraph.githubassets.com/${resSha.data.sha}/${res.data.full_name}`,
-      responseType: "stream"
-    }).then(function (response) {
-      response.data.pipe(fs.createWriteStream(`./assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`));
-    }).catch(err => console.log(err));
+      responseType: "stream",
+    })
+      .then(function (response) {
+        response.data.pipe(
+          fs.createWriteStream(
+            `./assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`
+          )
+        );
+      })
+      .catch((err) => console.log(err));
 
     await pendingSebentar(2000);
   }
@@ -268,21 +279,24 @@ const getInfo = async () => {
 };
 
 const save = async () => {
-  let getLatestCommit = await axios.get("https://api.github.com/repos/sinkaroid/sinkaroid/commits/master", 
-    { headers: { "Authorization": `token ${GH_TOKEN}` } });
-    
+  let getLatestCommit = await axios.get(
+    "https://api.github.com/repos/sinkaroid/sinkaroid/commits/master",
+    { headers: { Authorization: `token ${GH_TOKEN}` } }
+  );
+
   let info = await getInfo();
   let data = {
     last_sync: `${today}, ${time}`,
     data: info,
-    sha_commit: getLatestCommit.data.sha
+    sha_commit: getLatestCommit.data.sha,
   };
-  fs.writeFileSync("data.json", JSON.stringify(data, null, 4));
+  fs.writeFileSync("mock/_data.json", JSON.stringify(data, null, 4));
 };
 
-save().then(() => {
-  console.log("done");
-}).catch(err => {
-  console.log(err);
-});
-
+save()
+  .then(() => {
+    console.log("done");
+  })
+  .catch((err) => {
+    console.log(err);
+  });

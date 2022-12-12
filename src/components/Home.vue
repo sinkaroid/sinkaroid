@@ -1,63 +1,72 @@
 <template>
-  <div :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }" class="pt-5 p-st">
-    <div class="container" data-aos="fade" data-aos-once="true" data-aos-duration="1000">
+  <div
+    :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"
+    class="pt-5 p-st"
+  >
+    <div
+      class="container"
+      data-aos="fade"
+      data-aos-once="true"
+      data-aos-duration="1000"
+    >
       <!-- <vue-particles color="#dedede"></vue-particles> -->
-     
+
       <div class="row align-items-center">
-        
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
-           
           <!-- <a>
 <img :src="picture"
 onmouseover="this.src='https://cdn.discordapp.com/attachments/952117487166705747/994153838741307422/kek.png'"
 onmouseout="this.src='https://cdn.discordapp.com/attachments/952117487166705747/993670266448265227/sinkaroid.png'"
 border="0" alt=""/></a> -->
-     
-      <img :src="hovered ? picture_x : picture" 
-      @mouseover="hovered = true, role = 'Digital Illustrator'"
-      @mouseout="hovered = false, role = 'Software Developer'"
-      
-      />
-  
-        
-          
-          <br><br>
+
+          <img
+            :src="hovered ? picture_x : picture"
+            @mouseover="(hovered = true), (role = 'Digital Illustrator')"
+            @mouseout="(hovered = false), (role = 'Software Developer')"
+          />
+
+          <br /><br />
           <h4>{{ role }}</h4>
-          <iframe src="https://github.com/sponsors/sinkaroid/button" title="Sponsor sinkaroid" height="35" width="116" style="border: 0;"></iframe>
+          <iframe
+            src="https://github.com/sponsors/sinkaroid/button"
+            title="Sponsor sinkaroid"
+            height="35"
+            width="116"
+            style="border: 0"
+          ></iframe>
         </div>
-        
+
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
-           <vue-particles
-        color="#dedede"
-        :particleOpacity="0.7"
-        :particlesNumber="80"
-        shapeType="circle"
-        :particleSize="4"
-        linesColor="#dedede"
-        :linesWidth="1"
-        :lineLinked="true"
-        :lineOpacity="0.4"
-        :linesDistance="150"
-        :moveSpeed="3"
-        :hoverEffect="true"
-        hoverMode="grab"
-        :clickEffect="true"
-        clickMode="push"
-      >
-      </vue-particles>
+          <vue-particles
+            color="#dedede"
+            :particleOpacity="0.7"
+            :particlesNumber="80"
+            shapeType="circle"
+            :particleSize="4"
+            linesColor="#dedede"
+            :linesWidth="1"
+            :lineLinked="true"
+            :lineOpacity="0.4"
+            :linesDistance="150"
+            :moveSpeed="3"
+            :hoverEffect="true"
+            hoverMode="grab"
+            :clickEffect="true"
+            clickMode="push"
+          >
+          </vue-particles>
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >Sinkaroid here,</span><br>
-          
+            >Sinkaroid here,</span
+          ><br />
+
           <div>
-            
             <p v-html="description"></p>
             {{ sinopsis }}
-            <br><br>
-
+            <br /><br />
           </div>
-          
+
           <div class="text-center pb-4">
             <button
               class="btn btn-outline-secondary mx-2"
@@ -107,7 +116,6 @@ border="0" alt=""/></a> -->
               <i class="fab fa-twitter"></i>
             </button>
 
-
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('patreon')"
@@ -115,15 +123,11 @@ border="0" alt=""/></a> -->
             >
               <i class="fab fa-patreon"></i>
             </button>
-            
-    
           </div>
         </div>
       </div>
     </div>
-    
   </div>
-  
 </template>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
 <script>
@@ -155,7 +159,7 @@ export default {
       twitter: info.links.twitter,
       instagram: info.links.instagram,
       steam: info.links.steam,
-      resume: info.links.resume
+      resume: info.links.resume,
     };
   },
   methods: {
@@ -201,7 +205,7 @@ export default {
 </script>
 
 <style scoped>
-.test { 
+.test {
   text-align: center;
   position: absolute;
 }
@@ -278,8 +282,8 @@ img {
 
 .btn {
   border-radius: 10%;
-  position:relative;
-  z-index:9999;
+  position: relative;
+  z-index: 9999;
   border-color: #ee44da;
   color: #8f9def;
 }
@@ -304,8 +308,6 @@ p {
   text-align: justify;
   font-weight: 400;
 }
-
-
 
 /* LEAVES */
 </style>

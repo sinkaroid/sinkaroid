@@ -61,7 +61,7 @@
               :key="idx"
               :class="{ 'mt-4': idx === 0 ? true : true }"
               class="col-xl-6 col-bg-6 col-md-12 col-sm-12"
-              style="position: relative;"
+              style="position: relative"
             >
               <vueper-slides
                 :dragging-distance="50"
@@ -69,8 +69,7 @@
                 :bullets="false"
                 slide-content-outside="bottom"
                 style="position: aboslute"
-                  @click.prevent="showDesignModalFn(standalone)"
-
+                @click.prevent="showDesignModalFn(standalone)"
               >
                 <vueper-slide
                   v-for="(slide, i) in standalone.pictures"
@@ -79,11 +78,17 @@
                 />
               </vueper-slides>
               <div
-                style="width: 100%; display: flex; justify-content: space-between"
+                style="
+                  width: 100%;
+                  display: flex;
+                  justify-content: space-between;
+                "
                 class="mt-2"
               >
                 <div>
-                  <div class="title2" style="font-weight: 500;">{{ standalone.title }}</div>
+                  <div class="title2" style="font-weight: 500">
+                    {{ standalone.title }}
+                  </div>
                   <span
                     class="badge mr-2 mb-2"
                     v-for="tech in standalone.technologies"
@@ -92,11 +97,11 @@
                     >{{ tech }}</span
                   >
                   •
-                  <span class="date ml-1">{{standalone.date}}</span>
+                  <span class="date ml-1">{{ standalone.date }}</span>
                 </div>
 
                 <button
-                  style="height: 31px; margin-top: 5px;"
+                  style="height: 31px; margin-top: 5px"
                   class="btn-sm btn btn-outline-secondary no-outline"
                   @click.prevent="showDesignModalFn(standalone)"
                 >
@@ -115,7 +120,7 @@
               :key="idx"
               :class="{ 'mt-4': idx === 0 ? true : true }"
               class="col-xl-6 col-bg-6 col-md-12 col-sm-12"
-              style="position: relative;"
+              style="position: relative"
             >
               <vueper-slides
                 :dragging-distance="50"
@@ -123,8 +128,7 @@
                 :bullets="false"
                 slide-content-outside="bottom"
                 style="position: aboslute"
-                  @click.prevent="showDesignModalFn(design)"
-
+                @click.prevent="showDesignModalFn(design)"
               >
                 <vueper-slide
                   v-for="(slide, i) in design.pictures"
@@ -133,11 +137,17 @@
                 />
               </vueper-slides>
               <div
-                style="width: 100%; display: flex; justify-content: space-between"
+                style="
+                  width: 100%;
+                  display: flex;
+                  justify-content: space-between;
+                "
                 class="mt-2"
               >
                 <div>
-                  <div class="title2" style="font-weight: 500;">{{ design.title }}</div>
+                  <div class="title2" style="font-weight: 500">
+                    {{ design.title }}
+                  </div>
                   <span
                     class="badge mr-2 mb-2"
                     v-for="tech in design.technologies"
@@ -146,11 +156,11 @@
                     >{{ tech }}</span
                   >
                   •
-                  <span class="date ml-1">{{design.date}}</span>
+                  <span class="date ml-1">{{ design.date }}</span>
                 </div>
 
                 <button
-                  style="height: 31px; margin-top: 5px;"
+                  style="height: 31px; margin-top: 5px"
                   class="btn-sm btn btn-outline-secondary no-outline"
                   @click.prevent="showDesignModalFn(design)"
                 >
@@ -226,9 +236,9 @@ export default {
       showBtn: "show more",
       shower: 0,
       data: [
-        "<div class=\"example-slide\">Slide 1</div>",
-        "<div class=\"example-slide\">Slide 2</div>",
-        "<div class=\"example-slide\">Slide 3</div>",
+        '<div class="example-slide">Slide 1</div>',
+        '<div class="example-slide">Slide 2</div>',
+        '<div class="example-slide">Slide 3</div>',
       ],
     };
   },
@@ -434,13 +444,13 @@ export default {
 /deep/.vueperslides__parallax-wrapper {
   border-radius: 15px !important;
   border: 2px solid #7070f9;
-    box-shadow: 1px 1px 12px rgb(53, 53, 53);
+  box-shadow: 1px 1px 12px rgb(53, 53, 53);
 }
 
 /deep/.vueperslides__parallax-wrapper:hover {
   border-radius: 15px !important;
   border: 2px solid #86fa5c;
-    box-shadow: 1px 1px 12px rgb(53, 53, 53);
+  box-shadow: 1px 1px 12px rgb(53, 53, 53);
 }
 
 .btn {
@@ -479,6 +489,6 @@ export default {
 .date {
   font-size: 14px;
   font-weight: 400;
-  opacity: 0.75
+  opacity: 0.75;
 }
 </style>

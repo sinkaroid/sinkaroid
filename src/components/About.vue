@@ -1,45 +1,51 @@
 <template>
-
-  <div class="py-4 p-st" :class="{
-    'bg-light': !nightMode,
-    'bg-dark2': nightMode,
-    'text-light': nightMode,
-  }">
-
+  <div
+    class="py-4 p-st"
+    :class="{
+      'bg-light': !nightMode,
+      'bg-dark2': nightMode,
+      'text-light': nightMode,
+    }"
+  >
     <div class="container">
-
-      <div class="text-center" data-aos="fade" data-aos-once="true" data-aos-duration="1000">
-
-        <span class="title text-center" :class="{ pgray: !nightMode, 'text-light': nightMode }">Pronouns &
-          Codename</span><p>
+      <div
+        class="text-center"
+        data-aos="fade"
+        data-aos-once="true"
+        data-aos-duration="1000"
+      >
+        <span
+          class="title text-center"
+          :class="{ pgray: !nightMode, 'text-light': nightMode }"
+          >Pronouns & Codename</span
+        >
+        <p></p>
         <h4>
-          <mark style="border-radius: 10px; padding: 5px;">
-            👨He/him</mark> <mark style="border-radius: 10px; padding: 5px;">
-            😈sinkaroid</mark> <mark style="border-radius: 10px; padding: 5px;">
-            😇Indrawan</mark> <mark style="border-radius: 10px; padding: 5px;">
-            🌺インドラ</mark>
-        </h4><br>
-
-
+          <mark style="border-radius: 10px; padding: 5px"> 👨He/him</mark>
+          <mark style="border-radius: 10px; padding: 5px"> 😈sinkaroid</mark>
+          <mark style="border-radius: 10px; padding: 5px"> 😇Indrawan</mark>
+          <mark style="border-radius: 10px; padding: 5px"> 🌺インドラ</mark>
+        </h4>
+        <br />
       </div>
 
-      <hr width="50%" :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
+      <hr
+        width="50%"
+        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
+      />
       <div class="row">
-
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <Timeline :data="education" :nightMode="nightMode" />
         </div>
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <Timeline :data="experience" :nightMode="nightMode" />
         </div>
-
       </div>
     </div>
   </div>
 </template>
 
 <script>
-
 import Timeline from "./helpers/Timeline";
 import info from "../../mock/mockRepository";
 
@@ -66,7 +72,6 @@ export default {
     };
   },
 };
-
 </script>
 
 <style scoped>

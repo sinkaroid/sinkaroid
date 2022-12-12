@@ -1,9 +1,7 @@
 <template>
   <div id="app" :class="{ 'text-dark': !nightMode, 'text-light': nightMode }">
-  
     <Navbar @scroll="scrollTo" @nightMode="switchMode" :nightMode="nightMode" />
     <div class="parent">
-      
       <Home :nightMode="nightMode" />
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
@@ -12,14 +10,8 @@
       <Mal id="myanimelist" :nightMode="nightMode" />
       <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
-      <go-top
-      :size="59"
-      bg-color="red"
-      :right="45"
-      
-      
-      />
-      
+      <go-top :size="59" bg-color="red" :right="45" />
+
       <custom-cursor
         :targets="['a', 'button', 'input', 'textarea']"
         :circleColor="nightMode ? '#fff' : 'red'"
@@ -29,10 +21,7 @@
         :hoverSize="1.5"
       />
 
-      
-      
       <!-- <cursor-fx :color="nightMode ? '#fff' : '#000'" /> -->
- 
     </div>
   </div>
 </template>
@@ -64,8 +53,8 @@ export default {
     Footer,
     GoTop,
     CustomCursor,
-    Mal
-},
+    Mal,
+  },
   data() {
     return {
       nightMode: false,
@@ -78,7 +67,14 @@ export default {
     }
   },
   mounted() {
-    ["about", "contact", "skills", "portfolio", "myanimelist", "contact"].forEach((l) => {
+    [
+      "about",
+      "contact",
+      "skills",
+      "portfolio",
+      "myanimelist",
+      "contact",
+    ].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
@@ -109,8 +105,8 @@ export default {
 
 <style>
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('./../assets/fonts/helveticaneue.ttf');
+  font-family: "Helvetica Neue";
+  src: url("./../assets/fonts/helveticaneue.ttf");
 }
 
 #app {
@@ -284,76 +280,79 @@ export default {
   transition: opacity 0.5s;
 }
 
-@-webkit-keyframes 
-badbounce {  0%, 100% {
- -webkit-transform: translateY(0px);
+@-webkit-keyframes badbounce {
+  0%,
+  100% {
+    -webkit-transform: translateY(0px);
+  }
+  10% {
+    -webkit-transform: translateY(6px);
+  }
+  30% {
+    -webkit-transform: translateY(-4px);
+  }
+  70% {
+    -webkit-transform: translateY(3px);
+  }
+  90% {
+    -webkit-transform: translateY(-2px);
+  }
 }
- 10% {
- -webkit-transform: translateY(6px);
+@-moz-keyframes badbounce {
+  0%,
+  100% {
+    -moz-transform: translateY(0px);
+  }
+  10% {
+    -moz-transform: translateY(6px);
+  }
+  30% {
+    -moz-transform: translateY(-4px);
+  }
+  70% {
+    -moz-transform: translateY(3px);
+  }
+  90% {
+    -moz-transform: translateY(-2px);
+  }
 }
- 30% {
- -webkit-transform: translateY(-4px);
-}
- 70% {
- -webkit-transform: translateY(3px);
-}
- 90% {
- -webkit-transform: translateY(-2px);
-}
-}
-@-moz-keyframes 
-badbounce {  0%, 100% {
- -moz-transform: translateY(0px);
-}
- 10% {
- -moz-transform: translateY(6px);
-}
- 30% {
- -moz-transform: translateY(-4px);
-}
- 70% {
- -moz-transform: translateY(3px);
-}
- 90% {
- -moz-transform: translateY(-2px);
-}
-}
-@keyframes 
-badbounce {  0%, 100% {
- -webkit-transform: translateY(0px);
- -moz-transform: translateY(0px);
- -ms-transform: translateY(0px);
- -o-transform: translateY(0px);
- transform: translateY(0px);
-}
- 10% {
- -webkit-transform: translateY(6px);
- -moz-transform: translateY(6px);
- -ms-transform: translateY(6px);
- -o-transform: translateY(6px);
- transform: translateY(6px);
-}
- 30% {
- -webkit-transform: translateY(-4px);
- -moz-transform: translateY(-4px);
- -ms-transform: translateY(-4px);
- -o-transform: translateY(-4px);
- transform: translateY(-4px);
-}
- 70% {
- -webkit-transform: translateY(3px);
- -moz-transform: translateY(3px);
- -ms-transform: translateY(3px);
- -o-transform: translateY(3px);
- transform: translateY(3px);
-}
- 90% {
- -webkit-transform: translateY(-2px);
- -moz-transform: translateY(-2px);
- -ms-transform: translateY(-2px);
- -o-transform: translateY(-2px);
- transform: translateY(-2px);
-}
+@keyframes badbounce {
+  0%,
+  100% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  10% {
+    -webkit-transform: translateY(6px);
+    -moz-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    -o-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+  30% {
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  70% {
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+  90% {
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
 }
 
 .ss_animate {
@@ -361,7 +360,6 @@ badbounce {  0%, 100% {
   -moz-animation: badbounce 1s linear;
   animation: badbounce 1s linear;
 }
-
 
 #ss_menu {
   bottom: 30px;
@@ -425,11 +423,12 @@ badbounce {  0%, 100% {
   opacity: 1;
 }
 
-#ss_menu > .menu .share .circle:after, #ss_menu > .menu .share .circle:before {
+#ss_menu > .menu .share .circle:after,
+#ss_menu > .menu .share .circle:before {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   transition: all 1s ease;
-  content: '';
+  content: "";
   opacity: 1;
   display: block;
   position: absolute;
@@ -441,12 +440,12 @@ badbounce {  0%, 100% {
 
 #ss_menu > .menu .share .circle:after {
   left: 20.78461px;
-  top: 12.0px;
+  top: 12px;
 }
 
 #ss_menu > .menu .share .circle:before {
   left: 20.78461px;
-  top: -12.0px;
+  top: -12px;
 }
 
 #ss_menu > .menu .share .bar {
@@ -476,7 +475,7 @@ badbounce {  0%, 100% {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   transition: all 1s ease;
-  content: '';
+  content: "";
   width: 24px;
   height: 3px;
   background: #fff;
@@ -494,7 +493,9 @@ badbounce {  0%, 100% {
   transform: rotate(-60deg);
 }
 
-#ss_menu > .menu .share.close .circle { opacity: 0; }
+#ss_menu > .menu .share.close .circle {
+  opacity: 0;
+}
 
 #ss_menu > .menu .share.close .bar {
   top: 50%;
@@ -565,17 +566,17 @@ badbounce {  0%, 100% {
 }
 
 #ss_menu div:nth-child(2) {
-  top: -80.0px;
+  top: -80px;
   left: -138.56406px;
 }
 
 #ss_menu div:nth-child(3) {
   top: -138.56406px;
-  left: -80.0px;
+  left: -80px;
 }
 
 #ss_menu div:nth-child(4) {
   top: -160px;
-  left: 0.0px;
+  left: 0px;
 }
 </style>

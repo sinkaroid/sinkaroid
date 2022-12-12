@@ -1,14 +1,13 @@
 # Sinkaroid here
+
 🔑: [`03CD B858 129F 2DD8`](https://keybase.io/staticmethod/pgp_keys.asc) | 📝: [`sinkaroid.org`](https://sinkaroid.org/)
 
 <a href="https://sinkaroid.org/"><img align="right" src="assets/other/41eb506c06b7ce74cba7cef056d0b1dd.png" width="160"></a>
- 
-I am a part time software developer mostly open-source also by trade. I have no degree alias never go to formal college education, so keep in mind that if you want to hire me, I might not remember the complexity of interpolation search algorithm, but I'm pretty good and patient enough in searching and experimenting for it! All I learn this way with love, imagination, and patience.  
 
+I am a part time software developer mostly open-source also by trade. I have no degree alias never go to formal college education, so keep in mind that if you want to hire me, I might not remember the complexity of interpolation search algorithm, but I'm pretty good and patient enough in searching and experimenting for it! All I learn this way with love, imagination, and patience.
 
 On my profile, [PyPi](https://pypi.org/user/sinkaroid/), [npm](https://www.npmjs.com/~sinkaroid), and [Docker](https://github.com/sinkaroid?tab=packages) You'll see some of the repositories I've made for various projects.  
 I don't have much to say as I'm not a talkative person right now.
-
 
 <!--
 ```
@@ -56,7 +55,7 @@ no
 ```
 -->
 
-[![Linkedin](https://img.shields.io/badge/-sinkaroid-0070ba?logo=linkedin)](https://www.linkedin.com/in/sinkaroid/) [![Steam](https://img.shields.io/badge/-Steam-171a21?logo=steam)](https://steamcommunity.com/id/sinkaroid) [![Mal](https://img.shields.io/badge/-MyAnimeList-gold?logo=myanimelist)](https://myanimelist.net/profile/sinkaroid) [![Twitter](https://img.shields.io/twitter/follow/sinkaroid?label=Follow&style=social)](https://twitter.com/sinkaroid)  
+[![Linkedin](https://img.shields.io/badge/-sinkaroid-0070ba?logo=linkedin)](https://www.linkedin.com/in/sinkaroid/) [![Steam](https://img.shields.io/badge/-Steam-171a21?logo=steam)](https://steamcommunity.com/id/sinkaroid) [![Mal](https://img.shields.io/badge/-MyAnimeList-gold?logo=myanimelist)](https://myanimelist.net/profile/sinkaroid) [![Twitter](https://img.shields.io/twitter/follow/sinkaroid?label=Follow&style=social)](https://twitter.com/sinkaroid)
 
 <!--
 ```

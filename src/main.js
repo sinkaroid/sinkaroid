@@ -17,22 +17,19 @@ Vue.use(VueScrollTo);
 Vue.use(VueCookie);
 Vue.use(VueParticles);
 
-
 Vue.config.productionTip = false;
 
-const routes = [
-  { path: "/"}
-];
+const routes = [{ path: "/" }];
 
 const router = new VueRouter({
-  mode:"history",
-  routes
+  mode: "history",
+  routes,
 });
 
 new Vue({
-  created () {
+  created() {
     AOS.init();
   },
   router,
-  render: h => h(App),
+  render: (h) => h(App),
 }).$mount("#app");

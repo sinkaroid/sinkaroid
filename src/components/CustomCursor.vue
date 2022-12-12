@@ -1,7 +1,15 @@
 <template>
   <div class="custom-cursor">
-    <div class="custom-cursor__circle" :style="circleStyle" ref="customCursorCircle"></div>
-    <div class="custom-cursor__dot" :style="dotStyle" ref="customCursorDot"></div>
+    <div
+      class="custom-cursor__circle"
+      :style="circleStyle"
+      ref="customCursorCircle"
+    ></div>
+    <div
+      class="custom-cursor__dot"
+      :style="dotStyle"
+      ref="customCursorDot"
+    ></div>
   </div>
 </template>
 
@@ -14,7 +22,7 @@ export default {
     circleColorHover: String,
     dotColor: String,
     dotColorHover: String,
-    hoverSize: Number
+    hoverSize: Number,
   },
   data() {
     return {
@@ -26,7 +34,7 @@ export default {
       dotPosX: null,
       dotPosY: null,
       circleStyle: null,
-      dotStyle: null
+      dotStyle: null,
     };
   },
   methods: {
@@ -63,11 +71,11 @@ export default {
       //move custom cursor
       circle.style.transform = `translate(${this.circlePosX}px,${this.circlePosY}px) scale(${this.scale})`;
       dot.style.transform = `translate(${this.dotPosX}px,${this.dotPosY}px)`;
-    }
+    },
   },
   mounted() {
     window.addEventListener("mousemove", this.customCursor);
-  }
+  },
 };
 </script>
 

@@ -26,11 +26,8 @@
           v-for="d in data"
           :key="d.author"
         >
-        
-            <!-- for loop and give stars icon based on d.score value -->
+          <!-- for loop and give stars icon based on d.score value -->
 
-            
-        
           <div
             class="title2"
             data-aos="fade-up"
@@ -46,28 +43,44 @@
             data-aos-once="true"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-          >  
+          >
             <span>
-             <img
-              :src="d.picture"
-              class="rounded-circle"
-              width="50px"
-              height="50px"
-              data-aos="fade-up"
-              data-aos-once="true"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-            /> – {{ d.author }}, {{ d.position }}, {{ d.company }},
+              <img
+                :src="d.picture"
+                class="rounded-circle"
+                width="50px"
+                height="50px"
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+              />
+              – {{ d.author }}, {{ d.position }}, {{ d.company }},
               {{ d.location }}</span
             >
             <img :src="d.flag" width="20px" height="20px" class="ml-2" />
-            <br>
+            <br />
             <span class="ml-2">
-              <i class="fas fa-star" :class="{ 'text-warning': d.score >= 1 }"></i>
-              <i class="fas fa-star" :class="{ 'text-warning': d.score >= 2 }"></i>
-              <i class="fas fa-star" :class="{ 'text-warning': d.score >= 3 }"></i>
-              <i class="fas fa-star" :class="{ 'text-warning': d.score >= 4 }"></i>
-              <i class="fas fa-star" :class="{ 'text-warning': d.score >= 5 }"></i>
+              <i
+                class="fas fa-star"
+                :class="{ 'text-warning': d.score >= 1 }"
+              ></i>
+              <i
+                class="fas fa-star"
+                :class="{ 'text-warning': d.score >= 2 }"
+              ></i>
+              <i
+                class="fas fa-star"
+                :class="{ 'text-warning': d.score >= 3 }"
+              ></i>
+              <i
+                class="fas fa-star"
+                :class="{ 'text-warning': d.score >= 4 }"
+              ></i>
+              <i
+                class="fas fa-star"
+                :class="{ 'text-warning': d.score >= 5 }"
+              ></i>
             </span>
           </div>
         </div>
