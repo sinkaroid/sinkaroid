@@ -2,69 +2,57 @@
   <div>
     <div class="modal-mask">
       <div class="modal-wrapper">
-        <div
-          class="modal-container"
-          :class="{
-            'bg-light': !nightMode,
-            'bg-dark': nightMode,
-            'text-light': nightMode,
-          }"
-        >
+        <div class="modal-container" :class="{
+          'bg-light': !nightMode,
+          'bg-dark': nightMode,
+          'text-light': nightMode,
+        }">
           <div class="title1 px-4 pt-3">
-            <span
-              ><a
-                href="#"
-                @click.prevent="open(portfolio.link)"
-                :class="{ 'text-light': nightMode }"
-                >{{ portfolio.title }}</a
-              ></span
-            >
-            <a
-              class="pull-right"
-              style="font-size: 18px"
-              @click="$emit('close')"
-              ><i class="fas fa-times"></i
-            ></a>
-            <hr
-              class="my-1"
-              :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-            />
+            <span><a href="#" @click.prevent="open(portfolio.link)" :class="{ 'text-light': nightMode }">{{
+                portfolio.title
+            }}</a></span>
+            <a class="pull-right" style="font-size: 18px" @click="$emit('close')"><i class="fas fa-times"></i></a>
+            <hr class="my-1" :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
           </div>
           <div class="modal-body my-0 pb-0 px-4 pt-0">
-            <div
-              class="mb-2 date"
-              :class="{ 'text-light': nightMode, pbgray: nightMode }"
-            >
-              <span
-                >Sinkaroid {{ portfolio.pubDate }} •
-                {{ portfolio.timeago }}</span
-              >
+            <div class="mb-2 date" :class="{ 'text-light': nightMode, pbgray: nightMode }">
+              <span>Sinkaroid {{ portfolio.pubDate }} -
+                {{ portfolio.timeago }}</span>
             </div>
             <div class="pb-1 bheight">
-              <span
-                class="badge mr-2 mb-2"
-                v-for="tech in portfolio.tag"
-                :key="tech"
-                :class="{ 'bg-dark4': nightMode }"
-                >{{ tech }}</span
-              >
+              <span class="badge mr-2 mb-2" v-for="tech in portfolio.tag" :key="tech"
+                :class="{ 'bg-dark4': nightMode }">{{ tech }}</span>
+              <mark><i class="fa fa-star"></i>{{ portfolio.score }}</mark>
             </div>
 
-            <div style="text-align: justify">
+            <div style="text-align: left">
+              <img :src="portfolio.image" align="right" width="250" style="margin: 0 0 10px 10px" class="foto" />
+              {{ portfolio.synopsis }}
+              <!-- text menjorok -->
+            </div>
+            <br>
+            <p>
+              <b>Sinkaroid {{ portfolio.description }}, {{ portfolio.timeago }}</b>
+            </p>
+            <hr />
+
+            <!--
+              <div style="text-align: justify">
               <span v-html="portfolio.synopsis"></span>
             </div>
             <hr />
             <div>
               <Gallery :images="portfolio.pictures" align="right" />
-              <!-- bajingan -->
+              
             </div>
+             -->
+
+            <!-- iki mbingungi bajingan -->
+
           </div>
 
           <div class="text-center pb-3">
-            <hr
-              class="mt-1 mb-3"
-              :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-            />
+            <hr class="mt-1 mb-3" :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
             <button class="btn w-25 mr-3" @click="open(portfolio.link)">
               <i class="fas fa-external-link-alt"></i>
             </button>
@@ -129,6 +117,7 @@ a:hover {
   font-size: 14px;
   font-weight: 400;
 }
+
 .modal-mask {
   position: fixed;
   z-index: 9998;
@@ -154,11 +143,13 @@ a:hover {
   width: 40%;
   max-height: 70%;
   margin: 0px auto;
-  border-radius: 7px;
+  border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  
   transition: all 0.3s ease;
   flex-direction: column;
-  display: flex; /*added*/
+  display: flex;
+  /*added*/
 }
 
 @media screen and (max-width: 1600px) {
@@ -203,6 +194,7 @@ a:hover {
   font-size: 30px;
   font-weight: 500;
 }
+
 .title1 {
   font-size: 24px;
   font-weight: 400;
@@ -248,5 +240,12 @@ a:hover {
 
 .bg-dark4 {
   background-color: #494e55 !important;
+}
+
+.foto {
+  border-radius: 10px;
+  border: none;
+  border: 2px solid #fc4d64;
+
 }
 </style>

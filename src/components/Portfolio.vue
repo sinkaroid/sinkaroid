@@ -444,13 +444,13 @@ export default {
 /deep/.vueperslides__parallax-wrapper {
   border-radius: 15px !important;
   border: 2px solid #7070f9;
-  box-shadow: 1px 1px 12px rgb(53, 53, 53);
+
 }
 
 /deep/.vueperslides__parallax-wrapper:hover {
   border-radius: 15px !important;
   border: 2px solid #86fa5c;
-  box-shadow: 1px 1px 12px rgb(53, 53, 53);
+
 }
 
 .btn {

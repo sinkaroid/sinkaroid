@@ -131,16 +131,15 @@ div.img-div {
   border: none;
 
   height: 460px;
-  border: 2px solid rgb(206, 242, 166);
+  border: 2px solid #76f976
 }
 
 .pcard {
   border-radius: 10px;
   border: none;
   height: 460px;
-  border: 2px solid #5900ff;
-  /* cursor: pointer; */
-  box-shadow: 1px 1px 12px rgb(53, 53, 53);
+  border: 2px solid #339c10;
+
 }
 
 .pcard-dark:hover {
@@ -160,7 +159,7 @@ div.img-div {
   /* box-shadow: 1px 1px 12px rgb(53, 53, 53); */
 
   height: 460px;
-  border: 2px solid #ee3ff7;
+  border: 2px solid #f04949;
   /* cursor: pointer; */
   box-shadow: 1px 1px 12px rgb(53, 53, 53);
 }

@@ -2,7 +2,7 @@ const { data } = require("./_anime.json");
 const { data_manga } = require("./_manga.json");
 
 let info = {
-  portfolio: data,
+  anime: data,
   manga: data_manga,
 };
 

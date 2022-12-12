@@ -83,30 +83,6 @@ let info = {
       skills: ["Problem solve", "Teamwork", "Communication", "Networking"],
     },
     {
-      name: "Redsplit LTD",
-      link: "https://github.com/Redsplit",
-      photo:
-        "https://cdn.discordapp.com/attachments/952117487166705747/1006890840226017401/redsplitorg.png",
-      place: "Yogyakarta, Indonesia",
-      date: "2018 - 2021",
-      position: "Self-taught Programmer",
-      description:
-        'It tooks me 3 years before I know enough related proper software development, because basically my skills are deface and hack, It\'s tooks me 3 years to become real programmer instead just "script kiddies"',
-      skills: [
-        "Software Development",
-        "CRUD",
-        "Infrastructure",
-        "API",
-        "Test Driven Development",
-        "Best Practices",
-        "Stacks",
-        "Interpolation",
-        "Message broker",
-        "Microservice",
-        "Backend",
-      ],
-    },
-    {
       name: "Angelz.space LTD",
       link: "https://web.facebook.com/undefined",
       photo:
@@ -115,7 +91,7 @@ let info = {
       date: "2015 - 2018",
       position: "Defacer - Exploiter",
       description:
-        "A limited company and is completely Blackhat for it's services. After pwned the targets, We just collected a webshells & root data and contanstly sell it them to foreigners end users, chinese spammer was rely on us.",
+        "A limited company and is completely Blackhat for it's services. After pwned the targets, We just collected a webshells & root data and sell them to foreigners end users, chinese spammer were rely on us.",
       skills: [
         "Backdoor",
         "Mailers",
@@ -157,9 +133,12 @@ let info = {
       title: "Libraries & framework",
       info: [
         "Express",
+        "Fastify",
         "Cheerio",
         "Flask",
+        "beautifulsoup4",
         "Vue.js",
+        "Prisma",
         "Sequelize",
         "Django",
         "Nest.js",
@@ -181,6 +160,7 @@ let info = {
     {
       title: "Tools",
       info: [
+        "Docker",
         "GitHub Actions",
         "Travis CI",
         "Jest",
@@ -284,8 +264,8 @@ let info = {
       description: "CHESS WEB Programming UNPAS - Moonlight Shadow",
     },
     {
-      name: "Fuck Corona",
-      title: "Decaying of world",
+      name: "Decaying of world",
+      title: "Fuck Corona",
       pictures: [
         {
           img: require("../src/assets/designs/world_by_sinkaroid_dcyjvod.png"),
@@ -359,7 +339,7 @@ let info = {
           title: "The Joker",
         },
       ],
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe Photoshop", "Adobe Illustrator"],
       category: "Visual Design",
       github: "",
       date: "2018",

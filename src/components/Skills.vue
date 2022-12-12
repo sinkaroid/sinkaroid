@@ -40,7 +40,7 @@
           </div>
 
           <div class="skill-bar-container">
-            <span class="skill-name">Third-party Library development</span>
+            <span class="skill-name">Third-party library development</span>
             <span class="skill-percent">75%</span>
             <span class="skill-bar level8"></span>
           </div>

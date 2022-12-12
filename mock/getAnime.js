@@ -44,8 +44,7 @@ fetchRss("https://myanimelist.net/rss.php?type=rw&u=sinkaroid").then(
       let id = link.split("/")[4];
 
       await pendingSebentar(5000);
-      let image, tag, synopsis;
-      let pictures;
+      let image, tag, synopsis, score, pictures;
 
       await jikan(Number(id)).then((res) => {
         console.log("Saved..", title);
@@ -54,6 +53,7 @@ fetchRss("https://myanimelist.net/rss.php?type=rw&u=sinkaroid").then(
           return item.name;
         });
         synopsis = res.synopsis;
+        score = res.score;
         pictures = [{ img: res.images.jpg.large_image_url }];
       });
 
@@ -68,6 +68,7 @@ fetchRss("https://myanimelist.net/rss.php?type=rw&u=sinkaroid").then(
         tag,
         synopsis,
         pictures,
+        score,
       };
 
       info.push(itemInfo);

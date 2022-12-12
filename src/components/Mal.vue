@@ -32,7 +32,7 @@
           <div class="row">
             <div
               class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
-              v-for="(portfolio, idx) in portfolio_info"
+              v-for="(portfolio, idx) in anime_info"
               :key="portfolio.title"
             >
               <Card
@@ -135,11 +135,9 @@ export default {
   },
   data() {
     return {
-      all_info: info.portfolio,
+      all_info: info.anime,
       all_info_manga: manga.manga,
-      desgin_info: info.portfolio_design,
-      standalone_info: manga.manga,
-      portfolio_info: [],
+      anime_info: [],
       manga_info: [],
       showModal: false,
       showDesignModal: false,
@@ -157,7 +155,7 @@ export default {
   },
   created() {
     for (var i = 0; i < this.number; i++) {
-      this.portfolio_info.push(this.all_info[i]);
+      this.anime_info.push(this.all_info[i]);
     }
 
     for (var i = 0; i < this.number; i++) {
@@ -166,10 +164,10 @@ export default {
   },
   watch: {
     number() {
-      this.portfolio_info = [];
+      this.anime_info = [];
       this.manga_info = [];
       for (var i = 0; i < this.number; i++) {
-        this.portfolio_info.push(this.all_info[i]);
+        this.anime_info.push(this.all_info[i]);
       }
 
       for (var i = 0; i < this.number; i++) {
