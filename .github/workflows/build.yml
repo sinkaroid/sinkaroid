@@ -23,7 +23,7 @@ jobs:
         run: npm i
       - name: Fetch repository
         run: node mock/getRepository.js ${{ secrets.GH_TOKEN }}
-      - name: Fetch mal
+      - name: Fetch mal rss
         run: npm run fetch:mal
       - name: Commit files
         run: |
