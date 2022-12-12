@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-11, 17:58:07",
+    "last_sync": "2022-12-11, 15:17:34",
     "data": [
         {
             "name": "booru",
@@ -42,25 +42,6 @@
             "github": "https://github.com/sinkaroid/jigoku",
             "visit": "https://github.com/sinkaroid/jigoku",
             "description": "Bulk downloader for booru with good intentions"
-        },
-        {
-            "name": "jandapress",
-            "pictures": [
-                {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jandapress_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "hentaifox",
-                "nhentai",
-                "pururin"
-            ],
-            "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: a day ago)",
-            "github": "https://github.com/sinkaroid/jandapress",
-            "visit": "https://janda.mod.land",
-            "description": "RESTful and experimental API for the doujinshi"
         },
         {
             "name": "tomoe",
@@ -118,23 +99,23 @@
             "description": "A NodeJS wrapper to interacts with Scathach bot"
         },
         {
-            "name": "da-vinci",
+            "name": "jandapress",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/da-vinci_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jandapress_master.webp"
                 }
             ],
             "technologies": [
                 "TypeScript",
-                "continuous-integration",
-                "github-bot",
-                "probot"
+                "hentaifox",
+                "nhentai",
+                "pururin"
             ],
             "category": "TypeScript",
-            "date": "October 03, 2022 (Updated: 7 hours ago)",
-            "github": "https://github.com/ScathachGrip/da-vinci",
-            "visit": "https://davinci.sinkaroid.org",
-            "description": "Experimental github bots to automate PR and Issues workflows"
+            "date": "June 03, 2022 (Updated: a day ago)",
+            "github": "https://github.com/sinkaroid/jandapress",
+            "visit": "https://janda.mod.land",
+            "description": "RESTful and experimental API for the doujinshi"
         },
         {
             "name": "disgrowth",
@@ -380,6 +361,26 @@
             "github": "https://github.com/sinkaroid/pururin",
             "visit": "https://pururin.to",
             "description": "Pururin unofficial API wrapper"
+        },
+        {
+            "name": "jandabooru",
+            "pictures": [
+                {
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jandabooru_main.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "beautifulsoup4",
+                "booru",
+                "bulk-downloader",
+                "lewd"
+            ],
+            "category": "Python",
+            "date": "February 21, 2021 (Updated: 7 days ago)",
+            "github": "https://github.com/sinkaroid/jandabooru",
+            "visit": "https://github.com/sinkaroid/jandabooru",
+            "description": "Bulk image downloader for booru imageboards"
         },
         {
             "name": "strygwyr",

@@ -111,7 +111,7 @@
         <v-tab title="Artworks">
           <div class="row">
             <div
-              v-for="(design, idx) in desgin_info"
+              v-for="(design, idx) in design_info"
               :key="idx"
               :class="{ 'mt-4': idx === 0 ? true : true }"
               class="col-xl-6 col-bg-6 col-md-12 col-sm-12"
@@ -188,7 +188,7 @@
 import Card from "./helpers/Card";
 import Modal from "./helpers/Modal";
 import DesignModal from "./helpers/DesignModal";
-import info from "../../info";
+import info from "../../mock/mockRepository";
 
 import { VueTabs, VTab } from "vue-nav-tabs";
 import "vue-nav-tabs/themes/vue-tabs.css";
@@ -215,7 +215,7 @@ export default {
   data() {
     return {
       all_info: info.portfolio,
-      desgin_info: info.portfolio_design,
+      design_info: info.portfolio_design,
       standalone_info: info.portfolio_standalone,
       portfolio_info: [],
       showModal: false,
@@ -432,7 +432,15 @@ export default {
   border-radius: 10px !important;
 }
 /deep/.vueperslides__parallax-wrapper {
-  border-radius: 10px !important;
+  border-radius: 15px !important;
+  border: 2px solid #7070f9;
+    box-shadow: 1px 1px 12px rgb(53, 53, 53);
+}
+
+/deep/.vueperslides__parallax-wrapper:hover {
+  border-radius: 15px !important;
+  border: 2px solid #86fa5c;
+    box-shadow: 1px 1px 12px rgb(53, 53, 53);
 }
 
 .btn {

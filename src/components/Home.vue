@@ -23,9 +23,7 @@ border="0" alt=""/></a> -->
           
           <br><br>
           <h4>{{ role }}</h4>
-     
           <iframe src="https://github.com/sponsors/sinkaroid/button" title="Sponsor sinkaroid" height="35" width="116" style="border: 0;"></iframe>
-          
         </div>
         
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
@@ -129,7 +127,7 @@ border="0" alt=""/></a> -->
 </template>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
 <script>
-import info from "../../info";
+import info from "../../mock/mockRepository";
 
 export default {
   name: "Home",

@@ -129,7 +129,7 @@ ul.timeline > li:before {
 }
 
 .bg-dark2 {
-  background-color: #3c4148 !important;
+  background-color: #5a606a !important;
 }
 
 

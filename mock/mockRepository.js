@@ -1,10 +1,10 @@
-const { data, sha_commit } = require("./data.json");
+const { data, sha_commit } = require("./_data.json");
 
 let info = {
   name: "Sinkaroid",
   logo_name: "sinkaroid",
-  flat_picture: require("./src/assets/sinkaroid.png"),
-  shadow: require("./src/assets/daryun.png"),
+  flat_picture: require("../src/assets/sinkaroid.png"),
+  shadow: require("../src/assets/daryun.png"),
   config: {
     use_cookies: true,
     navbar: {
@@ -194,7 +194,7 @@ let info = {
       title: "Darkness Livium Requiem",
       pictures: [
         {
-          img: require("./src/assets/designs/livium.jpg"),
+          img: require("../src/assets/designs/livium.jpg"),
           title: "Royal Commander | Tanya degurechaff assets by @CasulCasulCasul"
         }
       ],
@@ -211,7 +211,7 @@ let info = {
       title: "A God's Puppet",
       pictures: [
         {
-          img: require("./src/assets/designs/livium2.jpg"),
+          img: require("../src/assets/designs/livium2.jpg"),
           title: "Royal Commander | Tanya degurechaff assets by @CasulCasulCasul"
         }
       ],
@@ -228,7 +228,7 @@ let info = {
       title: "WPU Moonlight Shadow",
       pictures: [
         {
-          img: require("./src/assets/designs/MS.png"),
+          img: require("../src/assets/designs/MS.png"),
           title: "Moonlight Shadow"
         }
       ],
@@ -238,14 +238,14 @@ let info = {
       date: "2022",
       visit: "",
       description:
-        "I participated in the UNPAS WEB Programming competition to design in the chess division, unfortunately I lost to this design"
+        "CHESS WEB Programming UNPAS - Moonlight Shadow"
     },
     {
       name: "Fuck Corona",
       title: "Decaying of world",
       pictures: [
         {
-          img: require("./src/assets/designs/world_by_sinkaroid_dcyjvod.png"),
+          img: require("../src/assets/designs/world_by_sinkaroid_dcyjvod.png"),
           title: "Fuck Corona"
         }
       ],
@@ -260,11 +260,11 @@ let info = {
   
     {
       name: "Tobi",
-      title: "Daryun Uchiha",
+      title: "Indra Uchiha",
       pictures: [
         {
-          img: require("./src/assets/designs/tobi_by_sinkaroid_dcyjvuh.png"),
-          title: "Daryun Uchiha"
+          img: require("../src/assets/designs/tobi_by_sinkaroid_dcyjvuh.png"),
+          title: "Indrawan"
         }
       ],
       technologies: ["Adobe Photoshop", "Adobe Illustrator"],
@@ -280,7 +280,7 @@ let info = {
       title: "ScathachGrip",
       pictures: [
         {
-          img: require("./src/assets/designs/sca.png"),
+          img: require("../src/assets/designs/sca.png"),
           title: "ScathachGrip"
         }
       ],
@@ -297,7 +297,7 @@ let info = {
       title: "The Fallen Heroes",
       pictures: [
         {
-          img: require("./src/assets/designs/dog.gif"),
+          img: require("../src/assets/designs/dog.gif"),
           title: "Heroes"
         }
       ],
@@ -314,7 +314,7 @@ let info = {
       title: "The Joker",
       pictures: [
         {
-          img: require("./src/assets/designs/joker_by_sinkaroid_dcyjvhx.png"),
+          img: require("../src/assets/designs/joker_by_sinkaroid_dcyjvhx.png"),
           title: "The Joker"
         }
       ],
@@ -331,7 +331,7 @@ let info = {
       title: "The Batavia",
       pictures: [
         {
-          img: require("./src/assets/designs/batavia.jpg"),
+          img: require("../src/assets/designs/batavia.jpg"),
           title: "Batavia"
         }
       ],
@@ -348,7 +348,7 @@ let info = {
       title: "Urepmu kakean Quotes!",
       pictures: [
         {
-          img: require("./src/assets/designs/crewet_by_sinkaroid_dcyjw22-fullview.jpg"),
+          img: require("../src/assets/designs/crewet_by_sinkaroid_dcyjw22-fullview.jpg"),
           title: "Nyocot"
         }
       ],
@@ -365,7 +365,7 @@ let info = {
       title: "The Beautiful Heroine",
       pictures: [
         {
-          img: require("./src/assets/designs/sc0-heroine.png"),
+          img: require("../src/assets/designs/sc0-heroine.png"),
           title: "The Beautiful Heroine"
         }
       ],
@@ -382,7 +382,7 @@ let info = {
       title: "Slemanboys vs. The Stupidc0de",
       pictures: [
         {
-          img: require("./src/assets/designs/slemanboys-x-sc0.png"),
+          img: require("../src/assets/designs/slemanboys-x-sc0.png"),
           title: "Slemanboys"
         }
       ],
@@ -399,7 +399,7 @@ let info = {
       title: "Stupidc0de - Sanjungan Jiwa",
       pictures: [
         {
-          img: require("./src/assets/designs/sj-sc0.png"),
+          img: require("../src/assets/designs/sj-sc0.png"),
           title: "Sc0 X Sj"
         }
       ],
@@ -416,7 +416,7 @@ let info = {
       title: "SlemanGetar",
       pictures: [
         {
-          img: require("./src/assets/designs/slemangetar.png"),
+          img: require("../src/assets/designs/slemangetar.png"),
           title: "SlemanGetar"
         }
       ],
@@ -433,7 +433,7 @@ let info = {
       title: "No Leader We Just Laugh Together",
       pictures: [
         {
-          img: require("./src/assets/designs/sc0.png"),
+          img: require("../src/assets/designs/sc0.png"),
           title: "Stupidc0de"
         }
       ],
@@ -450,7 +450,7 @@ let info = {
       title: "The sixth shadow",
       pictures: [
         {
-          img: require("./src/assets/designs/stupidcode.png"),
+          img: require("../src/assets/designs/stupidcode.png"),
           title: "Stupidc0de"
         }
       ],
@@ -467,7 +467,7 @@ let info = {
       title: "PhantomGhost Hacker Team",
       pictures: [
         {
-          img: require("./src/assets/designs/the-pg.png"),
+          img: require("../src/assets/designs/the-pg.png"),
           title: "PhantomGhost"
         }
       ],
@@ -486,7 +486,7 @@ let info = {
       title: "Scathach Bot Discord",
       pictures: [
         {
-          img: require("./src/assets/standalone/scathachbot.png"),
+          img: require("../src/assets/standalone/scathachbot.png"),
           title: "Scathach Bot - www.scathach.id - patreon.com/scathach_bot"
         }
       ],
@@ -504,7 +504,7 @@ let info = {
       title: "Scathach API - Microservices",
       pictures: [
         {
-          img: require("./src/assets/standalone/scathachapi.png"),
+          img: require("../src/assets/standalone/scathachapi.png"),
           title: "https://www.patreon.com/join/scathach_bot/checkout?rid=7767699"
         }
       ],

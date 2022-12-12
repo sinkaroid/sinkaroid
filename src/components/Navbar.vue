@@ -94,7 +94,7 @@
 
 <script>
 import Logo from "./helpers/Logo";
-import info from "../../info";
+import info from "../../mock/mockRepository";
 
 export default {
   name: "Navbar",

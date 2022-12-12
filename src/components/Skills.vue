@@ -18,7 +18,7 @@
 
         <div class="skill-bar-container">
           <span class="skill-name">Frontend development</span>
-          <span class="skill-percent">40%</span>
+          <span class="skill-percent">30%</span>
           <span class="skill-bar level3"></span>
         </div>
 
@@ -29,7 +29,7 @@
         </div>
 
         <div class="skill-bar-container">
-          <span class="skill-name">Libraries development</span>
+          <span class="skill-name">Third-party Library development</span>
           <span class="skill-percent">75%</span>
           <span class="skill-bar level8"></span>
         </div>
@@ -53,10 +53,11 @@
         </div>
 
         <div class="skill-bar-container">
-          <span class="skill-name">CI/CD testing & fixing</span>
+          <span class="skill-name">CI/CD testing and automation</span>
           <span class="skill-percent">60%</span>
           <span class="skill-bar level6"></span>
         </div>
+        
 
         <div class="skill-bar-container">
           <span class="skill-name">Software documentation</span>
@@ -66,7 +67,7 @@
 
         <div class="skill-bar-container">
           <span class="skill-name">Illustrate & artwork design</span>
-          <span class="skill-percent">30%</span>
+          <span class="skill-percent">40%</span>
           <span class="skill-bar level_levelan"></span>
         </div>
         </font>
@@ -100,7 +101,7 @@
 </template>
 
 <script>
-import info from "../../info";
+import info from "../../mock/mockRepository";
 
 export default {
   name: "Skills",
@@ -166,8 +167,10 @@ $skillcolor: #b09af378;
 
   .skill-bar {
     display: block;
-    border-radius: 4px;
-    height: 25px;
+    border-radius: 10px;
+    height: 30px;
+  
+
 
     //background-color: $skillColor; //#d7edfa
     &.level_void {

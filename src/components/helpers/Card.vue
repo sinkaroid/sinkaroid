@@ -1,7 +1,7 @@
 <template>
   <div class="my-3 mx-3">
     <div
-      class="card smcard"
+      class="pcard smcard"
       :class="{
         'pcard-dark': nightMode,
         pcard: !nightMode,
@@ -121,37 +121,38 @@ div.img-div {
   border-top: 1px solid rgb(193, 193, 193);
 }
 
-.pcard {
-  background-color: rgb(255, 255, 255);
-  border-radius: 7px;
-  border: none;
-  box-shadow: 1px 1px 12px rgb(233, 233, 233);
-  transition: all 0.5s;
-  height: 460px;
-  border: 2px solid #545251;
-}
-
 .pcard:hover {
-  transition: all 0.5s;
-  /* cursor: pointer; */
-  box-shadow: 1px 1px 15px rgb(216, 216, 216);
-}
+    border-radius: 10px;
+    border: none;
 
-.pcard-dark {
-  border-radius: 7px;
-  border: none;
-  background-color: #30363a4f !important;
-  /* box-shadow: 1px 1px 12px rgb(53, 53, 53); */
-  transition: all 0.5s;
-  height: 460px;
-  border: 2px solid #8a8383;
-}
+  
+    height: 460px;
+    border: 2px solid rgb(186, 167, 243);
+  }
+  
+  .pcard {
+    border-radius: 10px;
+    border: none;
+    height: 460px;
+    border: 2px solid #686768;
+    /* cursor: pointer; */
+    box-shadow: 1px 1px 12px rgb(53, 53, 53);
+  }
 
 .pcard-dark:hover {
-  transition: all 0.5s;
-  /* cursor: pointer; */
-  box-shadow: 1px 1px 12px rgb(53, 53, 53);
-}
+    border-radius: 10px;
+    border: none;
+    height: 460px;
+    border: 2px solid #ffffff;
+  }
+  
+  .pcard-dark {
+    border-radius: 10px;
+    border: none;
+    height: 460px;
+    border: 2px solid #fa5c5c;
+    box-shadow: 1px 1px 12px rgb(53, 53, 53);
+  }
 
 .pcard-body {
   border-top: 1px solid rgb(220, 220, 220);

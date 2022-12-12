@@ -34,6 +34,7 @@ const convertDate = (date) => {
   return dateString;
 };
 
+
 //create function to convert date to timeago format, example "2022-06-21T02:29:44Z" to "2 months ago"
 const convertTime = (tgl) => {
   let dateArray = tgl.split("-");

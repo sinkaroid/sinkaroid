@@ -35,8 +35,94 @@
     <!-- <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript> -->
-    <div id="app"></div>
+    <div id="app">
+        <div id="loading__container">
+           <div class="centered">
+            <div class="fa-10x">
+                <i class="fas fa-spinner fa-spin"></i>
+              </div>
+        </div>
+         </div>
+    </div>
     <!-- built files will be auto injected -->
+    <div id='ss_menu'>
+      <div onclick="myhref('#myanimelist');"> <img src="<%= BASE_URL %>kanna.png" alt="myanimelist" width="60" class="kanna"> </div>
+      <div onclick="myhref('#portfolio');"> <i class="fa fa-rocket"></i> </div>
+      <div onclick="myhref('#skills');"> <i class="fa fa-bolt"></i> </div>
+      <div onclick="myhref('#about');"> <i class="fa fa-home"></i> </div>
+      <div class='menu'>
+          <div class='share' id='ss_toggle' data-rot='180'>
+              <div class='circle'></div>
+              <div class='bar'></div>
+          </div>
+      </div>
+  </div>
+  <style>
+    #loading__container {
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 9999;
+        }
+
+        .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: -webkit-translate(-50%, -50%);
+    transform: -moz-translate(-50%, -50%);
+    transform: -ms-translate(-50%, -50%);
+
+  }
+
+  .kanna {
+    border-radius: 50%;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+      $(document).ready(function(ev) {
+          var toggle = $('#ss_toggle');
+          var menu = $('#ss_menu');
+          var rot;
+
+          $('#ss_toggle').on('click', function(ev) {
+              rot = parseInt($(this).data('rot')) - 180;
+              menu.css('transform', 'rotate(' + rot + 'deg)');
+              menu.css('webkitTransform', 'rotate(' + rot + 'deg)');
+              if ((rot / 180) % 2 == 0) {
+                  //Moving in
+                  toggle.parent().addClass('ss_active');
+                  toggle.addClass('close');
+              } else {
+                  //Moving Out
+                  toggle.parent().removeClass('ss_active');
+                  toggle.removeClass('close');
+              }
+              $(this).data('rot', rot);
+          });
+
+          menu.on('transitionend webkitTransitionEnd oTransitionEnd', function() {
+              if ((rot / 180) % 2 == 0) {
+                  $('#ss_menu div i').addClass('ss_animate');
+              } else {
+                  $('#ss_menu div i').removeClass('ss_animate');
+              }
+          });
+
+      });
+  </script>
+
+  <script type="text/javascript">
+      function myhref(web) {
+          window.location.href = web;
+      }
+  </script>
 </body>
 </font>
 </html>

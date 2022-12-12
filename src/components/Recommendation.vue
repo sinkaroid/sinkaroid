@@ -77,7 +77,7 @@
 </template>
 
 <script>
-import info from "../../info";
+import info from "../../mock/mockRepository";
 
 export default {
   name: "Recommendation",
