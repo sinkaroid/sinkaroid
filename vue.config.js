@@ -2,11 +2,9 @@ const Dotenv = require("dotenv-webpack");
 
 module.exports = {
   configureWebpack: {
-    plugins: [
-      new Dotenv()
-    ]
+    plugins: [new Dotenv()],
   },
-  chainWebpack: config => {
+  chainWebpack: (config) => {
     config.module.rules.delete("eslint");
-  }
+  },
 };
