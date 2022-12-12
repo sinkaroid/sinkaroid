@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: npm i
     - name: Fetch repository
-      run: node getRepository.js ${{ secrets.GH_TOKEN }}
+      run: node mock/getRepository.js ${{ secrets.GH_TOKEN }}
     - name: Fetch mal
       run: npm run fetch:mal
     - name: Commit files
