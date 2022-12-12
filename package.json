@@ -1,12 +1,13 @@
 {
   "name": "sinkaroid",
-  "version": "1.0.7-dev",
-  "description": "vuejs, clearly, simple and minimalist portfolio site",
+  "version": "2.0.1-dev",
+  "description": "Minimalist general purpose portfolio template. Built with Vue.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "fetch:repo": "node fetchrepo.js",
+    "fetch:repo": "node getRepository.js",
+    "fetch:mal": "node mock/getAnime.js && node mock/getManga.js",
     "build:fresh": "rm -rf dist && rm -rf node_modules && npm run build"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "core-js": "^3.6.4",
     "emailjs-com": "^2.4.1",
+    "fast-xml-parser": "^4.0.12",
     "lscache": "^1.3.2",
     "material-icons": "^0.3.1",
     "serve": "^11.3.0",
