@@ -1,6 +1,25 @@
 {
     "data_manga": [
         {
+            "title": "Shuumatsu no Walküre - Manga",
+            "link": "https://myanimelist.net/manga/110485/Shuumatsu_no_Walküre",
+            "description": "Reading - 47 of ? chapters",
+            "pubDate": "Mon, 12 Dec 2022 00:56:11 -0800",
+            "timeago": "8 minutes ago",
+            "id": "110485",
+            "image": "https://cdn.myanimelist.net/images/manga/3/209957l.jpg",
+            "tag": [
+                "Action",
+                "Fantasy"
+            ],
+            "synopsis": "High above the realm of man, the gods of the world have convened to decide on a single matter: the continued existence of mankind. Under the head of Zeus, the deities of Ancient Greece, Norse mythology, and Hinduism, among others, call assembly every one thousand years to decide the fate of humanity. Because of their unrelenting abuse toward each other and the planet, this time the gods vote unanimously in favor of ending the human race. But before the mandate passes, Brunhild, one of the 13 demigod Valkyries, puts forth an alternate proposal: rather than anticlimactically annihilating mankind, why not give them a fighting chance and enact Ragnarök, a one-on-one showdown between man and god? Spurred on by the audacity of the challenge, the divine council quickly accepts, fully confident that this contest will display the utter might of the gods. To stand a chance against the mighty heavens, Brunhild will need to assemble history's greatest individuals, otherwise the death knell will surely be sounded for mankind. [Written by MAL Rewrite]",
+            "pictures": [
+                {
+                    "img": "https://cdn.myanimelist.net/images/manga/3/209957l.jpg"
+                }
+            ]
+        },
+        {
             "title": "Tenkaichi: Nihon Saikyou Bugeisha Ketteisen - Manga",
             "link": "https://myanimelist.net/manga/139395/Tenkaichi__Nihon_Saikyou_Bugeisha_Ketteisen",
             "description": "Reading - 2 of ? chapters",
@@ -34,25 +53,6 @@
             "pictures": [
                 {
                     "img": "https://cdn.myanimelist.net/images/manga/2/246864l.jpg"
-                }
-            ]
-        },
-        {
-            "title": "Shuumatsu no Walküre - Manga",
-            "link": "https://myanimelist.net/manga/110485/Shuumatsu_no_Walküre",
-            "description": "Reading - 46 of ? chapters",
-            "pubDate": "Mon, 03 May 2021 02:25:53 -0700",
-            "timeago": "2 years ago",
-            "id": "110485",
-            "image": "https://cdn.myanimelist.net/images/manga/3/209957l.jpg",
-            "tag": [
-                "Action",
-                "Fantasy"
-            ],
-            "synopsis": "High above the realm of man, the gods of the world have convened to decide on a single matter: the continued existence of mankind. Under the head of Zeus, the deities of Ancient Greece, Norse mythology, and Hinduism, among others, call assembly every one thousand years to decide the fate of humanity. Because of their unrelenting abuse toward each other and the planet, this time the gods vote unanimously in favor of ending the human race. But before the mandate passes, Brunhild, one of the 13 demigod Valkyries, puts forth an alternate proposal: rather than anticlimactically annihilating mankind, why not give them a fighting chance and enact Ragnarök, a one-on-one showdown between man and god? Spurred on by the audacity of the challenge, the divine council quickly accepts, fully confident that this contest will display the utter might of the gods. To stand a chance against the mighty heavens, Brunhild will need to assemble history's greatest individuals, otherwise the death knell will surely be sounded for mankind. [Written by MAL Rewrite]",
-            "pictures": [
-                {
-                    "img": "https://cdn.myanimelist.net/images/manga/3/209957l.jpg"
                 }
             ]
         },
