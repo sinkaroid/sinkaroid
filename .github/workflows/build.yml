@@ -1,4 +1,4 @@
-name: Retrieve repository info
+name: Retrieve sinkaroid info
 
 on:
   create:
@@ -23,12 +23,14 @@ jobs:
       run: npm i
     - name: Fetch repository
       run: node fetchrepo.js ${{ secrets.GH_TOKEN }}
+    - name: Fetch mal
+      run: npm run fetch:mal
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "chore: auto-update & synchronize data" 
+        git commit -m "build: auto-update & synchronize data" 
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
