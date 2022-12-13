@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM node:14.15.4-alpine3.12
 
 RUN npm install -g http-server
 
