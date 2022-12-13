@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          ><b>I like anime & manga, recently I'm watching</b></span
+          ><b>I do anime & manga, here my recent activity</b></span
         ><br />
         <a href="https://jikan.docs.apiary.io/#" target="_blank">Jikan API</a>
         helps me to synchronize with MyAnimeList user feeds with ease

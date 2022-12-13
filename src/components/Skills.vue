@@ -5,10 +5,10 @@
         <span class="title text-center" :class="{ pgray: !nightMode, 'text-light': nightMode }"><b>Skills</b></span><br>
         <center>
           <i>
-        <blockquote>As a person with delusional disorder,
-          I have strong imagination and proper decision making when building stuff.
-        </blockquote>
-        </i>
+            <blockquote>As a person with delusional disorder,
+              I have strong imagination and proper decision making when building stuff.
+            </blockquote>
+          </i>
         </center>
         <!-- 
          I'm a passionate build scalable applications and does not reinventing the wheel.
@@ -84,29 +84,28 @@
             <span class="skill-bar level_levelan"></span>
           </div>
           <br><br>
-          
+
           <div class="skill-bar-container">
             <span class="skill-name">Solo</span>
-            <span class="skill-percent"><i>A fullstack dev always doing it all by themselves</i> <b>60%</b> I think humble</span>
+            <span class="skill-percent"><i>A fullstack dev always doing it all by themselves</i> <b>60%</b> I think
+              humble</span>
             <span class="skill-bar level_solo"></span>
           </div>
 
           <div class="skill-bar-container">
             <span class="skill-name">Teamwork</span>
-            <span class="skill-percent"><i>A single flower can make me strong, Imagine if it's was a bunch of flowers? You can expect for </i> <b>80%</b></span>
+            <span class="skill-percent"><i>A single flower can make me strong, Imagine if it's was a bunch of flowers?
+                You can expect for </i> <b>80%</b></span>
             <span class="skill-bar level_team"></span>
           </div>
 
           <div class="skill-bar-container">
             <span class="skill-name">Leadership</span> <!-- I'm not kind to leading people -->
-            <span class="skill-percent"><i>Crap, A leadership skills? I'm not kind of that, I leave it for</i> <b>25%</b> though</span>
+            <span class="skill-percent"><i>Crap, A leadership skills? I'm not kind of that, I leave it for</i>
+              <b>25%</b> though</span>
             <span class="skill-bar level_leadership"></span>
           </div>
 
- 
-
-
-      
         </font>
 
         <br /><br />
@@ -115,11 +114,10 @@
         <!-- get clocked bajingan
         background-image: url('https://cdn.discordapp.com/attachments/1046495201176334467/1052037176617091145/bg.png');
         -->
-        <div class="col-xl-4 col-bg-4 col-md-6 col-sm-12 text-center pb-5 px-4" v-for="(skill, idx) in skills"
-        style="padding: 20px; flex-wrap: wrap; border-radius: 10px; max-width: 360px; 
-        margin: 0 auto; margin-bottom: 20px;"
-          :key="skill.title" data-aos="fade-up" data-aos-offset="10" data-aos-delay="30"
-          :style="{ 'transition-delay': idx / 4.2 + 's', border : '1px solid ' + (nightMode ? '#fa5c5c' : 'rgb(186, 167, 243)') }"
+        <div class="col-xl-4 col-bg-4 col-md-6 col-sm-12 text-center pb-5 px-4" v-for="(skill, idx) in skills" style="padding: 20px; flex-wrap: wrap; border-radius: 10px; max-width: 360px; 
+        margin: 0 auto; margin-bottom: 20px;" :key="skill.title" data-aos="fade-up" data-aos-offset="10"
+          data-aos-delay="30"
+          :style="{ 'transition-delay': idx / 4.2 + 's', border: '1px solid ' + (nightMode ? '#fa5c5c' : 'rgb(186, 167, 243)') }"
           data-aos-mirror="true" data-aos-once="true">
           <div class="bg-div"><i :class="skill.icon"></i></div>
           <div class="title2 pt-2">{{ skill.title }}</div>
@@ -135,9 +133,9 @@
               : 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/vue/3-stats.svg'
           " />
           <img :src="
-            nightMode
-              ? 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/dracula/2-most-commit-language.svg'
-              : 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/vue/2-most-commit-language.svg'
+  nightMode
+    ? 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/dracula/2-most-commit-language.svg'
+    : 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/vue/2-most-commit-language.svg'
           " />
         </p>
       </center>
@@ -165,8 +163,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-
 .title {
   font-size: 30px;
   font-weight: 500;
@@ -308,10 +304,10 @@ $skillcolor2: #e0526078;
   }
 
   #kontol {
-   /* Background pattern from Toptal Subtle Patterns */
-   background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
 
-}
+  }
 
 }
 </style>
