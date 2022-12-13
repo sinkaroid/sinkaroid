@@ -1,4 +1,4 @@
-name: Dockerized
+name: Dockerize and push to registry
 
 on:
   push:

@@ -1,5 +1,6 @@
 FROM node:16-bullseye as build-stage
 
+## build stage
 RUN npm install -g http-server
 WORKDIR /app
 COPY . ./
@@ -10,6 +11,7 @@ RUN ls
 COPY . .
 RUN npm run build
 
+## prod stage
 FROM nginx:stable-alpine as production-stage
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 EXPOSE 80
