@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-13, 02:29:52",
+    "last_sync": "2022-12-13, 05:12:02",
     "data": [
         {
             "name": "booru",
@@ -57,7 +57,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 9 hours ago)",
+            "date": "June 03, 2022 (Updated: 12 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinshi"
@@ -473,7 +473,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 9 days ago)",
+            "date": "March 06, 2019 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
             "description": "Just simple bait to get Ua and IPaddress from your victim."
@@ -622,5 +622,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "70bdeedfd75cf1384b6babeb9c88b35536a961df"
+    "sha_commit": "f4a64527b7ab0faa41edbece0768a6742e0aa6ab"
 }
