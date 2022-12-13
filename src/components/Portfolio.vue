@@ -17,8 +17,9 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >Portfolio</span
-        >
+          ><b>Portfolio</b></span
+        ><br>
+        {{ all_info.length }} OSS project, {{ design_info.length }} illustrations, {{ standalone_info.length }} standalone projects
       </div>
       <hr
         width="50%"
@@ -113,7 +114,7 @@
           <br />
         </v-tab>
 
-        <v-tab title="Artworks">
+        <v-tab title="Illustrations">
           <div class="row">
             <div
               v-for="(design, idx) in design_info"

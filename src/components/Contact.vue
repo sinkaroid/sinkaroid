@@ -17,9 +17,9 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >Contact</span
+          ><b>Contact</b></span
         >
-        <br />I’m always keep moving forward and available for every
+        <br />I always keep moving forward and available for every
         opportunity!
       </div>
       <hr

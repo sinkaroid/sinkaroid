@@ -17,9 +17,10 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >I watch anime sometimes..</span
-        ><br />Powered by
+          ><b>I like anime & manga, recently I'm watching</b></span
+        ><br />
         <a href="https://jikan.docs.apiary.io/#" target="_blank">Jikan API</a>
+        helps me to synchronize with MyAnimeList user feeds with ease
       </div>
       <hr
         width="50%"

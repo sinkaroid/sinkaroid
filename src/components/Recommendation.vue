@@ -10,8 +10,13 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >Recommendations</span
-        >
+          ><b>Recommendations</b></span
+        ><br>
+        <center>
+        <blockquote>
+        Uh, what they were saying about sinkaroid
+        </blockquote>
+        </center>
       </div>
       <hr
         width="50%"
@@ -20,6 +25,8 @@
       <div class="row">
         <div
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 py-3 px-5"
+          style="padding: 20px; flex-wrap: wrap; border-radius: 10px; max-width: 500px; 
+        margin: 0 auto; margin-bottom: 20px;"
           :style="{
             border: `1px solid ${nightMode ? '#908a8a' : '#8a8383d5'}`,
           }"

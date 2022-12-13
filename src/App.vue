@@ -6,8 +6,9 @@
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
       <Portfolio id="portfolio" :nightMode="nightMode" />
-      <Recommendation :nightMode="nightMode" />
       <Mal id="myanimelist" :nightMode="nightMode" />
+      <Recommendation :nightMode="nightMode" />
+     
       <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
       <go-top :size="59" bg-color="red" :right="45" />
@@ -562,21 +563,48 @@ export default {
 
 #ss_menu div:nth-child(1) {
   top: 0px;
-  left: -160px;
+  left: -182px;
 }
 
 #ss_menu div:nth-child(2) {
-  top: -80px;
-  left: -138.56406px;
+  top: -65px;
+  left: -160.56406px;
+}
+
+#ss_menu div:nth-child(5) {
+  top: -120px;
+  left: -121px;
 }
 
 #ss_menu div:nth-child(3) {
-  top: -138.56406px;
-  left: -80px;
+  top: -158.56406px;
+  left: -65px;
 }
 
 #ss_menu div:nth-child(4) {
-  top: -160px;
+  top: -180px;
   left: 0px;
+}
+
+blockquote {
+  width: 50%;
+  
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote:before {
+
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
 }
 </style>

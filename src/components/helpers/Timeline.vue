@@ -26,7 +26,7 @@
             data-aos-duration="500"
           >
             <li class="m-0 pb-2">
-              <div>
+              <div :style="{ 'border-radius' : '10px', 'transition-delay': idx / 4.2 + 's', border : '1px solid ' + (nightMode ? '#fa5c5c' : 'rgb(186, 167, 243)') }">
                 <a :href="e.link" style="color: #89cff0" target="_blank"
                   ><i class="fa fa-link"></i> Learn more.</a
                 >
@@ -132,5 +132,10 @@ ul.timeline > li:before {
 
 .bg-dark2 {
   background-color: #5a606a !important;
+}
+
+.garis {
+  border: 1px solid #89cff0;
+  border-radius: 10px;
 }
 </style>

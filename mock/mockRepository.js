@@ -80,7 +80,7 @@ let info = {
       position: "	Industrial Solutions & Services",
       description:
         "Jl. Yos Sudarso No.9, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224",
-      skills: ["Problem solve", "Teamwork", "Communication", "Networking"],
+      skills: ["Internships", "Problem solve", "Teamwork", "Communication", "Networking"],
     },
     {
       name: "Angelz.space LTD",
@@ -130,7 +130,7 @@ let info = {
       icon: "fa fa-code",
     },
     {
-      title: "Libraries & framework",
+      title: "Libs & framework",
       info: [
         "Express",
         "Fastify",
@@ -204,9 +204,8 @@ let info = {
       title: "The Lacks of me",
       info: [
         "No degree",
-        "No formal college education",
-        "A bit grumpy",
-        "Habit of working at crucial time",
+        "Arbitrarily forehead",
+        "Perhaps will annoying you with fuckton of questions if I'm curious about something",
       ],
       icon: "fa fa-ban",
     },
@@ -562,7 +561,7 @@ let info = {
         "Cukup oke, tetapi.. Tidak santuy dan terbilang selalu ngegas, bintang 3 dulu :v",
       author: "Rinda P Rabsani",
       position: "Community Manager",
-      company: "Somewhere in Discord",
+      company: "Discord User",
       location: "Jakarta",
       flag: "https://iconarchive.com/download/i109166/wikipedia/flags/ID-Indonesia-Flag.ico",
       picture:

@@ -3,11 +3,10 @@
     <div class="container py-3">
       <div class="row pt-1 align-items-center">
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow" style="color: white">
-          <span>© MIT License - sinkaroid with <i class="fab fa-vuejs"></i> and
-            <i class="fab fa-node-js"></i> <br /><i class="fas fa-code-branch"></i>
-            <font size="2"><a id="link" :href="base_repo" target="_blank"> {{
-                latest_commit
-            }}</a></font>
+          <span>
+             <button class="btn-sm btn btn-outline-secondary no-outline" @click="open('base_repo')">
+              <i class="fas fa-code-branch"></i> {{ latest_commit }}
+            </button>
           </span>
         </div>
 
@@ -84,6 +83,9 @@ export default {
           break;
         case "resume":
           window.open(this.resume, "_blank");
+          break;
+        case "base_repo":
+          window.open(this.base_repo, "_blank");
           break;
       }
     },

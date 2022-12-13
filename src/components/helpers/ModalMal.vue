@@ -243,6 +243,8 @@ a:hover {
 }
 
 .foto {
+  width: 40%;
+  height: auto;
   border-radius: 10px;
   border: none;
   border: 2px solid #fc4d64;
