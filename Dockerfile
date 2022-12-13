@@ -1,4 +1,4 @@
-FROM node:14.15.4-alpine3.12 as build-stage
+FROM node:16-bullseye as build-stage
 
 RUN npm install -g http-server
 WORKDIR /app
