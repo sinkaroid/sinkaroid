@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-13, 15:33:42",
+    "last_sync": "2022-12-13, 16:01:49",
     "data": [
         {
             "name": "booru",
@@ -640,5 +640,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "187b99450c2ca367d70127571f4bf65ad7f80772"
+    "sha_commit": "94ba1ed4dfe0624b1847b1272b11550338fcb534"
 }
