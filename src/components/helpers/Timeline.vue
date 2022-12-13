@@ -26,9 +26,9 @@
             data-aos-duration="500"
           >
             <li class="m-0 pb-2">
-              <div :style="{ 'border-radius' : '10px', border : '1px solid ' + (nightMode ? '#fa5c5c' : 'rgb(186, 167, 243)') }">
-                <a :href="e.link" style="color: #89cff0" target="_blank"
-                  ><i class="fa fa-link"></i> Learn more.</a
+              <div :style="{ 'border-radius' : '20px', border : '1px solid ' + (nightMode ? '#fa5c5c' : 'lightgreen'), 'margin-bottom' : '30px' }">
+                <a :href="e.link" :style="{ 'color' : nightMode ? 'lightgreen' : 'orange' }" target="_blank" style="font-weight: bold"
+                  ><i class="fas fa-external-link-alt fa-lg" style="padding: 5px; margin-top: 10px"></i> Learn more.</a
                 >
                 <div class="px-2 title2">{{ e.name }}, {{ e.place }}</div>
                 <div class="px-2 title3">
@@ -41,6 +41,7 @@
                   {{ e.description }}
                 </div>
                 <span
+                  style="border-radius: 10px; padding: 5px;"
                   class="mx-2 badge p-2 mb-2"
                   v-for="s in e.skills"
                   :key="s"
