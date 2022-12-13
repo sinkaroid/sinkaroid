@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-13, 20:58:00",
+    "last_sync": "2022-12-13, 14:48:59",
     "data": [
         {
             "name": "booru",
@@ -77,7 +77,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 14 days ago)",
+            "date": "March 18, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted manga & doujinshi downloader with ease"
@@ -130,10 +130,10 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: 7 hours ago)",
+            "date": "August 03, 2022 (Updated: an hour ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "visit": "https://sinkaroid.org",
-            "description": "A general purpose Vue.js portfolio template with minimalist style"
+            "description": "A general purpose Vue.js portfolio template with minimalist in mind"
         },
         {
             "name": "da-vinci",
@@ -640,5 +640,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "747f5c340b2411795cf7176ba3c914e6e6362919"
+    "sha_commit": "90576136f3a1fa7bf58e753cbc29e2ecfe9a6be5"
 }
