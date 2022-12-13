@@ -6,7 +6,7 @@ RUN npm install -g http-server
 WORKDIR /app
 COPY package*.json ./
 RUN npm install --legacy-peer-deps
-RUN mv config.js.schema config.js
+RUN ls
 COPY . .
 
 RUN npm run build
