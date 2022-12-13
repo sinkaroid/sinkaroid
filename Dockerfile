@@ -6,6 +6,7 @@ RUN npm install -g http-server
 WORKDIR /app
 COPY . ./
 RUN ls
+RUN mv auth.js config.js
 RUN npm install --legacy-peer-deps
 RUN ls
 COPY . .
