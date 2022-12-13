@@ -237,9 +237,9 @@ export default {
       showBtn: "show more",
       shower: 0,
       data: [
-        '<div class="example-slide">Slide 1</div>',
-        '<div class="example-slide">Slide 2</div>',
-        '<div class="example-slide">Slide 3</div>',
+        "<div class=\"example-slide\">Slide 1</div>",
+        "<div class=\"example-slide\">Slide 2</div>",
+        "<div class=\"example-slide\">Slide 3</div>",
       ],
     };
   },

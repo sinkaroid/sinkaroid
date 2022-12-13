@@ -67,13 +67,15 @@
 </template>
 
 <script>
-import Gallery from "./Gallery";
+// import Gallery from "./Gallery";
 
 export default {
   name: "Modal",
+  /*
   components: {
     Gallery,
   },
+  */
   props: {
     showModal: {
       type: Boolean,

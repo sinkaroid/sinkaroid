@@ -115,7 +115,7 @@ import manga from "../../mock/mockMyanimelist";
 import { VueTabs, VTab } from "vue-nav-tabs";
 import "vue-nav-tabs/themes/vue-tabs.css";
 
-import { VueperSlides, VueperSlide } from "vueperslides";
+// import { VueperSlides } from "vueperslides"; // VueperSlide
 import "vueperslides/dist/vueperslides.css";
 
 export default {
@@ -125,8 +125,8 @@ export default {
     Modal,
     VueTabs,
     VTab,
-    VueperSlides,
-    VueperSlide,
+    // VueperSlides,
+    // VueperSlide,
     DesignModal,
   },
   props: {
@@ -148,9 +148,9 @@ export default {
       showBtn: "show more",
       shower: 0,
       data: [
-        '<div class="example-slide">Slide 1</div>',
-        '<div class="example-slide">Slide 2</div>',
-        '<div class="example-slide">Slide 3</div>',
+        "<div class=\"example-slide\">Slide 1</div>",
+        "<div class=\"example-slide\">Slide 2</div>",
+        "<div class=\"example-slide\">Slide 3</div>",
       ],
     };
   },
@@ -159,8 +159,8 @@ export default {
       this.anime_info.push(this.all_info[i]);
     }
 
-    for (var i = 0; i < this.number; i++) {
-      this.manga_info.push(this.all_info_manga[i]);
+    for (var i_manga = 0; i_manga < this.number; i_manga++) {
+      this.manga_info.push(this.all_info_manga[i_manga]);
     }
   },
   watch: {
@@ -171,8 +171,8 @@ export default {
         this.anime_info.push(this.all_info[i]);
       }
 
-      for (var i = 0; i < this.number; i++) {
-        this.manga_info.push(this.all_info_manga[i]);
+      for (var i_manga = 0; i_manga < this.number; i_manga++) {
+        this.manga_info.push(this.all_info_manga[i_manga]);
       }
     },
   },

@@ -169,6 +169,7 @@ export default {
           )
           .then(
             (_result) => {
+              console.log(_result);
               this.showSnackbar = true;
               this.snackbarMessage = "Thanks! Message recieved.";
               this.snackbarColor = "#1aa260";
@@ -178,6 +179,7 @@ export default {
               this.name = "";
             },
             (_error) => {
+              console.log(_error.message);
               this.showSnackbar = true;
               this.snackbarMessage = "Oops! Something went wrong.";
               this.snackbarColor = "rgb(212, 149, 97)";

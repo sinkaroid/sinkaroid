@@ -72,21 +72,21 @@ export default {
   methods: {
     open(link) {
       switch (link) {
-        case "linkedin":
-          window.open(this.linkedin, "_blank");
-          break;
-        case "github":
-          window.open(this.github, "_blank");
-          break;
-        case "angellist":
-          window.open(this.angellist, "_blank");
-          break;
-        case "resume":
-          window.open(this.resume, "_blank");
-          break;
-        case "base_repo":
-          window.open(this.base_repo, "_blank");
-          break;
+      case "linkedin":
+        window.open(this.linkedin, "_blank");
+        break;
+      case "github":
+        window.open(this.github, "_blank");
+        break;
+      case "angellist":
+        window.open(this.angellist, "_blank");
+        break;
+      case "resume":
+        window.open(this.resume, "_blank");
+        break;
+      case "base_repo":
+        window.open(this.base_repo, "_blank");
+        break;
       }
     },
   },
