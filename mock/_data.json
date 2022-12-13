@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-13, 14:48:59",
+    "last_sync": "2022-12-13, 15:33:42",
     "data": [
         {
             "name": "booru",
@@ -130,7 +130,7 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: an hour ago)",
+            "date": "August 03, 2022 (Updated: 2 hours ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind"
@@ -640,5 +640,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "90576136f3a1fa7bf58e753cbc29e2ecfe9a6be5"
+    "sha_commit": "187b99450c2ca367d70127571f4bf65ad7f80772"
 }
