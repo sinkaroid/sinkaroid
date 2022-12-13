@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-12, 09:37:23",
+    "last_sync": "2022-12-13, 02:29:52",
     "data": [
         {
             "name": "booru",
@@ -16,7 +16,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 4 days ago)",
+            "date": "April 07, 2022 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "visit": "https://sinkaroid.github.io/booru",
             "description": "Python bindings for booru imageboards"
@@ -38,7 +38,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "December 04, 2022 (Updated: 4 days ago)",
+            "date": "December 04, 2022 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/jigoku",
             "visit": "https://github.com/sinkaroid/jigoku",
             "description": "Bulk downloader for booru with good intentions"
@@ -57,7 +57,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 2 days ago)",
+            "date": "June 03, 2022 (Updated: 9 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinshi"
@@ -77,7 +77,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 12 days ago)",
+            "date": "March 18, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted manga & doujinshi downloader with ease"
@@ -96,7 +96,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 12 days ago)",
+            "date": "August 14, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "visit": "https://eiyuu.js.org",
             "description": "A query and tags completion for booru imageboards"
@@ -112,7 +112,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 12 days ago)",
+            "date": "December 26, 2020 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
@@ -131,7 +131,7 @@
                 "probot"
             ],
             "category": "TypeScript",
-            "date": "October 03, 2022 (Updated: a day ago)",
+            "date": "October 03, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/ScathachGrip/da-vinci",
             "visit": "https://davinci.sinkaroid.org",
             "description": "Experimental github bots to automate PR and Issues workflows"
@@ -187,7 +187,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 12 days ago)",
+            "date": "January 21, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "visit": "https://sinkaroid.github.io/jalter",
             "description": "A NodeJS wrapper for Discord Selfbot"
@@ -212,7 +212,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 11 days ago)",
+            "date": "March 15, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "visit": "https://sinkaroid.github.io/janda",
             "description": "Python library for Jandapress"
@@ -247,7 +247,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 12 days ago)",
+            "date": "March 24, 2021 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Subreddit API but proxied and NSFW only.."
@@ -266,7 +266,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 12 days ago)",
+            "date": "March 24, 2021 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "visit": "https://sinkaroid.github.io/cabul",
             "description": "Subreddit API but proxied and NSFW only.."
@@ -282,7 +282,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 12 days ago)",
+            "date": "June 28, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -298,7 +298,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 12 days ago)",
+            "date": "June 28, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "visit": "https://disgrow.js.org",
             "description": "A growth increments for your Discord bots"
@@ -622,5 +622,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "f255b24f1b4939f75d7e1458692ccaecf752eb09"
+    "sha_commit": "70bdeedfd75cf1384b6babeb9c88b35536a961df"
 }
