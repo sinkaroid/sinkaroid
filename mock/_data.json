@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-13, 13:40:34",
+    "last_sync": "2022-12-13, 20:58:00",
     "data": [
         {
             "name": "booru",
@@ -57,7 +57,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 21 hours ago)",
+            "date": "June 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "visit": "https://janda.mod.land",
             "description": "RESTful and experimental API for the doujinshi"
@@ -77,7 +77,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 13 days ago)",
+            "date": "March 18, 2022 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "visit": "https://github.com/sinkaroid/tomoe",
             "description": "An exalted manga & doujinshi downloader with ease"
@@ -116,6 +116,24 @@
             "github": "https://github.com/sinkaroid/scathach-api",
             "visit": "https://sinkaroid.github.io/scathach-api",
             "description": "A NodeJS wrapper to interacts with Scathach bot"
+        },
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "minimalist-design",
+                "vuejs"
+            ],
+            "category": "Vue",
+            "date": "August 03, 2022 (Updated: 7 hours ago)",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "visit": "https://sinkaroid.org",
+            "description": "A general purpose Vue.js portfolio template with minimalist style"
         },
         {
             "name": "da-vinci",
@@ -622,5 +640,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-    "sha_commit": "713ee6636087c77368f5ad479556fbffbd53874c"
+    "sha_commit": "747f5c340b2411795cf7176ba3c914e6e6362919"
 }
