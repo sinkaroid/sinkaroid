@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-14, 09:45:31",
+    "last_sync": "2022-12-14, 03:42:12",
     "data": [
         {
             "name": "booru",
@@ -59,7 +59,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 2 days ago)",
+            "date": "June 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://janda.mod.land",
@@ -136,11 +136,7 @@
                 "vuejs"
             ],
             "category": "Vue",
-<<<<<<< HEAD
-            "date": "August 03, 2022 (Updated: 11 hours ago)",
-=======
-            "date": "August 03, 2022 (Updated: 3 hours ago)",
->>>>>>> 4ff387eeccfa385b410469bc92719f2d541500ab
+            "date": "August 03, 2022 (Updated: 5 hours ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
@@ -678,9 +674,5 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
-<<<<<<< HEAD
-    "sha_commit": "4ff387eeccfa385b410469bc92719f2d541500ab"
-=======
-    "sha_commit": "a7fd3df4dca7a72c21cbd02b39d32eef39ee2100"
->>>>>>> 4ff387eeccfa385b410469bc92719f2d541500ab
+    "sha_commit": "edf712c4990648769a713f6e97f5970267ffabbf"
 }
