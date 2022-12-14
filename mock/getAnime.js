@@ -43,7 +43,7 @@ fetchRss("https://myanimelist.net/rss.php?type=rw&u=sinkaroid").then(
       let timeago = convertTime(pubDate);
       let id = link.split("/")[4];
 
-      await pendingSebentar(5000);
+      await pendingSebentar(2000);
       let image, tag, synopsis, score, pictures;
 
       await jikan(Number(id)).then((res) => {

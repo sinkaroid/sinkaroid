@@ -234,7 +234,7 @@ const getInfo = async () => {
       { headers: { Authorization: `token ${GH_TOKEN}` } }
     );
 
-    await pendingSebentar(2000);
+    await pendingSebentar(1000);
     let resSha = await axios.get(
       `https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}/commits/${project.repo[i].branch}`,
       { headers: { Authorization: `token ${GH_TOKEN}` } }
@@ -242,6 +242,31 @@ const getInfo = async () => {
 
     let topics = res.data.topics;
     topics.unshift(res.data.language);
+
+    let bahasa;
+    if (res.data.language == "JavaScript") bahasa = "https://skillicons.dev/icons?i=js";
+    else if (res.data.language == "TypeScript") bahasa = "https://skillicons.dev/icons?i=typescript";
+    else if (res.data.language == "Python") bahasa = "https://skillicons.dev/icons?i=python";
+    else if (res.data.language == "Vue") bahasa = "https://skillicons.dev/icons?i=vuejs";
+    else if (res.data.language == "Shell") bahasa = "https://skillicons.dev/icons?i=bash";
+    else if (res.data.language == "PHP") bahasa = "https://skillicons.dev/icons?i=php";
+    else if (res.data.language == "HTML") bahasa = "https://skillicons.dev/icons?i=html";
+    else if (res.data.language == "CSS") bahasa = "https://skillicons.dev/icons?i=css";
+    else if (res.data.language == "C++") bahasa = "https://skillicons.dev/icons?i=cpp";
+    else if (res.data.language == "C#") bahasa = "https://skillicons.dev/icons?i=cs";
+    else if (res.data.language == "C") bahasa = "https://skillicons.dev/icons?i=c";
+    else if (res.data.language == "Java") bahasa = "https://skillicons.dev/icons?i=java";
+    else if (res.data.language == "Ruby") bahasa = "https://skillicons.dev/icons?i=ruby";
+    else if (res.data.language == "Go") bahasa = "https://skillicons.dev/icons?i=go";
+    else if (res.data.language == "Rust") bahasa = "https://skillicons.dev/icons?i=rust";
+    else if (res.data.language == "Dart") bahasa = "https://skillicons.dev/icons?i=dart";
+    else if (res.data.language == "Kotlin") bahasa = "https://skillicons.dev/icons?i=kotlin";
+    else if (res.data.language == "R") bahasa = "https://skillicons.dev/icons?i=r";
+    else if (res.data.language == "Julia") bahasa = "https://skillicons.dev/icons?i=julia";
+
+    else bahasa = "https://skillicons.dev/icons?i=github";
+
+
 
     info.push({
       name: res.data.name,
@@ -256,6 +281,7 @@ const getInfo = async () => {
         res.data.updated_at
       )})`,
       github: res.data.html_url,
+      bahasa: bahasa,
       visit: res.data.homepage ? res.data.homepage : res.data.html_url,
       description: res.data.description,
       //sha: resSha.data.sha,
@@ -278,7 +304,7 @@ const getInfo = async () => {
       })
       .catch((err) => console.log(err));
 
-    await pendingSebentar(2000);
+    await pendingSebentar(1000);
   }
   return info;
 };
