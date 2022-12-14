@@ -14,8 +14,9 @@
           :src="portfolio.pictures[0].img"
           alt="Card image cap"
         />
+        <img class="lang" :src="portfolio.bahasa" />
       </div>
-      <div class="card-body pborder-top">
+      <div class="card-body"> <!--  pborder-top | bajingan -->
         <h5 class="title2">{{ portfolio.name }}</h5>
         <div>
           <div class="pb-1 bheight">
@@ -81,6 +82,20 @@ export default {
 </script>
 
 <style scoped>
+.lang {
+  display: block;
+  margin-left: auto;
+  margin-top: -40px;
+  margin-right: 10px;
+  width: 20%;
+  border-radius: 50%;
+  transition: transform .7s ease-in-out;
+}
+
+.lang:hover {
+  transform: rotate(360deg);
+}
+
 img {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -88,6 +103,7 @@ img {
   max-height: 100%;
   object-fit: cover;
 }
+
 
 .img-div img {
   /* object-fit: cover;
@@ -98,6 +114,7 @@ img {
   /* object-position: 50% 120%;
     max-width: 300px !important; */
 }
+
 
 .bheight {
   height: 65px;
@@ -126,9 +143,11 @@ div.img-div {
 
   height: 460px;
   border: 2px solid rgb(68, 12, 235);
+  transform: scale(1.1); 
 }
 
 .pcard {
+  transition: all .2s ease-in-out;
   border-radius: 10px;
   border: none;
   height: 460px;
@@ -148,6 +167,7 @@ div.img-div {
   border: none;
   height: 460px;
   border: 2px solid #fa5c5c;
+  
   box-shadow: 1px 1px 12px rgb(53, 53, 53);
 }
 

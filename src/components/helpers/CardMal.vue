@@ -131,14 +131,17 @@ div.img-div {
   border: none;
 
   height: 460px;
-  border: 2px solid #76f976
+  border: 2px solid #76f976;
+  transform: scale(1.1); 
 }
 
 .pcard {
+  transition: all .2s ease-in-out;
   border-radius: 10px;
   border: none;
   height: 460px;
   border: 2px solid #339c10;
+  
 
 }
 
