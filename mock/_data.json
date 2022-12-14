@@ -136,7 +136,11 @@
                 "vuejs"
             ],
             "category": "Vue",
+<<<<<<< HEAD
             "date": "August 03, 2022 (Updated: 11 hours ago)",
+=======
+            "date": "August 03, 2022 (Updated: 3 hours ago)",
+>>>>>>> 4ff387eeccfa385b410469bc92719f2d541500ab
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
@@ -674,5 +678,9 @@
             "description": "Sc0Shell, Development based on b374k and Gallers Shell."
         }
     ],
+<<<<<<< HEAD
     "sha_commit": "4ff387eeccfa385b410469bc92719f2d541500ab"
+=======
+    "sha_commit": "a7fd3df4dca7a72c21cbd02b39d32eef39ee2100"
+>>>>>>> 4ff387eeccfa385b410469bc92719f2d541500ab
 }
