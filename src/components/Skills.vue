@@ -94,14 +94,14 @@
 
           <div class="skill-bar-container">
             <span class="skill-name">Teamwork</span>
-            <span class="skill-percent"><i>A single flower can make me strong, Imagine if it's was a bunch of flowers?
-                You can expect for </i> <b>80%</b></span>
+            <span class="skill-percent"><i>A single flower can make me strong, Imagine if it's was bunch of flowers?
+                Definitely </i> <b>80%</b></span>
             <span class="skill-bar level_team"></span>
           </div>
 
           <div class="skill-bar-container">
             <span class="skill-name">Leadership</span> <!-- I'm not kind to leading people -->
-            <span class="skill-percent"><i>Crap, A leadership skills? I'm not kind of that, I leave it for</i>
+            <span class="skill-percent"><i>Crap, A leadership skills? I'm bad, I leave it for </i>
               <b>25%</b> though</span>
             <span class="skill-bar level_leadership"></span>
           </div>
@@ -163,6 +163,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.mekanik:hover {
+  transform: scale(1.1); 
+}
+
+.mekanik {
+  transition: all .2s ease-in-out;
+
+}
 .title {
   font-size: 30px;
   font-weight: 500;
