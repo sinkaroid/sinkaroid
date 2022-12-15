@@ -85,7 +85,7 @@ export default {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: "Helvetica";
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
 
 .title {

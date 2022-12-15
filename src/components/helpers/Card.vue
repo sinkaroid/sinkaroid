@@ -14,10 +14,13 @@
           :src="portfolio.pictures[0].img"
           alt="Card image cap"
         />
+        
         <img class="lang" :src="portfolio.bahasa" />
+        
+        
       </div>
       <div class="card-body"> <!--  pborder-top | bajingan -->
-        <h5 class="title2">{{ portfolio.name }}</h5>
+        <h5 class="title2"><b>{{ portfolio.name }}</b> </h5>
         <div>
           <div class="pb-1 bheight">
             <span
@@ -35,26 +38,36 @@
                 ? portfolio.description.substring(0, 45) + '...'
                 : portfolio.description
             "
-          ></p>
+          >
+        </p>
+       
         </div>
         <div class="text-center mt-2">
           <button
+          style="border-radius: 10px;"
             href=""
             class="btn-sm btn btn-outline-secondary no-outline"
             @click.prevent="showModal"
           >
-            read more
+          <i class="fas fa-search"></i> read more
           </button>
           <button
+          style="border-radius: 10px;"
             href="#"
             class="btn-sm btn btn-outline-secondary no-outline ml-4"
             v-if="portfolio.visit"
             @click.prevent="open(portfolio.visit)"
           >
-            visit website
+          <i class="fas fa-external-link-alt"></i> visit website
           </button>
         </div>
       </div>
+      <p style="text-align: center; margin-top: -10px;">
+          <button class="btn-sm btn btn-outline-secondary no-outline" @click="open(portfolio.link_commit)"
+          style="border-radius: 10px;">
+              <i class="fas fa-code-commit"></i> {{ portfolio.release }}
+            </button>
+          </p>
     </div>
   </div>
 </template>
@@ -93,7 +106,7 @@ export default {
 }
 
 .lang:hover {
-  transform: rotate(360deg);
+  transform: rotate(720deg);
 }
 
 img {

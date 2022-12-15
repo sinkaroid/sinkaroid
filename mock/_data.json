@@ -1,11 +1,11 @@
 {
-    "last_sync": "2022-12-14, 03:42:12",
+    "last_sync": "2022-12-15, 12:22:29",
     "data": [
         {
             "name": "booru",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/booru_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/booru_master.webp"
                 }
             ],
             "technologies": [
@@ -16,17 +16,63 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 6 days ago)",
+            "date": "April 07, 2022 (Updated: 7 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/booru",
-            "description": "Python bindings for booru imageboards"
+            "description": "Python bindings for booru imageboards",
+            "commit": "550c01ac1992e0734e08d4985275643e1b9c3ce5",
+            "link_commit": "https://github.com/sinkaroid/booru/commit/550c01ac1992e0734e08d4985275643e1b9c3ce5",
+            "release": "1.0.21-alpha"
+        },
+        {
+            "name": "scathach-api",
+            "pictures": [
+                {
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/scathach-api_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "December 26, 2020 (Updated: 15 days ago)",
+            "github": "https://github.com/sinkaroid/scathach-api",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/scathach-api",
+            "description": "A NodeJS wrapper to interacts with Scathach bot",
+            "commit": "11918d3719913bdcd534d2f5414525d3304a67cc",
+            "link_commit": "https://github.com/sinkaroid/scathach-api/commit/11918d3719913bdcd534d2f5414525d3304a67cc",
+            "release": "1.0.16-dev"
+        },
+        {
+            "name": "jandapress",
+            "pictures": [
+                {
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jandapress_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "hentaifox",
+                "nhentai",
+                "pururin"
+            ],
+            "category": "TypeScript",
+            "date": "June 03, 2022 (Updated: 12 hours ago)",
+            "github": "https://github.com/sinkaroid/jandapress",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://janda.mod.land",
+            "description": "RESTful and experimental API for the doujinshi",
+            "commit": "88ae06e6ec9ca8a7084ab36ddb228b402b3dcb57",
+            "link_commit": "https://github.com/sinkaroid/jandapress/commit/88ae06e6ec9ca8a7084ab36ddb228b402b3dcb57",
+            "release": "1.0.19-dev"
         },
         {
             "name": "jigoku",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jigoku_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jigoku_master.webp"
                 }
             ],
             "technologies": [
@@ -39,37 +85,20 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "December 04, 2022 (Updated: 6 days ago)",
+            "date": "December 04, 2022 (Updated: 7 days ago)",
             "github": "https://github.com/sinkaroid/jigoku",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/jigoku",
-            "description": "Bulk downloader for booru with good intentions"
-        },
-        {
-            "name": "jandapress",
-            "pictures": [
-                {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jandapress_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "hentaifox",
-                "nhentai",
-                "pururin"
-            ],
-            "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: a day ago)",
-            "github": "https://github.com/sinkaroid/jandapress",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://janda.mod.land",
-            "description": "RESTful and experimental API for the doujinshi"
+            "description": "Bulk downloader for booru with good intentions",
+            "commit": "e890c477318baf4b4be7ded4d909d618d48987b4",
+            "link_commit": "https://github.com/sinkaroid/jigoku/commit/e890c477318baf4b4be7ded4d909d618d48987b4",
+            "release": "2.1.7-alpha"
         },
         {
             "name": "tomoe",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/tomoe_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/tomoe_master.webp"
                 }
             ],
             "technologies": [
@@ -80,17 +109,20 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 14 days ago)",
+            "date": "March 18, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
-            "description": "An exalted manga & doujinshi downloader with ease"
+            "description": "An exalted manga & doujinshi downloader with ease",
+            "commit": "bf41c248eddb886ad858576878e725abddea45df",
+            "link_commit": "https://github.com/sinkaroid/tomoe/commit/bf41c248eddb886ad858576878e725abddea45df",
+            "release": "3.0.14-alpha"
         },
         {
             "name": "eiyuu",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
                 }
             ],
             "technologies": [
@@ -100,34 +132,20 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 14 days ago)",
+            "date": "August 14, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://eiyuu.js.org",
-            "description": "A query and tags completion for booru imageboards"
-        },
-        {
-            "name": "scathach-api",
-            "pictures": [
-                {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/scathach-api_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript"
-            ],
-            "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 14 days ago)",
-            "github": "https://github.com/sinkaroid/scathach-api",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://sinkaroid.github.io/scathach-api",
-            "description": "A NodeJS wrapper to interacts with Scathach bot"
+            "description": "A query and tags completion for booru imageboards",
+            "commit": "8ca10e902110e7b9e17547b9f055ee6e8eac898c",
+            "link_commit": "https://github.com/sinkaroid/eiyuu/commit/8ca10e902110e7b9e17547b9f055ee6e8eac898c",
+            "release": "1.0.12-alpha"
         },
         {
             "name": "sinkaroid",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/sinkaroid_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/sinkaroid_master.webp"
                 }
             ],
             "technologies": [
@@ -136,17 +154,20 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: 5 hours ago)",
+            "date": "August 03, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
-            "description": "A general purpose Vue.js portfolio template with minimalist in mind"
+            "description": "A general purpose Vue.js portfolio template with minimalist in mind",
+            "commit": "42eaaffacd9ff7ef3bb3efe45c02f868eebd547c",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/42eaaffacd9ff7ef3bb3efe45c02f868eebd547c",
+            "release": "2.0.5-dev"
         },
         {
             "name": "da-vinci",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/da-vinci_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/da-vinci_master.webp"
                 }
             ],
             "technologies": [
@@ -156,17 +177,20 @@
                 "probot"
             ],
             "category": "TypeScript",
-            "date": "October 03, 2022 (Updated: 3 days ago)",
+            "date": "October 03, 2022 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/da-vinci",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://davinci.sinkaroid.org",
-            "description": "Experimental github bots to automate PR and Issues workflows"
+            "description": "Experimental github bots to automate PR and Issues workflows",
+            "commit": "89e2478a150c17de25dd3ef97ce7568d35b9abb4",
+            "link_commit": "https://github.com/scathachgrip/da-vinci/commit/89e2478a150c17de25dd3ef97ce7568d35b9abb4",
+            "release": "pre-release"
         },
         {
             "name": "disgrowth",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/disgrowth_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrowth_master.webp"
                 }
             ],
             "technologies": [
@@ -180,13 +204,16 @@
             "github": "https://github.com/sinkaroid/disgrowth",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://graph.scathach.dev",
-            "description": "Visualize your discord bots growth into chartable web-app & statistics with ease"
+            "description": "Visualize your discord bots growth into chartable web-app & statistics with ease",
+            "commit": "5ced56e0195db87972957c20e575f839794a3e64",
+            "link_commit": "https://github.com/sinkaroid/disgrowth/commit/5ced56e0195db87972957c20e575f839794a3e64",
+            "release": "1.0.7-alpha"
         },
         {
             "name": "hensuki",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/hensuki_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/hensuki_master.webp"
                 }
             ],
             "technologies": [
@@ -200,13 +227,16 @@
             "github": "https://github.com/sinkaroid/hensuki",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/hensuki",
-            "description": "Turn out regex magic into one-liner doujin grabber. This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe"
+            "description": "Turn out regex magic into one-liner doujin grabber. This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe",
+            "commit": "c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
+            "link_commit": "https://github.com/sinkaroid/hensuki/commit/c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
+            "release": "2.0"
         },
         {
             "name": "jalter",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jalter_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jalter_master.webp"
                 }
             ],
             "technologies": [
@@ -215,17 +245,20 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 14 days ago)",
+            "date": "January 21, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jalter",
-            "description": "A NodeJS wrapper for Discord Selfbot"
+            "description": "A NodeJS wrapper for Discord Selfbot",
+            "commit": "1c10be36b365c2d6cca6b46f88dd62740f343ad2",
+            "link_commit": "https://github.com/sinkaroid/jalter/commit/1c10be36b365c2d6cca6b46f88dd62740f343ad2",
+            "release": "3.0.4-dev"
         },
         {
             "name": "janda",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/janda_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/janda_master.webp"
                 }
             ],
             "technologies": [
@@ -241,34 +274,40 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 13 days ago)",
+            "date": "March 15, 2022 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/janda",
-            "description": "Python library for Jandapress"
+            "description": "Python library for Jandapress",
+            "commit": "fc5d58e5bef399f01722defded471c79c4496171",
+            "link_commit": "https://github.com/sinkaroid/janda/commit/fc5d58e5bef399f01722defded471c79c4496171",
+            "release": "3.0.14-dev"
         },
         {
             "name": "badut",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/badut_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/badut_master.webp"
                 }
             ],
             "technologies": [
                 "Python"
             ],
             "category": "Python",
-            "date": "April 17, 2022 (Updated: 3 months ago)",
+            "date": "April 17, 2022 (Updated: 4 months ago)",
             "github": "https://github.com/sinkaroid/badut",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/badut",
-            "description": "Python HTTP client designed to be simple"
+            "description": "Python HTTP client designed to be simple",
+            "commit": "2d48c366e5b4bdb10e97777c57f7e5c3c8d587f8",
+            "link_commit": "https://github.com/sinkaroid/badut/commit/2d48c366e5b4bdb10e97777c57f7e5c3c8d587f8",
+            "release": "1.0.6-dev"
         },
         {
             "name": "cabul",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/cabul_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/cabul_master.webp"
                 }
             ],
             "technologies": [
@@ -278,17 +317,20 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 14 days ago)",
+            "date": "March 24, 2021 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
-            "description": "Subreddit API but proxied and NSFW only.."
+            "description": "Subreddit API but proxied and NSFW only..",
+            "commit": "b9a8c5108a59225e0fa1f524a124b39cde047ac5",
+            "link_commit": "https://github.com/sinkaroid/cabul/commit/b9a8c5108a59225e0fa1f524a124b39cde047ac5",
+            "release": "0.0.22.dev"
         },
         {
             "name": "cabul",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/cabul_proxy.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/cabul_proxy.webp"
                 }
             ],
             "technologies": [
@@ -298,51 +340,60 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 14 days ago)",
+            "date": "March 24, 2021 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
-            "description": "Subreddit API but proxied and NSFW only.."
+            "description": "Subreddit API but proxied and NSFW only..",
+            "commit": "095f14810f3b9714ff69e73184df88fd5ca645c3",
+            "link_commit": "https://github.com/sinkaroid/cabul/commit/095f14810f3b9714ff69e73184df88fd5ca645c3",
+            "release": "0.0.22.dev"
         },
         {
             "name": "disgrow",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/disgrow_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrow_master.webp"
                 }
             ],
             "technologies": [
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 14 days ago)",
+            "date": "June 28, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
-            "description": "A growth increments for your Discord bots"
+            "description": "A growth increments for your Discord bots",
+            "commit": "9135a6a35e74914e989e903e3b82ce65aac712e9",
+            "link_commit": "https://github.com/sinkaroid/disgrow/commit/9135a6a35e74914e989e903e3b82ce65aac712e9",
+            "release": "1.0.20-dev"
         },
         {
             "name": "disgrow",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/disgrow_api.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrow_api.webp"
                 }
             ],
             "technologies": [
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 14 days ago)",
+            "date": "June 28, 2022 (Updated: 15 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
-            "description": "A growth increments for your Discord bots"
+            "description": "A growth increments for your Discord bots",
+            "commit": "eae283f5b47c44793a0989961d99cacc939c9bd3",
+            "link_commit": "https://github.com/sinkaroid/disgrow/commit/eae283f5b47c44793a0989961d99cacc939c9bd3",
+            "release": "1.0.20-dev"
         },
         {
             "name": "simpleocr",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/simpleocr_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/simpleocr_master.webp"
                 }
             ],
             "technologies": [
@@ -356,13 +407,16 @@
             "github": "https://github.com/sinkaroid/simpleocr",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/simpleocr",
-            "description": "simple textrecognition"
+            "description": "simple textrecognition",
+            "commit": "1989d141b65a6d1c1c3f4576eac1fac46fb055ff",
+            "link_commit": "https://github.com/sinkaroid/simpleocr/commit/1989d141b65a6d1c1c3f4576eac1fac46fb055ff",
+            "release": "pre-release"
         },
         {
             "name": "umarun",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/umarun_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/umarun_master.webp"
                 }
             ],
             "technologies": [
@@ -377,13 +431,16 @@
             "github": "https://github.com/sinkaroid/umarun",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/umarun",
-            "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code."
+            "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code.",
+            "commit": "e4c048fb5f7820ed48b8231bdc6ea695a94a38fc",
+            "link_commit": "https://github.com/sinkaroid/umarun/commit/e4c048fb5f7820ed48b8231bdc6ea695a94a38fc",
+            "release": "pre-release"
         },
         {
             "name": "shielder",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/shielder_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/shielder_master.webp"
                 }
             ],
             "technologies": [
@@ -398,13 +455,16 @@
             "github": "https://github.com/sinkaroid/shielder",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/shielder",
-            "description": "Shielder offers modular brute-forcing outside root privilege"
+            "description": "Shielder offers modular brute-forcing outside root privilege",
+            "commit": "069b3fa260aa6df5d79ae4b726b39f49906bbff3",
+            "link_commit": "https://github.com/sinkaroid/shielder/commit/069b3fa260aa6df5d79ae4b726b39f49906bbff3",
+            "release": "pre-release"
         },
         {
             "name": "pururin",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/pururin_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/pururin_master.webp"
                 }
             ],
             "technologies": [
@@ -418,13 +478,16 @@
             "github": "https://github.com/sinkaroid/pururin",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://pururin.to",
-            "description": "Pururin unofficial API wrapper"
+            "description": "Pururin unofficial API wrapper",
+            "commit": "1f4342f690864498e5dded9e58fe34389cfe48ec",
+            "link_commit": "https://github.com/sinkaroid/pururin/commit/1f4342f690864498e5dded9e58fe34389cfe48ec",
+            "release": "0.0.8.final"
         },
         {
             "name": "strygwyr",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/strygwyr_main.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/strygwyr_main.webp"
                 }
             ],
             "technologies": [
@@ -439,13 +502,16 @@
             "github": "https://github.com/sinkaroid/strygwyr",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://strygwyr.js.org",
-            "description": "Getter dota heroes from their localized names."
+            "description": "Getter dota heroes from their localized names.",
+            "commit": "60f746a115be7691411c4c0a7adbe905df297772",
+            "link_commit": "https://github.com/sinkaroid/strygwyr/commit/60f746a115be7691411c4c0a7adbe905df297772",
+            "release": "pre-release"
         },
         {
             "name": "behoifer",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/behoifer_main.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/behoifer_main.webp"
                 }
             ],
             "technologies": [
@@ -459,13 +525,16 @@
             "github": "https://github.com/sinkaroid/behoifer",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/behoifer",
-            "description": "Referer implementation to help with bulk downloading images from behoimi.org"
+            "description": "Referer implementation to help with bulk downloading images from behoimi.org",
+            "commit": "66f3f4db82e8e41300a4583adb278f8e24abfd47",
+            "link_commit": "https://github.com/sinkaroid/behoifer/commit/66f3f4db82e8e41300a4583adb278f8e24abfd47",
+            "release": "pre-release"
         },
         {
             "name": "illustrator-tracker",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/illustrator-tracker_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/illustrator-tracker_master.webp"
                 }
             ],
             "technologies": [
@@ -480,13 +549,16 @@
             "github": "https://github.com/sinkaroid/illustrator-tracker",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/illustrator-tracker",
-            "description": "A quick and simple things to find out and track your favorite doujinshi Artist to get more artworks ins't bad enough"
+            "description": "A quick and simple things to find out and track your favorite doujinshi Artist to get more artworks ins't bad enough",
+            "commit": "031868fedd54c7709ec262007dfe5791090ca612",
+            "link_commit": "https://github.com/sinkaroid/illustrator-tracker/commit/031868fedd54c7709ec262007dfe5791090ca612",
+            "release": "pre-release"
         },
         {
             "name": "dotabuff",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/dotabuff_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/dotabuff_master.webp"
                 }
             ],
             "technologies": [
@@ -501,13 +573,16 @@
             "github": "https://github.com/sinkaroid/dotabuff",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://www.dotabuff.com/",
-            "description": "Dotabuff bash scrape"
+            "description": "Dotabuff bash scrape",
+            "commit": "8d36a096d37a16839790a6578af8ca4ff2276233",
+            "link_commit": "https://github.com/sinkaroid/dotabuff/commit/8d36a096d37a16839790a6578af8ca4ff2276233",
+            "release": "pre-release"
         },
         {
             "name": "Simple-logbait",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Simple-logbait_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Simple-logbait_master.webp"
                 }
             ],
             "technologies": [
@@ -516,17 +591,20 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 11 days ago)",
+            "date": "March 06, 2019 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
-            "description": "Just simple bait to get Ua and IPaddress from your victim."
+            "description": "Just simple bait to get Ua and IPaddress from your victim.",
+            "commit": "ccdc036c8ec23065dbf5a623ff3f684296672537",
+            "link_commit": "https://github.com/sinkaroid/Simple-logbait/commit/ccdc036c8ec23065dbf5a623ff3f684296672537",
+            "release": "pre-release"
         },
         {
             "name": "Blackjasmine",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Blackjasmine_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Blackjasmine_master.webp"
                 }
             ],
             "technologies": [
@@ -540,13 +618,16 @@
             "github": "https://github.com/sinkaroid/Blackjasmine",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Blackjasmine",
-            "description": "cli PHPWebshell"
+            "description": "cli PHPWebshell",
+            "commit": "59d8756e157f5e635c8f53b5f7673a6645b3129b",
+            "link_commit": "https://github.com/sinkaroid/Blackjasmine/commit/59d8756e157f5e635c8f53b5f7673a6645b3129b",
+            "release": "pre-release"
         },
         {
             "name": "Blackseroja",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Blackseroja_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Blackseroja_master.webp"
                 }
             ],
             "technologies": [
@@ -557,13 +638,16 @@
             "github": "https://github.com/sinkaroid/Blackseroja",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Blackseroja",
-            "description": "Another flower, Blackser0ja just my tools collection from 2k12 till now."
+            "description": "Another flower, Blackser0ja just my tools collection from 2k12 till now.",
+            "commit": "8b15697f4b0bfde514c60a93f5e5448e5a2ff96a",
+            "link_commit": "https://github.com/sinkaroid/Blackseroja/commit/8b15697f4b0bfde514c60a93f5e5448e5a2ff96a",
+            "release": "pre-release"
         },
         {
             "name": "HiddenFlower",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/HiddenFlower_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/HiddenFlower_master.webp"
                 }
             ],
             "technologies": [
@@ -575,13 +659,16 @@
             "github": "https://github.com/sinkaroid/HiddenFlower",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/HiddenFlower",
-            "description": "a uploader can inject in another file, article, etc."
+            "description": "a uploader can inject in another file, article, etc.",
+            "commit": "0133be6013c72c5996f93132f9d93852ff50e7a2",
+            "link_commit": "https://github.com/sinkaroid/HiddenFlower/commit/0133be6013c72c5996f93132f9d93852ff50e7a2",
+            "release": "pre-release"
         },
         {
             "name": "webNovelCrawler",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/webNovelCrawler_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/webNovelCrawler_master.webp"
                 }
             ],
             "technologies": [
@@ -595,13 +682,16 @@
             "github": "https://github.com/sinkaroid/webNovelCrawler",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/webNovelCrawler",
-            "description": "Simple PHPcurl and getRequest to grab Light Novel and WebNovel, then create parser with DOMpdf."
+            "description": "Simple PHPcurl and getRequest to grab Light Novel and WebNovel, then create parser with DOMpdf.",
+            "commit": "983732879b9d40410e1cbf31e3d1d15e10682f10",
+            "link_commit": "https://github.com/sinkaroid/webNovelCrawler/commit/983732879b9d40410e1cbf31e3d1d15e10682f10",
+            "release": "pre-release"
         },
         {
             "name": "antk",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/antk_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/antk_master.webp"
                 }
             ],
             "technologies": [
@@ -616,13 +706,16 @@
             "github": "https://github.com/sinkaroid/antk",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://kato.kireisubs.org",
-            "description": "Redkato, - Indonesian anime scraper"
+            "description": "Redkato, - Indonesian anime scraper",
+            "commit": "6588013f3f126635c6c82a9fb2d6ee270213285d",
+            "link_commit": "https://github.com/sinkaroid/antk/commit/6588013f3f126635c6c82a9fb2d6ee270213285d",
+            "release": "redcolumn"
         },
         {
             "name": "weevcrot",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/weevcrot_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/weevcrot_master.webp"
                 }
             ],
             "technologies": [
@@ -633,13 +726,16 @@
             "github": "https://github.com/sinkaroid/weevcrot",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/weevcrot",
-            "description": "Extended weevely backdoor over the network at runtime."
+            "description": "Extended weevely backdoor over the network at runtime.",
+            "commit": "1312f84df57b23c68eb9a5903424a3fc87ac7888",
+            "link_commit": "https://github.com/sinkaroid/weevcrot/commit/1312f84df57b23c68eb9a5903424a3fc87ac7888",
+            "release": "pre-release"
         },
         {
             "name": "Shell-Checker",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Shell-Checker_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Shell-Checker_master.webp"
                 }
             ],
             "technologies": [
@@ -652,13 +748,16 @@
             "github": "https://github.com/sinkaroid/Shell-Checker",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Shell-Checker",
-            "description": "A php source for track ur webshell( shell uploaded on your victim) to identify if still found or gone."
+            "description": "A php source for track ur webshell( shell uploaded on your victim) to identify if still found or gone.",
+            "commit": "4a07af9578d679413e72ca2c88bee8e95385fa84",
+            "link_commit": "https://github.com/sinkaroid/Shell-Checker/commit/4a07af9578d679413e72ca2c88bee8e95385fa84",
+            "release": "pre-release"
         },
         {
             "name": "Stupidc0de-Shell-2016",
             "pictures": [
                 {
-                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Stupidc0de-Shell-2016_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Stupidc0de-Shell-2016_master.webp"
                 }
             ],
             "technologies": [
@@ -671,8 +770,11 @@
             "github": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
-            "description": "Sc0Shell, Development based on b374k and Gallers Shell."
+            "description": "Sc0Shell, Development based on b374k and Gallers Shell.",
+            "commit": "8bcdcc1073216b53a893e3d4e941e0715f42e9b4",
+            "link_commit": "https://github.com/sinkaroid/Stupidc0de-Shell-2016/commit/8bcdcc1073216b53a893e3d4e941e0715f42e9b4",
+            "release": "pre-release"
         }
     ],
-    "sha_commit": "edf712c4990648769a713f6e97f5970267ffabbf"
+    "sha_commit": "42eaaffacd9ff7ef3bb3efe45c02f868eebd547c"
 }

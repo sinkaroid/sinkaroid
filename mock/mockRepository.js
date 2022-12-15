@@ -91,7 +91,7 @@ let info = {
       date: "2015 - 2018",
       position: "Defacer - Exploiter",
       description:
-        "A limited company and is completely Blackhat for it's services. After pwned the targets, We just collected a webshells & root data and sell them to foreigners end users, chinese spammer were rely on us.",
+        "A limited company and is completely Blackhat for it's services. We just collected a webshells & root data and sell them to end users, chinese spammer were rely on us.",
       skills: [
         "Backdoor",
         "Mailers",
@@ -207,7 +207,8 @@ let info = {
         "Arbitrarily forehead",
         "Perhaps will annoying you with fuckton of questions if I'm curious about something",
       ],
-      icon: "fa fa-ban",
+      icon: "fa fa-heart-broken",
+      
     },
   ],
   portfolio: data,
