@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-15, 12:22:29",
+    "last_sync": "2022-12-15, 06:00:56",
     "data": [
         {
             "name": "booru",
@@ -59,7 +59,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 12 hours ago)",
+            "date": "June 03, 2022 (Updated: 6 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://janda.mod.land",
@@ -109,7 +109,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 15 days ago)",
+            "date": "March 18, 2022 (Updated: 23 minutes ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
@@ -154,13 +154,13 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: 2 days ago)",
+            "date": "August 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "42eaaffacd9ff7ef3bb3efe45c02f868eebd547c",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/42eaaffacd9ff7ef3bb3efe45c02f868eebd547c",
+            "commit": "1beb72b3c32531168fb70a8e35c16629f85e7df4",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/1beb72b3c32531168fb70a8e35c16629f85e7df4",
             "release": "2.0.5-dev"
         },
         {
@@ -776,5 +776,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "42eaaffacd9ff7ef3bb3efe45c02f868eebd547c"
+    "sha_commit": "1beb72b3c32531168fb70a8e35c16629f85e7df4"
 }
