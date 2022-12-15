@@ -3,7 +3,13 @@ const fs = require("fs");
 const moment = require("moment");
 const today = moment().format("YYYY-MM-DD");
 const time = moment().format("HH:mm:ss");
-const GH_TOKEN = process.argv.slice(2)[0];
+require('dotenv').config()
+
+let GH_TOKEN;
+if (!process.argv.slice(2)[0]) GH_TOKEN = process.env.GH_TOKEN;
+else GH_TOKEN = process.argv.slice(2)[0];
+
+
 
 async function pendingSebentar(ms) {
   await new Promise((resolve) => setTimeout(resolve, ms));
@@ -59,12 +65,17 @@ const project = {
     },
     {
       user: "sinkaroid",
-      name: "jigoku",
+      name: "scathach-api",
       branch: "master",
     },
     {
       user: "sinkaroid",
       name: "jandapress",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "jigoku",
       branch: "master",
     },
     {
@@ -75,11 +86,6 @@ const project = {
     {
       user: "sinkaroid",
       name: "eiyuu",
-      branch: "master",
-    },
-    {
-      user: "sinkaroid",
-      name: "scathach-api",
       branch: "master",
     },
     {
@@ -234,11 +240,21 @@ const getInfo = async () => {
       { headers: { Authorization: `token ${GH_TOKEN}` } }
     );
 
-    await pendingSebentar(1000);
+    await pendingSebentar(2000);
     let resSha = await axios.get(
       `https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}/commits/${project.repo[i].branch}`,
       { headers: { Authorization: `token ${GH_TOKEN}` } }
     );
+
+    await pendingSebentar(2000);
+    let tagsData = await axios.get(
+      `https://api.github.com/repos/${project.repo[i].user}/${project.repo[i].name}/tags`,
+      { headers: { Authorization: `token ${GH_TOKEN}` } }
+    );
+
+    let release;
+    if (tagsData.data.length == 0) release = "pre-release";
+    else release = tagsData.data[0].name;
 
     let topics = res.data.topics;
     topics.unshift(res.data.language);
@@ -271,8 +287,8 @@ const getInfo = async () => {
     info.push({
       name: res.data.name,
       pictures: [
-        {
-          img: `https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`,
+        { // https://raw.githubusercontent.com | though
+          img: `https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`,
         },
       ],
       technologies: topics,
@@ -284,7 +300,10 @@ const getInfo = async () => {
       bahasa: bahasa,
       visit: res.data.homepage ? res.data.homepage : res.data.html_url,
       description: res.data.description,
-      //sha: resSha.data.sha,
+      commit: resSha.data.sha,
+      link_commit: `https://github.com/${project.repo[i].user}/${project.repo[i].name}/commit/${resSha.data.sha}`,
+      release: release,
+      
     });
     console.log(
       `Pushing ${project.repo[i].name} #${project.repo[i].branch} to portfolio data`
@@ -304,7 +323,7 @@ const getInfo = async () => {
       })
       .catch((err) => console.log(err));
 
-    await pendingSebentar(1000);
+    await pendingSebentar(2000);
   }
   return info;
 };
