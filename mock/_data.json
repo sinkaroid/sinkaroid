@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-15, 12:22:29",
+    "last_sync": "2022-12-17, 22:32:12",
     "data": [
         {
             "name": "booru",
@@ -16,7 +16,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 7 days ago)",
+            "date": "April 07, 2022 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/booru",
@@ -36,7 +36,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 15 days ago)",
+            "date": "December 26, 2020 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/scathach-api",
@@ -59,7 +59,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 12 hours ago)",
+            "date": "June 03, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://janda.mod.land",
@@ -85,7 +85,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "December 04, 2022 (Updated: 7 days ago)",
+            "date": "December 04, 2022 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/jigoku",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/jigoku",
@@ -109,7 +109,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 15 days ago)",
+            "date": "March 18, 2022 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
@@ -132,7 +132,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 15 days ago)",
+            "date": "August 14, 2022 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://eiyuu.js.org",
@@ -142,26 +142,33 @@
             "release": "1.0.12-alpha"
         },
         {
-            "name": "sinkaroid",
+            "name": "janda",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/sinkaroid_master.webp"
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/janda_master.webp"
                 }
             ],
             "technologies": [
-                "Vue",
-                "minimalist-design",
-                "vuejs"
+                "Python",
+                "asmhentai",
+                "asyncio",
+                "doujinshi",
+                "hentai2read",
+                "hentaifox",
+                "hybrid",
+                "nhentai",
+                "pururin",
+                "simply-hentai"
             ],
-            "category": "Vue",
-            "date": "August 03, 2022 (Updated: 2 days ago)",
-            "github": "https://github.com/sinkaroid/sinkaroid",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://sinkaroid.org",
-            "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "42eaaffacd9ff7ef3bb3efe45c02f868eebd547c",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/42eaaffacd9ff7ef3bb3efe45c02f868eebd547c",
-            "release": "2.0.5-dev"
+            "category": "Python",
+            "date": "March 15, 2022 (Updated: 17 days ago)",
+            "github": "https://github.com/sinkaroid/janda",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://sinkaroid.github.io/janda",
+            "description": "Python library for Jandapress",
+            "commit": "fc5d58e5bef399f01722defded471c79c4496171",
+            "link_commit": "https://github.com/sinkaroid/janda/commit/fc5d58e5bef399f01722defded471c79c4496171",
+            "release": "3.0.14-dev"
         },
         {
             "name": "da-vinci",
@@ -177,7 +184,7 @@
                 "probot"
             ],
             "category": "TypeScript",
-            "date": "October 03, 2022 (Updated: 4 days ago)",
+            "date": "October 03, 2022 (Updated: 6 days ago)",
             "github": "https://github.com/ScathachGrip/da-vinci",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://davinci.sinkaroid.org",
@@ -185,6 +192,74 @@
             "commit": "89e2478a150c17de25dd3ef97ce7568d35b9abb4",
             "link_commit": "https://github.com/scathachgrip/da-vinci/commit/89e2478a150c17de25dd3ef97ce7568d35b9abb4",
             "release": "pre-release"
+        },
+        {
+            "name": "jikan4snek",
+            "pictures": [
+                {
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jikan4snek_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "jikan",
+                "jikan-api",
+                "myanimelist"
+            ],
+            "category": "Python",
+            "date": "December 17, 2022 (Updated: an hour ago)",
+            "github": "https://github.com/ScathachGrip/jikan4snek",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://scathachgrip.github.io/jikan4snek",
+            "description": "Python client for Jikan.moe, MyAnimeList unofficial API with good intentions.",
+            "commit": "9b75c05f66ecba1db61149feca54729f4e3c54f0",
+            "link_commit": "https://github.com/ScathachGrip/jikan4snek/commit/9b75c05f66ecba1db61149feca54729f4e3c54f0",
+            "release": "4.0.1-alpha"
+        },
+        {
+            "name": "jalter",
+            "pictures": [
+                {
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jalter_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "discord",
+                "selfbot"
+            ],
+            "category": "TypeScript",
+            "date": "January 21, 2022 (Updated: 18 days ago)",
+            "github": "https://github.com/sinkaroid/jalter",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/jalter",
+            "description": "A NodeJS wrapper for Discord Selfbot",
+            "commit": "1c10be36b365c2d6cca6b46f88dd62740f343ad2",
+            "link_commit": "https://github.com/sinkaroid/jalter/commit/1c10be36b365c2d6cca6b46f88dd62740f343ad2",
+            "release": "3.0.4-dev"
+        },
+        {
+            "name": "cabul",
+            "pictures": [
+                {
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/cabul_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "nsfw",
+                "reddit",
+                "reddit-api"
+            ],
+            "category": "TypeScript",
+            "date": "March 24, 2021 (Updated: 18 days ago)",
+            "github": "https://github.com/sinkaroid/cabul",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/cabul",
+            "description": "Subreddit API but proxied and NSFW only..",
+            "commit": "b9a8c5108a59225e0fa1f524a124b39cde047ac5",
+            "link_commit": "https://github.com/sinkaroid/cabul/commit/b9a8c5108a59225e0fa1f524a124b39cde047ac5",
+            "release": "0.0.22.dev"
         },
         {
             "name": "disgrowth",
@@ -210,6 +285,48 @@
             "release": "1.0.7-alpha"
         },
         {
+            "name": "disgrow",
+            "pictures": [
+                {
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrow_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "June 28, 2022 (Updated: 18 days ago)",
+            "github": "https://github.com/sinkaroid/disgrow",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://disgrow.js.org",
+            "description": "A growth increments for your Discord bots",
+            "commit": "9135a6a35e74914e989e903e3b82ce65aac712e9",
+            "link_commit": "https://github.com/sinkaroid/disgrow/commit/9135a6a35e74914e989e903e3b82ce65aac712e9",
+            "release": "1.0.20-dev"
+        },
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "minimalist-design",
+                "vuejs"
+            ],
+            "category": "Vue",
+            "date": "August 03, 2022 (Updated: 4 days ago)",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "A general purpose Vue.js portfolio template with minimalist in mind",
+            "commit": "b9dfcb5759d1204c23145c7aaee47bcb67a7a1b3",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/b9dfcb5759d1204c23145c7aaee47bcb67a7a1b3",
+            "release": "2.0.9-dev"
+        },
+        {
             "name": "hensuki",
             "pictures": [
                 {
@@ -231,57 +348,6 @@
             "commit": "c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
             "link_commit": "https://github.com/sinkaroid/hensuki/commit/c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
             "release": "2.0"
-        },
-        {
-            "name": "jalter",
-            "pictures": [
-                {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jalter_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "discord",
-                "selfbot"
-            ],
-            "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 15 days ago)",
-            "github": "https://github.com/sinkaroid/jalter",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://sinkaroid.github.io/jalter",
-            "description": "A NodeJS wrapper for Discord Selfbot",
-            "commit": "1c10be36b365c2d6cca6b46f88dd62740f343ad2",
-            "link_commit": "https://github.com/sinkaroid/jalter/commit/1c10be36b365c2d6cca6b46f88dd62740f343ad2",
-            "release": "3.0.4-dev"
-        },
-        {
-            "name": "janda",
-            "pictures": [
-                {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/janda_master.webp"
-                }
-            ],
-            "technologies": [
-                "Python",
-                "asmhentai",
-                "asyncio",
-                "doujinshi",
-                "hentai2read",
-                "hentaifox",
-                "hybrid",
-                "nhentai",
-                "pururin",
-                "simply-hentai"
-            ],
-            "category": "Python",
-            "date": "March 15, 2022 (Updated: 14 days ago)",
-            "github": "https://github.com/sinkaroid/janda",
-            "bahasa": "https://skillicons.dev/icons?i=python",
-            "visit": "https://sinkaroid.github.io/janda",
-            "description": "Python library for Jandapress",
-            "commit": "fc5d58e5bef399f01722defded471c79c4496171",
-            "link_commit": "https://github.com/sinkaroid/janda/commit/fc5d58e5bef399f01722defded471c79c4496171",
-            "release": "3.0.14-dev"
         },
         {
             "name": "badut",
@@ -307,29 +373,6 @@
             "name": "cabul",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/cabul_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "nsfw",
-                "reddit",
-                "reddit-api"
-            ],
-            "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 15 days ago)",
-            "github": "https://github.com/sinkaroid/cabul",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://sinkaroid.github.io/cabul",
-            "description": "Subreddit API but proxied and NSFW only..",
-            "commit": "b9a8c5108a59225e0fa1f524a124b39cde047ac5",
-            "link_commit": "https://github.com/sinkaroid/cabul/commit/b9a8c5108a59225e0fa1f524a124b39cde047ac5",
-            "release": "0.0.22.dev"
-        },
-        {
-            "name": "cabul",
-            "pictures": [
-                {
                     "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/cabul_proxy.webp"
                 }
             ],
@@ -340,7 +383,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 15 days ago)",
+            "date": "March 24, 2021 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -353,26 +396,6 @@
             "name": "disgrow",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrow_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript"
-            ],
-            "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 15 days ago)",
-            "github": "https://github.com/sinkaroid/disgrow",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://disgrow.js.org",
-            "description": "A growth increments for your Discord bots",
-            "commit": "9135a6a35e74914e989e903e3b82ce65aac712e9",
-            "link_commit": "https://github.com/sinkaroid/disgrow/commit/9135a6a35e74914e989e903e3b82ce65aac712e9",
-            "release": "1.0.20-dev"
-        },
-        {
-            "name": "disgrow",
-            "pictures": [
-                {
                     "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrow_api.webp"
                 }
             ],
@@ -380,7 +403,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 15 days ago)",
+            "date": "June 28, 2022 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -451,7 +474,7 @@
                 "http-requests"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 8 months ago)",
+            "date": "August 10, 2020 (Updated: 9 months ago)",
             "github": "https://github.com/sinkaroid/shielder",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/shielder",
@@ -591,7 +614,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 12 days ago)",
+            "date": "March 06, 2019 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
@@ -776,5 +799,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "42eaaffacd9ff7ef3bb3efe45c02f868eebd547c"
+    "sha_commit": "b9dfcb5759d1204c23145c7aaee47bcb67a7a1b3"
 }
