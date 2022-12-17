@@ -90,7 +90,7 @@ const project = {
     },
     {
       user: "sinkaroid",
-      name: "sinkaroid",
+      name: "janda",
       branch: "master",
     },
     {
@@ -99,13 +99,8 @@ const project = {
       branch: "master",
     },
     {
-      user: "sinkaroid",
-      name: "disgrowth",
-      branch: "master",
-    },
-    {
-      user: "sinkaroid",
-      name: "hensuki",
+      user: "ScathachGrip",
+      name: "jikan4snek",
       branch: "master",
     },
     {
@@ -115,7 +110,27 @@ const project = {
     },
     {
       user: "sinkaroid",
-      name: "janda",
+      name: "cabul",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "disgrowth",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "disgrow",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "sinkaroid",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "hensuki",
       branch: "master",
     },
     {
@@ -126,17 +141,7 @@ const project = {
     {
       user: "sinkaroid",
       name: "cabul",
-      branch: "master",
-    },
-    {
-      user: "sinkaroid",
-      name: "cabul",
       branch: "proxy",
-    },
-    {
-      user: "sinkaroid",
-      name: "disgrow",
-      branch: "master",
     },
     {
       user: "sinkaroid",
@@ -303,7 +308,7 @@ const getInfo = async () => {
       commit: resSha.data.sha,
       link_commit: `https://github.com/${project.repo[i].user}/${project.repo[i].name}/commit/${resSha.data.sha}`,
       release: release,
-      
+
     });
     console.log(
       `Pushing ${project.repo[i].name} #${project.repo[i].branch} to portfolio data`
