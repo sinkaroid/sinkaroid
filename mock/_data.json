@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-17, 22:32:12",
+    "last_sync": "2022-12-18, 02:18:31",
     "data": [
         {
             "name": "booru",
@@ -85,7 +85,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "December 04, 2022 (Updated: 9 days ago)",
+            "date": "December 04, 2022 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/jigoku",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/jigoku",
@@ -184,7 +184,7 @@
                 "probot"
             ],
             "category": "TypeScript",
-            "date": "October 03, 2022 (Updated: 6 days ago)",
+            "date": "October 03, 2022 (Updated: 7 days ago)",
             "github": "https://github.com/ScathachGrip/da-vinci",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://davinci.sinkaroid.org",
@@ -207,7 +207,7 @@
                 "myanimelist"
             ],
             "category": "Python",
-            "date": "December 17, 2022 (Updated: an hour ago)",
+            "date": "December 17, 2022 (Updated: 5 hours ago)",
             "github": "https://github.com/ScathachGrip/jikan4snek",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://scathachgrip.github.io/jikan4snek",
@@ -322,8 +322,8 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "b9dfcb5759d1204c23145c7aaee47bcb67a7a1b3",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/b9dfcb5759d1204c23145c7aaee47bcb67a7a1b3",
+            "commit": "33779de593869807692b3fc6b10ad964ad03cda5",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/33779de593869807692b3fc6b10ad964ad03cda5",
             "release": "2.0.9-dev"
         },
         {
@@ -799,5 +799,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "b9dfcb5759d1204c23145c7aaee47bcb67a7a1b3"
+    "sha_commit": "33779de593869807692b3fc6b10ad964ad03cda5"
 }
