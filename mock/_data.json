@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-24, 02:16:04",
+    "last_sync": "2022-12-25, 02:21:48",
     "data": [
         {
             "name": "booru",
@@ -16,7 +16,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 16 days ago)",
+            "date": "April 07, 2022 (Updated: 17 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/booru",
@@ -36,7 +36,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 6 days ago)",
+            "date": "December 26, 2020 (Updated: 7 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/scathach-api",
@@ -59,13 +59,13 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 21 hours ago)",
+            "date": "June 03, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jandapress",
             "description": "RESTful and experimental API for the doujinshi. Pressing the whole nhentai, pururin, hentaifox, and more.. where the official web is lack.",
-            "commit": "18b50eaed3644068acb1aee04b13e02236746276",
-            "link_commit": "https://github.com/sinkaroid/jandapress/commit/18b50eaed3644068acb1aee04b13e02236746276",
+            "commit": "c316ae5f46e7bb84dfe35b80a4d2e34c1e3c3b2f",
+            "link_commit": "https://github.com/sinkaroid/jandapress/commit/c316ae5f46e7bb84dfe35b80a4d2e34c1e3c3b2f",
             "release": "2.0.4-dev"
         },
         {
@@ -85,7 +85,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "December 04, 2022 (Updated: 16 days ago)",
+            "date": "December 04, 2022 (Updated: 17 days ago)",
             "github": "https://github.com/sinkaroid/jigoku",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/jigoku",
@@ -109,7 +109,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 9 days ago)",
+            "date": "March 18, 2022 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
@@ -132,7 +132,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 24 days ago)",
+            "date": "August 14, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://eiyuu.js.org",
@@ -161,7 +161,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 5 days ago)",
+            "date": "March 15, 2022 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/janda",
@@ -184,7 +184,7 @@
                 "probot"
             ],
             "category": "TypeScript",
-            "date": "October 03, 2022 (Updated: 13 days ago)",
+            "date": "October 03, 2022 (Updated: 14 days ago)",
             "github": "https://github.com/ScathachGrip/da-vinci",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://davinci.sinkaroid.org",
@@ -207,7 +207,7 @@
                 "myanimelist"
             ],
             "category": "Python",
-            "date": "December 17, 2022 (Updated: 3 days ago)",
+            "date": "December 17, 2022 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/jikan4snek",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://scathachgrip.github.io/jikan4snek",
@@ -229,7 +229,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 24 days ago)",
+            "date": "January 21, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jalter",
@@ -252,7 +252,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 24 days ago)",
+            "date": "March 24, 2021 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -295,7 +295,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 24 days ago)",
+            "date": "June 28, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -317,13 +317,13 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: 10 days ago)",
+            "date": "August 03, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "cdbce36f7a10f28a4734fbbbe58738dd3806309b",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/cdbce36f7a10f28a4734fbbbe58738dd3806309b",
+            "commit": "e3456b66bf995f5a23a541c32e6ebe10ec3b7ec1",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/e3456b66bf995f5a23a541c32e6ebe10ec3b7ec1",
             "release": "2.0.9-dev"
         },
         {
@@ -383,7 +383,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 24 days ago)",
+            "date": "March 24, 2021 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -403,7 +403,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 24 days ago)",
+            "date": "June 28, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -568,7 +568,7 @@
                 "nsfw"
             ],
             "category": "Python",
-            "date": "August 17, 2019 (Updated: 6 months ago)",
+            "date": "August 17, 2019 (Updated: 7 months ago)",
             "github": "https://github.com/sinkaroid/illustrator-tracker",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/illustrator-tracker",
@@ -614,7 +614,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 20 days ago)",
+            "date": "March 06, 2019 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
@@ -799,5 +799,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "cdbce36f7a10f28a4734fbbbe58738dd3806309b"
+    "sha_commit": "e3456b66bf995f5a23a541c32e6ebe10ec3b7ec1"
 }
