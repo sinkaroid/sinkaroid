@@ -3,7 +3,7 @@ const fs = require("fs");
 const moment = require("moment");
 const today = moment().format("YYYY-MM-DD");
 const time = moment().format("HH:mm:ss");
-require('dotenv').config()
+require("dotenv").config();
 
 let GH_TOKEN;
 if (!process.argv.slice(2)[0]) GH_TOKEN = process.env.GH_TOKEN;
@@ -101,6 +101,11 @@ const project = {
     {
       user: "ScathachGrip",
       name: "jikan4snek",
+      branch: "master",
+    },
+    {
+      user: "ScathachGrip",
+      name: "apidocjs-theme",
       branch: "master",
     },
     {
@@ -292,8 +297,8 @@ const getInfo = async () => {
     info.push({
       name: res.data.name,
       pictures: [
-        { // https://raw.githubusercontent.com | though
-          img: `https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`,
+        { // https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/ | though
+          img: `https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/${project.repo[i].name}_${project.repo[i].branch}.webp`,
         },
       ],
       technologies: topics,
