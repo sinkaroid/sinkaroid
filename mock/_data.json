@@ -1,11 +1,11 @@
 {
-    "last_sync": "2022-12-25, 02:21:48",
+    "last_sync": "2022-12-25, 16:42:38",
     "data": [
         {
             "name": "booru",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/booru_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/booru_master.webp"
                 }
             ],
             "technologies": [
@@ -29,7 +29,7 @@
             "name": "scathach-api",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/scathach-api_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/scathach-api_master.webp"
                 }
             ],
             "technologies": [
@@ -49,7 +49,7 @@
             "name": "jandapress",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jandapress_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jandapress_master.webp"
                 }
             ],
             "technologies": [
@@ -72,7 +72,7 @@
             "name": "jigoku",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jigoku_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jigoku_master.webp"
                 }
             ],
             "technologies": [
@@ -98,7 +98,7 @@
             "name": "tomoe",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/tomoe_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/tomoe_master.webp"
                 }
             ],
             "technologies": [
@@ -122,7 +122,7 @@
             "name": "eiyuu",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/eiyuu_master.webp"
                 }
             ],
             "technologies": [
@@ -132,7 +132,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: 25 days ago)",
+            "date": "August 14, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://eiyuu.js.org",
@@ -145,7 +145,7 @@
             "name": "janda",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/janda_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/janda_master.webp"
                 }
             ],
             "technologies": [
@@ -161,7 +161,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 6 days ago)",
+            "date": "March 15, 2022 (Updated: 7 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/janda",
@@ -174,7 +174,7 @@
             "name": "da-vinci",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/da-vinci_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/da-vinci_master.webp"
                 }
             ],
             "technologies": [
@@ -197,7 +197,7 @@
             "name": "jikan4snek",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jikan4snek_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jikan4snek_master.webp"
                 }
             ],
             "technologies": [
@@ -217,10 +217,30 @@
             "release": "4.2.1-alpha"
         },
         {
+            "name": "apidocjs-theme",
+            "pictures": [
+                {
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/apidocjs-theme_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript"
+            ],
+            "category": "JavaScript",
+            "date": "December 22, 2022 (Updated: 3 days ago)",
+            "github": "https://github.com/ScathachGrip/apidocjs-theme",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://github.com/ScathachGrip/apidocjs-theme",
+            "description": "A theme collection that empower your https://apidocjs.com definitions",
+            "commit": "4048b47d3a42f796801565f46d304810373ad892",
+            "link_commit": "https://github.com/ScathachGrip/apidocjs-theme/commit/4048b47d3a42f796801565f46d304810373ad892",
+            "release": "v9"
+        },
+        {
             "name": "jalter",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/jalter_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/jalter_master.webp"
                 }
             ],
             "technologies": [
@@ -229,7 +249,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 25 days ago)",
+            "date": "January 21, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jalter",
@@ -242,7 +262,7 @@
             "name": "cabul",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/cabul_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/cabul_master.webp"
                 }
             ],
             "technologies": [
@@ -265,7 +285,7 @@
             "name": "disgrowth",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrowth_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/disgrowth_master.webp"
                 }
             ],
             "technologies": [
@@ -288,14 +308,14 @@
             "name": "disgrow",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrow_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/disgrow_master.webp"
                 }
             ],
             "technologies": [
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 25 days ago)",
+            "date": "June 28, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -308,7 +328,7 @@
             "name": "sinkaroid",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/sinkaroid_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/sinkaroid_master.webp"
                 }
             ],
             "technologies": [
@@ -317,20 +337,20 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: 11 days ago)",
+            "date": "August 03, 2022 (Updated: 12 days ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "e3456b66bf995f5a23a541c32e6ebe10ec3b7ec1",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/e3456b66bf995f5a23a541c32e6ebe10ec3b7ec1",
+            "commit": "2581a8a37c212f2a5e0f8fcbd219ea5769062f70",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/2581a8a37c212f2a5e0f8fcbd219ea5769062f70",
             "release": "2.0.9-dev"
         },
         {
             "name": "hensuki",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/hensuki_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/hensuki_master.webp"
                 }
             ],
             "technologies": [
@@ -353,7 +373,7 @@
             "name": "badut",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/badut_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/badut_master.webp"
                 }
             ],
             "technologies": [
@@ -373,7 +393,7 @@
             "name": "cabul",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/cabul_proxy.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/cabul_proxy.webp"
                 }
             ],
             "technologies": [
@@ -396,14 +416,14 @@
             "name": "disgrow",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/disgrow_api.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/disgrow_api.webp"
                 }
             ],
             "technologies": [
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 25 days ago)",
+            "date": "June 28, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -416,7 +436,7 @@
             "name": "simpleocr",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/simpleocr_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/simpleocr_master.webp"
                 }
             ],
             "technologies": [
@@ -439,7 +459,7 @@
             "name": "umarun",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/umarun_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/umarun_master.webp"
                 }
             ],
             "technologies": [
@@ -463,7 +483,7 @@
             "name": "shielder",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/shielder_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/shielder_master.webp"
                 }
             ],
             "technologies": [
@@ -487,7 +507,7 @@
             "name": "pururin",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/pururin_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/pururin_master.webp"
                 }
             ],
             "technologies": [
@@ -510,7 +530,7 @@
             "name": "strygwyr",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/strygwyr_main.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/strygwyr_main.webp"
                 }
             ],
             "technologies": [
@@ -534,7 +554,7 @@
             "name": "behoifer",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/behoifer_main.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/behoifer_main.webp"
                 }
             ],
             "technologies": [
@@ -557,7 +577,7 @@
             "name": "illustrator-tracker",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/illustrator-tracker_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/illustrator-tracker_master.webp"
                 }
             ],
             "technologies": [
@@ -581,7 +601,7 @@
             "name": "dotabuff",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/dotabuff_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/dotabuff_master.webp"
                 }
             ],
             "technologies": [
@@ -605,7 +625,7 @@
             "name": "Simple-logbait",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Simple-logbait_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Simple-logbait_master.webp"
                 }
             ],
             "technologies": [
@@ -614,7 +634,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 21 days ago)",
+            "date": "March 06, 2019 (Updated: 22 days ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
@@ -627,7 +647,7 @@
             "name": "Blackjasmine",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Blackjasmine_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Blackjasmine_master.webp"
                 }
             ],
             "technologies": [
@@ -650,7 +670,7 @@
             "name": "Blackseroja",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Blackseroja_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Blackseroja_master.webp"
                 }
             ],
             "technologies": [
@@ -670,7 +690,7 @@
             "name": "HiddenFlower",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/HiddenFlower_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/HiddenFlower_master.webp"
                 }
             ],
             "technologies": [
@@ -691,7 +711,7 @@
             "name": "webNovelCrawler",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/webNovelCrawler_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/webNovelCrawler_master.webp"
                 }
             ],
             "technologies": [
@@ -714,7 +734,7 @@
             "name": "antk",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/antk_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/antk_master.webp"
                 }
             ],
             "technologies": [
@@ -738,7 +758,7 @@
             "name": "weevcrot",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/weevcrot_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/weevcrot_master.webp"
                 }
             ],
             "technologies": [
@@ -758,7 +778,7 @@
             "name": "Shell-Checker",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Shell-Checker_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Shell-Checker_master.webp"
                 }
             ],
             "technologies": [
@@ -780,7 +800,7 @@
             "name": "Stupidc0de-Shell-2016",
             "pictures": [
                 {
-                    "img": "https://cdn.statically.io/gh/sinkaroid/sinkaroid/master/assets/oss/Stupidc0de-Shell-2016_master.webp"
+                    "img": "https://raw.githubusercontent.com/sinkaroid/sinkaroid/master/assets/oss/Stupidc0de-Shell-2016_master.webp"
                 }
             ],
             "technologies": [
@@ -799,5 +819,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "e3456b66bf995f5a23a541c32e6ebe10ec3b7ec1"
+    "sha_commit": "2581a8a37c212f2a5e0f8fcbd219ea5769062f70"
 }
