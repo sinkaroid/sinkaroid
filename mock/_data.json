@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-25, 16:42:38",
+    "last_sync": "2022-12-25, 09:54:47",
     "data": [
         {
             "name": "booru",
@@ -132,7 +132,7 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: a month ago)",
+            "date": "August 14, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://eiyuu.js.org",
@@ -161,7 +161,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 7 days ago)",
+            "date": "March 15, 2022 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/janda",
@@ -249,7 +249,7 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: a month ago)",
+            "date": "January 21, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jalter",
@@ -315,7 +315,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: a month ago)",
+            "date": "June 28, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -337,13 +337,13 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: 12 days ago)",
+            "date": "August 03, 2022 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "2581a8a37c212f2a5e0f8fcbd219ea5769062f70",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/2581a8a37c212f2a5e0f8fcbd219ea5769062f70",
+            "commit": "52769fd1475aafc3aedf6095f0238563840bf7cd",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/52769fd1475aafc3aedf6095f0238563840bf7cd",
             "release": "2.0.9-dev"
         },
         {
@@ -423,7 +423,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: a month ago)",
+            "date": "June 28, 2022 (Updated: 25 days ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -819,5 +819,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "2581a8a37c212f2a5e0f8fcbd219ea5769062f70"
+    "sha_commit": "52769fd1475aafc3aedf6095f0238563840bf7cd"
 }
