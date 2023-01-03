@@ -106,8 +106,26 @@ export default {
 
 <style>
 
+@font-face {
+  font-family: "Wotfard";
+  src: url("./../assets/fonts/wotfard-regular-webfont.ttf");
+}
+
+/*
+elek asu
 #app {
   font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width: 100%;
+}
+
+*/
+
+#app {
+  font-family: "Wotfard";
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
