@@ -11,7 +11,7 @@
             <span><a href="#" @click.prevent="open(portfolio.link)" :class="{ 'text-light': nightMode }">{{
                 portfolio.title
             }}</a></span>
-            <a class="pull-right" style="font-size: 18px" @click="$emit('close')"><i class="fas fa-times"></i></a>
+            <a class="pull-right" style="font-size: 18px; float: right;" @click="$emit('close')"><i class="fas fa-times"></i></a>
             <hr class="my-1" :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
           </div>
           <div class="modal-body my-0 pb-0 px-4 pt-0">

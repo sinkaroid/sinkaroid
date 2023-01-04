@@ -20,12 +20,13 @@
           ><b>I do anime & manga, here my recent activity</b></span
         ><br />
         <a href="https://jikan.docs.apiary.io/#" target="_blank">Jikan API</a>
-        helps me to synchronize with MyAnimeList user feeds with ease
+        helps me to synchronize <a href="https://myanimelist.net/profile/sinkaroid" target="_blank">@sinkaroid</a> user feeds with ease
       </div>
       <hr
         width="50%"
         :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
       />
+
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
         <v-tab title="Anime">

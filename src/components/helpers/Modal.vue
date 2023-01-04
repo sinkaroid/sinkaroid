@@ -21,7 +21,7 @@
             >
             <a
               class="pull-right"
-              style="font-size: 18px"
+              style="font-size: 18px; float: right;"
               @click="$emit('close')"
               ><i class="fas fa-times"></i
             ></a>
