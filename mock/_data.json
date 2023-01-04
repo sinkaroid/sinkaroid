@@ -1,5 +1,5 @@
 {
-    "last_sync": "2022-12-25, 16:42:38",
+    "last_sync": "2023-01-04, 00:02:53",
     "data": [
         {
             "name": "booru",
@@ -16,7 +16,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 17 days ago)",
+            "date": "April 07, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/booru",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/booru",
@@ -36,7 +36,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 7 days ago)",
+            "date": "December 26, 2020 (Updated: 16 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/scathach-api",
@@ -59,7 +59,7 @@
                 "pururin"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 2 days ago)",
+            "date": "June 03, 2022 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jandapress",
@@ -85,7 +85,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "December 04, 2022 (Updated: 17 days ago)",
+            "date": "December 04, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/jigoku",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/jigoku",
@@ -109,7 +109,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 10 days ago)",
+            "date": "March 18, 2022 (Updated: 20 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
@@ -161,7 +161,7 @@
                 "simply-hentai"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: 7 days ago)",
+            "date": "March 15, 2022 (Updated: 16 days ago)",
             "github": "https://github.com/sinkaroid/janda",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/janda",
@@ -184,7 +184,7 @@
                 "probot"
             ],
             "category": "TypeScript",
-            "date": "October 03, 2022 (Updated: 14 days ago)",
+            "date": "October 03, 2022 (Updated: 24 days ago)",
             "github": "https://github.com/ScathachGrip/da-vinci",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://davinci.sinkaroid.org",
@@ -207,7 +207,7 @@
                 "myanimelist"
             ],
             "category": "Python",
-            "date": "December 17, 2022 (Updated: 4 days ago)",
+            "date": "December 17, 2022 (Updated: 14 days ago)",
             "github": "https://github.com/ScathachGrip/jikan4snek",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://scathachgrip.github.io/jikan4snek",
@@ -227,7 +227,7 @@
                 "JavaScript"
             ],
             "category": "JavaScript",
-            "date": "December 22, 2022 (Updated: 3 days ago)",
+            "date": "December 22, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/ScathachGrip/apidocjs-theme",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://github.com/ScathachGrip/apidocjs-theme",
@@ -272,7 +272,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 25 days ago)",
+            "date": "March 24, 2021 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -337,14 +337,14 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: 12 days ago)",
+            "date": "August 03, 2022 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "2581a8a37c212f2a5e0f8fcbd219ea5769062f70",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/2581a8a37c212f2a5e0f8fcbd219ea5769062f70",
-            "release": "2.0.9-dev"
+            "commit": "37de370b1855798b29c261c0d710fd357b906b4e",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/37de370b1855798b29c261c0d710fd357b906b4e",
+            "release": "3.0.0-dev"
         },
         {
             "name": "hensuki",
@@ -360,7 +360,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 2 months ago)",
+            "date": "August 08, 2019 (Updated: 3 months ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/hensuki",
@@ -403,7 +403,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 25 days ago)",
+            "date": "March 24, 2021 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -612,7 +612,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "January 30, 2020 (Updated: 9 months ago)",
+            "date": "January 30, 2020 (Updated: 10 months ago)",
             "github": "https://github.com/sinkaroid/dotabuff",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://www.dotabuff.com/",
@@ -634,7 +634,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 22 days ago)",
+            "date": "March 06, 2019 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
@@ -745,7 +745,7 @@
                 "regex"
             ],
             "category": "PHP",
-            "date": "May 25, 2019 (Updated: 8 months ago)",
+            "date": "May 25, 2019 (Updated: 9 months ago)",
             "github": "https://github.com/sinkaroid/antk",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://kato.kireisubs.org",
@@ -819,5 +819,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "2581a8a37c212f2a5e0f8fcbd219ea5769062f70"
+    "sha_commit": "37de370b1855798b29c261c0d710fd357b906b4e"
 }
