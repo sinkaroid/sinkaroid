@@ -1,6 +1,6 @@
 {
   "name": "sinkaroid",
-  "version": "3.0.1-dev",
+  "version": "3.0.2-dev",
   "description": "A general purpose Vue.js portfolio template.",
   "scripts": {
     "serve": "vue-cli-service serve",
