@@ -1,10 +1,10 @@
 # Sinkaroid here🖕
 
-I am a part time software developer mostly open-source also by trade. I have no degree alias never go to formal [college education](https://sinkaroid.org/about), so keep in mind that if you want to hire me, 
+I am a part time software developer mostly open-source also by trade. I have no degree alias never go to formal [college education](https://sinkaroid.org/about), so keep in mind that if you want to hire me, I might not remember the complexity of interpolation search algorithm, but I'm pretty good and patient enough in searching and experimenting for it! 
 
-I might not remember the complexity of interpolation search algorithm, but I'm pretty good and patient enough in searching and experimenting for it! on my profile, [PyPi](https://pypi.org/user/sinkaroid/), [npm](https://www.npmjs.com/~sinkaroid), and [Docker](https://github.com/sinkaroid?tab=packages) You'll see some of the repositories I've made for various projects.  
+On my profile, [PyPi](https://pypi.org/user/sinkaroid/), [npm](https://www.npmjs.com/~sinkaroid), and [Docker](https://github.com/sinkaroid?tab=packages) You'll see some of the repositories I've made for various projects.  
 I don't have much to say as I'm not a talkative person right now.
 
-### Don't hesitate to poke him!
+### Don't hesitate to poke and smug me
 I'm a big heart, more stress durability than anyone else, and can work under pressure.
 * [Skills](https://sinkaroid.org/skills) - [Portfolio](https://sinkaroid.org/portfolio) - [Contact](https://sinkaroid.org/contact) - [Twitter](https://twitter.com/sinkaroid) - [LinkedIn](https://linkedin.com/in/sinkaroid) - [MyAnimeList](https://myanimelist.net/profile/sinkaroid) - [Steam](https://steamcommunity.com/id/sinkaroid)
