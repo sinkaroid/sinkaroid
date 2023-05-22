@@ -1,5 +1,5 @@
 {
-    "last_sync": "2023-05-22, 00:40:35",
+    "last_sync": "2023-05-22, 02:20:16",
     "data": [
         {
             "name": "booru",
@@ -308,7 +308,7 @@
                 "subdomain"
             ],
             "category": "TypeScript",
-            "date": "April 24, 2023 (Updated: 21 hours ago)",
+            "date": "April 24, 2023 (Updated: a day ago)",
             "github": "https://github.com/ScathachGrip/merahputih.moe",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://merahputih.moe",
@@ -460,8 +460,8 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "59f8af46f4523e4d5047e9df32695b91686af135",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/59f8af46f4523e4d5047e9df32695b91686af135",
+            "commit": "0aaa3f6997fae9681375d64190f0e71eebdec827",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/0aaa3f6997fae9681375d64190f0e71eebdec827",
             "release": "3.0.1-dev"
         },
         {
@@ -525,8 +525,8 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "59f8af46f4523e4d5047e9df32695b91686af135",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/59f8af46f4523e4d5047e9df32695b91686af135",
+            "commit": "0aaa3f6997fae9681375d64190f0e71eebdec827",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/0aaa3f6997fae9681375d64190f0e71eebdec827",
             "release": "3.0.1-dev"
         },
         {
@@ -651,7 +651,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "April 21, 2020 (Updated: 32 minutes ago)",
+            "date": "April 21, 2020 (Updated: 2 hours ago)",
             "github": "https://github.com/sinkaroid/shiguresh",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/shiguresh",
@@ -989,7 +989,7 @@
                 "C"
             ],
             "category": "C",
-            "date": "January 05, 2019 (Updated: an hour ago)",
+            "date": "January 05, 2019 (Updated: 2 hours ago)",
             "github": "https://github.com/sinkaroid/localroot",
             "bahasa": "https://skillicons.dev/icons?i=c",
             "visit": "https://github.com/sinkaroid/localroot",
@@ -1150,5 +1150,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "59f8af46f4523e4d5047e9df32695b91686af135"
+    "sha_commit": "0aaa3f6997fae9681375d64190f0e71eebdec827"
 }
