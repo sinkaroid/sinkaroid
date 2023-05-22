@@ -1,11 +1,33 @@
 {
     "data_manga": [
         {
+            "title": "Bleach - Manga",
+            "link": "https://myanimelist.net/manga/12/Bleach",
+            "description": "Completed - 705 of 705 chapters",
+            "pubDate": "Wed, 17 May 2023 16:34:31 -0700",
+            "timeago": "4 days ago",
+            "id": "12",
+            "image": "https://cdn.myanimelist.net/images/manga/3/180031l.jpg",
+            "tag": [
+                "Action",
+                "Adventure",
+                "Award Winning",
+                "Fantasy"
+            ],
+            "synopsis": "For as long as he can remember, high school student Ichigo Kurosaki has been able to see the spirits of the dead, but that has not stopped him from leading an ordinary life. One day, Ichigo returns home to find an intruder in his room who introduces herself as Rukia Kuchiki, a Soul Reaper tasked with helping souls pass over. Suddenly, the two are jolted from their conversation when a Hollow—an evil spirit known for consuming souls—attacks. As Ichigo makes a brash attempt to stop the Hollow, Rukia steps in and shields him from a counterattack. Injured and unable to keep fighting, Rukia suggests a risky plan—transfer half of her Soul Reaper powers to Ichigo. He accepts and, to Rukia's surprise, ends up absorbing her powers entirely, allowing him to easily dispatch the Hollow. Now a Soul Reaper himself, Ichigo must take up Rukia's duties of exterminating Hollows and protecting spirits, both living and dead. Along with his friends Orihime Inoue and Yasutora Sado—who later discover spiritual abilities of their own—Ichigo soon learns that the consequences of becoming a Soul Reaper and dealing with the world of spirits are far greater than he ever imagined. [Written by MAL Rewrite]",
+            "pictures": [
+                {
+                    "img": "https://cdn.myanimelist.net/images/manga/3/180031l.jpg"
+                }
+            ],
+            "score": 7.83
+        },
+        {
             "title": "Shuumatsu no Walküre - Manga",
             "link": "https://myanimelist.net/manga/110485/Shuumatsu_no_Walküre",
             "description": "Reading - 47 of ? chapters",
             "pubDate": "Mon, 12 Dec 2022 00:56:11 -0800",
-            "timeago": "23 days ago",
+            "timeago": "5 months ago",
             "id": "110485",
             "image": "https://cdn.myanimelist.net/images/manga/3/209957l.jpg",
             "tag": [
@@ -18,14 +40,14 @@
                     "img": "https://cdn.myanimelist.net/images/manga/3/209957l.jpg"
                 }
             ],
-            "score": 8.14
+            "score": 8.12
         },
         {
             "title": "Tenkaichi: Nihon Saikyou Bugeisha Ketteisen - Manga",
             "link": "https://myanimelist.net/manga/139395/Tenkaichi__Nihon_Saikyou_Bugeisha_Ketteisen",
             "description": "Reading - 2 of ? chapters",
             "pubDate": "Sun, 11 Dec 2022 05:58:08 -0800",
-            "timeago": "23 days ago",
+            "timeago": "5 months ago",
             "id": "139395",
             "image": "https://cdn.myanimelist.net/images/manga/3/249038l.jpg",
             "tag": [
@@ -44,7 +66,7 @@
             "link": "https://myanimelist.net/manga/130888/Majo_Taisen__32-nin_no_Isai_no_Majo_wa_Koroshiau",
             "description": "Reading - 1 of ? chapters",
             "pubDate": "Fri, 14 Oct 2022 06:10:20 -0700",
-            "timeago": "3 months ago",
+            "timeago": "7 months ago",
             "id": "130888",
             "image": "https://cdn.myanimelist.net/images/manga/2/246864l.jpg",
             "tag": [
@@ -57,14 +79,14 @@
                     "img": "https://cdn.myanimelist.net/images/manga/2/246864l.jpg"
                 }
             ],
-            "score": 6.74
+            "score": 6.77
         },
         {
             "title": "Black Clover - Manga",
             "link": "https://myanimelist.net/manga/86337/Black_Clover",
             "description": "Reading - 272 of ? chapters",
             "pubDate": "Fri, 20 Nov 2020 15:56:46 -0800",
-            "timeago": "2 years ago",
+            "timeago": "3 years ago",
             "id": "86337",
             "image": "https://cdn.myanimelist.net/images/manga/2/166254l.jpg",
             "tag": [
@@ -85,7 +107,7 @@
             "link": "https://myanimelist.net/manga/23390/Shingeki_no_Kyojin",
             "description": "Reading - 134 of 141 chapters",
             "pubDate": "Fri, 20 Nov 2020 15:56:26 -0800",
-            "timeago": "2 years ago",
+            "timeago": "3 years ago",
             "id": "23390",
             "image": "https://cdn.myanimelist.net/images/manga/2/37846l.jpg",
             "tag": [
@@ -106,7 +128,7 @@
             "link": "https://myanimelist.net/manga/75989/Boku_no_Hero_Academia",
             "description": "Reading - 291 of ? chapters",
             "pubDate": "Fri, 20 Nov 2020 15:56:05 -0800",
-            "timeago": "2 years ago",
+            "timeago": "3 years ago",
             "id": "75989",
             "image": "https://cdn.myanimelist.net/images/manga/1/209370l.jpg",
             "tag": [
@@ -118,7 +140,7 @@
                     "img": "https://cdn.myanimelist.net/images/manga/1/209370l.jpg"
                 }
             ],
-            "score": 8.14
+            "score": 8.11
         },
         {
             "title": "Kimetsu no Yaiba - Manga",
@@ -138,7 +160,7 @@
                     "img": "https://cdn.myanimelist.net/images/manga/3/179023l.jpg"
                 }
             ],
-            "score": 8.25
+            "score": 8.24
         },
         {
             "title": "Yakusoku no Neverland - Manga",
@@ -160,7 +182,7 @@
                     "img": "https://cdn.myanimelist.net/images/manga/3/186922l.jpg"
                 }
             ],
-            "score": 8.18
+            "score": 8.17
         },
         {
             "title": "Enen no Shouboutai - Manga",
@@ -180,7 +202,7 @@
                     "img": "https://cdn.myanimelist.net/images/manga/3/178996l.jpg"
                 }
             ],
-            "score": 7.7
+            "score": 7.72
         },
         {
             "title": "Dr. Stone - Manga",
@@ -208,7 +230,7 @@
             "link": "https://myanimelist.net/manga/86119/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen",
             "description": "Reading - 2 of ? chapters",
             "pubDate": "Sun, 17 Nov 2019 10:16:07 -0800",
-            "timeago": "3 years ago",
+            "timeago": "4 years ago",
             "id": "86119",
             "image": "https://cdn.myanimelist.net/images/manga/1/149552l.jpg",
             "tag": [
@@ -220,14 +242,14 @@
                     "img": "https://cdn.myanimelist.net/images/manga/1/149552l.jpg"
                 }
             ],
-            "score": 8.69
+            "score": 8.72
         },
         {
             "title": "Kono Yuusha ga Ore Tueee Kuse ni Shinchou sugiru - Manga",
             "link": "https://myanimelist.net/manga/116772/Kono_Yuusha_ga_Ore_Tueee_Kuse_ni_Shinchou_sugiru",
             "description": "Reading - 1 of ? chapters",
             "pubDate": "Sun, 17 Nov 2019 10:14:46 -0800",
-            "timeago": "3 years ago",
+            "timeago": "4 years ago",
             "id": "116772",
             "image": "https://cdn.myanimelist.net/images/manga/2/221749l.jpg",
             "tag": [
@@ -242,14 +264,14 @@
                     "img": "https://cdn.myanimelist.net/images/manga/2/221749l.jpg"
                 }
             ],
-            "score": 7.09
+            "score": 7.1
         },
         {
             "title": "Kotoura-san - Manga",
             "link": "https://myanimelist.net/manga/43443/Kotoura-san",
             "description": "Reading - 0 of ? chapters",
             "pubDate": "Fri, 15 Nov 2019 15:10:16 -0800",
-            "timeago": "3 years ago",
+            "timeago": "4 years ago",
             "id": "43443",
             "image": "https://cdn.myanimelist.net/images/manga/1/76501l.jpg",
             "tag": [
@@ -262,14 +284,14 @@
                     "img": "https://cdn.myanimelist.net/images/manga/1/76501l.jpg"
                 }
             ],
-            "score": 7.08
+            "score": 7
         },
         {
             "title": "Netoge no Yome wa Onnanoko ja Nai to Omotta? - Manga",
             "link": "https://myanimelist.net/manga/77359/Netoge_no_Yome_wa_Onnanoko_ja_Nai_to_Omotta",
             "description": "Completed - 46 of 46 chapters",
             "pubDate": "Tue, 05 Nov 2019 11:12:43 -0800",
-            "timeago": "3 years ago",
+            "timeago": "4 years ago",
             "id": "77359",
             "image": "https://cdn.myanimelist.net/images/manga/3/157551l.jpg",
             "tag": [
@@ -283,26 +305,7 @@
                     "img": "https://cdn.myanimelist.net/images/manga/3/157551l.jpg"
                 }
             ],
-            "score": 6.88
-        },
-        {
-            "title": "Assassins Pride - Manga",
-            "link": "https://myanimelist.net/manga/105405/Assassins_Pride",
-            "description": "Reading - 1 of 59 chapters",
-            "pubDate": "Fri, 11 Oct 2019 20:40:45 -0700",
-            "timeago": "3 years ago",
-            "id": "105405",
-            "image": "https://cdn.myanimelist.net/images/manga/1/203025l.jpg",
-            "tag": [
-                "Fantasy"
-            ],
-            "synopsis": "In the world where only the aristocrats have the power to fight the monster—mana. A youth named Kufa is dispatched as a tutor to find Mareida's talent, a nuisance girl born in a duke's family. If she is not talented, assassinate her—that, is the dark side of his task... (Source: Novel Updates)",
-            "pictures": [
-                {
-                    "img": "https://cdn.myanimelist.net/images/manga/1/203025l.jpg"
-                }
-            ],
-            "score": 6.94
+            "score": 6.86
         }
     ]
 }
