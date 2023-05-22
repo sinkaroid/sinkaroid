@@ -70,11 +70,6 @@ const project = {
     },
     {
       user: "sinkaroid",
-      name: "jandapress",
-      branch: "master",
-    },
-    {
-      user: "sinkaroid",
       name: "jigoku",
       branch: "master",
     },
@@ -85,13 +80,33 @@ const project = {
     },
     {
       user: "sinkaroid",
+      name: "jandapress",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "lustpress",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
       name: "eiyuu",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "Nhentai-Stealer",
       branch: "master",
     },
     {
       user: "sinkaroid",
       name: "janda",
       branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "scathach-api.py",
+      branch: "main",
     },
     {
       user: "scathachgrip",
@@ -101,6 +116,26 @@ const project = {
     {
       user: "ScathachGrip",
       name: "jikan4snek",
+      branch: "master",
+    },
+    {
+      user: "ScathachGrip",
+      name: "merahputih.moe",
+      branch: "master",
+    },
+    {
+      user: "ScathachGrip",
+      name: "gaebolg",
+      branch: "master",
+    },
+    {
+      user: "ScathachGrip",
+      name: "reddit-proxy",
+      branch: "master",
+    },
+    {
+      user: "pokemilf",
+      name: "discord-canvas",
       branch: "master",
     },
     {
@@ -116,6 +151,11 @@ const project = {
     {
       user: "sinkaroid",
       name: "cabul",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "sinkaroid",
       branch: "master",
     },
     {
@@ -160,6 +200,11 @@ const project = {
     },
     {
       user: "sinkaroid",
+      name: "shiguresh",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
       name: "umarun",
       branch: "master",
     },
@@ -200,11 +245,6 @@ const project = {
     },
     {
       user: "sinkaroid",
-      name: "Blackjasmine",
-      branch: "master",
-    },
-    {
-      user: "sinkaroid",
       name: "Blackseroja",
       branch: "master",
     },
@@ -235,9 +275,44 @@ const project = {
     },
     {
       user: "sinkaroid",
+      name: "localroot",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "Hitomiwinsh",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "ereg_replace-decoder",
+      branch: "master",
+    },
+    {
+      user: "slemanboys",
+      name: "Magento-Grabber",
+      branch: "master",
+    },
+    {
+      user: "slemanboys",
+      name: "Tevolution-Exploiter",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
+      name: "Blackjasmine",
+      branch: "master",
+    },
+    {
+      user: "sinkaroid",
       name: "Stupidc0de-Shell-2016",
       branch: "master",
     },
+    {
+      user: "slemanboys",
+      name: "pasirmerah",
+      branch: "sc0",
+    }
   ],
 };
 

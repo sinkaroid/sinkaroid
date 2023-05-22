@@ -88,7 +88,7 @@ let info = {
       photo:
         "https://cdn.discordapp.com/attachments/952117487166705747/1006892590496485386/angeldotid.png",
       place: "Jakarta, Indonesia",
-      date: "2015 - 2018",
+      date: "2016 - 2018",
       position: "Defacer - Exploiter",
       description:
         "A limited company and is completely Blackhat for it's services. We just collected a webshells & root data and sell them to end users, chinese spammer were rely on us.",
@@ -107,7 +107,7 @@ let info = {
       photo:
         "https://cdn.discordapp.com/attachments/952117487166705747/1006894707961507840/sj.png",
       place: "Indonesia",
-      date: "2013 - 2016",
+      date: "2014 - 2016",
       position: "Defacer - Hacker Relations",
       vendor: ["abc", "def"],
       description:
@@ -122,34 +122,55 @@ let info = {
         "Rooting server",
       ],
     },
+    {
+      name: "PhantomGhost - JKT48 Cyber Team",
+      link: "https://web.facebook.com/undefined",
+      photo:
+        "https://cdn.discordapp.com/attachments/952117487166705747/1006894707961507840/sj.png",
+      place: "Indonesia",
+      date: "2012 - 2013",
+      position: "Defacer",
+      vendor: ["abc", "def"],
+      description:
+        "When I was in elementary school until junior school, I started my computer career by doing Blackhat stuff, mostly defacing and social engineering actions. Me and my team pwned a fuckton website arround the world. I've been on many teams and met proficient underground people with great mindset.",
+      skills: [
+        "CSRF-Vulnerability",
+        "Joomla",
+        "WordPress",
+        "PHP"
+      ],
+    },
   ],
   skills: [
     {
       title: "Languages",
-      info: ["Python", "Javascript/TypeScript", "PHP", "Rust"],
+      info: ["Python", "Javascript/TypeScript", "PHP", "Rust", "Go"],
       icon: "fa fa-code",
     },
     {
-      title: "Libs & framework",
+      title: "Libs & modules",
       info: [
+        "Docker",
         "Express",
         "Fastify",
         "Cheerio",
         "Flask",
         "beautifulsoup4",
         "Vue.js",
+        "Nuxt.js",
+        "Reactjs",
+        "Next.js",
         "Prisma",
         "Sequelize",
         "Django",
         "Nest.js",
-        "Nuxt.js",
         "RabbitMQ",
       ],
       icon: "fa fa-cubes",
     },
     {
       title: "Runtime",
-      info: ["Python", "NodeJS", "Deno"],
+      info: ["NodeJS", "Python", "Deno"],
       icon: "fas fa-laptop-code",
     },
     {
