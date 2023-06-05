@@ -1,5 +1,5 @@
 {
-    "last_sync": "2023-06-04, 02:34:02",
+    "last_sync": "2023-06-05, 02:28:43",
     "data": [
         {
             "name": "booru",
@@ -16,7 +16,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: a day ago)",
+            "date": "April 07, 2022 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/booru",
@@ -86,7 +86,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 9 days ago)",
+            "date": "March 18, 2022 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
@@ -113,7 +113,7 @@
                 "simply-hentai"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 19 days ago)",
+            "date": "June 03, 2022 (Updated: 20 days ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://janda.merahputih.moe",
@@ -146,7 +146,7 @@
                 "youporn-api"
             ],
             "category": "TypeScript",
-            "date": "April 18, 2023 (Updated: 3 days ago)",
+            "date": "April 18, 2023 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/lustpress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://lust.merahputih.moe",
@@ -308,7 +308,7 @@
                 "subdomain"
             ],
             "category": "TypeScript",
-            "date": "April 24, 2023 (Updated: 2 days ago)",
+            "date": "April 24, 2023 (Updated: 3 days ago)",
             "github": "https://github.com/ScathachGrip/merahputih.moe",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://merahputih.moe",
@@ -460,8 +460,8 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "1af94209ad15c3849abea213cacc59f1a41504a6",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/1af94209ad15c3849abea213cacc59f1a41504a6",
+            "commit": "ba316d15c009e205d30520256705f5e5ea11d018",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/ba316d15c009e205d30520256705f5e5ea11d018",
             "release": "3.0.1-dev"
         },
         {
@@ -525,8 +525,8 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "1af94209ad15c3849abea213cacc59f1a41504a6",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/1af94209ad15c3849abea213cacc59f1a41504a6",
+            "commit": "ba316d15c009e205d30520256705f5e5ea11d018",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/ba316d15c009e205d30520256705f5e5ea11d018",
             "release": "3.0.1-dev"
         },
         {
@@ -543,7 +543,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: 19 days ago)",
+            "date": "August 08, 2019 (Updated: 20 days ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/hensuki",
@@ -651,7 +651,7 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "April 21, 2020 (Updated: 13 days ago)",
+            "date": "April 21, 2020 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/shiguresh",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/shiguresh",
@@ -675,7 +675,7 @@
                 "python-marshal"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 4 days ago)",
+            "date": "August 10, 2020 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/umarun",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/umarun",
@@ -722,7 +722,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 10, 2022 (Updated: 9 months ago)",
+            "date": "March 10, 2022 (Updated: 10 months ago)",
             "github": "https://github.com/sinkaroid/pururin",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://pururin.to",
@@ -839,7 +839,7 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 10 days ago)",
+            "date": "March 06, 2019 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
@@ -927,7 +927,7 @@
                 "regex"
             ],
             "category": "PHP",
-            "date": "May 25, 2019 (Updated: 4 days ago)",
+            "date": "May 25, 2019 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/antk",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://kato.kireisubs.org",
@@ -989,7 +989,7 @@
                 "C"
             ],
             "category": "C",
-            "date": "January 05, 2019 (Updated: 13 days ago)",
+            "date": "January 05, 2019 (Updated: 14 days ago)",
             "github": "https://github.com/sinkaroid/localroot",
             "bahasa": "https://skillicons.dev/icons?i=c",
             "visit": "https://github.com/sinkaroid/localroot",
@@ -1150,5 +1150,5 @@
             "release": "pre-release"
         }
     ],
-    "sha_commit": "1af94209ad15c3849abea213cacc59f1a41504a6"
+    "sha_commit": "ba316d15c009e205d30520256705f5e5ea11d018"
 }
