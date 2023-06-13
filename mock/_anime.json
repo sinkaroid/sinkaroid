@@ -1,11 +1,30 @@
 {
     "data": [
         {
+            "title": "Blue Lock - TV",
+            "link": "https://myanimelist.net/anime/49596/Blue_Lock",
+            "description": "Completed - 24 of 24 episodes",
+            "pubDate": "Sun, 11 Jun 2023 09:05:25 -0700",
+            "timeago": "a day ago",
+            "id": "49596",
+            "image": "https://cdn.myanimelist.net/images/anime/1258/126929l.jpg",
+            "tag": [
+                "Sports"
+            ],
+            "synopsis": "Yoichi Isagi was mere moments away from scoring a goal that would have sent his high school soccer team to the nationals, but a split-second decision to pass the ball to his teammate cost him that reality. Bitter, confused, and disappointed, Isagi wonders if the outcome would have been different had he not made the pass. When the young striker returns home, an invitation from the Japan Football Union awaits him. Through an arbitrary and biased decision-making process, Isagi is one of three hundred U-18 strikers selected for a controversial project named Blue Lock. \n\nThe project's ultimate goal is to turn one of the selected players into the star striker for the Japanese national team. To find the best participant, each diamond in the rough must compete against others through a series of solo and team competitions to rise to the top. Putting aside his ethical objections to the project, Isagi feels compelled to fight his way to the top, even if it means ruthlessly crushing the dreams of 299 aspiring young strikers.\n\n[Written by MAL Rewrite]",
+            "pictures": [
+                {
+                    "img": "https://cdn.myanimelist.net/images/anime/1258/126929l.jpg"
+                }
+            ],
+            "score": 8.35
+        },
+        {
             "title": "Fairy Tail: Final Series - TV",
             "link": "https://myanimelist.net/anime/35972/Fairy_Tail__Final_Series",
             "description": "Completed - 51 of 51 episodes",
             "pubDate": "Wed, 17 May 2023 16:12:14 -0700",
-            "timeago": "23 days ago",
+            "timeago": "a month ago",
             "id": "35972",
             "image": "https://cdn.myanimelist.net/images/anime/1536/93863l.jpg",
             "tag": [
@@ -287,27 +306,6 @@
                 }
             ],
             "score": 7.65
-        },
-        {
-            "title": "Fairy Tail OVA - OVA",
-            "link": "https://myanimelist.net/anime/9982/Fairy_Tail_OVA",
-            "description": "Completed - 5 of 5 episodes",
-            "pubDate": "Wed, 03 May 2023 22:08:09 -0700",
-            "timeago": "a month ago",
-            "id": "9982",
-            "image": "https://cdn.myanimelist.net/images/anime/10/65661l.jpg",
-            "tag": [
-                "Comedy",
-                "Fantasy",
-                "Ecchi"
-            ],
-            "synopsis": "When the members of Fairy Tail aren't destroying towns or defeating powerful foes, they're attending school, travelling back in time, visiting water parks, and taking on odd jobs from strange clients. No matter where they go, a fun adventure always awaits, sometimes in the most unexpected form!\n\n[Written by MAL Rewrite]",
-            "pictures": [
-                {
-                    "img": "https://cdn.myanimelist.net/images/anime/10/65661l.jpg"
-                }
-            ],
-            "score": 7.47
         }
     ]
 }
