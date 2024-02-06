@@ -79,7 +79,7 @@
                     "img": "https://cdn.myanimelist.net/images/anime/1444/131828l.jpg"
                 }
             ],
-            "score": 7.81
+            "score": 7.8
         },
         {
             "title": "Boku no Hero Academia 6th Season - TV",
@@ -141,26 +141,6 @@
                 }
             ],
             "score": 8.08
-        },
-        {
-            "title": "Kimetsu no Yaiba: Jougen Shuuketsu, Soshite Katanakaji no Sato e - Movie",
-            "link": "https://myanimelist.net/anime/54591/Kimetsu_no_Yaiba__Jougen_Shuuketsu_Soshite_Katanakaji_no_Sato_e",
-            "description": "Completed - 1 of 1 episodes",
-            "pubDate": "Wed, 03 May 2023 23:00:46 -0700",
-            "timeago": "9 months ago",
-            "id": "54591",
-            "image": "https://cdn.myanimelist.net/images/anime/1566/133666l.jpg",
-            "tag": [
-                "Action",
-                "Fantasy"
-            ],
-            "synopsis": "A feature-length cut of episodes 10 and 11 of Yuukaku-hen (Entertainment District Arc), and the extended episode 1 of Katanakaji no Sato-hen (Swordsmith Village Arc).\n\n(Source: Aniplex of America)",
-            "pictures": [
-                {
-                    "img": "https://cdn.myanimelist.net/images/anime/1566/133666l.jpg"
-                }
-            ],
-            "score": 7.7
         },
         {
             "title": "Isekai Ojisan - TV",
@@ -306,6 +286,27 @@
                 }
             ],
             "score": 7.65
+        },
+        {
+            "title": "Fairy Tail OVA - OVA",
+            "link": "https://myanimelist.net/anime/9982/Fairy_Tail_OVA",
+            "description": "Completed - 5 of 5 episodes",
+            "pubDate": "Wed, 03 May 2023 22:08:09 -0700",
+            "timeago": "9 months ago",
+            "id": "9982",
+            "image": "https://cdn.myanimelist.net/images/anime/10/65661l.jpg",
+            "tag": [
+                "Comedy",
+                "Fantasy",
+                "Ecchi"
+            ],
+            "synopsis": "When the members of Fairy Tail aren't destroying towns or defeating powerful foes, they're attending school, travelling back in time, visiting water parks, and taking on odd jobs from strange clients. No matter where they go, a fun adventure always awaits, sometimes in the most unexpected form!\n\n[Written by MAL Rewrite]",
+            "pictures": [
+                {
+                    "img": "https://cdn.myanimelist.net/images/anime/10/65661l.jpg"
+                }
+            ],
+            "score": 7.46
         }
     ]
 }
