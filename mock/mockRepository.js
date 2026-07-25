@@ -81,65 +81,7 @@ let info = {
       description:
         "Jl. Yos Sudarso No.9, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224",
       skills: ["Internships", "Problem solve", "Teamwork", "Communication", "Networking"],
-    },
-    {
-      name: "Angelz.space LTD",
-      link: "https://web.facebook.com/undefined",
-      photo:
-        "https://cdn.discordapp.com/attachments/952117487166705747/1006892590496485386/angeldotid.png",
-      place: "Jakarta, Indonesia",
-      date: "2016 - 2018",
-      position: "Defacer - Exploiter",
-      description:
-        "A limited company and is completely Blackhat for it's services. We just collected a webshells & root data and sell them to end users, chinese spammer were rely on us.",
-      skills: [
-        "Backdoor",
-        "Mailers",
-        "Scampage",
-        "CSRF-Vulnerability",
-        "RCE Vulnerability",
-        "PHP",
-      ],
-    },
-    {
-      name: "Sanjungan Jiwa Team",
-      link: "https://web.facebook.com/undefined",
-      photo:
-        "https://cdn.discordapp.com/attachments/952117487166705747/1006894707961507840/sj.png",
-      place: "Indonesia",
-      date: "2014 - 2016",
-      position: "Defacer - Hacker Relations",
-      vendor: ["abc", "def"],
-      description:
-        "When I was in elementary school until junior school, I started my computer career by doing Blackhat stuff, mostly defacing and social engineering actions. Me and my team pwned a fuckton website arround the world. I've been on many teams and met proficient underground people with great mindset.",
-      skills: [
-        "CSRF-Vulnerability",
-        "RCE Vulnerability",
-        "Joomla",
-        "WordPress",
-        "PHP",
-        "Exploiter",
-        "Rooting server",
-      ],
-    },
-    {
-      name: "PhantomGhost - JKT48 Cyber Team",
-      link: "https://web.facebook.com/undefined",
-      photo:
-        "https://cdn.discordapp.com/attachments/952117487166705747/1006894707961507840/sj.png",
-      place: "Indonesia",
-      date: "2012 - 2013",
-      position: "Defacer",
-      vendor: ["abc", "def"],
-      description:
-        "When I was in elementary school until junior school, I started my computer career by doing Blackhat stuff, mostly defacing and social engineering actions. Me and my team pwned a fuckton website arround the world. I've been on many teams and met proficient underground people with great mindset.",
-      skills: [
-        "CSRF-Vulnerability",
-        "Joomla",
-        "WordPress",
-        "PHP"
-      ],
-    },
+    }
   ],
   skills: [
     {

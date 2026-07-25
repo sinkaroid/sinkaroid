@@ -21,7 +21,7 @@ border="0" alt=""/></a> -->
 
           <img
             :src="hovered ? picture_x : picture"
-            @mouseover="(hovered = true), (role = 'Digital Illustrator')"
+            @mouseover="(hovered = true), (role = 'Chicken Slaughterer')"
             @mouseout="(hovered = false), (role = 'Software Developer')"
           />
 

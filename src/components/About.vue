@@ -21,10 +21,10 @@
         >
         <p></p>
         <h4>
-          <mark style="border-radius: 10px; padding: 5px"> 👨He/him</mark> •
-          <mark style="border-radius: 10px; padding: 5px"> 😈sinkaroid</mark> •
-          <mark style="border-radius: 10px; padding: 5px"> 🌺Indrawan</mark> •
-          <mark style="border-radius: 10px; padding: 5px"> インドラ</mark> 
+          <mark style="border-radius: 10px; padding: 5px"> 🌺Indrawan I. (true self)</mark> •
+          <mark style="border-radius: 10px; padding: 5px"> ❤️darin (my heart)</mark> •
+          <mark style="border-radius: 10px; padding: 5px"> 🧠sinkaroid (my brain)</mark> •
+          <mark style="border-radius: 10px; padding: 5px"> ꦏꦼꦭꦶꦭꦺꦥ꧀</mark> 
         </h4>
         <br />
       </div>
