@@ -27,3 +27,5 @@ yarn-error.log*
 *.sln
 *.sw?
 CHANGELOG.md
+
+/legacy

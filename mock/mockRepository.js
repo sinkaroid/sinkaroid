@@ -1,6 +1,6 @@
 import dataJson from "./_data.json";
 import flatPicture from "../src/assets/sinkaroid.png";
-import shadowPicture from "../src/assets/daryun.png";
+import shadowPicture from "../src/assets/darin.png";
 
 // Import visual design artwork images
 import imgLivium from "../src/assets/designs/livium.jpg";
