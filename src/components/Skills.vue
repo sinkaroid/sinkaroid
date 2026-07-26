@@ -1,322 +1,201 @@
 <template>
-  <div :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }" class="p-st">
-    <div class="container py-4">
-      <div class="text-center" data-aos="fade" data-aos-once="true" data-aos-duration="1000">
-        <span class="title text-center" :class="{ pgray: !nightMode, 'text-light': nightMode }"><b>Skills</b></span><br>
-        <center>
-          <i>
-            <blockquote>As a person with delusional disorder,
-              I have strong imagination and proper decision making when building stuff.
-            </blockquote>
-          </i>
-        </center>
-        <!-- 
-         I'm a passionate build scalable applications and does not reinventing the wheel.
-        <code>If it's someone implementing "Flying Elephant", I will not trying to make another again,<br>
-        But I'll add a nuke to the elephant's leg to make it even scarier when it stomps on its enemies
-        </code>
-        <br><br>
-        <code>Wouldn't that be insane? An elephant that could fly, and have nuclear bomb reactions in its legs?</code>
-      -->
-      </div>
-      <hr width="50%" :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
+  <section class="section skills-section" id="skills">
+    <div class="section-header">
+      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Skills & Capabilities</h2>
+      <p class="section-subtitle">
+        The spellcraft I practice is forged from boundless imagination and disciplined judgment, allowing even the most ambitious ideas to take shape as tangible creations.
+      </p>
+    </div>
 
-      <br />
-      <center>
-        <font :class="{ pgray: !nightMode, 'text-light': nightMode }">
-          <div class="skill-bar-container">
-            <span class="skill-name">Backend development</span>
-            <span class="skill-percent"><b>70%</b></span>
-            <span class="skill-bar level7"></span>
+    <div class="bento-grid">
+      <!-- Row 1 LEFT: Core Competencies -->
+      <div class="bento-card col-span-7 dashboard-card">
+        <h3 class="card-title-header">Core Competencies</h3>
+        <div class="progress-bars-container">
+          <div v-for="bar in skillBars" :key="bar.name" class="skill-bar-wrapper">
+            <div class="bar-labels">
+              <span class="bar-name">{{ bar.name }}</span>
+              <span class="bar-percent">{{ bar.percent }}%</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" :style="{ width: `${bar.percent}%`, background: bar.color }"></div>
+            </div>
+            <p v-if="bar.note" class="bar-note">{{ bar.note }}</p>
           </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Frontend development</span>
-            <span class="skill-percent"><b>30%</b></span>
-            <span class="skill-bar level3"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Mobile development</span>
-            <span class="skill-percent"><b>10%</b></span>
-            <span class="skill-bar level1"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Module & libraries development</span>
-            <span class="skill-percent"><b>75%</b></span>
-            <span class="skill-bar level8"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">API development</span>
-            <span class="skill-percent"><b>70%</b></span>
-            <span class="skill-bar level7"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Infrastructure & software design</span>
-            <span class="skill-percent"><b>50%</b></span>
-            <span class="skill-bar level5"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Scalable application</span>
-            <span class="skill-percent"><b>90%</b></span>
-            <span class="skill-bar level9"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">CI/CD delivery automation</span>
-            <span class="skill-percent"><b>60%</b></span>
-            <span class="skill-bar level6"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Unit testing & documentation</span>
-            <span class="skill-percent"><b>65%</b></span>
-            <span class="skill-bar level7x"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Illustration & artwork design</span>
-            <span class="skill-percent"><b>40%</b></span>
-            <span class="skill-bar level_levelan"></span>
-          </div>
-          <br><br>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Solo</span>
-            <span class="skill-percent"><i>A fullstack dev always doing it all by themselves</i> <b>60%</b> I think
-              humble</span>
-            <span class="skill-bar level_solo"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Teamwork</span>
-            <span class="skill-percent"><i>A single flower can make me strong, Imagine if it's was bunch of flowers?
-                Definitely </i> <b>80%</b></span>
-            <span class="skill-bar level_team"></span>
-          </div>
-
-          <div class="skill-bar-container">
-            <span class="skill-name">Leadership</span> <!-- I'm not kind to leading people -->
-            <span class="skill-percent"><i>Crap, A leadership skills? I'm bad, I leave it for </i>
-              <b>25%</b> though</span>
-            <span class="skill-bar level_leadership"></span>
-          </div>
-
-        </font>
-
-        <br /><br />
-      </center>
-      <div class="row">
-        <!-- get clocked bajingan
-        background-image: url('https://cdn.discordapp.com/attachments/1046495201176334467/1052037176617091145/bg.png');
-        -->
-        <div class="col-xl-4 col-bg-4 col-md-6 col-sm-12 text-center pb-5 px-4" v-for="(skill, idx) in skills" style="padding: 20px; flex-wrap: wrap; border-radius: 10px; max-width: 360px; 
-        margin: 0 auto; margin-bottom: 20px;" :key="skill.title" data-aos="fade-up" data-aos-offset="10"
-          data-aos-delay="30"
-          :style="{ 'transition-delay': idx / 4.2 + 's', border: '1px solid ' + (nightMode ? '#fa5c5c' : 'rgb(186, 167, 243)') }"
-          data-aos-mirror="true" data-aos-once="true">
-          <div class="bg-div"><i :class="skill.icon"></i></div>
-          <div class="title2 pt-2">{{ skill.title }}</div>
-          <hr width="50%" :class="{ pgray: !nightMode, 'bg-secondary': nightMode }" />
-          <span class="title3">{{ skill.info.join(", ") }}</span>
         </div>
       </div>
-      <center>
-        <p>
-          <img :src="
-            nightMode
-              ? 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/dracula/3-stats.svg'
-              : 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/vue/3-stats.svg'
-          " />
-          <img :src="
-  nightMode
-    ? 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/dracula/2-most-commit-language.svg'
-    : 'https://raw.githubusercontent.com/sinkaroid/sinkaroid/stats/profile-summary-card-output/vue/2-most-commit-language.svg'
-          " />
-        </p>
-      </center>
+
+      <!-- Row 1 RIGHT: stacked tech cards -->
+      <div class="col-span-5 right-stack">
+        <div v-for="(skill, idx) in skills" :key="skill.title" class="bento-card tech-card" :style="{ animationDelay: `${idx * 0.1}s` }">
+          <div class="tech-header">
+            <span class="tech-icon-circle"><i :class="skill.icon || 'fa fa-code'"></i></span>
+            <h4 class="tech-title">{{ skill.title }}</h4>
+          </div>
+          <hr class="tech-divider" />
+          <div class="tech-tags">
+            <span v-for="tech in skill.info" :key="tech" class="badge">{{ tech }}</span>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
-<script>
+<script setup>
+import { ref, watch } from "vue";
 import info from "../../mock/mockRepository";
+import { randomGradient } from "../composables/useRandomGradient";
 
-export default {
-  name: "Skills",
-  props: {
-    nightMode: {
-      type: Boolean,
-    },
-  },
-  data() {
-    return {
-      mdskill: "github",
-      skills: info.skills,
-    };
-  },
-};
+const titleGradient = ref(randomGradient());
+
+const props = defineProps({
+  nightMode: {
+    type: Boolean,
+    default: false
+  }
+});
+
+watch(() => props.nightMode, () => {
+  titleGradient.value = randomGradient();
+});
+
+const skills = info.skills || [];
+
+// Custom styled progress bars
+const skillBars = [
+  { name: "Backend", percent: 85, color: "linear-gradient(90deg, #3b82f6, #8b5cf6)" },
+  { name: "Scalable, efficiency, vertical scaling", percent: 80, color: "linear-gradient(90deg, #10b981, #3b82f6)" },
+  { name: "Teamwork & Collaborative Syncs", percent: 80, color: "linear-gradient(90deg, #10b981, #059669)", note: "A single flower can make me strong, imagine a bunch of flowers?" },
+  { name: "API Development & Integrations", percent: 70, color: "linear-gradient(90deg, #f59e0b, #ef4444)" },
+  { name: "CI/CD & Delivery Automation", percent: 60, color: "linear-gradient(90deg, #8b5cf6, #ec4899)" },
+  { name: "Solo Projects (Self-Reliant Delivery)", percent: 60, color: "linear-gradient(90deg, #6366f1, #3b82f6)", note: "A fullstack developer doing it all by themselves." },
+  { name: "Frontend", percent: 40, color: "linear-gradient(90deg, #3b82f6, #06b6d4)" },
+  { name: "Leadership", percent: 25, color: "linear-gradient(90deg, #6b7280, #4b5563)", note: "I prefer building to leading." }
+];
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+.col-span-12 { grid-column: span 12; }
+.col-span-7 { grid-column: span 7; }
+.col-span-5 { grid-column: span 5; }
 
-.mekanik:hover {
-  transform: scale(1.1); 
+@media (max-width: 992px) {
+  .col-span-7, .col-span-5 {
+    grid-column: span 12;
+  }
 }
 
-.mekanik {
-  transition: all .2s ease-in-out;
-
+.card-title-header {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: var(--space-6);
 }
-.title {
-  font-size: 30px;
+
+/* Override grid stretch: prevent cards from matching column heights */
+.bento-grid {
+  align-items: start;
+}
+
+/* Dashboard progress bars */
+.dashboard-card {
+  padding: var(--space-6) !important;
+}
+
+.progress-bars-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.skill-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.bar-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
   font-weight: 500;
+  color: var(--foreground);
 }
 
-.title1 {
-  font-size: 24px;
-  font-weight: 400;
+.bar-percent {
+  font-weight: 700;
+  color: var(--accent);
 }
 
-.title2 {
-  font-size: 20px;
-  font-weight: 500;
+.bar-track {
+  height: 8px;
+  background: var(--card-border);
+  border-radius: var(--radius-full);
+  overflow: hidden;
 }
 
-.title3 {
-  font-size: 16px;
-  font-weight: 400;
+.bar-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  width: 0;
+  transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.fa {
-  color: rgb(212, 149, 97);
-  font-size: 40px;
-  transition: all 0.5s;
+.bar-note {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--muted-foreground);
+  margin-top: 2px;
 }
 
-.fas {
-  color: rgb(212, 149, 97);
-  font-size: 40px;
-  /* font-weight: bold; */
-  transition: all 0.5s;
+/* Right sidebar stacked cards */
+.right-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
 }
 
-$skillcolor: #b09af378;
-$skillcolor2: #e0526078;
+/* Tech Category Cards */
+.tech-card {
+  padding: var(--space-4) var(--space-6) !important;
+}
 
-.skill-bar-container {
-  position: relative;
-  text-align: left;
-  width: 80%;
-  border-radius: 4px;
-  background-color: transparent;
-  margin-bottom: 0.5em;
+.tech-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
 
-  .skill-bar {
-    display: block;
-    border-radius: 10px;
-    height: 30px;
+.tech-icon-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(var(--accent-rgb), 0.1);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
 
-    &.level_solo {
-      width: 60%;
-      background-color: $skillcolor2;
-    }
+.tech-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
 
-    &.level_team {
-      width: 80%;
-      background-color: $skillcolor2;
-    }
+.tech-divider {
+  border: 0;
+  height: 1px;
+  background: var(--card-border);
+  margin: var(--space-3) 0;
+}
 
-    &.level_leadership {
-      width: 25%;
-      background-color: $skillcolor2;
-    }
-
-    //background-color: $skillColor; //#d7edfa
-    &.level_void {
-      width: 5%;
-      background-color: $skillcolor;
-    }
-
-    &.level_levelan {
-      width: 35%;
-      background-color: $skillcolor;
-    }
-
-    &.level1 {
-      width: 10%;
-      background-color: $skillcolor;
-    }
-
-    &.level2 {
-      width: 20%;
-      background-color: $skillcolor;
-    }
-
-    &.level3 {
-      width: 30%;
-      background-color: $skillcolor;
-    }
-
-    &.level4 {
-      width: 40%;
-      background-color: $skillcolor;
-    }
-
-    &.level5 {
-      width: 50%;
-      background-color: $skillcolor;
-    }
-
-    &.level6 {
-      width: 60%;
-      background-color: $skillcolor;
-    }
-
-    &.level7 {
-      width: 70%;
-      background-color: $skillcolor;
-    }
-
-    &.level7x {
-      width: 65%;
-      background-color: $skillcolor;
-    }
-
-    &.level8 {
-      width: 80%;
-      background-color: $skillcolor;
-    }
-
-    &.level9 {
-      width: 90%;
-      background-color: $skillcolor;
-    }
-  }
-
-  .skill-name {
-    position: absolute;
-    top: 5px;
-    left: 10px;
-
-    //font-weight: 600;
-  }
-
-  .skill-percent {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-  }
-
-  #kontol {
-    /* Background pattern from Toptal Subtle Patterns */
-    background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
-
-  }
-
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
 }
 </style>

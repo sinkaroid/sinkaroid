@@ -1,105 +1,86 @@
 <template>
-  <div>
+  <Transition name="slide-down">
     <div
-      id="snackbar"
-      :class="{ show: showSnackbar }"
-      :style="{ 'background-color': snackbarColor }"
+      v-if="showSnackbar"
+      class="snackbar"
+      :style="{ borderLeftColor: snackbarColor }"
     >
-      {{ snackbarMessage }}
+      <div class="snackbar-content">
+        <i class="fas fa-info-circle" :style="{ color: snackbarColor }"></i>
+        <span>{{ snackbarMessage }}</span>
+      </div>
     </div>
-  </div>
+  </Transition>
 </template>
 
-<script>
-export default {
-  name: "Snackbar",
-  props: {
-    showSnackbar: {
-      type: Boolean,
-    },
-    snackbarMessage: {
-      type: String,
-    },
-    snackbarColor: {
-      type: String,
-    },
+<script setup>
+import { watch } from "vue";
+
+const props = defineProps({
+  showSnackbar: {
+    type: Boolean,
+    default: false
   },
-  watch: {
-    showSnackbar(nv) {
-      if (nv) {
-        setTimeout(() => {
-          this.$emit("close", false);
-        }, 1900);
-      }
-    },
+  snackbarMessage: {
+    type: String,
+    default: ""
   },
-};
+  snackbarColor: {
+    type: String,
+    default: "#3b82f6"
+  }
+});
+
+const emit = defineEmits(["close"]);
+
+watch(() => props.showSnackbar, (newVal) => {
+  if (newVal) {
+    setTimeout(() => {
+      emit("close", false);
+    }, 2500);
+  }
+});
 </script>
 
 <style scoped>
-#snackbar {
-  visibility: hidden;
-  min-width: 250px;
-  margin-left: -125px;
-  color: #fff;
-  text-align: center;
-  border-radius: 7px;
-  padding: 16px;
+.snackbar {
   position: fixed;
-  z-index: 1;
+  top: 5rem;
   left: 50%;
-  float: right;
-  top: 100px;
-  font-size: 17px;
+  transform: translateX(-50%);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-6);
+  min-width: 300px;
+  max-width: 90%;
+  box-shadow: var(--card-shadow);
+  backdrop-filter: var(--card-blur);
+  -webkit-backdrop-filter: var(--card-blur);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#snackbar.show {
-  visibility: visible;
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+.snackbar-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--foreground);
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
-@-webkit-keyframes fadein {
-  from {
-    top: 0;
-    opacity: 0;
-  }
-  to {
-    top: 100px;
-    opacity: 1;
-  }
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@keyframes fadein {
-  from {
-    top: 0;
-    opacity: 0;
-  }
-  to {
-    top: 100px;
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeout {
-  from {
-    top: 100px;
-    opacity: 1;
-  }
-  to {
-    top: 0;
-    opacity: 0;
-  }
-}
-
-@keyframes fadeout {
-  from {
-    top: 30px;
-    opacity: 1;
-  }
-  to {
-    top: 0;
-    opacity: 0;
-  }
+.slide-down-enter-from,
+.slide-down-leave-to {
+  opacity: 0;
+  transform: translate(-50%, -20px);
 }
 </style>

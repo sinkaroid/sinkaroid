@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/icon.svg" />
+    
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (FontAwesome for social & project links compatibility) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="title" content="Sinkaroid" />
+    <meta name="description" content="Indrawan I. (sinkaroid) • Software Developer Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="sinkaroid" />
+    <meta property="og:url" content="https://sinkaroid.org" />
+    <meta property="og:title" content="Sinkaroid" />
+    <meta property="og:description" content="Indrawan I. (sinkaroid) • Software Developer Portfolio" />
+    <meta property="og:image" content="/icon.png" />
+    <meta name="author" content="Sinkaroid" />
+    <meta content="#09090B" name="theme-color" />
+    
+    <title>Indrawan I. • sinkaroid</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- Modern Glassmorphism Loader -->
+      <div id="loader">
+        <div class="loader-content">
+          <div class="spinner"></div>
+          <p>sinkaroid</p>
+        </div>
+      </div>
+    </div>
+    
+    <script type="module" src="/src/main.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+      }
+      #loader {
+        position: fixed;
+        inset: 0;
+        background: #09090b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease;
+      }
+      .loader-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(255, 255, 255, 0.05);
+        border-top-color: #3b82f6; /* Modern Blue accent */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      .loader-content p {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: 0.2em;
+        font-weight: 500;
+        color: #a1a1aa;
+        margin: 0;
+        text-transform: uppercase;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </body>
+</html>

@@ -1,246 +1,332 @@
 <template>
-  <div>
-    <div class="modal-mask">
-      <div class="modal-wrapper">
-        <div
-          class="modal-container"
-          :class="{
-            'bg-light': !nightMode,
-            'bg-dark': nightMode,
-            'text-light': nightMode,
-          }"
-        >
-          <div class="title1 px-4 pt-3">
-            <span
-              ><a
-                href="#"
-                @click.prevent="open(portfolio.visit)"
-                :class="{ 'text-light': nightMode }"
-                >{{ portfolio.name }}</a
-              ></span
-            >
-            <a
-              class="pull-right"
-              style="font-size: 18px; float: right;"
-              @click="$emit('close')"
-              ><i class="fas fa-times"></i
-            ></a>
-            <hr
-              class="my-1"
-              :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-            />
-          </div>
-          <div class="modal-body my-0 pb-0 px-4 pt-0">
-            <div
-              class="mb-2 date"
-              :class="{ 'text-light': nightMode, pbgray: nightMode }"
-            >
-              <span>{{ portfolio.date }} • {{ portfolio.category }}</span>
+  <Teleport to="body">
+    <Transition name="modal-fade">
+      <div v-if="showModal" class="modal-mask" @click.self="close">
+        <div class="modal-wrapper">
+          <div class="modal-container bento-card">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h3 class="modal-title">
+                <a 
+                  v-if="visitUrl" 
+                  :href="visitUrl" 
+                  target="_blank" 
+                  class="title-link clickable"
+                >
+                  {{ portfolio.name || portfolio.title }} <i class="fas fa-external-link-alt title-icon"></i>
+                </a>
+                <span v-else>{{ portfolio.name || portfolio.title }}</span>
+              </h3>
+              <button class="close-btn clickable" @click="close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+              </button>
             </div>
-            <div class="pb-1 bheight">
-              <span
-                class="badge mr-2 mb-2"
-                v-for="tech in portfolio.technologies"
-                :key="tech"
-                :class="{ 'bg-dark4': nightMode }"
-                >{{ tech }}</span
+            
+            <hr class="modal-divider" />
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <!-- Meta/Subheader -->
+              <div class="modal-meta">
+                <span v-if="portfolio.category || portfolio.score" class="meta-item">
+                  <i class="fas" :class="portfolio.score ? 'fa-star text-star' : 'fa-folder'"></i>
+                  {{ portfolio.score ? `Rating: ${portfolio.score}/10` : portfolio.category }}
+                </span>
+                <span v-if="portfolio.date || portfolio.timeago" class="meta-item">
+                  <i class="far fa-calendar-alt"></i> {{ portfolio.date || portfolio.timeago }}
+                </span>
+              </div>
+
+              <!-- Tags / Technologies -->
+              <div class="modal-tags">
+                <span 
+                  v-for="tech in tags" 
+                  :key="tech" 
+                  class="badge"
+                >
+                  {{ tech }}
+                </span>
+              </div>
+
+              <!-- Description -->
+              <div class="modal-description" v-html="portfolio.description || portfolio.synopsis"></div>
+
+              <!-- Image Gallery -->
+              <div v-if="portfolio.pictures && portfolio.pictures.length" class="modal-gallery-section">
+                <h5 class="gallery-title">Gallery & Media</h5>
+                <Gallery :images="portfolio.pictures" />
+              </div>
+            </div>
+
+            <hr class="modal-divider" />
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+              <a 
+                v-if="portfolio.github" 
+                :href="portfolio.github" 
+                target="_blank" 
+                class="btn-primary clickable"
               >
+                <i class="fab fa-github"></i> Repository
+              </a>
+              <a 
+                v-if="portfolio.visit && portfolio.visit !== visitUrl" 
+                :href="portfolio.visit" 
+                target="_blank" 
+                class="btn-primary clickable"
+              >
+                <i class="fas fa-globe"></i> Live Site
+              </a>
+              <button class="btn-secondary clickable" @click="close">
+                Close
+              </button>
             </div>
-
-            <div style="text-align: justify">
-              <span v-html="portfolio.description"></span>
-            </div>
-            <hr />
-            <div>
-              <Gallery :images="portfolio.pictures" />
-            </div>
-          </div>
-
-          <div class="text-center pb-3">
-            <hr
-              class="mt-1 mb-3"
-              :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-            />
-            <button class="btn w-25 mr-3" @click="open(portfolio.github)">
-              github
-            </button>
-            <button class="btn w-25" @click="$emit('close')">close</button>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </Transition>
+  </Teleport>
 </template>
 
-<script>
-import Gallery from "./Gallery";
+<script setup>
+import { computed, onMounted, onUnmounted } from "vue";
+import Gallery from "./Gallery.vue";
 
-export default {
-  name: "Modal",
-  components: {
-    Gallery,
+const props = defineProps({
+  showModal: {
+    type: Boolean,
+    default: false
   },
-  props: {
-    showModal: {
-      type: Boolean,
-    },
-    portfolio: {
-      type: Object,
-    },
-    nightMode: {
-      type: Boolean,
-    },
+  portfolio: {
+    type: Object,
+    required: true
   },
-  created() {
-    document.getElementsByTagName("body")[0].classList.add("modal-open");
-  },
-  methods: {
-    open(url) {
-      window.open(url, "_blank");
-    },
-  },
+  nightMode: {
+    type: Boolean,
+    default: false
+  }
+});
+
+const emit = defineEmits(["close"]);
+
+const tags = computed(() => {
+  return props.portfolio.technologies || props.portfolio.tag || [];
+});
+
+const visitUrl = computed(() => {
+  return props.portfolio.visit || props.portfolio.link || null;
+});
+
+const close = () => {
+  emit("close");
 };
+
+// Lock body scrolling when modal is open
+onMounted(() => {
+  document.body.style.overflow = "hidden";
+});
+
+onUnmounted(() => {
+  document.body.style.overflow = "";
+});
 </script>
 
 <style scoped>
-body.modal-open {
-  overflow: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  transition: all 0.2s;
-  cursor: pointer;
-}
-
-a:hover {
-  transition: all 0.2s;
-  color: gray;
-}
-
-.date {
-  font-size: 14px;
-  font-weight: 400;
-}
 .modal-mask {
   position: fixed;
-  z-index: 9998;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: opacity 0.5s ease;
+  inset: 0;
+  background-color: rgba(9, 9, 11, 0.7);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
 }
 
 .modal-wrapper {
   width: 100%;
-  height: 100%;
+  max-width: 680px;
+  max-height: 90vh;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .modal-container {
-  width: 40%;
-  max-height: 70%;
-  margin: 0px auto;
-  border-radius: 7px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
-  transition: all 0.3s ease;
+  width: 100%;
+  max-height: 85vh;
+  background: var(--modal-bg) !important;
+  border: 1px solid var(--card-border) !important;
+  box-shadow: var(--card-shadow) !important;
+  display: flex;
   flex-direction: column;
-  display: flex; /*added*/
+  padding: var(--space-6) !important;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
 }
 
-@media screen and (max-width: 1600px) {
-  .modal-container {
-    width: 60%;
-  }
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-3);
 }
 
-@media screen and (max-width: 1200px) {
-  .modal-container {
-    width: 80%;
-  }
+.modal-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin: 0;
 }
 
-@media screen and (max-width: 580px) {
-  .modal-container {
-    width: 90%;
-  }
+.title-link {
+  color: var(--foreground);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
-.modal-body {
-  margin: 20px 0;
-  overflow-y: scroll;
-  max-height: inherit;
+.title-link:hover {
+  color: var(--accent);
 }
 
-.modal-enter {
-  opacity: 0;
+.title-icon {
+  font-size: 0.9rem;
+  opacity: 0.6;
 }
 
-.modal-leave-active {
-  opacity: 0;
+.close-btn {
+  background: transparent;
+  border: none;
+  color: var(--muted-foreground);
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s, transform 0.2s;
 }
 
-.modal-enter .modal-container,
-.modal-leave-active .modal-container {
-  -webkit-transform: scale(1.1);
+.close-btn:hover {
+  color: var(--foreground);
   transform: scale(1.1);
 }
 
-.title {
-  font-size: 30px;
-  font-weight: 500;
-}
-.title1 {
-  font-size: 24px;
-  font-weight: 400;
+.modal-divider {
+  border: 0;
+  height: 1px;
+  background: var(--card-border);
+  margin: 0;
 }
 
-.title2 {
-  font-size: 20px;
-  font-weight: 400;
+.modal-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-6) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-height: calc(85vh - 160px);
 }
 
-.title3 {
-  font-size: 16px;
-  font-weight: 400;
+.modal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  font-size: 0.85rem;
+  color: var(--muted-foreground);
 }
 
-.badge {
-  background-color: rgb(211, 227, 233);
-  transition: all 0.5s;
-  font-weight: 500;
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
-.badge:hover {
-  transition: all 0.5s;
-  box-shadow: 2px 2px 5px rgb(179, 179, 179);
+.text-star {
+  color: #fbbf24;
 }
 
-.btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
+.modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
 }
 
-.btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
+.modal-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--foreground);
+  text-align: justify;
+  white-space: pre-line;
 }
 
-.btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
+.modal-gallery-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
 }
 
-.bg-dark4 {
-  background-color: #494e55 !important;
+.gallery-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  padding-top: var(--space-4);
+}
+
+.modal-footer .btn-primary,
+.modal-footer .btn-secondary {
+  min-width: 100px;
+}
+
+/* Animations */
+.modal-fade-enter-active,
+.modal-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.modal-fade-enter-from,
+.modal-fade-leave-to {
+  opacity: 0;
+}
+
+.modal-fade-enter-active .modal-container {
+  animation: modal-pop-in 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-fade-leave-active .modal-container {
+  animation: modal-pop-out 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modal-pop-in {
+  from {
+    transform: scale(0.95) translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes modal-pop-out {
+  from {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.95) translateY(10px);
+    opacity: 0;
+  }
 }
 </style>

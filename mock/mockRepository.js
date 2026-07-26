@@ -1,10 +1,37 @@
-const { data, sha_commit } = require("./_data.json");
+import dataJson from "./_data.json";
+import flatPicture from "../src/assets/sinkaroid.png";
+import shadowPicture from "../src/assets/daryun.png";
+
+// Import visual design artwork images
+import imgLivium from "../src/assets/designs/livium.jpg";
+import imgLivium2 from "../src/assets/designs/livium2.jpg";
+import imgMS from "../src/assets/designs/MS.png";
+import imgWorld from "../src/assets/designs/world_by_sinkaroid_dcyjvod.png";
+import imgTobi from "../src/assets/designs/tobi_by_sinkaroid_dcyjvuh.png";
+import imgSca from "../src/assets/designs/sca.png";
+import imgDog from "../src/assets/designs/dog.gif";
+import imgJoker from "../src/assets/designs/joker_by_sinkaroid_dcyjvhx.png";
+import imgBatavia from "../src/assets/designs/batavia.jpg";
+import imgCrewet from "../src/assets/designs/crewet_by_sinkaroid_dcyjw22-fullview.jpg";
+import imgSc0Heroine from "../src/assets/designs/sc0-heroine.png";
+import imgSlemanboysSc0 from "../src/assets/designs/slemanboys-x-sc0.png";
+import imgSjSc0 from "../src/assets/designs/sj-sc0.png";
+import imgSlemangetar from "../src/assets/designs/slemangetar.png";
+import imgSc0 from "../src/assets/designs/sc0.png";
+import imgStupidcode from "../src/assets/designs/stupidcode.png";
+import imgThePg from "../src/assets/designs/the-pg.png";
+
+// Import standalone software project images
+import imgScathachbot from "../src/assets/standalone/scathachbot.png";
+import imgScathachapi from "../src/assets/standalone/scathachapi.png";
+
+const { data, sha_commit } = dataJson;
 
 let info = {
   name: "Sinkaroid",
   logo_name: "sinkaroid",
-  flat_picture: require("../src/assets/sinkaroid.png"),
-  shadow: require("../src/assets/daryun.png"),
+  flat_picture: flatPicture,
+  shadow: shadowPicture,
   config: {
     use_cookies: true,
     navbar: {
@@ -12,9 +39,11 @@ let info = {
     },
   },
   description:
-    "19yr old part time software dev mostly open-source also by trade. ",
+    "23yr old wandering code rogue and open-sourcerer",
   sinopsis:
     "I have no degree alias never go to formal college education, so keep in mind that if you want to hire me, I might not remember the complexity of interpolation search algorithm, but I'm pretty good and patient enough in searching and experimenting for it! All I learn this way with patience 💗",
+  sinopsis_by_sinkaroid: 
+    "I never trained beneath the banners of a grand academy, so don't expect me to recite every ancient algorithm from memory. Hand me the grimoire instead—I have the patience to study, experiment, and forge the right spell until the quest is complete. Every lesson in my tome was earned through curiosity, unwavering perseverance, and the courage to learn from every failed spell.",
   links: {
     linkedin: "https://www.linkedin.com/in/sinkaroid/",
     github: "https://github.com/sinkaroid",
@@ -51,42 +80,48 @@ let info = {
   ],
   experience: [
     {
-      name: "ScathachGrip",
-      link: "https://github.com/ScathachGrip",
-      photo:
-        "https://cdn.discordapp.com/attachments/952117487166705747/1006890840762884096/scathachgrip.png",
-      place: "Indonesia - Thailand",
-      date: "Jun, 2021 - Present",
-      position: "Software Engineer - Developer Relations",
+      name: "PT. Fasa Centra Artajaya",
+      link: "https://www.fasapay.co.id",
+      place: "Yogyakarta, Indonesia",
+      date: "2022 - 2025",
+      position: "Backend Engineer",
       description:
-        "Focused on micro products like discord, telegram, and other automated and scraping bots, tools, libraries for It's services mostly dealing with NSFW stuff related actionable data as it over-engineering which makes daily use easily. We created a successful product that over 25.000 server invites, and over with 3M users on Discord. Part of the biggest Discord products that created by Indonesian.",
+        "Grha Karya Jody Lt. 1, Jl. Cempaka Baru No. 9, Karangasem, Condongcatur, Depok, Sleman, Yogyakarta 55283.",
       skills: [
-        "JavaScript/TypeScript",
-        "NodeJS",
-        "Rust",
-        "Python",
+        "Backend Engineering",
+        "Payment Gateway",
+        "API Integration"
+      ],
+    },
+    {
+      name: "ScathachGrip",
+      link: "https://scathachbot.xyz",
+      place: "Indonesia - Thailand",
+      date: "2021 - Present",
+      position: "Developer Relations - CTO",
+      description:
+        "Microservices product. Scathach bot - Imagine a lewd bot 70K servers, 8M+ users. https://scathachbot.xyz",
+      skills: [
         "Embedded Software",
         "Microservices",
-        "Restful API",
+        "Software as a service",
       ],
     },
     {
       name: "PT. Telekomunikasi Indonesia (Telkom) Tbk",
       link: "https://www.telkom.co.id/",
-      photo:
-        "https://cdn.discordapp.com/attachments/952117487166705747/1006890841232650291/telkom.png",
       place: "Yogyakarta, Indonesia",
       date: "2018 - 2019",
-      position: "	Industrial Solutions & Services",
+      position: "	Industrial Solutions",
       description:
         "Jl. Yos Sudarso No.9, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224",
-      skills: ["Internships", "Problem solve", "Teamwork", "Communication", "Networking"],
+      skills: ["Internships", "Problem solve", "Networking"],
     }
   ],
   skills: [
     {
       title: "Languages",
-      info: ["Python", "Javascript/TypeScript", "PHP", "Rust", "Go"],
+      info: ["Javascript/TypeScript", "Python", "Vue", "Go", "Rust"],
       icon: "fa fa-code",
     },
     {
@@ -111,16 +146,6 @@ let info = {
       icon: "fa fa-cubes",
     },
     {
-      title: "Runtime",
-      info: ["NodeJS", "Python", "Deno"],
-      icon: "fas fa-laptop-code",
-    },
-    {
-      title: "Databases",
-      info: ["MongoDB", "MySQL", "PostgreSQL", "SQLite", "Memcache", "Redis"],
-      icon: "fa fa-database",
-    },
-    {
       title: "Tools",
       info: [
         "Docker",
@@ -131,47 +156,8 @@ let info = {
         "Poetry",
         "JSDoc",
         "TypeDoc",
-        "Pdoc",
-        "Sphinx",
       ],
       icon: "fas fa-tools",
-    },
-    {
-      title: "Design",
-      info: ["Adobe Photoshop", "Gimp", "Sketch drawing"],
-      icon: "fa fa-pencil-square-o",
-    },
-    {
-      title: "Other abilities",
-      info: [
-        "Reverse Engineering",
-        "Penetration Testing",
-        "Social Engineering",
-        "Doxxing",
-        "Dota 2 Unprofessional Player",
-      ],
-      icon: "fa fa-cat",
-    },
-    {
-      title: "The Surplus of me",
-      info: [
-        "Patient",
-        "Can work under pressure",
-        "Can work at crucial time",
-        "Strong imagination",
-        "Big heart",
-      ],
-      icon: "fa fa-heart",
-    },
-    {
-      title: "The Lacks of me",
-      info: [
-        "No degree",
-        "Arbitrarily forehead",
-        "Perhaps will annoying you with fuckton of questions if I'm curious about something",
-      ],
-      icon: "fa fa-heart-broken",
-      
     },
   ],
   portfolio: data,
@@ -181,7 +167,7 @@ let info = {
       title: "Darkness Livium Requiem",
       pictures: [
         {
-          img: require("../src/assets/designs/livium.jpg"),
+          img: imgLivium,
           title:
             "Royal Commander | Tanya degurechaff assets by @CasulCasulCasul",
         },
@@ -198,7 +184,7 @@ let info = {
       title: "A God's Puppet",
       pictures: [
         {
-          img: require("../src/assets/designs/livium2.jpg"),
+          img: imgLivium2,
           title:
             "Royal Commander | Tanya degurechaff assets by @CasulCasulCasul",
         },
@@ -215,7 +201,7 @@ let info = {
       title: "WPU Moonlight Shadow",
       pictures: [
         {
-          img: require("../src/assets/designs/MS.png"),
+          img: imgMS,
           title: "Moonlight Shadow",
         },
       ],
@@ -231,7 +217,7 @@ let info = {
       title: "Fuck Corona",
       pictures: [
         {
-          img: require("../src/assets/designs/world_by_sinkaroid_dcyjvod.png"),
+          img: imgWorld,
           title: "Fuck Corona",
         },
       ],
@@ -249,7 +235,7 @@ let info = {
       title: "Indra Uchiha",
       pictures: [
         {
-          img: require("../src/assets/designs/tobi_by_sinkaroid_dcyjvuh.png"),
+          img: imgTobi,
           title: "Indrawan",
         },
       ],
@@ -265,7 +251,7 @@ let info = {
       title: "ScathachGrip",
       pictures: [
         {
-          img: require("../src/assets/designs/sca.png"),
+          img: imgSca,
           title: "ScathachGrip",
         },
       ],
@@ -281,7 +267,7 @@ let info = {
       title: "The Fallen Heroes",
       pictures: [
         {
-          img: require("../src/assets/designs/dog.gif"),
+          img: imgDog,
           title: "Heroes",
         },
       ],
@@ -298,7 +284,7 @@ let info = {
       title: "The Joker",
       pictures: [
         {
-          img: require("../src/assets/designs/joker_by_sinkaroid_dcyjvhx.png"),
+          img: imgJoker,
           title: "The Joker",
         },
       ],
@@ -315,7 +301,7 @@ let info = {
       title: "The Batavia",
       pictures: [
         {
-          img: require("../src/assets/designs/batavia.jpg"),
+          img: imgBatavia,
           title: "Batavia",
         },
       ],
@@ -331,7 +317,7 @@ let info = {
       title: "Urepmu kakean Quotes!",
       pictures: [
         {
-          img: require("../src/assets/designs/crewet_by_sinkaroid_dcyjw22-fullview.jpg"),
+          img: imgCrewet,
           title: "Nyocot",
         },
       ],
@@ -347,7 +333,7 @@ let info = {
       title: "The Beautiful Heroine",
       pictures: [
         {
-          img: require("../src/assets/designs/sc0-heroine.png"),
+          img: imgSc0Heroine,
           title: "The Beautiful Heroine",
         },
       ],
@@ -363,7 +349,7 @@ let info = {
       title: "Slemanboys vs. The Stupidc0de",
       pictures: [
         {
-          img: require("../src/assets/designs/slemanboys-x-sc0.png"),
+          img: imgSlemanboysSc0,
           title: "Slemanboys",
         },
       ],
@@ -380,14 +366,14 @@ let info = {
       title: "Stupidc0de - Sanjungan Jiwa",
       pictures: [
         {
-          img: require("../src/assets/designs/sj-sc0.png"),
+          img: imgSjSc0,
           title: "Sc0 X Sj",
         },
       ],
       technologies: ["Adobe Photoshop"],
       category: "Visual Design",
       github: "",
-      date: "2015",
+      date: "2016",
       visit: "",
       description:
         "Collaboration with Stupidc0de to create a visual identity for Sanjungan Jiwa, a micro-community that dedicated with defacements and exploits.",
@@ -397,14 +383,14 @@ let info = {
       title: "SlemanGetar",
       pictures: [
         {
-          img: require("../src/assets/designs/slemangetar.png"),
+          img: imgSlemangetar,
           title: "SlemanGetar",
         },
       ],
       technologies: ["Adobe Photoshop"],
       category: "Visual Design",
       github: "",
-      date: "2015",
+      date: "2016",
       visit: "",
       description: "We Are Cyber Generation for our Citizen",
     },
@@ -413,14 +399,14 @@ let info = {
       title: "No Leader We Just Laugh Together",
       pictures: [
         {
-          img: require("../src/assets/designs/sc0.png"),
+          img: imgSc0,
           title: "Stupidc0de",
         },
       ],
       technologies: ["Adobe Photoshop", "Adobe Illustrator"],
       category: "Visual Design",
       github: "",
-      date: "2014",
+      date: "2016",
       visit: "",
       description: "Stay young Stay Dumb",
     },
@@ -429,14 +415,14 @@ let info = {
       title: "The sixth shadow",
       pictures: [
         {
-          img: require("../src/assets/designs/stupidcode.png"),
+          img: imgStupidcode,
           title: "Stupidc0de",
         },
       ],
       technologies: ["XD", "Illustrator"],
       category: "Visual Design",
       github: "",
-      date: "2014",
+      date: "2016",
       visit: "",
       description: "Stupidc0de Family",
     },
@@ -445,14 +431,14 @@ let info = {
       title: "PhantomGhost Hacker Team",
       pictures: [
         {
-          img: require("../src/assets/designs/the-pg.png"),
+          img: imgThePg,
           title: "PhantomGhost",
         },
       ],
       technologies: ["Adobe Photoshop"],
       category: "Visual Design",
       github: "",
-      date: "2014",
+      date: "2015",
       visit: "",
       description: "Visual Design for PhantomGhost Hacker Team",
     },
@@ -463,7 +449,7 @@ let info = {
       title: "Scathach Bot Discord",
       pictures: [
         {
-          img: require("../src/assets/standalone/scathachbot.png"),
+          img: imgScathachbot,
           title: "Scathach Bot - www.scathach.id - patreon.com/scathach_bot",
         },
       ],
@@ -481,7 +467,7 @@ let info = {
       title: "Scathach API - Microservices",
       pictures: [
         {
-          img: require("../src/assets/standalone/scathachapi.png"),
+          img: imgScathachapi,
           title:
             "https://www.patreon.com/join/scathach_bot/checkout?rid=7767699",
         },

@@ -1,258 +1,254 @@
 <template>
-  <div
-    class="py-4 p-st"
-    :class="{
-      'bg-light': !nightMode,
-      'bg-dark2': nightMode,
-      'text-light': nightMode,
-    }"
-  >
-    <div class="container">
-      <div
-        class="text-center"
-        data-aos="fade"
-        data-aos-once="true"
-        data-aos-duration="1000"
-      >
-        <span
-          class="title text-center"
-          :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          ><b>Contact</b></span
-        >
-        <br />I always keep moving forward and available for every
-        opportunity!
-      </div>
-      <hr
-        width="50%"
-        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-      />
-      <br />
-      <div class="text-center">
-        <div
-          class="mb-3"
-          data-aos="fade-up"
-          data-aos-once="true"
-          data-aos-duration="1000"
-        >
-          <input
-            type="text"
-            name="user_name"
-            v-model="name"
-            placeholder="name"
-            class="pinput"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.2s"
-          />
-        </div>
-
-        <div
-          class="my-3"
-          data-aos="fade-up"
-          data-aos-once="true"
-          data-aos-duration="1000"
-        >
-          <input
-            type="email"
-            name="user_email"
-            v-model="email"
-            placeholder="email"
-            class="pinput"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.4s"
-          />
-        </div>
-
-        <div
-          class="my-3"
-          data-aos="fade-up"
-          data-aos-once="true"
-          data-aos-duration="1000"
-        >
-          <textarea
-            name="message"
-            v-model="text"
-            placeholder="message"
-            class="pinput"
-            rows="4"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.6s"
-          ></textarea>
-        </div>
-
-        <button
-          @click.prevent="sendEmail"
-          class="mt-1 btn mb-3"
-          data-aos="fade"
-          data-aos-once="true"
-          data-aos-duration="1000"
-          data-aos-offset="50"
-        >
-          Send
-        </button>
-      </div>
-
-      <Snackbar
-        :showSnackbar="showSnackbar"
-        @close="closeSnackbar"
-        :snackbarMessage="snackbarMessage"
-        :snackbarColor="snackbarColor"
-      />
+  <section class="section contact-section" id="contact">
+    <div class="section-header">
+      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Get in Touch</h2>
+      <p class="section-subtitle">
+        I am always open to discussing new projects, creative opportunities, or custom requests.
+      </p>
     </div>
-  </div>
+
+    <!-- Contact Form Container -->
+    <div class="contact-grid">
+      <div class="bento-card contact-form-card">
+        <form @submit.prevent="sendEmail" class="contact-form">
+          
+          <!-- Name Input -->
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <div class="input-wrapper">
+              <i class="far fa-user input-icon"></i>
+              <input
+                id="name"
+                type="text"
+                v-model="name"
+                placeholder="Your Name"
+                class="form-input"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Email Input -->
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <div class="input-wrapper">
+              <i class="far fa-envelope input-icon"></i>
+              <input
+                id="email"
+                type="email"
+                v-model="email"
+                placeholder="your.email@example.com"
+                class="form-input"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Message Textarea -->
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <div class="input-wrapper">
+              <i class="far fa-comment-dots input-icon textarea-icon"></i>
+              <textarea
+                id="message"
+                v-model="text"
+                placeholder="How can I help you?"
+                class="form-input form-textarea"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="form-actions">
+            <button 
+              type="submit" 
+              class="btn-primary submit-btn clickable"
+              :disabled="sending"
+            >
+              <span v-if="sending"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+              <span v-else><i class="far fa-paper-plane"></i> Send Message</span>
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+    <!-- Notification Alert -->
+    <Snackbar
+      :showSnackbar="showSnackbar"
+      :snackbarMessage="snackbarMessage"
+      :snackbarColor="snackbarColor"
+      @close="closeSnackbar"
+    />
+  </section>
 </template>
 
-<script>
+<script setup>
+import { ref, watch } from "vue";
+import emailjs from "@emailjs/browser";
 import config from "../../config";
-import emailjs from "emailjs-com";
+import Snackbar from "./helpers/Snackbar.vue";
+import { randomGradient } from "../composables/useRandomGradient";
 
-import Snackbar from "./helpers/Snackbar";
+const titleGradient = ref(randomGradient());
 
-export default {
-  name: "Contact",
-  components: {
-    Snackbar,
-  },
-  props: {
-    nightMode: {
-      type: Boolean,
-    },
-  },
-  data() {
-    return {
-      email: "",
-      name: "",
-      text: "",
-      showSnackbar: false,
-      snackbarMessage: "",
-      snackbarColor: "",
-    };
-  },
-  methods: {
-    closeSnackbar(val) {
-      if (!val) {
-        setTimeout(() => {
-          this.showSnackbar = val;
-        }, 1000);
-      }
-    },
-    sendEmail() {
-      if (!this.email || !this.name || !this.text) {
-        this.showSnackbar = true;
-        this.snackbarMessage = "Please all the fields";
-        this.snackbarColor = "rgb(212, 149, 97)";
-      } else {
-        var obj = {
-          user_email: this.email,
-          from_name: this.name,
-          message_html: this.text,
-          to_name: "Indrawan",
-        };
+const props = defineProps({
+  nightMode: {
+    type: Boolean,
+    default: false
+  }
+});
 
-        emailjs
-          .send(
-            config.emailjs.serviceID,
-            config.emailjs.templateID,
-            obj,
-            config.emailjs.userID
-          )
-          .then(
-            (_result) => {
-              console.log(_result);
-              this.showSnackbar = true;
-              this.snackbarMessage = "Thanks! Message recieved.";
-              this.snackbarColor = "#1aa260";
+watch(() => props.nightMode, () => {
+  titleGradient.value = randomGradient();
+});
 
-              this.email = "";
-              this.text = "";
-              this.name = "";
-            },
-            (_error) => {
-              console.log(_error.message);
-              this.showSnackbar = true;
-              this.snackbarMessage = "Oops! Something went wrong.";
-              this.snackbarColor = "rgb(212, 149, 97)";
-            }
-          );
-      }
-    },
-  },
+const name = ref("");
+const email = ref("");
+const text = ref("");
+const sending = ref(false);
+
+const showSnackbar = ref(false);
+const snackbarMessage = ref("");
+const snackbarColor = ref("#3b82f6");
+
+const closeSnackbar = (val) => {
+  showSnackbar.value = val;
+};
+
+const sendEmail = () => {
+  // Validate inputs
+  if (!name.value.trim() || !email.value.trim() || !text.value.trim()) {
+    triggerAlert("Please fill in all fields.", "#ef4444");
+    return;
+  }
+
+  sending.value = true;
+  
+  const templateParams = {
+    user_name: name.value,
+    user_email: email.value,
+    message: text.value
+  };
+
+  const emailConfig = config.emailjs || {};
+
+  emailjs.send(
+    emailConfig.serviceID,
+    emailConfig.templateID,
+    templateParams,
+    emailConfig.userID
+  )
+    .then(() => {
+      triggerAlert("Message sent successfully! Thank you.", "#10b981");
+      // Clear inputs
+      name.value = "";
+      email.value = "";
+      text.value = "";
+    })
+    .catch((err) => {
+      triggerAlert(`Failed to send message: ${err.text || err.message}`, "#ef4444");
+    })
+    .finally(() => {
+      sending.value = false;
+    });
+};
+
+const triggerAlert = (message, color) => {
+  snackbarMessage.value = message;
+  snackbarColor.value = color;
+  showSnackbar.value = true;
 };
 </script>
 
 <style scoped>
-.title {
-  font-size: 30px;
-  font-weight: 500;
-}
-.title1 {
-  font-size: 24px;
-  font-weight: 400;
+.contact-grid {
+  display: flex;
+  justify-content: center;
 }
 
-.title2 {
-  font-size: 20px;
-  font-weight: 400;
+.contact-form-card {
+  width: 100%;
+  max-width: 600px;
+  padding: var(--space-8) !important;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slide-up-fade 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-.title3 {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.pinput {
-  font-size: 18px;
-  outline: none;
-  border: none;
-  border-radius: 7px;
-  padding: 10px;
-  width: 50%;
-  transition: all 1s;
-}
-
-.btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
-  width: 50%;
-}
-
-.btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
-}
-
-.btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
-}
-
-.pgray-dark {
-  background-color: #3c4148 !important;
-}
-
-@media screen and (max-width: 1000px) {
-  .pinput {
-    width: 90%;
+@keyframes slide-up-fade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  .pinput {
-    width: 90%;
-  }
+}
 
-  .btn {
-    width: 90%;
-  }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.form-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-icon {
+  position: absolute;
+  left: var(--space-4);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted-foreground);
+  pointer-events: none;
+  font-size: 0.95rem;
+}
+
+.textarea-icon {
+  top: var(--space-4);
+  transform: none;
+}
+
+.form-input {
+  padding-left: 2.8rem !important;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-actions {
+  margin-top: var(--space-2);
+}
+
+.submit-btn {
+  width: 100%;
+  font-size: 1rem;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 </style>

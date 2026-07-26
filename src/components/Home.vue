@@ -1,313 +1,306 @@
 <template>
-  <div
-    :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"
-    class="pt-5 p-st"
-  >
-    <div
-      class="container"
-      data-aos="fade"
-      data-aos-once="true"
-      data-aos-duration="1000"
-    >
-      <!-- <vue-particles color="#dedede"></vue-particles> -->
-
-      <div class="row align-items-center">
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
-          <!-- <a>
-<img :src="picture"
-onmouseover="this.src='https://cdn.discordapp.com/attachments/952117487166705747/994153838741307422/kek.png'"
-onmouseout="this.src='https://cdn.discordapp.com/attachments/952117487166705747/993670266448265227/sinkaroid.png'"
-border="0" alt=""/></a> -->
-
+  <section class="section home-section" id="home">
+    <div class="bento-grid">
+      
+      <!-- Avatar Bento Card -->
+      <div class="bento-card col-span-5 avatar-card text-center">
+        <div class="avatar-wrapper">
           <img
             :src="hovered ? picture_x : picture"
-            @mouseover="(hovered = true), (role = 'Chicken Slaughterer')"
-            @mouseout="(hovered = false), (role = 'Software Developer')"
+            class="avatar-image"
+            alt="Sinkaroid Avatar"
+            @mouseover="onHover"
+            @mouseout="onLeave"
           />
-
-          <br /><br />
-          <h4>{{ role }}</h4>
-          <iframe
-            src="https://github.com/sponsors/sinkaroid/button"
-            title="Sponsor sinkaroid"
-            height="35"
-            width="116"
-            style="border: 0"
-          ></iframe>
         </div>
+        
+        <p class="hero-role" :style="{ backgroundImage: roleGradient }">{{ role }}</p>
+        
+    
+      </div>
 
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
-          <vue-particles
-            color="#dedede"
-            :particleOpacity="0.7"
-            :particlesNumber="80"
-            shapeType="circle"
-            :particleSize="4"
-            linesColor="#dedede"
-            :linesWidth="1"
-            :lineLinked="true"
-            :lineOpacity="0.4"
-            :linesDistance="150"
-            :moveSpeed="3"
-            :hoverEffect="true"
-            hoverMode="grab"
-            :clickEffect="true"
-            clickMode="push"
-          >
-          </vue-particles>
-          <span
-            class="home-title"
-            :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >Sinkaroid here,</span
-          ><br />
-
-          <div>
-            <p v-html="description"></p>
-            {{ sinopsis }}
-            <br /><br />
+      <!-- About Info Bento Card -->
+      <div class="bento-card col-span-7 info-card">
+        <div class="info-content">
+          <span class="greeting">sinkaroid here,</span>
+          <h2 class="hero-name" :style="{ backgroundImage: nameGradient }">{{ name }}</h2>
+          
+          <div class="description-body">
+            <p class="description-text" v-html="description"></p>
+            <p class="synopsis-text">{{ sinopsis }}</p>
           </div>
 
-          <div class="text-center pb-4">
+          <!-- Social Channels Row -->
+          <div class="social-channels">
             <button
-              class="btn btn-outline-secondary mx-2"
+              class="social-btn clickable"
               @click="open('github')"
-              v-tooltip.bottom="'Sinkaroid Github'"
+              data-tooltip="GitHub"
+              aria-label="GitHub Profile"
             >
               <i class="fab fa-github"></i>
             </button>
 
             <button
-              class="btn btn-outline-secondary mx-2"
+              class="social-btn clickable"
               @click="open('pypi')"
-              v-tooltip.bottom="'Sinkaroid Pypi'"
+              data-tooltip="PyPI"
+              aria-label="PyPI Packages"
             >
               <i class="fab fa-python"></i>
             </button>
 
             <button
-              class="btn btn-outline-secondary mx-2"
+              class="social-btn clickable"
               @click="open('npm')"
-              v-tooltip.bottom="'Sinkaroid Npm'"
+              data-tooltip="npm"
+              aria-label="npm Packages"
             >
-              <i class="fab fa-js"></i>
+              <i class="fab fa-npm"></i>
             </button>
 
             <button
-              class="btn btn-outline-secondary mx-2"
+              class="social-btn clickable"
               @click="open('linkedin')"
-              v-tooltip.bottom="'Sinkaroid LinkedIn'"
+              data-tooltip="LinkedIn"
+              aria-label="LinkedIn Profile"
             >
               <i class="fab fa-linkedin"></i>
             </button>
 
             <button
-              class="btn btn-outline-secondary mx-2"
+              class="social-btn clickable"
               @click="open('steam')"
-              v-tooltip.bottom="'Sinkaroid Steam'"
+              data-tooltip="Steam"
+              aria-label="Steam Profile"
             >
               <i class="fab fa-steam"></i>
             </button>
 
             <button
-              class="btn btn-outline-secondary mx-2"
+              class="social-btn clickable"
               @click="open('twitter')"
-              v-tooltip.bottom="'Sinkaroid Twitter'"
+              data-tooltip="Twitter"
+              aria-label="Twitter Profile"
             >
               <i class="fab fa-twitter"></i>
             </button>
 
             <button
-              class="btn btn-outline-secondary mx-2"
+              class="social-btn clickable"
               @click="open('patreon')"
-              v-tooltip.bottom="'Sinkaroid Patreon'"
+              data-tooltip="Patreon"
+              aria-label="Patreon Campaign"
             >
               <i class="fab fa-patreon"></i>
             </button>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</template>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
-<script>
-import info from "../../mock/mockRepository";
 
-export default {
-  name: "Home",
-  props: {
-    nightMode: {
-      type: Boolean,
-    },
-  },
-  data() {
-    return {
-      role: "Software Developer",
-      hovered: false,
-      picture: info.flat_picture,
-      picture_x: info.shadow,
-      description: info.description,
-      sinopsis: info.sinopsis,
-      name: info.name,
-      linkedin: info.links.linkedin,
-      github: info.links.github,
-      npm: info.links.npm,
-      pypi: info.links.pypi,
-      docker: info.links.docker,
-      patreon: info.links.patreon,
-      paypal: info.links.paypal,
-      twitter: info.links.twitter,
-      instagram: info.links.instagram,
-      steam: info.links.steam,
-      resume: info.links.resume,
-    };
-  },
-  methods: {
-    open(link) {
-      switch (link) {
-        case "linkedin":
-          window.open(this.linkedin, "_blank");
-          break;
-        case "github":
-          window.open(this.github, "_blank");
-          break;
-        case "npm":
-          window.open(this.npm, "_blank");
-          break;
-        case "pypi":
-          window.open(this.pypi, "_blank");
-          break;
-        case "docker":
-          window.open(this.docker, "_blank");
-          break;
-        case "paypal":
-          window.open(this.paypal, "_blank");
-          break;
-        case "patreon":
-          window.open(this.patreon, "_blank");
-          break;
-        case "steam":
-          window.open(this.steam, "_blank");
-          break;
-        case "twitter":
-          window.open(this.twitter, "_blank");
-          break;
-        case "instagram":
-          window.open(this.instagram, "_blank");
-          break;
-        case "resume":
-          window.open(this.resume, "_blank");
-          break;
-      }
-    },
-  },
+    </div>
+  </section>
+</template>
+
+<script setup>
+import { ref, watch } from "vue";
+import info from "../../mock/mockRepository";
+import { randomGradient } from "../composables/useRandomGradient";
+
+const props = defineProps({
+  nightMode: {
+    type: Boolean,
+    default: false
+  }
+});
+
+const role = ref("Software Developer");
+const hovered = ref(false);
+
+const nameGradient = ref(randomGradient());
+const roleGradient = ref(randomGradient());
+
+watch(() => props.nightMode, () => {
+  nameGradient.value = randomGradient();
+  roleGradient.value = randomGradient();
+});
+
+const picture = info.flat_picture;
+const picture_x = info.shadow;
+const description = info.description;
+const sinopsis = info.sinopsis_by_sinkaroid;
+const name = info.name;
+
+const links = info.links || {};
+
+const onHover = () => {
+  hovered.value = true;
+  role.value = "Chicken Slaughterer";
+};
+
+const onLeave = () => {
+  hovered.value = false;
+  role.value = "Software Developer";
+};
+
+const open = (platform) => {
+  const target = links[platform];
+  if (target) {
+    window.open(target, "_blank");
+  }
 };
 </script>
 
 <style scoped>
-.test {
-  text-align: center;
-  position: absolute;
+.home-section {
+  padding-top: 100px;
 }
 
-#particles-js {
-  position: absolute;
+/* Custom grid layouts for hero */
+.col-span-5 {
+  grid-column: span 5;
+}
+.col-span-7 {
+  grid-column: span 7;
+}
+
+@media (max-width: 992px) {
+  .col-span-5, .col-span-7 {
+    grid-column: span 12;
+  }
+}
+
+/* Avatar Card styles */
+.avatar-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  padding: var(--space-8) !important;
+}
+
+.avatar-wrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  transform: translate3d(0, 0, 0);
+  animation: float 4s ease-in-out infinite;
+  background: var(--bg-app);
+}
+
+.avatar-image {
   width: 100%;
   height: 100%;
-  background-position: 50% 50%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
 }
 
 @keyframes float {
-  0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
-  }
-  50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-20px);
-  }
-  100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
-  }
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
 }
 
-.home-title {
-  font-size: 28px;
+
+
+.sponsor-wrapper {
+  margin-top: var(--space-2);
+}
+
+/* Info card styles */
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--space-4) var(--space-6) !important;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.greeting {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
   font-weight: 500;
+  color: var(--muted-foreground);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
-img {
-  /** border: 1px solid #4a4847; **/
-  border-radius: 50%;
-  box-sizing: border-box;
-  overflow: hidden;
-  transform: translatey(0px);
-  max-width: 280px;
-  margin-top: 60px;
-  box-sizing: border-box;
-  overflow: hidden;
-  transform: translatey(0px);
-  animation: float 3s ease-in-out infinite;
+.hero-name {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.1;
+  background: var(--hero-name-gradient, var(--accent-gradient));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.04em;
 }
 
-@media only screen and (max-width: 580px) {
-  img {
-    object-fit: cover;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(44, 35, 35);
-  }
+.hero-role {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.4;
+  background: var(--hero-role-gradient, var(--accent-gradient));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.02em;
+  margin: 0;
 }
 
-.img-wrapper {
-  display: inline-block;
-  background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+.description-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
 }
 
-.img-wrapper > img {
-  vertical-align: top;
-}
-
-.img-wrapper > img:hover {
-  opacity: 0;
-}
-
-.fa {
-  font-size: 15px;
-}
-
-.btn {
-  border-radius: 10%;
-  position: relative;
-  z-index: 9999;
-  border-color: #ee44da;
-  color: #8f9def;
-}
-
-.btn:hover {
-  background-color: #41eb41;
-  border-color: #41eb41;
-  color: white;
-}
-
-.btn:focus {
-  background-color: #41eb41;
-  border-color: #41eb41;
-  color: white;
-}
-
-.btn:focus {
-  outline: none !important;
-}
-
-p {
+.description-text {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--foreground);
   text-align: justify;
-  font-weight: 400;
 }
 
-/* LEAVES */
+.synopsis-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted-foreground);
+  text-align: justify;
+}
+
+.social-channels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.social-btn {
+  background: var(--card-border);
+  border: 1px solid var(--card-border);
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.social-btn:hover {
+  background: var(--accent-gradient);
+  border-color: transparent;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(var(--accent-rgb), 0.35);
+}
 </style>

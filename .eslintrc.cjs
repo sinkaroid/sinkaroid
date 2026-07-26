@@ -2,10 +2,13 @@ module.exports = {
   root: true,
   env: {
     node: true,
+    browser: true,
+    es2022: true,
   },
-  extends: ["plugin:vue/essential", "eslint:recommended"],
+  extends: ["plugin:vue/vue3-essential", "eslint:recommended"],
   parserOptions: {
-    parser: "babel-eslint",
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
@@ -16,5 +19,6 @@ module.exports = {
     quotes: ["error", "double"],
     indent: ["error", 2],
     "no-unused-vars": "warn",
+    "vue/multi-word-component-names": "off"
   },
 };

@@ -1,408 +1,264 @@
 <template>
-  <div
-    class="py-4 p-st"
-    :class="{
-      'bg-light': !nightMode,
-      'bg-dark2': nightMode,
-      'text-light': nightMode,
-    }"
-  >
-    <div class="container">
-      <div
-        class="text-center"
-        data-aos="fade"
-        data-aos-once="true"
-        data-aos-duration="1000"
-      >
-        <span
-          class="title text-center"
-          :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          ><b>I do anime & manga, here my recent activity</b></span
-        ><br />
-        <a href="https://jikan.docs.apiary.io/#" target="_blank">Jikan API</a>
-        helps me to synchronize <a href="https://myanimelist.net/profile/sinkaroid" target="_blank">@sinkaroid</a> user feeds with ease
-      </div>
-      <hr
-        width="50%"
-        :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-      />
-
-
-      <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="Anime">
-          <br />
-          <div class="row">
-            <div
-              class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
-              v-for="(portfolio, idx) in anime_info"
-              :key="portfolio.title"
-            >
-              <Card
-                :style="{ 'transition-delay': (idx % 3) / 4.2 + 's' }"
-                :portfolio="portfolio"
-                @show="showModalFn"
-                data-aos="fade-up"
-                :nightMode="nightMode"
-                data-aos-offset="100"
-                data-aos-delay="10"
-                data-aos-duration="500"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="true"
-              />
-            </div>
-          </div>
-          <div class="text-center py-3" v-if="showBtn !== 'show less'">
-            <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
-          </div>
-        </v-tab>
-
-        <v-tab title="Manga">
-          <br />
-          <div class="row">
-            <div
-              class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
-              v-for="(portfolio, idx) in manga_info"
-              :key="portfolio.title"
-            >
-              <Card
-                :style="{ 'transition-delay': (idx % 3) / 4.2 + 's' }"
-                :portfolio="portfolio"
-                @show="showModalFn"
-                data-aos="fade-up"
-                :nightMode="nightMode"
-                data-aos-offset="100"
-                data-aos-delay="10"
-                data-aos-duration="500"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="true"
-              />
-            </div>
-          </div>
-          <div class="text-center py-3" v-if="showBtn !== 'show less'">
-            <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
-          </div>
-        </v-tab>
-      </vue-tabs>
+  <section class="section mal-section" id="myanimelist">
+    <div class="section-header">
+      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">MyAnimeList Activity</h2>
+      <p class="section-subtitle">
+        I track my anime and manga journey. 
+        Synchronized with <a href="https://myanimelist.net/profile/sinkaroid" target="_blank" class="clickable">@sinkaroid</a> using Jikan API.
+      </p>
     </div>
-    <transition name="modal">
-      <Modal
-        :showModal="showModal"
-        @close="closeModal"
-        v-if="showModal"
-        :portfolio="modal_info"
-        :nightMode="nightMode"
-      />
-    </transition>
-    <transition name="modal">
-      <DesignModal
-        :showModal="showDesignModal"
-        @close="closeModal"
-        v-if="showDesignModal"
-        :portfolio="design_modal_info"
-        :nightMode="nightMode"
-      />
-    </transition>
-  </div>
+
+    <!-- Capsule Tabs Switcher -->
+    <div class="tabs-container">
+      <div class="capsule-tabs">
+        <button
+          class="tab-btn clickable"
+          :class="{ 'active': activeTab === 'anime' }"
+          @click="activeTab = 'anime'"
+        >
+          <i class="fas fa-tv"></i> Anime
+        </button>
+        <button
+          class="tab-btn clickable"
+          :class="{ 'active': activeTab === 'manga' }"
+          @click="activeTab = 'manga'"
+        >
+          <i class="fas fa-book-open"></i> Manga
+        </button>
+      </div>
+    </div>
+
+    <!-- Tab 1: Anime List -->
+    <div v-if="activeTab === 'anime'" class="tab-content">
+      <div class="row">
+        <div
+          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
+          v-for="(item, idx) in displayedAnime"
+          :key="item.title"
+          :style="{ animationDelay: `${idx * 0.1}s` }"
+        >
+          <Card
+            :portfolio="item"
+            @show="showModalFn"
+            :nightMode="nightMode"
+          />
+        </div>
+      </div>
+      <div class="text-center py-4" v-if="hasMoreAnime">
+        <button class="btn-secondary clickable btn-enter" @click="showMore">
+          Load More
+        </button>
+      </div>
+    </div>
+
+    <!-- Tab 2: Manga List -->
+    <div v-if="activeTab === 'manga'" class="tab-content">
+      <div class="row">
+        <div
+          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
+          v-for="(item, idx) in displayedManga"
+          :key="item.title"
+          :style="{ animationDelay: `${idx * 0.1}s` }"
+        >
+          <Card
+            :portfolio="item"
+            @show="showModalFn"
+            :nightMode="nightMode"
+          />
+        </div>
+      </div>
+      <div class="text-center py-4" v-if="hasMoreManga">
+        <button class="btn-secondary clickable btn-enter" @click="showMore">
+          Load More
+        </button>
+      </div>
+    </div>
+
+    <!-- Details Modal (Newspaper style for MAL) -->
+    <MalModal
+      v-if="showModal"
+      :showModal="showModal"
+      :portfolio="modal_info"
+      :nightMode="nightMode"
+      @close="closeModal"
+    />
+  </section>
 </template>
 
-<script>
-import Card from "./helpers/CardMal";
-import Modal from "./helpers/ModalMal";
-import DesignModal from "./helpers/DesignModalMal";
-import info from "../../mock/mockMyanimelist";
-import manga from "../../mock/mockMyanimelist";
-import { VueTabs, VTab } from "vue-nav-tabs";
-import "vue-nav-tabs/themes/vue-tabs.css";
+<script setup>
+import { ref, computed, watch } from "vue";
+import Card from "./helpers/Card.vue";
+import MalModal from "./helpers/MalModal.vue";
+import { randomGradient } from "../composables/useRandomGradient";
 
-// import { VueperSlides } from "vueperslides"; // VueperSlide
-import "vueperslides/dist/vueperslides.css";
+// Import locally generated metadata
+import animeData from "../../mock/_anime.json";
+import mangaData from "../../mock/_manga.json";
 
-export default {
-  name: "Mal",
-  components: {
-    Card,
-    Modal,
-    VueTabs,
-    VTab,
-    // VueperSlides,
-    // VueperSlide,
-    DesignModal,
-  },
-  props: {
-    nightMode: {
-      type: Boolean,
-    },
-  },
-  data() {
-    return {
-      all_info: info.anime,
-      all_info_manga: manga.manga,
-      anime_info: [],
-      manga_info: [],
-      showModal: false,
-      showDesignModal: false,
-      modal_info: {},
-      design_modal_info: {},
-      number: 3,
-      showBtn: "show more",
-      shower: 0,
-      data: [
-        "<div class=\"example-slide\">Slide 1</div>",
-        "<div class=\"example-slide\">Slide 2</div>",
-        "<div class=\"example-slide\">Slide 3</div>",
-      ],
-    };
-  },
-  created() {
-    for (var i = 0; i < this.number; i++) {
-      this.anime_info.push(this.all_info[i]);
-    }
+const titleGradient = ref(randomGradient());
 
-    for (var i_manga = 0; i_manga < this.number; i_manga++) {
-      this.manga_info.push(this.all_info_manga[i_manga]);
-    }
-  },
-  watch: {
-    number() {
-      this.anime_info = [];
-      this.manga_info = [];
-      for (var i = 0; i < this.number; i++) {
-        this.anime_info.push(this.all_info[i]);
-      }
+const props = defineProps({
+  nightMode: {
+    type: Boolean,
+    default: false
+  }
+});
 
-      for (var i_manga = 0; i_manga < this.number; i_manga++) {
-        this.manga_info.push(this.all_info_manga[i_manga]);
-      }
-    },
-  },
-  methods: {
-    next() {
-      this.$refs.flickity.next();
-    },
+watch(() => props.nightMode, () => {
+  titleGradient.value = randomGradient();
+});
 
-    previous() {
-      this.$refs.flickity.previous();
-    },
-    closeModal() {
-      this.showModal = false;
-      this.showDesignModal = false;
-      document.getElementsByTagName("body")[0].classList.remove("modal-open");
-    },
-    showModalFn(portfolio) {
-      this.modal_info = portfolio;
-      this.showModal = true;
-    },
-    showDesignModalFn(design_portfolio) {
-      this.design_modal_info = design_portfolio;
-      this.showDesignModal = true;
-    },
-    showMore() {
-      if (this.number != this.all_info.length) {
-        this.number += 3;
+const animeList = animeData.data || [];
+const mangaList = mangaData.data_manga || [];
 
-        window.scrollBy({
-          top: document.getElementsByClassName("smcard")[0].clientHeight,
-          behavior: "smooth",
-        });
+const activeTab = ref("anime");
 
-        if (this.number > this.all_info.length)
-          this.number = this.all_info.length;
-      }
+// Load More State
+const animeLimit = ref(3);
+const mangaLimit = ref(3);
 
-      if (this.number == this.all_info.length && this.shower == 0) {
-        this.shower = 1;
-        this.showBtn = "show less";
-      } else if (this.number == this.all_info.length && this.shower == 1) {
-        var elementPosition = document.getElementById("portfolio").offsetTop;
-        window.scrollTo({ top: elementPosition + 5, behavior: "smooth" });
-        this.shower = 0;
-        this.number = 3;
-        this.showBtn = "show more";
-      }
-    },
-  },
+const displayedAnime = computed(() => {
+  return animeList.slice(0, animeLimit.value);
+});
+
+const displayedManga = computed(() => {
+  return mangaList.slice(0, mangaLimit.value);
+});
+
+const hasMoreAnime = computed(() => {
+  return animeLimit.value < animeList.length;
+});
+
+const hasMoreManga = computed(() => {
+  return mangaLimit.value < mangaList.length;
+});
+
+const showMore = () => {
+  if (activeTab.value === "anime") {
+    animeLimit.value = Math.min(animeLimit.value + 3, animeList.length);
+  } else {
+    mangaLimit.value = Math.min(mangaLimit.value + 3, mangaList.length);
+  }
+};
+
+// Modal Handling
+const showModal = ref(false);
+const modal_info = ref({});
+
+const showModalFn = (item) => {
+  modal_info.value = item;
+  showModal.value = true;
+};
+
+const closeModal = () => {
+  showModal.value = false;
 };
 </script>
 
 <style scoped>
-.title {
-  font-size: 30px;
-  font-weight: 500;
-}
-.title1 {
-  font-size: 24px;
-  font-weight: 400;
-}
-
-.title2 {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.title3 {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.modal-enter {
-  opacity: 0;
-}
-
-.modal-leave-active {
-  opacity: 0;
-}
-
-.modal-enter .modal-container,
-.modal-leave-active .modal-container {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.btn {
-  border-color: rgb(212, 149, 97);
-  color: rgb(212, 149, 97);
-}
-
-.btn:hover {
-  background-color: rgb(212, 149, 97);
-  border-color: rgb(212, 149, 97);
-  color: white;
-}
-
-.btn:focus {
-  background-color: rgb(212, 149, 97);
-  border-color: rgb(212, 149, 97);
-  color: white;
-}
-
-/deep/ .vue-tabs .nav-tabs {
-  border: none;
-  font-size: 20px;
-  font-weight: 500;
+/* Tabs controls */
+.tabs-container {
   display: flex;
-
   justify-content: center;
+  margin-bottom: var(--space-8);
 }
 
-/deep/ .vue-tabs .tabs__link {
-  color: #a0a0a0;
+.capsule-tabs {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 6px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  gap: 4px;
+  box-shadow: var(--card-shadow);
+  backdrop-filter: var(--card-blur);
 }
 
-/deep/ .vue-tabs .nav-tabs > li.active > a {
+.tab-btn {
   background: transparent;
   border: none;
-  transition: all 0.5s;
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-/deep/ .vue-tabs .nav-tabs > li > a:hover {
-  background: transparent;
-  color: #cbcbcb;
-  transition: all 0.5s;
-}
-
-/deep/ .vue-tabs .nav-tabs > li > a {
-  background: transparent;
-  border: none;
-  transition: all 0.5s;
-}
-
-/deep/ .vue-tabs .nav-tabs > li > a:after {
-  content: "";
-  width: 20%;
-  position: absolute;
-  bottom: 3px;
-  border-width: 0 0 2px;
-  border-style: solid;
-  transition: all 0.5s;
-}
-
-/deep/ .vue-tabs .nav-tabs > li.active > a:after {
-  width: 100%;
-  transition: all 0.5s;
-}
-
-.design-img {
-  width: 100%;
-  border-radius: 15px;
-  transition: all 0.5s;
-}
-
-.dimg {
-  position: relative;
-  border-radius: 15px;
-}
-.middle {
-  transition: all 0.5s;
-  opacity: 0;
-  position: absolute;
-  bottom: 0px;
-  left: 70px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  padding: 20px;
-}
-
-.dimg:hover .design-img {
-  position: relative;
-  border-radius: 15px;
-  opacity: 0.1;
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  color: var(--foreground);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
 }
 
-.dimg:hover .middle {
-  opacity: 1;
+.tab-btn i {
+  color: var(--muted-foreground);
 }
 
-/deep/.vueperslide {
-  border-radius: 10px !important;
-}
-/deep/.vueperslides__parallax-wrapper {
-  border-radius: 10px !important;
+.tab-btn:hover {
+  color: var(--accent);
 }
 
-.btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
+.tab-btn.active {
+  background: var(--accent-gradient);
+  color: white;
+  box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.25);
 }
 
-.btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+.tab-btn.active i {
   color: white;
 }
 
-.btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
-}
-/deep/ .vueperslides__arrow {
-  outline: none !important;
-  border: none;
-  color: grey;
+@media (max-width: 576px) {
+  .tabs-container {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 4px var(--space-4);
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tabs-container::-webkit-scrollbar {
+    display: none;
+  }
+  .capsule-tabs {
+    display: flex;
+    width: max-content;
+  }
+  .tab-btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
 }
 
-.badge {
-  background-color: rgb(211, 227, 233);
-  transition: all 0.5s;
-  font-weight: 500;
-  font-size: 13px;
+.card-enter {
+  opacity: 0;
+  animation: card-fade-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-.bg-dark4 {
-  background-color: #494e55 !important;
+.btn-enter {
+  opacity: 0;
+  animation: btn-fade-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
 }
 
-.date {
-  font-size: 14px;
-  font-weight: 400;
-  opacity: 0.75;
+@keyframes card-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes btn-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 </style>

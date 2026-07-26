@@ -1,35 +1,25 @@
-import Vue from "vue";
+import { createApp } from "vue";
+import { createRouter, createWebHistory } from "vue-router";
 import App from "./App.vue";
+import "./assets/main.css"; // Global styling, tokens and bento configurations
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-import VueScrollTo from "vue-scrollto";
-import VueRouter from "vue-router";
-import VTooltip from "v-tooltip";
-import VueParticles from "vue-particles";
-var VueCookie = require("vue-cookie");
-import axios from "axios";
-Vue.prototype.$http = axios;
-
-Vue.use(VTooltip);
-Vue.use(VueRouter);
-Vue.use(VueScrollTo);
-Vue.use(VueCookie);
-Vue.use(VueParticles);
-
-Vue.config.productionTip = false;
-
-const routes = [{ path: "/" }];
-
-const router = new VueRouter({
-  mode: "history",
-  routes,
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
+    { path: "/", name: "Home", component: { render: () => null } },
+    { path: "/:catchAll(.*)", redirect: "/" }
+  ]
 });
 
-new Vue({
-  created() {
-    AOS.init();
-  },
-  router,
-  render: (h) => h(App),
-}).$mount("#app");
+const app = createApp(App);
+app.use(router);
+
+// Hide loader once app is mounted
+router.isReady().then(() => {
+  const loader = document.getElementById("loader");
+  if (loader) {
+    loader.style.opacity = "0";
+    setTimeout(() => loader.remove(), 500);
+  }
+  app.mount("#app");
+});
