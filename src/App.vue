@@ -13,7 +13,7 @@
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
       <Portfolio id="portfolio" :nightMode="nightMode" />
-      <Mal id="myanimelist" :nightMode="nightMode" />
+      <Mal id="activity" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
     </main>
     

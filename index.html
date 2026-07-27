@@ -27,6 +27,15 @@
     <meta content="#09090B" name="theme-color" />
     
     <title>Indrawan I. • sinkaroid</title>
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem("nightMode") === "true") {
+            document.documentElement.classList.add("dark-theme");
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
 
   <body>
@@ -50,12 +59,17 @@
       #loader {
         position: fixed;
         inset: 0;
-        background: #09090b;
+        background: #ffffff;
+        color: #18181b;
         display: flex;
         align-items: center;
         justify-content: center;
         z-index: 9999;
         transition: opacity 0.5s ease;
+      }
+      .dark-theme #loader {
+        background: #09090b;
+        color: #fafafa;
       }
       .loader-content {
         text-align: center;
@@ -67,19 +81,26 @@
       .spinner {
         width: 50px;
         height: 50px;
-        border: 3px solid rgba(255, 255, 255, 0.05);
-        border-top-color: #3b82f6; /* Modern Blue accent */
+        border: 3px solid rgba(0, 0, 0, 0.05);
+        border-top-color: #3b82f6;
         border-radius: 50%;
         animation: spin 1s linear infinite;
       }
+      .dark-theme .spinner {
+        border-color: rgba(255, 255, 255, 0.05);
+        border-top-color: #3b82f6;
+      }
       .loader-content p {
-        font-family: 'Space Grotesk', sans-serif;
+        font-family: 'Poppins', sans-serif !important;
         font-size: 1.25rem;
         letter-spacing: 0.2em;
         font-weight: 500;
-        color: #a1a1aa;
+        color: #71717a;
         margin: 0;
         text-transform: uppercase;
+      }
+      .dark-theme .loader-content p {
+        color: #a1a1aa;
       }
       @keyframes spin {
         to { transform: rotate(360deg); }

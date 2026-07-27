@@ -10,6 +10,7 @@ const router = createRouter({
         { path: "/about", name: "About", component: { render: () => null } },
         { path: "/skills", name: "Skills", component: { render: () => null } },
         { path: "/portfolio", name: "Portfolio", component: { render: () => null } },
+        { path: "/activity", name: "Activity", component: { render: () => null } },
         { path: "/contact", name: "Contact", component: { render: () => null } },
         { path: "/:catchAll(.*)", redirect: "/" }
     ]

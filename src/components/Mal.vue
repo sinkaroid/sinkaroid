@@ -1,7 +1,7 @@
 <template>
-  <section class="section mal-section" id="myanimelist">
+  <section class="section mal-section" id="activity">
     <div class="section-header">
-      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">MyAnimeList Activity</h2>
+      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Activity</h2>
       <p class="section-subtitle">
         I track my anime and manga journey. 
         Synchronized with <a href="https://myanimelist.net/profile/sinkaroid" target="_blank" class="clickable">@sinkaroid</a> using Jikan API.
@@ -16,21 +16,21 @@
           :class="{ 'active': activeTab === 'game' }"
           @click="activeTab = 'game'"
         >
-          <i class="fas fa-gamepad"></i> Last played
+          <i class="fas fa-gamepad"></i> Playing
         </button>
         <button
           class="tab-btn clickable"
           :class="{ 'active': activeTab === 'anime' }"
           @click="activeTab = 'anime'"
         >
-          <i class="fas fa-tv"></i> Anime
+          <i class="fas fa-tv"></i> Watching
         </button>
         <button
           class="tab-btn clickable"
           :class="{ 'active': activeTab === 'manga' }"
           @click="activeTab = 'manga'"
         >
-          <i class="fas fa-book-open"></i> Manga
+          <i class="fas fa-book-open"></i> Reading
         </button>
       </div>
     </div>

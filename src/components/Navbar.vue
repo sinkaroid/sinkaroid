@@ -41,18 +41,27 @@
             </a>
           </li>
           <li class="nav-item">
-            <a 
-              class="nav-link clickable" 
-              href="/portfolio" 
+            <a
+              class="nav-link clickable"
+              href="/portfolio"
               @click.prevent="navigate('portfolio')"
             >
               <i class="fa fa-rocket"></i> portfolio
             </a>
           </li>
           <li class="nav-item">
-            <a 
-              class="nav-link clickable" 
-              href="/contact" 
+            <a
+              class="nav-link clickable"
+              href="/activity"
+              @click.prevent="navigate('activity')"
+            >
+              <i class="fa fa-chart-line"></i> activity
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link clickable"
+              href="/contact"
               @click.prevent="navigate('contact')"
             >
               <i class="fa fa-envelope"></i> contact
