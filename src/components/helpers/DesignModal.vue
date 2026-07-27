@@ -209,7 +209,7 @@ onUnmounted(() => {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--foreground);
-  text-align: justify;
+  text-align: left;
   white-space: pre-line;
 }
 

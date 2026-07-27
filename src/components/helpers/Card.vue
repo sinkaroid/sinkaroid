@@ -167,19 +167,21 @@ const showModal = () => {
 
 .lang-icon {
   position: absolute;
-  bottom: var(--space-2);
-  right: var(--space-2);
-  width: 32px;
-  height: 32px;
-  border-radius: var(--radius-full);
-  border: 2px solid var(--bg-app);
-  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
-  transition: transform 0.5s ease;
+  bottom: -20px;
+  right: var(--space-3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.5s ease, bottom 0.3s ease;
   background: var(--bg-app);
+  z-index: 2;
 }
 
 .card-component:hover .lang-icon {
   transform: rotate(360deg) scale(1.1);
+  bottom: -16px;
 }
 
 .card-content {
@@ -220,7 +222,7 @@ const showModal = () => {
   font-size: 0.85rem;
   color: var(--muted-foreground);
   line-height: 1.4;
-  text-align: justify;
+  text-align: left;
   flex: 1;
   overflow: hidden;
 }

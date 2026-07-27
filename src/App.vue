@@ -38,8 +38,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
-import { useRouter } from "vue-router";
+import { ref, onMounted, watch } from "vue";
+import { useRouter, useRoute } from "vue-router";
 import Navbar from "./components/Navbar.vue";
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
@@ -53,6 +53,7 @@ import ContactModal from "./components/helpers/ContactModal.vue";
 import info from "../mock/mockRepository";
 
 const router = useRouter();
+const route = useRoute();
 const nightMode = ref(false);
 const showContactModal = ref(false);
 const config = info.config || {};
@@ -72,7 +73,24 @@ const switchMode = (mode) => {
   }
 };
 
-// Initialize nightMode on mount
+// Smooth-scroll a section by id, or trigger a side effect for special keys
+const scrollToSection = (section) => {
+  if (section === "home") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  if (section === "contact") {
+    showContactModal.value = true;
+    return;
+  }
+  const target = document.getElementById(section);
+  if (target) {
+    const top = target.offsetTop - 75;
+    window.scrollTo({ top, behavior: "smooth" });
+  }
+};
+
+// Initialize nightMode and scroll on first load
 onMounted(() => {
   let isNight = false;
   if (config.use_cookies !== false) {
@@ -80,34 +98,33 @@ onMounted(() => {
   }
   switchMode(isNight);
 
-  // Hash-link scroll handling on page load
-  const hash = window.location.hash || window.location.pathname.replace("/", "#");
-  if (hash && hash.length > 1) {
-    const ele = hash.substring(1);
-    const target = document.getElementById(ele);
-    if (target) {
-      setTimeout(() => {
-        const top = target.offsetTop - 75;
-        window.scrollTo({ top, behavior: "smooth" });
-      }, 500);
-    }
+  // Initial scroll from either hash or path
+  const hashSection = window.location.hash.replace(/^#/, "");
+  const pathSection = window.location.pathname.replace(/^\//, "");
+  const initial = hashSection || pathSection;
+  if (initial && initial !== "home") {
+    setTimeout(() => scrollToSection(initial), 500);
   }
 });
 
-// Smooth scroll helper
+// React to route changes (covers direct visits, back/forward, and navbar clicks)
+watch(
+  () => route.path,
+  (newPath) => {
+    const section = newPath.replace(/^\//, "") || "home";
+    scrollToSection(section);
+  }
+);
+
+// Navigate from navbar (path-based; supports direct visits and back/forward)
 const scrollTo = (ele) => {
   if (ele === "home") {
     router.push("/");
-    window.scrollTo({ top: 0, behavior: "smooth" });
   } else if (ele === "contact") {
     showContactModal.value = true;
+    router.push("/contact");
   } else {
-    const target = document.getElementById(ele);
-    if (target) {
-      const top = target.offsetTop - 75;
-      window.scrollTo({ top, behavior: "smooth" });
-      router.push(`/#${ele}`);
-    }
+    router.push(`/${ele}`);
   }
 };
 </script>

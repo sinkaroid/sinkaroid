@@ -1,0 +1,1331 @@
+{
+    "last_sync": "2026-07-27, 15:19:14",
+    "data": [
+        {
+            "name": "davinci",
+            "pictures": [
+                {
+                    "img": "/assets/oss/davinci_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "continuous-integration",
+                "github-action",
+                "github-app",
+                "github-bots"
+            ],
+            "category": "Go",
+            "date": "October 03, 2022 (Updated: 2 days ago)",
+            "github": "https://github.com/ScathachGrip/davinci",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://davinci.scathach.id",
+            "description": "Experimental github actions to automate PR and Issues workflows",
+            "commit": "46ddf09c76ac0074fa7d93aa62b77b2a353a15b9",
+            "link_commit": "https://github.com/scathachgrip/davinci/commit/46ddf09c76ac0074fa7d93aa62b77b2a353a15b9",
+            "release": "v1.1.1-alpha",
+            "stargazers_count": 3,
+            "last_commit_date": "2026-07-25T21:11:20Z"
+        },
+        {
+            "name": "pixivHono",
+            "pictures": [
+                {
+                    "img": "/assets/oss/pixivhono_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "pixiv",
+                "pixiv-api",
+                "pixiv-client",
+                "pixiv-resolver"
+            ],
+            "category": "Go",
+            "date": "July 22, 2026 (Updated: 4 days ago)",
+            "github": "https://github.com/sinkaroid/pixivHono",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://sinkaroid.github.io/pixivHono",
+            "description": "Unified REST and GraphQL gateway for Pixiv API",
+            "commit": "8af11ab7ada1aa004cb071d8868bf11a1d5d4910",
+            "link_commit": "https://github.com/sinkaroid/pixivhono/commit/8af11ab7ada1aa004cb071d8868bf11a1d5d4910",
+            "release": "v1.3.2-alpha",
+            "stargazers_count": 1,
+            "last_commit_date": "2026-07-23T10:22:18Z"
+        },
+        {
+            "name": "lustpress",
+            "pictures": [
+                {
+                    "img": "/assets/oss/lustpress_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "javhd",
+                "pornhub",
+                "pornhub-api",
+                "redtube",
+                "xhamster",
+                "xnxx",
+                "xvideos",
+                "youporn"
+            ],
+            "category": "TypeScript",
+            "date": "April 18, 2023 (Updated: 2 days ago)",
+            "github": "https://github.com/sinkaroid/lustpress",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/lustpress",
+            "description": "Unified REST + GraphQL API for PornHub and other R18 platforms",
+            "commit": "28ce0614b3added80fd9b8feb461fff2fc38927c",
+            "link_commit": "https://github.com/sinkaroid/lustpress/commit/28ce0614b3added80fd9b8feb461fff2fc38927c",
+            "release": "v8.5.0-alpha",
+            "stargazers_count": 103,
+            "last_commit_date": "2026-07-21T23:08:04Z"
+        },
+        {
+            "name": "jandapress",
+            "pictures": [
+                {
+                    "img": "/assets/oss/jandapress_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "3hentai",
+                "asmhentai",
+                "hentai2read",
+                "hentaifox",
+                "nhentai",
+                "pururin",
+                "simply-hentai"
+            ],
+            "category": "TypeScript",
+            "date": "June 03, 2022 (Updated: 6 days ago)",
+            "github": "https://github.com/sinkaroid/jandapress",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/jandapress",
+            "description": "Unified REST + GraphQL API for nhentai and other doujinshi",
+            "commit": "094598e10eca48f3fe5ab9ebee69059ffdd16b69",
+            "link_commit": "https://github.com/sinkaroid/jandapress/commit/094598e10eca48f3fe5ab9ebee69059ffdd16b69",
+            "release": "v10.2.0-alpha",
+            "stargazers_count": 64,
+            "last_commit_date": "2026-07-21T20:16:38Z"
+        },
+        {
+            "name": "matoi",
+            "pictures": [
+                {
+                    "img": "/assets/oss/matoi_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile"
+            ],
+            "category": "Go",
+            "date": "June 20, 2026 (Updated: 6 days ago)",
+            "github": "https://github.com/sinkaroid/matoi",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://sinkaroid.github.io/matoi",
+            "description": "Unified REST + GraphQL gateway for booru imageboards",
+            "commit": "f98b093c473c7b7f1ddbc925120b71eb77d6405a",
+            "link_commit": "https://github.com/sinkaroid/matoi/commit/f98b093c473c7b7f1ddbc925120b71eb77d6405a",
+            "release": "v15.7.0-alpha",
+            "stargazers_count": 3,
+            "last_commit_date": "2026-07-21T18:48:33Z"
+        },
+        {
+            "name": "teivax",
+            "pictures": [
+                {
+                    "img": "/assets/oss/teivax_master.webp"
+                }
+            ],
+            "technologies": [
+                "Rust",
+                "Dockerfile"
+            ],
+            "category": "Rust",
+            "date": "July 11, 2026 (Updated: 14 days ago)",
+            "github": "https://github.com/ScathachGrip/teivax",
+            "bahasa": "https://skillicons.dev/icons?i=rust",
+            "visit": "https://scathachbot.xyz/custom-branding",
+            "description": "A decentralized @ScathachGrip custom branding registry.",
+            "commit": "0e19ab4b038ae1089fcc73640c7089b5ba0857c9",
+            "link_commit": "https://github.com/scathachgrip/teivax/commit/0e19ab4b038ae1089fcc73640c7089b5ba0857c9",
+            "release": "v0.1.8",
+            "stargazers_count": 0,
+            "last_commit_date": "2026-07-13T23:18:37Z"
+        },
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "JavaScript",
+                "HTML",
+                "Dockerfile",
+                "minimalist-design",
+                "vuejs"
+            ],
+            "category": "Vue",
+            "date": "August 03, 2022 (Updated: 17 days ago)",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "A general purpose Vue.js portfolio template with minimalist in mind",
+            "commit": "d2962d58f08b040efb86b486f51123981e3c4e77",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/d2962d58f08b040efb86b486f51123981e3c4e77",
+            "release": "3.0.1-dev",
+            "stargazers_count": 6,
+            "last_commit_date": "2026-07-10T05:58:07Z"
+        },
+        {
+            "name": "shiftypad-extension",
+            "pictures": [
+                {
+                    "img": "/assets/oss/shiftypad-extension_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Astro",
+                "CSS",
+                "JavaScript",
+                "blablalink",
+                "nikke"
+            ],
+            "category": "TypeScript",
+            "date": "May 15, 2026 (Updated: 6 days ago)",
+            "github": "https://github.com/ScathachGrip/shiftypad-extension",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://shiftypad.scathach.id",
+            "description": "Blablalink extension with Union Raid data focused.",
+            "commit": "7c28b23e5960f37755b4a8aba049a5b30f03e732",
+            "link_commit": "https://github.com/scathachgrip/shiftypad-extension/commit/7c28b23e5960f37755b4a8aba049a5b30f03e732",
+            "release": "v0.0.1",
+            "stargazers_count": 2,
+            "last_commit_date": "2026-05-20T07:30:19Z"
+        },
+        {
+            "name": "nikkePwned",
+            "pictures": [
+                {
+                    "img": "/assets/oss/nikkePwned_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "neutralinojs",
+                "nikke"
+            ],
+            "category": "TypeScript",
+            "date": "February 24, 2025 (Updated: 6 days ago)",
+            "github": "https://github.com/ScathachGrip/nikkePwned",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://github.com/ScathachGrip/nikkePwned",
+            "description": "Password Manager for NIKKE",
+            "commit": "2280fd677ae3d3383b6910f87e0803315662e3e5",
+            "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/2280fd677ae3d3383b6910f87e0803315662e3e5",
+            "release": "v4.1.2-indev",
+            "stargazers_count": 2,
+            "last_commit_date": "2026-04-24T23:33:15Z"
+        },
+        {
+            "name": "booru",
+            "pictures": [
+                {
+                    "img": "/assets/oss/booru_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "booru",
+                "danbooru",
+                "gelbooru",
+                "rule34"
+            ],
+            "category": "Python",
+            "date": "April 07, 2022 (Updated: 19 days ago)",
+            "github": "https://github.com/sinkaroid/booru",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://sinkaroid.github.io/booru",
+            "description": "Python bindings for booru imageboards",
+            "commit": "60a74bdabe45a776d61c2123cfb03a87e71c0c1b",
+            "link_commit": "https://github.com/sinkaroid/booru/commit/60a74bdabe45a776d61c2123cfb03a87e71c0c1b",
+            "release": "1.0.21-alpha",
+            "stargazers_count": 34,
+            "last_commit_date": "2025-06-22T22:53:24Z"
+        },
+        {
+            "name": "jigoku",
+            "pictures": [
+                {
+                    "img": "/assets/oss/jigoku_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "booru",
+                "bulk-download",
+                "danbooru",
+                "downloader",
+                "mass-downloader",
+                "rule34"
+            ],
+            "category": "Python",
+            "date": "December 04, 2022 (Updated: 4 months ago)",
+            "github": "https://github.com/sinkaroid/jigoku",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/jigoku",
+            "description": "Bulk downloader for booru imageboards with (evil intentions)",
+            "commit": "4e5f2ae51a34b5eb6d81148278f1477774bae95e",
+            "link_commit": "https://github.com/sinkaroid/jigoku/commit/4e5f2ae51a34b5eb6d81148278f1477774bae95e",
+            "release": "3.0.1-alpha",
+            "stargazers_count": 13,
+            "last_commit_date": "2025-06-14T08:06:30Z"
+        },
+        {
+            "name": "tomoe",
+            "pictures": [
+                {
+                    "img": "/assets/oss/tomoe_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "doujinshi",
+                "hentaifox",
+                "nhentai",
+                "pururin"
+            ],
+            "category": "Python",
+            "date": "March 18, 2022 (Updated: 8 days ago)",
+            "github": "https://github.com/sinkaroid/tomoe",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/tomoe",
+            "description": "An exalted manga & doujinshi downloader with ease",
+            "commit": "d9f6ffdcf1a9c96875b0890f1a376ef19c3a6cc6",
+            "link_commit": "https://github.com/sinkaroid/tomoe/commit/d9f6ffdcf1a9c96875b0890f1a376ef19c3a6cc6",
+            "release": "3.7.1-alpha",
+            "stargazers_count": 39,
+            "last_commit_date": "2025-06-11T22:04:13Z"
+        },
+        {
+            "name": "janda",
+            "pictures": [
+                {
+                    "img": "/assets/oss/janda_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python"
+            ],
+            "category": "Python",
+            "date": "March 15, 2022 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/janda",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://sinkaroid.github.io/janda",
+            "description": "Python library for Jandapress",
+            "commit": "2379b0a98668c036fa751aef05a3da014ce22166",
+            "link_commit": "https://github.com/sinkaroid/janda/commit/2379b0a98668c036fa751aef05a3da014ce22166",
+            "release": "4.1.0-alpha",
+            "stargazers_count": 16,
+            "last_commit_date": "2025-06-11T20:53:11Z"
+        },
+        {
+            "name": "merahputih.moe",
+            "pictures": [
+                {
+                    "img": "/assets/oss/merahputih.moe_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "SCSS",
+                "anime-girls",
+                "cloudflare",
+                "custom-domains",
+                "dns",
+                "indonesia",
+                "subdomain"
+            ],
+            "category": "TypeScript",
+            "date": "April 24, 2023 (Updated: a month ago)",
+            "github": "https://github.com/ScathachGrip/merahputih.moe",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://merahputih.moe",
+            "description": "Are you weeb developer looking for free webspace to host your project? Get free subdomain merahputih.moe UwU",
+            "commit": "e771cd382551f8be2c4fa18887ee20f4cd35880f",
+            "link_commit": "https://github.com/scathachgrip/merahputih.moe/commit/e771cd382551f8be2c4fa18887ee20f4cd35880f",
+            "release": "1.1.10-dev",
+            "stargazers_count": 39,
+            "last_commit_date": "2024-01-26T04:34:41Z"
+        },
+        {
+            "name": "discord-canvas",
+            "pictures": [
+                {
+                    "img": "/assets/oss/discord-canvas_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript"
+            ],
+            "category": "JavaScript",
+            "date": "September 18, 2022 (Updated: a year ago)",
+            "github": "https://github.com/pokemilf/discord-canvas",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://github.com/pokemilf/discord-canvas",
+            "description": "Canvas fork with simplified in mind",
+            "commit": "f235c1a2895145b40706cd22793c525cb032098f",
+            "link_commit": "https://github.com/pokemilf/discord-canvas/commit/f235c1a2895145b40706cd22793c525cb032098f",
+            "release": "pre-release",
+            "stargazers_count": 0,
+            "last_commit_date": "2023-07-21T02:51:29Z"
+        },
+        {
+            "name": "gaebolg",
+            "pictures": [
+                {
+                    "img": "/assets/oss/gaebolg_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "March 28, 2023 (Updated: 2 days ago)",
+            "github": "https://github.com/ScathachGrip/gaebolg",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://api.scathach.id",
+            "description": "Prototype API design with cloudflare workers and lambda functions",
+            "commit": "870318a32132e97268bf34bf881f8f4f77f38cba",
+            "link_commit": "https://github.com/scathachgrip/gaebolg/commit/870318a32132e97268bf34bf881f8f4f77f38cba",
+            "release": "6.1.12-alpha",
+            "stargazers_count": 2,
+            "last_commit_date": "2023-04-12T14:44:58Z"
+        },
+        {
+            "name": "eiyuu",
+            "pictures": [
+                {
+                    "img": "/assets/oss/eiyuu_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "booru",
+                "imageboard",
+                "resolver"
+            ],
+            "category": "TypeScript",
+            "date": "August 14, 2022 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/eiyuu",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://eiyuu.js.org",
+            "description": "Search tags and query completion for booru imageboards",
+            "commit": "9829813d2d29560a84f1c7f18e149cfe0e220519",
+            "link_commit": "https://github.com/sinkaroid/eiyuu/commit/9829813d2d29560a84f1c7f18e149cfe0e220519",
+            "release": "1.1.1-alpha",
+            "stargazers_count": 14,
+            "last_commit_date": "2023-03-23T03:24:44Z"
+        },
+        {
+            "name": "reddit-proxy",
+            "pictures": [
+                {
+                    "img": "/assets/oss/reddit-proxy_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Dockerfile"
+            ],
+            "category": "TypeScript",
+            "date": "January 31, 2023 (Updated: 2 days ago)",
+            "github": "https://github.com/ScathachGrip/reddit-proxy",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://github.com/ScathachGrip/reddit-proxy",
+            "description": "Proxy API for reddit",
+            "commit": "2423dd2bbcc89d31ee7617542910a54bfed09f1f",
+            "link_commit": "https://github.com/scathachgrip/reddit-proxy/commit/2423dd2bbcc89d31ee7617542910a54bfed09f1f",
+            "release": "1.0.1-alpha",
+            "stargazers_count": 2,
+            "last_commit_date": "2023-01-31T20:40:50Z"
+        },
+        {
+            "name": "disgrowth",
+            "pictures": [
+                {
+                    "img": "/assets/oss/disgrowth_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "chartjs",
+                "discord-bot",
+                "vue"
+            ],
+            "category": "Vue",
+            "date": "June 28, 2022 (Updated: a year ago)",
+            "github": "https://github.com/sinkaroid/disgrowth",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://graph.scathachbot.xyz",
+            "description": "Visualize your discord bots growth into chartable web-app & statistics with ease",
+            "commit": "e0c3ed779fbca42b89e0d82ca964ff09014ebc59",
+            "link_commit": "https://github.com/sinkaroid/disgrowth/commit/e0c3ed779fbca42b89e0d82ca964ff09014ebc59",
+            "release": "1.0.7-alpha",
+            "stargazers_count": 9,
+            "last_commit_date": "2023-01-17T17:19:38Z"
+        },
+        {
+            "name": "disgrow",
+            "pictures": [
+                {
+                    "img": "/assets/oss/disgrow_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "June 28, 2022 (Updated: 4 years ago)",
+            "github": "https://github.com/sinkaroid/disgrow",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://disgrow.js.org",
+            "description": "A growth increments for your Discord bots",
+            "commit": "7604d9057e9eeb3212825527119b659866b495ca",
+            "link_commit": "https://github.com/sinkaroid/disgrow/commit/7604d9057e9eeb3212825527119b659866b495ca",
+            "release": "1.0.20-dev",
+            "stargazers_count": 3,
+            "last_commit_date": "2023-01-17T17:17:00Z"
+        },
+        {
+            "name": "jikan4snek",
+            "pictures": [
+                {
+                    "img": "/assets/oss/jikan4snek_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "jikan",
+                "jikan-api",
+                "myanimelist"
+            ],
+            "category": "Python",
+            "date": "December 17, 2022 (Updated: a month ago)",
+            "github": "https://github.com/ScathachGrip/jikan4snek",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://scathachgrip.github.io/jikan4snek",
+            "description": "Python client for Jikan.moe, MyAnimeList unofficial API with good intentions.",
+            "commit": "165871afb4c8566848a146d96d7f87602f835de3",
+            "link_commit": "https://github.com/scathachgrip/jikan4snek/commit/165871afb4c8566848a146d96d7f87602f835de3",
+            "release": "4.2.1-alpha",
+            "stargazers_count": 15,
+            "last_commit_date": "2022-12-20T14:56:28Z"
+        },
+        {
+            "name": "scathach-api",
+            "pictures": [
+                {
+                    "img": "/assets/oss/scathach-api_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "December 26, 2020 (Updated: 2 years ago)",
+            "github": "https://github.com/sinkaroid/scathach-api",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/scathach-api",
+            "description": "Node SDK for interacting with Scathach bot",
+            "commit": "11918d3719913bdcd534d2f5414525d3304a67cc",
+            "link_commit": "https://github.com/sinkaroid/scathach-api/commit/11918d3719913bdcd534d2f5414525d3304a67cc",
+            "release": "1.0.16-dev",
+            "stargazers_count": 24,
+            "last_commit_date": "2022-10-08T19:35:55Z"
+        },
+        {
+            "name": "disgrow",
+            "pictures": [
+                {
+                    "img": "/assets/oss/disgrow_api.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript"
+            ],
+            "category": "TypeScript",
+            "date": "June 28, 2022 (Updated: 4 years ago)",
+            "github": "https://github.com/sinkaroid/disgrow",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://disgrow.js.org",
+            "description": "A growth increments for your Discord bots",
+            "commit": "eae283f5b47c44793a0989961d99cacc939c9bd3",
+            "link_commit": "https://github.com/sinkaroid/disgrow/commit/eae283f5b47c44793a0989961d99cacc939c9bd3",
+            "release": "1.0.20-dev",
+            "stargazers_count": 3,
+            "last_commit_date": "2022-10-01T20:49:31Z"
+        },
+        {
+            "name": "cabul",
+            "pictures": [
+                {
+                    "img": "/assets/oss/cabul_proxy.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "nsfw",
+                "reddit",
+                "reddit-api"
+            ],
+            "category": "TypeScript",
+            "date": "March 24, 2021 (Updated: 4 days ago)",
+            "github": "https://github.com/sinkaroid/cabul",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/cabul",
+            "description": "Subreddit API but proxied and NSFW only..",
+            "commit": "095f14810f3b9714ff69e73184df88fd5ca645c3",
+            "link_commit": "https://github.com/sinkaroid/cabul/commit/095f14810f3b9714ff69e73184df88fd5ca645c3",
+            "release": "0.0.22.dev",
+            "stargazers_count": 60,
+            "last_commit_date": "2022-06-30T23:50:20Z"
+        },
+        {
+            "name": "cabul",
+            "pictures": [
+                {
+                    "img": "/assets/oss/cabul_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "nsfw",
+                "reddit",
+                "reddit-api"
+            ],
+            "category": "TypeScript",
+            "date": "March 24, 2021 (Updated: 4 days ago)",
+            "github": "https://github.com/sinkaroid/cabul",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/cabul",
+            "description": "Subreddit API but proxied and NSFW only..",
+            "commit": "b9a8c5108a59225e0fa1f524a124b39cde047ac5",
+            "link_commit": "https://github.com/sinkaroid/cabul/commit/b9a8c5108a59225e0fa1f524a124b39cde047ac5",
+            "release": "0.0.22.dev",
+            "stargazers_count": 60,
+            "last_commit_date": "2022-06-30T23:47:28Z"
+        },
+        {
+            "name": "jalter",
+            "pictures": [
+                {
+                    "img": "/assets/oss/jalter_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "discord",
+                "selfbot"
+            ],
+            "category": "TypeScript",
+            "date": "January 21, 2022 (Updated: 8 months ago)",
+            "github": "https://github.com/sinkaroid/jalter",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/jalter",
+            "description": "A NodeJS wrapper for Discord Selfbot",
+            "commit": "1c10be36b365c2d6cca6b46f88dd62740f343ad2",
+            "link_commit": "https://github.com/sinkaroid/jalter/commit/1c10be36b365c2d6cca6b46f88dd62740f343ad2",
+            "release": "3.0.4-dev",
+            "stargazers_count": 3,
+            "last_commit_date": "2022-05-18T22:42:07Z"
+        },
+        {
+            "name": "badut",
+            "pictures": [
+                {
+                    "img": "/assets/oss/badut_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python"
+            ],
+            "category": "Python",
+            "date": "April 17, 2022 (Updated: 4 years ago)",
+            "github": "https://github.com/sinkaroid/badut",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://sinkaroid.github.io/badut",
+            "description": "Python HTTP client designed to be simple",
+            "commit": "2d48c366e5b4bdb10e97777c57f7e5c3c8d587f8",
+            "link_commit": "https://github.com/sinkaroid/badut/commit/2d48c366e5b4bdb10e97777c57f7e5c3c8d587f8",
+            "release": "1.0.6-dev",
+            "stargazers_count": 2,
+            "last_commit_date": "2022-04-17T11:47:39Z"
+        },
+        {
+            "name": "shielder",
+            "pictures": [
+                {
+                    "img": "/assets/oss/shielder_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "Shell",
+                "Perl",
+                "backdoor-finder",
+                "brute-force",
+                "bulk",
+                "http-requests"
+            ],
+            "category": "Python",
+            "date": "August 10, 2020 (Updated: a year ago)",
+            "github": "https://github.com/sinkaroid/shielder",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/shielder",
+            "description": "Shielder offers modular brute-forcing outside root privilege",
+            "commit": "069b3fa260aa6df5d79ae4b726b39f49906bbff3",
+            "link_commit": "https://github.com/sinkaroid/shielder/commit/069b3fa260aa6df5d79ae4b726b39f49906bbff3",
+            "release": "pre-release",
+            "stargazers_count": 14,
+            "last_commit_date": "2022-03-20T18:54:07Z"
+        },
+        {
+            "name": "pururin",
+            "pictures": [
+                {
+                    "img": "/assets/oss/pururin_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "api",
+                "asyncio",
+                "pururin"
+            ],
+            "category": "Python",
+            "date": "March 10, 2022 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/pururin",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://pururin.to",
+            "description": "Pururin unofficial API wrapper",
+            "commit": "1f4342f690864498e5dded9e58fe34389cfe48ec",
+            "link_commit": "https://github.com/sinkaroid/pururin/commit/1f4342f690864498e5dded9e58fe34389cfe48ec",
+            "release": "0.0.8.final",
+            "stargazers_count": 7,
+            "last_commit_date": "2022-03-14T18:31:06Z"
+        },
+        {
+            "name": "hensuki",
+            "pictures": [
+                {
+                    "img": "/assets/oss/hensuki_master.webp"
+                }
+            ],
+            "technologies": [
+                "Shell",
+                "nhentai",
+                "one-liners",
+                "regex"
+            ],
+            "category": "Shell",
+            "date": "August 08, 2019 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/hensuki",
+            "bahasa": "https://skillicons.dev/icons?i=bash",
+            "visit": "https://github.com/sinkaroid/hensuki",
+            "description": "Turn out regex magic into one-liner doujin grabber. This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe",
+            "commit": "c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
+            "link_commit": "https://github.com/sinkaroid/hensuki/commit/c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
+            "release": "2.0",
+            "stargazers_count": 83,
+            "last_commit_date": "2021-05-20T00:49:49Z"
+        },
+        {
+            "name": "umarun",
+            "pictures": [
+                {
+                    "img": "/assets/oss/umarun_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "base64",
+                "decompiler",
+                "marshal",
+                "python-marshal"
+            ],
+            "category": "Python",
+            "date": "August 10, 2020 (Updated: 2 years ago)",
+            "github": "https://github.com/sinkaroid/umarun",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/umarun",
+            "description": "\"UnMARshalU(you)-Ngentod\", that's all. Simple marshal things, how to decompile your friend's \"rubbish\" code.",
+            "commit": "e4c048fb5f7820ed48b8231bdc6ea695a94a38fc",
+            "link_commit": "https://github.com/sinkaroid/umarun/commit/e4c048fb5f7820ed48b8231bdc6ea695a94a38fc",
+            "release": "pre-release",
+            "stargazers_count": 7,
+            "last_commit_date": "2021-05-05T01:20:06Z"
+        },
+        {
+            "name": "strygwyr",
+            "pictures": [
+                {
+                    "img": "/assets/oss/strygwyr_main.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript",
+                "dota-2",
+                "dota2-api",
+                "liquipedia",
+                "wrapper"
+            ],
+            "category": "JavaScript",
+            "date": "March 12, 2021 (Updated: 5 years ago)",
+            "github": "https://github.com/sinkaroid/strygwyr",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://strygwyr.js.org",
+            "description": "Getter dota heroes from their localized names.",
+            "commit": "60f746a115be7691411c4c0a7adbe905df297772",
+            "link_commit": "https://github.com/sinkaroid/strygwyr/commit/60f746a115be7691411c4c0a7adbe905df297772",
+            "release": "pre-release",
+            "stargazers_count": 7,
+            "last_commit_date": "2021-03-31T22:40:48Z"
+        },
+        {
+            "name": "behoifer",
+            "pictures": [
+                {
+                    "img": "/assets/oss/behoifer_main.webp"
+                }
+            ],
+            "technologies": [
+                "Shell",
+                "bash",
+                "behoimi",
+                "danbooru"
+            ],
+            "category": "Shell",
+            "date": "March 17, 2021 (Updated: 5 years ago)",
+            "github": "https://github.com/sinkaroid/behoifer",
+            "bahasa": "https://skillicons.dev/icons?i=bash",
+            "visit": "https://github.com/sinkaroid/behoifer",
+            "description": "Referer implementation to help with bulk downloading images from behoimi.org",
+            "commit": "66f3f4db82e8e41300a4583adb278f8e24abfd47",
+            "link_commit": "https://github.com/sinkaroid/behoifer/commit/66f3f4db82e8e41300a4583adb278f8e24abfd47",
+            "release": "pre-release",
+            "stargazers_count": 2,
+            "last_commit_date": "2021-03-17T23:08:57Z"
+        },
+        {
+            "name": "scathach-api.py",
+            "pictures": [
+                {
+                    "img": "/assets/oss/scathach-api.py_main.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "booru",
+                "fate-grand-order",
+                "nsfw",
+                "wrapper"
+            ],
+            "category": "Python",
+            "date": "December 26, 2020 (Updated: 16 days ago)",
+            "github": "https://github.com/sinkaroid/scathach-api.py",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://pypi.org/project/scathach-api/",
+            "description": "An advanced NSFW wrapper, complete rewrite and overhaul of the original Fate/Lewd Order API written in Python",
+            "commit": "bfa206b7b62f00ec9e3c877c96fcd35938bbd8b9",
+            "link_commit": "https://github.com/sinkaroid/scathach-api.py/commit/bfa206b7b62f00ec9e3c877c96fcd35938bbd8b9",
+            "release": "pre-release",
+            "stargazers_count": 19,
+            "last_commit_date": "2020-12-26T20:08:53Z"
+        },
+        {
+            "name": "antk",
+            "pictures": [
+                {
+                    "img": "/assets/oss/antk_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "JavaScript",
+                "CSS",
+                "Shell",
+                "anime-scraper",
+                "curl",
+                "parser-library",
+                "regex"
+            ],
+            "category": "PHP",
+            "date": "May 25, 2019 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/antk",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://kato.kireisubs.org",
+            "description": "Redkato, - Indonesian anime scraper",
+            "commit": "6588013f3f126635c6c82a9fb2d6ee270213285d",
+            "link_commit": "https://github.com/sinkaroid/antk/commit/6588013f3f126635c6c82a9fb2d6ee270213285d",
+            "release": "redcolumn",
+            "stargazers_count": 14,
+            "last_commit_date": "2020-11-29T22:33:00Z"
+        },
+        {
+            "name": "shiguresh",
+            "pictures": [
+                {
+                    "img": "/assets/oss/shiguresh_master.webp"
+                }
+            ],
+            "technologies": [
+                "Shell",
+                "PHP",
+                "arbitrary-code-execution",
+                "regex"
+            ],
+            "category": "Shell",
+            "date": "April 21, 2020 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/shiguresh",
+            "bahasa": "https://skillicons.dev/icons?i=bash",
+            "visit": "https://github.com/sinkaroid/shiguresh",
+            "description": "CVE-2004-1769 cPanel Resetpass Remote Command Execution",
+            "commit": "4fbfda4a296f3b9690770ed8f60e726522312a58",
+            "link_commit": "https://github.com/sinkaroid/shiguresh/commit/4fbfda4a296f3b9690770ed8f60e726522312a58",
+            "release": "pre-release",
+            "stargazers_count": 2,
+            "last_commit_date": "2020-04-21T22:23:43Z"
+        },
+        {
+            "name": "dotabuff",
+            "pictures": [
+                {
+                    "img": "/assets/oss/dotabuff_master.webp"
+                }
+            ],
+            "technologies": [
+                "Shell",
+                "bash",
+                "dota2",
+                "dotabuff",
+                "regex"
+            ],
+            "category": "Shell",
+            "date": "January 30, 2020 (Updated: 4 years ago)",
+            "github": "https://github.com/sinkaroid/dotabuff",
+            "bahasa": "https://skillicons.dev/icons?i=bash",
+            "visit": "https://www.dotabuff.com/",
+            "description": "Dotabuff bash scrape",
+            "commit": "8d36a096d37a16839790a6578af8ca4ff2276233",
+            "link_commit": "https://github.com/sinkaroid/dotabuff/commit/8d36a096d37a16839790a6578af8ca4ff2276233",
+            "release": "pre-release",
+            "stargazers_count": 3,
+            "last_commit_date": "2020-01-31T00:45:46Z"
+        },
+        {
+            "name": "illustrator-tracker",
+            "pictures": [
+                {
+                    "img": "/assets/oss/illustrator-tracker_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "artist-tracker",
+                "doujinshi",
+                "http-response",
+                "nsfw"
+            ],
+            "category": "Python",
+            "date": "August 17, 2019 (Updated: a year ago)",
+            "github": "https://github.com/sinkaroid/illustrator-tracker",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/illustrator-tracker",
+            "description": "A quick and simple things to find out and track your favorite doujinshi Artist to get more artworks ins't bad enough",
+            "commit": "031868fedd54c7709ec262007dfe5791090ca612",
+            "link_commit": "https://github.com/sinkaroid/illustrator-tracker/commit/031868fedd54c7709ec262007dfe5791090ca612",
+            "release": "pre-release",
+            "stargazers_count": 16,
+            "last_commit_date": "2019-11-12T02:53:52Z"
+        },
+        {
+            "name": "simpleocr",
+            "pictures": [
+                {
+                    "img": "/assets/oss/simpleocr_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "PHP",
+                "ocr",
+                "tesseract-ocr",
+                "text-recognition"
+            ],
+            "category": "Python",
+            "date": "September 25, 2019 (Updated: 7 years ago)",
+            "github": "https://github.com/sinkaroid/simpleocr",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/simpleocr",
+            "description": "simple textrecognition",
+            "commit": "1989d141b65a6d1c1c3f4576eac1fac46fb055ff",
+            "link_commit": "https://github.com/sinkaroid/simpleocr/commit/1989d141b65a6d1c1c3f4576eac1fac46fb055ff",
+            "release": "pre-release",
+            "stargazers_count": 2,
+            "last_commit_date": "2019-09-25T10:10:59Z"
+        },
+        {
+            "name": "webNovelCrawler",
+            "pictures": [
+                {
+                    "img": "/assets/oss/webNovelCrawler_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "JavaScript",
+                "CSS",
+                "HTML",
+                "crawler",
+                "dompdf",
+                "webnovel"
+            ],
+            "category": "PHP",
+            "date": "July 26, 2019 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/webNovelCrawler",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/webNovelCrawler",
+            "description": "Simple PHPcurl and getRequest to grab Light Novel and WebNovel, then create parser with DOMpdf.",
+            "commit": "983732879b9d40410e1cbf31e3d1d15e10682f10",
+            "link_commit": "https://github.com/sinkaroid/webNovelCrawler/commit/983732879b9d40410e1cbf31e3d1d15e10682f10",
+            "release": "pre-release",
+            "stargazers_count": 1,
+            "last_commit_date": "2019-07-26T17:57:41Z"
+        },
+        {
+            "name": "localroot",
+            "pictures": [
+                {
+                    "img": "/assets/oss/localroot_master.webp"
+                }
+            ],
+            "technologies": [
+                "C"
+            ],
+            "category": "C",
+            "date": "January 05, 2019 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/localroot",
+            "bahasa": "https://skillicons.dev/icons?i=c",
+            "visit": "https://github.com/sinkaroid/localroot",
+            "description": "dirtyc0w privilege escalation",
+            "commit": "08a9362516d0077f97b7c2485da140ce6de57863",
+            "link_commit": "https://github.com/sinkaroid/localroot/commit/08a9362516d0077f97b7c2485da140ce6de57863",
+            "release": "pre-release",
+            "stargazers_count": 0,
+            "last_commit_date": "2019-07-09T00:58:07Z"
+        },
+        {
+            "name": "ereg_replace-decoder",
+            "pictures": [
+                {
+                    "img": "/assets/oss/ereg_replace-decoder_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "decoder"
+            ],
+            "category": "PHP",
+            "date": "February 12, 2019 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/ereg_replace-decoder",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/ereg_replace-decoder",
+            "description": "($_X,'123456aouie','aouie123456');",
+            "commit": "d53f5e3f7463ca787652ceb995bc9e33b93e09e6",
+            "link_commit": "https://github.com/sinkaroid/ereg_replace-decoder/commit/d53f5e3f7463ca787652ceb995bc9e33b93e09e6",
+            "release": "pre-release",
+            "stargazers_count": 1,
+            "last_commit_date": "2019-07-09T00:50:17Z"
+        },
+        {
+            "name": "Nhentai-Stealer",
+            "pictures": [
+                {
+                    "img": "/assets/oss/Nhentai-Stealer_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "CSS",
+                "doujinshi",
+                "hentai",
+                "nhentai"
+            ],
+            "category": "PHP",
+            "date": "January 18, 2019 (Updated: a month ago)",
+            "github": "https://github.com/sinkaroid/Nhentai-Stealer",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/Nhentai-Stealer",
+            "description": "This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe",
+            "commit": "52e7e20ceb401fbdae3d874a51d4eea2e5ac5d4f",
+            "link_commit": "https://github.com/sinkaroid/Nhentai-Stealer/commit/52e7e20ceb401fbdae3d874a51d4eea2e5ac5d4f",
+            "release": "pre-release",
+            "stargazers_count": 47,
+            "last_commit_date": "2019-06-22T13:44:28Z"
+        },
+        {
+            "name": "pasirmerah",
+            "pictures": [
+                {
+                    "img": "/assets/oss/pasirmerah_sc0.webp"
+                }
+            ],
+            "technologies": [
+                "PHP"
+            ],
+            "category": "PHP",
+            "date": "March 19, 2016 (Updated: 2 years ago)",
+            "github": "https://github.com/slemanboys/pasirmerah",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/slemanboys/pasirmerah",
+            "description": "Development through gallers shell",
+            "commit": "53ee112ebb8e7b2b432f725e72ff4bfe8efa371f",
+            "link_commit": "https://github.com/slemanboys/pasirmerah/commit/53ee112ebb8e7b2b432f725e72ff4bfe8efa371f",
+            "release": "pre-release",
+            "stargazers_count": 0,
+            "last_commit_date": "2019-03-07T06:31:51Z"
+        },
+        {
+            "name": "Simple-logbait",
+            "pictures": [
+                {
+                    "img": "/assets/oss/Simple-logbait_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "iplogger",
+                "social-engineering"
+            ],
+            "category": "PHP",
+            "date": "March 06, 2019 (Updated: 7 months ago)",
+            "github": "https://github.com/sinkaroid/Simple-logbait",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/Simple-logbait",
+            "description": "Just simple bait to get Ua and IPaddress from your victim.",
+            "commit": "ccdc036c8ec23065dbf5a623ff3f684296672537",
+            "link_commit": "https://github.com/sinkaroid/Simple-logbait/commit/ccdc036c8ec23065dbf5a623ff3f684296672537",
+            "release": "pre-release",
+            "stargazers_count": 8,
+            "last_commit_date": "2019-03-06T04:19:48Z"
+        },
+        {
+            "name": "Blackjasmine",
+            "pictures": [
+                {
+                    "img": "/assets/oss/Blackjasmine_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "backdoor",
+                "bypasser",
+                "php"
+            ],
+            "category": "PHP",
+            "date": "January 05, 2019 (Updated: 8 months ago)",
+            "github": "https://github.com/sinkaroid/Blackjasmine",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/Blackjasmine",
+            "description": "cli PHPWebshell",
+            "commit": "59d8756e157f5e635c8f53b5f7673a6645b3129b",
+            "link_commit": "https://github.com/sinkaroid/Blackjasmine/commit/59d8756e157f5e635c8f53b5f7673a6645b3129b",
+            "release": "pre-release",
+            "stargazers_count": 5,
+            "last_commit_date": "2019-02-14T06:57:16Z"
+        },
+        {
+            "name": "Blackseroja",
+            "pictures": [
+                {
+                    "img": "/assets/oss/Blackseroja_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP"
+            ],
+            "category": "PHP",
+            "date": "February 13, 2019 (Updated: 7 years ago)",
+            "github": "https://github.com/sinkaroid/Blackseroja",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/Blackseroja",
+            "description": "Another flower, Blackser0ja just my tools collection from 2k12 till now.",
+            "commit": "8b15697f4b0bfde514c60a93f5e5448e5a2ff96a",
+            "link_commit": "https://github.com/sinkaroid/Blackseroja/commit/8b15697f4b0bfde514c60a93f5e5448e5a2ff96a",
+            "release": "pre-release",
+            "stargazers_count": 2,
+            "last_commit_date": "2019-02-13T03:35:50Z"
+        },
+        {
+            "name": "HiddenFlower",
+            "pictures": [
+                {
+                    "img": "/assets/oss/HiddenFlower_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "backdooring"
+            ],
+            "category": "PHP",
+            "date": "January 05, 2019 (Updated: 7 years ago)",
+            "github": "https://github.com/sinkaroid/HiddenFlower",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/HiddenFlower",
+            "description": "a uploader can inject in another file, article, etc.",
+            "commit": "0133be6013c72c5996f93132f9d93852ff50e7a2",
+            "link_commit": "https://github.com/sinkaroid/HiddenFlower/commit/0133be6013c72c5996f93132f9d93852ff50e7a2",
+            "release": "pre-release",
+            "stargazers_count": 2,
+            "last_commit_date": "2019-02-13T02:21:45Z"
+        },
+        {
+            "name": "Magento-Grabber",
+            "pictures": [
+                {
+                    "img": "/assets/oss/Magento-Grabber_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP"
+            ],
+            "category": "PHP",
+            "date": "January 21, 2019 (Updated: 7 years ago)",
+            "github": "https://github.com/slemanboys/Magento-Grabber",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/slemanboys/Magento-Grabber",
+            "description": "Auto exploiter + Dumper, steal information on victim site, and auto create mailer on victim",
+            "commit": "db810673f08889c9c810607a65eda942e3285f86",
+            "link_commit": "https://github.com/slemanboys/Magento-Grabber/commit/db810673f08889c9c810607a65eda942e3285f86",
+            "release": "pre-release",
+            "stargazers_count": 0,
+            "last_commit_date": "2019-02-12T03:51:53Z"
+        },
+        {
+            "name": "Stupidc0de-Shell-2016",
+            "pictures": [
+                {
+                    "img": "/assets/oss/Stupidc0de-Shell-2016_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "backdoor",
+                "shell"
+            ],
+            "category": "PHP",
+            "date": "January 05, 2019 (Updated: 8 months ago)",
+            "github": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
+            "description": "Sc0Shell, Development based on b374k and Gallers Shell.",
+            "commit": "8bcdcc1073216b53a893e3d4e941e0715f42e9b4",
+            "link_commit": "https://github.com/sinkaroid/Stupidc0de-Shell-2016/commit/8bcdcc1073216b53a893e3d4e941e0715f42e9b4",
+            "release": "pre-release",
+            "stargazers_count": 4,
+            "last_commit_date": "2019-01-23T16:31:01Z"
+        },
+        {
+            "name": "Shell-Checker",
+            "pictures": [
+                {
+                    "img": "/assets/oss/Shell-Checker_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "checker",
+                "shellcheck"
+            ],
+            "category": "PHP",
+            "date": "November 24, 2018 (Updated: a year ago)",
+            "github": "https://github.com/sinkaroid/Shell-Checker",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/Shell-Checker",
+            "description": "A php source for track ur webshell( shell uploaded on your victim) to identify if still found or gone.",
+            "commit": "4a07af9578d679413e72ca2c88bee8e95385fa84",
+            "link_commit": "https://github.com/sinkaroid/Shell-Checker/commit/4a07af9578d679413e72ca2c88bee8e95385fa84",
+            "release": "pre-release",
+            "stargazers_count": 5,
+            "last_commit_date": "2019-01-23T16:26:52Z"
+        },
+        {
+            "name": "weevcrot",
+            "pictures": [
+                {
+                    "img": "/assets/oss/weevcrot_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP"
+            ],
+            "category": "PHP",
+            "date": "January 05, 2019 (Updated: 3 years ago)",
+            "github": "https://github.com/sinkaroid/weevcrot",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/weevcrot",
+            "description": "Extended weevely backdoor over the network at runtime.",
+            "commit": "1312f84df57b23c68eb9a5903424a3fc87ac7888",
+            "link_commit": "https://github.com/sinkaroid/weevcrot/commit/1312f84df57b23c68eb9a5903424a3fc87ac7888",
+            "release": "pre-release",
+            "stargazers_count": 2,
+            "last_commit_date": "2019-01-05T09:22:45Z"
+        },
+        {
+            "name": "Tevolution-Exploiter",
+            "pictures": [
+                {
+                    "img": "/assets/oss/Tevolution-Exploiter_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP"
+            ],
+            "category": "PHP",
+            "date": "January 21, 2019 (Updated: 7 years ago)",
+            "github": "https://github.com/slemanboys/Tevolution-Exploiter",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/slemanboys/Tevolution-Exploiter",
+            "description": "Wordpress Plugins Tevolution Mass Exploiter",
+            "commit": "1866827591958f84cca4de09e683eeab0a6b52ff",
+            "link_commit": "https://github.com/slemanboys/Tevolution-Exploiter/commit/1866827591958f84cca4de09e683eeab0a6b52ff",
+            "release": "pre-release",
+            "stargazers_count": 0,
+            "last_commit_date": "2019-01-05T07:29:14Z"
+        }
+    ],
+    "sha_commit": "d2962d58f08b040efb86b486f51123981e3c4e77"
+}

@@ -8,8 +8,8 @@
       </p>
     </div>
 
-    <!-- Capsule Tabs Switcher -->
-    <div class="tabs-container">
+    <!-- Capsule Tabs Switcher (Desktop) -->
+    <div class="tabs-container tabs-desktop">
       <div class="capsule-tabs">
         <button
           class="tab-btn clickable"
@@ -27,6 +27,51 @@
         </button>
       </div>
     </div>
+
+    <!-- Mobile Action Sheet Trigger -->
+    <div class="tabs-container tabs-mobile">
+      <button
+        class="tabs-trigger clickable"
+        @click="showActionSheet = true"
+        aria-label="Open tab selector"
+      >
+        <i :class="currentTab.icon"></i>
+        <span>{{ currentTab.label }}</span>
+        <i class="fas fa-chevron-down trigger-chevron"></i>
+      </button>
+    </div>
+
+    <!-- Action Sheet (mobile alternative) -->
+    <Teleport to="body">
+      <Transition name="action-sheet">
+        <div v-if="showActionSheet" class="action-sheet-overlay" @click.self="showActionSheet = false">
+          <div class="action-sheet" role="dialog" aria-modal="true">
+            <div class="action-sheet-header">
+              <span class="action-sheet-title">Select Category</span>
+              <button class="action-sheet-close clickable" @click="showActionSheet = false" aria-label="Close">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <ul class="action-sheet-list">
+              <li
+                v-for="tab in tabItems"
+                :key="tab.id"
+                class="action-sheet-item clickable"
+                :class="{ 'is-active': activeTab === tab.id }"
+                @click="selectTab(tab.id)"
+              >
+                <i :class="tab.icon"></i>
+                <span>{{ tab.label }}</span>
+                <i v-if="activeTab === tab.id" class="fas fa-check check-mark"></i>
+              </li>
+            </ul>
+            <button class="action-sheet-cancel clickable" @click="showActionSheet = false">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
 
     <!-- Tab 1: Anime List -->
     <div v-if="activeTab === 'anime'" class="tab-content">
@@ -92,8 +137,8 @@ import MalModal from "./helpers/MalModal.vue";
 import { randomGradient } from "../composables/useRandomGradient";
 
 // Import locally generated metadata
-import animeData from "../../mock/_anime.json";
-import mangaData from "../../mock/_manga.json";
+import animeData from "../../mock/data_anime.json";
+import mangaData from "../../mock/data_manga.json";
 
 const titleGradient = ref(randomGradient());
 
@@ -112,6 +157,20 @@ const animeList = animeData.data || [];
 const mangaList = mangaData.data_manga || [];
 
 const activeTab = ref("anime");
+const showActionSheet = ref(false);
+const tabItems = [
+  { id: "anime", label: "Anime", icon: "fas fa-tv" },
+  { id: "manga", label: "Manga", icon: "fas fa-book-open" }
+];
+
+const currentTab = computed(() => {
+  return tabItems.find((t) => t.id === activeTab.value) || tabItems[0];
+});
+
+const selectTab = (id) => {
+  activeTab.value = id;
+  showActionSheet.value = false;
+};
 
 // Load More State
 const animeLimit = ref(3);
@@ -209,25 +268,174 @@ const closeModal = () => {
   color: white;
 }
 
+/* Mobile-specific: swap capsule-tabs with trigger + action sheet */
+.tabs-mobile {
+  display: none;
+}
+
 @media (max-width: 576px) {
-  .tabs-container {
-    justify-content: flex-start;
-    overflow-x: auto;
-    padding: 4px var(--space-4);
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-  .tabs-container::-webkit-scrollbar {
+  .tabs-desktop {
     display: none;
   }
-  .capsule-tabs {
+  .tabs-mobile {
     display: flex;
-    width: max-content;
+    justify-content: center;
+    margin-bottom: var(--space-6);
   }
-  .tab-btn {
-    padding: 6px 12px;
-    font-size: 0.85rem;
-  }
+}
+
+.tabs-trigger {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 12px 22px;
+  border-radius: var(--radius-full);
+  color: var(--foreground);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  box-shadow: var(--card-shadow);
+  backdrop-filter: var(--card-blur);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tabs-trigger:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.tabs-trigger .trigger-chevron {
+  color: var(--muted-foreground);
+  font-size: 0.75rem;
+}
+
+.action-sheet-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.action-sheet {
+  width: 100%;
+  max-width: 480px;
+  background: var(--bg-app);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid var(--card-border);
+  border-bottom: none;
+  padding: var(--space-4);
+  padding-bottom: calc(var(--space-4) + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  opacity: 1;
+}
+
+.action-sheet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--space-2);
+  color: var(--muted-foreground);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.action-sheet-close {
+  background: transparent;
+  border: none;
+  color: var(--muted-foreground);
+  font-size: 1.1rem;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.action-sheet-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+}
+
+.action-sheet-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: 14px 16px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--foreground);
+  cursor: pointer;
+  transition: background 0.15s ease;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.action-sheet-item:last-child {
+  border-bottom: none;
+}
+
+.action-sheet-item:active {
+  background: rgba(var(--accent-rgb), 0.08);
+}
+
+.action-sheet-item.is-active {
+  color: var(--accent);
+}
+
+.action-sheet-item .check-mark {
+  margin-left: auto;
+  color: var(--accent);
+}
+
+.action-sheet-cancel {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--card-border);
+  color: var(--foreground);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.action-sheet-cancel:hover {
+  background: rgba(255, 0, 0, 0.08);
+  color: #ef4444;
+}
+
+.action-sheet-enter-active,
+.action-sheet-leave-active {
+  transition: opacity 0.25s ease;
+}
+.action-sheet-enter-active .action-sheet,
+.action-sheet-leave-active .action-sheet {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.action-sheet-enter-from,
+.action-sheet-leave-to {
+  opacity: 0;
+}
+.action-sheet-enter-from .action-sheet,
+.action-sheet-leave-to .action-sheet {
+  transform: translateY(100%);
 }
 
 .card-enter {

@@ -201,7 +201,7 @@ defineProps({
   color: var(--foreground);
   opacity: 0.95;
   margin-bottom: var(--space-4);
-  text-align: justify;
+  text-align: left;
 }
 
 .card-tags {

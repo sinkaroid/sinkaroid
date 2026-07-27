@@ -25,7 +25,7 @@
           <li class="nav-item">
             <a 
               class="nav-link clickable" 
-              href="/#about" 
+              href="/about" 
               @click.prevent="navigate('about')"
             >
               <i class="fa fa-user-circle"></i> about
@@ -34,7 +34,7 @@
           <li class="nav-item">
             <a 
               class="nav-link clickable" 
-              href="/#skills" 
+              href="/skills" 
               @click.prevent="navigate('skills')"
             >
               <i class="fa fa-bolt"></i> skills
@@ -43,7 +43,7 @@
           <li class="nav-item">
             <a 
               class="nav-link clickable" 
-              href="/#portfolio" 
+              href="/portfolio" 
               @click.prevent="navigate('portfolio')"
             >
               <i class="fa fa-rocket"></i> portfolio
@@ -52,7 +52,7 @@
           <li class="nav-item">
             <a 
               class="nav-link clickable" 
-              href="/#contact" 
+              href="/contact" 
               @click.prevent="navigate('contact')"
             >
               <i class="fa fa-envelope"></i> contact

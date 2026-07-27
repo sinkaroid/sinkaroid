@@ -238,6 +238,7 @@ const open = (platform) => {
   font-weight: 800;
   line-height: 1.1;
   background: var(--hero-name-gradient, var(--accent-gradient));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.04em;
@@ -248,6 +249,7 @@ const open = (platform) => {
   font-weight: 800;
   line-height: 1.4;
   background: var(--hero-role-gradient, var(--accent-gradient));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.02em;
@@ -264,14 +266,14 @@ const open = (platform) => {
   font-size: 1.15rem;
   line-height: 1.5;
   color: var(--foreground);
-  text-align: justify;
+  text-align: left;
 }
 
 .synopsis-text {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--muted-foreground);
-  text-align: justify;
+  text-align: left;
 }
 
 .social-channels {

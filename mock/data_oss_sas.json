@@ -1,0 +1,566 @@
+{
+    "last_sync": "2026-07-27, 15:16:49",
+    "data": [
+        {
+            "name": "scathachbot.xyz",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathachbot.xyz_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "JavaScript",
+                "CSS",
+                "Python",
+                "SCSS",
+                "HTML",
+                "Dockerfile"
+            ],
+            "category": "Vue",
+            "date": "February 26, 2023 (Updated: 2 days ago)",
+            "github": "https://github.com/ScathachGrip/scathachbot.xyz",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://scathachbot.xyz",
+            "description": "Fullstack microservices web apps using @nuxt, @expressjs, and @braintree for its payment-gateway",
+            "commit": "cd172901ad533b7aa645360669b91cb8625f4e9c",
+            "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/cd172901ad533b7aa645360669b91cb8625f4e9c",
+            "release": "v8.1.10-alpha",
+            "last_commit_date": "2026-07-25T19:10:23Z"
+        },
+        {
+            "name": "scathach-next",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Rust",
+                "Dockerfile",
+                "microservices"
+            ],
+            "category": "TypeScript",
+            "date": "June 04, 2026 (Updated: 2 days ago)",
+            "github": "https://github.com/ScathachGrip/scathach-next",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://next.scathach.id/nodes",
+            "description": "scathach-next @discordeno",
+            "commit": "f35b7a2ccb4b1e5e95cbac2a42395be068e409f3",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/f35b7a2ccb4b1e5e95cbac2a42395be068e409f3",
+            "release": "v6.1.50-alpha",
+            "last_commit_date": "2026-07-25T05:14:09Z"
+        },
+        {
+            "name": "dispatcher",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "microservices",
+                "redis",
+                "scheduler"
+            ],
+            "category": "TypeScript",
+            "date": "May 04, 2026 (Updated: 4 days ago)",
+            "github": "https://github.com/ScathachGrip/dispatcher",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://dispatcher.scathach.id/nodes",
+            "description": "Bun first & high-performance Discord REST API workers and scheduler",
+            "commit": "3c6ffcad5815a0a15d37a3d6400fb31db4f252e9",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/3c6ffcad5815a0a15d37a3d6400fb31db4f252e9",
+            "release": "6.12.24-alpha",
+            "last_commit_date": "2026-07-23T08:14:11Z"
+        },
+        {
+            "name": "scathach-next-pro",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next-pro_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "microservices"
+            ],
+            "category": "Go",
+            "date": "July 07, 2026 (Updated: 10 days ago)",
+            "github": "https://github.com/ScathachGrip/scathach-next-pro",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://next-pro.scathach.id/nodes",
+            "description": "scathach-next-pro @disgoorg",
+            "commit": "e6845ba97088cb7e281a21554e23d6d13b414687",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/e6845ba97088cb7e281a21554e23d6d13b414687",
+            "release": "2.3.5-alpha",
+            "last_commit_date": "2026-07-17T14:41:45Z"
+        },
+        {
+            "name": "statusflare",
+            "pictures": [
+                {
+                    "img": "/assets/sas/statusflare_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Astro",
+                "CSS",
+                "JavaScript"
+            ],
+            "category": "TypeScript",
+            "date": "June 03, 2026 (Updated: 13 days ago)",
+            "github": "https://github.com/ScathachGrip/statusflare",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://statusflare.sinxdr.workers.dev",
+            "description": "Cloudflare Workers + Astro status page with KV monitoring",
+            "commit": "6e4f62d1078d6c7999da0f8611201febb75cc890",
+            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/6e4f62d1078d6c7999da0f8611201febb75cc890",
+            "release": "v7.1.0-alpha",
+            "last_commit_date": "2026-07-15T01:44:51Z"
+        },
+        {
+            "name": "buster",
+            "pictures": [
+                {
+                    "img": "/assets/sas/buster_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go"
+            ],
+            "category": "Go",
+            "date": "June 24, 2026 (Updated: 24 days ago)",
+            "github": "https://github.com/ScathachGrip/buster",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://github.com/ScathachGrip/buster",
+            "description": "(K8s) Container orchestration but efficiency first",
+            "commit": "426b9ab3cfb07bee2015c8c9dd167825a9d3f9c5",
+            "link_commit": "https://github.com/ScathachGrip/buster/commit/426b9ab3cfb07bee2015c8c9dd167825a9d3f9c5",
+            "release": "pre-release",
+            "last_commit_date": "2026-07-03T05:46:34Z"
+        },
+        {
+            "name": "dispatcher-telemetry",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher-telemetry_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript",
+                "CSS"
+            ],
+            "category": "JavaScript",
+            "date": "May 10, 2026 (Updated: 20 hours ago)",
+            "github": "https://github.com/ScathachGrip/dispatcher-telemetry",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://devops.scathach.id",
+            "description": "devops.scathach.id",
+            "commit": "e1053f5813bfdcc22d02b637756fee9d9753283c",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher-telemetry/commit/e1053f5813bfdcc22d02b637756fee9d9753283c",
+            "release": "2.0.0-alpha_stable_5m",
+            "last_commit_date": "2026-07-02T08:19:28Z"
+        },
+        {
+            "name": "charon",
+            "pictures": [
+                {
+                    "img": "/assets/sas/charon_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "TypeScript",
+                "SCSS",
+                "CSS",
+                "JavaScript",
+                "Java"
+            ],
+            "category": "Vue",
+            "date": "February 06, 2026 (Updated: 2 months ago)",
+            "github": "https://github.com/sinkaroid/charon",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://github.com/sinkaroid/charon",
+            "description": "com.scathachgrip.charon",
+            "commit": "b820b25346bef91f8d34327412f8d2493e294234",
+            "link_commit": "https://github.com/sinkaroid/charon/commit/b820b25346bef91f8d34327412f8d2493e294234",
+            "release": "v2.1.36",
+            "last_commit_date": "2026-06-03T11:48:23Z"
+        },
+        {
+            "name": "dna-autofarm",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dna-autofarm_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "PowerShell",
+                "Batchfile",
+                "VBScript"
+            ],
+            "category": "TypeScript",
+            "date": "February 12, 2026 (Updated: 2 months ago)",
+            "github": "https://github.com/sinkaroid/dna-autofarm",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://github.com/sinkaroid/dna-autofarm",
+            "description": "DNA auto farm use Android Debug Bridge (ADB) XIAOMI_23049PCD8G tested",
+            "commit": "da3fe94fb13da1c4f2f13425a65ae9a7fe654249",
+            "link_commit": "https://github.com/sinkaroid/dna-autofarm/commit/da3fe94fb13da1c4f2f13425a65ae9a7fe654249",
+            "release": "pre-release",
+            "last_commit_date": "2026-05-21T00:52:03Z"
+        },
+        {
+            "name": "XPixivBookmarkScrape",
+            "pictures": [
+                {
+                    "img": "/assets/sas/XPixivBookmarkScrape_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python"
+            ],
+            "category": "Python",
+            "date": "April 19, 2026 (Updated: 20 hours ago)",
+            "github": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
+            "description": "Pixiv automated bookmarks scraper",
+            "commit": "5b4d599c4ff88ad3c6313f66746bffa4e5efdc13",
+            "link_commit": "https://github.com/ScathachGrip/XPixivBookmarkScrape/commit/5b4d599c4ff88ad3c6313f66746bffa4e5efdc13",
+            "release": "pre-release",
+            "last_commit_date": "2026-04-19T13:52:31Z"
+        },
+        {
+            "name": "XTwitterFavScrape",
+            "pictures": [
+                {
+                    "img": "/assets/sas/XTwitterFavScrape_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript"
+            ],
+            "category": "JavaScript",
+            "date": "April 16, 2026 (Updated: 20 hours ago)",
+            "github": "https://github.com/ScathachGrip/XTwitterFavScrape",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://github.com/ScathachGrip/XTwitterFavScrape",
+            "description": "Twitter / X automated bookmarks and fav scraper",
+            "commit": "f55cc4a7e357ca7c5053d0ae709c7fe01897f4ec",
+            "link_commit": "https://github.com/ScathachGrip/XTwitterFavScrape/commit/f55cc4a7e357ca7c5053d0ae709c7fe01897f4ec",
+            "release": "pre-release",
+            "last_commit_date": "2026-04-16T14:08:02Z"
+        },
+        {
+            "name": "SSHfier",
+            "pictures": [
+                {
+                    "img": "/assets/sas/SSHfier_master.webp"
+                }
+            ],
+            "technologies": [
+                "Shell"
+            ],
+            "category": "Shell",
+            "date": "October 28, 2025 (Updated: 20 hours ago)",
+            "github": "https://github.com/ScathachGrip/SSHfier",
+            "bahasa": "https://skillicons.dev/icons?i=bash",
+            "visit": "https://github.com/ScathachGrip/SSHfier",
+            "description": "Automated SSH session login notifiers",
+            "commit": "18ea51b9597e9b742831671c6cdc8ad7a4f8f337",
+            "link_commit": "https://github.com/ScathachGrip/SSHfier/commit/18ea51b9597e9b742831671c6cdc8ad7a4f8f337",
+            "release": "pre-release",
+            "last_commit_date": "2026-01-21T01:05:00Z"
+        },
+        {
+            "name": "enikk",
+            "pictures": [
+                {
+                    "img": "/assets/sas/enikk_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "JavaScript",
+                "CSS",
+                "SCSS",
+                "Java"
+            ],
+            "category": "Vue",
+            "date": "August 12, 2023 (Updated: 20 hours ago)",
+            "github": "https://github.com/sinkaroid/enikk",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://github.com/sinkaroid/enikk",
+            "description": "com.scathachgrip.enikk",
+            "commit": "aa1344d4287320067c9103fcca525485f0523b16",
+            "link_commit": "https://github.com/sinkaroid/enikk/commit/aa1344d4287320067c9103fcca525485f0523b16",
+            "release": "3.11.4",
+            "last_commit_date": "2025-10-28T09:58:40Z"
+        },
+        {
+            "name": "Caster",
+            "pictures": [
+                {
+                    "img": "/assets/sas/Caster_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript"
+            ],
+            "category": "JavaScript",
+            "date": "December 10, 2022 (Updated: 9 months ago)",
+            "github": "https://github.com/ScathachGrip/Caster",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://github.com/ScathachGrip/Caster",
+            "description": "Spell caster, sorthand Scathach bot node SDK whenever migrate are needed",
+            "commit": "c8a4e0aa6444f3e5b73645ce0969627c9d80b6b3",
+            "link_commit": "https://github.com/ScathachGrip/Caster/commit/c8a4e0aa6444f3e5b73645ce0969627c9d80b6b3",
+            "release": "pre-release",
+            "last_commit_date": "2025-10-28T05:05:56Z"
+        },
+        {
+            "name": "enikk-webhook",
+            "pictures": [
+                {
+                    "img": "/assets/sas/enikk-webhook_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript"
+            ],
+            "category": "JavaScript",
+            "date": "September 23, 2025 (Updated: 10 months ago)",
+            "github": "https://github.com/ScathachGrip/enikk-webhook",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://github.com/ScathachGrip/enikk-webhook",
+            "description": null,
+            "commit": "5a6af02493be25af1685b142447895231569cf70",
+            "link_commit": "https://github.com/ScathachGrip/enikk-webhook/commit/5a6af02493be25af1685b142447895231569cf70",
+            "release": "pre-release",
+            "last_commit_date": "2025-09-23T20:30:59Z"
+        },
+        {
+            "name": "enikk_rock_counter",
+            "pictures": [
+                {
+                    "img": "/assets/sas/enikk_rock_counter_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript",
+                "Vue",
+                "CSS",
+                "SCSS",
+                "HTML"
+            ],
+            "category": "JavaScript",
+            "date": "January 16, 2025 (Updated: 20 hours ago)",
+            "github": "https://github.com/sinkaroid/enikk_rock_counter",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://enikkr.scathach.id",
+            "description": "NIKKE enikk rock counters",
+            "commit": "c484b8189d7a7947986e23479e61c2d037d37e07",
+            "link_commit": "https://github.com/sinkaroid/enikk_rock_counter/commit/c484b8189d7a7947986e23479e61c2d037d37e07",
+            "release": "pre-release",
+            "last_commit_date": "2025-01-17T13:26:48Z"
+        },
+        {
+            "name": "aiserver",
+            "pictures": [
+                {
+                    "img": "/assets/sas/aiserver_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python"
+            ],
+            "category": "Python",
+            "date": "July 09, 2023 (Updated: 20 hours ago)",
+            "github": "https://github.com/ScathachGrip/aiserver",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/ScathachGrip/aiserver",
+            "description": "Huggingface selfhosted playground",
+            "commit": "b89bdb16fd2a33f6b712e6e7374ae0a103b2473b",
+            "link_commit": "https://github.com/ScathachGrip/aiserver/commit/b89bdb16fd2a33f6b712e6e7374ae0a103b2473b",
+            "release": "pre-release",
+            "last_commit_date": "2023-07-09T05:50:53Z"
+        },
+        {
+            "name": "archer",
+            "pictures": [
+                {
+                    "img": "/assets/sas/archer_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript"
+            ],
+            "category": "JavaScript",
+            "date": "April 06, 2023 (Updated: 3 years ago)",
+            "github": "https://github.com/ScathachGrip/archer",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://github.com/ScathachGrip/archer",
+            "description": "Google cloud, Contabo, and any Node & JVM migration stuff",
+            "commit": "a039dd7939500c2cdf6a8cb4355e7432206fcc41",
+            "link_commit": "https://github.com/ScathachGrip/archer/commit/a039dd7939500c2cdf6a8cb4355e7432206fcc41",
+            "release": "pre-release",
+            "last_commit_date": "2023-04-06T19:46:14Z"
+        },
+        {
+            "name": "spellblock",
+            "pictures": [
+                {
+                    "img": "/assets/sas/spellblock_main.webp"
+                }
+            ],
+            "technologies": [
+                "Ruby"
+            ],
+            "category": "Ruby",
+            "date": "May 26, 2021 (Updated: 4 years ago)",
+            "github": "https://github.com/ScathachGrip/spellblock",
+            "bahasa": "https://skillicons.dev/icons?i=ruby",
+            "visit": "https://github.com/ScathachGrip/spellblock",
+            "description": "Spellblock, Blocks most \"disgusting/against tos\" tags which use for interacting within the Booru images.",
+            "commit": "44ff214eaf9a7e43ab250897ef3e19f6cf7c4681",
+            "link_commit": "https://github.com/ScathachGrip/spellblock/commit/44ff214eaf9a7e43ab250897ef3e19f6cf7c4681",
+            "release": "pre-release",
+            "last_commit_date": "2022-10-01T03:00:34Z"
+        },
+        {
+            "name": "Scathachgram",
+            "pictures": [
+                {
+                    "img": "/assets/sas/Scathachgram_main.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "Procfile",
+                "aiogram",
+                "aiohttp",
+                "asyncio"
+            ],
+            "category": "Python",
+            "date": "July 04, 2021 (Updated: 20 hours ago)",
+            "github": "https://github.com/sinkaroid/Scathachgram",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/Scathachgram",
+            "description": "Scathach bot in telegram bots @aiogram",
+            "commit": "4d85d101af8e63deb0b0670fbf56cd0b622f38e1",
+            "link_commit": "https://github.com/sinkaroid/Scathachgram/commit/4d85d101af8e63deb0b0670fbf56cd0b622f38e1",
+            "release": "pre-release",
+            "last_commit_date": "2022-02-27T14:16:34Z"
+        },
+        {
+            "name": "scathach.redsplit.org",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach.redsplit.org_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "CSS",
+                "HTML"
+            ],
+            "category": "PHP",
+            "date": "February 01, 2022 (Updated: 4 years ago)",
+            "github": "https://github.com/ScathachGrip/scathach.redsplit.org",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/ScathachGrip/scathach.redsplit.org",
+            "description": "Backup data (main server)",
+            "commit": "d7d0ff07015d7f8978abebd228364e7e7c21e91a",
+            "link_commit": "https://github.com/ScathachGrip/scathach.redsplit.org/commit/d7d0ff07015d7f8978abebd228364e7e7c21e91a",
+            "release": "pre-release",
+            "last_commit_date": "2022-02-13T04:02:29Z"
+        },
+        {
+            "name": "megumiAi",
+            "pictures": [
+                {
+                    "img": "/assets/sas/megumiAi_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "Shell",
+                "gtts",
+                "personal-assistant",
+                "pyaudio",
+                "speechrecognition",
+                "voice-recognition"
+            ],
+            "category": "Python",
+            "date": "April 09, 2020 (Updated: 4 years ago)",
+            "github": "https://github.com/sinkaroid/megumiAi",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/megumiAi",
+            "description": "ML and Nlp stuff, MegumiAi is ma Priv8 Maid waifu on Real life",
+            "commit": "98c59baf1b1303109b302ee221562b400995e8eb",
+            "link_commit": "https://github.com/sinkaroid/megumiAi/commit/98c59baf1b1303109b302ee221562b400995e8eb",
+            "release": "pre-release",
+            "last_commit_date": "2020-06-03T21:07:20Z"
+        },
+        {
+            "name": "jawpy",
+            "pictures": [
+                {
+                    "img": "/assets/sas/jawpy_master.webp"
+                }
+            ],
+            "technologies": [
+                "Python",
+                "beautifulsoup4",
+                "kalender-jawa",
+                "scraper"
+            ],
+            "category": "Python",
+            "date": "November 10, 2019 (Updated: 5 years ago)",
+            "github": "https://github.com/sinkaroid/jawpy",
+            "bahasa": "https://skillicons.dev/icons?i=python",
+            "visit": "https://github.com/sinkaroid/jawpy",
+            "description": "Kalender Jawa scraper",
+            "commit": "cc6aaa821594671de8b08bacfbccdd75867a4e65",
+            "link_commit": "https://github.com/sinkaroid/jawpy/commit/cc6aaa821594671de8b08bacfbccdd75867a4e65",
+            "release": "pre-release",
+            "last_commit_date": "2020-05-19T12:42:43Z"
+        },
+        {
+            "name": "Makise",
+            "pictures": [
+                {
+                    "img": "/assets/sas/Makise_master.webp"
+                }
+            ],
+            "technologies": [
+                "PHP",
+                "JavaScript",
+                "CSS",
+                "Shell",
+                "manga-scraper",
+                "parser-library"
+            ],
+            "category": "PHP",
+            "date": "May 04, 2019 (Updated: 6 years ago)",
+            "github": "https://github.com/sinkaroid/Makise",
+            "bahasa": "https://skillicons.dev/icons?i=php",
+            "visit": "https://github.com/sinkaroid/Makise",
+            "description": "MangascraperID - anything trash popups ends here.",
+            "commit": "d7af59894b3ca692bf8bb1f7eab90813ee54ed8b",
+            "link_commit": "https://github.com/sinkaroid/Makise/commit/d7af59894b3ca692bf8bb1f7eab90813ee54ed8b",
+            "release": "pre-release",
+            "last_commit_date": "2019-07-16T06:22:42Z"
+        }
+    ],
+    "sha_commit": "d2962d58f08b040efb86b486f51123981e3c4e77"
+}
