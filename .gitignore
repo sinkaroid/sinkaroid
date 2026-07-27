@@ -32,6 +32,8 @@ CHANGELOG.md
 /legacy
 
 # Antigravity workspace artifacts (skills, rules, scratch)
-.agents/*.js
-.agents/*.ts
-.agents/*.py
+.agents/**/*.js
+.agents/**/*.cjs
+.agents/**/*.ts
+.agents/**/*.py
+.agents/**/*.pyc
