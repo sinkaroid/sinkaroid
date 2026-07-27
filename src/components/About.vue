@@ -13,39 +13,48 @@
       <!-- Profile tags / Pronouns Card -->
       <div class="bento-card col-span-12 pronouns-card">
         <div class="pronouns-list">
-          <div class="pronoun-tag green-tag">
-            <i class="fas fa-leaf emoji-icon"></i>
+          <div class="pronoun-tag green-tag clickable" @click="showToast('🍀 TRUE SELF: ~@Indrawan I.')">
+            <img src="/assets/icon/Metamorphosis_icon.webp" alt="" class="emoji-icon" />
             <div class="pronoun-info">
-              <span class="label">TRUE_SELF</span>
-              <span class="value">Indrawan I.</span>
+              <span class="label">TRUE SELF</span>
+              <span class="value" style="font-weight: 900;">@Indrawan I.</span>
             </div>
           </div>
 
-          <div class="pronoun-tag crimson-tag">
-            <i class="fas fa-brain emoji-icon"></i>
+          <div class="pronoun-tag crimson-tag clickable" @click="showToast('🧠 CONJURE IMAGE (BRAIN Focused): The cognitive realm where ideas awaken, problems dissolve, and solutions are forged. Proficient and Pragmatic ~@sinkaroid')">
+            <img src="/assets/icon/Conjure_Image_icon.webp" alt="" class="emoji-icon" />
             <div class="pronoun-info">
-              <span class="label">SELF_BRAIN</span>
-              <span class="value">sinkaroid</span>
-            </div>
-          </div>
-          
-          <div class="pronoun-tag purple-tag">
-            <i class="fas fa-heart emoji-icon"></i>
-            <div class="pronoun-info">
-              <span class="label">SELF_HEART</span>
-              <span class="value">darin</span>
+              <span class="label">CONJURE IMAGE</span>
+              <span class="value" style="font-weight: 900;">@sinkaroid</span>
             </div>
           </div>
 
-          <div class="pronoun-tag orange-tag">
-            <span class="emoji-icon">🗾</span>
+          <div class="pronoun-tag purple-tag clickable" @click="showToast('❤️ REFLECTION (HEART Focused): The sanctuary where empathy, intuition, and conscience guide the choices I make. Maybe fool and stupid ~@darin')">
+            <img src="/assets/icon/Reflection_icon.webp" alt="" class="emoji-icon" />
             <div class="pronoun-info">
-              <span class="label">CORS_ORIGIN</span>
-              <span class="value">ꦏꦼꦭꦶꦭꦺꦥ꧀</span>
+              <span class="label">REFLECTION</span>
+              <span class="value" style="font-weight: 900;">@darin</span>
+            </div>
+          </div>
+
+          <div class="pronoun-tag orange-tag clickable" @click="showToast('SUNDER: ~ꦏꦼꦭꦶꦭꦺꦥ꧀')">
+            <img src="/assets/icon/Sunder_icon.webp" alt="" class="emoji-icon" />
+            <div class="pronoun-info">
+              <span class="label">SUNDER</span>
+              <span class="value" style="font-weight: 900;">ꦏꦼꦭꦶꦭꦺꦥ꧀</span>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Toast -->
+      <Teleport to="body">
+        <Transition name="toast-fade">
+          <div v-if="toastMessage" class="pronoun-toast" role="status" aria-live="polite">
+            {{ toastMessage }}
+          </div>
+        </Transition>
+      </Teleport>
 
       <!-- Education Timeline -->
       <div class="col-span-6 timeline-column">
@@ -89,6 +98,16 @@ const experience = {
   title: "Experiences",
   data: info.experience || []
 };
+
+const toastMessage = ref("");
+let toastTimer = null;
+const showToast = (msg) => {
+    toastMessage.value = msg;
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+        toastMessage.value = "";
+    }, 5000);
+};
 </script>
 
 <style scoped>
@@ -130,6 +149,16 @@ const experience = {
   border-radius: var(--radius-md);
   transition: all 0.3s ease;
   min-width: 200px;
+  flex: 1 1 200px;
+  max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .pronoun-tag {
+    min-width: 0;
+    flex: 1 1 100%;
+    padding: var(--space-3) var(--space-4);
+  }
 }
 
 .pronoun-tag:hover {
@@ -163,10 +192,15 @@ const experience = {
 .orange-tag .label,
 .orange-tag .value { color: var(--tag-color); }
 
-.emoji-icon {
-  font-size: 1.5rem;
-  color: var(--accent);
+img.emoji-icon {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
 }
+
+
 
 .pronoun-info {
   display: flex;
@@ -190,5 +224,52 @@ const experience = {
   display: flex;
   flex-direction: column;
   gap: var(--space-6);
+}
+
+.pronoun-tag {
+  cursor: pointer;
+}
+
+.pronoun-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  background: var(--card-bg);
+  color: var(--foreground);
+  border: 1px solid var(--card-border);
+  padding: 12px 22px;
+  border-radius: var(--radius-full);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: var(--card-shadow);
+  backdrop-filter: var(--card-blur);
+  z-index: 9998;
+  pointer-events: none;
+  max-width: min(92vw, 480px);
+  text-align: center;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+@media (max-width: 576px) {
+  .pronoun-toast {
+    border-radius: var(--radius-md);
+    bottom: 16px;
+    font-size: 0.85rem;
+    padding: 10px 16px;
+  }
+}
+
+.toast-fade-enter-active,
+.toast-fade-leave-active {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.toast-fade-enter-from,
+.toast-fade-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 12px);
 }
 </style>

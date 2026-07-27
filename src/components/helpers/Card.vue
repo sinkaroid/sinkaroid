@@ -210,17 +210,34 @@ const showModal = () => {
 
 .card-tags-scroll {
   display: flex;
+  flex-wrap: nowrap;
   gap: 6px;
-  overflow-x: auto;
+  overflow-x: auto !important;
+  overflow-y: hidden;
   white-space: nowrap;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
   margin-bottom: var(--space-1);
-  scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+}
+
+.card-tags-scroll .badge {
+  flex: 0 0 auto;
 }
 
 .card-tags-scroll::-webkit-scrollbar {
-  display: none;
+  height: 4px !important;
+  background: transparent !important;
+  -webkit-appearance: none !important;
+  display: block !important;
+}
+.card-tags-scroll::-webkit-scrollbar-thumb {
+  background: var(--accent) !important;
+  border-radius: 4px !important;
+}
+.card-tags-scroll::-webkit-scrollbar-track {
+  background: transparent !important;
 }
 
 .card-description {

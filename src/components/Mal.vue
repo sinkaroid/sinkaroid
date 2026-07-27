@@ -1,11 +1,15 @@
 <template>
   <section class="section mal-section" id="activity">
     <div class="section-header">
-      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Activity</h2>
+      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">No Code Activity</h2>
       <p class="section-subtitle">
-        I track my anime and manga journey. 
-        Synchronized with <a href="https://myanimelist.net/profile/sinkaroid" target="_blank" class="clickable">@sinkaroid</a> using Jikan API.
-      </p>
+  Away from the workshop, I answer a different calling—exploring mythical worlds in
+  <a href="https://steamcommunity.com/id/sinkaroid/" target="_blank" rel="noopener noreferrer">gaming</a>,
+  following legendary heroes through
+  <a href="https://myanimelist.net/profile/sinkaroid" target="_blank" rel="noopener noreferrer">anime</a>,
+  and collecting forgotten tales from
+  <a href="https://myanimelist.net/profile/sinkaroid" target="_blank" rel="noopener noreferrer">manga</a>.
+</p>
     </div>
 
     <!-- Capsule Tabs Switcher (Desktop) -->

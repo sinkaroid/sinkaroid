@@ -1,7 +1,7 @@
 import dataJson from "./data_oss.json" with { type: "json" };
 import dataSasJson from "./data_oss_sas.json" with { type: "json" };
-import flatPicture from "../src/assets/sinkaroid.png";
-import shadowPicture from "../src/assets/darin.png";
+import flatPicture from "../src/assets/darin.png";
+import shadowPicture from "../src/assets/sinkaroid.png";
 
 // Visual design artwork
 import imgLivium from "../src/assets/designs/livium.jpg";
@@ -59,7 +59,7 @@ const info = {
     },
     description: "23yr old wandering code rogue and open-sourcerer",
     sinopsis: "I have no degree alias never go to formal college education, so keep in mind that if you want to hire me, I might not remember the complexity of interpolation search algorithm, but I'm pretty good and patient enough in searching and experimenting for it! All I learn this way with patience 💗",
-    sinopsis_by_sinkaroid: "I never trained beneath the banners of a grand academy, so don't expect me to recite every ancient algorithm from memory. Hand me the grimoire instead—I have the patience to study, experiment, and forge the right spell until the quest is complete. Every lesson in my tome was earned through curiosity, unwavering perseverance, and the courage to learn from every failed spell.",
+    sinopsis_by_sinkaroid: "I never trained beneath the banners of a grand academy, so don't expect me to recite every ancient algorithm from memory. Hand me the grimoire instead—I have the patience to study, experiment, and forge the right spells. Every lesson in my tome was earned through curiosity, unwavering perseverance, and the courage to learn from every failed spells.",
     links: {
         linkedin: "https://www.linkedin.com/in/sinkaroid/",
         github: "https://github.com/sinkaroid",

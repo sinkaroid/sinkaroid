@@ -197,6 +197,7 @@ const open = (platform) => {
   height: 100%;
   object-fit: cover;
   transition: opacity 0.3s ease;
+ 
 }
 
 @keyframes float {
