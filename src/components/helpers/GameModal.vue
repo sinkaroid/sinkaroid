@@ -1,47 +1,75 @@
 <template>
   <Teleport to="body">
     <Transition name="modal-fade">
-      <div v-if="showModal" class="modal-mask" @click.self="close">
+      <div
+        v-if="showModal"
+        class="modal-mask"
+        @click.self="close"
+      >
         <div class="modal-wrapper">
           <div class="modal-container bento-card">
-            <button class="close-btn clickable" @click="close" aria-label="Close modal">
-              <i class="fas fa-times"></i>
+            <button
+              class="close-btn clickable"
+              aria-label="Close modal"
+              @click="close"
+            >
+              <i class="fas fa-times" />
             </button>
             <!-- Header: capsule image as background banner -->
-            <div class="game-banner" :style="bannerStyle">
+            <div
+              class="game-banner"
+              :style="bannerStyle"
+            >
               <div class="game-banner-overlay">
                 <h3 class="game-title">
-                  <a v-if="storeUrl" :href="storeUrl" target="_blank" class="title-link clickable">
-                    {{ portfolio.name }} <i class="fas fa-external-link-alt title-icon"></i>
+                  <a
+                    v-if="storeUrl"
+                    :href="storeUrl"
+                    target="_blank"
+                    class="title-link clickable"
+                  >
+                    {{ portfolio.name }} <i class="fas fa-external-link-alt title-icon" />
                   </a>
                   <span v-else>{{ portfolio.name }}</span>
                 </h3>
                 <div class="game-meta">
                   <span class="meta-pill">
-                    <i class="far fa-clock"></i> Last played {{ portfolio.timeago }}
+                    <i class="far fa-clock" /> Last played {{ portfolio.timeago }}
                   </span>
-                  <span v-if="hoursPlayed" class="meta-pill">
-                    <i class="fas fa-hourglass-half"></i> {{ hoursPlayed }}h lifetime
+                  <span
+                    v-if="hoursPlayed"
+                    class="meta-pill"
+                  >
+                    <i class="fas fa-hourglass-half" /> {{ hoursPlayed }}h lifetime
                   </span>
-                  <span v-if="playtime2weeksLabel" class="meta-pill highlight">
-                    <i class="fas fa-fire"></i> {{ playtime2weeksLabel }} (2 weeks)
+                  <span
+                    v-if="playtime2weeksLabel"
+                    class="meta-pill highlight"
+                  >
+                    <i class="fas fa-fire" /> {{ playtime2weeksLabel }} (2 weeks)
                   </span>
                 </div>
               </div>
             </div>
 
-            <hr class="modal-divider" />
-             <div v-if="portfolio.tags && portfolio.tags.length" class="genre-list">
-                <span
-                  v-for="t in portfolio.tags.slice(0, 5)"
-                  :key="t"
-                  class="genre-tag"
-                >{{ t }}</span>
-              </div>
+            <hr class="modal-divider">
+            <div
+              v-if="portfolio.tags && portfolio.tags.length"
+              class="genre-list"
+            >
+              <span
+                v-for="t in portfolio.tags.slice(0, 5)"
+                :key="t"
+                class="genre-tag"
+              >{{ t }}</span>
+            </div>
 
             <!-- Body -->
             <div class="modal-body">
-              <p v-if="displayDescription" class="long-desc">
+              <p
+                v-if="displayDescription"
+                class="long-desc"
+              >
                 {{ displayDescription }}
               </p>
 
@@ -54,7 +82,7 @@
                   target="_blank"
                   class="btn-primary clickable"
                 >
-                  <i class="fas fa-external-link-alt"></i> Open in Steam
+                  <i class="fas fa-external-link-alt" /> Open in Steam
                 </a>
               </div>
             </div>

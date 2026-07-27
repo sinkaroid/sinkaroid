@@ -5,6 +5,12 @@ import { fileURLToPath, URL } from "node:url";
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, process.cwd(), "");
     return {
+        root: "src",
+        publicDir: "../public",
+        build: {
+            outDir: "../dist",
+            emptyOutDir: true
+        },
         plugins: [vue()],
         resolve: {
             alias: {

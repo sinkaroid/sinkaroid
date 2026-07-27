@@ -1,15 +1,35 @@
 <template>
-  <section class="section mal-section" id="activity">
+  <section
+    id="activity"
+    class="section mal-section"
+  >
     <div class="section-header">
-      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">No Code Activity</h2>
+      <h2
+        class="section-title"
+        :style="{ backgroundImage: titleGradient }"
+      >
+        No Code Activity
+      </h2>
       <p class="section-subtitle">
-  Away from the workshop, I answer a different calling—exploring mythical worlds in
-  <a href="https://steamcommunity.com/id/sinkaroid/" target="_blank" rel="noopener noreferrer">gaming</a>,
-  following legendary heroes through
-  <a href="https://myanimelist.net/profile/sinkaroid" target="_blank" rel="noopener noreferrer">anime</a>,
-  and collecting forgotten tales from
-  <a href="https://myanimelist.net/profile/sinkaroid" target="_blank" rel="noopener noreferrer">manga</a>.
-</p>
+        Away from the workshop, I answer a different calling—exploring mythical worlds in
+        <a
+          href="https://steamcommunity.com/id/sinkaroid/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >gaming</a>,
+        following legendary heroes through
+        <a
+          href="https://myanimelist.net/profile/sinkaroid"
+          target="_blank"
+          rel="noopener noreferrer"
+        >anime</a>,
+        and collecting forgotten tales from
+        <a
+          href="https://myanimelist.net/profile/sinkaroid"
+          target="_blank"
+          rel="noopener noreferrer"
+        >manga</a>.
+      </p>
     </div>
 
     <!-- Capsule Tabs Switcher (Desktop) -->
@@ -20,21 +40,21 @@
           :class="{ 'active': activeTab === 'game' }"
           @click="activeTab = 'game'"
         >
-          <i class="fas fa-gamepad"></i> Playing
+          <i class="fas fa-gamepad" /> Playing
         </button>
         <button
           class="tab-btn clickable"
           :class="{ 'active': activeTab === 'anime' }"
           @click="activeTab = 'anime'"
         >
-          <i class="fas fa-tv"></i> Watching
+          <i class="fas fa-tv" /> Watching
         </button>
         <button
           class="tab-btn clickable"
           :class="{ 'active': activeTab === 'manga' }"
           @click="activeTab = 'manga'"
         >
-          <i class="fas fa-book-open"></i> Reading
+          <i class="fas fa-book-open" /> Reading
         </button>
       </div>
     </div>
@@ -43,24 +63,36 @@
     <div class="tabs-container tabs-mobile">
       <button
         class="tabs-trigger clickable"
-        @click="showActionSheet = true"
         aria-label="Open tab selector"
+        @click="showActionSheet = true"
       >
-        <i :class="currentTab.icon"></i>
+        <i :class="currentTab.icon" />
         <span>{{ currentTab.label }}</span>
-        <i class="fas fa-chevron-down trigger-chevron"></i>
+        <i class="fas fa-chevron-down trigger-chevron" />
       </button>
     </div>
 
     <!-- Action Sheet (mobile alternative) -->
     <Teleport to="body">
       <Transition name="action-sheet">
-        <div v-if="showActionSheet" class="action-sheet-overlay" @click.self="showActionSheet = false">
-          <div class="action-sheet" role="dialog" aria-modal="true">
+        <div
+          v-if="showActionSheet"
+          class="action-sheet-overlay"
+          @click.self="showActionSheet = false"
+        >
+          <div
+            class="action-sheet"
+            role="dialog"
+            aria-modal="true"
+          >
             <div class="action-sheet-header">
               <span class="action-sheet-title">Select Category</span>
-              <button class="action-sheet-close clickable" @click="showActionSheet = false" aria-label="Close">
-                <i class="fas fa-times"></i>
+              <button
+                class="action-sheet-close clickable"
+                aria-label="Close"
+                @click="showActionSheet = false"
+              >
+                <i class="fas fa-times" />
               </button>
             </div>
             <ul class="action-sheet-list">
@@ -71,12 +103,18 @@
                 :class="{ 'is-active': activeTab === tab.id }"
                 @click="selectTab(tab.id)"
               >
-                <i :class="tab.icon"></i>
+                <i :class="tab.icon" />
                 <span>{{ tab.label }}</span>
-                <i v-if="activeTab === tab.id" class="fas fa-check check-mark"></i>
+                <i
+                  v-if="activeTab === tab.id"
+                  class="fas fa-check check-mark"
+                />
               </li>
             </ul>
-            <button class="action-sheet-cancel clickable" @click="showActionSheet = false">
+            <button
+              class="action-sheet-cancel clickable"
+              @click="showActionSheet = false"
+            >
               Cancel
             </button>
           </div>
@@ -85,69 +123,96 @@
     </Teleport>
 
     <!-- Tab 0: Last Played (Steam) -->
-    <div v-if="activeTab === 'game'" class="tab-content">
+    <div
+      v-if="activeTab === 'game'"
+      class="tab-content"
+    >
       <div class="row">
         <div
-          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           v-for="(item, idx) in displayedGame"
           :key="item.appID"
+          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           :style="{ animationDelay: `${idx * 0.1}s` }"
         >
           <Card
             :portfolio="item"
+            :night-mode="nightMode"
             @show="showModalFn"
-            :nightMode="nightMode"
           />
         </div>
       </div>
-      <div class="text-center py-4" v-if="hasMoreGame">
-        <button class="btn-secondary clickable btn-enter" @click="showMore">
+      <div
+        v-if="hasMoreGame"
+        class="text-center py-4"
+      >
+        <button
+          class="btn-secondary clickable btn-enter"
+          @click="showMore"
+        >
           Load More
         </button>
       </div>
     </div>
 
     <!-- Tab 1: Anime List -->
-    <div v-if="activeTab === 'anime'" class="tab-content">
+    <div
+      v-if="activeTab === 'anime'"
+      class="tab-content"
+    >
       <div class="row">
         <div
-          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           v-for="(item, idx) in displayedAnime"
           :key="item.title"
+          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           :style="{ animationDelay: `${idx * 0.1}s` }"
         >
           <Card
             :portfolio="item"
+            :night-mode="nightMode"
             @show="showModalFn"
-            :nightMode="nightMode"
           />
         </div>
       </div>
-      <div class="text-center py-4" v-if="hasMoreAnime">
-        <button class="btn-secondary clickable btn-enter" @click="showMore">
+      <div
+        v-if="hasMoreAnime"
+        class="text-center py-4"
+      >
+        <button
+          class="btn-secondary clickable btn-enter"
+          @click="showMore"
+        >
           Load More
         </button>
       </div>
     </div>
 
     <!-- Tab 2: Manga List -->
-    <div v-if="activeTab === 'manga'" class="tab-content">
+    <div
+      v-if="activeTab === 'manga'"
+      class="tab-content"
+    >
       <div class="row">
         <div
-          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           v-for="(item, idx) in displayedManga"
           :key="item.title"
+          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           :style="{ animationDelay: `${idx * 0.1}s` }"
         >
           <Card
             :portfolio="item"
+            :night-mode="nightMode"
             @show="showModalFn"
-            :nightMode="nightMode"
           />
         </div>
       </div>
-      <div class="text-center py-4" v-if="hasMoreManga">
-        <button class="btn-secondary clickable btn-enter" @click="showMore">
+      <div
+        v-if="hasMoreManga"
+        class="text-center py-4"
+      >
+        <button
+          class="btn-secondary clickable btn-enter"
+          @click="showMore"
+        >
           Load More
         </button>
       </div>
@@ -156,16 +221,16 @@
     <!-- Details Modal: Game uses GameModal, Anime/Manga use MalModal -->
     <GameModal
       v-if="activeTab === 'game' && showModal"
-      :showModal="showModal"
+      :show-modal="showModal"
       :portfolio="modal_info"
-      :nightMode="nightMode"
+      :night-mode="nightMode"
       @close="closeModal"
     />
     <MalModal
       v-else-if="showModal"
-      :showModal="showModal"
+      :show-modal="showModal"
       :portfolio="modal_info"
-      :nightMode="nightMode"
+      :night-mode="nightMode"
       @close="closeModal"
     />
   </section>
@@ -179,9 +244,9 @@ import GameModal from "./helpers/GameModal.vue";
 import { randomGradient } from "../composables/useRandomGradient";
 
 // Import locally generated metadata
-import animeData from "../../mock/data_anime.json";
-import mangaData from "../../mock/data_manga.json";
-import gameData from "../../mock/data_game.json";
+import animeData from "../../ci/data_anime.json";
+import mangaData from "../../ci/data_manga.json";
+import gameData from "../../ci/data_game.json";
 
 const titleGradient = ref(randomGradient());
 

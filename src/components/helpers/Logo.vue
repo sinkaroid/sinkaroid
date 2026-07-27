@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import info from "../../../mock/mockRepository";
+import info from "../../../ci/mockRepository";
 
 defineProps({
   nightMode: {

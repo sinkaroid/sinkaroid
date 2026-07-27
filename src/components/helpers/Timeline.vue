@@ -1,6 +1,8 @@
 <template>
   <div class="timeline-container">
-    <h3 class="timeline-header">{{ data.title }}</h3>
+    <h3 class="timeline-header">
+      {{ data.title }}
+    </h3>
     
     <div class="timeline-list">
       <div 
@@ -11,15 +13,17 @@
       >
         <!-- Timeline track line indicator -->
         <div class="timeline-marker">
-          <div class="marker-dot"></div>
-          <div class="marker-line"></div>
+          <div class="marker-dot" />
+          <div class="marker-line" />
         </div>
         
         <!-- Timeline Bento Glass Card -->
         <div class="timeline-card bento-card">
           <div class="card-header">
             <div>
-              <h4 class="card-title">{{ item.name }}</h4>
+              <h4 class="card-title">
+                {{ item.name }}
+              </h4>
               <span class="card-location">{{ item.place }}</span>
             </div>
             
@@ -30,16 +34,18 @@
               class="learn-more-link"
               aria-label="Learn more about this experience"
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i class="fas fa-external-link-alt" />
             </a>
           </div>
           
           <div class="card-sub-header">
             <span class="card-degree">{{ item.degree || item.position }}</span>
-            <span class="card-date"><i class="far fa-calendar-alt"></i> {{ item.date }}</span>
+            <span class="card-date"><i class="far fa-calendar-alt" /> {{ item.date }}</span>
           </div>
 
-          <p class="card-description">{{ item.description }}</p>
+          <p class="card-description">
+            {{ item.description }}
+          </p>
           
           <div class="card-tags">
             <span 

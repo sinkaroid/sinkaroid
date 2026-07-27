@@ -1,7 +1,15 @@
 <template>
-  <section class="section portfolio-section" id="portfolio">
+  <section
+    id="portfolio"
+    class="section portfolio-section"
+  >
     <div class="section-header">
-      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Artifacts & Chronicles</h2>
+      <h2
+        class="section-title"
+        :style="{ backgroundImage: titleGradient }"
+      >
+        Artifacts & Chronicles
+      </h2>
       <p class="section-subtitle">
         Relics forged through countless quests, each carrying a story of its own. {{ all_info.length }} OSS, {{ sas_info.length }} SaS, {{ standalone_info.length }} standalone, & {{ design_info.length }} illustrations.
       </p>
@@ -17,7 +25,7 @@
           :class="{ 'active': activeTab === tab.id }"
           @click="activeTab = tab.id"
         >
-          <i :class="tab.icon"></i> {{ tab.label }}
+          <i :class="tab.icon" /> {{ tab.label }}
         </button>
       </div>
     </div>
@@ -26,24 +34,36 @@
     <div class="tabs-container tabs-mobile">
       <button
         class="tabs-trigger clickable"
-        @click="showActionSheet = true"
         aria-label="Open tab selector"
+        @click="showActionSheet = true"
       >
-        <i :class="currentTab.icon"></i>
+        <i :class="currentTab.icon" />
         <span>{{ currentTab.label }}</span>
-        <i class="fas fa-chevron-down trigger-chevron"></i>
+        <i class="fas fa-chevron-down trigger-chevron" />
       </button>
     </div>
 
     <!-- Action Sheet (mobile alternative) -->
     <Teleport to="body">
       <Transition name="action-sheet">
-        <div v-if="showActionSheet" class="action-sheet-overlay" @click.self="showActionSheet = false">
-          <div class="action-sheet" role="dialog" aria-modal="true">
+        <div
+          v-if="showActionSheet"
+          class="action-sheet-overlay"
+          @click.self="showActionSheet = false"
+        >
+          <div
+            class="action-sheet"
+            role="dialog"
+            aria-modal="true"
+          >
             <div class="action-sheet-header">
               <span class="action-sheet-title">Select Category</span>
-              <button class="action-sheet-close clickable" @click="showActionSheet = false" aria-label="Close">
-                <i class="fas fa-times"></i>
+              <button
+                class="action-sheet-close clickable"
+                aria-label="Close"
+                @click="showActionSheet = false"
+              >
+                <i class="fas fa-times" />
               </button>
             </div>
             <ul class="action-sheet-list">
@@ -54,12 +74,18 @@
                 :class="{ 'is-active': activeTab === tab.id }"
                 @click="selectTab(tab.id)"
               >
-                <i :class="tab.icon"></i>
+                <i :class="tab.icon" />
                 <span>{{ tab.label }}</span>
-                <i v-if="activeTab === tab.id" class="fas fa-check check-mark"></i>
+                <i
+                  v-if="activeTab === tab.id"
+                  class="fas fa-check check-mark"
+                />
               </li>
             </ul>
-            <button class="action-sheet-cancel clickable" @click="showActionSheet = false">
+            <button
+              class="action-sheet-cancel clickable"
+              @click="showActionSheet = false"
+            >
               Cancel
             </button>
           </div>
@@ -68,30 +94,42 @@
     </Teleport>
 
     <!-- Tab 1: Opensource Projects -->
-    <div v-if="activeTab === 'opensource'" class="tab-content">
+    <div
+      v-if="activeTab === 'opensource'"
+      class="tab-content"
+    >
       <div class="row">
         <div
-          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           v-for="(portfolio, idx) in displayedOpenSource"
           :key="portfolio.name"
+          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           :style="{ animationDelay: `${idx * 0.1}s` }"
         >
           <Card
             :portfolio="portfolio"
+            :night-mode="nightMode"
             @show="showModalFn"
-            :nightMode="nightMode"
           />
         </div>
       </div>
-      <div class="text-center py-4" v-if="hasMoreOpenSource">
-        <button class="btn-secondary clickable btn-enter" @click="showMore">
+      <div
+        v-if="hasMoreOpenSource"
+        class="text-center py-4"
+      >
+        <button
+          class="btn-secondary clickable btn-enter"
+          @click="showMore"
+        >
           Load More
         </button>
       </div>
     </div>
 
     <!-- Tab 2: Standalone Projects -->
-    <div v-if="activeTab === 'standalone'" class="tab-content">
+    <div
+      v-if="activeTab === 'standalone'"
+      class="tab-content"
+    >
       <div class="row">
         <div
           v-for="(project, idx) in standalone_info"
@@ -101,22 +139,27 @@
         >
           <!-- Bento-style Project Glass Card -->
           <div class="bento-card project-slider-card">
-            <div class="slider-image-preview" @click="showDesignModalFn(project)">
+            <div
+              class="slider-image-preview"
+              @click="showDesignModalFn(project)"
+            >
               <img 
                 :src="project.pictures && project.pictures[0] ? project.pictures[0].img : '/public/icon.png'" 
                 class="preview-img" 
                 alt="Project preview" 
-              />
+              >
               <div class="slider-overlay">
-                <span><i class="fas fa-search-plus"></i> View Details</span>
+                <span><i class="fas fa-search-plus" /> View Details</span>
               </div>
             </div>
             
             <div class="project-details">
               <div class="details-text">
-                <h4 class="project-title">{{ project.title }}</h4>
+                <h4 class="project-title">
+                  {{ project.title }}
+                </h4>
                 <div class="project-meta">
-                  <span class="project-date"><i class="far fa-calendar"></i> {{ project.date }}</span>
+                  <span class="project-date"><i class="far fa-calendar" /> {{ project.date }}</span>
                 </div>
               </div>
 
@@ -143,25 +186,31 @@
     </div>
 
     <!-- Tab 3: SaS (closed source) -->
-    <div v-if="activeTab === 'sas'" class="tab-content">
+    <div
+      v-if="activeTab === 'sas'"
+      class="tab-content"
+    >
       <div class="row">
         <div
-          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           v-for="(repo, idx) in sas_info"
           :key="repo.name"
+          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
           :style="{ animationDelay: `${idx * 0.1}s` }"
         >
           <Card
             :portfolio="repo"
+            :night-mode="nightMode"
             @show="showModalFn"
-            :nightMode="nightMode"
           />
         </div>
       </div>
     </div>
 
     <!-- Tab 4: Illustrations -->
-    <div v-if="activeTab === 'illustrations'" class="tab-content">
+    <div
+      v-if="activeTab === 'illustrations'"
+      class="tab-content"
+    >
       <div class="row">
         <div
           v-for="(artwork, idx) in design_info"
@@ -171,22 +220,27 @@
         >
           <!-- Bento-style Artwork Glass Card -->
           <div class="bento-card project-slider-card">
-            <div class="slider-image-preview" @click="showDesignModalFn(artwork)">
+            <div
+              class="slider-image-preview"
+              @click="showDesignModalFn(artwork)"
+            >
               <img 
                 :src="artwork.pictures && artwork.pictures[0] ? artwork.pictures[0].img : '/public/icon.png'" 
                 class="preview-img" 
                 alt="Artwork preview" 
-              />
+              >
               <div class="slider-overlay">
-                <span><i class="fas fa-search-plus"></i> View Artwork</span>
+                <span><i class="fas fa-search-plus" /> View Artwork</span>
               </div>
             </div>
             
             <div class="project-details">
               <div class="details-text">
-                <h4 class="project-title">{{ artwork.title }}</h4>
+                <h4 class="project-title">
+                  {{ artwork.title }}
+                </h4>
                 <div class="project-meta">
-                  <span class="project-date"><i class="far fa-calendar"></i> {{ artwork.date }}</span>
+                  <span class="project-date"><i class="far fa-calendar" /> {{ artwork.date }}</span>
                 </div>
               </div>
 
@@ -215,17 +269,17 @@
     <!-- Modal components -->
     <Modal
       v-if="showModal"
-      :showModal="showModal"
+      :show-modal="showModal"
       :portfolio="modal_info"
-      :nightMode="nightMode"
+      :night-mode="nightMode"
       @close="closeModal"
     />
 
     <DesignModal
       v-if="showDesignModal"
-      :showModal="showDesignModal"
+      :show-modal="showDesignModal"
       :portfolio="design_modal_info"
-      :nightMode="nightMode"
+      :night-mode="nightMode"
       @close="closeModal"
     />
   </section>
@@ -236,7 +290,7 @@ import { ref, computed, watch } from "vue";
 import Card from "./helpers/Card.vue";
 import Modal from "./helpers/Modal.vue";
 import DesignModal from "./helpers/DesignModal.vue";
-import info from "../../mock/mockRepository";
+import info from "../../ci/mockRepository";
 import { randomGradient } from "../composables/useRandomGradient";
 
 const titleGradient = ref(randomGradient());

@@ -1,22 +1,35 @@
 <template>
   <Teleport to="body">
     <Transition name="modal-fade">
-      <div v-if="showModal" class="modal-mask" @click.self="close">
+      <div
+        v-if="showModal"
+        class="modal-mask"
+        @click.self="close"
+      >
         <div class="modal-wrapper">
           <div class="modal-container bento-card">
             <!-- Header -->
             <div class="modal-header">
               <h3 class="modal-title">
-                <a v-if="visitUrl" :href="visitUrl" target="_blank" class="title-link clickable">
-                  {{ portfolio.title }} <i class="fas fa-external-link-alt title-icon"></i>
+                <a
+                  v-if="visitUrl"
+                  :href="visitUrl"
+                  target="_blank"
+                  class="title-link clickable"
+                >
+                  {{ portfolio.title }} <i class="fas fa-external-link-alt title-icon" />
                 </a>
                 <span v-else>{{ portfolio.title }}</span>
               </h3>
-              <button class="close-btn clickable" @click="close" aria-label="Close modal">
-                <i class="fas fa-times"></i>
+              <button
+                class="close-btn clickable"
+                aria-label="Close modal"
+                @click="close"
+              >
+                <i class="fas fa-times" />
               </button>
             </div>
-            <hr class="modal-divider" />
+            <hr class="modal-divider">
 
             <!-- Body: newspaper style -->
             <div class="modal-body">
@@ -24,12 +37,19 @@
                 <span class="pub-date">Sinkaroid {{ portfolio.pubDate }} — {{ portfolio.timeago }}</span>
               </div>
               <div class="tag-line">
-                <span class="badge" v-for="tech in portfolio.tag" :key="tech">{{ tech }}</span>
-                <mark class="score"><i class="fa fa-star"></i>{{ portfolio.score }}</mark>
+                <span
+                  v-for="tech in portfolio.tag"
+                  :key="tech"
+                  class="badge"
+                >{{ tech }}</span>
+                <mark class="score"><i class="fa fa-star" />{{ portfolio.score }}</mark>
               </div>
 
               <div class="content newspaper">
-                <img :src="portfolio.image" class="foto" />
+                <img
+                  :src="portfolio.image"
+                  class="foto"
+                >
                 {{ portfolio.synopsis }}
               </div>
 

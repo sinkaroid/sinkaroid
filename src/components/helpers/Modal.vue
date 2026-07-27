@@ -1,7 +1,11 @@
 <template>
   <Teleport to="body">
     <Transition name="modal-fade">
-      <div v-if="showModal" class="modal-mask" @click.self="close">
+      <div
+        v-if="showModal"
+        class="modal-mask"
+        @click.self="close"
+      >
         <div class="modal-wrapper">
           <div class="modal-container bento-card">
             <!-- Modal Header -->
@@ -13,52 +17,53 @@
                   target="_blank" 
                   class="title-link clickable"
                 >
-                  {{ portfolio.name || portfolio.title }} <i class="fas fa-external-link-alt title-icon"></i>
+                  {{ portfolio.name || portfolio.title }} <i class="fas fa-external-link-alt title-icon" />
                 </a>
                 <span v-else>{{ portfolio.name || portfolio.title }}</span>
               </h3>
-              <button class="close-btn clickable" @click="close" aria-label="Close modal">
-                <i class="fas fa-times"></i>
+              <button
+                class="close-btn clickable"
+                aria-label="Close modal"
+                @click="close"
+              >
+                <i class="fas fa-times" />
               </button>
             </div>
             
-            <hr class="modal-divider" />
+            <hr class="modal-divider">
 
             <!-- Modal Body -->
             <div class="modal-body">
-              <!-- Meta/Subheader -->
+              <!-- Meta/Subheader (date only) -->
               <div class="modal-meta">
-                <span v-if="portfolio.category || portfolio.score" class="meta-item">
-                  <i class="fas" :class="portfolio.score ? 'fa-star text-star' : 'fa-folder'"></i>
-                  {{ portfolio.score ? `Rating: ${portfolio.score}/10` : portfolio.category }}
-                </span>
-                <span v-if="portfolio.date || portfolio.timeago" class="meta-item">
-                  <i class="far fa-calendar-alt"></i> {{ portfolio.date || portfolio.timeago }}
+                <span
+                  v-if="portfolio.date || portfolio.timeago"
+                  class="meta-item"
+                >
+                  <i class="far fa-calendar-alt" /> {{ portfolio.date || portfolio.timeago }}
                 </span>
               </div>
 
-              <!-- Tags / Technologies -->
-              <div class="modal-tags">
-                <span 
-                  v-for="tech in tags" 
-                  :key="tech" 
-                  class="badge"
-                >
-                  {{ tech }}
-                </span>
-              </div>
+              <!-- Tags / Technologies removed -->
 
               <!-- Description -->
-              <div class="modal-description" v-html="portfolio.description || portfolio.synopsis"></div>
+              <div class="modal-description">
+                {{ portfolio.description || portfolio.synopsis }}
+              </div>
 
               <!-- Image Gallery -->
-              <div v-if="portfolio.pictures && portfolio.pictures.length" class="modal-gallery-section">
-                <h5 class="gallery-title">Gallery & Media</h5>
+              <div
+                v-if="portfolio.pictures && portfolio.pictures.length"
+                class="modal-gallery-section"
+              >
+                <h5 class="gallery-title">
+                  Gallery & Media
+                </h5>
                 <Gallery :images="portfolio.pictures" />
               </div>
             </div>
 
-            <hr class="modal-divider" />
+            <hr class="modal-divider">
 
             <!-- Modal Footer -->
             <div class="modal-footer">
@@ -68,7 +73,7 @@
                 target="_blank" 
                 class="btn-primary clickable"
               >
-                <i class="fab fa-github"></i> Repository
+                <i class="fab fa-github" /> Repository
               </a>
               <a 
                 v-if="portfolio.visit && portfolio.visit !== visitUrl" 
@@ -76,9 +81,12 @@
                 target="_blank" 
                 class="btn-primary clickable"
               >
-                <i class="fas fa-globe"></i> Live Site
+                <i class="fas fa-globe" /> Live Site
               </a>
-              <button class="btn-secondary clickable" @click="close">
+              <button
+                class="btn-secondary clickable"
+                @click="close"
+              >
                 Close
               </button>
             </div>
@@ -109,10 +117,6 @@ const props = defineProps({
 });
 
 const emit = defineEmits(["close"]);
-
-const tags = computed(() => {
-  return props.portfolio.technologies || props.portfolio.tag || [];
-});
 
 const visitUrl = computed(() => {
   return props.portfolio.visit || props.portfolio.link || null;

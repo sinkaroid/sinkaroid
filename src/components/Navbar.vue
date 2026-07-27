@@ -2,25 +2,32 @@
   <nav class="navbar-glass">
     <div class="navbar-container">
       <!-- Logo branding -->
-      <a class="navbar-brand clickable" @click.prevent="$emit('scroll', 'home')" href="/">
-        <Logo :nightMode="nightMode" />
+      <a
+        class="navbar-brand clickable"
+        href="/"
+        @click.prevent="$emit('scroll', 'home')"
+      >
+        <Logo :night-mode="nightMode" />
       </a>
 
       <!-- Mobile Hamburger toggle button -->
       <button 
         class="navbar-toggle clickable" 
-        @click="toggleMenu" 
-        :class="{ 'is-active': isMenuOpen }"
+        :class="{ 'is-active': isMenuOpen }" 
         aria-label="Toggle navigation menu"
         aria-expanded="isMenuOpen"
+        @click="toggleMenu"
       >
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar" />
+        <span class="hamburger-bar" />
+        <span class="hamburger-bar" />
       </button>
 
       <!-- Navigation links (Collapse) -->
-      <div class="navbar-menu" :class="{ 'is-open': isMenuOpen }">
+      <div
+        class="navbar-menu"
+        :class="{ 'is-open': isMenuOpen }"
+      >
         <ul class="navbar-links">
           <li class="nav-item">
             <a 
@@ -28,7 +35,7 @@
               href="/about" 
               @click.prevent="navigate('about')"
             >
-              <i class="fa fa-user-circle"></i> about
+              <i class="fa fa-user-circle" /> about
             </a>
           </li>
           <li class="nav-item">
@@ -37,7 +44,7 @@
               href="/skills" 
               @click.prevent="navigate('skills')"
             >
-              <i class="fa fa-bolt"></i> skills
+              <i class="fa fa-bolt" /> skills
             </a>
           </li>
           <li class="nav-item">
@@ -46,7 +53,7 @@
               href="/portfolio"
               @click.prevent="navigate('portfolio')"
             >
-              <i class="fa fa-rocket"></i> portfolio
+              <i class="fa fa-rocket" /> portfolio
             </a>
           </li>
           <li class="nav-item">
@@ -55,7 +62,7 @@
               href="/activity"
               @click.prevent="navigate('activity')"
             >
-              <i class="fa fa-chart-line"></i> activity
+              <i class="fa fa-chart-line" /> activity
             </a>
           </li>
           <li class="nav-item">
@@ -64,17 +71,17 @@
               href="/contact"
               @click.prevent="navigate('contact')"
             >
-              <i class="fa fa-envelope"></i> contact
+              <i class="fa fa-envelope" /> contact
             </a>
           </li>
           <!-- Theme switch button -->
           <li class="nav-item theme-switch-item">
             <button 
               class="theme-toggle clickable" 
-              @click="switchMode"
               aria-label="Switch visual theme"
+              @click="switchMode"
             >
-              <i :class="nightMode ? 'fas fa-sun' : 'fas fa-moon'"></i>
+              <i :class="nightMode ? 'fas fa-sun' : 'fas fa-moon'" />
             </button>
           </li>
         </ul>

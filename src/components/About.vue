@@ -1,7 +1,15 @@
 <template>
-  <section class="section about-section" id="about">
+  <section
+    id="about"
+    class="section about-section"
+  >
     <div class="section-header">
-      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Sigil & Codename</h2>
+      <h2
+        class="section-title"
+        :style="{ backgroundImage: titleGradient }"
+      >
+        Sigil & Codename
+      </h2>
       <p class="section-subtitle">
         Every rune tells a story. The name I bear and the craft I wield. Where identity meets craftsmanship, and every quest leaves its mark.
       </p>
@@ -9,39 +17,78 @@
 
     <!-- Bento layout for Bio Tags & Timelines -->
     <div class="bento-grid">
-      
       <!-- Profile tags / Pronouns Card -->
       <div class="bento-card col-span-12 pronouns-card">
         <div class="pronouns-list">
-          <div class="pronoun-tag green-tag clickable" @click="showToast('🍀 TRUE SELF: ~@Indrawan I.')">
-            <img src="/assets/icon/Metamorphosis_icon.webp" alt="" class="emoji-icon" />
+          <div
+            class="pronoun-tag green-tag clickable"
+            @click="showToast('🍀 TRUE SELF: ~@Indrawan I.')"
+          >
+            <img
+              src="/assets/icon/Metamorphosis_icon.webp"
+              alt=""
+              class="emoji-icon"
+            >
             <div class="pronoun-info">
               <span class="label">TRUE SELF</span>
-              <span class="value" style="font-weight: 900;">@Indrawan I.</span>
+              <span
+                class="value"
+                style="font-weight: 900;"
+              >@Indrawan I.</span>
             </div>
           </div>
 
-          <div class="pronoun-tag crimson-tag clickable" @click="showToast('🧠 CONJURE IMAGE (BRAIN Focused): The cognitive realm where ideas awaken, problems dissolve, and solutions are forged. Proficient and Pragmatic ~@sinkaroid')">
-            <img src="/assets/icon/Conjure_Image_icon.webp" alt="" class="emoji-icon" />
+          <div
+            class="pronoun-tag crimson-tag clickable"
+            @click="showToast('🧠 CONJURE IMAGE (BRAIN Focused): The cognitive realm where ideas awaken, problems dissolve, and solutions are forged. Proficient and Pragmatic ~@sinkaroid')"
+          >
+            <img
+              src="/assets/icon/Conjure_Image_icon.webp"
+              alt=""
+              class="emoji-icon"
+            >
             <div class="pronoun-info">
               <span class="label">CONJURE IMAGE</span>
-              <span class="value" style="font-weight: 900;">@sinkaroid</span>
+              <span
+                class="value"
+                style="font-weight: 900;"
+              >@sinkaroid</span>
             </div>
           </div>
 
-          <div class="pronoun-tag purple-tag clickable" @click="showToast('❤️ REFLECTION (HEART Focused): The sanctuary where empathy, intuition, and conscience guide the choices I make. Maybe fool and stupid ~@darin')">
-            <img src="/assets/icon/Reflection_icon.webp" alt="" class="emoji-icon" />
+          <div
+            class="pronoun-tag purple-tag clickable"
+            @click="showToast('❤️ REFLECTION (HEART Focused): The sanctuary where empathy, intuition, and conscience guide the choices I make. Maybe fool and stupid ~@darin')"
+          >
+            <img
+              src="/assets/icon/Reflection_icon.webp"
+              alt=""
+              class="emoji-icon"
+            >
             <div class="pronoun-info">
               <span class="label">REFLECTION</span>
-              <span class="value" style="font-weight: 900;">@darin</span>
+              <span
+                class="value"
+                style="font-weight: 900;"
+              >@darin</span>
             </div>
           </div>
 
-          <div class="pronoun-tag orange-tag clickable" @click="showToast('SUNDER: ~ꦏꦼꦭꦶꦭꦺꦥ꧀')">
-            <img src="/assets/icon/Sunder_icon.webp" alt="" class="emoji-icon" />
+          <div
+            class="pronoun-tag orange-tag clickable"
+            @click="showToast('SUNDER: ~ꦏꦼꦭꦶꦭꦺꦥ꧀')"
+          >
+            <img
+              src="/assets/icon/Sunder_icon.webp"
+              alt=""
+              class="emoji-icon"
+            >
             <div class="pronoun-info">
               <span class="label">SUNDER</span>
-              <span class="value" style="font-weight: 900;">ꦏꦼꦭꦶꦭꦺꦥ꧀</span>
+              <span
+                class="value"
+                style="font-weight: 900;"
+              >ꦏꦼꦭꦶꦭꦺꦥ꧀</span>
             </div>
           </div>
         </div>
@@ -50,7 +97,12 @@
       <!-- Toast -->
       <Teleport to="body">
         <Transition name="toast-fade">
-          <div v-if="toastMessage" class="pronoun-toast" role="status" aria-live="polite">
+          <div
+            v-if="toastMessage"
+            class="pronoun-toast"
+            role="status"
+            aria-live="polite"
+          >
             {{ toastMessage }}
           </div>
         </Transition>
@@ -58,14 +110,19 @@
 
       <!-- Education Timeline -->
       <div class="col-span-6 timeline-column">
-        <Timeline :data="education" :nightMode="nightMode" />
+        <Timeline
+          :data="education"
+          :night-mode="nightMode"
+        />
       </div>
 
       <!-- Experience Timeline -->
       <div class="col-span-6 timeline-column">
-        <Timeline :data="experience" :nightMode="nightMode" />
+        <Timeline
+          :data="experience"
+          :night-mode="nightMode"
+        />
       </div>
-
     </div>
   </section>
 </template>
@@ -73,7 +130,7 @@
 <script setup>
 import { ref, watch } from "vue";
 import Timeline from "./helpers/Timeline.vue";
-import info from "../../mock/mockRepository";
+import info from "../../ci/mockRepository";
 import { randomGradient } from "../composables/useRandomGradient";
 
 const titleGradient = ref(randomGradient());

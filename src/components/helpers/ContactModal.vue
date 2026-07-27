@@ -1,60 +1,81 @@
 <template>
   <Teleport to="body">
     <Transition name="modal-fade">
-      <div v-if="visible" class="modal-mask" @click.self="close">
+      <div
+        v-if="visible"
+        class="modal-mask"
+        @click.self="close"
+      >
         <div class="modal-wrapper">
           <div class="modal-container bento-card">
             <!-- Modal Header -->
             <div class="modal-header">
-              <h3 class="modal-title">Get in Touch</h3>
-              <button class="close-btn clickable" @click="close" aria-label="Close modal">
-                <i class="fas fa-times"></i>
+              <h3 class="modal-title">
+                Get in Touch
+              </h3>
+              <button
+                class="close-btn clickable"
+                aria-label="Close modal"
+                @click="close"
+              >
+                <i class="fas fa-times" />
               </button>
             </div>
 
-            <hr class="modal-divider" />
+            <hr class="modal-divider">
 
             <!-- Contact Form -->
             <div class="modal-body">
-              <form @submit.prevent="sendEmail" class="contact-form">
-
+              <form
+                class="contact-form"
+                @submit.prevent="sendEmail"
+              >
                 <!-- Name Input -->
                 <div class="form-group">
-                  <label for="modal-name" class="form-label">Name</label>
+                  <label
+                    for="modal-name"
+                    class="form-label"
+                  >Name</label>
                   <div class="input-wrapper">
-                    <i class="far fa-user input-icon"></i>
+                    <i class="far fa-user input-icon" />
                     <input
                       id="modal-name"
-                      type="text"
                       v-model="name"
+                      type="text"
                       placeholder="Your Name"
                       class="form-input"
                       required
-                    />
+                    >
                   </div>
                 </div>
 
                 <!-- Email Input -->
                 <div class="form-group">
-                  <label for="modal-email" class="form-label">Email Address</label>
+                  <label
+                    for="modal-email"
+                    class="form-label"
+                  >Email Address</label>
                   <div class="input-wrapper">
-                    <i class="far fa-envelope input-icon"></i>
+                    <i class="far fa-envelope input-icon" />
                     <input
                       id="modal-email"
-                      type="email"
                       v-model="email"
+                      type="email"
                       placeholder="your.email@example.com"
                       class="form-input"
                       required
-                    />
+                    >
                   </div>
                 </div>
 
                 <!-- Message Textarea -->
                 <div class="form-group">
-                  <label for="modal-message" class="form-label">Message</label>
+                  <label
+                    for="modal-message"
+                    class="form-label"
+                  >Message</label>
                   <div class="input-wrapper">
-                    <i class="far fa-comment-dots input-icon textarea-icon"></i>
+                    <i class="far fa-comment-dots input-icon textarea-icon" />
                     <textarea
                       id="modal-message"
                       v-model="text"
@@ -62,7 +83,7 @@
                       class="form-input form-textarea"
                       rows="5"
                       required
-                    ></textarea>
+                    />
                   </div>
                 </div>
 
@@ -73,15 +94,14 @@
                     class="btn-primary submit-btn clickable"
                     :disabled="sending"
                   >
-                    <span v-if="sending"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
-                    <span v-else><i class="far fa-paper-plane"></i> Send Message</span>
+                    <span v-if="sending"><i class="fas fa-spinner fa-spin" /> Sending...</span>
+                    <span v-else><i class="far fa-paper-plane" /> Send Message</span>
                   </button>
                 </div>
-
               </form>
             </div>
 
-            <hr class="modal-divider" />
+            <hr class="modal-divider">
           </div>
         </div>
       </div>
@@ -90,9 +110,9 @@
 
   <!-- Notification Alert -->
   <Snackbar
-    :showSnackbar="showSnackbar"
-    :snackbarMessage="snackbarMessage"
-    :snackbarColor="snackbarColor"
+    :show-snackbar="showSnackbar"
+    :snackbar-message="snackbarMessage"
+    :snackbar-color="snackbarColor"
     @close="closeSnackbar"
   />
 </template>

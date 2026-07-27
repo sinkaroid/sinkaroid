@@ -1,7 +1,9 @@
 <template>
-  <section class="section home-section" id="home">
+  <section
+    id="home"
+    class="section home-section"
+  >
     <div class="bento-grid">
-      
       <!-- Avatar Bento Card -->
       <div class="bento-card col-span-5 avatar-card text-center">
         <div class="avatar-wrapper">
@@ -11,113 +13,126 @@
             alt="Sinkaroid Avatar"
             @mouseover="onHover"
             @mouseout="onLeave"
-          />
+          >
         </div>
         
-        <p class="hero-role" :style="{ backgroundImage: roleGradient }">{{ role }}</p>
-        
-    
+        <p
+          class="hero-role"
+          :style="{ backgroundImage: roleGradient }"
+        >
+          {{ role }}
+        </p>
       </div>
 
       <!-- About Info Bento Card -->
       <div class="bento-card col-span-7 info-card">
         <div class="info-content">
           <span class="greeting">sinkaroid here,</span>
-          <h2 class="hero-name" :style="{ backgroundImage: nameGradient }">{{ name }}</h2>
+          <h2
+            class="hero-name"
+            :style="{ backgroundImage: nameGradient }"
+          >
+            {{ name }}
+          </h2>
           
           <div class="description-body">
-            <p class="description-text" v-html="description"></p>
-            <p class="synopsis-text">{{ sinopsis }}</p>
+            <p
+              class="description-text"
+            >
+              {{ description }}
+            </p>
+            <p class="synopsis-text">
+              {{ sinopsis }}
+            </p>
           </div>
 
           <!-- Social Channels Row -->
           <div class="social-channels">
             <button
               class="social-btn clickable"
-              @click="open('github')"
               data-tooltip="GitHub"
               aria-label="GitHub Profile"
+              @click="open('github')"
             >
-              <i class="fab fa-github"></i>
+              <i class="fab fa-github" />
             </button>
 
 
             <button
               class="social-btn clickable"
-              @click="open('linkedin')"
               data-tooltip="LinkedIn"
               aria-label="LinkedIn Profile"
+              @click="open('linkedin')"
             >
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-linkedin" />
             </button>
 
             <button
               class="social-btn clickable"
-              @click="open('npm')"
               data-tooltip="npm"
               aria-label="npm Packages"
+              @click="open('npm')"
             >
-              <i class="fab fa-npm"></i>
+              <i class="fab fa-npm" />
             </button>
 
 
             <button
               class="social-btn clickable"
-              @click="open('pypi')"
               data-tooltip="PyPI"
               aria-label="PyPI Packages"
+              @click="open('pypi')"
             >
-              <i class="fab fa-python"></i>
+              <i class="fab fa-python" />
             </button>
 
           
             <button
               class="social-btn clickable"
-              @click="open('steam')"
               data-tooltip="Steam"
               aria-label="Steam Profile"
+              @click="open('steam')"
             >
-              <i class="fab fa-steam"></i>
+              <i class="fab fa-steam" />
             </button>
 
 
             <button
               class="social-btn clickable"
-              @click="open('paypal')"
               data-tooltip="PayPal"
               aria-label="PayPal"
+              @click="open('paypal')"
             >
-              <i class="fab fa-paypal"></i>
+              <i class="fab fa-paypal" />
             </button>
 
             <button
               class="social-btn clickable"
-              @click="open('twitter')"
               data-tooltip="Twitter"
               aria-label="Twitter Profile"
+              @click="open('twitter')"
             >
-              <i class="fab fa-twitter"></i>
+              <i class="fab fa-twitter" />
             </button>
 
             <button
               class="social-btn clickable"
-              @click="open('telegram')"
               data-tooltip="Telegram"
               aria-label="Telegram"
+              @click="open('telegram')"
             >
-              <i class="fab fa-telegram"></i>
+              <i class="fab fa-telegram" />
             </button>
           </div>
         </div>
       </div>
-
     </div>
   </section>
 </template>
 
 <script setup>
 import { ref, watch } from "vue";
-import info from "../../mock/mockRepository";
+import info from "../../ci/mockRepository";
 import { randomGradient } from "../composables/useRandomGradient";
 
 const props = defineProps({

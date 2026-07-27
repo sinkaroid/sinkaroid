@@ -1,28 +1,41 @@
 <template>
   <Teleport to="body">
     <Transition name="modal-fade">
-      <div v-if="showModal" class="modal-mask" @click.self="close">
+      <div
+        v-if="showModal"
+        class="modal-mask"
+        @click.self="close"
+      >
         <div class="modal-wrapper">
           <div class="modal-container bento-card">
             <!-- Modal Header -->
             <div class="modal-header">
-              <h3 class="modal-title">{{ portfolio.name || portfolio.title }}</h3>
-              <button class="close-btn clickable" @click="close" aria-label="Close modal">
-                <i class="fas fa-times"></i>
+              <h3 class="modal-title">
+                {{ portfolio.name || portfolio.title }}
+              </h3>
+              <button
+                class="close-btn clickable"
+                aria-label="Close modal"
+                @click="close"
+              >
+                <i class="fas fa-times" />
               </button>
             </div>
             
-            <hr class="modal-divider" />
+            <hr class="modal-divider">
 
             <!-- Modal Body -->
             <div class="modal-body">
               <!-- Meta/Subheader -->
               <div class="modal-meta">
                 <span class="meta-item">
-                  <i class="fas fa-palette"></i> {{ portfolio.category || 'Illustration & Design' }}
+                  <i class="fas fa-palette" /> {{ portfolio.category || 'Illustration & Design' }}
                 </span>
-                <span v-if="portfolio.date" class="meta-item">
-                  <i class="far fa-calendar-alt"></i> {{ portfolio.date }}
+                <span
+                  v-if="portfolio.date"
+                  class="meta-item"
+                >
+                  <i class="far fa-calendar-alt" /> {{ portfolio.date }}
                 </span>
               </div>
 
@@ -38,20 +51,33 @@
               </div>
 
               <!-- Description -->
-              <div class="modal-description" v-html="portfolio.description"></div>
+              <div class="modal-description">
+                {{ portfolio.description }}
+              </div>
 
               <!-- Image Gallery (Full Width design layout) -->
-              <div v-if="portfolio.pictures && portfolio.pictures.length" class="modal-gallery-section">
-                <h5 class="gallery-title">Artwork Gallery</h5>
-                <Gallery :images="portfolio.pictures" :design="true" />
+              <div
+                v-if="portfolio.pictures && portfolio.pictures.length"
+                class="modal-gallery-section"
+              >
+                <h5 class="gallery-title">
+                  Artwork Gallery
+                </h5>
+                <Gallery
+                  :images="portfolio.pictures"
+                  :design="true"
+                />
               </div>
             </div>
 
-            <hr class="modal-divider" />
+            <hr class="modal-divider">
 
             <!-- Modal Footer -->
             <div class="modal-footer">
-              <button class="btn-secondary clickable" @click="close">
+              <button
+                class="btn-secondary clickable"
+                @click="close"
+              >
                 Close
               </button>
             </div>

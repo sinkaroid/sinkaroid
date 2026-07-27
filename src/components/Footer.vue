@@ -2,18 +2,24 @@
   <footer class="footer-glass">
     <div class="footer-container">
       <!-- Left side: Commit display -->
-      <div v-if="latest_commit" class="commit-section">
+      <div
+        v-if="latest_commit"
+        class="commit-section"
+      >
         <a 
           :href="base_repo" 
           target="_blank" 
           class="commit-link-btn clickable"
           aria-label="View latest commit on GitHub"
         >
-          <i class="fas fa-code-branch"></i> {{ truncatedCommit }}
+          <i class="fas fa-code-branch" /> {{ truncatedCommit }}
         </a>
       </div>
-      <div v-else class="commit-section">
-        <span class="loading-commit"><i class="fas fa-spinner fa-spin"></i> loading commit...</span>
+      <div
+        v-else
+        class="commit-section"
+      >
+        <span class="loading-commit"><i class="fas fa-spinner fa-spin" /> loading commit...</span>
       </div>
 
       <!-- Right side: Social links -->
@@ -25,7 +31,7 @@
           data-tooltip="LinkedIn"
           aria-label="LinkedIn profile"
         >
-          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-linkedin" />
         </a>
         
         <a 
@@ -35,7 +41,7 @@
           data-tooltip="GitHub"
           aria-label="GitHub profile"
         >
-          <i class="fab fa-github"></i>
+          <i class="fab fa-github" />
         </a>
 
         <a 
@@ -45,7 +51,7 @@
           data-tooltip="Twitter"
           aria-label="Twitter profile"
         >
-          <i class="fab fa-twitter"></i>
+          <i class="fab fa-twitter" />
         </a>
 
         <a 
@@ -55,7 +61,7 @@
           data-tooltip="Resume"
           aria-label="Resume document"
         >
-          <i class="far fa-file-pdf"></i>
+          <i class="far fa-file-pdf" />
         </a>
       </div>
     </div>
@@ -64,7 +70,7 @@
 
 <script setup>
 import { ref, onMounted, computed } from "vue";
-import info from "../../mock/mockRepository";
+import info from "../../ci/mockRepository";
 
 defineProps({
   nightMode: {

@@ -6,7 +6,10 @@
       :style="{ borderLeftColor: snackbarColor }"
     >
       <div class="snackbar-content">
-        <i class="fas fa-info-circle" :style="{ color: snackbarColor }"></i>
+        <i
+          class="fas fa-info-circle"
+          :style="{ color: snackbarColor }"
+        />
         <span>{{ snackbarMessage }}</span>
       </div>
     </div>

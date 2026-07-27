@@ -18,18 +18,18 @@
 then fill the `.env` values        
 
 **3. Generate the whole info about you, This cases You need to fill:**
-- [getAnime.js](/mock/getAnime.js)
+- [getAnime.js](/ci/getAnime.js)
   - should generate `_anime` object
-- [getManga.js](/mock/getManga.js)
+- [getManga.js](/ci/getManga.js)
   - should generate `_manga` object
-- [getRepository.js](/mock/getRepository.js) 
+- [getRepository.js](/ci/getRepository.js) 
   - should generate `_data` object
 
 ..You ready to go
 
 **4. Generate your repository and myanimelist data**
 
-        $ node mock/getRepository.js ghp_xxx_your_GH_TOKEN
+        $ node ci/getRepository.js ghp_xxx_your_GH_TOKEN
         $ npm run fetch:mal
 
 **5. The final**

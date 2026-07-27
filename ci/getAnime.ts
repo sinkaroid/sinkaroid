@@ -49,7 +49,7 @@ interface JikanDetails {
 }
 
 const jikan = async (id: number): Promise<JikanDetails | null> => {
-    let url = `https://api.jikan.moe/v4/manga/${id}`;
+    let url = `https://api.jikan.moe/v4/anime/${id}`;
     let response = await fetch(url);
     if (!response.ok) {
         throw new Error(`jikan ${id} status ${response.status}`);
@@ -58,7 +58,7 @@ const jikan = async (id: number): Promise<JikanDetails | null> => {
     return body.data;
 };
 
-interface MangaItemInfo {
+interface ItemInfo {
     title: string;
     link: string;
     description: string;
@@ -73,11 +73,11 @@ interface MangaItemInfo {
 }
 
 if (!isAutoRefresh) {
-    console.log("[getManga] isAutoRefresh=false, skipping Jikan sync.");
+    console.log("[getAnime] isAutoRefresh=false, skipping Jikan sync.");
 } else {
-    fetchRss("https://myanimelist.net/rss.php?type=rm&u=sinkaroid").then(
+    fetchRss("https://myanimelist.net/rss.php?type=rw&u=sinkaroid").then(
         async (res: RssItem[]) => {
-            let info: MangaItemInfo[] = [];
+            let info: ItemInfo[] = [];
             for (let i = 0; i < res.length; i++) {
                 let item = res[i];
                 let title = item.title;
@@ -124,7 +124,7 @@ if (!isAutoRefresh) {
                     continue;
                 }
 
-                let itemInfo: MangaItemInfo = {
+                let itemInfo: ItemInfo = {
                     title,
                     link,
                     description,
@@ -141,8 +141,8 @@ if (!isAutoRefresh) {
                 info.push(itemInfo);
             }
             fs.writeFileSync(
-                "mock/data_manga.json",
-                JSON.stringify({ data_manga: info }, null, 4)
+                "ci/data_anime.json",
+                JSON.stringify({ data: info }, null, 4)
             );
         }
     );

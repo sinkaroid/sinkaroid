@@ -1,7 +1,15 @@
 <template>
-  <section class="section contact-section" id="contact">
+  <section
+    id="contact"
+    class="section contact-section"
+  >
     <div class="section-header">
-      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Get in Touch</h2>
+      <h2
+        class="section-title"
+        :style="{ backgroundImage: titleGradient }"
+      >
+        Get in Touch
+      </h2>
       <p class="section-subtitle">
         I am always open to discussing new projects, creative opportunities, or custom requests.
       </p>
@@ -10,45 +18,56 @@
     <!-- Contact Form Container -->
     <div class="contact-grid">
       <div class="bento-card contact-form-card">
-        <form @submit.prevent="sendEmail" class="contact-form">
-          
+        <form
+          class="contact-form"
+          @submit.prevent="sendEmail"
+        >
           <!-- Name Input -->
           <div class="form-group">
-            <label for="name" class="form-label">Name</label>
+            <label
+              for="name"
+              class="form-label"
+            >Name</label>
             <div class="input-wrapper">
-              <i class="far fa-user input-icon"></i>
+              <i class="far fa-user input-icon" />
               <input
                 id="name"
-                type="text"
                 v-model="name"
+                type="text"
                 placeholder="Your Name"
                 class="form-input"
                 required
-              />
+              >
             </div>
           </div>
 
           <!-- Email Input -->
           <div class="form-group">
-            <label for="email" class="form-label">Email Address</label>
+            <label
+              for="email"
+              class="form-label"
+            >Email Address</label>
             <div class="input-wrapper">
-              <i class="far fa-envelope input-icon"></i>
+              <i class="far fa-envelope input-icon" />
               <input
                 id="email"
-                type="email"
                 v-model="email"
+                type="email"
                 placeholder="your.email@example.com"
                 class="form-input"
                 required
-              />
+              >
             </div>
           </div>
 
           <!-- Message Textarea -->
           <div class="form-group">
-            <label for="message" class="form-label">Message</label>
+            <label
+              for="message"
+              class="form-label"
+            >Message</label>
             <div class="input-wrapper">
-              <i class="far fa-comment-dots input-icon textarea-icon"></i>
+              <i class="far fa-comment-dots input-icon textarea-icon" />
               <textarea
                 id="message"
                 v-model="text"
@@ -56,7 +75,7 @@
                 class="form-input form-textarea"
                 rows="5"
                 required
-              ></textarea>
+              />
             </div>
           </div>
 
@@ -67,20 +86,19 @@
               class="btn-primary submit-btn clickable"
               :disabled="sending"
             >
-              <span v-if="sending"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
-              <span v-else><i class="far fa-paper-plane"></i> Send Message</span>
+              <span v-if="sending"><i class="fas fa-spinner fa-spin" /> Sending...</span>
+              <span v-else><i class="far fa-paper-plane" /> Send Message</span>
             </button>
           </div>
-
         </form>
       </div>
     </div>
 
     <!-- Notification Alert -->
     <Snackbar
-      :showSnackbar="showSnackbar"
-      :snackbarMessage="snackbarMessage"
-      :snackbarColor="snackbarColor"
+      :show-snackbar="showSnackbar"
+      :snackbar-message="snackbarMessage"
+      :snackbar-color="snackbarColor"
       @close="closeSnackbar"
     />
   </section>

@@ -1,7 +1,15 @@
 <template>
-  <section class="section skills-section" id="skills">
+  <section
+    id="skills"
+    class="section skills-section"
+  >
     <div class="section-header">
-      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Skills & Capabilities</h2>
+      <h2
+        class="section-title"
+        :style="{ backgroundImage: titleGradient }"
+      >
+        Skills & Capabilities
+      </h2>
       <p class="section-subtitle">
         The spellcraft I practice is forged from boundless imagination and disciplined judgment, allowing even the most ambitious ideas to take shape as tangible creations.
       </p>
@@ -11,30 +19,44 @@
       <!-- Row 1 LEFT: Capability Constellation (radial nodes, no vanity %) -->
       <div class="bento-card col-span-7 dashboard-card">
         <div class="constellation-header">
-          <h3 class="card-title-header">Capability Constellation</h3>
+          <h3 class="card-title-header">
+            Capability Constellation
+          </h3>
           <div class="constellation-meta">
             <span class="meta-stat"><strong>{{ competencies.length }}</strong> competencies</span>
             <span class="meta-stat"><strong>{{ totalYears }}+</strong> yrs shipping</span>
           </div>
         </div>
-        <p class="card-helper">Node size = depth of practice. Filter to explore a single domain.</p>
-        <div class="domain-tabs" role="tablist">
+        <p class="card-helper">
+          Node size = depth of practice. Filter to explore a single domain.
+        </p>
+        <div
+          class="domain-tabs"
+          role="tablist"
+        >
           <button
             v-for="d in domains"
             :key="d.id"
             class="domain-chip clickable"
             :class="{ 'is-active': activeDomain === d.id }"
-            @click="activeDomain = d.id"
             role="tab"
             :aria-selected="activeDomain === d.id"
+            @click="activeDomain = d.id"
           >
-            <i :class="d.icon"></i>
+            <i :class="d.icon" />
             {{ d.label }}
           </button>
         </div>
         <div class="constellation-wrap">
-          <svg viewBox="0 0 320 320" class="constellation-svg" aria-hidden="true">
-            <g v-for="(c, idx) in filteredCompetencies" :key="`ring-${c.name}`">
+          <svg
+            viewBox="0 0 320 320"
+            class="constellation-svg"
+            aria-hidden="true"
+          >
+            <g
+              v-for="(c, idx) in filteredCompetencies"
+              :key="`ring-${c.name}`"
+            >
               <circle
                 :cx="nodePos(idx, 'x')"
                 :cy="nodePos(idx, 'y')"
@@ -55,7 +77,10 @@
                 stroke-dasharray="2 4"
               />
             </g>
-            <g v-for="(c, idx) in filteredCompetencies" :key="`node-${c.name}`">
+            <g
+              v-for="(c, idx) in filteredCompetencies"
+              :key="`node-${c.name}`"
+            >
               <circle
                 :cx="nodePos(idx, 'x')"
                 :cy="nodePos(idx, 'y')"
@@ -67,9 +92,22 @@
                 class="constellation-node"
               />
               <defs>
-                <radialGradient :id="`node-${idx}`" cx="40%" cy="40%" r="60%">
-                  <stop offset="0%" :stop-color="c.color" stop-opacity="0.95"/>
-                  <stop offset="100%" :stop-color="c.color" stop-opacity="0.35"/>
+                <radialGradient
+                  :id="`node-${idx}`"
+                  cx="40%"
+                  cy="40%"
+                  r="60%"
+                >
+                  <stop
+                    offset="0%"
+                    :stop-color="c.color"
+                    stop-opacity="0.95"
+                  />
+                  <stop
+                    offset="100%"
+                    :stop-color="c.color"
+                    stop-opacity="0.35"
+                  />
                 </radialGradient>
               </defs>
               <text
@@ -94,8 +132,14 @@
           </svg>
         </div>
         <ul class="constellation-legend">
-          <li v-for="c in filteredCompetencies" :key="`legend-${c.name}`">
-            <span class="legend-swatch" :style="{ background: c.color }"></span>
+          <li
+            v-for="c in filteredCompetencies"
+            :key="`legend-${c.name}`"
+          >
+            <span
+              class="legend-swatch"
+              :style="{ background: c.color }"
+            />
             <span class="legend-name">{{ c.name }}</span>
           </li>
         </ul>
@@ -105,17 +149,20 @@
       <div class="col-span-5 right-stack">
         <div class="bento-card tech-card">
           <!-- Desktop tab bar -->
-          <div class="tech-tabs desktop-only" role="tablist">
+          <div
+            class="tech-tabs desktop-only"
+            role="tablist"
+          >
             <button
               v-for="(cat, idx) in skills"
               :key="cat.title"
               class="tech-tab clickable"
               :class="{ 'is-active': activeStack === idx }"
-              @click="activeStack = idx"
               role="tab"
               :aria-selected="activeStack === idx"
+              @click="activeStack = idx"
             >
-              <i :class="cat.icon || 'fa fa-code'"></i>
+              <i :class="cat.icon || 'fa fa-code'" />
               <span>{{ cat.title }}</span>
             </button>
           </div>
@@ -123,17 +170,23 @@
           <!-- Mobile trigger button (mirrors Portfolio tabs-trigger) -->
           <button
             class="tech-trigger clickable"
-            @click="showTechSheet = true"
             aria-label="Open tech selector"
             aria-haspopup="dialog"
+            @click="showTechSheet = true"
           >
-            <i :class="activeStackSkills.icon || 'fa fa-code'"></i>
+            <i :class="activeStackSkills.icon || 'fa fa-code'" />
             <span>{{ activeStackSkills.title }}</span>
-            <i class="fas fa-chevron-down tech-trigger-caret"></i>
+            <i class="fas fa-chevron-down tech-trigger-caret" />
           </button>
 
-          <Transition name="tech-fade" mode="out-in">
-            <div :key="activeStack" class="tech-panel">
+          <Transition
+            name="tech-fade"
+            mode="out-in"
+          >
+            <div
+              :key="activeStack"
+              class="tech-panel"
+            >
               <div class="tech-tags">
                 <div
                   v-for="tech in activeStackSkills.info"
@@ -147,8 +200,11 @@
                     :alt="tech"
                     class="tech-logo"
                     loading="lazy"
-                  />
-                  <span v-else class="tech-logo-fallback">{{ tech.charAt(0) }}</span>
+                  >
+                  <span
+                    v-else
+                    class="tech-logo-fallback"
+                  >{{ tech.charAt(0) }}</span>
                   <span class="tech-tile-label">{{ tech }}</span>
                 </div>
               </div>
@@ -158,12 +214,24 @@
           <!-- Mobile Action Sheet (Teleport) -->
           <Teleport to="body">
             <Transition name="action-sheet">
-              <div v-if="showTechSheet" class="action-sheet-overlay" @click.self="showTechSheet = false">
-                <div class="action-sheet" role="dialog" aria-modal="true">
+              <div
+                v-if="showTechSheet"
+                class="action-sheet-overlay"
+                @click.self="showTechSheet = false"
+              >
+                <div
+                  class="action-sheet"
+                  role="dialog"
+                  aria-modal="true"
+                >
                   <div class="action-sheet-header">
                     <span class="action-sheet-title">Select Stack</span>
-                    <button class="action-sheet-close clickable" @click="showTechSheet = false" aria-label="Close">
-                      <i class="fas fa-times"></i>
+                    <button
+                      class="action-sheet-close clickable"
+                      aria-label="Close"
+                      @click="showTechSheet = false"
+                    >
+                      <i class="fas fa-times" />
                     </button>
                   </div>
                   <ul class="action-sheet-list">
@@ -172,16 +240,22 @@
                       :key="cat.title"
                       class="action-sheet-item clickable"
                       :class="{ 'is-active': activeStack === idx }"
-                      @click="selectStack(idx)"
                       role="option"
                       :aria-selected="activeStack === idx"
+                      @click="selectStack(idx)"
                     >
-                      <i :class="cat.icon || 'fa fa-code'"></i>
+                      <i :class="cat.icon || 'fa fa-code'" />
                       <span>{{ cat.title }}</span>
-                      <i v-if="activeStack === idx" class="fas fa-check check-mark"></i>
+                      <i
+                        v-if="activeStack === idx"
+                        class="fas fa-check check-mark"
+                      />
                     </li>
                   </ul>
-                  <button class="action-sheet-cancel clickable" @click="showTechSheet = false">
+                  <button
+                    class="action-sheet-cancel clickable"
+                    @click="showTechSheet = false"
+                  >
                     Cancel
                   </button>
                 </div>
@@ -196,7 +270,7 @@
 
 <script setup>
 import { ref, computed, watch } from "vue";
-import info from "../../mock/mockRepository";
+import info from "../../ci/mockRepository";
 import { randomGradient } from "../composables/useRandomGradient";
 
 const titleGradient = ref(randomGradient());

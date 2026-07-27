@@ -7,14 +7,21 @@
         class="gallery-item-wrapper"
         :class="{ 'full-width': design || images.length === 1 }"
       >
-        <div class="gallery-image-card" :class="{ 'single-image': images.length === 1 }" @click="openLightbox(idx)">
+        <div
+          class="gallery-image-card"
+          :class="{ 'single-image': images.length === 1 }"
+          @click="openLightbox(idx)"
+        >
           <img
             :src="image.img"
             :alt="image.title"
             class="gallery-image clickable"
             loading="lazy"
-          />
-          <div v-if="image.title" class="gallery-caption-overlay">
+          >
+          <div
+            v-if="image.title"
+            class="gallery-caption-overlay"
+          >
             <span class="gallery-image-title">{{ image.title }}</span>
           </div>
         </div>
@@ -24,18 +31,26 @@
     <!-- Lightbox Modal -->
     <Teleport to="body">
       <Transition name="fade">
-        <div v-if="lightboxOpen" class="lightbox-overlay" @click.self="closeLightbox">
-          <button class="lightbox-close clickable" @click="closeLightbox" aria-label="Close lightbox">
-            <i class="fas fa-times"></i>
+        <div
+          v-if="lightboxOpen"
+          class="lightbox-overlay"
+          @click.self="closeLightbox"
+        >
+          <button
+            class="lightbox-close clickable"
+            aria-label="Close lightbox"
+            @click="closeLightbox"
+          >
+            <i class="fas fa-times" />
           </button>
           
           <button 
             v-if="images.length > 1" 
             class="lightbox-nav prev clickable" 
-            @click="prevImage"
             aria-label="Previous image"
+            @click="prevImage"
           >
-            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-left" />
           </button>
 
           <div class="lightbox-content">
@@ -43,8 +58,11 @@
               :src="images[activeIdx].img" 
               :alt="images[activeIdx].title" 
               class="lightbox-image" 
-            />
-            <p v-if="images[activeIdx].title" class="lightbox-caption">
+            >
+            <p
+              v-if="images[activeIdx].title"
+              class="lightbox-caption"
+            >
               {{ images[activeIdx].title }}
             </p>
           </div>
@@ -52,10 +70,10 @@
           <button 
             v-if="images.length > 1" 
             class="lightbox-nav next clickable" 
-            @click="nextImage"
             aria-label="Next image"
+            @click="nextImage"
           >
-            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-right" />
           </button>
         </div>
       </Transition>

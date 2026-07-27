@@ -22,15 +22,15 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
       - name: Fetch anime
-        run: bun run mock/getAnime.ts
+        run: bun run ci/getAnime.ts
       - name: Fetch manga
-        run: bun run mock/getManga.ts
+        run: bun run ci/getManga.ts
       - name: Fetch game
-        run: STEAM_API_KEY=${{ secrets.STEAM_API_KEY }} bun run mock/getGame.ts
+        run: STEAM_API_KEY=${{ secrets.STEAM_API_KEY }} bun run ci/getGame.ts
       - name: Fetch repository
-        run: bun run mock/getRepository.ts ${{ secrets.GH_TOKEN }}
+        run: bun run ci/getRepository.ts ${{ secrets.GH_TOKEN }}
       - name: Fetch repository SAS
-        run: bun run mock/getRepositorySAS.ts ${{ secrets.GH_TOKEN }}
+        run: bun run ci/getRepositorySAS.ts ${{ secrets.GH_TOKEN }}
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"

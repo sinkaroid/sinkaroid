@@ -391,7 +391,7 @@ const save = async () => {
         data: info,
         sha_commit: getLatestCommit.sha,
     };
-    fs.writeFileSync("mock/data_oss.json", JSON.stringify(data, null, 4));
+    fs.writeFileSync("ci/data_oss.json", JSON.stringify(data, null, 4));
 };
 
 save()

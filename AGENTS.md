@@ -19,7 +19,7 @@ This document outlines the coding standards, styling conventions, and architectu
 ## Code Standards & Best Practices
 - **Vue 3 Components**: Use the Composition API (specifically `<script setup>`) for clean, reactive component code.
 - **No Extra Dependencies**: Re-implement simple utility plugins (like go-top button, particles, smooth-scroll, cookie-handling) directly in Vue 3/Vanilla JS to keep the bundle size small and performance peak.
-- **Data Integration**: Load mock/generated repository and anime/manga metadata from `/mock` sources.
+- **Data Integration**: Load ci/generated repository and anime/manga metadata from `/mock` sources.
 - **SEO & Accessibility**: Use semantic HTML5 structures, single `<h1>` tag on main views, descriptive title/meta elements, and descriptive `aria-` labels.
 - **JavaScript Formatting (ESLint Compliance)**:
   - **Strings**: Always use **double quotes (`"`)** for standard string literals. Only use template literals (backticks) when string interpolation is actually needed. Avoid single quotes (`'`).
@@ -30,8 +30,8 @@ This document outlines the coding standards, styling conventions, and architectu
   - **Semicolons**: Always end statements with semicolons (enforced by `semi: ["error", "always"]`).
   - **Verification**: Whenever any code changes are made, you **MUST** run the lint verification command (`bun run lint`) to ensure ESLint compliance.
 - **Directory Layouts & Image Logic**:
-  - OSS assets go to `assets/oss` / `public/assets/oss`, outputs save to `mock/data_oss.json`.
-  - SAS assets go to `assets/sas` / `public/assets/sas`, outputs save to `mock/data_oss_sas.json`. Exclude `stargazers_count`.
+  - OSS assets go to `assets/oss` / `public/assets/oss`, outputs save to `ci/data_oss.json`.
+  - SAS assets go to `assets/sas` / `public/assets/sas`, outputs save to `ci/data_oss_sas.json`. Exclude `stargazers_count`.
   - Private repositories must skip Open Graph downloads to preserve local images (as GitHub's CDN returns a generic logo anonymously).
   - If a private repository lacks a local image, dynamically generate an SVG preview card (featuring custom background gradients, name, wrapped description, private badge, and language indicator) and convert it to WebP via `sharp`.
 - **API Rate Limiting**:

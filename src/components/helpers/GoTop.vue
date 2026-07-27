@@ -3,10 +3,10 @@
     <button 
       v-show="visible" 
       class="go-top-btn" 
-      @click="scrollToTop"
       aria-label="Scroll to top"
+      @click="scrollToTop"
     >
-      <i class="fa fa-arrow-up"></i>
+      <i class="fa fa-arrow-up" />
     </button>
   </Transition>
 </template>

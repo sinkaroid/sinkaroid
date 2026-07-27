@@ -8,27 +8,37 @@
           :src="portfolio.pictures && portfolio.pictures[0] ? portfolio.pictures[0].img : '/icon.png'"
           :alt="portfolio.name || portfolio.title"
           loading="lazy"
-        />
+        >
         
         <!-- Score/Rating overlay (for Anime/Manga) -->
-        <div v-if="portfolio.score" class="score-badge">
-          <i class="fas fa-star"></i> {{ portfolio.score }}
+        <div
+          v-if="portfolio.score"
+          class="score-badge"
+        >
+          <i class="fas fa-star" /> {{ portfolio.score }}
         </div>
 
         <!-- Language icon overlay (for Repositories) -->
-        <img v-if="portfolio.bahasa" class="lang-icon" :src="portfolio.bahasa" alt="language" />
+        <img
+          v-if="portfolio.bahasa"
+          class="lang-icon"
+          :src="portfolio.bahasa"
+          alt="language"
+        >
       </div>
 
       <!-- Content area -->
       <div class="card-content">
-        <h4 class="card-title">{{ portfolio.name || portfolio.title }}</h4>
+        <h4 class="card-title">
+          {{ portfolio.name || portfolio.title }}
+        </h4>
         
         <!-- Tags/Tech Pills -->
         <div class="card-tags-scroll">
           <span
-            class="badge"
             v-for="tech in tags"
             :key="tech"
+            class="badge"
           >
             {{ tech }}
           </span>
@@ -44,7 +54,7 @@
             class="btn-secondary clickable"
             @click.prevent="showModal"
           >
-            <i class="fas fa-search"></i> Details
+            <i class="fas fa-search" /> Details
           </button>
           
           <a
@@ -54,23 +64,29 @@
             class="btn-primary clickable"
             style="font-size: 0.8rem; padding: 6px 12px;"
           >
-            <i class="fas fa-external-link-alt"></i> Go
+            <i class="fas fa-external-link-alt" /> Go
           </a>
         </div>
       </div>
 
       <!-- Card footer (Commit/Release) -->
-      <div v-if="portfolio.release || portfolio.timeago" class="card-footer-info">
+      <div
+        v-if="portfolio.release || portfolio.timeago"
+        class="card-footer-info"
+      >
         <a 
           v-if="portfolio.link_commit" 
           :href="portfolio.link_commit" 
           target="_blank"
           class="commit-link clickable"
         >
-          <i class="fas fa-code-branch"></i> {{ portfolio.release || 'Commit' }}
+          <i class="fas fa-code-branch" /> {{ portfolio.release || 'Commit' }}
         </a>
-        <span v-else class="timeago-info">
-          <i class="far fa-clock"></i> {{ portfolio.timeago || portfolio.date }}
+        <span
+          v-else
+          class="timeago-info"
+        >
+          <i class="far fa-clock" /> {{ portfolio.timeago || portfolio.date }}
         </span>
       </div>
     </div>

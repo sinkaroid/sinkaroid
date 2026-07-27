@@ -22,7 +22,7 @@ const ghFetchBuffer = async (url: string, options: RequestInit = {}): Promise<Ar
 };
 
 // Force a fresh, valid Poppins TTF: if local copy is missing or suspiciously small, re-download from Google Fonts.
-const POPPINS_TTF_PATH = "./mock/poppins.ttf";
+const POPPINS_TTF_PATH = "./ci/poppins.ttf";
 const POPPINS_FALLBACK_SRC = "./assets/fonts/poppins.ttf";
 
 if (fs.existsSync(POPPINS_FALLBACK_SRC) && (!fs.existsSync(POPPINS_TTF_PATH) || fs.statSync(POPPINS_TTF_PATH).size < 50000)) {
@@ -511,7 +511,7 @@ const save = async () => {
         data: info,
         sha_commit: getLatestCommit.sha,
     };
-    fs.writeFileSync("mock/data_oss_sas.json", JSON.stringify(data, null, 4));
+    fs.writeFileSync("ci/data_oss_sas.json", JSON.stringify(data, null, 4));
 };
 
 save()

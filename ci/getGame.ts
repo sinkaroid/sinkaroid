@@ -307,7 +307,7 @@ if (!isAutoRefresh) {
             info.sort((a, b) => b.lastPlayed - a.lastPlayed);
 
             fs.writeFileSync(
-                "mock/data_game.json",
+                "ci/data_game.json",
                 JSON.stringify({ data: info }, null, 4)
             );
         } catch (err) {

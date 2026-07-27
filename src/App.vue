@@ -1,20 +1,35 @@
 <template>
-  <div id="app" :class="{ 'dark-theme': nightMode }">
-    <div class="mesh-bg"></div>
+  <div
+    id="app"
+    :class="{ 'dark-theme': nightMode }"
+  >
+    <div class="mesh-bg" />
     
     <Navbar 
+      :night-mode="nightMode" 
       @scroll="scrollTo" 
-      @nightMode="switchMode" 
-      :nightMode="nightMode" 
+      @night-mode="switchMode" 
     />
     
     <main class="parent container py-4">
-      <Home :nightMode="nightMode" />
-      <About id="about" :nightMode="nightMode" />
-      <Skills id="skills" :nightMode="nightMode" />
-      <Portfolio id="portfolio" :nightMode="nightMode" />
-      <Mal id="activity" :nightMode="nightMode" />
-      <Footer :nightMode="nightMode" />
+      <Home :night-mode="nightMode" />
+      <About
+        id="about"
+        :night-mode="nightMode"
+      />
+      <Skills
+        id="skills"
+        :night-mode="nightMode"
+      />
+      <Portfolio
+        id="portfolio"
+        :night-mode="nightMode"
+      />
+      <Mal
+        id="activity"
+        :night-mode="nightMode"
+      />
+      <Footer :night-mode="nightMode" />
     </main>
     
     <!-- Native Vue 3 GoTop component -->
@@ -23,10 +38,10 @@
     <!-- Native CustomCursor component -->
     <CustomCursor
       :targets="['a', 'button', 'input', 'textarea', '.clickable']"
-      :circleColor="nightMode ? '#fff' : '#6366f1'"
-      :circleColorHover="nightMode ? '#6366f1' : '#4f46e5'"
-      :dotColor="nightMode ? '#fff' : '#312e81'"
-      :hoverSize="1.5"
+      :circle-color="nightMode ? '#fff' : '#6366f1'"
+      :circle-color-hover="nightMode ? '#6366f1' : '#4f46e5'"
+      :dot-color="nightMode ? '#fff' : '#312e81'"
+      :hover-size="1.5"
     />
 
     <!-- Contact Modal -->
@@ -50,7 +65,7 @@ import Footer from "./components/Footer.vue";
 import GoTop from "./components/helpers/GoTop.vue";
 import CustomCursor from "./components/helpers/CustomCursor.vue";
 import ContactModal from "./components/helpers/ContactModal.vue";
-import info from "../mock/mockRepository";
+import info from "../ci/mockRepository";
 
 const router = useRouter();
 const route = useRoute();

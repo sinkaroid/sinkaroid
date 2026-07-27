@@ -1,15 +1,18 @@
 <template>
-  <div v-if="isVisible" class="custom-cursor">
+  <div
+    v-if="isVisible"
+    class="custom-cursor"
+  >
     <div
+      ref="circleRef"
       class="custom-cursor__circle"
       :style="circleStyle"
-      ref="circleRef"
-    ></div>
+    />
     <div
+      ref="dotRef"
       class="custom-cursor__dot"
       :style="dotStyle"
-      ref="dotRef"
-    ></div>
+    />
   </div>
 </template>
 

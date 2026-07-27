@@ -8,38 +8,35 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.ts,.vue src mock",
-    "fetch:repo": "bun run mock/getRepository.ts",
-    "fetch:repo:sas": "bun run mock/getRepositorySAS.ts",
-    "fetch:anime": "bun run mock/getAnime.ts",
-    "fetch:manga": "bun run mock/getManga.ts",
-    "fetch:steam": "bun run mock/getGame.ts",
+    "fetch:repo": "bun run ci/getRepository.ts",
+    "fetch:repo:sas": "bun run ci/getRepositorySAS.ts",
+    "fetch:anime": "bun run ci/getAnime.ts",
+    "fetch:manga": "bun run ci/getManga.ts",
+    "fetch:steam": "bun run ci/getGame.ts",
     "typecheck": "tsc --noEmit",
     "build:fresh": "rm -rf dist && rm -rf node_modules && bun run build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
     "@typescript-eslint/eslint-plugin": "^8.65.0",
     "@typescript-eslint/parser": "^8.65.0",
-    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue": "^6.0.8",
     "bun-types": "^1.3.14",
-    "dotenv": "^16.4.7",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.23.0",
-    "fast-xml-parser": "^4.5.1",
+    "dotenv": "^17.4.2",
+    "eslint": "^10.8.0",
+    "eslint-plugin-vue": "^10.10.0",
+    "fast-xml-parser": "^5.10.1",
     "moment": "^2.30.1",
-    "sass": "^1.83.0",
     "sharp": "^0.35.3",
-    "vite": "^6.0.7"
+    "vite": "^8.1.5"
   },
-  "keywords": [
-    "vuejs",
-    "minimalist",
-    "portfolio",
-    "sinkaroid"
-  ]
+  "engines": {
+    "bun": ">=1.3.14"
+  },
+  "packageManager": "bun@1.3.14"
 }
