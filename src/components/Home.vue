@@ -41,23 +41,6 @@
               <i class="fab fa-github"></i>
             </button>
 
-            <button
-              class="social-btn clickable"
-              @click="open('pypi')"
-              data-tooltip="PyPI"
-              aria-label="PyPI Packages"
-            >
-              <i class="fab fa-python"></i>
-            </button>
-
-            <button
-              class="social-btn clickable"
-              @click="open('npm')"
-              data-tooltip="npm"
-              aria-label="npm Packages"
-            >
-              <i class="fab fa-npm"></i>
-            </button>
 
             <button
               class="social-btn clickable"
@@ -70,11 +53,41 @@
 
             <button
               class="social-btn clickable"
+              @click="open('npm')"
+              data-tooltip="npm"
+              aria-label="npm Packages"
+            >
+              <i class="fab fa-npm"></i>
+            </button>
+
+
+            <button
+              class="social-btn clickable"
+              @click="open('pypi')"
+              data-tooltip="PyPI"
+              aria-label="PyPI Packages"
+            >
+              <i class="fab fa-python"></i>
+            </button>
+
+          
+            <button
+              class="social-btn clickable"
               @click="open('steam')"
               data-tooltip="Steam"
               aria-label="Steam Profile"
             >
               <i class="fab fa-steam"></i>
+            </button>
+
+
+            <button
+              class="social-btn clickable"
+              @click="open('paypal')"
+              data-tooltip="PayPal"
+              aria-label="PayPal"
+            >
+              <i class="fab fa-paypal"></i>
             </button>
 
             <button
@@ -88,11 +101,11 @@
 
             <button
               class="social-btn clickable"
-              @click="open('patreon')"
-              data-tooltip="Patreon"
-              aria-label="Patreon Campaign"
+              @click="open('telegram')"
+              data-tooltip="Telegram"
+              aria-label="Telegram"
             >
-              <i class="fab fa-patreon"></i>
+              <i class="fab fa-telegram"></i>
             </button>
           </div>
         </div>
@@ -278,23 +291,31 @@ const open = (platform) => {
 }
 
 .social-channels {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  justify-content: start;
   gap: var(--space-3);
   margin-top: var(--space-4);
+}
+
+@media (max-width: 576px) {
+  .social-channels {
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+  }
 }
 
 .social-btn {
   background: var(--card-border);
   border: 1px solid var(--card-border);
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   border-radius: var(--radius-md);
   color: var(--foreground);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }

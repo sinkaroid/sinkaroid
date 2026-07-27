@@ -154,6 +154,8 @@ const switchMode = () => {
   border: none;
   cursor: pointer;
   padding: 0;
+  z-index: 1001;
+  position: relative;
 }
 
 .hamburger-bar {
@@ -237,19 +239,22 @@ const switchMode = () => {
   }
 
   .navbar-menu {
-    position: absolute;
-    top: 55px;
-    right: var(--space-6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: var(--modal-bg);
-    border: 1px solid var(--card-border);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--card-shadow);
-    width: 200px;
-    padding: var(--space-4);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    width: 100vw;
+    height: 100vh;
+    padding: 100px var(--space-8) var(--space-8);
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-10px);
-    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: translateY(-12px);
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 999;
   }
 
   .navbar-menu.is-open {
@@ -260,14 +265,26 @@ const switchMode = () => {
 
   .navbar-links {
     flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-4);
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-8);
+    height: 100%;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
   }
 
   .theme-switch-item {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+  }
+
+  .theme-toggle {
+    width: 56px;
+    height: 56px;
+    font-size: 1.4rem;
   }
 }
 </style>

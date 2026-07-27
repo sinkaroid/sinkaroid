@@ -67,12 +67,13 @@ const info = {
         pypi: "https://pypi.org/user/sinkaroid/",
         docker: "https://github.com/sinkaroid?tab=packages",
         paypal: "https://paypal.me/sinkaroid",
-        patreon: "https://www.patreon.com/scathach_bot",
+        telegram: "https://t.me/sinksink",
         twitter: "https://twitter.com/sinkaroid",
         steam: "https://steamcommunity.com/id/sinkaroid",
         instagram: "https://instagram.com/sinkaroid",
         latest_commit: sha_commit,
         resume: "https://github.com/sinkaroid",
+        myanimelist: "https://myanimelist.net/profile/sinkaroid",
     },
     education: [
         {
