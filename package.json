@@ -12,6 +12,7 @@
     "fetch:repo:sas": "bun run mock/getRepositorySAS.ts",
     "fetch:anime": "bun run mock/getAnime.ts",
     "fetch:manga": "bun run mock/getManga.ts",
+    "fetch:steam": "bun run mock/getGame.ts",
     "typecheck": "tsc --noEmit",
     "build:fresh": "rm -rf dist && rm -rf node_modules && bun run build"
   },

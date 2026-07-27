@@ -94,7 +94,12 @@ const props = defineProps({
 const emit = defineEmits(["show"]);
 
 const tags = computed(() => {
-  return props.portfolio.technologies || props.portfolio.tag || [];
+  return (
+    props.portfolio.tags ||
+    props.portfolio.technologies ||
+    props.portfolio.tag ||
+    []
+  );
 });
 
 const visitUrl = computed(() => {

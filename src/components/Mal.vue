@@ -13,6 +13,13 @@
       <div class="capsule-tabs">
         <button
           class="tab-btn clickable"
+          :class="{ 'active': activeTab === 'game' }"
+          @click="activeTab = 'game'"
+        >
+          <i class="fas fa-gamepad"></i> Last played
+        </button>
+        <button
+          class="tab-btn clickable"
           :class="{ 'active': activeTab === 'anime' }"
           @click="activeTab = 'anime'"
         >
@@ -73,6 +80,29 @@
       </Transition>
     </Teleport>
 
+    <!-- Tab 0: Last Played (Steam) -->
+    <div v-if="activeTab === 'game'" class="tab-content">
+      <div class="row">
+        <div
+          class="col-xl-4 col-md-6 col-12 mb-4 card-enter"
+          v-for="(item, idx) in displayedGame"
+          :key="item.appID"
+          :style="{ animationDelay: `${idx * 0.1}s` }"
+        >
+          <Card
+            :portfolio="item"
+            @show="showModalFn"
+            :nightMode="nightMode"
+          />
+        </div>
+      </div>
+      <div class="text-center py-4" v-if="hasMoreGame">
+        <button class="btn-secondary clickable btn-enter" @click="showMore">
+          Load More
+        </button>
+      </div>
+    </div>
+
     <!-- Tab 1: Anime List -->
     <div v-if="activeTab === 'anime'" class="tab-content">
       <div class="row">
@@ -119,9 +149,16 @@
       </div>
     </div>
 
-    <!-- Details Modal (Newspaper style for MAL) -->
+    <!-- Details Modal: Game uses GameModal, Anime/Manga use MalModal -->
+    <GameModal
+      v-if="activeTab === 'game' && showModal"
+      :showModal="showModal"
+      :portfolio="modal_info"
+      :nightMode="nightMode"
+      @close="closeModal"
+    />
     <MalModal
-      v-if="showModal"
+      v-else-if="showModal"
       :showModal="showModal"
       :portfolio="modal_info"
       :nightMode="nightMode"
@@ -134,11 +171,13 @@
 import { ref, computed, watch } from "vue";
 import Card from "./helpers/Card.vue";
 import MalModal from "./helpers/MalModal.vue";
+import GameModal from "./helpers/GameModal.vue";
 import { randomGradient } from "../composables/useRandomGradient";
 
 // Import locally generated metadata
 import animeData from "../../mock/data_anime.json";
 import mangaData from "../../mock/data_manga.json";
+import gameData from "../../mock/data_game.json";
 
 const titleGradient = ref(randomGradient());
 
@@ -155,12 +194,25 @@ watch(() => props.nightMode, () => {
 
 const animeList = animeData.data || [];
 const mangaList = mangaData.data_manga || [];
+const gameList = (gameData.data || []).map((game) => ({
+    ...game,
+    title: game.name,
+    link: game.storeLink,
+    image: game.header,
+    pictures: [{ img: game.header }],
+    description: game.shortDescription || game.description,
+    tag: [
+        `${Math.floor(game.playtimeForever / 60)}h played`,
+        `last ${game.timeago}`
+    ]
+}));
 
-const activeTab = ref("anime");
+const activeTab = ref("game");
 const showActionSheet = ref(false);
 const tabItems = [
-  { id: "anime", label: "Anime", icon: "fas fa-tv" },
-  { id: "manga", label: "Manga", icon: "fas fa-book-open" }
+    { id: "game", label: "Last played", icon: "fas fa-gamepad" },
+    { id: "anime", label: "Anime", icon: "fas fa-tv" },
+    { id: "manga", label: "Manga", icon: "fas fa-book-open" }
 ];
 
 const currentTab = computed(() => {
@@ -175,29 +227,40 @@ const selectTab = (id) => {
 // Load More State
 const animeLimit = ref(3);
 const mangaLimit = ref(3);
+const gameLimit = ref(3);
 
 const displayedAnime = computed(() => {
-  return animeList.slice(0, animeLimit.value);
+    return animeList.slice(0, animeLimit.value);
 });
 
 const displayedManga = computed(() => {
-  return mangaList.slice(0, mangaLimit.value);
+    return mangaList.slice(0, mangaLimit.value);
+});
+
+const displayedGame = computed(() => {
+    return gameList.slice(0, gameLimit.value);
 });
 
 const hasMoreAnime = computed(() => {
-  return animeLimit.value < animeList.length;
+    return animeLimit.value < animeList.length;
 });
 
 const hasMoreManga = computed(() => {
-  return mangaLimit.value < mangaList.length;
+    return mangaLimit.value < mangaList.length;
+});
+
+const hasMoreGame = computed(() => {
+    return gameLimit.value < gameList.length;
 });
 
 const showMore = () => {
-  if (activeTab.value === "anime") {
-    animeLimit.value = Math.min(animeLimit.value + 3, animeList.length);
-  } else {
-    mangaLimit.value = Math.min(mangaLimit.value + 3, mangaList.length);
-  }
+    if (activeTab.value === "anime") {
+        animeLimit.value = Math.min(animeLimit.value + 3, animeList.length);
+    } else if (activeTab.value === "manga") {
+        mangaLimit.value = Math.min(mangaLimit.value + 3, mangaList.length);
+    } else if (activeTab.value === "game") {
+        gameLimit.value = Math.min(gameLimit.value + 3, gameList.length);
+    }
 };
 
 // Modal Handling

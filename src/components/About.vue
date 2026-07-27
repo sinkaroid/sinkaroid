@@ -1,7 +1,7 @@
 <template>
   <section class="section about-section" id="about">
     <div class="section-header">
-      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Sigil & True Name & 真の卍解</h2>
+      <h2 class="section-title" :style="{ backgroundImage: titleGradient }">Sigil & Codename</h2>
       <p class="section-subtitle">
         Every rune tells a story. The name I bear and the craft I wield. Where identity meets craftsmanship, and every quest leaves its mark.
       </p>

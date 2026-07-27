@@ -1,30 +1,36 @@
-name: Retrieve sinkaroid info
+name: Cron and retrieve sinkaroid data
 
 on:
-  create:
+  push:
     branches:
       - master
-  push:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
     steps:
       - uses: actions/checkout@v3
         with:
           persist-credentials: false
           fetch-depth: 0
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
       - name: Install dependencies
-        run: npm i
+        run: bun install --frozen-lockfile
+      - name: Fetch anime
+        run: bun run mock/getAnime.ts
+      - name: Fetch manga
+        run: bun run mock/getManga.ts
+      - name: Fetch game
+        run: STEAM_API_KEY=${{ secrets.STEAM_API_KEY }} bun run mock/getGame.ts
       - name: Fetch repository
-        run: node mock/getRepository.js ${{ secrets.GH_TOKEN }}
-      - name: Fetch mal rss
-        run: npm run fetch:mal
+        run: bun run mock/getRepository.ts ${{ secrets.GH_TOKEN }}
+      - name: Fetch repository SAS
+        run: bun run mock/getRepositorySAS.ts ${{ secrets.GH_TOKEN }}
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
