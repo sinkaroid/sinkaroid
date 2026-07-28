@@ -69,6 +69,7 @@ export default [
             semi: ["error", "always"],
             quotes: ["error", "double"],
             indent: ["error", 4, { SwitchCase: 0 }],
+            "no-useless-assignment": "off",
             "no-unused-vars": "warn",
             "vue/multi-word-component-names": "off",
             "prefer-const": "off",
