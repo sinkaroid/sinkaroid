@@ -124,11 +124,8 @@ const switchMode = () => {
   top: 0;
   inset-inline: 0;
   height: 70px;
-  background: var(--card-bg);
-  border-bottom: 1px solid var(--card-border);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
-  backdrop-filter: var(--card-blur);
-  -webkit-backdrop-filter: var(--card-blur);
+  background: var(--bg-app);
+  border-bottom: 1px solid var(--border);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -207,8 +204,8 @@ const switchMode = () => {
 }
 
 .theme-toggle {
-  background: var(--card-border);
-  border: 1px solid var(--card-border);
+  background: var(--bg-app);
+  border: 1px solid var(--border);
   width: 38px;
   height: 38px;
   border-radius: 50%;

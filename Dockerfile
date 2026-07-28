@@ -1,18 +1,17 @@
-FROM node:16-bullseye as build-stage
+# syntax=docker/dockerfile:1.7
 
 ## build stage
-RUN npm install -g http-server
+FROM oven/bun:1.3.14-alpine AS build-stage
 WORKDIR /app
-COPY . ./
-RUN mv auth.js config.js
-RUN mv .env.schema .env
-RUN npm install --legacy-peer-deps
-RUN ls
+
+COPY package.json bun.lock ./
+RUN bun install --frozen-lockfile
+
 COPY . .
-RUN npm run build
+RUN bun run build
 
 ## prod stage
-FROM nginx:stable-alpine as production-stage
+FROM nginx:stable-alpine AS production-stage
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
