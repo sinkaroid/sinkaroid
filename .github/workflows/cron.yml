@@ -1,11 +1,9 @@
 name: Cron and retrieve sinkaroid data
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 11 * * *"
 
 jobs:
   build:
