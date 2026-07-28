@@ -1,6 +1,51 @@
 {
-    "last_sync": "2026-07-28, 05:37:55",
+    "last_sync": "2026-07-28, 09:50:16",
     "data": [
+        {
+            "name": "statusflare",
+            "pictures": [
+                {
+                    "img": "/assets/sas/statusflare_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Astro",
+                "CSS",
+                "JavaScript"
+            ],
+            "category": "TypeScript",
+            "date": "June 03, 2026 (Updated: an hour ago)",
+            "github": "https://github.com/ScathachGrip/statusflare",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://statusflare.sinxdr.workers.dev",
+            "description": "Cloudflare Workers + Astro status page with KV monitoring",
+            "commit": "83fd6f4b070e9d6956b5b25003833fe992da4444",
+            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/83fd6f4b070e9d6956b5b25003833fe992da4444",
+            "release": "v7.1.5-alpha",
+            "last_commit_date": "2026-07-28T09:02:09Z"
+        },
+        {
+            "name": "XTwitterFavScrape",
+            "pictures": [
+                {
+                    "img": "/assets/sas/XTwitterFavScrape_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript"
+            ],
+            "category": "JavaScript",
+            "date": "April 16, 2026 (Updated: an hour ago)",
+            "github": "https://github.com/ScathachGrip/XTwitterFavScrape",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://github.com/ScathachGrip/XTwitterFavScrape",
+            "description": "Twitter / X automated bookmarks and fav scraper",
+            "commit": "0fe16b2989a51cf884ccce7a02dc07fda2919913",
+            "link_commit": "https://github.com/ScathachGrip/XTwitterFavScrape/commit/0fe16b2989a51cf884ccce7a02dc07fda2919913",
+            "release": "pre-release",
+            "last_commit_date": "2026-07-28T08:58:16Z"
+        },
         {
             "name": "scathachbot.xyz",
             "pictures": [
@@ -18,7 +63,7 @@
                 "Dockerfile"
             ],
             "category": "Vue",
-            "date": "February 26, 2023 (Updated: 2 days ago)",
+            "date": "February 26, 2023 (Updated: 3 days ago)",
             "github": "https://github.com/ScathachGrip/scathachbot.xyz",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://scathachbot.xyz",
@@ -102,30 +147,6 @@
             "last_commit_date": "2026-07-17T14:41:45Z"
         },
         {
-            "name": "statusflare",
-            "pictures": [
-                {
-                    "img": "/assets/sas/statusflare_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Astro",
-                "CSS",
-                "JavaScript"
-            ],
-            "category": "TypeScript",
-            "date": "June 03, 2026 (Updated: 13 days ago)",
-            "github": "https://github.com/ScathachGrip/statusflare",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://statusflare.sinxdr.workers.dev",
-            "description": "Cloudflare Workers + Astro status page with KV monitoring",
-            "commit": "6e4f62d1078d6c7999da0f8611201febb75cc890",
-            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/6e4f62d1078d6c7999da0f8611201febb75cc890",
-            "release": "v7.1.0-alpha",
-            "last_commit_date": "2026-07-15T01:44:51Z"
-        },
-        {
             "name": "buster",
             "pictures": [
                 {
@@ -158,7 +179,7 @@
                 "CSS"
             ],
             "category": "JavaScript",
-            "date": "May 10, 2026 (Updated: a day ago)",
+            "date": "May 10, 2026 (Updated: 2 days ago)",
             "github": "https://github.com/ScathachGrip/dispatcher-telemetry",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://devops.scathach.id",
@@ -229,7 +250,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 19, 2026 (Updated: a day ago)",
+            "date": "April 19, 2026 (Updated: 2 days ago)",
             "github": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
@@ -238,27 +259,6 @@
             "link_commit": "https://github.com/ScathachGrip/XPixivBookmarkScrape/commit/5b4d599c4ff88ad3c6313f66746bffa4e5efdc13",
             "release": "pre-release",
             "last_commit_date": "2026-04-19T13:52:31Z"
-        },
-        {
-            "name": "XTwitterFavScrape",
-            "pictures": [
-                {
-                    "img": "/assets/sas/XTwitterFavScrape_master.webp"
-                }
-            ],
-            "technologies": [
-                "JavaScript"
-            ],
-            "category": "JavaScript",
-            "date": "April 16, 2026 (Updated: a day ago)",
-            "github": "https://github.com/ScathachGrip/XTwitterFavScrape",
-            "bahasa": "https://skillicons.dev/icons?i=js",
-            "visit": "https://github.com/ScathachGrip/XTwitterFavScrape",
-            "description": "Twitter / X automated bookmarks and fav scraper",
-            "commit": "f55cc4a7e357ca7c5053d0ae709c7fe01897f4ec",
-            "link_commit": "https://github.com/ScathachGrip/XTwitterFavScrape/commit/f55cc4a7e357ca7c5053d0ae709c7fe01897f4ec",
-            "release": "pre-release",
-            "last_commit_date": "2026-04-16T14:08:02Z"
         },
         {
             "name": "SSHfier",
@@ -271,7 +271,7 @@
                 "Shell"
             ],
             "category": "Shell",
-            "date": "October 28, 2025 (Updated: a day ago)",
+            "date": "October 28, 2025 (Updated: 2 days ago)",
             "github": "https://github.com/ScathachGrip/SSHfier",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/ScathachGrip/SSHfier",
@@ -296,7 +296,7 @@
                 "Java"
             ],
             "category": "Vue",
-            "date": "August 12, 2023 (Updated: a day ago)",
+            "date": "August 12, 2023 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/enikk",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://github.com/sinkaroid/enikk",
@@ -363,7 +363,7 @@
                 "HTML"
             ],
             "category": "JavaScript",
-            "date": "January 16, 2025 (Updated: a day ago)",
+            "date": "January 16, 2025 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/enikk_rock_counter",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://enikkr.scathach.id",
@@ -384,7 +384,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "July 09, 2023 (Updated: a day ago)",
+            "date": "July 09, 2023 (Updated: 2 days ago)",
             "github": "https://github.com/ScathachGrip/aiserver",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/ScathachGrip/aiserver",
@@ -451,7 +451,7 @@
                 "asyncio"
             ],
             "category": "Python",
-            "date": "July 04, 2021 (Updated: a day ago)",
+            "date": "July 04, 2021 (Updated: 2 days ago)",
             "github": "https://github.com/sinkaroid/Scathachgram",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/Scathachgram",
@@ -562,5 +562,5 @@
             "last_commit_date": "2019-07-16T06:22:42Z"
         }
     ],
-    "sha_commit": "f11b88ef7d59316886cb3ace54aae9c6c5c54f1e"
+    "sha_commit": "9704cdc76f74f59b325c831956bb523f89da525b"
 }
