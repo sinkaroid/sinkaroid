@@ -37,3 +37,4 @@ CHANGELOG.md
 .agents/**/*.ts
 .agents/**/*.py
 .agents/**/*.pyc
+auto-commit.md
