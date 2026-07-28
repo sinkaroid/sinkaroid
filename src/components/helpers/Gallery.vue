@@ -1,228 +1,304 @@
 <template>
-  <div style="overflow: auto">
-    <div class="prow">
+  <div class="gallery-container">
+    <div class="gallery-grid">
       <div
-        class="pcolumn"
-        v-for="(i, idx) in images"
-        :key="i.title"
-        :class="{
-          flex: design ? '100%' : '50%',
-          '-ms-flex': design ? '100%' : '50%',
-          'max-width': design ? '100%' : '50%',
-        }"
+        v-for="(image, idx) in images"
+        :key="image.title || idx"
+        class="gallery-item-wrapper"
+        :class="{ 'full-width': design || images.length === 1 }"
       >
-        <img
-          :src="i.img"
-          style="width: 100%"
-          :id="`gi${idx}`"
-          @click="showImg(idx)"
-          class="g-img"
-        />
-        <div class="mt-1">
-          <p style="font-weight: 500">{{ i.title }}</p>
+        <div
+          class="gallery-image-card"
+          :class="{ 'single-image': images.length === 1 }"
+          @click="openLightbox(idx)"
+        >
+          <img
+            :src="image.img"
+            :alt="image.title"
+            class="gallery-image clickable"
+            loading="lazy"
+          >
+          <div
+            v-if="image.title"
+            class="gallery-caption-overlay"
+          >
+            <span class="gallery-image-title">{{ image.title }}</span>
+          </div>
         </div>
       </div>
     </div>
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="modalImg" />
-      <div id="caption"></div>
-    </div>
+
+    <!-- Lightbox Modal -->
+    <Teleport to="body">
+      <Transition name="fade">
+        <div
+          v-if="lightboxOpen"
+          class="lightbox-overlay"
+          @click.self="closeLightbox"
+        >
+          <button
+            class="lightbox-close clickable"
+            aria-label="Close lightbox"
+            @click="closeLightbox"
+          >
+            <i class="fas fa-times" />
+          </button>
+          
+          <button 
+            v-if="images.length > 1" 
+            class="lightbox-nav prev clickable" 
+            aria-label="Previous image"
+            @click="prevImage"
+          >
+            <i class="fas fa-chevron-left" />
+          </button>
+
+          <div class="lightbox-content">
+            <img 
+              :src="images[activeIdx].img" 
+              :alt="images[activeIdx].title" 
+              class="lightbox-image" 
+            >
+            <p
+              v-if="images[activeIdx].title"
+              class="lightbox-caption"
+            >
+              {{ images[activeIdx].title }}
+            </p>
+          </div>
+
+          <button 
+            v-if="images.length > 1" 
+            class="lightbox-nav next clickable" 
+            aria-label="Next image"
+            @click="nextImage"
+          >
+            <i class="fas fa-chevron-right" />
+          </button>
+        </div>
+      </Transition>
+    </Teleport>
   </div>
 </template>
 
-<script>
-export default {
-  name: "Gallery",
-  props: {
-    images: {
-      type: Array,
-    },
-    design: {
-      type: Boolean,
-    },
-  },
-  data() {
-    return {
-      modal: null,
-    };
-  },
-  methods: {
-    showImg(idx) {
-      var modal = document.getElementById("myModal");
-      var img = document.getElementById(`gi${idx}`);
-      var modalImg = document.getElementById("modalImg");
-      modal.style.display = "block";
-      modalImg.src = img.src;
+<script setup>
+import { ref } from "vue";
 
-      var span = document.getElementsByClassName("close")[0];
-
-      span.onclick = function () {
-        modalImg.classList.add("closeModal");
-        modal.classList.add("modalClose");
-        setTimeout(() => {
-          modal.style.display = "none";
-          modalImg.classList.remove("closeModal");
-          modal.classList.remove("modalClose");
-        }, 200);
-      };
-    },
+const props = defineProps({
+  images: {
+    type: Array,
+    default: () => []
   },
+  design: {
+    type: Boolean,
+    default: false
+  }
+});
+
+const lightboxOpen = ref(false);
+const activeIdx = ref(0);
+
+const openLightbox = (idx) => {
+  activeIdx.value = idx;
+  lightboxOpen.value = true;
+  document.body.style.overflow = "hidden";
+};
+
+const closeLightbox = () => {
+  lightboxOpen.value = false;
+  document.body.style.overflow = "";
+};
+
+const nextImage = () => {
+  activeIdx.value = (activeIdx.value + 1) % props.images.length;
+};
+
+const prevImage = () => {
+  activeIdx.value = (activeIdx.value - 1 + props.images.length) % props.images.length;
 };
 </script>
 
 <style scoped>
-.prow {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.pcolumn img {
-  border-radius: 5px;
-  margin-top: 8px;
-  vertical-align: middle;
+.gallery-container {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .pcolumn {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+}
+
+.gallery-item-wrapper.full-width {
+  grid-column: span 2;
+}
+
+@media (max-width: 576px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  .gallery-item-wrapper.full-width {
+    grid-column: span 1;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .pcolumn {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-.g-img {
+.gallery-image-card {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   cursor: pointer;
-  transition: all 0.5s;
-}
-.g-img:hover {
-  opacity: 0.7;
+  aspect-ratio: 16/10;
+  background: rgba(0, 0, 0, 0.05);
 }
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
-  transition: all 0.5s;
-  animation-name: modalOpen;
-  animation-duration: 0.2s;
+.gallery-image-card.single-image {
+  aspect-ratio: auto;
+  background: transparent;
 }
 
-@keyframes modalOpen {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes modalClose {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
+.gallery-image {
   width: 100%;
-  max-width: 1200px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
 }
 
-/* Add Animation */
-.modal-content,
-#caption {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.2s;
-  animation-name: zoom;
-  animation-duration: 0.2s;
+.gallery-image-card.single-image .gallery-image {
+  height: auto;
+  object-fit: contain;
 }
 
-@keyframes zoom {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.gallery-image-card:hover .gallery-image {
+  transform: scale(1.04);
 }
 
-/* The Close Button */
-.close {
+.gallery-caption-overlay {
   position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+  bottom: 0;
+  inset-inline: 0;
+  background: linear-gradient(to top, rgba(9, 9, 11, 0.8) 0%, rgba(9, 9, 11, 0) 100%);
+  padding: var(--space-3);
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.closeModal {
-  animation-name: zoomClose;
-  animation-duration: 0.2s;
+.gallery-image-card:hover .gallery-caption-overlay {
+  opacity: 1;
 }
 
-@keyframes zoomClose {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+.gallery-image-title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
+/* Lightbox styles */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(9, 9, 11, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.lightbox-caption {
+  color: #fafafa;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background: transparent;
+  border: none;
+  color: #fafafa;
+  font-size: 1.8rem;
+  opacity: 0.7;
   cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s;
+  z-index: 100001;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
-  .modal-content {
-    width: 95%;
+.lightbox-close:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 100001;
+}
+
+.lightbox-nav:hover {
+  background: rgba(255, 255, 255, 0.15);
+  scale: 1.05;
+}
+
+.lightbox-nav.prev { left: 2rem; }
+.lightbox-nav.next { right: 2rem; }
+
+@media (max-width: 768px) {
+  .lightbox-nav {
+    display: none; /* Hide nav arrows on touch devices (user can tap or click easily) */
   }
+}
+
+/* Transitions */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

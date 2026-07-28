@@ -1,53 +1,42 @@
 {
   "name": "sinkaroid",
-  "version": "3.0.3-dev",
+  "version": "4.0.0-alpha",
   "description": "A general purpose Vue.js portfolio template.",
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "fetch:repo": "node mock/getRepository.js",
-    "fetch:mal": "node mock/getAnime.js && node mock/getManga.js",
-    "build:fresh": "rm -rf dist && rm -rf node_modules && npm run build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.ts,.vue src ci",
+    "fetch:repo": "bun run ci/getRepository.ts",
+    "fetch:repo:sas": "bun run ci/getRepositorySAS.ts",
+    "fetch:anime": "bun run ci/getAnime.ts",
+    "fetch:manga": "bun run ci/getManga.ts",
+    "fetch:steam": "bun run ci/getGame.ts",
+    "typecheck": "tsc --noEmit",
+    "build:fresh": "rm -rf dist && rm -rf node_modules && bun run build"
   },
   "dependencies": {
-    "@inotom/vue-go-top": "^1.3.0",
-    "aos": "^3.0.0-beta.6",
-    "axios": "^1.2.1",
-    "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "core-js": "^3.6.4",
-    "emailjs-com": "^2.4.1",
-    "fast-xml-parser": "^4.0.12",
-    "lscache": "^1.3.2",
-    "material-icons": "^0.3.1",
-    "serve": "^11.3.0",
-    "v-tooltip": "^2.0.3",
-    "vue": "^2.6.11",
-    "vue-cookie": "^1.1.4",
-    "vue-nav-tabs": "^0.5.7",
-    "vue-particles": "^1.0.9",
-    "vue-router": "^3.3.4",
-    "vue-scrollto": "^2.18.1",
-    "vue-selector": "0.0.1",
-    "vueperslides": "^2.10.2"
+    "@emailjs/browser": "^4.4.1",
+    "vue": "^3.5.13",
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-eslint": "~4.3.0",
-    "@vue/cli-service": "~4.3.0",
-    "babel-eslint": "^10.1.0",
-    "dotenv-webpack": "^8.0.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "moment": "^2.29.3",
-    "sass": "^1.53.0",
-    "sass-loader": "10.1.1",
-    "webpack": "^4.45.0"
+    "@resvg/resvg-js": "^2.6.2",
+    "@typescript-eslint/eslint-plugin": "^8.65.0",
+    "@typescript-eslint/parser": "^8.65.0",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "bun-types": "^1.3.14",
+    "dotenv": "^17.4.2",
+    "eslint": "^10.8.0",
+    "eslint-plugin-vue": "^10.10.0",
+    "fast-xml-parser": "^5.10.1",
+    "moment": "^2.30.1",
+    "sharp": "^0.35.3",
+    "vite": "^8.1.5"
   },
-  "keywords": [
-    "vuejs",
-    "minimalist",
-    "portfolio",
-    "sinkaroid"
-  ]
+  "engines": {
+    "bun": ">=1.3.14"
+  },
+  "packageManager": "bun@1.3.14"
 }

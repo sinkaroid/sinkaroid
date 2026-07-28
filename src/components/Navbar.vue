@@ -1,156 +1,297 @@
 <template>
-  <div>
-    <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top p-st"
-      :class="{
-        'bg-light': !nightMode,
-        'navbar-blur': navbarConfig.blur,
-        'bg-dark2': nightMode,
-      }"
-    >
-      <div class="container">
-        <a
-          class="navbar-brand"
-          href="/"
-          @click.prevent="$emit('scroll', 'home')"
-        >
-          <Logo :nightMode="nightMode" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span style="color: gray; font-size: 23px"
-            ><i class="fas fa-bars"></i
-          ></span>
-        </button>
+  <nav class="navbar-glass">
+    <div class="navbar-container">
+      <!-- Logo branding -->
+      <a
+        class="navbar-brand clickable"
+        href="/"
+        @click.prevent="$emit('scroll', 'home')"
+      >
+        <Logo :night-mode="nightMode" />
+      </a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <h4>
-              <li class="nav-item mx-2">
-                <a
-                  class="nav-link"
-                  href="/about"
-                  @click.prevent="$emit('scroll', 'about')"
-                  :class="{ 'text-light': nightMode }"
-                  ><i class="fa fa-comments" aria-hidden="true"></i> about</a
-                >
-              </li>
-            </h4>
-            <h4>
-              <li class="nav-item mx-2">
-                <a
-                  class="nav-link"
-                  href="/skills"
-                  @click.prevent="$emit('scroll', 'skills')"
-                  :class="{ 'text-light': nightMode }"
-                  ><i class="fa fa-bolt" aria-hidden="true"></i> skills</a
-                >
-              </li>
-            </h4>
-            <h4>
-              <li class="nav-item mx-2">
-                <a
-                  class="nav-link"
-                  href="/portfolio"
-                  @click.prevent="$emit('scroll', 'portfolio')"
-                  :class="{ 'text-light': nightMode }"
-                  ><i class="fa fa-rocket" aria-hidden="true"></i> portfolio</a
-                >
-              </li>
-            </h4>
-            <h4>
-              <li class="nav-item mx-2">
-                <a
-                  class="nav-link"
-                  href="/contact"
-                  @click.prevent="$emit('scroll', 'contact')"
-                  :class="{ 'text-light': nightMode }"
-                  ><i class="fa fa-share" aria-hidden="true"></i> contact</a
-                >
-              </li>
-            </h4>
-            <h4>
-              <li class="nav-item ml-2">
-                <a
-                  class="nav-link"
-                  href="#"
-                  @click.prevent="switchMode"
-                  :class="{ 'text-light': nightMode }"
-                  ><i
-                    :class="{
-                      'fas fa-moon': nightMode,
-                      'fas fa-cloud-sun': !nightMode,
-                    }"
-                    v-tooltip.bottom="nightMode ? 'Light Mode' : 'Night Mode'"
-                  ></i
-                ></a>
-              </li>
-            </h4>
-          </ul>
-        </div>
+      <!-- Mobile Hamburger toggle button -->
+      <button 
+        class="navbar-toggle clickable" 
+        :class="{ 'is-active': isMenuOpen }" 
+        aria-label="Toggle navigation menu"
+        aria-expanded="isMenuOpen"
+        @click="toggleMenu"
+      >
+        <span class="hamburger-bar" />
+        <span class="hamburger-bar" />
+        <span class="hamburger-bar" />
+      </button>
+
+      <!-- Navigation links (Collapse) -->
+      <div
+        class="navbar-menu"
+        :class="{ 'is-open': isMenuOpen }"
+      >
+        <ul class="navbar-links">
+          <li class="nav-item">
+            <a 
+              class="nav-link clickable" 
+              href="/about" 
+              @click.prevent="navigate('about')"
+            >
+              <i class="fa fa-user-circle" /> about
+            </a>
+          </li>
+          <li class="nav-item">
+            <a 
+              class="nav-link clickable" 
+              href="/skills" 
+              @click.prevent="navigate('skills')"
+            >
+              <i class="fa fa-bolt" /> skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link clickable"
+              href="/portfolio"
+              @click.prevent="navigate('portfolio')"
+            >
+              <i class="fa fa-rocket" /> portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link clickable"
+              href="/activity"
+              @click.prevent="navigate('activity')"
+            >
+              <i class="fa fa-chart-line" /> activity
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link clickable"
+              href="/contact"
+              @click.prevent="navigate('contact')"
+            >
+              <i class="fa fa-envelope" /> contact
+            </a>
+          </li>
+          <!-- Theme switch button -->
+          <li class="nav-item theme-switch-item">
+            <button 
+              class="theme-toggle clickable" 
+              aria-label="Switch visual theme"
+              @click="switchMode"
+            >
+              <i :class="nightMode ? 'fas fa-sun' : 'fas fa-moon'" />
+            </button>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </template>
 
-<script>
-import Logo from "./helpers/Logo";
-import info from "../../mock/mockRepository";
+<script setup>
+import { ref } from "vue";
+import Logo from "./helpers/Logo.vue";
 
-export default {
-  name: "Navbar",
-  props: {
-    nightMode: {
-      type: Boolean,
-    },
-  },
-  data() {
-    return {
-      navbarConfig: info.config.navbar,
-      localNightMode: this.nightMode,
-    };
-  },
-  components: {
-    Logo,
-  },
-  methods: {
-    switchMode() {
-      this.localNightMode = !this.localNightMode;
-      this.$emit("nightMode", this.localNightMode);
-    },
-  },
+const props = defineProps({
+  nightMode: {
+    type: Boolean,
+    default: false
+  }
+});
+
+const emit = defineEmits(["scroll", "nightMode"]);
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
+
+const navigate = (section) => {
+  isMenuOpen.value = false;
+  emit("scroll", section);
+};
+
+const switchMode = () => {
+  emit("nightMode", !props.nightMode);
 };
 </script>
 
 <style scoped>
+.navbar-glass {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  height: 70px;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--card-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+  backdrop-filter: var(--card-blur);
+  -webkit-backdrop-filter: var(--card-blur);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26px;
+  height: 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+  position: relative;
+}
+
+.hamburger-bar {
+  width: 100%;
+  height: 2px;
+  background: var(--foreground);
+  border-radius: var(--radius-full);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: var(--space-6);
+}
+
 .nav-link {
-  font-weight: 500;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  transition: color 0.25s ease;
+  text-transform: capitalize;
 }
 
-button {
-  border: none;
-  outline: none;
+.nav-link i {
+  font-size: 0.85rem;
+  color: var(--muted-foreground);
+  transition: color 0.25s ease;
 }
 
-button:hover {
-  border: none;
-  outline: none;
+.nav-link:hover {
+  color: var(--accent);
 }
 
-nav {
-  border-bottom: 1px solid rgba(160, 159, 159, 0.336);
-  position: fixed !important;
+.nav-link:hover i {
+  color: var(--accent);
 }
 
-.navbar-blur {
-  background-color: #ffffff7e;
-  backdrop-filter: blur(12px);
+.theme-toggle {
+  background: var(--card-border);
+  border: 1px solid var(--card-border);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.theme-toggle:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  transform: rotate(30deg);
+}
+
+/* Mobile responsive menu */
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: flex;
+  }
+
+  .navbar-toggle.is-active .hamburger-bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .navbar-toggle.is-active .hamburger-bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-toggle.is-active .hamburger-bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navbar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--modal-bg);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    width: 100vw;
+    height: 100vh;
+    padding: 100px var(--space-8) var(--space-8);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-12px);
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 999;
+  }
+
+  .navbar-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-8);
+    height: 100%;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .theme-switch-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .theme-toggle {
+    width: 56px;
+    height: 56px;
+    font-size: 1.4rem;
+  }
 }
 </style>

@@ -1,243 +1,305 @@
 <template>
-  <div class="my-3 mx-3">
-    <div
-      class="pcard smcard"
-      :class="{
-        'pcard-dark': nightMode,
-        pcard: !nightMode,
-        'bg-dark3': nightMode,
-      }"
-    >
-      <div style="height: 180px">
+  <div class="card-wrapper">
+    <div class="bento-card card-component">
+      <!-- Image cover area -->
+      <div class="card-image-container">
         <img
-          class="card-img-top"
-          :src="portfolio.pictures[0].img"
-          alt="Card image cap"
-        />
+          class="card-img"
+          :src="portfolio.pictures && portfolio.pictures[0] ? portfolio.pictures[0].img : '/icon.png'"
+          :alt="portfolio.name || portfolio.title"
+          loading="lazy"
+        >
         
-        <img class="lang" :src="portfolio.bahasa" />
-        
-        
-      </div>
-      <div class="card-body"> <!--  pborder-top | bajingan -->
-        <h5 class="title2"><b>{{ portfolio.name }}</b> </h5>
-        <div>
-          <div class="pb-1 bheight">
-            <span
-              class="badge mr-2 mb-2"
-              v-for="tech in portfolio.technologies"
-              :key="tech"
-              :class="{ 'bg-dark4': nightMode }"
-              >{{ tech }}</span
-            >
-          </div>
-          <p
-            class="title3 m-0 pb-2"
-            v-html="
-              portfolio.description.length > 40
-                ? portfolio.description.substring(0, 45) + '...'
-                : portfolio.description
-            "
-          >
-        </p>
-       
+        <!-- Score/Rating overlay (for Anime/Manga) -->
+        <div
+          v-if="portfolio.score"
+          class="score-badge"
+        >
+          <i class="fas fa-star" /> {{ portfolio.score }}
         </div>
-        <div class="text-center mt-2">
+
+        <!-- Language icon overlay (for Repositories) -->
+        <img
+          v-if="portfolio.bahasa"
+          class="lang-icon"
+          :src="portfolio.bahasa"
+          alt="language"
+        >
+      </div>
+
+      <!-- Content area -->
+      <div class="card-content">
+        <h4 class="card-title">
+          {{ portfolio.name || portfolio.title }}
+        </h4>
+        
+        <!-- Tags/Tech Pills -->
+        <div class="card-tags-scroll">
+          <span
+            v-for="tech in tags"
+            :key="tech"
+            class="badge"
+          >
+            {{ tech }}
+          </span>
+        </div>
+
+        <p class="card-description">
+          {{ truncatedDescription }}
+        </p>
+
+        <!-- Actions -->
+        <div class="card-actions">
           <button
-          style="border-radius: 10px;"
-            href=""
-            class="btn-sm btn btn-outline-secondary no-outline"
+            class="btn-secondary clickable"
             @click.prevent="showModal"
           >
-          <i class="fas fa-search"></i> read more
+            <i class="fas fa-search" /> Details
           </button>
-          <button
-          style="border-radius: 10px;"
-            href="#"
-            class="btn-sm btn btn-outline-secondary no-outline ml-4"
-            v-if="portfolio.visit"
-            @click.prevent="open(portfolio.visit)"
+          
+          <a
+            v-if="visitUrl"
+            :href="visitUrl"
+            target="_blank"
+            class="btn-primary clickable"
+            style="font-size: 0.8rem; padding: 6px 12px;"
           >
-          <i class="fas fa-external-link-alt"></i> visit website
-          </button>
+            <i class="fas fa-external-link-alt" /> Go
+          </a>
         </div>
       </div>
-      <p style="text-align: center; margin-top: -10px;">
-          <button class="btn-sm btn btn-outline-secondary no-outline" @click="open(portfolio.link_commit)"
-          style="border-radius: 10px;">
-              <i class="fas fa-code-commit"></i> {{ portfolio.release }}
-            </button>
-          </p>
+
+      <!-- Card footer (Commit/Release) -->
+      <div
+        v-if="portfolio.release || portfolio.timeago"
+        class="card-footer-info"
+      >
+        <a 
+          v-if="portfolio.link_commit" 
+          :href="portfolio.link_commit" 
+          target="_blank"
+          class="commit-link clickable"
+        >
+          <i class="fas fa-code-branch" /> {{ portfolio.release || 'Commit' }}
+        </a>
+        <span
+          v-else
+          class="timeago-info"
+        >
+          <i class="far fa-clock" /> {{ portfolio.timeago || portfolio.date }}
+        </span>
+      </div>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: "Card",
-  props: {
-    portfolio: {
-      type: Object,
-    },
-    nightMode: {
-      type: Boolean,
-    },
+<script setup>
+import { computed } from "vue";
+
+const props = defineProps({
+  portfolio: {
+    type: Object,
+    required: true
   },
-  methods: {
-    open(url) {
-      window.open(url, "_blank");
-    },
-    showModal() {
-      this.$emit("show", this.portfolio);
-    },
-  },
+  nightMode: {
+    type: Boolean,
+    default: false
+  }
+});
+
+const emit = defineEmits(["show"]);
+
+const tags = computed(() => {
+  return (
+    props.portfolio.tags ||
+    props.portfolio.technologies ||
+    props.portfolio.tag ||
+    []
+  );
+});
+
+const visitUrl = computed(() => {
+  return props.portfolio.visit || props.portfolio.link || null;
+});
+
+const truncatedDescription = computed(() => {
+  const desc = props.portfolio.synopsis || props.portfolio.description || "";
+  return desc.length > 70 ? desc.substring(0, 67) + "..." : desc;
+});
+
+const showModal = () => {
+  emit("show", props.portfolio);
 };
 </script>
 
 <style scoped>
-.lang {
-  display: block;
-  margin-left: auto;
-  margin-top: -40px;
-  margin-right: 10px;
-  width: 20%;
-  border-radius: 50%;
-  transition: transform .7s ease-in-out;
-}
-
-.lang:hover {
-  transform: rotate(720deg);
-}
-
-img {
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-
-
-.img-div img {
-  /* object-fit: cover;
-    overflow: hidden; */
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  /* object-position: 50% 120%;
-    max-width: 300px !important; */
-}
-
-
-.bheight {
-  height: 65px;
-  overflow: auto;
-}
-
-.pheight {
-  height: 110px;
-  max-height: 130px;
-  overflow: auto;
-  text-align: justify;
-}
-
-div.img-div {
-  position: absolute;
-  width: 100%;
+.card-wrapper {
   height: 100%;
 }
-.pborder-top {
-  border-top: 1px solid rgb(193, 193, 193);
+
+.card-component {
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+  border-radius: var(--radius-md) !important;
 }
 
-.pcard:hover {
-  border-radius: 10px;
+.card-image-container {
+  position: relative;
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+  background: rgba(0, 0, 0, 0.06);
+  line-height: 0;
+}
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark-theme .card-image-container {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.card-component:hover .card-img {
+  transform: scale(1.05);
+}
+
+.score-badge {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  background: rgba(9, 9, 11, 0.7);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fbbf24; /* Star Yellow */
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.lang-icon {
+  position: absolute;
+  bottom: -20px;
+  right: var(--space-3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   border: none;
-
-  height: 460px;
-  border: 2px solid rgb(68, 12, 235);
-  transform: scale(1.1); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.5s ease, bottom 0.3s ease;
+  background: var(--bg-app);
+  z-index: 2;
 }
 
-.pcard {
-  transition: all .2s ease-in-out;
-  border-radius: 10px;
-  border: none;
-  height: 460px;
-  border: 2px solid rgb(186, 167, 243);
-
+.card-component:hover .lang-icon {
+  transform: rotate(360deg) scale(1.1);
+  bottom: -16px;
 }
 
-.pcard-dark:hover {
-  border-radius: 10px;
-  border: none;
-  height: 460px;
-  border: 2px solid #bbff00;
+.card-content {
+  flex: 1;
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  overflow: hidden;
 }
 
-.pcard-dark {
-  border-radius: 10px;
-  border: none;
-  height: 460px;
-  border: 2px solid #fa5c5c;
-  
-  box-shadow: 1px 1px 12px rgb(53, 53, 53);
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 900;
+  line-height: 1.3;
+  color: var(--foreground);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.pcard-body {
-  border-top: 1px solid rgb(220, 220, 220);
-  z-index: -1;
-  background-color: rgb(253, 254, 255);
+.card-tags-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 6px;
+  margin-bottom: var(--space-1);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
 }
 
-.title {
-  font-size: 30px;
-  font-weight: 500;
-}
-.title1 {
-  font-size: 24px;
-  font-weight: 400;
+.card-tags-scroll .badge {
+  flex: 0 0 auto;
 }
 
-.title2 {
-  font-size: 20px;
-  font-weight: 400;
+.card-tags-scroll::-webkit-scrollbar {
+  height: 4px !important;
+  background: transparent !important;
+  -webkit-appearance: none !important;
+  display: block !important;
+}
+.card-tags-scroll::-webkit-scrollbar-thumb {
+  background: var(--accent) !important;
+  border-radius: 4px !important;
+}
+.card-tags-scroll::-webkit-scrollbar-track {
+  background: transparent !important;
 }
 
-.title3 {
-  font-size: 16px;
-  font-weight: 400;
+.card-description {
+  font-size: 0.85rem;
+  color: var(--muted-foreground);
+  line-height: 1.4;
+  text-align: left;
+  flex: 1;
+  overflow: hidden;
 }
 
-.badge {
-  background-color: rgb(211, 227, 233);
-  transition: all 0.5s;
-  font-weight: 500;
-  font-size: 13px;
+.card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  gap: var(--space-2);
 }
 
-.btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
+.card-actions button, .card-actions a {
+  flex: 1;
 }
 
-.btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
+.card-footer-info {
+  border-top: 1px solid var(--card-border);
+  padding: var(--space-2) var(--space-4);
+  background: rgba(0, 0, 0, 0.02);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
 }
 
-.btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
+.dark-theme .card-footer-info {
+  background: rgba(255, 255, 255, 0.01);
 }
 
-.bg-dark3 {
-  background-color: rgb(82, 82, 82);
+.commit-link {
+  color: var(--muted-foreground);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
 }
 
-.bg-dark4 {
-  background-color: #494e55 !important;
+.commit-link:hover {
+  color: var(--accent);
 }
 </style>
