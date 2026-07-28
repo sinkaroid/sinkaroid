@@ -1,7 +1,7 @@
 {
   "name": "sinkaroid",
-  "version": "4.0.2-alpha",
-  "description": "Vuejs template with minimalist-portfolio in mind.",
+  "version": "4.0.3-alpha",
+  "description": "Vue portfolio template with minimalist-design in mind.",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -50,6 +50,7 @@
   
   /* Glass Cards (Light Mode) */
   --card-bg: rgba(255, 255, 255, 0.45);
+  --card-bg-solid: rgba(255, 255, 255, 0.92);
   --card-border: rgba(9, 9, 11, 0.06);
   --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.04);
   --card-blur: blur(16px);
@@ -76,6 +77,7 @@
   
   /* Glass Cards (Dark Mode) */
   --card-bg: rgba(9, 9, 11, 0.65);
+  --card-bg-solid: rgba(9, 9, 11, 0.92);
   --card-border: rgba(255, 255, 255, 0.05);
   --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
   --modal-bg: #18181b;
