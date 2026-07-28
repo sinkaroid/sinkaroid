@@ -94,7 +94,7 @@ const truncatedCommit = computed(() => {
 
 // Native Cache helpers to replace lscache
 const cacheCommit = (sha) => {
-  const item = { val: sha, expiry: Date.now() + 300 * 60 * 1000 }; // 300 mins
+  const item = { val: sha, expiry: Date.now() + 5 * 60 * 1000 }; // 5 mins
   localStorage.setItem("latest_commit", JSON.stringify(item));
 };
 
