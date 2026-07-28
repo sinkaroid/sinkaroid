@@ -1,6 +1,33 @@
 {
-    "last_sync": "2026-07-27, 15:19:14",
+    "last_sync": "2026-07-28, 04:21:54",
     "data": [
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "JavaScript",
+                "HTML",
+                "Dockerfile",
+                "minimalist-design",
+                "vuejs"
+            ],
+            "category": "Vue",
+            "date": "August 03, 2022 (Updated: 18 days ago)",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "A general purpose Vue.js portfolio template with minimalist in mind",
+            "commit": "963a36bed49b92e58b21e9b29d6ba9c9ced34591",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/963a36bed49b92e58b21e9b29d6ba9c9ced34591",
+            "release": "v4.0.0-alpha",
+            "stargazers_count": 6,
+            "last_commit_date": "2026-07-28T04:21:27Z"
+        },
         {
             "name": "davinci",
             "pictures": [
@@ -76,7 +103,7 @@
                 "youporn"
             ],
             "category": "TypeScript",
-            "date": "April 18, 2023 (Updated: 2 days ago)",
+            "date": "April 18, 2023 (Updated: 3 days ago)",
             "github": "https://github.com/sinkaroid/lustpress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/lustpress",
@@ -107,7 +134,7 @@
                 "simply-hentai"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 6 days ago)",
+            "date": "June 03, 2022 (Updated: 9 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jandapress",
@@ -115,7 +142,7 @@
             "commit": "094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "link_commit": "https://github.com/sinkaroid/jandapress/commit/094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "release": "v10.2.0-alpha",
-            "stargazers_count": 64,
+            "stargazers_count": 65,
             "last_commit_date": "2026-07-21T20:16:38Z"
         },
         {
@@ -165,33 +192,6 @@
             "last_commit_date": "2026-07-13T23:18:37Z"
         },
         {
-            "name": "sinkaroid",
-            "pictures": [
-                {
-                    "img": "/assets/oss/sinkaroid_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "JavaScript",
-                "HTML",
-                "Dockerfile",
-                "minimalist-design",
-                "vuejs"
-            ],
-            "category": "Vue",
-            "date": "August 03, 2022 (Updated: 17 days ago)",
-            "github": "https://github.com/sinkaroid/sinkaroid",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://sinkaroid.org",
-            "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "d2962d58f08b040efb86b486f51123981e3c4e77",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/d2962d58f08b040efb86b486f51123981e3c4e77",
-            "release": "3.0.1-dev",
-            "stargazers_count": 6,
-            "last_commit_date": "2026-07-10T05:58:07Z"
-        },
-        {
             "name": "shiftypad-extension",
             "pictures": [
                 {
@@ -207,7 +207,7 @@
                 "nikke"
             ],
             "category": "TypeScript",
-            "date": "May 15, 2026 (Updated: 6 days ago)",
+            "date": "May 15, 2026 (Updated: 7 days ago)",
             "github": "https://github.com/ScathachGrip/shiftypad-extension",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://shiftypad.scathach.id",
@@ -232,7 +232,7 @@
                 "nikke"
             ],
             "category": "TypeScript",
-            "date": "February 24, 2025 (Updated: 6 days ago)",
+            "date": "February 24, 2025 (Updated: 7 days ago)",
             "github": "https://github.com/ScathachGrip/nikkePwned",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://github.com/ScathachGrip/nikkePwned",
@@ -258,7 +258,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 19 days ago)",
+            "date": "April 07, 2022 (Updated: 20 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/booru",
@@ -312,7 +312,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 8 days ago)",
+            "date": "March 18, 2022 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
@@ -601,7 +601,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 4 days ago)",
+            "date": "March 24, 2021 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -627,7 +627,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 4 days ago)",
+            "date": "March 24, 2021 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -854,7 +854,7 @@
                 "wrapper"
             ],
             "category": "Python",
-            "date": "December 26, 2020 (Updated: 16 days ago)",
+            "date": "December 26, 2020 (Updated: 17 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api.py",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://pypi.org/project/scathach-api/",
@@ -1293,7 +1293,7 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 3 years ago)",
+            "date": "January 05, 2019 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/weevcrot",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/weevcrot",
@@ -1327,5 +1327,5 @@
             "last_commit_date": "2019-01-05T07:29:14Z"
         }
     ],
-    "sha_commit": "d2962d58f08b040efb86b486f51123981e3c4e77"
+    "sha_commit": "963a36bed49b92e58b21e9b29d6ba9c9ced34591"
 }
