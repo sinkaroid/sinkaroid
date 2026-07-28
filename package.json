@@ -1,7 +1,7 @@
 {
   "name": "sinkaroid",
-  "version": "4.0.0-alpha",
-  "description": "A general purpose Vue.js portfolio template.",
+  "version": "4.0.2-alpha",
+  "description": "Vuejs template with minimalist-portfolio in mind.",
   "type": "module",
   "scripts": {
     "dev": "vite",

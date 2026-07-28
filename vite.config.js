@@ -19,10 +19,9 @@ export default defineConfig(({ mode }) => {
             extensions: [".js", ".ts", ".json", ".vue"]
         },
         define: {
-            "process.env.serviceID": JSON.stringify(env.serviceID || "service_xxx"),
-            "process.env.templateID": JSON.stringify(env.templateID || "template_xxx"),
-            "process.env.userID": JSON.stringify(env.userID || "user_xxx"),
-            "process.env": {}
+            "import.meta.env.VITE_SERVICE_ID": JSON.stringify(env.VITE_SERVICE_ID || ""),
+            "import.meta.env.VITE_TEMPLATE_ID": JSON.stringify(env.VITE_TEMPLATE_ID || ""),
+            "import.meta.env.VITE_USER_ID": JSON.stringify(env.VITE_USER_ID || "")
         }
     };
 });

@@ -120,7 +120,6 @@
 <script setup>
 import { ref } from "vue";
 import emailjs from "@emailjs/browser";
-import config from "../../../config";
 import Snackbar from "./Snackbar.vue";
 
 defineProps({
@@ -163,13 +162,11 @@ const sendEmail = () => {
     message: text.value
   };
 
-  const emailConfig = config.emailjs || {};
-
   emailjs.send(
-    emailConfig.serviceID,
-    emailConfig.templateID,
+    import.meta.env.VITE_SERVICE_ID,
+    import.meta.env.VITE_TEMPLATE_ID,
     templateParams,
-    emailConfig.userID
+    import.meta.env.VITE_USER_ID
   )
     .then(() => {
       triggerAlert("Message sent successfully! Thank you.", "#10b981");
