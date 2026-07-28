@@ -31,11 +31,13 @@ jobs:
         run: bun run ci/getRepository.ts ${{ secrets.GH_TOKEN }}
       - name: Fetch repository SAS
         run: bun run ci/getRepositorySAS.ts ${{ secrets.GH_TOKEN }}
+      - name: Run ESLint
+        run: bun run lint
       - name: Commit files
         run: |
           git add .
           git diff --cached --quiet && exit 0
-          git commit -m "ci/chore: cron and synchronized data"
+          GIT_AUTHOR_NAME="github-actions[bot]" GIT_AUTHOR_EMAIL="github-actions[bot]@users.noreply.github.com" GIT_COMMITTER_NAME="github-actions[bot]" GIT_COMMITTER_EMAIL="github-actions[bot]@users.noreply.github.com" git commit -m "ci/chore: cron and synchronized data"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

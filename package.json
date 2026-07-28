@@ -1,6 +1,6 @@
 {
   "name": "sinkaroid",
-  "version": "4.0.7-alpha",
+  "version": "4.0.8-alpha",
   "description": "Vue portfolio template with minimalist-design in mind.",
   "type": "module",
   "scripts": {
@@ -33,6 +33,7 @@
     "eslint-plugin-vue": "^10.10.0",
     "fast-xml-parser": "^5.10.1",
     "moment": "^2.30.1",
+    "scathach-api": "^1.0.16",
     "sharp": "^0.35.3",
     "vite": "^8.1.5"
   },
