@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-07-28, 11:18:55",
+    "last_sync": "2026-07-28, 12:28:34",
     "data": [
         {
             "name": "sinkaroid",
@@ -24,11 +24,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "5484475e43ab5eedcf1b79b85acac048824c9e1d",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/5484475e43ab5eedcf1b79b85acac048824c9e1d",
+            "commit": "e1584258a35882d0de4312a77037ca747ca75486",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/e1584258a35882d0de4312a77037ca747ca75486",
             "release": "v4.0.10-alpha",
             "stargazers_count": 6,
-            "last_commit_date": "2026-07-28T10:28:49Z"
+            "last_commit_date": "2026-07-28T11:21:16Z"
         },
         {
             "name": "davinci",
@@ -46,7 +46,7 @@
                 "github-bots"
             ],
             "category": "Go",
-            "date": "October 03, 2022 (Updated: 2 hours ago)",
+            "date": "October 03, 2022 (Updated: 3 hours ago)",
             "github": "https://github.com/ScathachGrip/davinci",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://davinci.scathach.id",
@@ -136,7 +136,7 @@
                 "simply-hentai"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 16 hours ago)",
+            "date": "June 03, 2022 (Updated: 17 hours ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jandapress",
@@ -1329,5 +1329,5 @@
             "last_commit_date": "2019-01-05T07:29:14Z"
         }
     ],
-    "sha_commit": "5484475e43ab5eedcf1b79b85acac048824c9e1d"
+    "sha_commit": "e1584258a35882d0de4312a77037ca747ca75486"
 }
