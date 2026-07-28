@@ -1,6 +1,3 @@
-# syntax=docker/dockerfile:1.7
-
-## build stage
 FROM oven/bun:1.3.14-alpine AS build-stage
 WORKDIR /app
 
