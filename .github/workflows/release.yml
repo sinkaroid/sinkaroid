@@ -21,17 +21,36 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set release metadata
-        id: meta
+      - name: Read current version
+        id: current
         run: |
           VERSION="$(jq -r .version package.json)"
           echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
           echo "tag=v${VERSION}" >> "$GITHUB_OUTPUT"
 
+      - name: Check version change
+        id: diff
+        run: |
+          CURRENT_VERSION="${{ steps.current.outputs.version }}"
+          PREVIOUS_VERSION="$(git show HEAD~1:package.json 2>/dev/null | jq -r .version 2>/dev/null || echo "")"
+          if [ -z "$PREVIOUS_VERSION" ] || [ "$CURRENT_VERSION" != "$PREVIOUS_VERSION" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "previous=${PREVIOUS_VERSION}" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "previous=${PREVIOUS_VERSION}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Skip release
+        if: steps.diff.outputs.changed == 'false'
+        run: |
+          echo "::notice::package.json version unchanged (${{ steps.diff.outputs.previous }}). Skipping release."
+
       - name: Check if tag already exists
+        if: steps.diff.outputs.changed == 'true'
         id: tag_check
         env:
-          TAG: ${{ steps.meta.outputs.tag }}
+          TAG: ${{ steps.current.outputs.tag }}
         run: |
           if git ls-remote --tags origin "refs/tags/$TAG" | grep -q "$TAG"; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
@@ -40,10 +59,10 @@ jobs:
           fi
 
       - name: Generate Release Notes
-        if: steps.tag_check.outputs.exists == 'false'
+        if: steps.diff.outputs.changed == 'true' && steps.tag_check.outputs.exists == 'false'
         id: changelog
         env:
-          TAG: ${{ steps.meta.outputs.tag }}
+          TAG: ${{ steps.current.outputs.tag }}
         run: |
           git fetch --tags
           PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
@@ -62,19 +81,19 @@ jobs:
           echo "compare_url=$COMPARE_URL" >> $GITHUB_OUTPUT
 
       - name: Create tag
-        if: steps.tag_check.outputs.exists == 'false'
+        if: steps.diff.outputs.changed == 'true' && steps.tag_check.outputs.exists == 'false'
         env:
-          TAG: ${{ steps.meta.outputs.tag }}
+          TAG: ${{ steps.current.outputs.tag }}
         run: |
           git tag "$TAG"
           git push origin "$TAG"
 
       - name: Create GitHub release
-        if: steps.tag_check.outputs.exists == 'false'
+        if: steps.diff.outputs.changed == 'true' && steps.tag_check.outputs.exists == 'false'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.meta.outputs.tag }}
-          name: ${{ steps.meta.outputs.tag }}
+          tag_name: ${{ steps.current.outputs.tag }}
+          name: ${{ steps.current.outputs.tag }}
           body: |
             ## What's Changed
             ${{ steps.changelog.outputs.notes }}
