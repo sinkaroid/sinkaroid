@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-07-28, 05:15:42",
+    "last_sync": "2026-07-28, 05:36:30",
     "data": [
         {
             "name": "sinkaroid",
@@ -19,16 +19,16 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: an hour ago)",
+            "date": "August 03, 2022 (Updated: a few seconds ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
-            "description": "A general purpose Vue.js portfolio template with minimalist in mind",
-            "commit": "9e63cc064758f6104c4b8336204744755861c0b7",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/9e63cc064758f6104c4b8336204744755861c0b7",
-            "release": "v4.0.2-alpha",
+            "description": "Vue portfolio template with minimalist-design in mind.",
+            "commit": "f11b88ef7d59316886cb3ace54aae9c6c5c54f1e",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/f11b88ef7d59316886cb3ace54aae9c6c5c54f1e",
+            "release": "v4.0.3-alpha",
             "stargazers_count": 6,
-            "last_commit_date": "2026-07-28T05:15:14Z"
+            "last_commit_date": "2026-07-28T05:36:08Z"
         },
         {
             "name": "davinci",
@@ -1329,5 +1329,5 @@
             "last_commit_date": "2019-01-05T07:29:14Z"
         }
     ],
-    "sha_commit": "9e63cc064758f6104c4b8336204744755861c0b7"
+    "sha_commit": "f11b88ef7d59316886cb3ace54aae9c6c5c54f1e"
 }
