@@ -116,6 +116,8 @@ const navigate = (section) => {
 const switchMode = () => {
   emit("nightMode", !props.nightMode);
 };
+
+// use var(--bg-app) on .theme-toggle
 </script>
 
 <style scoped>
