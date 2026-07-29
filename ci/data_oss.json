@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-07-28, 12:28:34",
+    "last_sync": "2026-07-29, 12:53:02",
     "data": [
         {
             "name": "sinkaroid",
@@ -19,16 +19,16 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: an hour ago)",
+            "date": "August 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "e1584258a35882d0de4312a77037ca747ca75486",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/e1584258a35882d0de4312a77037ca747ca75486",
+            "commit": "0b928a61c5fed3f0a45e3c33942953a553e6a880",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/0b928a61c5fed3f0a45e3c33942953a553e6a880",
             "release": "v4.0.10-alpha",
             "stargazers_count": 6,
-            "last_commit_date": "2026-07-28T11:21:16Z"
+            "last_commit_date": "2026-07-28T12:30:55Z"
         },
         {
             "name": "davinci",
@@ -46,7 +46,7 @@
                 "github-bots"
             ],
             "category": "Go",
-            "date": "October 03, 2022 (Updated: 3 hours ago)",
+            "date": "October 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/ScathachGrip/davinci",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://davinci.scathach.id",
@@ -73,7 +73,7 @@
                 "pixiv-resolver"
             ],
             "category": "Go",
-            "date": "July 22, 2026 (Updated: 5 days ago)",
+            "date": "July 22, 2026 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/pixivHono",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://sinkaroid.github.io/pixivHono",
@@ -105,7 +105,7 @@
                 "youporn"
             ],
             "category": "TypeScript",
-            "date": "April 18, 2023 (Updated: 3 days ago)",
+            "date": "April 18, 2023 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/lustpress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/lustpress",
@@ -136,7 +136,7 @@
                 "simply-hentai"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: 17 hours ago)",
+            "date": "June 03, 2022 (Updated: 22 minutes ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jandapress",
@@ -144,7 +144,7 @@
             "commit": "094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "link_commit": "https://github.com/sinkaroid/jandapress/commit/094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "release": "v10.2.0-alpha",
-            "stargazers_count": 65,
+            "stargazers_count": 66,
             "last_commit_date": "2026-07-21T20:16:38Z"
         },
         {
@@ -159,7 +159,7 @@
                 "Dockerfile"
             ],
             "category": "Go",
-            "date": "June 20, 2026 (Updated: 7 days ago)",
+            "date": "June 20, 2026 (Updated: 8 days ago)",
             "github": "https://github.com/sinkaroid/matoi",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://sinkaroid.github.io/matoi",
@@ -182,7 +182,7 @@
                 "Dockerfile"
             ],
             "category": "Rust",
-            "date": "July 11, 2026 (Updated: 15 days ago)",
+            "date": "July 11, 2026 (Updated: 16 days ago)",
             "github": "https://github.com/ScathachGrip/teivax",
             "bahasa": "https://skillicons.dev/icons?i=rust",
             "visit": "https://scathachbot.xyz/custom-branding",
@@ -209,7 +209,7 @@
                 "nikke"
             ],
             "category": "TypeScript",
-            "date": "May 15, 2026 (Updated: 7 days ago)",
+            "date": "May 15, 2026 (Updated: 8 days ago)",
             "github": "https://github.com/ScathachGrip/shiftypad-extension",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://shiftypad.scathach.id",
@@ -234,7 +234,7 @@
                 "nikke"
             ],
             "category": "TypeScript",
-            "date": "February 24, 2025 (Updated: 7 days ago)",
+            "date": "February 24, 2025 (Updated: 8 days ago)",
             "github": "https://github.com/ScathachGrip/nikkePwned",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://github.com/ScathachGrip/nikkePwned",
@@ -260,7 +260,7 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 20 days ago)",
+            "date": "April 07, 2022 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/booru",
@@ -314,7 +314,7 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 9 days ago)",
+            "date": "March 18, 2022 (Updated: 10 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
@@ -410,7 +410,7 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "March 28, 2023 (Updated: 3 days ago)",
+            "date": "March 28, 2023 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/gaebolg",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://api.scathach.id",
@@ -458,7 +458,7 @@
                 "Dockerfile"
             ],
             "category": "TypeScript",
-            "date": "January 31, 2023 (Updated: 3 days ago)",
+            "date": "January 31, 2023 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/reddit-proxy",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://github.com/ScathachGrip/reddit-proxy",
@@ -603,7 +603,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 5 days ago)",
+            "date": "March 24, 2021 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -629,7 +629,7 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 5 days ago)",
+            "date": "March 24, 2021 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -856,7 +856,7 @@
                 "wrapper"
             ],
             "category": "Python",
-            "date": "December 26, 2020 (Updated: 17 days ago)",
+            "date": "December 26, 2020 (Updated: 18 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api.py",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://pypi.org/project/scathach-api/",
@@ -1329,5 +1329,5 @@
             "last_commit_date": "2019-01-05T07:29:14Z"
         }
     ],
-    "sha_commit": "e1584258a35882d0de4312a77037ca747ca75486"
+    "sha_commit": "0b928a61c5fed3f0a45e3c33942953a553e6a880"
 }
