@@ -1,6 +1,31 @@
 {
-    "last_sync": "2026-07-29, 12:54:46",
+    "last_sync": "2026-07-30, 12:22:34",
     "data": [
+        {
+            "name": "scathach-next",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Rust",
+                "Dockerfile",
+                "JavaScript",
+                "microservices"
+            ],
+            "category": "TypeScript",
+            "date": "June 04, 2026 (Updated: 17 minutes ago)",
+            "github": "https://github.com/ScathachGrip/scathach-next",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://next.scathach.id",
+            "description": "scathach-next @discordeno",
+            "commit": "5b065943dafcbaba09dac6af0e818480e61144f5",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/5b065943dafcbaba09dac6af0e818480e61144f5",
+            "release": "v6.2.4-alpha",
+            "last_commit_date": "2026-07-30T12:04:01Z"
+        },
         {
             "name": "statusflare",
             "pictures": [
@@ -15,7 +40,7 @@
                 "JavaScript"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2026 (Updated: a day ago)",
+            "date": "June 03, 2026 (Updated: 2 days ago)",
             "github": "https://github.com/ScathachGrip/statusflare",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://statusflare.sinxdr.workers.dev",
@@ -36,7 +61,7 @@
                 "JavaScript"
             ],
             "category": "JavaScript",
-            "date": "April 16, 2026 (Updated: a day ago)",
+            "date": "April 16, 2026 (Updated: 2 days ago)",
             "github": "https://github.com/ScathachGrip/XTwitterFavScrape",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://github.com/ScathachGrip/XTwitterFavScrape",
@@ -63,7 +88,7 @@
                 "Dockerfile"
             ],
             "category": "Vue",
-            "date": "February 26, 2023 (Updated: 4 days ago)",
+            "date": "February 26, 2023 (Updated: 5 days ago)",
             "github": "https://github.com/ScathachGrip/scathachbot.xyz",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://scathachbot.xyz",
@@ -72,30 +97,6 @@
             "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/cd172901ad533b7aa645360669b91cb8625f4e9c",
             "release": "v8.1.10-alpha",
             "last_commit_date": "2026-07-25T19:10:23Z"
-        },
-        {
-            "name": "scathach-next",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Rust",
-                "Dockerfile",
-                "microservices"
-            ],
-            "category": "TypeScript",
-            "date": "June 04, 2026 (Updated: 4 days ago)",
-            "github": "https://github.com/ScathachGrip/scathach-next",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://next.scathach.id/nodes",
-            "description": "scathach-next @discordeno",
-            "commit": "f35b7a2ccb4b1e5e95cbac2a42395be068e409f3",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/f35b7a2ccb4b1e5e95cbac2a42395be068e409f3",
-            "release": "v6.1.50-alpha",
-            "last_commit_date": "2026-07-25T05:14:09Z"
         },
         {
             "name": "dispatcher",
@@ -113,7 +114,7 @@
                 "scheduler"
             ],
             "category": "TypeScript",
-            "date": "May 04, 2026 (Updated: 6 days ago)",
+            "date": "May 04, 2026 (Updated: 7 days ago)",
             "github": "https://github.com/ScathachGrip/dispatcher",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://dispatcher.scathach.id/nodes",
@@ -136,7 +137,7 @@
                 "microservices"
             ],
             "category": "Go",
-            "date": "July 07, 2026 (Updated: 11 days ago)",
+            "date": "July 07, 2026 (Updated: 12 days ago)",
             "github": "https://github.com/ScathachGrip/scathach-next-pro",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://next-pro.scathach.id/nodes",
@@ -179,7 +180,7 @@
                 "CSS"
             ],
             "category": "JavaScript",
-            "date": "May 10, 2026 (Updated: 3 days ago)",
+            "date": "May 10, 2026 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/dispatcher-telemetry",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://devops.scathach.id",
@@ -250,7 +251,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 19, 2026 (Updated: 3 days ago)",
+            "date": "April 19, 2026 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
@@ -271,7 +272,7 @@
                 "Shell"
             ],
             "category": "Shell",
-            "date": "October 28, 2025 (Updated: 3 days ago)",
+            "date": "October 28, 2025 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/SSHfier",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/ScathachGrip/SSHfier",
@@ -296,7 +297,7 @@
                 "Java"
             ],
             "category": "Vue",
-            "date": "August 12, 2023 (Updated: 3 days ago)",
+            "date": "August 12, 2023 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/enikk",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://github.com/sinkaroid/enikk",
@@ -363,7 +364,7 @@
                 "HTML"
             ],
             "category": "JavaScript",
-            "date": "January 16, 2025 (Updated: 3 days ago)",
+            "date": "January 16, 2025 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/enikk_rock_counter",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://enikkr.scathach.id",
@@ -384,7 +385,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "July 09, 2023 (Updated: 3 days ago)",
+            "date": "July 09, 2023 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/aiserver",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/ScathachGrip/aiserver",
@@ -451,7 +452,7 @@
                 "asyncio"
             ],
             "category": "Python",
-            "date": "July 04, 2021 (Updated: 3 days ago)",
+            "date": "July 04, 2021 (Updated: 4 days ago)",
             "github": "https://github.com/sinkaroid/Scathachgram",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/Scathachgram",
@@ -562,5 +563,5 @@
             "last_commit_date": "2019-07-16T06:22:42Z"
         }
     ],
-    "sha_commit": "0b928a61c5fed3f0a45e3c33942953a553e6a880"
+    "sha_commit": "21a5b35006efc827424548610e9b978883b39516"
 }
