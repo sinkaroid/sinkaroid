@@ -1,6 +1,55 @@
 {
-    "last_sync": "2026-07-30, 12:22:34",
+    "last_sync": "2026-07-31, 12:53:23",
     "data": [
+        {
+            "name": "dispatcher",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "microservices",
+                "redis",
+                "scheduler"
+            ],
+            "category": "TypeScript",
+            "date": "May 04, 2026 (Updated: 3 minutes ago)",
+            "github": "https://github.com/ScathachGrip/dispatcher",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://dispatcher.scathach.id/nodes",
+            "description": "Bun first & high-performance Discord REST API workers and scheduler",
+            "commit": "7d8e90853936b8d2aa614ecbaf035c5b2ea9ee6f",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/7d8e90853936b8d2aa614ecbaf035c5b2ea9ee6f",
+            "release": "6.12.31-alpha",
+            "last_commit_date": "2026-07-31T12:50:03Z"
+        },
+        {
+            "name": "scathach-next-pro",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next-pro_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "microservices"
+            ],
+            "category": "Go",
+            "date": "July 07, 2026 (Updated: 13 hours ago)",
+            "github": "https://github.com/ScathachGrip/scathach-next-pro",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://next-pro.scathach.id",
+            "description": "scathach-next-pro @disgoorg",
+            "commit": "18c94ba683b41b217141643ff5b28789cb993395",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/18c94ba683b41b217141643ff5b28789cb993395",
+            "release": "2.3.11-alpha",
+            "last_commit_date": "2026-07-30T13:34:47Z"
+        },
         {
             "name": "scathach-next",
             "pictures": [
@@ -16,7 +65,7 @@
                 "microservices"
             ],
             "category": "TypeScript",
-            "date": "June 04, 2026 (Updated: 17 minutes ago)",
+            "date": "June 04, 2026 (Updated: a day ago)",
             "github": "https://github.com/ScathachGrip/scathach-next",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
@@ -40,7 +89,7 @@
                 "JavaScript"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2026 (Updated: 2 days ago)",
+            "date": "June 03, 2026 (Updated: 3 days ago)",
             "github": "https://github.com/ScathachGrip/statusflare",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://statusflare.sinxdr.workers.dev",
@@ -61,7 +110,7 @@
                 "JavaScript"
             ],
             "category": "JavaScript",
-            "date": "April 16, 2026 (Updated: 2 days ago)",
+            "date": "April 16, 2026 (Updated: 3 days ago)",
             "github": "https://github.com/ScathachGrip/XTwitterFavScrape",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://github.com/ScathachGrip/XTwitterFavScrape",
@@ -88,7 +137,7 @@
                 "Dockerfile"
             ],
             "category": "Vue",
-            "date": "February 26, 2023 (Updated: 5 days ago)",
+            "date": "February 26, 2023 (Updated: 6 days ago)",
             "github": "https://github.com/ScathachGrip/scathachbot.xyz",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://scathachbot.xyz",
@@ -97,55 +146,6 @@
             "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/cd172901ad533b7aa645360669b91cb8625f4e9c",
             "release": "v8.1.10-alpha",
             "last_commit_date": "2026-07-25T19:10:23Z"
-        },
-        {
-            "name": "dispatcher",
-            "pictures": [
-                {
-                    "img": "/assets/sas/dispatcher_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "Dockerfile",
-                "microservices",
-                "redis",
-                "scheduler"
-            ],
-            "category": "TypeScript",
-            "date": "May 04, 2026 (Updated: 7 days ago)",
-            "github": "https://github.com/ScathachGrip/dispatcher",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://dispatcher.scathach.id/nodes",
-            "description": "Bun first & high-performance Discord REST API workers and scheduler",
-            "commit": "3c6ffcad5815a0a15d37a3d6400fb31db4f252e9",
-            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/3c6ffcad5815a0a15d37a3d6400fb31db4f252e9",
-            "release": "6.12.24-alpha",
-            "last_commit_date": "2026-07-23T08:14:11Z"
-        },
-        {
-            "name": "scathach-next-pro",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next-pro_master.webp"
-                }
-            ],
-            "technologies": [
-                "Go",
-                "Dockerfile",
-                "microservices"
-            ],
-            "category": "Go",
-            "date": "July 07, 2026 (Updated: 12 days ago)",
-            "github": "https://github.com/ScathachGrip/scathach-next-pro",
-            "bahasa": "https://skillicons.dev/icons?i=go",
-            "visit": "https://next-pro.scathach.id/nodes",
-            "description": "scathach-next-pro @disgoorg",
-            "commit": "e6845ba97088cb7e281a21554e23d6d13b414687",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/e6845ba97088cb7e281a21554e23d6d13b414687",
-            "release": "2.3.5-alpha",
-            "last_commit_date": "2026-07-17T14:41:45Z"
         },
         {
             "name": "buster",
@@ -180,7 +180,7 @@
                 "CSS"
             ],
             "category": "JavaScript",
-            "date": "May 10, 2026 (Updated: 4 days ago)",
+            "date": "May 10, 2026 (Updated: 5 days ago)",
             "github": "https://github.com/ScathachGrip/dispatcher-telemetry",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://devops.scathach.id",
@@ -251,7 +251,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 19, 2026 (Updated: 4 days ago)",
+            "date": "April 19, 2026 (Updated: 5 days ago)",
             "github": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
@@ -272,7 +272,7 @@
                 "Shell"
             ],
             "category": "Shell",
-            "date": "October 28, 2025 (Updated: 4 days ago)",
+            "date": "October 28, 2025 (Updated: 5 days ago)",
             "github": "https://github.com/ScathachGrip/SSHfier",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/ScathachGrip/SSHfier",
@@ -297,7 +297,7 @@
                 "Java"
             ],
             "category": "Vue",
-            "date": "August 12, 2023 (Updated: 4 days ago)",
+            "date": "August 12, 2023 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/enikk",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://github.com/sinkaroid/enikk",
@@ -364,7 +364,7 @@
                 "HTML"
             ],
             "category": "JavaScript",
-            "date": "January 16, 2025 (Updated: 4 days ago)",
+            "date": "January 16, 2025 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/enikk_rock_counter",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://enikkr.scathach.id",
@@ -385,7 +385,7 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "July 09, 2023 (Updated: 4 days ago)",
+            "date": "July 09, 2023 (Updated: 5 days ago)",
             "github": "https://github.com/ScathachGrip/aiserver",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/ScathachGrip/aiserver",
@@ -452,7 +452,7 @@
                 "asyncio"
             ],
             "category": "Python",
-            "date": "July 04, 2021 (Updated: 4 days ago)",
+            "date": "July 04, 2021 (Updated: 5 days ago)",
             "github": "https://github.com/sinkaroid/Scathachgram",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/Scathachgram",
@@ -563,5 +563,5 @@
             "last_commit_date": "2019-07-16T06:22:42Z"
         }
     ],
-    "sha_commit": "21a5b35006efc827424548610e9b978883b39516"
+    "sha_commit": "72f40d51b6296dc25b9227fee6ba1f80890eb4bb"
 }
