@@ -1,3 +1,8 @@
+import dispatcherDescription from "./markdown/dispatcher.md?raw";
+import scathachNextDescription from "./markdown/scathach_next.md?raw";
+import scathachNextProDescription from "./markdown/scathach_next_pro.md?raw";
+import teivaxDescription from "./markdown/teivax.md?raw";
+
 import dataJson from "./data_oss.json" with { type: "json" };
 import dataSasJson from "./data_oss_sas.json" with { type: "json" };
 import flatPicture from "../src/assets/darin.png";
@@ -46,7 +51,11 @@ import imgRepoBrandLustpress from "../src/assets/designs/lustpress.webp";
 import imgRepoBrandJandapress from "../src/assets/designs/jandapress.png";
 
 // Standalone software project images
+import imgScathachNextPro from "../src/assets/standalone/standalone_scathach-next-pro.webp";
+import imgScathachNext from "../src/assets/standalone/standalone_scathach-next.webp";
+import imgDispatcher from "../src/assets/standalone/standalone_dispatcher.webp";
 import imgDavinci from "../src/assets/standalone/standalone_davinci.webp";
+import imgTeivax from "../src/assets/standalone/standalone_teivax.webp";
 import imgShiftypad from "../src/assets/standalone/standalone_shiftypad.webp";
 import imgEnikk from "../src/assets/standalone/standalone_enikk.webp";
 import imgCharon from "../src/assets/standalone/standalone_charon.webp";
@@ -76,6 +85,7 @@ interface PortfolioItem {
     date: string;
     visit: string;
     description: string;
+    isMarkdown?: boolean;
 }
 
 const info = {
@@ -597,6 +607,42 @@ const info = {
     portfolio_standalone: [
         {
             name: "ScathachGrip",
+            title: "@ScathachGrip/scathach-next-pro",
+            pictures: [{ img: imgScathachNextPro, title: "scathach-next-pro" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://next-pro.scathach.id/",
+            description: scathachNextProDescription,
+            isMarkdown: true,
+        },
+        {
+            name: "ScathachGrip",
+            title: "@ScathachGrip/scathach-next",
+            pictures: [{ img: imgScathachNext, title: "scathach-next" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://next.scathach.id/",
+            description: scathachNextDescription,
+            isMarkdown: true,
+        },
+        {
+            name: "ScathachGrip",
+            title: "@ScathachGrip/dispatcher",
+            pictures: [{ img: imgDispatcher, title: "Dispatcher" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://dispatcher.scathach.id/",
+            description: dispatcherDescription,
+            isMarkdown: true,
+        },
+        {
+            name: "ScathachGrip",
             title: "DaVinci",
             pictures: [{ img: imgDavinci, title: "DaVinci" }],
             technologies: ["Continuous Integration", "Github Actions", "Github App"],
@@ -605,6 +651,18 @@ const info = {
             date: "2026 - Present",
             visit: "https://davinci.scathach.id/",
             description: "Github Actions app to automate PR and Issues workflows",
+        },
+        {
+            name: "ScathachGrip",
+            title: "teivax",
+            pictures: [{ img: imgTeivax, title: "teivax" }],
+            technologies: ["Continuous Integration"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://github.com/ScathachGrip/teivax",
+            description: teivaxDescription,
+            isMarkdown: true,
         },
         {
             name: "ScathachGrip",

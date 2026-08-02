@@ -1,4 +1,5 @@
 <template>
+  <!-- eslint-disable vue/no-v-html -->
   <Teleport to="body">
     <Transition name="modal-fade">
       <div
@@ -47,7 +48,15 @@
               <!-- Tags / Technologies removed -->
 
               <!-- Description -->
-              <div class="modal-description">
+              <div
+                v-if="portfolio.isMarkdown"
+                class="modal-description"
+                v-html="parsedDescription"
+              />
+              <div
+                v-else
+                class="modal-description"
+              >
                 {{ portfolio.description || portfolio.synopsis }}
               </div>
 
@@ -101,6 +110,7 @@
 import { computed, onMounted, onUnmounted } from "vue";
 import Gallery from "./Gallery.vue";
 import { timeAgo } from "../../composables/useTimeAgo";
+import { parseMarkdown } from "../../composables/useMarkdown";
 
 const props = defineProps({
   showModal: {
@@ -132,6 +142,10 @@ const dateLabel = computed(() => {
 });
 
 const isRepo = computed(() => !!props.portfolio.last_commit_date);
+
+const parsedDescription = computed(() => {
+  return parseMarkdown(props.portfolio.description || props.portfolio.synopsis);
+});
 
 const close = () => {
   emit("close");
@@ -276,8 +290,81 @@ onUnmounted(() => {
   line-height: 1.6;
   color: var(--foreground);
   text-align: left;
-  white-space: pre-line;
 }
+
+.modal-description :deep(p) {
+  margin-bottom: var(--space-3);
+}
+
+.modal-description :deep(p:last-child) {
+  margin-bottom: 0;
+}
+
+.modal-description :deep(ul),
+.modal-description :deep(ol) {
+  margin-bottom: var(--space-3);
+  padding-left: var(--space-5);
+}
+
+.modal-description :deep(ul) {
+  list-style-type: disc;
+}
+
+.modal-description :deep(ol) {
+  list-style-type: decimal;
+}
+
+.modal-description :deep(li) {
+  margin-bottom: var(--space-1);
+}
+
+.modal-description :deep(pre) {
+  background: rgba(0, 0, 0, 0.2);
+  padding: var(--space-3);
+  border-radius: var(--radius-sm);
+  overflow-x: auto;
+  margin-bottom: var(--space-3);
+  border: 1px solid var(--card-border);
+}
+
+.modal-description :deep(code) {
+  font-family: monospace;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.modal-description :deep(pre code) {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.modal-description :deep(.markdown-link) {
+  color: var(--accent);
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.modal-description :deep(.markdown-link:hover) {
+  opacity: 0.8;
+}
+
+.modal-description :deep(h1),
+.modal-description :deep(h2),
+.modal-description :deep(h3),
+.modal-description :deep(h4) {
+  font-weight: 700;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-2);
+  color: var(--foreground);
+}
+
+.modal-description :deep(h1) { font-size: 1.4rem; }
+.modal-description :deep(h2) { font-size: 1.25rem; }
+.modal-description :deep(h3) { font-size: 1.1rem; }
+.modal-description :deep(h4) { font-size: 1rem; }
 
 .modal-gallery-section {
   display: flex;

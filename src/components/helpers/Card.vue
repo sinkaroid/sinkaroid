@@ -96,6 +96,7 @@
 <script setup>
 import { computed } from "vue";
 import { timeAgo } from "../../composables/useTimeAgo";
+import { stripMarkdown } from "../../composables/useMarkdown";
 
 const props = defineProps({
   portfolio: {
@@ -134,7 +135,8 @@ const dateLabel = computed(() => {
 const isRepo = computed(() => !!props.portfolio.last_commit_date);
 
 const truncatedDescription = computed(() => {
-  const desc = props.portfolio.synopsis || props.portfolio.description || "";
+  const rawDesc = props.portfolio.synopsis || props.portfolio.description || "";
+  const desc = props.portfolio.isMarkdown ? stripMarkdown(rawDesc) : rawDesc;
   return desc.length > 70 ? desc.substring(0, 67) + "..." : desc;
 });
 
