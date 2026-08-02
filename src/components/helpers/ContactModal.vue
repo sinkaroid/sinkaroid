@@ -79,7 +79,7 @@
                     <textarea
                       id="modal-message"
                       v-model="text"
-                      placeholder="How can I help you?"
+                      placeholder="Whut"
                       class="form-input form-textarea"
                       rows="5"
                       required

@@ -81,7 +81,7 @@
                 target="_blank" 
                 class="btn-primary clickable"
               >
-                <i class="fas fa-globe" /> Live Site
+                <i class="fas fa-rocket" /> Preview
               </a>
               <button
                 class="btn-secondary clickable"

@@ -140,7 +140,7 @@ const info = {
             link: "https://scathachbot.xyz",
             place: "Indonesia - Thailand",
             date: "2021 - Present",
-            position: "Developer Relations - CTO",
+            position: "CTO, Developer Relations",
             description: "Microservices product. Scathach bot - Imagine a lewd bot 70K servers, 8M+ users. https://scathachbot.xyz",
             skills: ["Embedded Software", "Microservices", "Software as a service"],
         },
