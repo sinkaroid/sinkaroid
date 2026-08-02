@@ -317,8 +317,8 @@ const activeTab = ref("opensource");
 const showActionSheet = ref(false);
 const tabItems = [
   { id: "opensource", label: "Open Source", icon: "fa fa-code-branch" },
-  { id: "standalone", label: "Standalone / Trade", icon: "fa fa-laptop-code" },
-  { id: "sas", label: "SaS (closed source)", icon: "fa fa-lock" },
+  { id: "standalone", label: "SaS (Standalone)", icon: "fa fa-laptop-code" },
+  { id: "sas", label: "SaS (Closed source)", icon: "fa fa-lock" },
   { id: "illustrations", label: "Illustrations", icon: "fa fa-palette" }
 ];
 

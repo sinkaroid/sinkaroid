@@ -37,10 +37,10 @@
               <!-- Meta/Subheader (date only) -->
               <div class="modal-meta">
                 <span
-                  v-if="portfolio.date || portfolio.timeago"
+                  v-if="dateLabel"
                   class="meta-item"
                 >
-                  <i class="far fa-calendar-alt" /> {{ portfolio.date || portfolio.timeago }}
+                  <i class="far fa-calendar-alt" /> {{ isRepo ? "Last update: " : "" }}{{ dateLabel }}
                 </span>
               </div>
 
@@ -100,6 +100,7 @@
 <script setup>
 import { computed, onMounted, onUnmounted } from "vue";
 import Gallery from "./Gallery.vue";
+import { timeAgo } from "../../composables/useTimeAgo";
 
 const props = defineProps({
   showModal: {
@@ -121,6 +122,16 @@ const emit = defineEmits(["close"]);
 const visitUrl = computed(() => {
   return props.portfolio.visit || props.portfolio.link || null;
 });
+
+const dateLabel = computed(() => {
+  return (
+    props.portfolio.date ||
+    props.portfolio.timeago ||
+    timeAgo(props.portfolio.last_commit_date)
+  );
+});
+
+const isRepo = computed(() => !!props.portfolio.last_commit_date);
 
 const close = () => {
   emit("close");
