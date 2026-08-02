@@ -13,7 +13,8 @@ Every lesson within my tome was earned through unwavering perseverance, countles
 ## Security Flaws in my repos
 
 > [!IMPORTANT]
-> On my profile [@sinkaroid](https://github.com/sinkaroid?tab=repositories) and [@ScathachGrip](https://github.com/ScathachGrip?tab=repositories), [npm](https://www.npmjs.com/~sinkaroid), [PyPi](https://pypi.org/user/sinkaroid/), and [Docker](https://github.com/sinkaroid?tab=packages) You'll see some of the repositories I've made for various projects.  
-> If you find a security vulnerability in one of my projects that still maintained, please immediately reach out to me via my email or the corresponding `SECURITY.md` file. I take such things very seriously.
+> On my profile [@sinkaroid/repo](https://github.com/sinkaroid?tab=repositories), [@sinkaroid/packages](https://github.com/sinkaroid?tab=packages), [npm/sinkaroid](https://www.npmjs.com/~sinkaroid), [pypi/sinkaroid](https://pypi.org/user/sinkaroid/), and [@ScathachGrip/repo](https://github.com/ScathachGrip?tab=repositories), [@ScathachGrip/packages](https://github.com/orgs/ScathachGrip/packages)  
+> 
+> You'll see some of the repositories I've made for various projects. If you find a security vulnerability in one of my projects that still maintained, please immediately reach out to me via my email or the corresponding `SECURITY.md` file. I take such things very seriously.
 
 I don't have much to say as I'm not a talkative person right now
