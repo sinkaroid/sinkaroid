@@ -1,9 +1,14 @@
 # Sinkaroid here
 
-[`Skills`](https://sinkaroid.org/skills) - [`LinkedIn`](https://linkedin.com/in/sinkaroid) - [`X / Twitter`](https://twitter.com/sinkaroid) - [`MyAnimeList`](https://myanimelist.net/profile/sinkaroid) - [`Steam`](https://steamcommunity.com/id/sinkaroid)
+[`Skills`](https://sinkaroid.org/skills) - [`LinkedIn`](https://linkedin.com/in/sinkaroid) - [`X / Twitter`](https://twitter.com/sinkaroid) - [`Steam`](https://steamcommunity.com/id/sinkaroid) - [`MyAnimeList`](https://myanimelist.net/profile/sinkaroid)
 
 <a href="https://sinkaroid.org"><img align="right" src="ci/static/41eb506c06b7ce74cba7cef056d0b1dd.png" width="120"></a>
-I never trained beneath the banners of a grand academy, so don't expect me to recite every ancient algorithm from memory. Hand me the grimoire instead—I have the patience to study, experiment, and forge the right spells. Every lesson in my tome was earned through curiosity, unwavering perseverance, and the courage to learn from every failed spells.
+I never trained beneath the banners of a grand academy, nor was my grimoire written by formal scholars. Instead, every chapter was forged through curiosity, relentless experimentation, and the patience to seek knowledge wherever it could be found.
+
+So don't expect me to recite every ancient algorithm or obscure incantation from memory. Hand me the grimoire instead, and I'll study its runes, unravel its mysteries, and patiently forge the right spell for the challenge before me. I believe true mastery is measured not by what one has memorized, but by the determination to understand, adapt, and create.
+
+Every lesson within my tome was earned through unwavering perseverance, countless experiments, and the courage to learn from every failed spell. Each success is another rune etched upon its pages, and every failure another step toward mastering the craft I have chosen to pursue.
+
 
 ## Security Flaws in my repos
 
