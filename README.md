@@ -2,7 +2,7 @@
 
 [`Skills`](https://sinkaroid.org/skills) - [`LinkedIn`](https://linkedin.com/in/sinkaroid) - [`X / Twitter`](https://twitter.com/sinkaroid) - [`Steam`](https://steamcommunity.com/id/sinkaroid) - [`MyAnimeList`](https://myanimelist.net/profile/sinkaroid)
 
-<a href="https://sinkaroid.org"><img align="right" src="ci/static/41eb506c06b7ce74cba7cef056d0b1dd.webp" width="130"></a>
+<a href="https://sinkaroid.org"><img align="right" src="ci/static/41eb506c06b7ce74cba7cef056d0b1dd.webp" width="180"></a>
 I never trained beneath the banners of a grand academy, nor was my grimoire written by formal scholars. Instead, every chapter was forged through curiosity, relentless experimentation, and the patience to seek knowledge wherever it could be found.
 
 So don't expect me to recite every ancient algorithm or obscure incantation from memory. Hand me the grimoire instead, and I'll study its runes, unravel its mysteries, and patiently forge the right spell for the challenge before me. I believe true mastery is measured not by what one has memorized, but by the determination to understand, adapt, and create.
