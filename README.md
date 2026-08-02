@@ -9,10 +9,9 @@ So don't expect me to recite every ancient algorithm or obscure incantation from
 
 Every lesson within my tome was earned through unwavering perseverance, countless experiments, and the courage to learn from every failed spell. Each success is another rune etched upon its pages, and every failure another step toward mastering the craft I have chosen to pursue.
 
-
 ## Security Flaws in my repos
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > You'll see some of the repositories I've made for various projects. If you find a security vulnerability in one of my projects that still maintained, please immediately reach out to me via my email or the corresponding `SECURITY.md` file.
 
 - On my profile [`@sinkaroid/repo`](https://github.com/sinkaroid?tab=repositories), [`@sinkaroid/packages`](https://github.com/sinkaroid?tab=packages), [`npm/sinkaroid`](https://www.npmjs.com/~sinkaroid), [`pypi/sinkaroid`](https://pypi.org/user/sinkaroid/)

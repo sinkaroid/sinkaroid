@@ -11,7 +11,7 @@
         Artifacts & Chronicles
       </h2>
       <p class="section-subtitle">
-        Relics forged through countless quests, each carrying a story of its own. {{ all_info.length }} open-source projecst, {{ standalone_info.length }} SaS (standalone), {{ sas_info.length }} SaS (closed-source), & {{ design_info.length }} illustrations and repository branding.
+        Relics forged through countless quests, each carrying a story of its own. {{ all_info.length }} open-source projects, {{ standalone_info.length }} SaS (standalone), {{ sas_info.length }} SaS (closed-source), & {{ design_info.length }} illustrations and repository branding.
       </p>
     </div>
 

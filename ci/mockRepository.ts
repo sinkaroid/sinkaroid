@@ -1,3 +1,8 @@
+import dispatcherDescription from "./markdown/dispatcher.md?raw";
+import scathachNextDescription from "./markdown/scathach_next.md?raw";
+import scathachNextProDescription from "./markdown/scathach_next_pro.md?raw";
+import teivaxDescription from "./markdown/teivax.md?raw";
+
 import dataJson from "./data_oss.json" with { type: "json" };
 import dataSasJson from "./data_oss_sas.json" with { type: "json" };
 import flatPicture from "../src/assets/darin.png";
@@ -40,13 +45,16 @@ import imgRepoBrandMatoi from "../src/assets/designs/matoi.png";
 import imgRepoBrandTeivax from "../src/assets/designs/teivax.png";
 import imgRepoBrandPixivHono from "../src/assets/designs/pixivhono.png";
 import imgRepoBrandShiftypad from "../src/assets/designs/shiftypad_extension.png";
-import imgRepoBrandShiftypadProd from "../src/assets/designs/shiftypad.webp";
 import imgRepoBrandNikkePwned from "../src/assets/designs/nikkepwned.webp";
 import imgRepoBrandLustpress from "../src/assets/designs/lustpress.webp";
 import imgRepoBrandJandapress from "../src/assets/designs/jandapress.png";
 
 // Standalone software project images
+import imgScathachNextPro from "../src/assets/standalone/standalone_scathach-next-pro.webp";
+import imgScathachNext from "../src/assets/standalone/standalone_scathach-next.webp";
+import imgDispatcher from "../src/assets/standalone/standalone_dispatcher.webp";
 import imgDavinci from "../src/assets/standalone/standalone_davinci.webp";
+import imgTeivax from "../src/assets/standalone/standalone_teivax.webp";
 import imgShiftypad from "../src/assets/standalone/standalone_shiftypad.webp";
 import imgEnikk from "../src/assets/standalone/standalone_enikk.webp";
 import imgCharon from "../src/assets/standalone/standalone_charon.webp";
@@ -76,6 +84,7 @@ interface PortfolioItem {
     date: string;
     visit: string;
     description: string;
+    isMarkdown?: boolean;
 }
 
 const info = {
@@ -184,17 +193,6 @@ const info = {
     portfolio: data,
     portfolio_sas: dataSas,
     portfolio_design: [
-        {
-            name: "Repository branding",
-            title: "shiftypad-extension",
-            pictures: [{ img: imgRepoBrandShiftypadProd, title: "shiftypad.scathach.id" }],
-            technologies: ["Adobe Photoshop"],
-            category: "Visual Design",
-            github: "",
-            date: "2026",
-            visit: "",
-            description: "shiftypad.scathach.id",
-        },
         {
             name: "Repository branding",
             title: "@ScathachGrip/shiftypad-extension",
@@ -597,6 +595,42 @@ const info = {
     portfolio_standalone: [
         {
             name: "ScathachGrip",
+            title: "@ScathachGrip/scathach-next-pro",
+            pictures: [{ img: imgScathachNextPro, title: "scathach-next-pro" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://next-pro.scathach.id/",
+            description: scathachNextProDescription,
+            isMarkdown: true,
+        },
+        {
+            name: "ScathachGrip",
+            title: "@ScathachGrip/scathach-next",
+            pictures: [{ img: imgScathachNext, title: "scathach-next" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://next.scathach.id/",
+            description: scathachNextDescription,
+            isMarkdown: true,
+        },
+        {
+            name: "ScathachGrip",
+            title: "@ScathachGrip/dispatcher",
+            pictures: [{ img: imgDispatcher, title: "Dispatcher" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://dispatcher.scathach.id/",
+            description: dispatcherDescription,
+            isMarkdown: true,
+        },
+        {
+            name: "ScathachGrip",
             title: "DaVinci",
             pictures: [{ img: imgDavinci, title: "DaVinci" }],
             technologies: ["Continuous Integration", "Github Actions", "Github App"],
@@ -605,6 +639,18 @@ const info = {
             date: "2026 - Present",
             visit: "https://davinci.scathach.id/",
             description: "Github Actions app to automate PR and Issues workflows",
+        },
+        {
+            name: "ScathachGrip",
+            title: "teivax",
+            pictures: [{ img: imgTeivax, title: "teivax" }],
+            technologies: ["Continuous Integration"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://github.com/ScathachGrip/teivax",
+            description: teivaxDescription,
+            isMarkdown: true,
         },
         {
             name: "ScathachGrip",
@@ -706,48 +752,7 @@ const info = {
             description: "Provide a high quality NSFW contents with low effort, this microservice opens all endpoint parts, instead of free version of scathach-api",
         },
     ] as PortfolioItem[],
-    recommendations: [
-        {
-            title: "Always keep moving forward. Does not have a degree or a high education, but his patience and perseverance skip those things. Never disappoints, always totality.",
-            author: "Jordy Setyo Budi",
-            position: "Student, B. E",
-            company: "University of Amikom",
-            location: "Yogyakarta",
-            flag: "https://iconarchive.com/download/i109166/wikipedia/flags/ID-Indonesia-Flag.ico",
-            picture: "https://cdn.discordapp.com/attachments/938964058735013899/942798599966822410/kekw.png",
-            score: 5,
-        },
-        {
-            title: "He learn progamming by himself but his skills is quite impressive. He was able to complete his assignment ahead of time.",
-            author: "Rizky Bayu Aji",
-            position: "Architectural engineer",
-            company: "State University of Malang",
-            location: "Surabaya",
-            flag: "https://iconarchive.com/download/i109166/wikipedia/flags/ID-Indonesia-Flag.ico",
-            picture: "https://pbs.twimg.com/profile_images/1139071374331244544/zReFXXiO_400x400.jpg",
-            score: 5,
-        },
-        {
-            title: "Cukup oke, tetapi.. Tidak santuy dan terbilang selalu ngegas, bintang 3 dulu :v",
-            author: "Rinda P Rabsani",
-            position: "Community Manager",
-            company: "Discord User",
-            location: "Jakarta",
-            flag: "https://iconarchive.com/download/i109166/wikipedia/flags/ID-Indonesia-Flag.ico",
-            picture: "https://cdn.discordapp.com/attachments/959246543314096138/999331069646098523/bd009b5732be94fc41d3b1e2060b33dc.webp",
-            score: 3,
-        },
-        {
-            title: "Strong decision maker. Always prepares a good infrastructure from the start and if the progress suddenly scale up I need no make changes.",
-            author: "@soujiokita",
-            position: "Programmer",
-            company: "ScathachGrip",
-            location: "Udon Thani",
-            flag: "https://iconarchive.com/download/i109313/wikipedia/flags/TH-Thailand-Flag.ico",
-            picture: "https://avatars.githubusercontent.com/u/47995444?v=4",
-            score: 4,
-        },
-    ],
+    recommendations: []
 };
 
 export default info;
