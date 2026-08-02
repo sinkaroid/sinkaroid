@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-01, 11:53:25",
+    "last_sync": "2026-08-02, 04:38:01",
     "data": [
         {
             "name": "sinkaroid",
@@ -19,16 +19,15 @@
                 "vuejs"
             ],
             "category": "Vue",
-            "date": "August 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "b01c9f1148506022e6e78da670e264adccf7a7a6",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/b01c9f1148506022e6e78da670e264adccf7a7a6",
+            "commit": "4929b85b2a7c1dd71cf3c1daa6180bcd3fbc8bf3",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/4929b85b2a7c1dd71cf3c1daa6180bcd3fbc8bf3",
             "release": "v4.0.10-alpha",
             "stargazers_count": 6,
-            "last_commit_date": "2026-07-31T12:54:34Z"
+            "last_commit_date": 1785585352
         },
         {
             "name": "davinci",
@@ -46,7 +45,6 @@
                 "github-bots"
             ],
             "category": "Go",
-            "date": "October 03, 2022 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/davinci",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://davinci.scathach.id",
@@ -55,7 +53,7 @@
             "link_commit": "https://github.com/scathachgrip/davinci/commit/538f3dc34caccdce750e31cfc66fcf9dc142dbba",
             "release": "v1.1.8-alpha",
             "stargazers_count": 3,
-            "last_commit_date": "2026-07-28T09:17:49Z"
+            "last_commit_date": 1785230269
         },
         {
             "name": "pixivHono",
@@ -73,7 +71,6 @@
                 "pixiv-resolver"
             ],
             "category": "Go",
-            "date": "July 22, 2026 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/pixivHono",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://sinkaroid.github.io/pixivHono",
@@ -82,7 +79,7 @@
             "link_commit": "https://github.com/sinkaroid/pixivhono/commit/8af11ab7ada1aa004cb071d8868bf11a1d5d4910",
             "release": "v1.3.2-alpha",
             "stargazers_count": 1,
-            "last_commit_date": "2026-07-23T10:22:18Z"
+            "last_commit_date": 1784802138
         },
         {
             "name": "lustpress",
@@ -105,7 +102,6 @@
                 "youporn"
             ],
             "category": "TypeScript",
-            "date": "April 18, 2023 (Updated: 19 hours ago)",
             "github": "https://github.com/sinkaroid/lustpress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/lustpress",
@@ -114,7 +110,7 @@
             "link_commit": "https://github.com/sinkaroid/lustpress/commit/28ce0614b3added80fd9b8feb461fff2fc38927c",
             "release": "v8.5.0-alpha",
             "stargazers_count": 104,
-            "last_commit_date": "2026-07-21T23:08:04Z"
+            "last_commit_date": 1784675284
         },
         {
             "name": "jandapress",
@@ -136,7 +132,6 @@
                 "simply-hentai"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2022 (Updated: a day ago)",
             "github": "https://github.com/sinkaroid/jandapress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jandapress",
@@ -145,7 +140,7 @@
             "link_commit": "https://github.com/sinkaroid/jandapress/commit/094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "release": "v10.2.0-alpha",
             "stargazers_count": 68,
-            "last_commit_date": "2026-07-21T20:16:38Z"
+            "last_commit_date": 1784664998
         },
         {
             "name": "matoi",
@@ -159,7 +154,6 @@
                 "Dockerfile"
             ],
             "category": "Go",
-            "date": "June 20, 2026 (Updated: 11 days ago)",
             "github": "https://github.com/sinkaroid/matoi",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://sinkaroid.github.io/matoi",
@@ -168,7 +162,7 @@
             "link_commit": "https://github.com/sinkaroid/matoi/commit/f98b093c473c7b7f1ddbc925120b71eb77d6405a",
             "release": "v15.7.0-alpha",
             "stargazers_count": 3,
-            "last_commit_date": "2026-07-21T18:48:33Z"
+            "last_commit_date": 1784659713
         },
         {
             "name": "teivax",
@@ -182,7 +176,6 @@
                 "Dockerfile"
             ],
             "category": "Rust",
-            "date": "July 11, 2026 (Updated: 19 days ago)",
             "github": "https://github.com/ScathachGrip/teivax",
             "bahasa": "https://skillicons.dev/icons?i=rust",
             "visit": "https://scathachbot.xyz/custom-branding",
@@ -191,7 +184,7 @@
             "link_commit": "https://github.com/scathachgrip/teivax/commit/0e19ab4b038ae1089fcc73640c7089b5ba0857c9",
             "release": "v0.1.8",
             "stargazers_count": 0,
-            "last_commit_date": "2026-07-13T23:18:37Z"
+            "last_commit_date": 1783984717
         },
         {
             "name": "shiftypad-extension",
@@ -209,7 +202,6 @@
                 "nikke"
             ],
             "category": "TypeScript",
-            "date": "May 15, 2026 (Updated: 11 days ago)",
             "github": "https://github.com/ScathachGrip/shiftypad-extension",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://shiftypad.scathach.id",
@@ -218,7 +210,7 @@
             "link_commit": "https://github.com/scathachgrip/shiftypad-extension/commit/7c28b23e5960f37755b4a8aba049a5b30f03e732",
             "release": "v0.0.1",
             "stargazers_count": 2,
-            "last_commit_date": "2026-05-20T07:30:19Z"
+            "last_commit_date": 1779262219
         },
         {
             "name": "nikkePwned",
@@ -234,7 +226,6 @@
                 "nikke"
             ],
             "category": "TypeScript",
-            "date": "February 24, 2025 (Updated: 11 days ago)",
             "github": "https://github.com/ScathachGrip/nikkePwned",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://github.com/ScathachGrip/nikkePwned",
@@ -243,7 +234,7 @@
             "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/2280fd677ae3d3383b6910f87e0803315662e3e5",
             "release": "v4.1.2-indev",
             "stargazers_count": 2,
-            "last_commit_date": "2026-04-24T23:33:15Z"
+            "last_commit_date": 1777073595
         },
         {
             "name": "booru",
@@ -260,7 +251,6 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "April 07, 2022 (Updated: 24 days ago)",
             "github": "https://github.com/sinkaroid/booru",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/booru",
@@ -269,7 +259,7 @@
             "link_commit": "https://github.com/sinkaroid/booru/commit/60a74bdabe45a776d61c2123cfb03a87e71c0c1b",
             "release": "1.0.21-alpha",
             "stargazers_count": 34,
-            "last_commit_date": "2025-06-22T22:53:24Z"
+            "last_commit_date": 1750632804
         },
         {
             "name": "jigoku",
@@ -288,7 +278,6 @@
                 "rule34"
             ],
             "category": "Python",
-            "date": "December 04, 2022 (Updated: 4 months ago)",
             "github": "https://github.com/sinkaroid/jigoku",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/jigoku",
@@ -297,7 +286,7 @@
             "link_commit": "https://github.com/sinkaroid/jigoku/commit/4e5f2ae51a34b5eb6d81148278f1477774bae95e",
             "release": "3.0.1-alpha",
             "stargazers_count": 13,
-            "last_commit_date": "2025-06-14T08:06:30Z"
+            "last_commit_date": 1749888390
         },
         {
             "name": "tomoe",
@@ -314,7 +303,6 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 18, 2022 (Updated: 13 days ago)",
             "github": "https://github.com/sinkaroid/tomoe",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/tomoe",
@@ -323,7 +311,7 @@
             "link_commit": "https://github.com/sinkaroid/tomoe/commit/d9f6ffdcf1a9c96875b0890f1a376ef19c3a6cc6",
             "release": "3.7.1-alpha",
             "stargazers_count": 39,
-            "last_commit_date": "2025-06-11T22:04:13Z"
+            "last_commit_date": 1749679453
         },
         {
             "name": "janda",
@@ -336,7 +324,6 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "March 15, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/janda",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/janda",
@@ -345,7 +332,7 @@
             "link_commit": "https://github.com/sinkaroid/janda/commit/2379b0a98668c036fa751aef05a3da014ce22166",
             "release": "4.1.0-alpha",
             "stargazers_count": 16,
-            "last_commit_date": "2025-06-11T20:53:11Z"
+            "last_commit_date": 1749675191
         },
         {
             "name": "merahputih.moe",
@@ -366,7 +353,6 @@
                 "subdomain"
             ],
             "category": "TypeScript",
-            "date": "April 24, 2023 (Updated: a month ago)",
             "github": "https://github.com/ScathachGrip/merahputih.moe",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://merahputih.moe",
@@ -375,7 +361,7 @@
             "link_commit": "https://github.com/scathachgrip/merahputih.moe/commit/e771cd382551f8be2c4fa18887ee20f4cd35880f",
             "release": "1.1.10-dev",
             "stargazers_count": 39,
-            "last_commit_date": "2024-01-26T04:34:41Z"
+            "last_commit_date": 1706243681
         },
         {
             "name": "discord-canvas",
@@ -388,7 +374,6 @@
                 "JavaScript"
             ],
             "category": "JavaScript",
-            "date": "September 18, 2022 (Updated: a year ago)",
             "github": "https://github.com/pokemilf/discord-canvas",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://github.com/pokemilf/discord-canvas",
@@ -397,7 +382,7 @@
             "link_commit": "https://github.com/pokemilf/discord-canvas/commit/f235c1a2895145b40706cd22793c525cb032098f",
             "release": "pre-release",
             "stargazers_count": 0,
-            "last_commit_date": "2023-07-21T02:51:29Z"
+            "last_commit_date": 1689907889
         },
         {
             "name": "gaebolg",
@@ -410,7 +395,6 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "March 28, 2023 (Updated: 7 days ago)",
             "github": "https://github.com/ScathachGrip/gaebolg",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://api.scathach.id",
@@ -419,7 +403,7 @@
             "link_commit": "https://github.com/scathachgrip/gaebolg/commit/870318a32132e97268bf34bf881f8f4f77f38cba",
             "release": "6.1.12-alpha",
             "stargazers_count": 2,
-            "last_commit_date": "2023-04-12T14:44:58Z"
+            "last_commit_date": 1681310698
         },
         {
             "name": "eiyuu",
@@ -435,7 +419,6 @@
                 "resolver"
             ],
             "category": "TypeScript",
-            "date": "August 14, 2022 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/eiyuu",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://eiyuu.js.org",
@@ -444,7 +427,7 @@
             "link_commit": "https://github.com/sinkaroid/eiyuu/commit/9829813d2d29560a84f1c7f18e149cfe0e220519",
             "release": "1.1.1-alpha",
             "stargazers_count": 14,
-            "last_commit_date": "2023-03-23T03:24:44Z"
+            "last_commit_date": 1679541884
         },
         {
             "name": "reddit-proxy",
@@ -458,7 +441,6 @@
                 "Dockerfile"
             ],
             "category": "TypeScript",
-            "date": "January 31, 2023 (Updated: 7 days ago)",
             "github": "https://github.com/ScathachGrip/reddit-proxy",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://github.com/ScathachGrip/reddit-proxy",
@@ -467,7 +449,7 @@
             "link_commit": "https://github.com/scathachgrip/reddit-proxy/commit/2423dd2bbcc89d31ee7617542910a54bfed09f1f",
             "release": "1.0.1-alpha",
             "stargazers_count": 2,
-            "last_commit_date": "2023-01-31T20:40:50Z"
+            "last_commit_date": 1675197650
         },
         {
             "name": "disgrowth",
@@ -486,7 +468,6 @@
                 "vue"
             ],
             "category": "Vue",
-            "date": "June 28, 2022 (Updated: a year ago)",
             "github": "https://github.com/sinkaroid/disgrowth",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://graph.scathachbot.xyz",
@@ -495,7 +476,7 @@
             "link_commit": "https://github.com/sinkaroid/disgrowth/commit/e0c3ed779fbca42b89e0d82ca964ff09014ebc59",
             "release": "1.0.7-alpha",
             "stargazers_count": 9,
-            "last_commit_date": "2023-01-17T17:19:38Z"
+            "last_commit_date": 1673975978
         },
         {
             "name": "disgrow",
@@ -508,7 +489,6 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -517,7 +497,7 @@
             "link_commit": "https://github.com/sinkaroid/disgrow/commit/7604d9057e9eeb3212825527119b659866b495ca",
             "release": "1.0.20-dev",
             "stargazers_count": 3,
-            "last_commit_date": "2023-01-17T17:17:00Z"
+            "last_commit_date": 1673975820
         },
         {
             "name": "jikan4snek",
@@ -533,7 +513,6 @@
                 "myanimelist"
             ],
             "category": "Python",
-            "date": "December 17, 2022 (Updated: a month ago)",
             "github": "https://github.com/ScathachGrip/jikan4snek",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://scathachgrip.github.io/jikan4snek",
@@ -542,7 +521,7 @@
             "link_commit": "https://github.com/scathachgrip/jikan4snek/commit/165871afb4c8566848a146d96d7f87602f835de3",
             "release": "4.2.1-alpha",
             "stargazers_count": 15,
-            "last_commit_date": "2022-12-20T14:56:28Z"
+            "last_commit_date": 1671548188
         },
         {
             "name": "scathach-api",
@@ -555,7 +534,6 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "December 26, 2020 (Updated: 2 years ago)",
             "github": "https://github.com/sinkaroid/scathach-api",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/scathach-api",
@@ -564,7 +542,7 @@
             "link_commit": "https://github.com/sinkaroid/scathach-api/commit/11918d3719913bdcd534d2f5414525d3304a67cc",
             "release": "1.0.16-dev",
             "stargazers_count": 24,
-            "last_commit_date": "2022-10-08T19:35:55Z"
+            "last_commit_date": 1665257755
         },
         {
             "name": "disgrow",
@@ -577,7 +555,6 @@
                 "TypeScript"
             ],
             "category": "TypeScript",
-            "date": "June 28, 2022 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/disgrow",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://disgrow.js.org",
@@ -586,7 +563,7 @@
             "link_commit": "https://github.com/sinkaroid/disgrow/commit/eae283f5b47c44793a0989961d99cacc939c9bd3",
             "release": "1.0.20-dev",
             "stargazers_count": 3,
-            "last_commit_date": "2022-10-01T20:49:31Z"
+            "last_commit_date": 1664657371
         },
         {
             "name": "cabul",
@@ -603,7 +580,6 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -612,7 +588,7 @@
             "link_commit": "https://github.com/sinkaroid/cabul/commit/095f14810f3b9714ff69e73184df88fd5ca645c3",
             "release": "0.0.22.dev",
             "stargazers_count": 60,
-            "last_commit_date": "2022-06-30T23:50:20Z"
+            "last_commit_date": 1656633020
         },
         {
             "name": "cabul",
@@ -629,7 +605,6 @@
                 "reddit-api"
             ],
             "category": "TypeScript",
-            "date": "March 24, 2021 (Updated: 9 days ago)",
             "github": "https://github.com/sinkaroid/cabul",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/cabul",
@@ -638,7 +613,7 @@
             "link_commit": "https://github.com/sinkaroid/cabul/commit/b9a8c5108a59225e0fa1f524a124b39cde047ac5",
             "release": "0.0.22.dev",
             "stargazers_count": 60,
-            "last_commit_date": "2022-06-30T23:47:28Z"
+            "last_commit_date": 1656632848
         },
         {
             "name": "jalter",
@@ -653,7 +628,6 @@
                 "selfbot"
             ],
             "category": "TypeScript",
-            "date": "January 21, 2022 (Updated: 8 months ago)",
             "github": "https://github.com/sinkaroid/jalter",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/jalter",
@@ -662,7 +636,7 @@
             "link_commit": "https://github.com/sinkaroid/jalter/commit/1c10be36b365c2d6cca6b46f88dd62740f343ad2",
             "release": "3.0.4-dev",
             "stargazers_count": 3,
-            "last_commit_date": "2022-05-18T22:42:07Z"
+            "last_commit_date": 1652913727
         },
         {
             "name": "badut",
@@ -675,7 +649,6 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 17, 2022 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/badut",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://sinkaroid.github.io/badut",
@@ -684,7 +657,7 @@
             "link_commit": "https://github.com/sinkaroid/badut/commit/2d48c366e5b4bdb10e97777c57f7e5c3c8d587f8",
             "release": "1.0.6-dev",
             "stargazers_count": 2,
-            "last_commit_date": "2022-04-17T11:47:39Z"
+            "last_commit_date": 1650196059
         },
         {
             "name": "shielder",
@@ -703,7 +676,6 @@
                 "http-requests"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: a year ago)",
             "github": "https://github.com/sinkaroid/shielder",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/shielder",
@@ -712,7 +684,7 @@
             "link_commit": "https://github.com/sinkaroid/shielder/commit/069b3fa260aa6df5d79ae4b726b39f49906bbff3",
             "release": "pre-release",
             "stargazers_count": 14,
-            "last_commit_date": "2022-03-20T18:54:07Z"
+            "last_commit_date": 1647802447
         },
         {
             "name": "pururin",
@@ -728,7 +700,6 @@
                 "pururin"
             ],
             "category": "Python",
-            "date": "March 10, 2022 (Updated: 3 years ago)",
             "github": "https://github.com/sinkaroid/pururin",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://pururin.to",
@@ -737,7 +708,7 @@
             "link_commit": "https://github.com/sinkaroid/pururin/commit/1f4342f690864498e5dded9e58fe34389cfe48ec",
             "release": "0.0.8.final",
             "stargazers_count": 7,
-            "last_commit_date": "2022-03-14T18:31:06Z"
+            "last_commit_date": 1647282666
         },
         {
             "name": "hensuki",
@@ -753,7 +724,6 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "August 08, 2019 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/hensuki",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/hensuki",
@@ -762,7 +732,7 @@
             "link_commit": "https://github.com/sinkaroid/hensuki/commit/c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
             "release": "2.0",
             "stargazers_count": 83,
-            "last_commit_date": "2021-05-20T00:49:49Z"
+            "last_commit_date": 1621471789
         },
         {
             "name": "umarun",
@@ -779,7 +749,6 @@
                 "python-marshal"
             ],
             "category": "Python",
-            "date": "August 10, 2020 (Updated: 2 years ago)",
             "github": "https://github.com/sinkaroid/umarun",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/umarun",
@@ -788,7 +757,7 @@
             "link_commit": "https://github.com/sinkaroid/umarun/commit/e4c048fb5f7820ed48b8231bdc6ea695a94a38fc",
             "release": "pre-release",
             "stargazers_count": 7,
-            "last_commit_date": "2021-05-05T01:20:06Z"
+            "last_commit_date": 1620177606
         },
         {
             "name": "strygwyr",
@@ -805,7 +774,6 @@
                 "wrapper"
             ],
             "category": "JavaScript",
-            "date": "March 12, 2021 (Updated: 5 years ago)",
             "github": "https://github.com/sinkaroid/strygwyr",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://strygwyr.js.org",
@@ -814,7 +782,7 @@
             "link_commit": "https://github.com/sinkaroid/strygwyr/commit/60f746a115be7691411c4c0a7adbe905df297772",
             "release": "pre-release",
             "stargazers_count": 7,
-            "last_commit_date": "2021-03-31T22:40:48Z"
+            "last_commit_date": 1617230448
         },
         {
             "name": "behoifer",
@@ -830,7 +798,6 @@
                 "danbooru"
             ],
             "category": "Shell",
-            "date": "March 17, 2021 (Updated: 5 years ago)",
             "github": "https://github.com/sinkaroid/behoifer",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/behoifer",
@@ -839,7 +806,7 @@
             "link_commit": "https://github.com/sinkaroid/behoifer/commit/66f3f4db82e8e41300a4583adb278f8e24abfd47",
             "release": "pre-release",
             "stargazers_count": 2,
-            "last_commit_date": "2021-03-17T23:08:57Z"
+            "last_commit_date": 1616022537
         },
         {
             "name": "scathach-api.py",
@@ -856,7 +823,6 @@
                 "wrapper"
             ],
             "category": "Python",
-            "date": "December 26, 2020 (Updated: 21 days ago)",
             "github": "https://github.com/sinkaroid/scathach-api.py",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://pypi.org/project/scathach-api/",
@@ -865,7 +831,7 @@
             "link_commit": "https://github.com/sinkaroid/scathach-api.py/commit/bfa206b7b62f00ec9e3c877c96fcd35938bbd8b9",
             "release": "pre-release",
             "stargazers_count": 19,
-            "last_commit_date": "2020-12-26T20:08:53Z"
+            "last_commit_date": 1609013333
         },
         {
             "name": "antk",
@@ -885,7 +851,6 @@
                 "regex"
             ],
             "category": "PHP",
-            "date": "May 25, 2019 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/antk",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://kato.kireisubs.org",
@@ -894,7 +859,7 @@
             "link_commit": "https://github.com/sinkaroid/antk/commit/6588013f3f126635c6c82a9fb2d6ee270213285d",
             "release": "redcolumn",
             "stargazers_count": 14,
-            "last_commit_date": "2020-11-29T22:33:00Z"
+            "last_commit_date": 1606689180
         },
         {
             "name": "shiguresh",
@@ -910,7 +875,6 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "April 21, 2020 (Updated: 3 years ago)",
             "github": "https://github.com/sinkaroid/shiguresh",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/sinkaroid/shiguresh",
@@ -919,7 +883,7 @@
             "link_commit": "https://github.com/sinkaroid/shiguresh/commit/4fbfda4a296f3b9690770ed8f60e726522312a58",
             "release": "pre-release",
             "stargazers_count": 2,
-            "last_commit_date": "2020-04-21T22:23:43Z"
+            "last_commit_date": 1587507823
         },
         {
             "name": "dotabuff",
@@ -936,7 +900,6 @@
                 "regex"
             ],
             "category": "Shell",
-            "date": "January 30, 2020 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/dotabuff",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://www.dotabuff.com/",
@@ -945,7 +908,7 @@
             "link_commit": "https://github.com/sinkaroid/dotabuff/commit/8d36a096d37a16839790a6578af8ca4ff2276233",
             "release": "pre-release",
             "stargazers_count": 3,
-            "last_commit_date": "2020-01-31T00:45:46Z"
+            "last_commit_date": 1580431546
         },
         {
             "name": "illustrator-tracker",
@@ -962,7 +925,6 @@
                 "nsfw"
             ],
             "category": "Python",
-            "date": "August 17, 2019 (Updated: a year ago)",
             "github": "https://github.com/sinkaroid/illustrator-tracker",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/illustrator-tracker",
@@ -971,7 +933,7 @@
             "link_commit": "https://github.com/sinkaroid/illustrator-tracker/commit/031868fedd54c7709ec262007dfe5791090ca612",
             "release": "pre-release",
             "stargazers_count": 16,
-            "last_commit_date": "2019-11-12T02:53:52Z"
+            "last_commit_date": 1573527232
         },
         {
             "name": "simpleocr",
@@ -988,7 +950,6 @@
                 "text-recognition"
             ],
             "category": "Python",
-            "date": "September 25, 2019 (Updated: 7 years ago)",
             "github": "https://github.com/sinkaroid/simpleocr",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/simpleocr",
@@ -997,7 +958,7 @@
             "link_commit": "https://github.com/sinkaroid/simpleocr/commit/1989d141b65a6d1c1c3f4576eac1fac46fb055ff",
             "release": "pre-release",
             "stargazers_count": 2,
-            "last_commit_date": "2019-09-25T10:10:59Z"
+            "last_commit_date": 1569406259
         },
         {
             "name": "webNovelCrawler",
@@ -1016,7 +977,6 @@
                 "webnovel"
             ],
             "category": "PHP",
-            "date": "July 26, 2019 (Updated: 3 years ago)",
             "github": "https://github.com/sinkaroid/webNovelCrawler",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/webNovelCrawler",
@@ -1025,7 +985,7 @@
             "link_commit": "https://github.com/sinkaroid/webNovelCrawler/commit/983732879b9d40410e1cbf31e3d1d15e10682f10",
             "release": "pre-release",
             "stargazers_count": 1,
-            "last_commit_date": "2019-07-26T17:57:41Z"
+            "last_commit_date": 1564163861
         },
         {
             "name": "localroot",
@@ -1038,7 +998,6 @@
                 "C"
             ],
             "category": "C",
-            "date": "January 05, 2019 (Updated: 3 years ago)",
             "github": "https://github.com/sinkaroid/localroot",
             "bahasa": "https://skillicons.dev/icons?i=c",
             "visit": "https://github.com/sinkaroid/localroot",
@@ -1047,7 +1006,7 @@
             "link_commit": "https://github.com/sinkaroid/localroot/commit/08a9362516d0077f97b7c2485da140ce6de57863",
             "release": "pre-release",
             "stargazers_count": 0,
-            "last_commit_date": "2019-07-09T00:58:07Z"
+            "last_commit_date": 1562633887
         },
         {
             "name": "ereg_replace-decoder",
@@ -1061,7 +1020,6 @@
                 "decoder"
             ],
             "category": "PHP",
-            "date": "February 12, 2019 (Updated: 3 years ago)",
             "github": "https://github.com/sinkaroid/ereg_replace-decoder",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/ereg_replace-decoder",
@@ -1070,7 +1028,7 @@
             "link_commit": "https://github.com/sinkaroid/ereg_replace-decoder/commit/d53f5e3f7463ca787652ceb995bc9e33b93e09e6",
             "release": "pre-release",
             "stargazers_count": 1,
-            "last_commit_date": "2019-07-09T00:50:17Z"
+            "last_commit_date": 1562633417
         },
         {
             "name": "Nhentai-Stealer",
@@ -1087,7 +1045,6 @@
                 "nhentai"
             ],
             "category": "PHP",
-            "date": "January 18, 2019 (Updated: a month ago)",
             "github": "https://github.com/sinkaroid/Nhentai-Stealer",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Nhentai-Stealer",
@@ -1096,7 +1053,7 @@
             "link_commit": "https://github.com/sinkaroid/Nhentai-Stealer/commit/52e7e20ceb401fbdae3d874a51d4eea2e5ac5d4f",
             "release": "pre-release",
             "stargazers_count": 47,
-            "last_commit_date": "2019-06-22T13:44:28Z"
+            "last_commit_date": 1561211068
         },
         {
             "name": "pasirmerah",
@@ -1109,7 +1066,6 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "March 19, 2016 (Updated: 2 years ago)",
             "github": "https://github.com/slemanboys/pasirmerah",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/slemanboys/pasirmerah",
@@ -1118,7 +1074,7 @@
             "link_commit": "https://github.com/slemanboys/pasirmerah/commit/53ee112ebb8e7b2b432f725e72ff4bfe8efa371f",
             "release": "pre-release",
             "stargazers_count": 0,
-            "last_commit_date": "2019-03-07T06:31:51Z"
+            "last_commit_date": 1551940311
         },
         {
             "name": "Simple-logbait",
@@ -1133,7 +1089,6 @@
                 "social-engineering"
             ],
             "category": "PHP",
-            "date": "March 06, 2019 (Updated: 7 months ago)",
             "github": "https://github.com/sinkaroid/Simple-logbait",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Simple-logbait",
@@ -1142,7 +1097,7 @@
             "link_commit": "https://github.com/sinkaroid/Simple-logbait/commit/ccdc036c8ec23065dbf5a623ff3f684296672537",
             "release": "pre-release",
             "stargazers_count": 8,
-            "last_commit_date": "2019-03-06T04:19:48Z"
+            "last_commit_date": 1551845988
         },
         {
             "name": "Blackjasmine",
@@ -1158,7 +1113,6 @@
                 "php"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 8 months ago)",
             "github": "https://github.com/sinkaroid/Blackjasmine",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Blackjasmine",
@@ -1167,7 +1121,7 @@
             "link_commit": "https://github.com/sinkaroid/Blackjasmine/commit/59d8756e157f5e635c8f53b5f7673a6645b3129b",
             "release": "pre-release",
             "stargazers_count": 5,
-            "last_commit_date": "2019-02-14T06:57:16Z"
+            "last_commit_date": 1550127436
         },
         {
             "name": "Blackseroja",
@@ -1180,7 +1134,6 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "February 13, 2019 (Updated: 7 years ago)",
             "github": "https://github.com/sinkaroid/Blackseroja",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Blackseroja",
@@ -1189,7 +1142,7 @@
             "link_commit": "https://github.com/sinkaroid/Blackseroja/commit/8b15697f4b0bfde514c60a93f5e5448e5a2ff96a",
             "release": "pre-release",
             "stargazers_count": 2,
-            "last_commit_date": "2019-02-13T03:35:50Z"
+            "last_commit_date": 1550028950
         },
         {
             "name": "HiddenFlower",
@@ -1203,7 +1156,6 @@
                 "backdooring"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 7 years ago)",
             "github": "https://github.com/sinkaroid/HiddenFlower",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/HiddenFlower",
@@ -1212,7 +1164,7 @@
             "link_commit": "https://github.com/sinkaroid/HiddenFlower/commit/0133be6013c72c5996f93132f9d93852ff50e7a2",
             "release": "pre-release",
             "stargazers_count": 2,
-            "last_commit_date": "2019-02-13T02:21:45Z"
+            "last_commit_date": 1550024505
         },
         {
             "name": "Magento-Grabber",
@@ -1225,7 +1177,6 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "January 21, 2019 (Updated: 7 years ago)",
             "github": "https://github.com/slemanboys/Magento-Grabber",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/slemanboys/Magento-Grabber",
@@ -1234,7 +1185,7 @@
             "link_commit": "https://github.com/slemanboys/Magento-Grabber/commit/db810673f08889c9c810607a65eda942e3285f86",
             "release": "pre-release",
             "stargazers_count": 0,
-            "last_commit_date": "2019-02-12T03:51:53Z"
+            "last_commit_date": 1549943513
         },
         {
             "name": "Stupidc0de-Shell-2016",
@@ -1249,7 +1200,6 @@
                 "shell"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 8 months ago)",
             "github": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Stupidc0de-Shell-2016",
@@ -1258,7 +1208,7 @@
             "link_commit": "https://github.com/sinkaroid/Stupidc0de-Shell-2016/commit/8bcdcc1073216b53a893e3d4e941e0715f42e9b4",
             "release": "pre-release",
             "stargazers_count": 4,
-            "last_commit_date": "2019-01-23T16:31:01Z"
+            "last_commit_date": 1548261061
         },
         {
             "name": "Shell-Checker",
@@ -1273,7 +1223,6 @@
                 "shellcheck"
             ],
             "category": "PHP",
-            "date": "November 24, 2018 (Updated: a year ago)",
             "github": "https://github.com/sinkaroid/Shell-Checker",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Shell-Checker",
@@ -1282,7 +1231,7 @@
             "link_commit": "https://github.com/sinkaroid/Shell-Checker/commit/4a07af9578d679413e72ca2c88bee8e95385fa84",
             "release": "pre-release",
             "stargazers_count": 5,
-            "last_commit_date": "2019-01-23T16:26:52Z"
+            "last_commit_date": 1548260812
         },
         {
             "name": "weevcrot",
@@ -1295,7 +1244,6 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "January 05, 2019 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/weevcrot",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/weevcrot",
@@ -1304,7 +1252,7 @@
             "link_commit": "https://github.com/sinkaroid/weevcrot/commit/1312f84df57b23c68eb9a5903424a3fc87ac7888",
             "release": "pre-release",
             "stargazers_count": 2,
-            "last_commit_date": "2019-01-05T09:22:45Z"
+            "last_commit_date": 1546680165
         },
         {
             "name": "Tevolution-Exploiter",
@@ -1317,7 +1265,6 @@
                 "PHP"
             ],
             "category": "PHP",
-            "date": "January 21, 2019 (Updated: 7 years ago)",
             "github": "https://github.com/slemanboys/Tevolution-Exploiter",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/slemanboys/Tevolution-Exploiter",
@@ -1326,8 +1273,8 @@
             "link_commit": "https://github.com/slemanboys/Tevolution-Exploiter/commit/1866827591958f84cca4de09e683eeab0a6b52ff",
             "release": "pre-release",
             "stargazers_count": 0,
-            "last_commit_date": "2019-01-05T07:29:14Z"
+            "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "b01c9f1148506022e6e78da670e264adccf7a7a6"
+    "sha_commit": "4929b85b2a7c1dd71cf3c1daa6180bcd3fbc8bf3"
 }

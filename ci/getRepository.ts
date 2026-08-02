@@ -32,46 +32,6 @@ async function pendingSebentar(ms: number): Promise<void> {
     await new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-const convertDate = (date: string): string => {
-    let dateArray = date.split("-");
-    let year = dateArray[0];
-    let month = dateArray[1];
-    let day = dateArray[2].split("T")[0];
-    let monthArray = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December",
-    ];
-
-    let monthName = monthArray[parseInt(month, 10) - 1];
-    let dateString = `${monthName} ${day}, ${year}`;
-    return dateString;
-};
-
-const convertTime = (tgl: string): string => {
-    let dateArray = tgl.split("-");
-    let year = dateArray[0];
-    let month = dateArray[1];
-    let day = dateArray[2].split("T")[0];
-    let time = dateArray[2].split("T")[1].split("Z")[0];
-    let timeArray = time.split(":");
-    let hour = timeArray[0];
-    let minute = timeArray[1];
-    let second = timeArray[2];
-    let dateUpdate = new Date(parseInt(year, 10), parseInt(month, 10) - 1, parseInt(day, 10), parseInt(hour, 10), parseInt(minute, 10), parseInt(second, 10));
-    let timeago = moment(dateUpdate).fromNow();
-    return timeago;
-};
-
 interface RepoInfo {
     user: string;
     name: string;
@@ -257,7 +217,6 @@ const getInfo = async (useToken: boolean): Promise<unknown[]> => {
                 pictures: [{ img: localImgPath }],
                 technologies: topics,
                 category: res.data.language,
-                date: `${convertDate(res.data.created_at)} (Updated: ${convertTime(res.data.updated_at)})`,
                 github: res.data.html_url,
                 bahasa: bahasa,
                 visit: res.data.homepage ? res.data.homepage : res.data.html_url,
@@ -266,7 +225,7 @@ const getInfo = async (useToken: boolean): Promise<unknown[]> => {
                 link_commit: `https://github.com/${repoInfo.user}/${repoInfo.name}/commit/${resSha.data.sha}`,
                 release: release,
                 stargazers_count: res.data.stargazers_count,
-                last_commit_date: resSha.data.commit.committer.date,
+                last_commit_date: Math.floor(Date.parse(resSha.data.commit.committer.date) / 1000),
             });
 
             console.log(`Pushing ${repoInfo.name} #${repoInfo.branch} to portfolio data`);
@@ -381,9 +340,9 @@ const save = async () => {
     let info = await getInfo(useToken);
 
     info.sort((a: unknown, b: unknown) => {
-        const dateA = new Date((a as { last_commit_date?: string }).last_commit_date || 0);
-        const dateB = new Date((b as { last_commit_date?: string }).last_commit_date || 0);
-        return dateB.getTime() - dateA.getTime();
+        const dateA = (a as { last_commit_date?: number }).last_commit_date || 0;
+        const dateB = (b as { last_commit_date?: number }).last_commit_date || 0;
+        return dateB - dateA;
     });
 
     let data = {

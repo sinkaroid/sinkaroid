@@ -1,4 +1,3 @@
-import moment from "moment";
 import fs from "fs";
 
 const isAutoRefresh = true;
@@ -143,14 +142,6 @@ const fetchUserTags = async (appid: number): Promise<string[]> => {
 const stripHtml = (html: string): string =>
     html.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
-const convertTime = (unixSeconds: number): string => {
-    if (!unixSeconds) {
-        return "never";
-    }
-    const date = new Date(unixSeconds * 1000);
-    return moment(date).fromNow();
-};
-
 interface GameItemInfo {
     appID: number;
     name: string;
@@ -165,7 +156,6 @@ interface GameItemInfo {
     playtime2weeks: number;
     playtimeForever: number;
     lastPlayed: number;
-    timeago: string;
 }
 
 // Categories to skip (meta/utility, not gameplay-defining).
@@ -284,7 +274,6 @@ if (!isAutoRefresh) {
                     recentLast || game.rtime_last_played || 0;
                 const playtime2weeks =
                     playtime2weeksByApp.get(game.appid) ?? 0;
-                const timeago = convertTime(lastPlayed);
 
                 return {
                     appID: game.appid,
@@ -300,7 +289,6 @@ if (!isAutoRefresh) {
                     playtime2weeks,
                     playtimeForever: game.playtime_forever,
                     lastPlayed,
-                    timeago,
                 };
             });
 

@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-01, 11:54:43",
+    "last_sync": "2026-08-02, 04:39:37",
     "data": [
         {
             "name": "dispatcher",
@@ -17,7 +17,6 @@
                 "scheduler"
             ],
             "category": "TypeScript",
-            "date": "May 04, 2026 (Updated: a day ago)",
             "github": "https://github.com/ScathachGrip/dispatcher",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://dispatcher.scathach.id/nodes",
@@ -25,7 +24,7 @@
             "commit": "3130037693d17c19567940d0817404dc3b3ce7ce",
             "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/3130037693d17c19567940d0817404dc3b3ce7ce",
             "release": "6.12.33-alpha",
-            "last_commit_date": "2026-07-31T13:47:08Z"
+            "last_commit_date": 1785505628
         },
         {
             "name": "scathach-next-pro",
@@ -40,7 +39,6 @@
                 "microservices"
             ],
             "category": "Go",
-            "date": "July 07, 2026 (Updated: a day ago)",
             "github": "https://github.com/ScathachGrip/scathach-next-pro",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://next-pro.scathach.id",
@@ -48,7 +46,7 @@
             "commit": "18c94ba683b41b217141643ff5b28789cb993395",
             "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/18c94ba683b41b217141643ff5b28789cb993395",
             "release": "2.3.11-alpha",
-            "last_commit_date": "2026-07-30T13:34:47Z"
+            "last_commit_date": 1785418487
         },
         {
             "name": "scathach-next",
@@ -65,7 +63,6 @@
                 "microservices"
             ],
             "category": "TypeScript",
-            "date": "June 04, 2026 (Updated: 2 days ago)",
             "github": "https://github.com/ScathachGrip/scathach-next",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
@@ -73,7 +70,7 @@
             "commit": "5b065943dafcbaba09dac6af0e818480e61144f5",
             "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/5b065943dafcbaba09dac6af0e818480e61144f5",
             "release": "v6.2.4-alpha",
-            "last_commit_date": "2026-07-30T12:04:01Z"
+            "last_commit_date": 1785413041
         },
         {
             "name": "statusflare",
@@ -89,7 +86,6 @@
                 "JavaScript"
             ],
             "category": "TypeScript",
-            "date": "June 03, 2026 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/statusflare",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://statusflare.sinxdr.workers.dev",
@@ -97,7 +93,7 @@
             "commit": "83fd6f4b070e9d6956b5b25003833fe992da4444",
             "link_commit": "https://github.com/ScathachGrip/statusflare/commit/83fd6f4b070e9d6956b5b25003833fe992da4444",
             "release": "v7.1.5-alpha",
-            "last_commit_date": "2026-07-28T09:02:09Z"
+            "last_commit_date": 1785229329
         },
         {
             "name": "XTwitterFavScrape",
@@ -110,7 +106,6 @@
                 "JavaScript"
             ],
             "category": "JavaScript",
-            "date": "April 16, 2026 (Updated: 4 days ago)",
             "github": "https://github.com/ScathachGrip/XTwitterFavScrape",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://github.com/ScathachGrip/XTwitterFavScrape",
@@ -118,7 +113,7 @@
             "commit": "0fe16b2989a51cf884ccce7a02dc07fda2919913",
             "link_commit": "https://github.com/ScathachGrip/XTwitterFavScrape/commit/0fe16b2989a51cf884ccce7a02dc07fda2919913",
             "release": "pre-release",
-            "last_commit_date": "2026-07-28T08:58:16Z"
+            "last_commit_date": 1785229096
         },
         {
             "name": "scathachbot.xyz",
@@ -137,7 +132,6 @@
                 "Dockerfile"
             ],
             "category": "Vue",
-            "date": "February 26, 2023 (Updated: 7 days ago)",
             "github": "https://github.com/ScathachGrip/scathachbot.xyz",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://scathachbot.xyz",
@@ -145,7 +139,7 @@
             "commit": "cd172901ad533b7aa645360669b91cb8625f4e9c",
             "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/cd172901ad533b7aa645360669b91cb8625f4e9c",
             "release": "v8.1.10-alpha",
-            "last_commit_date": "2026-07-25T19:10:23Z"
+            "last_commit_date": 1785006623
         },
         {
             "name": "buster",
@@ -158,7 +152,6 @@
                 "Go"
             ],
             "category": "Go",
-            "date": "June 24, 2026 (Updated: a month ago)",
             "github": "https://github.com/ScathachGrip/buster",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://github.com/ScathachGrip/buster",
@@ -166,7 +159,7 @@
             "commit": "426b9ab3cfb07bee2015c8c9dd167825a9d3f9c5",
             "link_commit": "https://github.com/ScathachGrip/buster/commit/426b9ab3cfb07bee2015c8c9dd167825a9d3f9c5",
             "release": "pre-release",
-            "last_commit_date": "2026-07-03T05:46:34Z"
+            "last_commit_date": 1783057594
         },
         {
             "name": "dispatcher-telemetry",
@@ -180,7 +173,6 @@
                 "CSS"
             ],
             "category": "JavaScript",
-            "date": "May 10, 2026 (Updated: 6 days ago)",
             "github": "https://github.com/ScathachGrip/dispatcher-telemetry",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://devops.scathach.id",
@@ -188,7 +180,7 @@
             "commit": "e1053f5813bfdcc22d02b637756fee9d9753283c",
             "link_commit": "https://github.com/ScathachGrip/dispatcher-telemetry/commit/e1053f5813bfdcc22d02b637756fee9d9753283c",
             "release": "2.0.0-alpha_stable_5m",
-            "last_commit_date": "2026-07-02T08:19:28Z"
+            "last_commit_date": 1782980368
         },
         {
             "name": "charon",
@@ -206,7 +198,6 @@
                 "Java"
             ],
             "category": "Vue",
-            "date": "February 06, 2026 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/charon",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://github.com/sinkaroid/charon",
@@ -214,7 +205,7 @@
             "commit": "b820b25346bef91f8d34327412f8d2493e294234",
             "link_commit": "https://github.com/sinkaroid/charon/commit/b820b25346bef91f8d34327412f8d2493e294234",
             "release": "v2.1.36",
-            "last_commit_date": "2026-06-03T11:48:23Z"
+            "last_commit_date": 1780487303
         },
         {
             "name": "dna-autofarm",
@@ -230,7 +221,6 @@
                 "VBScript"
             ],
             "category": "TypeScript",
-            "date": "February 12, 2026 (Updated: 2 months ago)",
             "github": "https://github.com/sinkaroid/dna-autofarm",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://github.com/sinkaroid/dna-autofarm",
@@ -238,7 +228,7 @@
             "commit": "da3fe94fb13da1c4f2f13425a65ae9a7fe654249",
             "link_commit": "https://github.com/sinkaroid/dna-autofarm/commit/da3fe94fb13da1c4f2f13425a65ae9a7fe654249",
             "release": "pre-release",
-            "last_commit_date": "2026-05-21T00:52:03Z"
+            "last_commit_date": 1779324723
         },
         {
             "name": "XPixivBookmarkScrape",
@@ -251,7 +241,6 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "April 19, 2026 (Updated: 6 days ago)",
             "github": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/ScathachGrip/XPixivBookmarkScrape",
@@ -259,7 +248,7 @@
             "commit": "5b4d599c4ff88ad3c6313f66746bffa4e5efdc13",
             "link_commit": "https://github.com/ScathachGrip/XPixivBookmarkScrape/commit/5b4d599c4ff88ad3c6313f66746bffa4e5efdc13",
             "release": "pre-release",
-            "last_commit_date": "2026-04-19T13:52:31Z"
+            "last_commit_date": 1776606751
         },
         {
             "name": "SSHfier",
@@ -272,7 +261,6 @@
                 "Shell"
             ],
             "category": "Shell",
-            "date": "October 28, 2025 (Updated: 6 days ago)",
             "github": "https://github.com/ScathachGrip/SSHfier",
             "bahasa": "https://skillicons.dev/icons?i=bash",
             "visit": "https://github.com/ScathachGrip/SSHfier",
@@ -280,7 +268,7 @@
             "commit": "18ea51b9597e9b742831671c6cdc8ad7a4f8f337",
             "link_commit": "https://github.com/ScathachGrip/SSHfier/commit/18ea51b9597e9b742831671c6cdc8ad7a4f8f337",
             "release": "pre-release",
-            "last_commit_date": "2026-01-21T01:05:00Z"
+            "last_commit_date": 1768957500
         },
         {
             "name": "enikk",
@@ -297,7 +285,6 @@
                 "Java"
             ],
             "category": "Vue",
-            "date": "August 12, 2023 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/enikk",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://github.com/sinkaroid/enikk",
@@ -305,7 +292,7 @@
             "commit": "aa1344d4287320067c9103fcca525485f0523b16",
             "link_commit": "https://github.com/sinkaroid/enikk/commit/aa1344d4287320067c9103fcca525485f0523b16",
             "release": "3.11.4",
-            "last_commit_date": "2025-10-28T09:58:40Z"
+            "last_commit_date": 1761645520
         },
         {
             "name": "Caster",
@@ -318,7 +305,6 @@
                 "JavaScript"
             ],
             "category": "JavaScript",
-            "date": "December 10, 2022 (Updated: 9 months ago)",
             "github": "https://github.com/ScathachGrip/Caster",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://github.com/ScathachGrip/Caster",
@@ -326,7 +312,7 @@
             "commit": "c8a4e0aa6444f3e5b73645ce0969627c9d80b6b3",
             "link_commit": "https://github.com/ScathachGrip/Caster/commit/c8a4e0aa6444f3e5b73645ce0969627c9d80b6b3",
             "release": "pre-release",
-            "last_commit_date": "2025-10-28T05:05:56Z"
+            "last_commit_date": 1761627956
         },
         {
             "name": "enikk-webhook",
@@ -339,7 +325,6 @@
                 "JavaScript"
             ],
             "category": "JavaScript",
-            "date": "September 23, 2025 (Updated: 10 months ago)",
             "github": "https://github.com/ScathachGrip/enikk-webhook",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://github.com/ScathachGrip/enikk-webhook",
@@ -347,7 +332,7 @@
             "commit": "5a6af02493be25af1685b142447895231569cf70",
             "link_commit": "https://github.com/ScathachGrip/enikk-webhook/commit/5a6af02493be25af1685b142447895231569cf70",
             "release": "pre-release",
-            "last_commit_date": "2025-09-23T20:30:59Z"
+            "last_commit_date": 1758659459
         },
         {
             "name": "enikk_rock_counter",
@@ -364,7 +349,6 @@
                 "HTML"
             ],
             "category": "JavaScript",
-            "date": "January 16, 2025 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/enikk_rock_counter",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://enikkr.scathach.id",
@@ -372,7 +356,7 @@
             "commit": "c484b8189d7a7947986e23479e61c2d037d37e07",
             "link_commit": "https://github.com/sinkaroid/enikk_rock_counter/commit/c484b8189d7a7947986e23479e61c2d037d37e07",
             "release": "pre-release",
-            "last_commit_date": "2025-01-17T13:26:48Z"
+            "last_commit_date": 1737120408
         },
         {
             "name": "aiserver",
@@ -385,7 +369,6 @@
                 "Python"
             ],
             "category": "Python",
-            "date": "July 09, 2023 (Updated: 6 days ago)",
             "github": "https://github.com/ScathachGrip/aiserver",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/ScathachGrip/aiserver",
@@ -393,7 +376,7 @@
             "commit": "b89bdb16fd2a33f6b712e6e7374ae0a103b2473b",
             "link_commit": "https://github.com/ScathachGrip/aiserver/commit/b89bdb16fd2a33f6b712e6e7374ae0a103b2473b",
             "release": "pre-release",
-            "last_commit_date": "2023-07-09T05:50:53Z"
+            "last_commit_date": 1688881853
         },
         {
             "name": "archer",
@@ -406,7 +389,6 @@
                 "JavaScript"
             ],
             "category": "JavaScript",
-            "date": "April 06, 2023 (Updated: 3 years ago)",
             "github": "https://github.com/ScathachGrip/archer",
             "bahasa": "https://skillicons.dev/icons?i=js",
             "visit": "https://github.com/ScathachGrip/archer",
@@ -414,7 +396,7 @@
             "commit": "a039dd7939500c2cdf6a8cb4355e7432206fcc41",
             "link_commit": "https://github.com/ScathachGrip/archer/commit/a039dd7939500c2cdf6a8cb4355e7432206fcc41",
             "release": "pre-release",
-            "last_commit_date": "2023-04-06T19:46:14Z"
+            "last_commit_date": 1680810374
         },
         {
             "name": "spellblock",
@@ -427,7 +409,6 @@
                 "Ruby"
             ],
             "category": "Ruby",
-            "date": "May 26, 2021 (Updated: 4 years ago)",
             "github": "https://github.com/ScathachGrip/spellblock",
             "bahasa": "https://skillicons.dev/icons?i=ruby",
             "visit": "https://github.com/ScathachGrip/spellblock",
@@ -435,7 +416,7 @@
             "commit": "44ff214eaf9a7e43ab250897ef3e19f6cf7c4681",
             "link_commit": "https://github.com/ScathachGrip/spellblock/commit/44ff214eaf9a7e43ab250897ef3e19f6cf7c4681",
             "release": "pre-release",
-            "last_commit_date": "2022-10-01T03:00:34Z"
+            "last_commit_date": 1664593234
         },
         {
             "name": "Scathachgram",
@@ -452,7 +433,6 @@
                 "asyncio"
             ],
             "category": "Python",
-            "date": "July 04, 2021 (Updated: 6 days ago)",
             "github": "https://github.com/sinkaroid/Scathachgram",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/Scathachgram",
@@ -460,7 +440,7 @@
             "commit": "4d85d101af8e63deb0b0670fbf56cd0b622f38e1",
             "link_commit": "https://github.com/sinkaroid/Scathachgram/commit/4d85d101af8e63deb0b0670fbf56cd0b622f38e1",
             "release": "pre-release",
-            "last_commit_date": "2022-02-27T14:16:34Z"
+            "last_commit_date": 1645971394
         },
         {
             "name": "scathach.redsplit.org",
@@ -475,7 +455,6 @@
                 "HTML"
             ],
             "category": "PHP",
-            "date": "February 01, 2022 (Updated: 5 years ago)",
             "github": "https://github.com/ScathachGrip/scathach.redsplit.org",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/ScathachGrip/scathach.redsplit.org",
@@ -483,7 +462,7 @@
             "commit": "d7d0ff07015d7f8978abebd228364e7e7c21e91a",
             "link_commit": "https://github.com/ScathachGrip/scathach.redsplit.org/commit/d7d0ff07015d7f8978abebd228364e7e7c21e91a",
             "release": "pre-release",
-            "last_commit_date": "2022-02-13T04:02:29Z"
+            "last_commit_date": 1644724949
         },
         {
             "name": "megumiAi",
@@ -502,7 +481,6 @@
                 "voice-recognition"
             ],
             "category": "Python",
-            "date": "April 09, 2020 (Updated: 4 years ago)",
             "github": "https://github.com/sinkaroid/megumiAi",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/megumiAi",
@@ -510,7 +488,7 @@
             "commit": "98c59baf1b1303109b302ee221562b400995e8eb",
             "link_commit": "https://github.com/sinkaroid/megumiAi/commit/98c59baf1b1303109b302ee221562b400995e8eb",
             "release": "pre-release",
-            "last_commit_date": "2020-06-03T21:07:20Z"
+            "last_commit_date": 1591218440
         },
         {
             "name": "jawpy",
@@ -526,7 +504,6 @@
                 "scraper"
             ],
             "category": "Python",
-            "date": "November 10, 2019 (Updated: 5 years ago)",
             "github": "https://github.com/sinkaroid/jawpy",
             "bahasa": "https://skillicons.dev/icons?i=python",
             "visit": "https://github.com/sinkaroid/jawpy",
@@ -534,7 +511,7 @@
             "commit": "cc6aaa821594671de8b08bacfbccdd75867a4e65",
             "link_commit": "https://github.com/sinkaroid/jawpy/commit/cc6aaa821594671de8b08bacfbccdd75867a4e65",
             "release": "pre-release",
-            "last_commit_date": "2020-05-19T12:42:43Z"
+            "last_commit_date": 1589892163
         },
         {
             "name": "Makise",
@@ -552,7 +529,6 @@
                 "parser-library"
             ],
             "category": "PHP",
-            "date": "May 04, 2019 (Updated: 6 years ago)",
             "github": "https://github.com/sinkaroid/Makise",
             "bahasa": "https://skillicons.dev/icons?i=php",
             "visit": "https://github.com/sinkaroid/Makise",
@@ -560,8 +536,8 @@
             "commit": "d7af59894b3ca692bf8bb1f7eab90813ee54ed8b",
             "link_commit": "https://github.com/sinkaroid/Makise/commit/d7af59894b3ca692bf8bb1f7eab90813ee54ed8b",
             "release": "pre-release",
-            "last_commit_date": "2019-07-16T06:22:42Z"
+            "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "b01c9f1148506022e6e78da670e264adccf7a7a6"
+    "sha_commit": "4929b85b2a7c1dd71cf3c1daa6180bcd3fbc8bf3"
 }
