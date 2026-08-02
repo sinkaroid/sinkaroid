@@ -292,19 +292,19 @@ const domains = [
     { id: "all", label: "All", icon: "fa fa-layer-group" },
     { id: "build", label: "Build", icon: "fa fa-hammer" },
     { id: "scale", label: "Scale", icon: "fa fa-bolt" },
+    { id: "ship", label: "Ship", icon: "fa fa-rocket" },
     { id: "people", label: "People", icon: "fa fa-people-group" },
-    { id: "ship", label: "Ship", icon: "fa fa-rocket" }
 ];
 
 // depth = relative experience strength (not vanity %)
 const competencies = [
     { name: "Backend",       abbrev: "BE", domain: "build",  depth: 9, color: "#6366f1" },
-    { name: "Frontend",      abbrev: "FE", domain: "build",  depth: 5, color: "#06b6d4" },
+    { name: "Frontend",      abbrev: "FE", domain: "build",  depth: 6, color: "#06b6d4" },
+    { name: "Mobile",        abbrev: "MO", domain: "build",  depth: 6, color: "#06b6d4" },
     { name: "Microservices", abbrev: "MI", domain: "scale",  depth: 8, color: "#8b5cf6" },
-    { name: "Performance",   abbrev: "PF", domain: "scale",  depth: 7, color: "#10b981" },
-    { name: "Teamwork",      abbrev: "TW", domain: "people", depth: 7, color: "#ec4899" },
-    { name: "Leadership",    abbrev: "LD", domain: "people", depth: 4, color: "#f59e0b" },
-    { name: "Solo Delivery", abbrev: "SD", domain: "ship",   depth: 9, color: "#3b82f6" },
+    { name: "Performance",   abbrev: "PF", domain: "scale",  depth: 8, color: "#10b981" },
+    { name: "Efficiency",    abbrev: "EF", domain: "scale",  depth: 8, color: "#ec4899" },
+    { name: "Vertical Scaling",    abbrev: "VS", domain: "scale",  depth: 8, color: "#f59e0b" },
     { name: "CI/CD",         abbrev: "CI", domain: "ship",   depth: 6, color: "#ef4444" }
 ];
 
@@ -401,6 +401,14 @@ const deviconUrl = (name) => {
 const nodePos = (idx, axis) => {
     const cx = 160;
     const cy = 160;
+    
+    // For exactly 3 nodes (e.g., Build domain: BE, FE, MO)
+    if (filteredCompetencies.value.length === 3) {
+        if (idx === 0) return axis === "x" ? cx : 100; // Center node (BE) is near top
+        if (idx === 1) return axis === "x" ? 80 : 220;  // FE is bottom-left
+        if (idx === 2) return axis === "x" ? 240 : 220; // MO is bottom-right
+    }
+    
     if (idx === 0) return axis === "x" ? cx : cy;
     const orbit = 120;
     const angle = ((idx - 1) / Math.max(1, filteredCompetencies.value.length - 1)) * Math.PI * 2 - Math.PI / 2;
@@ -429,7 +437,7 @@ const radiusFor = (c) => {
 .card-title-header {
   font-family: var(--font-display);
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 900;
   color: var(--foreground);
   margin-bottom: var(--space-6);
 }

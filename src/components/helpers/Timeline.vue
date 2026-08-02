@@ -191,7 +191,7 @@ defineProps({
 }
 
 .card-degree {
-  font-weight: 500;
+  font-weight: 600;
   color: var(--accent);
 }
 

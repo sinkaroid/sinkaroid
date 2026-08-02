@@ -22,7 +22,7 @@
         <div class="pronouns-list">
           <div
             class="pronoun-tag green-tag clickable"
-            @click="showToast('🍀 TRUE SELF: ~@Indrawan I.')"
+            @click="openModal('trueself')"
           >
             <img
               src="/assets/icon/Metamorphosis_icon.webp"
@@ -40,7 +40,7 @@
 
           <div
             class="pronoun-tag crimson-tag clickable"
-            @click="showToast('🧠 CONJURE IMAGE (BRAIN Focused): The cognitive realm where ideas awaken, problems dissolve, and solutions are forged. Proficient and Pragmatic ~@sinkaroid')"
+            @click="openModal('conjureimage')"
           >
             <img
               src="/assets/icon/Conjure_Image_icon.webp"
@@ -58,7 +58,7 @@
 
           <div
             class="pronoun-tag purple-tag clickable"
-            @click="showToast('❤️ REFLECTION (HEART Focused): The sanctuary where empathy, intuition, and conscience guide the choices I make. Maybe fool and stupid ~@darin')"
+            @click="openModal('reflection')"
           >
             <img
               src="/assets/icon/Reflection_icon.webp"
@@ -76,7 +76,7 @@
 
           <div
             class="pronoun-tag orange-tag clickable"
-            @click="showToast('SUNDER: ~ꦏꦼꦭꦶꦭꦺꦥ꧀')"
+            @click="openModal('sunder')"
           >
             <img
               src="/assets/icon/Sunder_icon.webp"
@@ -94,16 +94,47 @@
         </div>
       </div>
 
-      <!-- Toast -->
+      <!-- Modal -->
       <Teleport to="body">
-        <Transition name="toast-fade">
+        <Transition name="modal-fade">
           <div
-            v-if="toastMessage"
-            class="pronoun-toast"
-            role="status"
-            aria-live="polite"
+            v-if="modalData.show"
+            class="pronoun-modal-mask"
+            @click.self="closeModal"
           >
-            {{ toastMessage }}
+            <div class="pronoun-modal-wrapper">
+              <div
+                class="pronoun-modal-card bento-card"
+                :class="modalData.colorClass"
+              >
+                <!-- Close Button in Corner -->
+                <button
+                  class="card-close-btn clickable"
+                  aria-label="Close modal"
+                  @click="closeModal"
+                >
+                  <i class="fas fa-times" />
+                </button>
+
+                <!-- Profile Info Group -->
+                <div class="card-hero">
+                  <img
+                    :src="modalData.icon"
+                    alt=""
+                    class="card-avatar"
+                  >
+                  <div class="card-meta">
+                    <span class="card-label">{{ modalData.title }}</span>
+                    <span class="card-value">{{ modalData.value }}</span>
+                  </div>
+                </div>
+
+                <!-- Description -->
+                <p class="card-desc">
+                  {{ modalData.description }}
+                </p>
+              </div>
+            </div>
           </div>
         </Transition>
       </Teleport>
@@ -156,14 +187,59 @@ const experience = {
   data: info.experience || []
 };
 
-const toastMessage = ref("");
-let toastTimer = null;
-const showToast = (msg) => {
-    toastMessage.value = msg;
-    if (toastTimer) clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => {
-        toastMessage.value = "";
-    }, 5000);
+const modalData = ref({
+    show: false,
+    title: "",
+    value: "",
+    icon: "",
+    colorClass: "",
+    description: ""
+});
+
+const openModal = (type) => {
+    if (type === "trueself") {
+        modalData.value = {
+            show: true,
+            title: "TRUE SELF",
+            value: "@Indrawan I.",
+            icon: "/assets/icon/Metamorphosis_icon.webp",
+            colorClass: "green-tag",
+            description: "Indrawan I."
+        };
+    } else if (type === "conjureimage") {
+        modalData.value = {
+            show: true,
+            title: "CONJURE IMAGE",
+            value: "@sinkaroid",
+            icon: "/assets/icon/Conjure_Image_icon.webp",
+            colorClass: "crimson-tag",
+            description: "🧠 CONJURE IMAGE (BRAIN):\n\nThe cognitive realm where ideas awaken, problems dissolve, and solutions are forged. Proficient and pragmatic - @sinkaroid"
+        };
+    } else if (type === "reflection") {
+        modalData.value = {
+            show: true,
+            title: "REFLECTION",
+            value: "@darin",
+            icon: "/assets/icon/Reflection_icon.webp",
+            colorClass: "purple-tag",
+            description: "❤️ REFLECTION (HEART):\n\nThe sanctuary where empathy, intuition, and conscience guide the choices I make. Maybe fool and stupid - @darin"
+        };
+    } else if (type === "sunder") {
+        modalData.value = {
+            show: true,
+            title: "SUNDER",
+            value: "ꦏꦼꦭꦶꦭꦺꦥ꧀",
+            icon: "/assets/icon/Sunder_icon.webp",
+            colorClass: "orange-tag",
+            description: "SUNDER: ~ꦏꦼꦭꦶꦭꦺꦥ꧀"
+        };
+    }
+    document.body.style.overflow = "hidden";
+};
+
+const closeModal = () => {
+    modalData.value.show = false;
+    document.body.style.overflow = "";
 };
 </script>
 
@@ -226,25 +302,25 @@ const showToast = (msg) => {
 
 /* Color variants */
 .green-tag  { --tag-color: #22c55e; border-color: var(--tag-color); }
-.green-tag:hover { background: rgba(34,197,94,0.08); border-color: var(--tag-color); }
+.pronoun-tag.green-tag:hover { background: rgba(34,197,94,0.08); border-color: var(--tag-color); }
 .green-tag .emoji-icon,
 .green-tag .label,
 .green-tag .value { color: var(--tag-color); }
 
 .purple-tag  { --tag-color: #a855f7; border-color: var(--tag-color); }
-.purple-tag:hover { background: rgba(168,85,247,0.08); border-color: var(--tag-color); }
+.pronoun-tag.purple-tag:hover { background: rgba(168,85,247,0.08); border-color: var(--tag-color); }
 .purple-tag .emoji-icon,
 .purple-tag .label,
 .purple-tag .value { color: var(--tag-color); }
 
 .crimson-tag  { --tag-color: #dc2626; border-color: var(--tag-color); }
-.crimson-tag:hover { background: rgba(220,38,38,0.08); border-color: var(--tag-color); }
+.pronoun-tag.crimson-tag:hover { background: rgba(220,38,38,0.08); border-color: var(--tag-color); }
 .crimson-tag .emoji-icon,
 .crimson-tag .label,
 .crimson-tag .value { color: var(--tag-color); }
 
 .orange-tag  { --tag-color: #f97316; border-color: var(--tag-color); }
-.orange-tag:hover { background: rgba(249,115,22,0.08); border-color: var(--tag-color); }
+.pronoun-tag.orange-tag:hover { background: rgba(249,115,22,0.08); border-color: var(--tag-color); }
 .orange-tag .emoji-icon,
 .orange-tag .label,
 .orange-tag .value { color: var(--tag-color); }
@@ -287,46 +363,149 @@ img.emoji-icon {
   cursor: pointer;
 }
 
-.pronoun-toast {
+/* Pronoun Modal CSS */
+.pronoun-modal-mask {
   position: fixed;
-  left: 50%;
-  bottom: 24px;
-  transform: translateX(-50%);
-  background: var(--card-bg);
-  color: var(--foreground);
-  border: 1px solid var(--card-border);
-  padding: 12px 22px;
-  border-radius: var(--radius-full);
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 0.9rem;
-  box-shadow: var(--card-shadow);
-  backdrop-filter: var(--card-blur);
-  z-index: 9998;
-  pointer-events: none;
-  max-width: min(92vw, 480px);
-  text-align: center;
-  white-space: pre-wrap;
-  word-break: break-word;
-  line-height: 1.4;
+  inset: 0;
+  background: rgba(9, 9, 11, 0.5);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: var(--space-4);
 }
 
-@media (max-width: 576px) {
-  .pronoun-toast {
-    border-radius: var(--radius-md);
-    bottom: 16px;
-    font-size: 0.85rem;
-    padding: 10px 16px;
+.pronoun-modal-wrapper {
+  width: 100%;
+  max-width: 500px;
+}
+
+.pronoun-modal-card {
+  background: var(--card-bg-solid);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6) !important;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: var(--card-blur);
+}
+
+.pronoun-modal-card:hover {
+  border-color: var(--card-border) !important;
+}
+
+.card-close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  color: var(--muted-foreground);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  border-radius: 50%;
+}
+
+.card-close-btn:hover {
+  color: var(--foreground);
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(90deg);
+}
+
+.card-hero {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-1);
+}
+
+.card-avatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.card-label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--tag-color, var(--accent));
+}
+
+.card-value {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--foreground);
+}
+
+.card-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--foreground);
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  opacity: 0.95;
+}
+
+/* Modal POP Pop-in and POP-out Animations */
+.modal-fade-enter-active,
+.modal-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.modal-fade-enter-from,
+.modal-fade-leave-to {
+  opacity: 0;
+}
+
+.modal-fade-enter-active .pronoun-modal-card {
+  animation: modal-pop-in 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-fade-leave-active .pronoun-modal-card {
+  animation: modal-pop-out 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modal-pop-in {
+  from {
+    transform: scale(0.95) translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
   }
 }
 
-.toast-fade-enter-active,
-.toast-fade-leave-active {
-  transition: opacity 0.25s ease, transform 0.25s ease;
-}
-.toast-fade-enter-from,
-.toast-fade-leave-to {
-  opacity: 0;
-  transform: translate(-50%, 12px);
+@keyframes modal-pop-out {
+  from {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.95) translateY(10px);
+    opacity: 0;
+  }
 }
 </style>

@@ -74,6 +74,14 @@
 
             <!-- Modal Footer -->
             <div class="modal-footer">
+              <a 
+                v-if="portfolio.visit || portfolio.link" 
+                :href="portfolio.visit || portfolio.link" 
+                target="_blank" 
+                class="btn-primary clickable"
+              >
+                <i class="fas fa-rocket" /> Preview
+              </a>
               <button
                 class="btn-secondary clickable"
                 @click="close"
@@ -259,6 +267,7 @@ onUnmounted(() => {
   padding-top: var(--space-4);
 }
 
+.modal-footer .btn-primary,
 .modal-footer .btn-secondary {
   min-width: 100px;
 }

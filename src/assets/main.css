@@ -307,6 +307,11 @@ a:hover {
   border-color: var(--muted-foreground);
 }
 
+.btn-primary i,
+.btn-secondary i {
+  margin-right: var(--space-2);
+}
+
 /* Flex Grid Helpers for Bootstrap 4 layouts migration */
 .row {
   display: flex;

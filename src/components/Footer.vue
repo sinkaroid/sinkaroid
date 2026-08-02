@@ -48,10 +48,10 @@
           :href="twitter" 
           target="_blank" 
           class="social-icon clickable"
-          data-tooltip="Twitter"
-          aria-label="Twitter profile"
+          data-tooltip="X"
+          aria-label="X profile"
         >
-          <i class="fab fa-twitter" />
+          <i class="fab fa-x-twitter" />
         </a>
 
         <a 
@@ -89,7 +89,7 @@ const base_repo = ref(null);
 
 const truncatedCommit = computed(() => {
   if (!latest_commit.value) return "";
-  return latest_commit.value.substring(0, 7);
+  return latest_commit.value.substring(0, 14);
 });
 
 // Native Cache helpers to replace lscache

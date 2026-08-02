@@ -11,7 +11,7 @@
         Artifacts & Chronicles
       </h2>
       <p class="section-subtitle">
-        Relics forged through countless quests, each carrying a story of its own. {{ all_info.length }} OSS, {{ sas_info.length }} SaS, {{ standalone_info.length }} standalone, & {{ design_info.length }} illustrations.
+        Relics forged through countless quests, each carrying a story of its own. {{ all_info.length }} open-source projecst, {{ standalone_info.length }} SaS (standalone), {{ sas_info.length }} SaS (closed-source), & {{ design_info.length }} illustrations and repository branding.
       </p>
     </div>
 
@@ -173,12 +173,22 @@
                 </span>
               </div>
 
-              <button 
-                class="btn-secondary clickable view-more-btn"
-                @click.prevent="showDesignModalFn(project)"
-              >
-                Read More
-              </button>
+              <div class="card-actions">
+                <button 
+                  class="btn-secondary clickable"
+                  @click.prevent="showDesignModalFn(project)"
+                >
+                  <i class="fas fa-search" /> Details
+                </button>
+                <a
+                  v-if="project.visit || project.link"
+                  :href="project.visit || project.link"
+                  target="_blank"
+                  class="btn-primary clickable"
+                >
+                  <i class="fas fa-external-link-alt" /> Go
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -254,12 +264,22 @@
                 </span>
               </div>
 
-              <button 
-                class="btn-secondary clickable view-more-btn"
-                @click.prevent="showDesignModalFn(artwork)"
-              >
-                Read More
-              </button>
+              <div class="card-actions">
+                <button 
+                  class="btn-secondary clickable"
+                  @click.prevent="showDesignModalFn(artwork)"
+                >
+                  <i class="fas fa-search" /> Details
+                </button>
+                <a
+                  v-if="artwork.visit || artwork.link"
+                  :href="artwork.visit || artwork.link"
+                  target="_blank"
+                  class="btn-primary clickable"
+                >
+                  <i class="fas fa-external-link-alt" /> Go
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -668,10 +688,24 @@ const closeModal = () => {
   margin: var(--space-2) 0;
 }
 
-.view-more-btn {
-  font-size: 0.8rem;
-  width: 100%;
+.card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: auto;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.card-actions button,
+.card-actions a {
+  flex: 1;
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 
 .card-enter {

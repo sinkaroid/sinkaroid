@@ -35,7 +35,7 @@
               href="/about" 
               @click.prevent="navigate('about')"
             >
-              <i class="fa fa-user-circle" /> about
+              <i class="fa-solid fa-fire" /> about
             </a>
           </li>
           <li class="nav-item">
@@ -62,7 +62,7 @@
               href="/activity"
               @click.prevent="navigate('activity')"
             >
-              <i class="fa fa-chart-line" /> activity
+              <i class="fa-solid fa-volleyball" /> activity
             </a>
           </li>
           <li class="nav-item">

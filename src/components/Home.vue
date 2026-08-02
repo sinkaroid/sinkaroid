@@ -108,11 +108,11 @@
 
             <button
               class="social-btn clickable"
-              data-tooltip="Twitter"
-              aria-label="Twitter Profile"
+              data-tooltip="X"
+              aria-label="X Profile"
               @click="open('twitter')"
             >
-              <i class="fab fa-twitter" />
+              <i class="fab fa-x-twitter" />
             </button>
 
             <button
@@ -292,6 +292,7 @@ const open = (platform) => {
 }
 
 .description-text {
+
   font-size: 1.15rem;
   line-height: 1.5;
   color: var(--foreground);
