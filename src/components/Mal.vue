@@ -242,6 +242,7 @@ import Card from "./helpers/Card.vue";
 import MalModal from "./helpers/MalModal.vue";
 import GameModal from "./helpers/GameModal.vue";
 import { randomGradient } from "../composables/useRandomGradient";
+import { timeAgo } from "../composables/useTimeAgo";
 
 // Import locally generated metadata
 import animeData from "../../ci/data_anime.json";
@@ -272,7 +273,7 @@ const gameList = (gameData.data || []).map((game) => ({
     description: game.shortDescription || game.description,
     tag: [
         `${Math.floor(game.playtimeForever / 60)}h played`,
-        `last ${game.timeago}`
+        `last ${timeAgo(game.lastPlayed)}`
     ]
 }));
 

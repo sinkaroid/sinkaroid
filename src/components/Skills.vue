@@ -327,6 +327,7 @@ const selectStack = (idx) => {
 
 // Devicon slug map (brand name -> devicon slug, optional variant)
 const DEVICON_MAP = {
+    "Git": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg",
     "TypeScript": "https://skillicons.dev/icons?i=ts",
     "JavaScript": "https://skillicons.dev/icons?i=js",
     "Python": "https://skillicons.dev/icons?i=py",
@@ -357,7 +358,7 @@ const DEVICON_MAP = {
     "JSDoc": "https://skillicons.dev/icons?i=js",
     "TypeDoc": "https://skillicons.dev/icons?i=ts",
     "Dockerfile": "https://skillicons.dev/icons?i=docker",
-    "Kubernetes": "https://skillicons.dev/icons?i=kubernetes",
+    "Kubernetes": "https://kubernetes.io/icons/favicon-32.png",
     "Bash": "https://skillicons.dev/icons?i=bash",
     "Eslint": "eslint",
     "Hono": "https://hono.dev/images/logo.svg",
@@ -381,7 +382,11 @@ const DEVICON_MAP = {
     "Qlty": "https://cdn.prod.website-files.com/689adecfee0272629d1e2767/68a5535e2e68fb7c90d0ed6d_qlty-favicon.png",
     "Antigravity": "https://antigravity.google/favicon.ico",
     "Gemini CLI": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
-    "Claude Code": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Claude_AI_symbol.svg/120px-Claude_AI_symbol.svg.png"
+    "Claude Code": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Claude_AI_symbol.svg/120px-Claude_AI_symbol.svg.png",
+    "Adobe Photoshop": "https://skillicons.dev/icons?i=photoshop",
+    "Adobe After Effects": "https://skillicons.dev/icons?i=aftereffects",
+    "Figma": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+    "Capcut": "https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/common/images/lv_web-2.ico"
 };
 
 // Returns full image URL (devicon slug or absolute URL)

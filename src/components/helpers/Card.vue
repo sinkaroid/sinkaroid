@@ -71,7 +71,7 @@
 
       <!-- Card footer (Commit/Release) -->
       <div
-        v-if="portfolio.release || portfolio.timeago"
+        v-if="portfolio.release || dateLabel"
         class="card-footer-info"
       >
         <a 
@@ -80,13 +80,13 @@
           target="_blank"
           class="commit-link clickable"
         >
-          <i class="fas fa-code-branch" /> {{ portfolio.release || 'Commit' }}
+          <i class="fas fa-code-branch" /> {{ portfolio.release || "Commit" }}
         </a>
         <span
           v-else
           class="timeago-info"
         >
-          <i class="far fa-clock" /> {{ portfolio.timeago || portfolio.date }}
+          <i class="far fa-clock" /> {{ isRepo ? "Last update: " : "" }}{{ dateLabel }}
         </span>
       </div>
     </div>
@@ -95,6 +95,7 @@
 
 <script setup>
 import { computed } from "vue";
+import { timeAgo } from "../../composables/useTimeAgo";
 
 const props = defineProps({
   portfolio: {
@@ -121,6 +122,16 @@ const tags = computed(() => {
 const visitUrl = computed(() => {
   return props.portfolio.visit || props.portfolio.link || null;
 });
+
+const dateLabel = computed(() => {
+  return (
+    props.portfolio.timeago ||
+    timeAgo(props.portfolio.last_commit_date) ||
+    timeAgo(props.portfolio.lastPlayed)
+  );
+});
+
+const isRepo = computed(() => !!props.portfolio.last_commit_date);
 
 const truncatedDescription = computed(() => {
   const desc = props.portfolio.synopsis || props.portfolio.description || "";

@@ -34,7 +34,7 @@
                 </h3>
                 <div class="game-meta">
                   <span class="meta-pill">
-                    <i class="far fa-clock" /> Last played {{ portfolio.timeago }}
+                    <i class="far fa-clock" /> Last played {{ timeAgo(portfolio.lastPlayed) }}
                   </span>
                   <span
                     v-if="hoursPlayed"
@@ -95,6 +95,7 @@
 
 <script setup>
 import { computed, onMounted, onUnmounted } from "vue";
+import { timeAgo } from "../../composables/useTimeAgo";
 
 const props = defineProps({
     showModal: { type: Boolean, default: false },
