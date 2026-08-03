@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-02, 12:43:20",
+    "last_sync": "2026-08-03, 13:33:39",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "5009518a816a655d54a863ba7cbfa8fcfa381b6b",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/5009518a816a655d54a863ba7cbfa8fcfa381b6b",
-            "release": "v6.0.5-alpha",
+            "commit": "dc5b099cc47ae8ed34f46df9ed32b4a9b4b8c669",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/dc5b099cc47ae8ed34f46df9ed32b4a9b4b8c669",
+            "release": "v6.0.6-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1785674159
+            "last_commit_date": 1785689539
         },
         {
             "name": "davinci",
@@ -1276,5 +1276,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "5009518a816a655d54a863ba7cbfa8fcfa381b6b"
+    "sha_commit": "dc5b099cc47ae8ed34f46df9ed32b4a9b4b8c669"
 }
