@@ -35,7 +35,7 @@
               href="/about" 
               @click.prevent="navigate('about')"
             >
-              <i class="fa-solid fa-fire" /> about
+              <i class="fa-solid fa-at" /> about
             </a>
           </li>
           <li class="nav-item">
@@ -62,7 +62,7 @@
               href="/activity"
               @click.prevent="navigate('activity')"
             >
-              <i class="fa-solid fa-volleyball" /> activity
+              <i class="fa-solid fa-football" /> activity
             </a>
           </li>
           <li class="nav-item">
@@ -71,7 +71,7 @@
               href="/contact"
               @click.prevent="navigate('contact')"
             >
-              <i class="fa fa-envelope" /> contact
+              <i class="fa-solid fa-inbox" /> contact
             </a>
           </li>
           <!-- Theme switch button -->
