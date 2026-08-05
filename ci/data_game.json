@@ -12,8 +12,8 @@
                 "RPG",
                 "Anime",
                 "Exploration",
-                "Looter Shooter",
                 "Free to Play",
+                "Looter Shooter",
                 "Hack and Slash",
                 "Action",
                 "Third-Person Shooter",
@@ -31,9 +31,9 @@
                 "Open World"
             ],
             "storeLink": "https://store.steampowered.com/app/3950020",
-            "playtime2weeks": 2888,
-            "playtimeForever": 43089,
-            "lastPlayed": 1785761325
+            "playtime2weeks": 3052,
+            "playtimeForever": 43276,
+            "lastPlayed": 1785904988
         },
         {
             "appID": 1501750,
@@ -434,8 +434,8 @@
                 "RPG",
                 "Mythology",
                 "Assassins",
-                "Multiple Endings",
                 "Exploration",
+                "Multiple Endings",
                 "Singleplayer",
                 "Historical",
                 "Action",
