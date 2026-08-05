@@ -53,7 +53,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from "vue";
+import { ref, onMounted, watch, nextTick } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import Navbar from "./components/Navbar.vue";
 import Home from "./components/Home.vue";
@@ -74,18 +74,72 @@ const showContactModal = ref(false);
 const config = info.config || {};
 
 // Read and apply theme
-const switchMode = (mode) => {
-  nightMode.value = mode;
-  if (config.use_cookies !== false) {
-    localStorage.setItem("nightMode", mode ? "true" : "false");
+const switchMode = (mode, event) => {
+  const updateTheme = () => {
+    nightMode.value = mode;
+    if (config.use_cookies !== false) {
+      localStorage.setItem("nightMode", mode ? "true" : "false");
+    }
+    
+    // Apply globally to document element
+    if (mode) {
+      document.documentElement.classList.add("dark-theme");
+    } else {
+      document.documentElement.classList.remove("dark-theme");
+    }
+  };
+
+  if (!event || !document.startViewTransition || config.use_transition_theme === false) {
+    updateTheme();
+    return;
   }
-  
-  // Apply globally to document element
-  if (mode) {
-    document.documentElement.classList.add("dark-theme");
-  } else {
-    document.documentElement.classList.remove("dark-theme");
+
+  let x = event.clientX;
+  let y = event.clientY;
+
+  if (event.clientX === 0 && event.clientY === 0) {
+    const rect = event.target.getBoundingClientRect();
+    x = rect.left + rect.width / 2;
+    y = rect.top + rect.height / 2;
   }
+
+  const endRadius = Math.hypot(
+    Math.max(x, window.innerWidth - x),
+    Math.max(y, window.innerHeight - y)
+  );
+
+  document.documentElement.classList.add("vt-active");
+  const transition = document.startViewTransition(async () => {
+    updateTheme();
+    await nextTick();
+    // Force a reflow to ensure styles are updated synchronously before the snapshot is taken
+    document.documentElement.offsetHeight;
+  });
+
+  transition.finished.then(() => {
+    document.documentElement.classList.remove("vt-active");
+  });
+
+  transition.ready.then(() => {
+    const clipPath = [
+      `circle(0px at ${x}px ${y}px)`,
+      `circle(${endRadius}px at ${x}px ${y}px)`
+    ];
+
+    document.documentElement.animate(
+      {
+        clipPath: mode ? clipPath : [...clipPath].reverse()
+      },
+      {
+        duration: 500,
+        easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+        fill: "forwards",
+        pseudoElement: mode
+          ? "::view-transition-new(root)"
+          : "::view-transition-old(root)"
+      }
+    );
+  });
 };
 
 // Smooth-scroll a section by id, or trigger a side effect for special keys

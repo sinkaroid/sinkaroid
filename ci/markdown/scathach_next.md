@@ -4,62 +4,6 @@ monorepo [@discordeno/bot](https://www.npmjs.com/package/@discordeno/bot), [@dis
 
 Scathach Next uses a distributed, gateway-less microservices architecture designed for large-scale Discord bots (70,000+ guilds). The system separates websocket connection infrastructure from business and application logic using Redis as an asynchronous event bus and Standalone REST as a centralized API proxy.
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                   Scathach Next Architecture                                   │
-│                                                                                                │
-│                                +─────────────────────────────+                                 │
-│                                |   Discord API & Gateway     |                                 │
-│                                |         (External)          |                                 │
-│                                +────▲────────────────────▲───+                                 │
-│                                     │                    │                                     │
-│                Discord WebSocket    │                    │ Outbound REST                       │
-│                Events (shards)      │                    │ (Rate-Limited API calls)            │
-│                                     ▼                    ▼                                     │
-│                         +───────────┴───────────+   +────┴──────────────────+                  │
-│                         |    Gateway Cluster    |◄──|   Standalone REST     | (Proxy endpoint) │
-│                         |    (apps/gateway)     |   +────▲──────────────────+                  │
-│                         +───────────┬───────────+        │                                     │
-│                                     │                    │ REST Proxy                          │
-│                                     │ Publish Events     │ Requests                            │
-│                                     ▼                    │                                     │
-│                         +───────────┴───────────+        │                                     │
-│                         |    Redis Event Bus    |◄───────┼──────────────┐                      │
-│                         |     (Pub/Sub)         |        │              │                      │
-│                         +───────────┬───────────+        │              │ GATEWAY_SEND         │
-│                                     │                    │              │ (Voice Updates)      │
-│            ┌────────────────────────┴────────────────────┼──────────────┼────────┐             │
-│            │                                             │              │        │             │
-│            │ Subscribe events                            │ Subscribe    │        │             │
-│            ▼                                             ▼              │        │             │
-│  +─────────┴───────────+                       +─────────┴───────────+  │        │             │
-│  |     Bot Service     |                       |    Music Service    |──┘        │             │
-│  |    (services/bot)   |                       |  (services/music)   |           │             │
-│  +─────────┬───────────+                       +────┬───────────┬────+           │             │
-│            │                                        │           │                │             │
-│            ├──────────────────────────┐             │           │                │             │
-│            ▼                          ▼             ▼           ▼                │             │
-│      +─────┴─────+              +─────┴─────+  +────┴────+ +────┴────+           │             │
-│      |PostgreSQL |              |Fate Store |  |Lavalink | |  Redis  |           │             │
-│      | (Configs) |              |  (Redis)  |  |  Node   | |  State  |           │             │
-│      +───────────+              +───────────+  +─────────+ +─────────+           │             │
-│                                                             (voiceState)         │             │
-│                                                                                  │             │
-│ ──────────────────────────────────────────────────────────────────────────────── │             │
-│                                                                                  │             │
-│  +─────────────────────────+  Receives Votes  +──────────────────────────────+   │             │
-│  | Webhook (apps/webhook)  |◄─────────────────| Top.gg / DBL / BFD callback  |   │             │
-│  +─────────┬───────────┬───+                  +──────────────────────────────+   │             │
-│            │           │                                                         │             │
-│            ▼           ▼                                                         │             │
-│      +─────┴─────+  +──┴────────+                                                │             │
-│      |Fate Store |  |Discord API| (Raw fetch for notifications & updates)        │             │
-│      | (Redis Cl)|  | /Webhooks |                                                │             │
-│      +───────────+  +───────────+                                                │             │
-│                                                                                                │
-└────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
 ## The Problems
 
 Scaling a standard **Discord.js** monolithic architecture to tens of thousands of guilds (70,000+ guilds) introduces severe memory constraints and performance bottlenecks due to its default behavior and single-threaded nature:

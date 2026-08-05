@@ -439,3 +439,39 @@ a:hover {
   50% { transform: translate(60px, -40px) scale(1.1); }
   100% { transform: translate(-40px, 50px) scale(0.9); }
 }
+
+/* View Transition API Circular Theme Switch */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+  will-change: clip-path;
+}
+
+::view-transition-old(root) {
+  z-index: 9999;
+}
+::view-transition-new(root) {
+  z-index: 1;
+}
+
+.dark-theme::view-transition-old(root) {
+  z-index: 1;
+}
+.dark-theme::view-transition-new(root) {
+  z-index: 9999;
+}
+
+/* Disable transitions and animations during view transitions to prevent frame stuttering */
+.vt-active,
+.vt-active *,
+.vt-active ::before,
+.vt-active ::after {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Hide the custom cursor during view transitions to prevent duplicate/static cursor images in snapshots */
+.vt-active .custom-cursor {
+  display: none !important;
+}
