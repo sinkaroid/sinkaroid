@@ -2,6 +2,7 @@ import dispatcherDescription from "./markdown/dispatcher.md?raw";
 import scathachNextDescription from "./markdown/scathach_next.md?raw";
 import scathachNextProDescription from "./markdown/scathach_next_pro.md?raw";
 import teivaxDescription from "./markdown/teivax.md?raw";
+import tristanDescription from "./markdown/tristan.md?raw";
 
 import dataJson from "./data_oss.json" with { type: "json" };
 import dataSasJson from "./data_oss_sas.json" with { type: "json" };
@@ -50,6 +51,7 @@ import imgRepoBrandLustpress from "../src/assets/designs/lustpress.webp";
 import imgRepoBrandJandapress from "../src/assets/designs/jandapress.png";
 
 // Standalone software project images
+import imgTristan from "../src/assets/standalone/standalone_tristan.webp";
 import imgScathachNextPro from "../src/assets/standalone/standalone_scathach-next-pro.webp";
 import imgScathachNext from "../src/assets/standalone/standalone_scathach-next.webp";
 import imgDispatcher from "../src/assets/standalone/standalone_dispatcher.webp";
@@ -94,6 +96,7 @@ const info = {
     shadow: shadowPicture,
     config: {
         use_cookies: true,
+        use_transition_theme: true,
         navbar: {
             blur: false,
         },
@@ -593,6 +596,18 @@ const info = {
         },
     ] as PortfolioItem[],
     portfolio_standalone: [
+        {
+            name: "ScathachGrip",
+            title: "@ScathachGrip/tristan",
+            pictures: [{ img: imgTristan, title: "tristan" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://github.com/ScathachGrip/tristan",
+            description: tristanDescription,
+            isMarkdown: true,
+        },
         {
             name: "ScathachGrip",
             title: "@ScathachGrip/scathach-next-pro",

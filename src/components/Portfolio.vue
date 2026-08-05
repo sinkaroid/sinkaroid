@@ -11,7 +11,7 @@
         Artifacts & Chronicles
       </h2>
       <p class="section-subtitle">
-        Relics forged through countless quests, each carrying a story of its own. {{ all_info.length }} open-source projects, {{ standalone_info.length }} SaS (standalone), {{ sas_info.length }} SaS (closed-source), & {{ design_info.length }} illustrations and repository branding.
+        Relics forged through countless quests, each carrying a story of its own. {{ all_info.length }} open-source projects, {{ standalone_info.length }} Standalone, {{ sas_info.length }} SaS (closed-source), & {{ design_info.length }} illustrations and repository branding.
       </p>
     </div>
 
@@ -337,7 +337,7 @@ const activeTab = ref("opensource");
 const showActionSheet = ref(false);
 const tabItems = [
   { id: "opensource", label: "Open Source", icon: "fa fa-code-branch" },
-  { id: "standalone", label: "SaS (Standalone)", icon: "fa fa-laptop-code" },
+  { id: "standalone", label: "Standalone", icon: "fa fa-rocket" },
   { id: "sas", label: "SaS (Closed source)", icon: "fa fa-lock" },
   { id: "illustrations", label: "Illustrations", icon: "fa fa-palette" }
 ];

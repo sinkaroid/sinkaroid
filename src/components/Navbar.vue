@@ -113,8 +113,8 @@ const navigate = (section) => {
   emit("scroll", section);
 };
 
-const switchMode = () => {
-  emit("nightMode", !props.nightMode);
+const switchMode = (event) => {
+  emit("nightMode", !props.nightMode, event);
 };
 
 // use var(--bg-app) on .theme-toggle

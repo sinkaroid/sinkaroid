@@ -1,47 +1,8 @@
+# ScathachGrip/dispatcher
+
 Bun first & high-performance Discord REST API workers (70k guilds msg scheduler that sits on <4GiB VMs).
 
 A stateless, distributed microservice and scheduler architecture built on the Bun runtime. Engineered for massive-scale bot operations, it runs as a multi-client deployment (Primary and Ascension instances) packaged into isolated, highly optimized Docker images. The system distributes interval-based messages to over 70,000+ guilds with an ultra-low memory footprint, comfortably operating on sub-4GiB virtual machines without WebSocket or gateway overhead.
-
-## Architecture
-
-```
-+---------------------------------------------------------------------------------+
-|                                  Bun Runtime                                    |
-|                                                                                 |
-|  +----------------------+      Reads Config      +---------------------------+  |
-|  |     MongoDB          |----------------------->|   JobDistributor          |  |
-|  |     ("jsons" coll)   |                        |   (Scheduled Intervals)   |  |
-|  +----------------------+                        +-------------+-------------+  |
-|                                                                |                |
-|  +----------------------+     Checks Premium                   |                |
-|  |     Redis            |<-------------------------------------+                |
-|  |     (Legacy Votes)   |                                      |                |
-|  +----------------------+                                      v                |
-|                                                  +-------------+-------------+  |
-|  +----------------------+     Acquires Lock      |   SQLite Lock Manager     |  |
-|  |     SQLite.db        |<-----------------------|   (Synchronous Ephemeral) |  |
-|  |     (Local DB File)  |                        +-------------+-------------+  |
-|  +----------------------+                                      |                |
-|                                                                v                |
-|  +----------------------+     Exposes Metrics    +-------------+-------------+  |
-|  |     Bun.serve()      |<-----------------------|   Centralized Limiter     |  |
-|  |     (:4060/metrics)  |                        |   (Global 45 RPS Window)  |  |
-|  +----------------------+                        +-------------+-------------+  |
-|                                                                |                |
-|                                                                v                |
-|                                                  +-------------+-------------+  |
-|                                                  |   Discord API REST v10    |  |
-|                                                  |   (Direct Native Fetch)   |  |
-|                                                  +-------------+-------------+  |
-|                                                                |                |
-+----------------------------------------------------------------+----------------+
-                                                                 |
-                                                                 v
-                                                       +-------------------+
-                                                       |    Discord API    |
-                                                       | (Channel Message) |
-                                                       +-------------------+
-```
 
 ## The Problems
 
@@ -87,30 +48,6 @@ Discord enforces a strict rate limit bucket of **5 requests per 5 seconds** for 
 
 - **The Issue**: Under a concurrent execution model (`Promise.all`), if multiple jobs (e.g. 10 jobs) trigger simultaneously for the same channel, they all send requests in the same millisecond. Because the first request hasn't finished, the limiter has no bucket headers yet, meaning all 10 requests bypass the rate limiter checks and hit Discord at once. This triggers an immediate HTTP 429 Rate Limit error.
 - **The Solution**: By enforcing a lock per `channelId` (`globalLimiter.acquireChannelLock`), we serialize requests targeting the same channel. Subsequent requests wait for the preceding request to finish and parse the updated `x-ratelimit-remaining` headers, ensuring no request is sent if the bucket is exhausted.
-
-### Sequential Request Workflow:
-
-```text
-GenshinJob (Job A)          NarutoJob (Job B)             RateLimiter                 Discord API
-      |                           |                            |                           |
-      |-- sendMessage() --------->|                            |                           |
-      |-- acquireChannelLock() ------------------------------->|                           |
-      |   (Lock Acquired)         |                            |                           |
-      |                           |-- sendMessage() ---------->|                           |
-      |                           |-- acquireChannelLock() --->|                           |
-      |                           |   (Queued, waiting...)     |                           |
-      |                           |                            |                           |
-      |-- POST /messages ----------------------------------------------------------------->|
-      |<------------------------------------------------------------- HTTP 200 (Remaining: 4)
-      |-- noteDiscordHeaders() ------------------------------->|                           |
-      |-- Release Lock --------------------------------------->|                           |
-      |                           |                            |                           |
-      |                           |<-- (Released from Queue) --|                           |
-      |                           |-- waitRouteBucket() ------>|                           |
-      |                           |   (Reads remaining: 4)     |                           |
-      |                           |                            |                           |
-      |                           |-- POST /messages ------------------------------------->|
-```
 
 ### Detailed Workflow Steps:
 
@@ -181,28 +118,6 @@ To prevent direct database-level polling and eliminate the need to share main Mo
 - **Async Multi-Client Hydration**: All active client instances (`primary`, `second_ascension`, and `third_ascension` running in separate Docker containers) fetch this JSON payload periodically via asynchronous HTTP GET requests.
 - **In-Memory TTL Caching**: The resolved premium lists (containing basic donators, strong donators, and premium server IDs) are cached locally inside each microservice's memory with a 5-minute TTL to ensure zero database lookup latency during rapid interval ticks.
 
-```text
-   +-------------------------------------------------------------+
-   |                        MongoDB Atlas                        |
-   |                (cluster0.obqpe.mongodb.net)                 |
-   +------------------------------+------------------------------+
-                                 |
-                                 | (Database Source)
-                                 v
-   +-------------------------------------------------------------+
-   |                         API Endpoint                        |
-   |           (https://scathachbot.xyz/api/<redacted>)          |
-   +-------------------------------------------------------------+
-             |                   |                   |
-         (HTTP GET)          (HTTP GET)          (HTTP GET)
-             v                   v                   v
-   +-----------------+   +-----------------+   +-----------------+
-   |     primary     |   |     second_     |   |     third_      |
-   |                 |   |    ascension    |   |    ascension    |
-   |   (Port 4060)   |   |   (Port 4061)   |   |   (Port 4062)   |
-   +-----------------+   +-----------------+   +-----------------+
-```
-
 ## Runtime isolation
 
 Instances are dynamically optimized at container startup based on the `ENABLE_METRICS` flag to balance memory and CPU:
@@ -217,29 +132,3 @@ Instances are dynamically optimized at container startup based on the `ENABLE_ME
   - Runs with standard JSC JIT compiler enabled.
   - Executed without the `--smol` flag to utilize default JSC heap allocations and normal GC pacing.
   - Prioritizes performance and raw execution speed, keeping CPU usage extremely low (**<1.5% idle**) with a standard memory footprint (**~50MB RSS**).
-
-```text
-                  +---------------------------+
-                  |    Container Startup      |
-                  +-------------+-------------+
-                                |
-                  +---------------------------+
-                  |   Client ENABLE_METRICS   |
-                  +-------------+-------------+
-                     /                     \
-            (true)  /                       \  (false)
-                   /                         \
-   +-----------------------+         +-----------------------+
-   |   Primary (Big Bot)   |         | Ascension (Small Bot) |
-   +-----------------------+         +-----------------------+
-   | - JIT Compilers: OFF  |         | - JIT Compilers: ON   |
-   | - Gigacage: OFF       |         | - Gigacage: Default   |
-   | - /metrics: Active    |         | - /metrics: Disabled  |
-   +-----------+-----------+         +-----------+-----------+
-               |                                 |
-               v                                 v
-   +-----------------------+         +-----------------------+
-   |   Memory-Optimized    |         |     Non-Optimized     |
-   |  ~39MB RAM / ~89% CPU |         | ~50MB RAM / <1.5% CPU |
-   +-----------------------+         +-----------------------+
-```
