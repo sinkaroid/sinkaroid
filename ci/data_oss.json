@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-07, 11:38:18",
+    "last_sync": "2026-08-08, 11:20:22",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "d2b7debb1d3123a349d78b2fe33c59de3b0b8edc",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/d2b7debb1d3123a349d78b2fe33c59de3b0b8edc",
+            "commit": "9185d15bf0b079f7c49885010c66d92b882ebd09",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/9185d15bf0b079f7c49885010c66d92b882ebd09",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1786020877
+            "last_commit_date": 1786102855
         },
         {
             "name": "teivax",
@@ -100,7 +100,7 @@
             "commit": "8af11ab7ada1aa004cb071d8868bf11a1d5d4910",
             "link_commit": "https://github.com/sinkaroid/pixivhono/commit/8af11ab7ada1aa004cb071d8868bf11a1d5d4910",
             "release": "v1.3.2-alpha",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "last_commit_date": 1784802138
         },
         {
@@ -131,7 +131,7 @@
             "commit": "28ce0614b3added80fd9b8feb461fff2fc38927c",
             "link_commit": "https://github.com/sinkaroid/lustpress/commit/28ce0614b3added80fd9b8feb461fff2fc38927c",
             "release": "v8.5.0-alpha",
-            "stargazers_count": 107,
+            "stargazers_count": 112,
             "last_commit_date": 1784675284
         },
         {
@@ -161,7 +161,7 @@
             "commit": "094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "link_commit": "https://github.com/sinkaroid/jandapress/commit/094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "release": "v10.2.0-alpha",
-            "stargazers_count": 68,
+            "stargazers_count": 72,
             "last_commit_date": 1784664998
         },
         {
@@ -310,7 +310,7 @@
             "commit": "d9f6ffdcf1a9c96875b0890f1a376ef19c3a6cc6",
             "link_commit": "https://github.com/sinkaroid/tomoe/commit/d9f6ffdcf1a9c96875b0890f1a376ef19c3a6cc6",
             "release": "3.7.1-alpha",
-            "stargazers_count": 39,
+            "stargazers_count": 41,
             "last_commit_date": 1749679453
         },
         {
@@ -1276,5 +1276,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "d2b7debb1d3123a349d78b2fe33c59de3b0b8edc"
+    "sha_commit": "9185d15bf0b079f7c49885010c66d92b882ebd09"
 }
