@@ -1,6 +1,52 @@
 {
-    "last_sync": "2026-08-08, 11:21:49",
+    "last_sync": "2026-08-09, 11:23:01",
     "data": [
+        {
+            "name": "scathach-next",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Rust",
+                "Dockerfile",
+                "JavaScript",
+                "microservices"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/scathach-next",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://next.scathach.id",
+            "description": "scathach-next @discordeno, @tokio-rs",
+            "commit": "9a232dcd03c4067818769ce2dbcfb248cdf26b7f",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/9a232dcd03c4067818769ce2dbcfb248cdf26b7f",
+            "release": "v6.3.8-alpha",
+            "last_commit_date": 1786203316
+        },
+        {
+            "name": "scathach-next-pro",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next-pro_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "microservices"
+            ],
+            "category": "Go",
+            "github": "https://github.com/ScathachGrip/scathach-next-pro",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://next-pro.scathach.id",
+            "description": "scathach-next-pro @disgoorg",
+            "commit": "8a8d3b53038f4434c2263d34378df7a5105af968",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/8a8d3b53038f4434c2263d34378df7a5105af968",
+            "release": "5.0.4-alpha",
+            "last_commit_date": 1786201299
+        },
         {
             "name": "dispatcher",
             "pictures": [
@@ -25,52 +71,6 @@
             "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/df97eacc29174be272aa397f5a1aab8081ee5cda",
             "release": "v6.14.4-alpha",
             "last_commit_date": 1786186963
-        },
-        {
-            "name": "scathach-next-pro",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next-pro_master.webp"
-                }
-            ],
-            "technologies": [
-                "Go",
-                "Dockerfile",
-                "microservices"
-            ],
-            "category": "Go",
-            "github": "https://github.com/ScathachGrip/scathach-next-pro",
-            "bahasa": "https://skillicons.dev/icons?i=go",
-            "visit": "https://next-pro.scathach.id",
-            "description": "scathach-next-pro @disgoorg",
-            "commit": "cc8e28c7cac31bba0b7c82bfed3aebffa95eb294",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/cc8e28c7cac31bba0b7c82bfed3aebffa95eb294",
-            "release": "5.0.3-alpha",
-            "last_commit_date": 1786168038
-        },
-        {
-            "name": "scathach-next",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Rust",
-                "Dockerfile",
-                "JavaScript",
-                "microservices"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/scathach-next",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://next.scathach.id",
-            "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "3c6f5a02d20096747cd0dfae73cf958bd5ff892a",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/3c6f5a02d20096747cd0dfae73cf958bd5ff892a",
-            "release": "v6.3.7-alpha",
-            "last_commit_date": 1786097729
         },
         {
             "name": "scathachbot.xyz",
@@ -539,5 +539,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "9185d15bf0b079f7c49885010c66d92b882ebd09"
+    "sha_commit": "7a26c9f927e30aaef661bb3cdab90a97eb9891fd"
 }
