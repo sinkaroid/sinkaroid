@@ -1,6 +1,27 @@
 {
-    "last_sync": "2026-08-13, 11:40:37",
+    "last_sync": "2026-08-14, 11:38:29",
     "data": [
+        {
+            "name": "dispatcher-telemetry",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher-telemetry_master.webp"
+                }
+            ],
+            "technologies": [
+                "JavaScript",
+                "CSS"
+            ],
+            "category": "JavaScript",
+            "github": "https://github.com/ScathachGrip/dispatcher-telemetry",
+            "bahasa": "https://skillicons.dev/icons?i=js",
+            "visit": "https://devops.scathach.id",
+            "description": "devops.scathach.id",
+            "commit": "6f5810c81ee42145e76f24c223d56cdc2f5c58a2",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher-telemetry/commit/6f5810c81ee42145e76f24c223d56cdc2f5c58a2",
+            "release": "2.0.0-alpha_stable_5m",
+            "last_commit_date": 1786648979
+        },
         {
             "name": "scathachbot.xyz",
             "pictures": [
@@ -160,27 +181,6 @@
             "link_commit": "https://github.com/ScathachGrip/buster/commit/426b9ab3cfb07bee2015c8c9dd167825a9d3f9c5",
             "release": "pre-release",
             "last_commit_date": 1783057594
-        },
-        {
-            "name": "dispatcher-telemetry",
-            "pictures": [
-                {
-                    "img": "/assets/sas/dispatcher-telemetry_master.webp"
-                }
-            ],
-            "technologies": [
-                "JavaScript",
-                "CSS"
-            ],
-            "category": "JavaScript",
-            "github": "https://github.com/ScathachGrip/dispatcher-telemetry",
-            "bahasa": "https://skillicons.dev/icons?i=js",
-            "visit": "https://devops.scathach.id",
-            "description": "devops.scathach.id",
-            "commit": "e1053f5813bfdcc22d02b637756fee9d9753283c",
-            "link_commit": "https://github.com/ScathachGrip/dispatcher-telemetry/commit/e1053f5813bfdcc22d02b637756fee9d9753283c",
-            "release": "2.0.0-alpha_stable_5m",
-            "last_commit_date": 1782980368
         },
         {
             "name": "charon",
@@ -539,5 +539,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "81ead2a5ffc9281592b0042fff4923e6d5367744"
+    "sha_commit": "b604583a8bdf137afd8dc863612225c097503dc9"
 }

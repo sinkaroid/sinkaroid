@@ -1,6 +1,32 @@
 {
-    "last_sync": "2026-08-13, 11:39:26",
+    "last_sync": "2026-08-14, 11:37:01",
     "data": [
+        {
+            "name": "pixivHono",
+            "pictures": [
+                {
+                    "img": "/assets/oss/pixivhono_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "pixiv",
+                "pixiv-api",
+                "pixiv-client",
+                "pixiv-resolver"
+            ],
+            "category": "Go",
+            "github": "https://github.com/sinkaroid/pixivHono",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://sinkaroid.github.io/pixivHono",
+            "description": "Unified REST and GraphQL gateway for Pixiv API",
+            "commit": "6c4271e4360294c5aa54850eaa513820e1bf276f",
+            "link_commit": "https://github.com/sinkaroid/pixivhono/commit/6c4271e4360294c5aa54850eaa513820e1bf276f",
+            "release": "v1.3.3-alpha",
+            "stargazers_count": 2,
+            "last_commit_date": 1786640721
+        },
         {
             "name": "sinkaroid",
             "pictures": [
@@ -23,11 +49,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "81ead2a5ffc9281592b0042fff4923e6d5367744",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/81ead2a5ffc9281592b0042fff4923e6d5367744",
+            "commit": "b604583a8bdf137afd8dc863612225c097503dc9",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/b604583a8bdf137afd8dc863612225c097503dc9",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1786534960
+            "last_commit_date": 1786621309
         },
         {
             "name": "teivax",
@@ -76,32 +102,6 @@
             "release": "v1.1.8-alpha",
             "stargazers_count": 3,
             "last_commit_date": 1785230269
-        },
-        {
-            "name": "pixivHono",
-            "pictures": [
-                {
-                    "img": "/assets/oss/pixivhono_master.webp"
-                }
-            ],
-            "technologies": [
-                "Go",
-                "Dockerfile",
-                "pixiv",
-                "pixiv-api",
-                "pixiv-client",
-                "pixiv-resolver"
-            ],
-            "category": "Go",
-            "github": "https://github.com/sinkaroid/pixivHono",
-            "bahasa": "https://skillicons.dev/icons?i=go",
-            "visit": "https://sinkaroid.github.io/pixivHono",
-            "description": "Unified REST and GraphQL gateway for Pixiv API",
-            "commit": "8af11ab7ada1aa004cb071d8868bf11a1d5d4910",
-            "link_commit": "https://github.com/sinkaroid/pixivhono/commit/8af11ab7ada1aa004cb071d8868bf11a1d5d4910",
-            "release": "v1.3.2-alpha",
-            "stargazers_count": 2,
-            "last_commit_date": 1784802138
         },
         {
             "name": "lustpress",
@@ -1276,5 +1276,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "81ead2a5ffc9281592b0042fff4923e6d5367744"
+    "sha_commit": "b604583a8bdf137afd8dc863612225c097503dc9"
 }
