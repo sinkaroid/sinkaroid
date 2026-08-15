@@ -31,9 +31,9 @@
                 "Open World"
             ],
             "storeLink": "https://store.steampowered.com/app/3950020",
-            "playtime2weeks": 1991,
-            "playtimeForever": 44502,
-            "lastPlayed": 1786698469
+            "playtime2weeks": 1708,
+            "playtimeForever": 44602,
+            "lastPlayed": 1786754419
         },
         {
             "appID": 1501750,
@@ -823,8 +823,8 @@
                 "Simulation",
                 "Agriculture",
                 "Crafting",
-                "Indie",
                 "Sandbox",
+                "Indie",
                 "Building",
                 "Casual",
                 "Open World",
