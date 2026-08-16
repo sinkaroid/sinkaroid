@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-15, 11:11:02",
+    "last_sync": "2026-08-16, 11:11:25",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "ca4fba4f0f980d32590103c61efdba0fc1b0700c",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/ca4fba4f0f980d32590103c61efdba0fc1b0700c",
+            "commit": "f759e6266f77996ef20e52a52a1bce21bf4155f9",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/f759e6266f77996ef20e52a52a1bce21bf4155f9",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1786707579
+            "last_commit_date": 1786792459
         },
         {
             "name": "pixivHono",
@@ -161,7 +161,7 @@
             "commit": "094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "link_commit": "https://github.com/sinkaroid/jandapress/commit/094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "release": "v10.2.0-alpha",
-            "stargazers_count": 72,
+            "stargazers_count": 74,
             "last_commit_date": 1784664998
         },
         {
@@ -1276,5 +1276,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "ca4fba4f0f980d32590103c61efdba0fc1b0700c"
+    "sha_commit": "f759e6266f77996ef20e52a52a1bce21bf4155f9"
 }
