@@ -1,6 +1,41 @@
 {
     "data": [
         {
+            "appID": 892970,
+            "name": "Valheim",
+            "icon": "2f64c9a826e2c6cf3253fea4834c2e612db09143",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/3b25991b8a19244cfd979a2766e7490cc7894e09/capsule_231x87.jpg?t=1786012504",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1786012504",
+            "description": "Valheim is a brutal exploration and survival game for 1-10 players set in a procedurally-generated world inspired by Norse mythology. Craft powerful weapons, construct longhouses, and slay mighty foes to prove yourself to Odin! EXPLORE THE TENTH WORLD Explore a world shrouded in mystery. Discover distinct environments with unique enemies to battle, resources to gather and secrets to uncover! Be a viking, sail the open seas in search of lands unknown, and fight bloodthirsty monsters. BUILD MIGHTY HALLS Raise viking longhouses and build bases that offer reprieve from the dangers ahead. Customise buildings, both inside and out, with a detailed building system. Progress through building tiers to upgrade, expand and defend your base. GATHER, CRAFT AND SURVIVE Struggle to survive as you gather materials and craft weapons, armor, tools, ships, and defenses. Decorate your hearths and sharpen your blades, grow crops and vegetables, prepare food, brew meads and potions, and progress as you defeat more difficult bosses and discover new recipes and blueprints. KEY FEATURES: Massive procedurally-generated world where every biome is immersive and distinct, with unique enemies, resources and crafting recipes to discover. Play alone or with up to 10 players on player-hosted dedicated servers and experience unlimited world creation and enemies that scale in difficulty. Staminabased combat that rewards preparation and skill. Utilize weapon types with unique attacks, different blocking styles, ranged combat, dodges and parries to fight your enemies. Rewarding food system where you cannot starve and are not punished for not eating, instead you gain health, stamina and regeneration buffs depending on what foods you consume. Intuitive crafting where recipes are discovered as you explore the world, and pick up new resources and ingredients. Flexible building system that takes structural integrity and ventilation into account. Build a small shelter or an entire village, make outposts or claim abandoned buildings as your own. Then customize to your liking. Sail boats and ships to reach distant lands and explore the sea that offers riches to claim and monsters to fight. Epic boss fights that will test even the best prepared vikings and offer rewards that help you on your journey. Community-translated languages: In addition to the officially supported languages, Valheim has several community-translated languages. As the name would suggest these are all translated by fans and members of the community, and is an ongoing process. We can't guarantee the quality nor completeness of any specific translation effort.",
+            "shortDescription": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+            "tags": [
+                "Open World Survival Craft",
+                "Survival",
+                "Online Co-Op",
+                "Open World",
+                "Multiplayer",
+                "Building",
+                "Crafting",
+                "Base Building",
+                "Exploration",
+                "Co-op",
+                "Adventure",
+                "Difficult",
+                "Mythology",
+                "Sandbox",
+                "PvE",
+                "Third Person",
+                "Action",
+                "Singleplayer",
+                "Early Access",
+                "Indie"
+            ],
+            "storeLink": "https://store.steampowered.com/app/892970",
+            "playtime2weeks": 53,
+            "playtimeForever": 31215,
+            "lastPlayed": 1786960699
+        },
+        {
             "appID": 3950020,
             "name": "Duet Night Abyss",
             "icon": "780f9c68ea62b1f199a1322defed924e6ca077e1",
@@ -31,16 +66,16 @@
                 "Open World"
             ],
             "storeLink": "https://store.steampowered.com/app/3950020",
-            "playtime2weeks": 1613,
-            "playtimeForever": 44688,
-            "lastPlayed": 1786849162
+            "playtime2weeks": 1626,
+            "playtimeForever": 44701,
+            "lastPlayed": 1786958326
         },
         {
             "appID": 1501750,
             "name": "Lords of the Fallen",
             "icon": "f2e5d49aab202dc9b12b6bfca1d9cf96bd2ab097",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501750/3d1695ae21ea5ca00e1e4015dda768b9b6ce1e8b/capsule_231x87.jpg?t=1782386576",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501750/c793d85dc133f22112c7283b79dd89e2c0aa58a4/header.jpg?t=1782386576",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501750/3d1695ae21ea5ca00e1e4015dda768b9b6ce1e8b/capsule_231x87.jpg?t=1786951564",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501750/c793d85dc133f22112c7283b79dd89e2c0aa58a4/header.jpg?t=1786951564",
             "description": "Lords of the Fallen introduces an all-new, epic RPG adventure in a vast, interconnected world. Aeons after his defeat by the hands of man, the demon God Adyr’s resurrection draws nigh. As a fabled Dark Crusader, journey through the realms of the living and the dead in this expansive RPG experience to overthrow Adyr once and for all. Featuring colossal boss battles, fast challenging combat, and deep, immersive storytelling. Explore A Vast, Interconnected World Journey across two expansive, parallel worlds - the world of the living and the dead - with each harbouring its own pathways, secrets, treasures… and foes. Master Fast, Challenging Combat Choose from 100s of unique weapons, from heavy-hitting flails to rapid-fire crossbows, or forgo metal for magic with devastating attacks of the arcane. Define Your Legend Personalise your character’s appearance before selecting one of nine varied character classes. Whichever starting path you take, develop your own playstyle by upgrading stats and weapons. Unite in Online Multiplayer Experience the campaign alone, or unite with other players in online co-op. You’re free to journey together for as long as you desire, with the option of both casual and full shared progression sessions - where both players save all progress. Alternatively, use your Free Friends Pass to invite anyone to join your game regardless of whether they own a copy themselves. 70+ Post-Launch Updates Includes over 70 updates, including the widely acclaimed version 2.0, vastly improving the overall experience with a fully revamped combat system, significant performance enhancements, rigorous difficulty balancing multiple new questlines and modes, and an array of new Quality-of-Life features.",
             "shortDescription": "A vast world awaits in the medieval, dark fantasy action-RPG, Lords of the Fallen. As a fabled Dark Crusader, embark on an epic quest to overthrow Adyr, the demon God. The final major update Version 2.5 is out now: features deadlier boss battles and all-new Veteran Mode.",
             "tags": [
@@ -594,41 +629,6 @@
             "playtime2weeks": 0,
             "playtimeForever": 15457,
             "lastPlayed": 1754171518
-        },
-        {
-            "appID": 892970,
-            "name": "Valheim",
-            "icon": "2f64c9a826e2c6cf3253fea4834c2e612db09143",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/3b25991b8a19244cfd979a2766e7490cc7894e09/capsule_231x87.jpg?t=1786012504",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1786012504",
-            "description": "Valheim is a brutal exploration and survival game for 1-10 players set in a procedurally-generated world inspired by Norse mythology. Craft powerful weapons, construct longhouses, and slay mighty foes to prove yourself to Odin! EXPLORE THE TENTH WORLD Explore a world shrouded in mystery. Discover distinct environments with unique enemies to battle, resources to gather and secrets to uncover! Be a viking, sail the open seas in search of lands unknown, and fight bloodthirsty monsters. BUILD MIGHTY HALLS Raise viking longhouses and build bases that offer reprieve from the dangers ahead. Customise buildings, both inside and out, with a detailed building system. Progress through building tiers to upgrade, expand and defend your base. GATHER, CRAFT AND SURVIVE Struggle to survive as you gather materials and craft weapons, armor, tools, ships, and defenses. Decorate your hearths and sharpen your blades, grow crops and vegetables, prepare food, brew meads and potions, and progress as you defeat more difficult bosses and discover new recipes and blueprints. KEY FEATURES: Massive procedurally-generated world where every biome is immersive and distinct, with unique enemies, resources and crafting recipes to discover. Play alone or with up to 10 players on player-hosted dedicated servers and experience unlimited world creation and enemies that scale in difficulty. Staminabased combat that rewards preparation and skill. Utilize weapon types with unique attacks, different blocking styles, ranged combat, dodges and parries to fight your enemies. Rewarding food system where you cannot starve and are not punished for not eating, instead you gain health, stamina and regeneration buffs depending on what foods you consume. Intuitive crafting where recipes are discovered as you explore the world, and pick up new resources and ingredients. Flexible building system that takes structural integrity and ventilation into account. Build a small shelter or an entire village, make outposts or claim abandoned buildings as your own. Then customize to your liking. Sail boats and ships to reach distant lands and explore the sea that offers riches to claim and monsters to fight. Epic boss fights that will test even the best prepared vikings and offer rewards that help you on your journey. Community-translated languages: In addition to the officially supported languages, Valheim has several community-translated languages. As the name would suggest these are all translated by fans and members of the community, and is an ongoing process. We can't guarantee the quality nor completeness of any specific translation effort.",
-            "shortDescription": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
-            "tags": [
-                "Open World Survival Craft",
-                "Survival",
-                "Online Co-Op",
-                "Open World",
-                "Multiplayer",
-                "Building",
-                "Crafting",
-                "Base Building",
-                "Exploration",
-                "Co-op",
-                "Adventure",
-                "Difficult",
-                "Mythology",
-                "Sandbox",
-                "PvE",
-                "Third Person",
-                "Action",
-                "Singleplayer",
-                "Early Access",
-                "Indie"
-            ],
-            "storeLink": "https://store.steampowered.com/app/892970",
-            "playtime2weeks": 0,
-            "playtimeForever": 31162,
-            "lastPlayed": 1753985741
         },
         {
             "appID": 323190,

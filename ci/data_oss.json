@@ -1,6 +1,28 @@
 {
-    "last_sync": "2026-08-16, 11:11:25",
+    "last_sync": "2026-08-17, 11:16:51",
     "data": [
+        {
+            "name": "teivax",
+            "pictures": [
+                {
+                    "img": "/assets/oss/teivax_master.webp"
+                }
+            ],
+            "technologies": [
+                "Rust",
+                "Dockerfile"
+            ],
+            "category": "Rust",
+            "github": "https://github.com/ScathachGrip/teivax",
+            "bahasa": "https://skillicons.dev/icons?i=rust",
+            "visit": "https://scathachbot.xyz/custom-branding",
+            "description": "A decentralized @ScathachGrip custom branding registry.",
+            "commit": "1ddbd76d7e935332fd18fe1bde9b0a0f783ec447",
+            "link_commit": "https://github.com/scathachgrip/teivax/commit/1ddbd76d7e935332fd18fe1bde9b0a0f783ec447",
+            "release": "v0.1.11",
+            "stargazers_count": 0,
+            "last_commit_date": 1786923787
+        },
         {
             "name": "sinkaroid",
             "pictures": [
@@ -23,11 +45,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "f759e6266f77996ef20e52a52a1bce21bf4155f9",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/f759e6266f77996ef20e52a52a1bce21bf4155f9",
+            "commit": "ae6112e37d5b4ff03cea8506b87c940f25a323f1",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/ae6112e37d5b4ff03cea8506b87c940f25a323f1",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1786792459
+            "last_commit_date": 1786878836
         },
         {
             "name": "pixivHono",
@@ -54,28 +76,6 @@
             "release": "v1.3.3-alpha",
             "stargazers_count": 2,
             "last_commit_date": 1786640721
-        },
-        {
-            "name": "teivax",
-            "pictures": [
-                {
-                    "img": "/assets/oss/teivax_master.webp"
-                }
-            ],
-            "technologies": [
-                "Rust",
-                "Dockerfile"
-            ],
-            "category": "Rust",
-            "github": "https://github.com/ScathachGrip/teivax",
-            "bahasa": "https://skillicons.dev/icons?i=rust",
-            "visit": "https://scathachbot.xyz/custom-branding",
-            "description": "A decentralized @ScathachGrip custom branding registry.",
-            "commit": "e46b8c1f01a436b3cfb43ea79f7427f38e7730c7",
-            "link_commit": "https://github.com/scathachgrip/teivax/commit/e46b8c1f01a436b3cfb43ea79f7427f38e7730c7",
-            "release": "v0.1.9",
-            "stargazers_count": 0,
-            "last_commit_date": 1785831039
         },
         {
             "name": "davinci",
@@ -1276,5 +1276,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "f759e6266f77996ef20e52a52a1bce21bf4155f9"
+    "sha_commit": "ae6112e37d5b4ff03cea8506b87c940f25a323f1"
 }
