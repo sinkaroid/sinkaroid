@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-17, 11:18:09",
+    "last_sync": "2026-08-18, 11:17:25",
     "data": [
         {
             "name": "scathach-next",
@@ -20,10 +20,10 @@
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "4bc15585027cd18201cc7bcbab307ee72da6cecc",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/4bc15585027cd18201cc7bcbab307ee72da6cecc",
-            "release": "v6.4.2-alpha",
-            "last_commit_date": 1786960507
+            "commit": "df4da6a287a8e43a44845cd0762862a915fcb9ee",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/df4da6a287a8e43a44845cd0762862a915fcb9ee",
+            "release": "v6.4.6-alpha",
+            "last_commit_date": 1787015450
         },
         {
             "name": "dispatcher-telemetry",
@@ -539,5 +539,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "ae6112e37d5b4ff03cea8506b87c940f25a323f1"
+    "sha_commit": "8a2f10a3200ba2a2f104f970f7ffe727f189f5b2"
 }
