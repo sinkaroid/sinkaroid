@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-19, 11:19:06",
+    "last_sync": "2026-08-20, 11:19:36",
     "data": [
         {
             "name": "scathach-next",
@@ -20,10 +20,56 @@
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "df4da6a287a8e43a44845cd0762862a915fcb9ee",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/df4da6a287a8e43a44845cd0762862a915fcb9ee",
-            "release": "v6.4.6-alpha",
-            "last_commit_date": 1787015450
+            "commit": "4aca01a2beec109b74426a9a9d58cb78f308b93f",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/4aca01a2beec109b74426a9a9d58cb78f308b93f",
+            "release": "v6.4.7-alpha",
+            "last_commit_date": 1787156646
+        },
+        {
+            "name": "scathach-next-pro",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next-pro_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "Makefile",
+                "microservices"
+            ],
+            "category": "Go",
+            "github": "https://github.com/ScathachGrip/scathach-next-pro",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://next-pro.scathach.id",
+            "description": "scathach-next-pro @disgoorg",
+            "commit": "87573581b9feef78de341378b600df56fd46711a",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/87573581b9feef78de341378b600df56fd46711a",
+            "release": "6.0.1-alpha",
+            "last_commit_date": 1787145603
+        },
+        {
+            "name": "statusflare",
+            "pictures": [
+                {
+                    "img": "/assets/sas/statusflare_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Astro",
+                "CSS",
+                "JavaScript"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/statusflare",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "status.scathachbot.xyz",
+            "description": "Cloudflare Workers + Astro status page with KV monitoring",
+            "commit": "c6e2a8a43d7829782ea6c7f4086f4cb6badfc483",
+            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/c6e2a8a43d7829782ea6c7f4086f4cb6badfc483",
+            "release": "v7.2.0-alpha",
+            "last_commit_date": 1787140285
         },
         {
             "name": "dispatcher-telemetry",
@@ -73,28 +119,6 @@
             "last_commit_date": 1786422680
         },
         {
-            "name": "scathach-next-pro",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next-pro_master.webp"
-                }
-            ],
-            "technologies": [
-                "Go",
-                "Dockerfile",
-                "microservices"
-            ],
-            "category": "Go",
-            "github": "https://github.com/ScathachGrip/scathach-next-pro",
-            "bahasa": "https://skillicons.dev/icons?i=go",
-            "visit": "https://next-pro.scathach.id",
-            "description": "scathach-next-pro @disgoorg",
-            "commit": "8a8d3b53038f4434c2263d34378df7a5105af968",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/8a8d3b53038f4434c2263d34378df7a5105af968",
-            "release": "5.0.4-alpha",
-            "last_commit_date": 1786201299
-        },
-        {
             "name": "dispatcher",
             "pictures": [
                 {
@@ -118,29 +142,6 @@
             "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/df97eacc29174be272aa397f5a1aab8081ee5cda",
             "release": "v6.14.4-alpha",
             "last_commit_date": 1786186963
-        },
-        {
-            "name": "statusflare",
-            "pictures": [
-                {
-                    "img": "/assets/sas/statusflare_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Astro",
-                "CSS",
-                "JavaScript"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/statusflare",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://statusflare.sinxdr.workers.dev",
-            "description": "Cloudflare Workers + Astro status page with KV monitoring",
-            "commit": "83fd6f4b070e9d6956b5b25003833fe992da4444",
-            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/83fd6f4b070e9d6956b5b25003833fe992da4444",
-            "release": "v7.1.5-alpha",
-            "last_commit_date": 1785229329
         },
         {
             "name": "XTwitterFavScrape",
@@ -539,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "d22608bf0a006a58305add9b4fb2e5ba38eea167"
+    "sha_commit": "898e9f47afabf6175c9a0aed20a836e4ba8137c4"
 }
