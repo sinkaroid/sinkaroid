@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-20, 11:19:36",
+    "last_sync": "2026-08-21, 11:18:56",
     "data": [
         {
             "name": "scathach-next",
@@ -20,10 +20,35 @@
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "4aca01a2beec109b74426a9a9d58cb78f308b93f",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/4aca01a2beec109b74426a9a9d58cb78f308b93f",
-            "release": "v6.4.7-alpha",
-            "last_commit_date": 1787156646
+            "commit": "eac6b138a27c78da2a94e6592398691b697632a8",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/eac6b138a27c78da2a94e6592398691b697632a8",
+            "release": "v6.4.12-alpha",
+            "last_commit_date": 1787273536
+        },
+        {
+            "name": "dispatcher",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "microservices",
+                "redis",
+                "scheduler"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/dispatcher",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://dispatcher.scathach.id",
+            "description": "Bun first & high-performance Discord REST API workers and scheduler",
+            "commit": "fb3dd359b9d4257eeb47f65f0e7292ce835cbfbc",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/fb3dd359b9d4257eeb47f65f0e7292ce835cbfbc",
+            "release": "v6.16.2-alpha",
+            "last_commit_date": 1787266642
         },
         {
             "name": "scathach-next-pro",
@@ -117,31 +142,6 @@
             "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/5cd61ec1b29cda82d0f0051ff153343ff616d7af",
             "release": "v8.2.2-alpha",
             "last_commit_date": 1786422680
-        },
-        {
-            "name": "dispatcher",
-            "pictures": [
-                {
-                    "img": "/assets/sas/dispatcher_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "Dockerfile",
-                "microservices",
-                "redis",
-                "scheduler"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/dispatcher",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://dispatcher.scathach.id",
-            "description": "Bun first & high-performance Discord REST API workers and scheduler",
-            "commit": "df97eacc29174be272aa397f5a1aab8081ee5cda",
-            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/df97eacc29174be272aa397f5a1aab8081ee5cda",
-            "release": "v6.14.4-alpha",
-            "last_commit_date": 1786186963
         },
         {
             "name": "XTwitterFavScrape",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "898e9f47afabf6175c9a0aed20a836e4ba8137c4"
+    "sha_commit": "3f18b48da8323b18b2782ac92a22f664631b3191"
 }
