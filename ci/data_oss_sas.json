@@ -1,6 +1,29 @@
 {
-    "last_sync": "2026-08-22, 11:13:46",
+    "last_sync": "2026-08-23, 11:14:45",
     "data": [
+        {
+            "name": "statusflare",
+            "pictures": [
+                {
+                    "img": "/assets/sas/statusflare_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Astro",
+                "CSS",
+                "JavaScript"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/statusflare",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "status.scathachbot.xyz",
+            "description": "Cloudflare Workers + Astro status page with KV monitoring",
+            "commit": "24b2a8bba0174e62c07e3bdea98ffa39439e42ca",
+            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/24b2a8bba0174e62c07e3bdea98ffa39439e42ca",
+            "release": "v10.0.1-alpha",
+            "last_commit_date": 1787438547
+        },
         {
             "name": "scathach-next",
             "pictures": [
@@ -20,10 +43,10 @@
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "1e5dc9b35101d88e8de4ec9242f858f3f80f56e0",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/1e5dc9b35101d88e8de4ec9242f858f3f80f56e0",
-            "release": "v6.4.16-alpha",
-            "last_commit_date": 1787370834
+            "commit": "322568d99fcc6e891b1f7ebc6ef565bd47c3c346",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/322568d99fcc6e891b1f7ebc6ef565bd47c3c346",
+            "release": "v6.4.17-alpha",
+            "last_commit_date": 1787436169
         },
         {
             "name": "scathach-next-pro",
@@ -72,29 +95,6 @@
             "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/9f15b1f316c9e174efa236fde5bfd5f0f4d6b51c",
             "release": "v6.16.5-alpha",
             "last_commit_date": 1787331197
-        },
-        {
-            "name": "statusflare",
-            "pictures": [
-                {
-                    "img": "/assets/sas/statusflare_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Astro",
-                "CSS",
-                "JavaScript"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/statusflare",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "status.scathachbot.xyz",
-            "description": "Cloudflare Workers + Astro status page with KV monitoring",
-            "commit": "c6e2a8a43d7829782ea6c7f4086f4cb6badfc483",
-            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/c6e2a8a43d7829782ea6c7f4086f4cb6badfc483",
-            "release": "v7.2.0-alpha",
-            "last_commit_date": 1787140285
         },
         {
             "name": "dispatcher-telemetry",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "268065962870efc3421ba2ddd0d018c5b999dadb"
+    "sha_commit": "a2d0b3ba444603843ca0a096187ba1c2fe6a879a"
 }
