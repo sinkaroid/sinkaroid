@@ -1,6 +1,30 @@
 {
-    "last_sync": "2026-08-23, 11:14:45",
+    "last_sync": "2026-08-24, 11:20:54",
     "data": [
+        {
+            "name": "scathach-next",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Rust",
+                "Dockerfile",
+                "JavaScript",
+                "microservices"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/scathach-next",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://next.scathach.id",
+            "description": "scathach-next @discordeno, @tokio-rs",
+            "commit": "f1337a84babdd5688233a892f7d4138b495dbc8e",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/f1337a84babdd5688233a892f7d4138b495dbc8e",
+            "release": "v6.4.18-alpha",
+            "last_commit_date": 1787546904
+        },
         {
             "name": "statusflare",
             "pictures": [
@@ -23,30 +47,6 @@
             "link_commit": "https://github.com/ScathachGrip/statusflare/commit/24b2a8bba0174e62c07e3bdea98ffa39439e42ca",
             "release": "v10.0.1-alpha",
             "last_commit_date": 1787438547
-        },
-        {
-            "name": "scathach-next",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Rust",
-                "Dockerfile",
-                "JavaScript",
-                "microservices"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/scathach-next",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://next.scathach.id",
-            "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "322568d99fcc6e891b1f7ebc6ef565bd47c3c346",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/322568d99fcc6e891b1f7ebc6ef565bd47c3c346",
-            "release": "v6.4.17-alpha",
-            "last_commit_date": 1787436169
         },
         {
             "name": "scathach-next-pro",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "a2d0b3ba444603843ca0a096187ba1c2fe6a879a"
+    "sha_commit": "f4f9af3e65601e1041f0175ae1679d1efcc437ba"
 }
