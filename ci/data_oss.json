@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-24, 11:18:33",
+    "last_sync": "2026-08-25, 11:18:01",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "f4f9af3e65601e1041f0175ae1679d1efcc437ba",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/f4f9af3e65601e1041f0175ae1679d1efcc437ba",
+            "commit": "82fdca17b875f93f5d81d52a2dc4a562fd97fc72",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/82fdca17b875f93f5d81d52a2dc4a562fd97fc72",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1787483756
+            "last_commit_date": 1787570528
         },
         {
             "name": "teivax",
@@ -161,7 +161,7 @@
             "commit": "094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "link_commit": "https://github.com/sinkaroid/jandapress/commit/094598e10eca48f3fe5ab9ebee69059ffdd16b69",
             "release": "v10.2.0-alpha",
-            "stargazers_count": 74,
+            "stargazers_count": 73,
             "last_commit_date": 1784664998
         },
         {
@@ -331,7 +331,7 @@
             "commit": "2379b0a98668c036fa751aef05a3da014ce22166",
             "link_commit": "https://github.com/sinkaroid/janda/commit/2379b0a98668c036fa751aef05a3da014ce22166",
             "release": "4.1.0-alpha",
-            "stargazers_count": 16,
+            "stargazers_count": 15,
             "last_commit_date": 1749675191
         },
         {
@@ -541,7 +541,7 @@
             "commit": "11918d3719913bdcd534d2f5414525d3304a67cc",
             "link_commit": "https://github.com/sinkaroid/scathach-api/commit/11918d3719913bdcd534d2f5414525d3304a67cc",
             "release": "1.0.16-dev",
-            "stargazers_count": 24,
+            "stargazers_count": 23,
             "last_commit_date": 1665257755
         },
         {
@@ -707,7 +707,7 @@
             "commit": "1f4342f690864498e5dded9e58fe34389cfe48ec",
             "link_commit": "https://github.com/sinkaroid/pururin/commit/1f4342f690864498e5dded9e58fe34389cfe48ec",
             "release": "0.0.8.final",
-            "stargazers_count": 7,
+            "stargazers_count": 6,
             "last_commit_date": 1647282666
         },
         {
@@ -858,7 +858,7 @@
             "commit": "6588013f3f126635c6c82a9fb2d6ee270213285d",
             "link_commit": "https://github.com/sinkaroid/antk/commit/6588013f3f126635c6c82a9fb2d6ee270213285d",
             "release": "redcolumn",
-            "stargazers_count": 14,
+            "stargazers_count": 13,
             "last_commit_date": 1606689180
         },
         {
@@ -1052,7 +1052,7 @@
             "commit": "52e7e20ceb401fbdae3d874a51d4eea2e5ac5d4f",
             "link_commit": "https://github.com/sinkaroid/Nhentai-Stealer/commit/52e7e20ceb401fbdae3d874a51d4eea2e5ac5d4f",
             "release": "pre-release",
-            "stargazers_count": 47,
+            "stargazers_count": 46,
             "last_commit_date": 1561211068
         },
         {
@@ -1276,5 +1276,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "f4f9af3e65601e1041f0175ae1679d1efcc437ba"
+    "sha_commit": "82fdca17b875f93f5d81d52a2dc4a562fd97fc72"
 }
