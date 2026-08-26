@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-25, 11:18:01",
+    "last_sync": "2026-08-26, 11:20:22",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "82fdca17b875f93f5d81d52a2dc4a562fd97fc72",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/82fdca17b875f93f5d81d52a2dc4a562fd97fc72",
+            "commit": "16b9ef4eb0f6447d2ab17c98d3f084fd0f380fd1",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/16b9ef4eb0f6447d2ab17c98d3f084fd0f380fd1",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1787570528
+            "last_commit_date": 1787656950
         },
         {
             "name": "teivax",
@@ -1276,5 +1276,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "82fdca17b875f93f5d81d52a2dc4a562fd97fc72"
+    "sha_commit": "16b9ef4eb0f6447d2ab17c98d3f084fd0f380fd1"
 }
