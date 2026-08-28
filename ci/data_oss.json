@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-27, 20:51:30",
+    "last_sync": "2026-08-28, 21:17:15",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,36 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "af6c97ceaff2a5140b8a00a00bee617ea32115d1",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/af6c97ceaff2a5140b8a00a00bee617ea32115d1",
+            "commit": "538445714cd18005f71814168c145f92789a1d03",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/538445714cd18005f71814168c145f92789a1d03",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1787743437
+            "last_commit_date": 1787902813
+        },
+        {
+            "name": "tomoe",
+            "pictures": [
+                {
+                    "img": "/assets/oss/tomoe_master.webp"
+                }
+            ],
+            "technologies": [
+                "Rust",
+                "doujinshi",
+                "hentaifox",
+                "nhentai",
+                "pururin"
+            ],
+            "category": "Rust",
+            "github": "https://github.com/sinkaroid/tomoe",
+            "bahasa": "https://skillicons.dev/icons?i=rust",
+            "visit": "https://crates.io/crates/tomoe",
+            "description": "A robust doujinshi downloader, uncompromising in efficiency",
+            "commit": "3726fcede5a960ed0c7876645bd6af909e7142d2",
+            "link_commit": "https://github.com/sinkaroid/tomoe/commit/3726fcede5a960ed0c7876645bd6af909e7142d2",
+            "release": "v4.0.10",
+            "stargazers_count": 41,
+            "last_commit_date": 1787894952
         },
         {
             "name": "teivax",
@@ -127,11 +152,11 @@
             "github": "https://github.com/sinkaroid/lustpress",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://sinkaroid.github.io/lustpress",
-            "description": "Unified REST + GraphQL API for PornHub and other R18 platforms",
+            "description": "Unified REST + GraphQL API for PornHub and other R18 platform",
             "commit": "28ce0614b3added80fd9b8feb461fff2fc38927c",
             "link_commit": "https://github.com/sinkaroid/lustpress/commit/28ce0614b3added80fd9b8feb461fff2fc38927c",
             "release": "v8.5.0-alpha",
-            "stargazers_count": 115,
+            "stargazers_count": 116,
             "last_commit_date": 1784675284
         },
         {
@@ -287,31 +312,6 @@
             "release": "3.0.1-alpha",
             "stargazers_count": 13,
             "last_commit_date": 1749888390
-        },
-        {
-            "name": "tomoe",
-            "pictures": [
-                {
-                    "img": "/assets/oss/tomoe_master.webp"
-                }
-            ],
-            "technologies": [
-                "Python",
-                "doujinshi",
-                "hentaifox",
-                "nhentai",
-                "pururin"
-            ],
-            "category": "Python",
-            "github": "https://github.com/sinkaroid/tomoe",
-            "bahasa": "https://skillicons.dev/icons?i=python",
-            "visit": "https://github.com/sinkaroid/tomoe",
-            "description": "An exalted manga & doujinshi downloader with ease",
-            "commit": "d9f6ffdcf1a9c96875b0890f1a376ef19c3a6cc6",
-            "link_commit": "https://github.com/sinkaroid/tomoe/commit/d9f6ffdcf1a9c96875b0890f1a376ef19c3a6cc6",
-            "release": "3.7.1-alpha",
-            "stargazers_count": 41,
-            "last_commit_date": 1749679453
         },
         {
             "name": "janda",
@@ -1276,5 +1276,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "af6c97ceaff2a5140b8a00a00bee617ea32115d1"
+    "sha_commit": "538445714cd18005f71814168c145f92789a1d03"
 }

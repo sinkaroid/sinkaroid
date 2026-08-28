@@ -1,6 +1,31 @@
 {
-    "last_sync": "2026-08-27, 20:53:06",
+    "last_sync": "2026-08-28, 21:18:45",
     "data": [
+        {
+            "name": "dispatcher",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "microservices",
+                "redis",
+                "scheduler"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/dispatcher",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://dispatcher.scathach.id",
+            "description": "Bun first & Discord API scheduler",
+            "commit": "572e5ddf6862c0919327325eec119fc88148fd5f",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/572e5ddf6862c0919327325eec119fc88148fd5f",
+            "release": "v7.0.3-alpha",
+            "last_commit_date": 1787866710
+        },
         {
             "name": "scathach-next-pro",
             "pictures": [
@@ -70,31 +95,6 @@
             "link_commit": "https://github.com/ScathachGrip/statusflare/commit/8959fcd0fcd8a307141f28027ea057e95a156e23",
             "release": "v10.0.2-alpha",
             "last_commit_date": 1787796816
-        },
-        {
-            "name": "dispatcher",
-            "pictures": [
-                {
-                    "img": "/assets/sas/dispatcher_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "Dockerfile",
-                "microservices",
-                "redis",
-                "scheduler"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/dispatcher",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://dispatcher.scathach.id",
-            "description": "Bun first & high-performance Discord REST API workers and scheduler",
-            "commit": "9f15b1f316c9e174efa236fde5bfd5f0f4d6b51c",
-            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/9f15b1f316c9e174efa236fde5bfd5f0f4d6b51c",
-            "release": "v6.16.5-alpha",
-            "last_commit_date": 1787331197
         },
         {
             "name": "dispatcher-telemetry",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "af6c97ceaff2a5140b8a00a00bee617ea32115d1"
+    "sha_commit": "538445714cd18005f71814168c145f92789a1d03"
 }
