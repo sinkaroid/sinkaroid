@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-08-29, 15:22:50",
+    "last_sync": "2026-08-30, 15:07:07",
     "data": [
         {
             "name": "jandapress",
@@ -24,11 +24,39 @@
             "bahasa": "https://skillicons.dev/icons?i=rust",
             "visit": "https://sinkaroid.github.io/jandapress",
             "description": "Unified REST + GraphQL API for nhentai and other doujinshi",
-            "commit": "efff0302af9e9045d1c72d6fd5d14c3d76e73e46",
-            "link_commit": "https://github.com/sinkaroid/jandapress/commit/efff0302af9e9045d1c72d6fd5d14c3d76e73e46",
-            "release": "v10.6.0",
+            "commit": "d844fd06d56a4123d2321a39552f2e03e42b4685",
+            "link_commit": "https://github.com/sinkaroid/jandapress/commit/d844fd06d56a4123d2321a39552f2e03e42b4685",
+            "release": "v10.6.6",
             "stargazers_count": 73,
-            "last_commit_date": 1788011890
+            "last_commit_date": 1788019490
+        },
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "TypeScript",
+                "CSS",
+                "JavaScript",
+                "HTML",
+                "Dockerfile",
+                "minimalist-design",
+                "vuejs"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "Vue portfolio template with minimalist-design in mind.",
+            "commit": "6485a757f7944c028efc5cc7f7fcafd55d8bed51",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/6485a757f7944c028efc5cc7f7fcafd55d8bed51",
+            "release": "v6.0.7-alpha",
+            "stargazers_count": 6,
+            "last_commit_date": 1788017116
         },
         {
             "name": "nikkePwned",
@@ -55,34 +83,6 @@
             "release": "v5.0.12",
             "stargazers_count": 2,
             "last_commit_date": 1787970537
-        },
-        {
-            "name": "sinkaroid",
-            "pictures": [
-                {
-                    "img": "/assets/oss/sinkaroid_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "TypeScript",
-                "CSS",
-                "JavaScript",
-                "HTML",
-                "Dockerfile",
-                "minimalist-design",
-                "vuejs"
-            ],
-            "category": "Vue",
-            "github": "https://github.com/sinkaroid/sinkaroid",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://sinkaroid.org",
-            "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "0580fbb5ffe320b6348325fc386a30187e6a6d0d",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/0580fbb5ffe320b6348325fc386a30187e6a6d0d",
-            "release": "v6.0.7-alpha",
-            "stargazers_count": 6,
-            "last_commit_date": 1787951995
         },
         {
             "name": "tomoe",
@@ -211,7 +211,7 @@
             "commit": "28ce0614b3added80fd9b8feb461fff2fc38927c",
             "link_commit": "https://github.com/sinkaroid/lustpress/commit/28ce0614b3added80fd9b8feb461fff2fc38927c",
             "release": "v8.5.0-alpha",
-            "stargazers_count": 116,
+            "stargazers_count": 117,
             "last_commit_date": 1784675284
         },
         {
@@ -1277,5 +1277,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "0580fbb5ffe320b6348325fc386a30187e6a6d0d"
+    "sha_commit": "6485a757f7944c028efc5cc7f7fcafd55d8bed51"
 }
