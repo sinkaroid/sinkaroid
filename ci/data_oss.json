@@ -1,6 +1,55 @@
 {
-    "last_sync": "2026-08-30, 15:07:07",
+    "last_sync": "2026-08-31, 17:46:14",
     "data": [
+        {
+            "name": "hensuki",
+            "pictures": [
+                {
+                    "img": "/assets/oss/hensuki_master.webp"
+                }
+            ],
+            "technologies": [
+                "Rust"
+            ],
+            "category": "Rust",
+            "github": "https://github.com/sinkaroid/hensuki",
+            "bahasa": "https://skillicons.dev/icons?i=rust",
+            "visit": "https://crates.io/crates/hensuki",
+            "description": "A fault-tolerant, adaptive imageboards downloader",
+            "commit": "87805a412c18edc2d8dc92320b8c946b59dccab4",
+            "link_commit": "https://github.com/sinkaroid/hensuki/commit/87805a412c18edc2d8dc92320b8c946b59dccab4",
+            "release": "2.0",
+            "stargazers_count": 83,
+            "last_commit_date": 1788163915
+        },
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "TypeScript",
+                "CSS",
+                "JavaScript",
+                "HTML",
+                "Dockerfile",
+                "minimalist-design",
+                "vuejs"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "Vue portfolio template with minimalist-design in mind.",
+            "commit": "496d6395c8a77427ab8cee9bb3e678a57c6bcecf",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/496d6395c8a77427ab8cee9bb3e678a57c6bcecf",
+            "release": "v6.0.7-alpha",
+            "stargazers_count": 6,
+            "last_commit_date": 1788102637
+        },
         {
             "name": "jandapress",
             "pictures": [
@@ -29,34 +78,6 @@
             "release": "v10.6.6",
             "stargazers_count": 73,
             "last_commit_date": 1788019490
-        },
-        {
-            "name": "sinkaroid",
-            "pictures": [
-                {
-                    "img": "/assets/oss/sinkaroid_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "TypeScript",
-                "CSS",
-                "JavaScript",
-                "HTML",
-                "Dockerfile",
-                "minimalist-design",
-                "vuejs"
-            ],
-            "category": "Vue",
-            "github": "https://github.com/sinkaroid/sinkaroid",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://sinkaroid.org",
-            "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "6485a757f7944c028efc5cc7f7fcafd55d8bed51",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/6485a757f7944c028efc5cc7f7fcafd55d8bed51",
-            "release": "v6.0.7-alpha",
-            "stargazers_count": 6,
-            "last_commit_date": 1788017116
         },
         {
             "name": "nikkePwned",
@@ -712,30 +733,6 @@
             "last_commit_date": 1647282666
         },
         {
-            "name": "hensuki",
-            "pictures": [
-                {
-                    "img": "/assets/oss/hensuki_master.webp"
-                }
-            ],
-            "technologies": [
-                "Shell",
-                "nhentai",
-                "one-liners",
-                "regex"
-            ],
-            "category": "Shell",
-            "github": "https://github.com/sinkaroid/hensuki",
-            "bahasa": "https://skillicons.dev/icons?i=bash",
-            "visit": "https://github.com/sinkaroid/hensuki",
-            "description": "Turn out regex magic into one-liner doujin grabber. This repo is no longer maintained and has moved to https://github.com/sinkaroid/tomoe",
-            "commit": "c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
-            "link_commit": "https://github.com/sinkaroid/hensuki/commit/c6304eb78a0c23efb4793f204f14b0d53bdeb50d",
-            "release": "2.0",
-            "stargazers_count": 83,
-            "last_commit_date": 1621471789
-        },
-        {
             "name": "umarun",
             "pictures": [
                 {
@@ -1277,5 +1274,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "6485a757f7944c028efc5cc7f7fcafd55d8bed51"
+    "sha_commit": "496d6395c8a77427ab8cee9bb3e678a57c6bcecf"
 }
