@@ -1,27 +1,6 @@
 {
-    "last_sync": "2026-08-31, 17:46:14",
+    "last_sync": "2026-09-01, 15:18:50",
     "data": [
-        {
-            "name": "hensuki",
-            "pictures": [
-                {
-                    "img": "/assets/oss/hensuki_master.webp"
-                }
-            ],
-            "technologies": [
-                "Rust"
-            ],
-            "category": "Rust",
-            "github": "https://github.com/sinkaroid/hensuki",
-            "bahasa": "https://skillicons.dev/icons?i=rust",
-            "visit": "https://crates.io/crates/hensuki",
-            "description": "A fault-tolerant, adaptive imageboards downloader",
-            "commit": "87805a412c18edc2d8dc92320b8c946b59dccab4",
-            "link_commit": "https://github.com/sinkaroid/hensuki/commit/87805a412c18edc2d8dc92320b8c946b59dccab4",
-            "release": "2.0",
-            "stargazers_count": 83,
-            "last_commit_date": 1788163915
-        },
         {
             "name": "sinkaroid",
             "pictures": [
@@ -44,11 +23,32 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "496d6395c8a77427ab8cee9bb3e678a57c6bcecf",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/496d6395c8a77427ab8cee9bb3e678a57c6bcecf",
+            "commit": "fdc461053aada1ab254e296c730f3a3f5a4ce188",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/fdc461053aada1ab254e296c730f3a3f5a4ce188",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1788102637
+            "last_commit_date": 1788198601
+        },
+        {
+            "name": "hensuki",
+            "pictures": [
+                {
+                    "img": "/assets/oss/hensuki_master.webp"
+                }
+            ],
+            "technologies": [
+                "Rust"
+            ],
+            "category": "Rust",
+            "github": "https://github.com/sinkaroid/hensuki",
+            "bahasa": "https://skillicons.dev/icons?i=rust",
+            "visit": "https://crates.io/crates/hensuki",
+            "description": "A fault-tolerant, adaptive imageboards downloader",
+            "commit": "87805a412c18edc2d8dc92320b8c946b59dccab4",
+            "link_commit": "https://github.com/sinkaroid/hensuki/commit/87805a412c18edc2d8dc92320b8c946b59dccab4",
+            "release": "2.0",
+            "stargazers_count": 83,
+            "last_commit_date": 1788163915
         },
         {
             "name": "jandapress",
@@ -1274,5 +1274,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "496d6395c8a77427ab8cee9bb3e678a57c6bcecf"
+    "sha_commit": "fdc461053aada1ab254e296c730f3a3f5a4ce188"
 }
