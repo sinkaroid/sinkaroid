@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-09-02, 14:48:36",
+    "last_sync": "2026-09-03, 14:49:01",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "f6de5c2c3fe11ebfeaf4799eaf3b7cf59e341a9d",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/f6de5c2c3fe11ebfeaf4799eaf3b7cf59e341a9d",
+            "commit": "b93538f863b72d6eccce7f3ea5371d3426136682",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/b93538f863b72d6eccce7f3ea5371d3426136682",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1788276139
+            "last_commit_date": 1788360788
         },
         {
             "name": "hensuki",
@@ -43,7 +43,7 @@
             "github": "https://github.com/sinkaroid/hensuki",
             "bahasa": "https://skillicons.dev/icons?i=rust",
             "visit": "https://crates.io/crates/hensuki",
-            "description": "A fault-tolerant, adaptive imageboards downloader",
+            "description": "A fault-tolerant and adaptive imageboards downloader",
             "commit": "87805a412c18edc2d8dc92320b8c946b59dccab4",
             "link_commit": "https://github.com/sinkaroid/hensuki/commit/87805a412c18edc2d8dc92320b8c946b59dccab4",
             "release": "2.0",
@@ -1274,5 +1274,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "f6de5c2c3fe11ebfeaf4799eaf3b7cf59e341a9d"
+    "sha_commit": "b93538f863b72d6eccce7f3ea5371d3426136682"
 }
