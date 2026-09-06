@@ -1,6 +1,32 @@
 {
-    "last_sync": "2026-09-05, 13:39:09",
+    "last_sync": "2026-09-06, 13:52:34",
     "data": [
+        {
+            "name": "scathachbot.xyz",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathachbot.xyz_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "JavaScript",
+                "CSS",
+                "Python",
+                "SCSS",
+                "HTML",
+                "Dockerfile"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/ScathachGrip/scathachbot.xyz",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://scathachbot.xyz",
+            "description": "Fullstack microservices web apps @nuxt and @braintree for its payment-gateway",
+            "commit": "26fbe3917479f489033f86c8cdbd0764fa238fd5",
+            "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/26fbe3917479f489033f86c8cdbd0764fa238fd5",
+            "release": "v8.2.6-alpha",
+            "last_commit_date": 1788667432
+        },
         {
             "name": "scathach-next",
             "pictures": [
@@ -116,32 +142,6 @@
             "link_commit": "https://github.com/ScathachGrip/dispatcher-telemetry/commit/68c2081d3c44acb308e51bfaa9390888a7ad6efa",
             "release": "2.0.0-alpha_stable_5m",
             "last_commit_date": 1786810706
-        },
-        {
-            "name": "scathachbot.xyz",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathachbot.xyz_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "JavaScript",
-                "CSS",
-                "Python",
-                "SCSS",
-                "HTML",
-                "Dockerfile"
-            ],
-            "category": "Vue",
-            "github": "https://github.com/ScathachGrip/scathachbot.xyz",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://scathachbot.xyz",
-            "description": "Fullstack microservices web apps @vuejs using @nuxt and @braintree for its payment-gateway",
-            "commit": "5cd61ec1b29cda82d0f0051ff153343ff616d7af",
-            "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/5cd61ec1b29cda82d0f0051ff153343ff616d7af",
-            "release": "v8.2.2-alpha",
-            "last_commit_date": 1786422680
         },
         {
             "name": "XTwitterFavScrape",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "ab8c191f4a0ea1abee4b005c85ba09603b4a712c"
+    "sha_commit": "2ac9806a943ecfb1b8f2443d9d15c1d494ba22e4"
 }
