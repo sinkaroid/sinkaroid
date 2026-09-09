@@ -31,7 +31,7 @@
                 "Open World"
             ],
             "storeLink": "https://store.steampowered.com/app/3950020",
-            "playtime2weeks": 3802,
+            "playtime2weeks": 3618,
             "playtimeForever": 50174,
             "lastPlayed": 1788463737
         },
@@ -74,10 +74,10 @@
             "appID": 892970,
             "name": "Valheim",
             "icon": "2f64c9a826e2c6cf3253fea4834c2e612db09143",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/3b25991b8a19244cfd979a2766e7490cc7894e09/capsule_231x87.jpg?t=1788343866",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/de0bdcf6c008c508a79d8e75eb91fc67f4bebd5d/header.jpg?t=1788343866",
-            "description": "Valheim is a brutal exploration and survival game for 1-10 players set in a procedurally-generated world inspired by Norse mythology. Craft powerful weapons, construct longhouses, and slay mighty foes to prove yourself to Odin! EXPLORE THE TENTH WORLD Explore a world shrouded in mystery. Discover distinct environments with unique enemies to battle, resources to gather and secrets to uncover! Be a viking, sail the open seas in search of lands unknown, and fight bloodthirsty monsters. BUILD MIGHTY HALLS Raise viking longhouses and build bases that offer reprieve from the dangers ahead. Customise buildings, both inside and out, with a detailed building system. Progress through building tiers to upgrade, expand and defend your base. GATHER, CRAFT AND SURVIVE Struggle to survive as you gather materials and craft weapons, armor, tools, ships, and defenses. Decorate your hearths and sharpen your blades, grow crops and vegetables, prepare food, brew meads and potions, and progress as you defeat more difficult bosses and discover new recipes and blueprints. KEY FEATURES: Massive procedurally-generated world where every biome is immersive and distinct, with unique enemies, resources and crafting recipes to discover. Play alone or with up to 10 players on player-hosted dedicated servers and experience unlimited world creation and enemies that scale in difficulty. Staminabased combat that rewards preparation and skill. Utilize weapon types with unique attacks, different blocking styles, ranged combat, dodges and parries to fight your enemies. Rewarding food system where you cannot starve and are not punished for not eating, instead you gain health, stamina and regeneration buffs depending on what foods you consume. Intuitive crafting where recipes are discovered as you explore the world, and pick up new resources and ingredients. Flexible building system that takes structural integrity and ventilation into account. Build a small shelter or an entire village, make outposts or claim abandoned buildings as your own. Then customize to your liking. Sail boats and ships to reach distant lands and explore the sea that offers riches to claim and monsters to fight. Epic boss fights that will test even the best prepared vikings and offer rewards that help you on your journey. Community-translated languages: In addition to the officially supported languages, Valheim has several community-translated languages. As the name would suggest these are all translated by fans and members of the community, and is an ongoing process. We can't guarantee the quality nor completeness of any specific translation effort.",
-            "shortDescription": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/4e8fffa2161ff5bf23058cc72c43ef1032059b5b/capsule_231x87_alt_assets_6.jpg?t=1788958593",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1788958593",
+            "description": "Valheim is a collaborative exploration and survival game for 1-10 players set in a procedurally generated world inspired by Norse mythology. Craft powerful weapons, construct elaborate halls, and slay mighty foes to prove yourself to Odin! Discover an immersive procedurally generated world, with different biomes that each have their distinct environments, unique resources and dangerous enemies. Become a Viking and sail the open seas in search of lands unknown, alone or with up to nine friends! The Tenth World has been corrupted by hateful forces, in the shape of mighty regional bosses known as the Forsaken. Hone your skills with axes, blades and bows, and prepare yourself by crafting the very best equipment – for it is only by defeating these Forsaken that you will advance in your progress and prove yourself to the Allfather. Raise Viking longhouses and build bases that offer reprieve from the dangers ahead. Whether you build a small shelter, an entire village or a mountain-side fortress, defence and structural integrity are important, as is decorating it for maximum comfort! As you discover new materials, you will learn new recipes for crafting, building and cooking – all that a Viking might need! The food system is rewarding rather than punishing, granting you boons and benefits depending on what you eat, and is directly tied to the combat system, where your health and stamina might be just the thing that makes a difference between life and death. Community-translated languages In addition to the officially supported languages, Valheim has several community-translated languages. As the name would suggest, these are all translated by fans and members of the community, and the process is frequently ongoing. Thus, we cannot guarantee the quality or completeness of any specific translation.",
+            "shortDescription": "A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
             "tags": [
                 "Open World Survival Craft",
                 "Survival",
@@ -97,8 +97,8 @@
                 "Third Person",
                 "Action",
                 "Singleplayer",
-                "Early Access",
-                "Indie"
+                "Indie",
+                "Early Access"
             ],
             "storeLink": "https://store.steampowered.com/app/892970",
             "playtime2weeks": 0,

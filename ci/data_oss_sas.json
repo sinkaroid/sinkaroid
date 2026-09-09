@@ -1,6 +1,31 @@
 {
-    "last_sync": "2026-09-08, 14:52:26",
+    "last_sync": "2026-09-09, 14:57:09",
     "data": [
+        {
+            "name": "charon",
+            "pictures": [
+                {
+                    "img": "/assets/sas/charon_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "TypeScript",
+                "SCSS",
+                "CSS",
+                "JavaScript",
+                "Java"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/ScathachGrip/charon",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://github.com/ScathachGrip/charon",
+            "description": "com.scathachgrip.charon",
+            "commit": "7375c6540e6c432566acddd950f62dfeb852a66d",
+            "link_commit": "https://github.com/sinkaroid/charon/commit/7375c6540e6c432566acddd950f62dfeb852a66d",
+            "release": "v2.1.40",
+            "last_commit_date": 1788923395
+        },
         {
             "name": "scathachbot.xyz",
             "pictures": [
@@ -182,31 +207,6 @@
             "link_commit": "https://github.com/ScathachGrip/buster/commit/426b9ab3cfb07bee2015c8c9dd167825a9d3f9c5",
             "release": "pre-release",
             "last_commit_date": 1783057594
-        },
-        {
-            "name": "charon",
-            "pictures": [
-                {
-                    "img": "/assets/sas/charon_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "TypeScript",
-                "SCSS",
-                "CSS",
-                "JavaScript",
-                "Java"
-            ],
-            "category": "Vue",
-            "github": "https://github.com/sinkaroid/charon",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://github.com/sinkaroid/charon",
-            "description": "com.scathachgrip.charon",
-            "commit": "b820b25346bef91f8d34327412f8d2493e294234",
-            "link_commit": "https://github.com/sinkaroid/charon/commit/b820b25346bef91f8d34327412f8d2493e294234",
-            "release": "v2.1.36",
-            "last_commit_date": 1780487303
         },
         {
             "name": "dna-autofarm",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "11f1de0ae4e913f742257a7967b685d5c8795414"
+    "sha_commit": "32cbb6aba79408b0aa8797b559e1d9217ee312ab"
 }
