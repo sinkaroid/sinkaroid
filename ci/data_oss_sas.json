@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-09-09, 14:57:09",
+    "last_sync": "2026-09-10, 14:45:08",
     "data": [
         {
             "name": "charon",
@@ -21,10 +21,10 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://github.com/ScathachGrip/charon",
             "description": "com.scathachgrip.charon",
-            "commit": "7375c6540e6c432566acddd950f62dfeb852a66d",
-            "link_commit": "https://github.com/sinkaroid/charon/commit/7375c6540e6c432566acddd950f62dfeb852a66d",
-            "release": "v2.1.40",
-            "last_commit_date": 1788923395
+            "commit": "3dfac0ac1912cbd31a785fd3933bb23eaabe41a4",
+            "link_commit": "https://github.com/sinkaroid/charon/commit/3dfac0ac1912cbd31a785fd3933bb23eaabe41a4",
+            "release": "v2.1.47-alpha",
+            "last_commit_date": 1789039201
         },
         {
             "name": "scathachbot.xyz",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "32cbb6aba79408b0aa8797b559e1d9217ee312ab"
+    "sha_commit": "7e30edb2dfb77af685970d62fb2719c1150df415"
 }

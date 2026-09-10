@@ -31,7 +31,7 @@
                 "Open World"
             ],
             "storeLink": "https://store.steampowered.com/app/3950020",
-            "playtime2weeks": 3618,
+            "playtime2weeks": 2937,
             "playtimeForever": 50174,
             "lastPlayed": 1788463737
         },
@@ -74,8 +74,8 @@
             "appID": 892970,
             "name": "Valheim",
             "icon": "2f64c9a826e2c6cf3253fea4834c2e612db09143",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/4e8fffa2161ff5bf23058cc72c43ef1032059b5b/capsule_231x87_alt_assets_6.jpg?t=1788958593",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1788958593",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/4e8fffa2161ff5bf23058cc72c43ef1032059b5b/capsule_231x87_alt_assets_6.jpg?t=1789013565",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1789013565",
             "description": "Valheim is a collaborative exploration and survival game for 1-10 players set in a procedurally generated world inspired by Norse mythology. Craft powerful weapons, construct elaborate halls, and slay mighty foes to prove yourself to Odin! Discover an immersive procedurally generated world, with different biomes that each have their distinct environments, unique resources and dangerous enemies. Become a Viking and sail the open seas in search of lands unknown, alone or with up to nine friends! The Tenth World has been corrupted by hateful forces, in the shape of mighty regional bosses known as the Forsaken. Hone your skills with axes, blades and bows, and prepare yourself by crafting the very best equipment – for it is only by defeating these Forsaken that you will advance in your progress and prove yourself to the Allfather. Raise Viking longhouses and build bases that offer reprieve from the dangers ahead. Whether you build a small shelter, an entire village or a mountain-side fortress, defence and structural integrity are important, as is decorating it for maximum comfort! As you discover new materials, you will learn new recipes for crafting, building and cooking – all that a Viking might need! The food system is rewarding rather than punishing, granting you boons and benefits depending on what you eat, and is directly tied to the combat system, where your health and stamina might be just the thing that makes a difference between life and death. Community-translated languages In addition to the officially supported languages, Valheim has several community-translated languages. As the name would suggest, these are all translated by fans and members of the community, and the process is frequently ongoing. Thus, we cannot guarantee the quality or completeness of any specific translation.",
             "shortDescription": "A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
             "tags": [
@@ -704,9 +704,9 @@
             "appID": 730,
             "name": "Counter-Strike 2",
             "icon": "8dbc71957312bbd3baea65848b545be9eae2a355",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_231x87.jpg?t=1784564069",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1784564069",
-            "description": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2. A free upgrade to CS:GO, Counter-Strike 2 marks the largest technical leap in Counter-Strike’s history. Built on the Source 2 engine, Counter-Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools. In addition to the classic objective-focused gameplay that Counter-Strike pioneered in 1999, Counter-Strike 2 features: All-new CS Ratings with the updated Premier mode Global and Regional leaderboards Upgraded and overhauled maps Game-changing dynamic smoke grenades Tick-rate-independent gameplay Redesigned visual effects and audio All items from CS:GO moving forward to CS2",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_231x87.jpg?t=1788998864",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1788998864",
+            "description": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter Strike 2. A free upgrade to CS:GO, Counter Strike 2 marks the largest technical leap in Counter-Strike’s history. Built on the Source 2 engine, Counter Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools. In addition to the classic objective-focused gameplay that Counter Strike pioneered in 1999, Counter Strike 2 features: All-new CS Ratings with the updated Premier mode Global and Regional leaderboards Upgraded and overhauled maps Game-changing dynamic smoke grenades Tick-rate-independent gameplay Redesigned visual effects and audio All items from CS:GO moving forward to CS2",
             "shortDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "tags": [
                 "FPS",
