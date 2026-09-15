@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-09-14, 16:42:21",
+    "last_sync": "2026-09-15, 15:20:51",
     "data": [
         {
             "name": "nikkePwned",
@@ -21,11 +21,11 @@
             "bahasa": "https://skillicons.dev/icons?i=rust",
             "visit": "https://github.com/ScathachGrip/nikkePwned",
             "description": "Password Manager for NIKKE",
-            "commit": "6ee22771646f649b28dbf85a4c885e7498d9aaf2",
-            "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/6ee22771646f649b28dbf85a4c885e7498d9aaf2",
-            "release": "v5.0.14",
+            "commit": "c3ea8ef016395ee64ad56a994246aaae6af06138",
+            "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/c3ea8ef016395ee64ad56a994246aaae6af06138",
+            "release": "v5.0.15",
             "stargazers_count": 2,
-            "last_commit_date": 1789378533
+            "last_commit_date": 1789405103
         },
         {
             "name": "sinkaroid",
@@ -49,11 +49,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "3bb2a100a9bdf28f9a339d60b50c8944cf1eab0e",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/3bb2a100a9bdf28f9a339d60b50c8944cf1eab0e",
+            "commit": "9e891491601ed06d0c63533d03f0afcab3f5946a",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/9e891491601ed06d0c63533d03f0afcab3f5946a",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1789310917
+            "last_commit_date": 1789404317
         },
         {
             "name": "hensuki",
@@ -1274,5 +1274,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "3bb2a100a9bdf28f9a339d60b50c8944cf1eab0e"
+    "sha_commit": "9e891491601ed06d0c63533d03f0afcab3f5946a"
 }
