@@ -1,33 +1,36 @@
 {
-    "last_sync": "2026-09-16, 15:12:57",
+    "last_sync": "2026-09-17, 15:22:22",
     "data": [
         {
-            "name": "sinkaroid",
+            "name": "lustpress",
             "pictures": [
                 {
-                    "img": "/assets/oss/sinkaroid_master.webp"
+                    "img": "/assets/oss/lustpress_master.webp"
                 }
             ],
             "technologies": [
-                "Vue",
                 "TypeScript",
-                "CSS",
                 "JavaScript",
-                "HTML",
                 "Dockerfile",
-                "minimalist-design",
-                "vuejs"
+                "javhd",
+                "pornhub",
+                "pornhub-api",
+                "redtube",
+                "xhamster",
+                "xnxx",
+                "xvideos",
+                "youporn"
             ],
-            "category": "Vue",
-            "github": "https://github.com/sinkaroid/sinkaroid",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://sinkaroid.org",
-            "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "16f8ce00ad94376066e952533c9d723775a760bb",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/16f8ce00ad94376066e952533c9d723775a760bb",
-            "release": "v6.0.7-alpha",
-            "stargazers_count": 6,
-            "last_commit_date": 1789485810
+            "category": "TypeScript",
+            "github": "https://github.com/sinkaroid/lustpress",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://sinkaroid.github.io/lustpress",
+            "description": "Unified REST + GraphQL API for PornHub and other R18 platform",
+            "commit": "75092f046a07d0381f077965256cb5dd9fe38128",
+            "link_commit": "https://github.com/sinkaroid/lustpress/commit/75092f046a07d0381f077965256cb5dd9fe38128",
+            "release": "v8.5.1-alpha",
+            "stargazers_count": 119,
+            "last_commit_date": 1789641104
         },
         {
             "name": "nikkePwned",
@@ -49,32 +52,11 @@
             "bahasa": "https://skillicons.dev/icons?i=rust",
             "visit": "https://github.com/ScathachGrip/nikkePwned",
             "description": "Password Manager for NIKKE",
-            "commit": "c3ea8ef016395ee64ad56a994246aaae6af06138",
-            "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/c3ea8ef016395ee64ad56a994246aaae6af06138",
-            "release": "v5.0.15",
+            "commit": "1aa0dd088352c8ac9a3ae615300a10f2c75c90f2",
+            "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/1aa0dd088352c8ac9a3ae615300a10f2c75c90f2",
+            "release": "v5.0.16",
             "stargazers_count": 2,
-            "last_commit_date": 1789405103
-        },
-        {
-            "name": "hensuki",
-            "pictures": [
-                {
-                    "img": "/assets/oss/hensuki_master.webp"
-                }
-            ],
-            "technologies": [
-                "Rust"
-            ],
-            "category": "Rust",
-            "github": "https://github.com/sinkaroid/hensuki",
-            "bahasa": "https://skillicons.dev/icons?i=rust",
-            "visit": "https://crates.io/crates/hensuki",
-            "description": "A fault-tolerant and adaptive imageboards downloader",
-            "commit": "87805a412c18edc2d8dc92320b8c946b59dccab4",
-            "link_commit": "https://github.com/sinkaroid/hensuki/commit/87805a412c18edc2d8dc92320b8c946b59dccab4",
-            "release": "2.0",
-            "stargazers_count": 83,
-            "last_commit_date": 1788163915
+            "last_commit_date": 1789612782
         },
         {
             "name": "jandapress",
@@ -99,11 +81,60 @@
             "bahasa": "https://skillicons.dev/icons?i=rust",
             "visit": "https://sinkaroid.github.io/jandapress",
             "description": "Unified REST + GraphQL API for nhentai and other doujinshi",
-            "commit": "d844fd06d56a4123d2321a39552f2e03e42b4685",
-            "link_commit": "https://github.com/sinkaroid/jandapress/commit/d844fd06d56a4123d2321a39552f2e03e42b4685",
-            "release": "v10.6.6",
+            "commit": "6893639d26818fb4f05b43bda5cf5295112f4869",
+            "link_commit": "https://github.com/sinkaroid/jandapress/commit/6893639d26818fb4f05b43bda5cf5295112f4869",
+            "release": "v10.6.8",
             "stargazers_count": 73,
-            "last_commit_date": 1788019490
+            "last_commit_date": 1789604207
+        },
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "TypeScript",
+                "CSS",
+                "JavaScript",
+                "HTML",
+                "Dockerfile",
+                "minimalist-design",
+                "vuejs"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "Vue portfolio template with minimalist-design in mind.",
+            "commit": "bec3d815480360d1373bd5aec5f637a82e76af5f",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/bec3d815480360d1373bd5aec5f637a82e76af5f",
+            "release": "v6.0.7-alpha",
+            "stargazers_count": 6,
+            "last_commit_date": 1789571731
+        },
+        {
+            "name": "hensuki",
+            "pictures": [
+                {
+                    "img": "/assets/oss/hensuki_master.webp"
+                }
+            ],
+            "technologies": [
+                "Rust"
+            ],
+            "category": "Rust",
+            "github": "https://github.com/sinkaroid/hensuki",
+            "bahasa": "https://skillicons.dev/icons?i=rust",
+            "visit": "https://crates.io/crates/hensuki",
+            "description": "A fault-tolerant and adaptive imageboards downloader",
+            "commit": "87805a412c18edc2d8dc92320b8c946b59dccab4",
+            "link_commit": "https://github.com/sinkaroid/hensuki/commit/87805a412c18edc2d8dc92320b8c946b59dccab4",
+            "release": "2.0",
+            "stargazers_count": 83,
+            "last_commit_date": 1788163915
         },
         {
             "name": "tomoe",
@@ -163,15 +194,13 @@
                 "Go",
                 "Dockerfile",
                 "pixiv",
-                "pixiv-api",
-                "pixiv-client",
                 "pixiv-resolver"
             ],
             "category": "Go",
             "github": "https://github.com/sinkaroid/pixivHono",
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://sinkaroid.github.io/pixivHono",
-            "description": "Unified REST and GraphQL gateway for Pixiv API",
+            "description": "Unified REST and GraphQL gateway for Pixiv",
             "commit": "6c4271e4360294c5aa54850eaa513820e1bf276f",
             "link_commit": "https://github.com/sinkaroid/pixivhono/commit/6c4271e4360294c5aa54850eaa513820e1bf276f",
             "release": "v1.3.3-alpha",
@@ -205,37 +234,6 @@
             "last_commit_date": 1785230269
         },
         {
-            "name": "lustpress",
-            "pictures": [
-                {
-                    "img": "/assets/oss/lustpress_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "Dockerfile",
-                "javhd",
-                "pornhub",
-                "pornhub-api",
-                "redtube",
-                "xhamster",
-                "xnxx",
-                "xvideos",
-                "youporn"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/sinkaroid/lustpress",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://sinkaroid.github.io/lustpress",
-            "description": "Unified REST + GraphQL API for PornHub and other R18 platform",
-            "commit": "28ce0614b3added80fd9b8feb461fff2fc38927c",
-            "link_commit": "https://github.com/sinkaroid/lustpress/commit/28ce0614b3added80fd9b8feb461fff2fc38927c",
-            "release": "v8.5.0-alpha",
-            "stargazers_count": 119,
-            "last_commit_date": 1784675284
-        },
-        {
             "name": "matoi",
             "pictures": [
                 {
@@ -244,7 +242,8 @@
             ],
             "technologies": [
                 "Go",
-                "Dockerfile"
+                "Dockerfile",
+                "booru"
             ],
             "category": "Go",
             "github": "https://github.com/sinkaroid/matoi",
@@ -1274,5 +1273,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "16f8ce00ad94376066e952533c9d723775a760bb"
+    "sha_commit": "bec3d815480360d1373bd5aec5f637a82e76af5f"
 }
