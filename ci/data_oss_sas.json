@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-09-18, 14:43:39",
+    "last_sync": "2026-09-19, 14:04:14",
     "data": [
         {
             "name": "scathach-next",
@@ -20,10 +20,58 @@
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "5540b147f07d8b3102af51789ee0ebc894478d4e",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/5540b147f07d8b3102af51789ee0ebc894478d4e",
-            "release": "v7.0.10-alpha",
-            "last_commit_date": 1789741922
+            "commit": "3d4f8e84f1ccb167c690dc497757d3575f6a4d2b",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/3d4f8e84f1ccb167c690dc497757d3575f6a4d2b",
+            "release": "v7.0.11-alpha",
+            "last_commit_date": 1789824606
+        },
+        {
+            "name": "scathach-next-pro",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next-pro_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "Makefile",
+                "microservices"
+            ],
+            "category": "Go",
+            "github": "https://github.com/ScathachGrip/scathach-next-pro",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://next-pro.scathach.id",
+            "description": "scathach-next-pro @disgoorg",
+            "commit": "4a7f704dd356f5d1b507158c79eae93341564df4",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/4a7f704dd356f5d1b507158c79eae93341564df4",
+            "release": "6.0.11-alpha",
+            "last_commit_date": 1789824094
+        },
+        {
+            "name": "dispatcher",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "microservices",
+                "redis",
+                "scheduler"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/dispatcher",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://dispatcher.scathach.id",
+            "description": "Bun first & Discord API scheduler",
+            "commit": "3a8a69f738abb932e706206d92d1b8da390b2032",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/3a8a69f738abb932e706206d92d1b8da390b2032",
+            "release": "v7.0.4-alpha",
+            "last_commit_date": 1789823345
         },
         {
             "name": "charon",
@@ -75,54 +123,6 @@
             "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/e0bf60027303967320ec2975f31f4231cd40bfc8",
             "release": "v8.2.7-alpha",
             "last_commit_date": 1788718081
-        },
-        {
-            "name": "dispatcher",
-            "pictures": [
-                {
-                    "img": "/assets/sas/dispatcher_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "Dockerfile",
-                "microservices",
-                "redis",
-                "scheduler"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/dispatcher",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://dispatcher.scathach.id",
-            "description": "Bun first & Discord API scheduler",
-            "commit": "572e5ddf6862c0919327325eec119fc88148fd5f",
-            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/572e5ddf6862c0919327325eec119fc88148fd5f",
-            "release": "v7.0.3-alpha",
-            "last_commit_date": 1787866710
-        },
-        {
-            "name": "scathach-next-pro",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next-pro_master.webp"
-                }
-            ],
-            "technologies": [
-                "Go",
-                "Dockerfile",
-                "Makefile",
-                "microservices"
-            ],
-            "category": "Go",
-            "github": "https://github.com/ScathachGrip/scathach-next-pro",
-            "bahasa": "https://skillicons.dev/icons?i=go",
-            "visit": "https://next-pro.scathach.id",
-            "description": "scathach-next-pro @disgoorg",
-            "commit": "b2f716e773060e53e985f6bd1c2890fd7c9b360c",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/b2f716e773060e53e985f6bd1c2890fd7c9b360c",
-            "release": "6.0.10-alpha",
-            "last_commit_date": 1787858475
         },
         {
             "name": "statusflare",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "8a0ea648e9852edbdf82105d2c064a92f16d33fe"
+    "sha_commit": "e4f7bd3d3947a87c7a6980ed24a9cbfde4b586ec"
 }
