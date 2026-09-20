@@ -1,6 +1,29 @@
 {
-    "last_sync": "2026-09-19, 14:04:14",
+    "last_sync": "2026-09-20, 14:25:57",
     "data": [
+        {
+            "name": "statusflare",
+            "pictures": [
+                {
+                    "img": "/assets/sas/statusflare_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Astro",
+                "CSS",
+                "JavaScript"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/statusflare",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "status.scathachbot.xyz",
+            "description": "Cloudflare Workers + Astro status page with KV monitoring",
+            "commit": "2a2795b9872d0ce7e3083cdb4fb72b55c83758f4",
+            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/2a2795b9872d0ce7e3083cdb4fb72b55c83758f4",
+            "release": "v10.0.3-alpha",
+            "last_commit_date": 1789898959
+        },
         {
             "name": "scathach-next",
             "pictures": [
@@ -123,29 +146,6 @@
             "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/e0bf60027303967320ec2975f31f4231cd40bfc8",
             "release": "v8.2.7-alpha",
             "last_commit_date": 1788718081
-        },
-        {
-            "name": "statusflare",
-            "pictures": [
-                {
-                    "img": "/assets/sas/statusflare_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Astro",
-                "CSS",
-                "JavaScript"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/statusflare",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "status.scathachbot.xyz",
-            "description": "Cloudflare Workers + Astro status page with KV monitoring",
-            "commit": "8959fcd0fcd8a307141f28027ea057e95a156e23",
-            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/8959fcd0fcd8a307141f28027ea057e95a156e23",
-            "release": "v10.0.2-alpha",
-            "last_commit_date": 1787796816
         },
         {
             "name": "dispatcher-telemetry",
@@ -540,5 +540,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "e4f7bd3d3947a87c7a6980ed24a9cbfde4b586ec"
+    "sha_commit": "6935ec48b96f5e48346bb46a92ff0aae47f7038d"
 }
