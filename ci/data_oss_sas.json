@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-09-22, 15:17:38",
+    "last_sync": "2026-09-23, 15:15:33",
     "data": [
         {
             "name": "scathach-next",
@@ -11,8 +11,11 @@
             "technologies": [
                 "TypeScript",
                 "Rust",
+                "Svelte",
                 "Dockerfile",
+                "CSS",
                 "JavaScript",
+                "HTML",
                 "microservices"
             ],
             "category": "TypeScript",
@@ -20,10 +23,10 @@
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "3e9e34473ae8afe6f067965f327a1023f255d0c4",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/3e9e34473ae8afe6f067965f327a1023f255d0c4",
-            "release": "v7.0.14-alpha",
-            "last_commit_date": 1790072688
+            "commit": "03c53e63c6368548db68637ef40542cbf3496c04",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/03c53e63c6368548db68637ef40542cbf3496c04",
+            "release": "v7.0.17-alpha",
+            "last_commit_date": 1790173356
         },
         {
             "name": "scathach-next-pro",
@@ -43,10 +46,10 @@
             "bahasa": "https://skillicons.dev/icons?i=go",
             "visit": "https://next-pro.scathach.id",
             "description": "scathach-next-pro @disgoorg",
-            "commit": "842ce9fcf98d69e948fdf9debba6aa99f210ecc4",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/842ce9fcf98d69e948fdf9debba6aa99f210ecc4",
-            "release": "6.0.12-alpha",
-            "last_commit_date": 1789918600
+            "commit": "8371c17a396d088d3c949e59b73b08b2912a5d64",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/8371c17a396d088d3c949e59b73b08b2912a5d64",
+            "release": "6.0.13-alpha",
+            "last_commit_date": 1790102928
         },
         {
             "name": "statusflare",
@@ -540,5 +543,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "7bc4ad07452cc8bc0ee320a332679f6349ebd881"
+    "sha_commit": "e66674fd9b39b1ef5794b4d306672b60b6cbee8a"
 }
