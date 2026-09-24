@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-09-23, 15:13:58",
+    "last_sync": "2026-09-24, 15:35:36",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "e66674fd9b39b1ef5794b4d306672b60b6cbee8a",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/e66674fd9b39b1ef5794b4d306672b60b6cbee8a",
+            "commit": "3acd1507df1f9bcc70f070c58c00f1e2eb37a973",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/3acd1507df1f9bcc70f070c58c00f1e2eb37a973",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1790090327
+            "last_commit_date": 1790176603
         },
         {
             "name": "lustpress",
@@ -1273,5 +1273,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "e66674fd9b39b1ef5794b4d306672b60b6cbee8a"
+    "sha_commit": "3acd1507df1f9bcc70f070c58c00f1e2eb37a973"
 }
