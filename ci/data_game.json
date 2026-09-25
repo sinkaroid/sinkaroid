@@ -2,12 +2,12 @@
     "data": [
         {
             "appID": 814380,
-            "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+            "name": "Sekiro™: Shadows Die Twice",
             "icon": "2704fb9c5465045d00a5b19a0cb1e9bdabbd15cc",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_231x87.jpg?t=1762888662",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
-            "description": "This Game of the Year Edition now includes bonus content*: - Reflection and Gauntlet of Strength - new boss challenge modes - Remnants - leave messages and recordings of your actions that other players can view and rate - 3 unlockable cosmetic skins Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Over 50 awards and nominations Carve your own clever path to vengeance in the critically acclaimed adventure from developer FromSoftware, creators of the Dark Souls series. In Sekiro™: Shadows Die Twice you are the 'one-armed wolf', a disgraced and disfigured warrior rescued from the brink of death. Bound to protect a young lord who is the descendant of an ancient bloodline, you become the target of many vicious enemies, including the dangerous Ashina clan. When the young lord is captured, nothing will stop you on a perilous quest to regain your honor, not even death itself. Explore late 1500s Sengoku Japan, a brutal period of constant life and death conflict, as you come face to face with larger than life foes in a dark and twisted world. Unleash an arsenal of deadly prosthetic tools and powerful ninja abilities while you blend stealth, vertical traversal, and visceral head to head combat in a bloody confrontation. Take Revenge. Restore Your Honor. Kill Ingeniously. *Download required. Internet connection required for asynchronous Multiplayer.",
-            "shortDescription": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.",
+            "capsule": "",
+            "header": "",
+            "description": "",
+            "shortDescription": "",
             "tags": [
                 "Souls-like",
                 "Difficult",
@@ -31,9 +31,9 @@
                 "Dark"
             ],
             "storeLink": "https://store.steampowered.com/app/814380",
-            "playtime2weeks": 6260,
-            "playtimeForever": 64916,
-            "lastPlayed": 1790262570
+            "playtime2weeks": 7721,
+            "playtimeForever": 66377,
+            "lastPlayed": 1790350230
         },
         {
             "appID": 881020,
@@ -66,9 +66,9 @@
                 "Tutorial"
             ],
             "storeLink": "https://store.steampowered.com/app/881020",
-            "playtime2weeks": 6267,
-            "playtimeForever": 43014,
-            "lastPlayed": 1790262570
+            "playtime2weeks": 7728,
+            "playtimeForever": 44475,
+            "lastPlayed": 1790350230
         },
         {
             "appID": 1110910,
@@ -101,9 +101,9 @@
                 "Nudity"
             ],
             "storeLink": "https://store.steampowered.com/app/1110910",
-            "playtime2weeks": 8121,
-            "playtimeForever": 8161,
-            "lastPlayed": 1790262570
+            "playtime2weeks": 9582,
+            "playtimeForever": 9622,
+            "lastPlayed": 1790350230
         },
         {
             "appID": 1325200,
@@ -136,9 +136,9 @@
                 "Female Protagonist"
             ],
             "storeLink": "https://store.steampowered.com/app/1325200",
-            "playtime2weeks": 6260,
-            "playtimeForever": 56560,
-            "lastPlayed": 1790262570
+            "playtime2weeks": 7721,
+            "playtimeForever": 58021,
+            "lastPlayed": 1790350230
         },
         {
             "appID": 3950020,
@@ -597,12 +597,12 @@
         },
         {
             "appID": 242050,
-            "name": "Assassin’s Creed® IV Black Flag™",
+            "name": "Assassin's Creed IV Black Flag",
             "icon": "a03c06290af00eed66814815663b68f5fd063882",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242050/capsule_231x87.jpg?t=1777052740",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242050/header.jpg?t=1777052740",
-            "description": "DISCOVER ASSASSIN'S CREED IV BLACK FLAG, THE CLASSIC PIRATE ACTION-ADVENTURE GAME FROM 2013. LIVE THE GRITTY REALITY BEHIND THE PIRATE FANTASY Become Edward Kenway, a charismatic pirate captain trained by Assassins. Effortlessly switch between the Hidden Blade of the Assassin Order, four flintlock pistols, and dual cutlass swords. Stand amongst legendary names such as Blackbeard and Calico Jack as you establish a lawless Republic in the Caribbean, where corruption, greediness, and cruelty are commonplace. BECOME THE MOST FEARED PIRATE IN THE CARIBBEAN Command the Jackdaw, and strike fear in all who see her. Plunder and pillage to upgrade your ship with ammunition and equipment needed to fight off enemies. Attack and seamlessly board massive galleons and embark on an epic and infamous adventure. EXPLORE AN OPEN WORLD FILLED WITH OPPORTUNITIES Discover a large and diverse open world. From Kingston to Nassau, explore unique locations where you can live the life of a pirate: looting underwater shipwrecks, assassinating Templars in blossoming cities, searching for treasure in lost ruins, and more. DIVE INTO A MULTIPLAYER EXPERIENCE Put your assassination skills to the test. Discover a brand-new set of pirate characters and explore exotic and colorful locations.",
-            "shortDescription": "Discover Assassin's Creed IV Black Flag, the classic pirate action-adventure game from 2013. Command your ship, hunt Templars and carve your legend as Edward Kenway across the Caribbean's Golden Age of Piracy.",
+            "capsule": "",
+            "header": "",
+            "description": "",
+            "shortDescription": "",
             "tags": [
                 "Pirates",
                 "Open World",
@@ -634,10 +634,10 @@
             "appID": 323190,
             "name": "Frostpunk",
             "icon": "0561084dfe24c469c905fe0681da82aa31102836",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/45bfdc7f6b60b2acab44cc96c488f938219c42fd/capsule_231x87.jpg?t=1784897899",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
-            "description": "EVERY END IS A NEW BEGINNING Since the premiere, Frostpunk has been enriched with a number of updates. You can enjoy the new Endless Mode that increases the replayability of the game. There is also a new scenario - The Fall of Winterhome, that further expands the game’s universe and lore. And as a final treat, we’ve added things like naming characters and automatons and a photo mode. All of this is available for free for all the owners of the game. There are also three expansions, available with the paid Season Pass. Although we are no longer planning further development for the original version of Frostpunk, the possibility of reliving the founding story of New London is rising on the horizon. Frostpunk 1886 will be a reimagination of the original game - remade entirely in Unreal Engine and enriched with new content. It will combine 70% of the original experience with 30% brand-new material , offering fresh ways to shape your society for seasoned veterans, while also serving as a great entry point to the franchise for newcomers. We’re committed to launching the game in 2027. As the date approaches, you can expect more exciting updates, a first look at gameplay, and behind-the-scenes content, so be sure to wishlist it and follow our social media channels to be the first to know about future updates! ABOUT THE GAME THE CITY MUST SURVIVE Frostpunk is a society survival game where heat means life and every decision comes at a price. In an entirely frozen world, people develop steam-powered technology to oppose the overwhelming cold. You face the task of building the last city on Earth and securing the means necessary for your community to survive. Optimization and resource management often clash with empathy and thoughtful decision-making. While city and society management will consume most of the ruler’s time, at some point exploration of the outside world is necessary to understand its history and present state. What decisions will you make to ensure the survival of your society? What will you do when pushed to the limit? And who will you become in the process? MAKE THE LAW Establish laws that regulate the existence of your growing society. Decide on their working routine, healthcare, food provision and other crucial aspects of everyday life. Maintain their hope and contentment – the moral condition of your society is as important as securing the basic means to keep them fed and safe. SHAPE YOUR SOCIETY If you reach a turning point, do not hesitate to determine the path of your people. Should you rule them with an iron fist... or show them a way of compassion and faith? Reach for extremes or try to find a fair balance. Whichever you choose, remember: there’s no turning back. WEIGH UP YOUR CHOICES Some of your decisions will seem small – like deciding the fate of a troubled citizen or meeting the demands of a newborn faction – but be aware that the sum of your doings can lead to unexpected results. Your people put their faith in you, but their devotion is not limitless. Leadership can be a burden. DEVELOP NEW TECHNOLOGIES Survival demands progress. React to current events, but don’t forget about the long term and investing in development and technological progress. Providing a highly advanced infrastructure with self-powered automatons, airships, and other technical wonders is difficult, but achievable. It all depends on your management and leadership skills. EXPLORE THE FROSTLAND While New London is your main focus, there is much more to the world than what lies within the limits of your city. Expeditions, while risky, can bring you valuable intel, precious supplies and grow your society’s population. There may be people out there, and their fate lies solely in your hands. PLAY ENDLESSLY Frostpunk Endless Mode grants you unlimited replayability for the game. Play on 8 various maps, with different terrain, weather conditions and challenges to face. We know that different people look for different experiences and that’s why there are 3 modes to play in Endless Mode. Endurance will be an ultimate test to your building, managing and survival skills in the harshest conditions. Builders, where there is no generator available from the start, which creates a different type of challenge. And last but not least, Serenity which is focused on enjoying the art of building the city itself, without unnecessary pressure.",
-            "shortDescription": "Frostpunk is the first society survival game. As the ruler of the last city on Earth, it is your duty to manage both its citizens and infrastructure. What decisions will you make to ensure your society's survival? What will you do when pushed to breaking point? Who will you become in the process?",
+            "capsule": "",
+            "header": "",
+            "description": "",
+            "shortDescription": "",
             "tags": [
                 "City Builder",
                 "Survival",
@@ -704,10 +704,10 @@
             "appID": 730,
             "name": "Counter-Strike 2",
             "icon": "8dbc71957312bbd3baea65848b545be9eae2a355",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_231x87.jpg?t=1789251637",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1789251637",
-            "description": "For over two decades, Counter Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter Strike 2. A free upgrade to CS:GO, Counter Strike 2 marks the largest technical leap in Counter Strike’s history. Built on the Source 2 engine, Counter Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools. In addition to the classic objective-focused gameplay that Counter Strike pioneered in 1999, Counter Strike 2 features: All-new CS Ratings with the updated Premier mode Global and Regional leaderboards Upgraded and overhauled maps Game-changing dynamic smoke grenades Tick-rate-independent gameplay Redesigned visual effects and audio All items from CS:GO moving forward to CS2",
-            "shortDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+            "capsule": "",
+            "header": "",
+            "description": "",
+            "shortDescription": "",
             "tags": [
                 "FPS",
                 "Shooter",
@@ -809,10 +809,10 @@
             "appID": 413150,
             "name": "Stardew Valley",
             "icon": "35d1377200084a4034238c05b0c8930451e2fb40",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_231x87.jpg?t=1786554168",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
-            "description": "Stardew Valley is an open-ended country-life RPG! You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness! Features Turn your overgrown field into a lively farm! Raise animals, grow crops, start an orchard, craft useful machines, and more! You'll have plenty of space to create the farm of your dreams. 8 Player Farming! Invite 1-7 players to join you in the valley online! Players can work together to build a thriving farm, share resources, and improve the local community. As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience. Improve your skills over time. As you make your way from a struggling greenhorn to a master farmer, you'll level up in 5 different areas: farming, mining, combat, fishing, and foraging. As you progress, you'll learn new cooking and crafting recipes, unlock new areas to explore, and customize your skills by choosing from a variety of professions. Become part of the local community. With over 30 unique characters living in Stardew Valley, you won't have a problem finding new friends! Each person has their own daily schedule, birthday, unique mini-cutscenes, and new things to say throughout the week and year. As you make friends with them, they will open up to you, ask you for help with their personal troubles, or tell you their secrets! Take part in seasonal festivals such as the luau, haunted maze, and feast of the winter star. Explore a vast, mysterious cave. As you travel deeper underground, you'll encounter new and dangerous monsters, powerful weapons, new environments, valuable gemstones, raw materials for crafting and upgrading tools, and mysteries to be uncovered. Breathe new life into the valley. Since JojaMart opened, the old way of life in Stardew Valley has changed. Much of the town's infrastructure has fallen into disrepair. Help restore Stardew Valley to it's former glory by repairing the old community center, or take the alternate route and join forces with Joja Corporation. Court and marry a partner to share your life on the farm with. There are 12 available bachelors and bachelorettes to woo, each with unique character progression cutscenes. Once married, your partner will live on the farm with you. Who knows, maybe you'll have kids and start a family? Spend a relaxing afternoon at one of the local fishing spots. The waters are teeming with seasonal varieties of delicious fish. Craft bait, bobbers, and crab pots to help you in your journey toward catching every fish and becoming a local legend! Donate artifacts and minerals to the local museum. Cook delicious meals and craft useful items to help you out. With over 100 cooking and crafting recipes, you'll have a wide variety of items to create. Some dishes you cook will even give you temporary boosts to skills, running speed, or combat prowess. Craft useful objects like scarecrows, oil makers, furnaces, or even the rare and expensive crystalarium. Customize the appearance of your character and house. With hundreds of decorative items to choose from, you'll have no trouble creating the home of your dreams! Xbox controller support (with rumble)! (Keyboard still required for text input) Over two hours of original music.",
-            "shortDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+            "capsule": "",
+            "header": "",
+            "description": "",
+            "shortDescription": "",
             "tags": [
                 "Farming Sim",
                 "Pixel Graphics",
