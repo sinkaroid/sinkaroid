@@ -1,31 +1,6 @@
 {
-    "last_sync": "2026-09-25, 15:43:06",
+    "last_sync": "2026-09-26, 14:51:02",
     "data": [
-        {
-            "name": "dispatcher",
-            "pictures": [
-                {
-                    "img": "/assets/sas/dispatcher_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "Dockerfile",
-                "microservices",
-                "redis",
-                "scheduler"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/dispatcher",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://dispatcher.scathach.id",
-            "description": "Bun first & Discord API scheduler",
-            "commit": "fb173c9dfa1f61be452c0784b0b309bb0f5543ab",
-            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/fb173c9dfa1f61be452c0784b0b309bb0f5543ab",
-            "release": "v7.0.7-alpha",
-            "last_commit_date": 1790350764
-        },
         {
             "name": "scathach-next",
             "pictures": [
@@ -46,12 +21,37 @@
             "category": "TypeScript",
             "github": "https://github.com/ScathachGrip/scathach-next",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://next.scathach.id",
+            "visit": "https://github.com/ScathachGrip/scathach-next",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "1eb7171a68887332b42dce11fdb50711e5ec2baf",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/1eb7171a68887332b42dce11fdb50711e5ec2baf",
-            "release": "v7.0.27-alpha",
-            "last_commit_date": 1790321476
+            "commit": "3a35a17b057753db00369f441543eeabf95cee42",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/3a35a17b057753db00369f441543eeabf95cee42",
+            "release": "v7.0.28-alpha",
+            "last_commit_date": 1790417639
+        },
+        {
+            "name": "dispatcher",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "microservices",
+                "redis",
+                "scheduler"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/dispatcher",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://dispatcher.scathach.id",
+            "description": "Bun first & Discord API scheduler",
+            "commit": "65ddcb089c8db34c4f0bb69ebc3399f59cac6840",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/65ddcb089c8db34c4f0bb69ebc3399f59cac6840",
+            "release": "v7.0.8-alpha",
+            "last_commit_date": 1790351208
         },
         {
             "name": "scathach-next-pro",
@@ -543,5 +543,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "9eddb2efaff823c76142ea6eaf285d93cf3d2f03"
+    "sha_commit": "cb7f44670e7a3cb608c22d9fdf01cdaee39aad60"
 }

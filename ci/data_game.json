@@ -31,9 +31,9 @@
                 "Dark"
             ],
             "storeLink": "https://store.steampowered.com/app/814380",
-            "playtime2weeks": 7721,
-            "playtimeForever": 66377,
-            "lastPlayed": 1790350230
+            "playtime2weeks": 9102,
+            "playtimeForever": 67757,
+            "lastPlayed": 1790433041
         },
         {
             "appID": 881020,
@@ -66,9 +66,9 @@
                 "Tutorial"
             ],
             "storeLink": "https://store.steampowered.com/app/881020",
-            "playtime2weeks": 7728,
-            "playtimeForever": 44475,
-            "lastPlayed": 1790350230
+            "playtime2weeks": 9108,
+            "playtimeForever": 45855,
+            "lastPlayed": 1790433041
         },
         {
             "appID": 1110910,
@@ -101,9 +101,9 @@
                 "Nudity"
             ],
             "storeLink": "https://store.steampowered.com/app/1110910",
-            "playtime2weeks": 9582,
-            "playtimeForever": 9622,
-            "lastPlayed": 1790350230
+            "playtime2weeks": 10962,
+            "playtimeForever": 11002,
+            "lastPlayed": 1790433041
         },
         {
             "appID": 1325200,
@@ -136,9 +136,9 @@
                 "Female Protagonist"
             ],
             "storeLink": "https://store.steampowered.com/app/1325200",
-            "playtime2weeks": 7721,
-            "playtimeForever": 58021,
-            "lastPlayed": 1790350230
+            "playtime2weeks": 9102,
+            "playtimeForever": 59401,
+            "lastPlayed": 1790433041
         },
         {
             "appID": 3950020,
@@ -502,8 +502,8 @@
                 "Parkour",
                 "Assassins",
                 "Action-Adventure",
-                "Stealth",
                 "Open World",
+                "Stealth",
                 "Historical",
                 "Adventure",
                 "Action",
