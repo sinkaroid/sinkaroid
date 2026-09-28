@@ -1,6 +1,29 @@
 {
-    "last_sync": "2026-09-27, 15:29:43",
+    "last_sync": "2026-09-28, 18:20:11",
     "data": [
+        {
+            "name": "statusflare",
+            "pictures": [
+                {
+                    "img": "/assets/sas/statusflare_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Astro",
+                "JavaScript",
+                "CSS"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/statusflare",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://github.com/ScathachGrip/statusflare",
+            "description": "Cloudflare Workers + Astro status page with KV monitoring",
+            "commit": "28c29e7555ec12d7312174309dc4880fbcd32144",
+            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/28c29e7555ec12d7312174309dc4880fbcd32144",
+            "release": "v10.0.14-alpha",
+            "last_commit_date": 1790584231
+        },
         {
             "name": "dispatcher",
             "pictures": [
@@ -74,29 +97,6 @@
             "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/3f5a9bdf8ea2ead2913f9de6b5891d31e3f90369",
             "release": "v7.0.33-alpha",
             "last_commit_date": 1790483654
-        },
-        {
-            "name": "statusflare",
-            "pictures": [
-                {
-                    "img": "/assets/sas/statusflare_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Astro",
-                "CSS",
-                "JavaScript"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/statusflare",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "status.scathachbot.xyz",
-            "description": "Cloudflare Workers + Astro status page with KV monitoring",
-            "commit": "2a2795b9872d0ce7e3083cdb4fb72b55c83758f4",
-            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/2a2795b9872d0ce7e3083cdb4fb72b55c83758f4",
-            "release": "v10.0.3-alpha",
-            "last_commit_date": 1789898959
         },
         {
             "name": "charon",
@@ -542,5 +542,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "cdc5f3e068967aed44f4c16c157750c8f91d8634"
+    "sha_commit": "b69953aa5464ea8ee17a882dc81e5f3318d93beb"
 }
