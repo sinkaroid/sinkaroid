@@ -1,6 +1,32 @@
 {
-    "last_sync": "2026-09-30, 16:35:43",
+    "last_sync": "2026-10-01, 17:12:50",
     "data": [
+        {
+            "name": "scathachbot.xyz",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathachbot.xyz_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "CSS",
+                "Go",
+                "JavaScript",
+                "SCSS",
+                "Dockerfile",
+                "HTML"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/ScathachGrip/scathachbot.xyz",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://scathachbot.xyz",
+            "description": null,
+            "commit": "f1b3d475827abba9a36e844e0fc32045c953cf7f",
+            "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/f1b3d475827abba9a36e844e0fc32045c953cf7f",
+            "release": "v8.3.5-alpha",
+            "last_commit_date": 1790820368
+        },
         {
             "name": "statusflare",
             "pictures": [
@@ -122,32 +148,6 @@
             "link_commit": "https://github.com/sinkaroid/charon/commit/ce94bf5ba3d9c76512c1e0948f5769bb56b91424",
             "release": "v2.1.58-alpha",
             "last_commit_date": 1789108983
-        },
-        {
-            "name": "scathachbot.xyz",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathachbot.xyz_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "JavaScript",
-                "CSS",
-                "Python",
-                "SCSS",
-                "HTML",
-                "Dockerfile"
-            ],
-            "category": "Vue",
-            "github": "https://github.com/ScathachGrip/scathachbot.xyz",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://scathachbot.xyz",
-            "description": "Fullstack microservices web apps @nuxt and @braintree for its payment-gateway",
-            "commit": "e0bf60027303967320ec2975f31f4231cd40bfc8",
-            "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/e0bf60027303967320ec2975f31f4231cd40bfc8",
-            "release": "v8.2.7-alpha",
-            "last_commit_date": 1788718081
         },
         {
             "name": "dispatcher-telemetry",
@@ -542,5 +542,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "e796a658698e112d8dde16f28c2cc5bb769d633f"
+    "sha_commit": "4c09adf866ea2ac7c62029154f657fc3da50363b"
 }
