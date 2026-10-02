@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-10-01, 17:12:50",
+    "last_sync": "2026-10-02, 16:27:31",
     "data": [
         {
             "name": "scathachbot.xyz",
@@ -10,10 +10,9 @@
             ],
             "technologies": [
                 "Vue",
-                "CSS",
                 "Go",
+                "CSS",
                 "JavaScript",
-                "SCSS",
                 "Dockerfile",
                 "HTML"
             ],
@@ -22,10 +21,10 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://scathachbot.xyz",
             "description": null,
-            "commit": "f1b3d475827abba9a36e844e0fc32045c953cf7f",
-            "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/f1b3d475827abba9a36e844e0fc32045c953cf7f",
-            "release": "v8.3.5-alpha",
-            "last_commit_date": 1790820368
+            "commit": "fcb245809e816c65302535643185155b59640343",
+            "link_commit": "https://github.com/ScathachGrip/scathachbot.xyz/commit/fcb245809e816c65302535643185155b59640343",
+            "release": "v8.3.12-alpha",
+            "last_commit_date": 1790940628
         },
         {
             "name": "statusflare",
@@ -542,5 +541,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "4c09adf866ea2ac7c62029154f657fc3da50363b"
+    "sha_commit": "82d61d17b27783531a808f7268da1830b31f73c6"
 }
