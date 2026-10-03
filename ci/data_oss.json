@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-10-02, 16:24:54",
+    "last_sync": "2026-10-03, 14:59:47",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "82d61d17b27783531a808f7268da1830b31f73c6",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/82d61d17b27783531a808f7268da1830b31f73c6",
+            "commit": "5885eb8939eda48b3db8a0dd38cb53c9ddb514e2",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/5885eb8939eda48b3db8a0dd38cb53c9ddb514e2",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1790874841
+            "last_commit_date": 1790958521
         },
         {
             "name": "lustpress",
@@ -232,29 +232,6 @@
             "release": "v1.1.8-alpha",
             "stargazers_count": 3,
             "last_commit_date": 1785230269
-        },
-        {
-            "name": "matoi",
-            "pictures": [
-                {
-                    "img": "/assets/oss/matoi_master.webp"
-                }
-            ],
-            "technologies": [
-                "Go",
-                "Dockerfile",
-                "booru"
-            ],
-            "category": "Go",
-            "github": "https://github.com/sinkaroid/matoi",
-            "bahasa": "https://skillicons.dev/icons?i=go",
-            "visit": "https://sinkaroid.github.io/matoi",
-            "description": "Unified REST + GraphQL gateway for booru imageboards",
-            "commit": "f98b093c473c7b7f1ddbc925120b71eb77d6405a",
-            "link_commit": "https://github.com/sinkaroid/matoi/commit/f98b093c473c7b7f1ddbc925120b71eb77d6405a",
-            "release": "v15.7.0-alpha",
-            "stargazers_count": 4,
-            "last_commit_date": 1784659713
         },
         {
             "name": "shiftypad-extension",
@@ -1273,5 +1250,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "82d61d17b27783531a808f7268da1830b31f73c6"
+    "sha_commit": "5885eb8939eda48b3db8a0dd38cb53c9ddb514e2"
 }
