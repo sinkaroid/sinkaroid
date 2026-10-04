@@ -1,6 +1,41 @@
 {
     "data": [
         {
+            "appID": 814380,
+            "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+            "icon": "2704fb9c5465045d00a5b19a0cb1e9bdabbd15cc",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_231x87.jpg?t=1762888662",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
+            "description": "This Game of the Year Edition now includes bonus content*: - Reflection and Gauntlet of Strength - new boss challenge modes - Remnants - leave messages and recordings of your actions that other players can view and rate - 3 unlockable cosmetic skins Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Over 50 awards and nominations Carve your own clever path to vengeance in the critically acclaimed adventure from developer FromSoftware, creators of the Dark Souls series. In Sekiro™: Shadows Die Twice you are the 'one-armed wolf', a disgraced and disfigured warrior rescued from the brink of death. Bound to protect a young lord who is the descendant of an ancient bloodline, you become the target of many vicious enemies, including the dangerous Ashina clan. When the young lord is captured, nothing will stop you on a perilous quest to regain your honor, not even death itself. Explore late 1500s Sengoku Japan, a brutal period of constant life and death conflict, as you come face to face with larger than life foes in a dark and twisted world. Unleash an arsenal of deadly prosthetic tools and powerful ninja abilities while you blend stealth, vertical traversal, and visceral head to head combat in a bloody confrontation. Take Revenge. Restore Your Honor. Kill Ingeniously. *Download required. Internet connection required for asynchronous Multiplayer.",
+            "shortDescription": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.",
+            "tags": [
+                "Souls-like",
+                "Difficult",
+                "Action",
+                "Singleplayer",
+                "Ninja",
+                "Stealth",
+                "Adventure",
+                "Third Person",
+                "Open World",
+                "Story Rich",
+                "Violent",
+                "Assassins",
+                "Atmospheric",
+                "Hack and Slash",
+                "Dark Fantasy",
+                "RPG",
+                "Gore",
+                "Great Soundtrack",
+                "Rhythm",
+                "Dark"
+            ],
+            "storeLink": "https://store.steampowered.com/app/814380",
+            "playtime2weeks": 18479,
+            "playtimeForever": 77997,
+            "lastPlayed": 1791127797
+        },
+        {
             "appID": 881020,
             "name": "Granblue Fantasy: Relink",
             "icon": "1b9bcf2c07e1c760349fd4ecbc3b8690ef915e11",
@@ -31,9 +66,9 @@
                 "Tutorial"
             ],
             "storeLink": "https://store.steampowered.com/app/881020",
-            "playtime2weeks": 17848,
-            "playtimeForever": 54595,
-            "lastPlayed": 1791037789
+            "playtime2weeks": 18479,
+            "playtimeForever": 56095,
+            "lastPlayed": 1791127797
         },
         {
             "appID": 1110910,
@@ -66,44 +101,9 @@
                 "Co-op"
             ],
             "storeLink": "https://store.steampowered.com/app/1110910",
-            "playtime2weeks": 18691,
-            "playtimeForever": 19713,
-            "lastPlayed": 1791037789
-        },
-        {
-            "appID": 814380,
-            "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
-            "icon": "2704fb9c5465045d00a5b19a0cb1e9bdabbd15cc",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_231x87.jpg?t=1762888662",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
-            "description": "This Game of the Year Edition now includes bonus content*: - Reflection and Gauntlet of Strength - new boss challenge modes - Remnants - leave messages and recordings of your actions that other players can view and rate - 3 unlockable cosmetic skins Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Over 50 awards and nominations Carve your own clever path to vengeance in the critically acclaimed adventure from developer FromSoftware, creators of the Dark Souls series. In Sekiro™: Shadows Die Twice you are the 'one-armed wolf', a disgraced and disfigured warrior rescued from the brink of death. Bound to protect a young lord who is the descendant of an ancient bloodline, you become the target of many vicious enemies, including the dangerous Ashina clan. When the young lord is captured, nothing will stop you on a perilous quest to regain your honor, not even death itself. Explore late 1500s Sengoku Japan, a brutal period of constant life and death conflict, as you come face to face with larger than life foes in a dark and twisted world. Unleash an arsenal of deadly prosthetic tools and powerful ninja abilities while you blend stealth, vertical traversal, and visceral head to head combat in a bloody confrontation. Take Revenge. Restore Your Honor. Kill Ingeniously. *Download required. Internet connection required for asynchronous Multiplayer.",
-            "shortDescription": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.",
-            "tags": [
-                "Souls-like",
-                "Difficult",
-                "Action",
-                "Singleplayer",
-                "Ninja",
-                "Stealth",
-                "Adventure",
-                "Third Person",
-                "Open World",
-                "Story Rich",
-                "Violent",
-                "Assassins",
-                "Atmospheric",
-                "Hack and Slash",
-                "Dark Fantasy",
-                "RPG",
-                "Gore",
-                "Great Soundtrack",
-                "Rhythm",
-                "Dark"
-            ],
-            "storeLink": "https://store.steampowered.com/app/814380",
-            "playtime2weeks": 17841,
-            "playtimeForever": 76497,
-            "lastPlayed": 1791037788
+            "playtime2weeks": 18719,
+            "playtimeForever": 21213,
+            "lastPlayed": 1791127797
         },
         {
             "appID": 1325200,
@@ -136,9 +136,9 @@
                 "Female Protagonist"
             ],
             "storeLink": "https://store.steampowered.com/app/1325200",
-            "playtime2weeks": 17841,
-            "playtimeForever": 68140,
-            "lastPlayed": 1791037788
+            "playtime2weeks": 18479,
+            "playtimeForever": 69640,
+            "lastPlayed": 1791127797
         },
         {
             "appID": 3950020,
@@ -502,8 +502,8 @@
                 "Parkour",
                 "Assassins",
                 "Action-Adventure",
-                "Open World",
                 "Stealth",
+                "Open World",
                 "Historical",
                 "Adventure",
                 "Action",
