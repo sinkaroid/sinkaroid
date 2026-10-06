@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-10-05, 19:26:31",
+    "last_sync": "2026-10-06, 16:59:31",
     "data": [
         {
             "name": "sinkaroid",
@@ -23,11 +23,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "82c310b01b82825c18f04c1d742bde474f82910a",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/82c310b01b82825c18f04c1d742bde474f82910a",
+            "commit": "0cae99fb5a82d4659e7f38a53b1f33265fe97fa0",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/0cae99fb5a82d4659e7f38a53b1f33265fe97fa0",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1791128193
+            "last_commit_date": 1791228659
         },
         {
             "name": "lustpress",
@@ -57,7 +57,7 @@
             "commit": "75092f046a07d0381f077965256cb5dd9fe38128",
             "link_commit": "https://github.com/sinkaroid/lustpress/commit/75092f046a07d0381f077965256cb5dd9fe38128",
             "release": "v8.5.1-alpha",
-            "stargazers_count": 122,
+            "stargazers_count": 123,
             "last_commit_date": 1789641104
         },
         {
@@ -83,7 +83,7 @@
             "commit": "1aa0dd088352c8ac9a3ae615300a10f2c75c90f2",
             "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/1aa0dd088352c8ac9a3ae615300a10f2c75c90f2",
             "release": "v5.0.16",
-            "stargazers_count": 2,
+            "stargazers_count": 3,
             "last_commit_date": 1789612782
         },
         {
@@ -112,7 +112,7 @@
             "commit": "6893639d26818fb4f05b43bda5cf5295112f4869",
             "link_commit": "https://github.com/sinkaroid/jandapress/commit/6893639d26818fb4f05b43bda5cf5295112f4869",
             "release": "v10.6.8",
-            "stargazers_count": 74,
+            "stargazers_count": 75,
             "last_commit_date": 1789604207
         },
         {
@@ -133,7 +133,7 @@
             "commit": "87805a412c18edc2d8dc92320b8c946b59dccab4",
             "link_commit": "https://github.com/sinkaroid/hensuki/commit/87805a412c18edc2d8dc92320b8c946b59dccab4",
             "release": "2.0",
-            "stargazers_count": 83,
+            "stargazers_count": 84,
             "last_commit_date": 1788163915
         },
         {
@@ -253,7 +253,7 @@
             "commit": "f98b093c473c7b7f1ddbc925120b71eb77d6405a",
             "link_commit": "https://github.com/sinkaroid/matoi/commit/f98b093c473c7b7f1ddbc925120b71eb77d6405a",
             "release": "v15.7.0-alpha",
-            "stargazers_count": 4,
+            "stargazers_count": 5,
             "last_commit_date": 1784659713
         },
         {
@@ -1273,5 +1273,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "82c310b01b82825c18f04c1d742bde474f82910a"
+    "sha_commit": "0cae99fb5a82d4659e7f38a53b1f33265fe97fa0"
 }

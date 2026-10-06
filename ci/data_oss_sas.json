@@ -1,6 +1,80 @@
 {
-    "last_sync": "2026-10-05, 19:29:49",
+    "last_sync": "2026-10-06, 17:02:01",
     "data": [
+        {
+            "name": "scathach-next",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Rust",
+                "Svelte",
+                "Dockerfile",
+                "CSS",
+                "JavaScript",
+                "HTML",
+                "microservice"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/scathach-next",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://github.com/ScathachGrip/scathach-next",
+            "description": "scathach-next @discordeno, @tokio-rs",
+            "commit": "0c7679af64eb1fd395990bf32f1e864c5f77d31f",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/0c7679af64eb1fd395990bf32f1e864c5f77d31f",
+            "release": "v7.0.34-alpha",
+            "last_commit_date": 1791282310
+        },
+        {
+            "name": "dispatcher",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "JavaScript",
+                "Dockerfile",
+                "microservice",
+                "scheduler"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/dispatcher",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://dispatcher.scathach.id",
+            "description": "Bun first & Discord API scheduler",
+            "commit": "8f9d4b5e55c15a6b0ec93ab74b61e1fc95b4c07f",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/8f9d4b5e55c15a6b0ec93ab74b61e1fc95b4c07f",
+            "release": "v7.0.10-alpha",
+            "last_commit_date": 1791241235
+        },
+        {
+            "name": "scathach-next-pro",
+            "pictures": [
+                {
+                    "img": "/assets/sas/scathach-next-pro_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "Makefile",
+                "microservice"
+            ],
+            "category": "Go",
+            "github": "https://github.com/ScathachGrip/scathach-next-pro",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://next-pro.scathach.id",
+            "description": "scathach-next-pro @disgoorg",
+            "commit": "d908af49a324fae992679e6127d7c547c8ebaac6",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/d908af49a324fae992679e6127d7c547c8ebaac6",
+            "release": "6.0.18-alpha",
+            "last_commit_date": 1791240591
+        },
         {
             "name": "scathachbot.xyz",
             "pictures": [
@@ -48,80 +122,6 @@
             "link_commit": "https://github.com/ScathachGrip/statusflare/commit/28c29e7555ec12d7312174309dc4880fbcd32144",
             "release": "v10.0.14-alpha",
             "last_commit_date": 1790584231
-        },
-        {
-            "name": "dispatcher",
-            "pictures": [
-                {
-                    "img": "/assets/sas/dispatcher_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "Dockerfile",
-                "microservice",
-                "scheduler"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/dispatcher",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://github.com/ScathachGrip/dispatcher",
-            "description": "Bun first & Discord API scheduler",
-            "commit": "da7ee890bf59401b9d2eb389207a08f6b0c31a8e",
-            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/da7ee890bf59401b9d2eb389207a08f6b0c31a8e",
-            "release": "v7.0.9-alpha",
-            "last_commit_date": 1790487205
-        },
-        {
-            "name": "scathach-next-pro",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next-pro_master.webp"
-                }
-            ],
-            "technologies": [
-                "Go",
-                "Dockerfile",
-                "Makefile",
-                "microservice"
-            ],
-            "category": "Go",
-            "github": "https://github.com/ScathachGrip/scathach-next-pro",
-            "bahasa": "https://skillicons.dev/icons?i=go",
-            "visit": "https://github.com/ScathachGrip/scathach-next-pro",
-            "description": "scathach-next-pro @disgoorg",
-            "commit": "1547f3bed86cdb5dccfc1b9debc379c23c2661ff",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/1547f3bed86cdb5dccfc1b9debc379c23c2661ff",
-            "release": "6.0.17-alpha",
-            "last_commit_date": 1790485031
-        },
-        {
-            "name": "scathach-next",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Rust",
-                "Svelte",
-                "Dockerfile",
-                "CSS",
-                "JavaScript",
-                "HTML",
-                "microservice"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/scathach-next",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://github.com/ScathachGrip/scathach-next",
-            "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "3f5a9bdf8ea2ead2913f9de6b5891d31e3f90369",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/3f5a9bdf8ea2ead2913f9de6b5891d31e3f90369",
-            "release": "v7.0.33-alpha",
-            "last_commit_date": 1790483654
         },
         {
             "name": "charon",
@@ -541,5 +541,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "82c310b01b82825c18f04c1d742bde474f82910a"
+    "sha_commit": "0cae99fb5a82d4659e7f38a53b1f33265fe97fa0"
 }
