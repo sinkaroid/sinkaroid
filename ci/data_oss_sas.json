@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-10-08, 17:41:33",
+    "last_sync": "2026-10-09, 17:16:37",
     "data": [
         {
             "name": "scathach-next",
@@ -13,20 +13,18 @@
                 "Rust",
                 "Svelte",
                 "Dockerfile",
-                "CSS",
                 "JavaScript",
-                "HTML",
-                "microservice"
+                "HTML"
             ],
             "category": "TypeScript",
             "github": "https://github.com/ScathachGrip/scathach-next",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://github.com/ScathachGrip/scathach-next",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "ee3e32e29e5c62e08e51fd015f085a2120273c22",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/ee3e32e29e5c62e08e51fd015f085a2120273c22",
-            "release": "v7.0.39-alpha",
-            "last_commit_date": 1791394354
+            "commit": "dd90d835162ac44be9da6abe144f3e0fdb0679b0",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/dd90d835162ac44be9da6abe144f3e0fdb0679b0",
+            "release": "v7.0.42-alpha",
+            "last_commit_date": 1791523547
         },
         {
             "name": "dispatcher",
@@ -541,5 +539,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "244cf9c390ed21f485a77e5cbfe667237b3d2d48"
+    "sha_commit": "891a074369b2b3f2a0d0d12087a6c3bc95f8a438"
 }
