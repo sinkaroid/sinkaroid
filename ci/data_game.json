@@ -31,9 +31,9 @@
                 "Co-op"
             ],
             "storeLink": "https://store.steampowered.com/app/1110910",
-            "playtime2weeks": 18697,
-            "playtimeForever": 31179,
-            "lastPlayed": 1791734573
+            "playtime2weeks": 18572,
+            "playtimeForever": 32683,
+            "lastPlayed": 1791834431
         },
         {
             "appID": 3950020,
@@ -66,9 +66,9 @@
                 "Open World"
             ],
             "storeLink": "https://store.steampowered.com/app/3950020",
-            "playtime2weeks": 16,
-            "playtimeForever": 50191,
-            "lastPlayed": 1791703937
+            "playtime2weeks": 21,
+            "playtimeForever": 50196,
+            "lastPlayed": 1791736553
         },
         {
             "appID": 1325200,
@@ -101,7 +101,7 @@
                 "Female Protagonist"
             ],
             "storeLink": "https://store.steampowered.com/app/1325200",
-            "playtime2weeks": 15004,
+            "playtime2weeks": 13349,
             "playtimeForever": 75963,
             "lastPlayed": 1791703573
         },
@@ -171,7 +171,7 @@
                 "Dark"
             ],
             "storeLink": "https://store.steampowered.com/app/814380",
-            "playtime2weeks": 15004,
+            "playtime2weeks": 13348,
             "playtimeForever": 84319,
             "lastPlayed": 1791508436
         },
@@ -206,7 +206,7 @@
                 "MMORPG"
             ],
             "storeLink": "https://store.steampowered.com/app/881020",
-            "playtime2weeks": 15004,
+            "playtime2weeks": 13348,
             "playtimeForever": 62417,
             "lastPlayed": 1791508436
         },
@@ -669,8 +669,8 @@
             "appID": 1121640,
             "name": "The Wandering Village",
             "icon": "1afcc38a5003e351efa1acfa45254c570eef7cc2",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1121640/3c59f658cfac54c415d68f7ba6a9fbcf6ce330da/capsule_231x87.jpg?t=1782735677",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1121640/1fb7e9ed41e98c6b289f9abdd9686cc7f38b1b3e/header.jpg?t=1782735677",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1121640/3c59f658cfac54c415d68f7ba6a9fbcf6ce330da/capsule_231x87.jpg?t=1791808726",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1121640/1fb7e9ed41e98c6b289f9abdd9686cc7f38b1b3e/header.jpg?t=1791808726",
             "description": "In a world where mysterious plants are spreading all over the earth, emitting toxic spores as they grow, a small group of survivors seeks shelter on the back of a giant, wandering creature they call 'Onbu'. Become their leader, build their settlement and form a symbiotic relationship with Onbu to survive together in this hostile, yet beautiful post-apocalyptic world. Build your village A functioning village is the basis of your survival. Build your settlement and expand it over Onbu’s back. Plan production chains and optimise them to utilise the limited space as efficiently as possible. Create a society that can overcome any challenge. Live on the creature’s back Living on the back of another organism comes with its own set of challenges. Will you live in symbiosis, bond with Onbu and survive on mutual trust? Or will you become a parasite, only aiming to ensure a better life for your villagers? The choice is yours. Discover different biomes Continuously adapt your village as you travel through a multitude of different biomes, each with its unique climate zones, opportunities and threats. Scout your environments and send out foraging missions to gather rare resources and ancient artefacts. Research new technologies Remnants of the old world hold knowledge that has long been forgotten, but can be unearthed by your villagers. Find and research these technologies, but use them wisely, as progress can be a double-edged sword. Survive the wastelands Ensure the survival of both your villagers and your Onbu, even though poisonous spores, merciless weather, bloodsucking parasites and many more challenges mean that the odds are often stacked against you.",
             "shortDescription": "The Wandering Village is a city-building simulation game on the back of a giant, wandering creature. Build your settlement and form a symbiotic relationship with the colossus. Will you survive together in this hostile, yet beautiful post-apocalyptic world, contaminated by poisonous plants?",
             "tags": [
@@ -704,8 +704,8 @@
             "appID": 730,
             "name": "Counter-Strike 2",
             "icon": "8dbc71957312bbd3baea65848b545be9eae2a355",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_231x87.jpg?t=1789251637",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1789251637",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_231x87.jpg?t=1791824795",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1791824795",
             "description": "For over two decades, Counter Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter Strike 2. A free upgrade to CS:GO, Counter Strike 2 marks the largest technical leap in Counter Strike’s history. Built on the Source 2 engine, Counter Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools. In addition to the classic objective-focused gameplay that Counter Strike pioneered in 1999, Counter Strike 2 features: All-new CS Ratings with the updated Premier mode Global and Regional leaderboards Upgraded and overhauled maps Game-changing dynamic smoke grenades Tick-rate-independent gameplay Redesigned visual effects and audio All items from CS:GO moving forward to CS2",
             "shortDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "tags": [

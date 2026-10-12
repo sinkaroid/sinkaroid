@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-10-11, 16:28:50",
+    "last_sync": "2026-10-12, 20:06:46",
     "data": [
         {
             "name": "statusflare",
@@ -10,18 +10,17 @@
             ],
             "technologies": [
                 "TypeScript",
-                "Astro",
-                "JavaScript"
+                "Astro"
             ],
             "category": "TypeScript",
             "github": "https://github.com/ScathachGrip/statusflare",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://status.scathachbot.xyz",
-            "description": "CloudFlare workers + astro status page with KV monitoring",
-            "commit": "1c62e2efcc6baea6354d1be14a06d58147df0e86",
-            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/1c62e2efcc6baea6354d1be14a06d58147df0e86",
-            "release": "v10.0.16-alpha",
-            "last_commit_date": 1791731875
+            "description": "CloudFlare workers + Astro status page with KV monitoring",
+            "commit": "a4d6462de9a3a8a8d41f50fd199c411aee07520a",
+            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/a4d6462de9a3a8a8d41f50fd199c411aee07520a",
+            "release": "v10.0.17-alpha",
+            "last_commit_date": 1791737478
         },
         {
             "name": "scathach-next",
@@ -538,5 +537,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "843609e8a23a5b4f02bf6cb6bc3a3ebf639aae42"
+    "sha_commit": "d94192ca214eb9d3ff1c236cd4ebc1d54a9af053"
 }
