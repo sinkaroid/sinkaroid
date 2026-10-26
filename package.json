@@ -1,6 +1,6 @@
 {
   "name": "sinkaroid",
-  "version": "6.0.7-alpha",
+  "version": "6.0.10-alpha",
   "description": "Vue portfolio template with minimalist-design in mind.",
   "type": "module",
   "scripts": {
@@ -15,7 +15,8 @@
     "fetch:steam": "bun run ci/getGame.ts",
     "fetch:wakatime": "bun run ci/getWakaTime.ts",
     "typecheck": "tsc --noEmit",
-    "build:fresh": "rm -rf dist && rm -rf node_modules && bun run build"
+    "build:fresh": "rm -rf dist && rm -rf node_modules && bun run build",
+    "chore:release": "bun run ci/chore_release.ts"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
