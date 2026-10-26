@@ -39,7 +39,8 @@ export default [
                 FormData: "readonly",
                 Headers: "readonly",
                 Response: "readonly",
-                Path: "readonly"
+                Path: "readonly",
+                Bun: "readonly"
             }
         }
     },

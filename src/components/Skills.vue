@@ -264,6 +264,9 @@
           </Teleport>
         </div>
       </div>
+
+      <!-- Row 2: WakaTime Developer Rhythm & AI Telemetry -->
+      <WakaTimeStats :night-mode="nightMode" />
     </div>
   </section>
 </template>
@@ -272,6 +275,7 @@
 import { ref, computed, watch } from "vue";
 import info from "../../ci/mockRepository";
 import { randomGradient } from "../composables/useRandomGradient";
+import WakaTimeStats from "./helpers/WakaTimeStats.vue";
 
 const titleGradient = ref(randomGradient());
 

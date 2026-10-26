@@ -79,6 +79,15 @@
 
             <button
               class="social-btn clickable"
+              data-tooltip="crates.io"
+              aria-label="crates.io Packages"
+              @click="open('crates')"
+            >
+              <i class="fab fa-rust" />
+            </button>
+
+            <button
+              class="social-btn clickable"
               data-tooltip="PyPI"
               aria-label="PyPI Packages"
               @click="open('pypi')"
@@ -308,16 +317,27 @@ const open = (platform) => {
 
 .social-channels {
   display: grid;
-  grid-template-columns: repeat(8, auto);
+  grid-template-columns: repeat(9, auto);
   justify-content: start;
   gap: var(--space-3);
   margin-top: var(--space-4);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .social-channels {
     grid-template-columns: repeat(5, auto);
     justify-content: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .social-channels {
+    gap: var(--space-2);
+  }
+  .social-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
   }
 }
 

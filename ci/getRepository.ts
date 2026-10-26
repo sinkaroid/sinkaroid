@@ -42,7 +42,7 @@ const project: { repo: RepoInfo[] } = {
     repo: [
         { user: "sinkaroid", name: "jandapress", branch: "master" },
         { user: "sinkaroid", name: "lustpress", branch: "master" },
-        { user: "sinkaroid", name: "pixivhono", branch: "master" },
+        { user: "sinkaroid", name: "pixivHono", branch: "master" },
         { user: "sinkaroid", name: "matoi", branch: "master" },
         { user: "scathachgrip", name: "teivax", branch: "master" },
         { user: "scathachgrip", name: "shiftypad-extension", branch: "master" },
@@ -144,18 +144,24 @@ const getInfo = async (useToken: boolean): Promise<unknown[]> => {
         console.log(`Fetching metadata batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(project.repo.length / batchSize)}...`);
         const batchPromises = batch.map(async (repoInfo) => {
             try {
-                const [res, resSha, tagsData, languagesData] = await Promise.all([
+                const [res, resSha, tagsData, languagesData, repoHtml] = await Promise.all([
                     ghFetch(`https://api.github.com/repos/${repoInfo.user}/${repoInfo.name}`, { headers }) as Promise<GhRepoData>,
                     ghFetch(`https://api.github.com/repos/${repoInfo.user}/${repoInfo.name}/commits/${repoInfo.branch}`, { headers }) as Promise<GhCommitData>,
                     ghFetch(`https://api.github.com/repos/${repoInfo.user}/${repoInfo.name}/tags`, { headers }) as Promise<GhTagData[]>,
-                    ghFetch(`https://api.github.com/repos/${repoInfo.user}/${repoInfo.name}/languages`, { headers }) as Promise<Record<string, number>>
+                    ghFetch(`https://api.github.com/repos/${repoInfo.user}/${repoInfo.name}/languages`, { headers }) as Promise<Record<string, number>>,
+                    fetch(`https://github.com/${repoInfo.user}/${repoInfo.name}`).then((r) => r.text()).catch(() => "")
                 ]);
+
+                const ogMatch = (repoHtml as string).match(/<meta\s+property=["']og:image["']\s+content=["']([^"']+)["']/i);
+                const ogImageUrl = ogMatch ? ogMatch[1] : null;
+
                 return {
                     repoInfo,
                     res: { data: res } as GhApiResponse<GhRepoData>,
                     resSha: { data: resSha } as GhApiResponse<GhCommitData>,
                     tagsData: { data: tagsData } as GhApiResponse<GhTagData[]>,
-                    languagesData: { data: languagesData } as GhApiResponse<Record<string, number>>
+                    languagesData: { data: languagesData } as GhApiResponse<Record<string, number>>,
+                    ogImageUrl
                 };
             } catch (err) {
                 console.error(`Error fetching metadata for ${repoInfo.name}:`, (err as Error).message);
@@ -175,7 +181,14 @@ const getInfo = async (useToken: boolean): Promise<unknown[]> => {
 
     for (const item of results) {
         if (!item) continue;
-        const { repoInfo, res, resSha, tagsData, languagesData } = item as { repoInfo: RepoInfo; res: GhApiResponse<GhRepoData>; resSha: GhApiResponse<GhCommitData>; tagsData: GhApiResponse<GhTagData[]>; languagesData: GhApiResponse<Record<string, number>> };
+        const { repoInfo, res, resSha, tagsData, languagesData, ogImageUrl } = item as {
+            repoInfo: RepoInfo;
+            res: GhApiResponse<GhRepoData>;
+            resSha: GhApiResponse<GhCommitData>;
+            tagsData: GhApiResponse<GhTagData[]>;
+            languagesData: GhApiResponse<Record<string, number>>;
+            ogImageUrl: string | null;
+        };
 
         try {
             let release: string;
@@ -230,18 +243,18 @@ const getInfo = async (useToken: boolean): Promise<unknown[]> => {
 
             console.log(`Pushing ${repoInfo.name} #${repoInfo.branch} to portfolio data`);
 
-            const oldAssetPath = `./assets/oss/${repoInfo.name}_${repoInfo.branch}.webp`;
             const outputPath = `${outputDir}/${repoInfo.name}_${repoInfo.branch}.webp`;
 
             let imageBuffer: Buffer | undefined;
             let downloaded = false;
 
-            const targetUrl = `https://opengraph.githubassets.com/${resSha.data.sha}/${res.data.full_name}`;
-            const proxyUrl = `https://images.weserv.nl/?url=${encodeURIComponent(targetUrl)}`;
+            const targetUrl = ogImageUrl || `https://opengraph.githubassets.com/${resSha.data.sha}/${res.data.full_name}`;
+            const cleanTargetUrl = targetUrl.replace(/^https?:\/\//, "");
 
+            // 1. Primary proxy (images.weserv.nl)
             try {
                 console.log(`Downloading Open Graph image for ${res.data.full_name} via image proxy...`);
-                const buffer = await ghFetchBuffer(proxyUrl, {
+                const buffer = await ghFetchBuffer(`https://images.weserv.nl/?url=${encodeURIComponent(targetUrl)}`, {
                     headers: {
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
                     }
@@ -251,12 +264,30 @@ const getInfo = async (useToken: boolean): Promise<unknown[]> => {
                 downloaded = true;
                 console.log(`Successfully downloaded image for ${repoInfo.name} via proxy`);
             } catch (err) {
-                console.warn(`Proxy download failed for ${repoInfo.name} (${(err as Error).message}). Trying direct download...`);
+                console.warn(`Primary proxy failed for ${repoInfo.name} (${(err as Error).message}). Trying secondary proxy...`);
             }
 
+            // 2. Secondary proxy (wsrv.nl direct SSL)
             if (!downloaded) {
-                let retries = 2;
-                let delay = 3000;
+                try {
+                    const buffer = await ghFetchBuffer(`https://wsrv.nl/?url=ssl:${cleanTargetUrl}`, {
+                        headers: {
+                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+                        }
+                    });
+
+                    imageBuffer = Buffer.from(buffer);
+                    downloaded = true;
+                    console.log(`Successfully downloaded image for ${repoInfo.name} via secondary proxy`);
+                } catch (err) {
+                    console.warn(`Secondary proxy failed for ${repoInfo.name} (${(err as Error).message}). Trying direct download...`);
+                }
+            }
+
+            // 3. Direct download with 5x progressive backoff
+            if (!downloaded) {
+                let retries = 5;
+                let delay = 5000;
                 while (retries > 0 && !downloaded) {
                     try {
                         console.log(`Downloading fresh Open Graph image directly for ${res.data.full_name}...`);
@@ -270,27 +301,19 @@ const getInfo = async (useToken: boolean): Promise<unknown[]> => {
                         imageBuffer = Buffer.from(buffer);
                         downloaded = true;
                         console.log(`Successfully downloaded fresh image directly for ${repoInfo.name}`);
+                        await pendingSebentar(2000);
                     } catch (err) {
-                        const is429 = (err as Error).message && (err as Error).message.startsWith("429");
+                        const is429 = (err as Error).message && (err as Error).message.includes("429");
                         retries--;
                         if (is429 && retries > 0) {
-                            console.warn(`Got 429 for ${repoInfo.name}. Retrying direct in ${delay / 1000}s...`);
+                            console.warn(`Got 429 for ${repoInfo.name}. Retrying direct in ${delay / 1000}s... (${retries} retries left)`);
                             await pendingSebentar(delay);
-                            delay *= 2;
+                            delay += 5000;
                         } else {
                             console.warn(`Failed to download fresh image directly for ${repoInfo.name} (${(err as Error).message}).`);
                             break;
                         }
                     }
-                }
-            }
-
-            if (!downloaded && fs.existsSync(oldAssetPath)) {
-                try {
-                    imageBuffer = fs.readFileSync(oldAssetPath);
-                    console.log(`Loaded fallback local image from assets/oss for ${repoInfo.name}`);
-                } catch (err) {
-                    console.error(`Failed to read fallback local image for ${repoInfo.name}:`, (err as Error).message);
                 }
             }
 
@@ -308,7 +331,7 @@ const getInfo = async (useToken: boolean): Promise<unknown[]> => {
                 console.warn(`No image source available for ${repoInfo.name}, skipped image generation.`);
             }
 
-            await pendingSebentar(1000);
+            await pendingSebentar(2500);
         } catch (err) {
             console.error(`Error processing repository ${repoInfo.name}:`, (err as Error).message);
         }

@@ -29,6 +29,8 @@ jobs:
         run: bun run ci/getRepository.ts ${{ secrets.GH_TOKEN }}
       - name: Fetch repository SAS
         run: bun run ci/getRepositorySAS.ts ${{ secrets.GH_TOKEN }}
+      - name: Fetch wakatime
+        run: WAKATIME_API_KEY=${{ secrets.WAKATIME_API_KEY }} bun run ci/getWakaTime.ts
       - name: Run ESLint
         run: bun run lint
       - name: Commit files

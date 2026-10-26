@@ -1,26 +1,52 @@
 {
-    "last_sync": "2026-10-13, 17:55:19",
+    "last_sync": "2026-10-27, 03:18:53",
     "data": [
         {
-            "name": "statusflare",
+            "name": "scathach-next-pro",
             "pictures": [
                 {
-                    "img": "/assets/sas/statusflare_master.webp"
+                    "img": "/assets/sas/scathach-next-pro_master.webp"
+                }
+            ],
+            "technologies": [
+                "Go",
+                "Dockerfile",
+                "Makefile",
+                "microservice"
+            ],
+            "category": "Go",
+            "github": "https://github.com/ScathachGrip/scathach-next-pro",
+            "bahasa": "https://skillicons.dev/icons?i=go",
+            "visit": "https://next-pro.scathach.id",
+            "description": "scathach-next-pro @disgoorg",
+            "commit": "e0e9c60296a1a617da4a7cb92c34bc34c928cadb",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/e0e9c60296a1a617da4a7cb92c34bc34c928cadb",
+            "release": "6.0.19-alpha",
+            "last_commit_date": 1792762335
+        },
+        {
+            "name": "dispatcher",
+            "pictures": [
+                {
+                    "img": "/assets/sas/dispatcher_master.webp"
                 }
             ],
             "technologies": [
                 "TypeScript",
-                "Astro"
+                "JavaScript",
+                "Dockerfile",
+                "microservice",
+                "scheduler"
             ],
             "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/statusflare",
+            "github": "https://github.com/ScathachGrip/dispatcher",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://status.scathachbot.xyz",
-            "description": "CloudFlare workers + Astro status page with KV monitoring",
-            "commit": "a4d6462de9a3a8a8d41f50fd199c411aee07520a",
-            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/a4d6462de9a3a8a8d41f50fd199c411aee07520a",
-            "release": "v10.0.17-alpha",
-            "last_commit_date": 1791737478
+            "visit": "https://dispatcher.scathach.id",
+            "description": "Bun first & Discord API scheduler",
+            "commit": "c77846c2a21187db2c3a35d81b7315c1e0cee34f",
+            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/c77846c2a21187db2c3a35d81b7315c1e0cee34f",
+            "release": "v7.0.11-alpha",
+            "last_commit_date": 1792761210
         },
         {
             "name": "scathach-next",
@@ -42,57 +68,31 @@
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "dbec1da1449bf8cee2067a07bacb29ccf635a409",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/dbec1da1449bf8cee2067a07bacb29ccf635a409",
-            "release": "v7.0.46-alpha",
-            "last_commit_date": 1791659808
+            "commit": "09e118aa87c740180d440d072b901f718ff520bf",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/09e118aa87c740180d440d072b901f718ff520bf",
+            "release": "v7.0.49-alpha",
+            "last_commit_date": 1792759619
         },
         {
-            "name": "dispatcher",
+            "name": "statusflare",
             "pictures": [
                 {
-                    "img": "/assets/sas/dispatcher_master.webp"
+                    "img": "/assets/sas/statusflare_master.webp"
                 }
             ],
             "technologies": [
                 "TypeScript",
-                "JavaScript",
-                "Dockerfile",
-                "microservice",
-                "scheduler"
+                "Astro"
             ],
             "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/dispatcher",
+            "github": "https://github.com/ScathachGrip/statusflare",
             "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://dispatcher.scathach.id",
-            "description": "Bun first & Discord API scheduler",
-            "commit": "8f9d4b5e55c15a6b0ec93ab74b61e1fc95b4c07f",
-            "link_commit": "https://github.com/ScathachGrip/dispatcher/commit/8f9d4b5e55c15a6b0ec93ab74b61e1fc95b4c07f",
-            "release": "v7.0.10-alpha",
-            "last_commit_date": 1791241235
-        },
-        {
-            "name": "scathach-next-pro",
-            "pictures": [
-                {
-                    "img": "/assets/sas/scathach-next-pro_master.webp"
-                }
-            ],
-            "technologies": [
-                "Go",
-                "Dockerfile",
-                "Makefile",
-                "microservice"
-            ],
-            "category": "Go",
-            "github": "https://github.com/ScathachGrip/scathach-next-pro",
-            "bahasa": "https://skillicons.dev/icons?i=go",
-            "visit": "https://next-pro.scathach.id",
-            "description": "scathach-next-pro @disgoorg",
-            "commit": "d908af49a324fae992679e6127d7c547c8ebaac6",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next-pro/commit/d908af49a324fae992679e6127d7c547c8ebaac6",
-            "release": "6.0.18-alpha",
-            "last_commit_date": 1791240591
+            "visit": "https://status.scathachbot.xyz",
+            "description": "CloudFlare workers + Astro status page with KV monitoring",
+            "commit": "a4d6462de9a3a8a8d41f50fd199c411aee07520a",
+            "link_commit": "https://github.com/ScathachGrip/statusflare/commit/a4d6462de9a3a8a8d41f50fd199c411aee07520a",
+            "release": "v10.0.17-alpha",
+            "last_commit_date": 1791737478
         },
         {
             "name": "scathachbot.xyz",
@@ -537,5 +537,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "2544fe6cf7b63548705b8328bf6e6ed4270da3e9"
+    "sha_commit": "6b87d4ab2109495a77ab14d4bf4f20c31a376e6d"
 }

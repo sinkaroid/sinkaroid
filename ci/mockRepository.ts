@@ -3,6 +3,8 @@ import scathachNextDescription from "./markdown/scathach_next.md?raw";
 import scathachNextProDescription from "./markdown/scathach_next_pro.md?raw";
 import teivaxDescription from "./markdown/teivax.md?raw";
 import tristanDescription from "./markdown/tristan.md?raw";
+import lavaforkDescription from "./markdown/lavafork.md?raw";
+import tuneDescription from "./markdown/tune.md?raw";
 
 import dataJson from "./data_oss.json" with { type: "json" };
 import dataSasJson from "./data_oss_sas.json" with { type: "json" };
@@ -51,6 +53,8 @@ import imgRepoBrandLustpress from "../src/assets/designs/lustpress.webp";
 import imgRepoBrandJandapress from "../src/assets/designs/jandapress.png";
 
 // Standalone software project images
+import imgTune from "../src/assets/standalone/standalone_tune.webp";
+import imgLavafork from "../src/assets/standalone/standalone_lavafork.webp";
 import imgTristan from "../src/assets/standalone/standalone_tristan.webp";
 import imgScathachNextPro from "../src/assets/standalone/standalone_scathach-next-pro.webp";
 import imgScathachNext from "../src/assets/standalone/standalone_scathach-next.webp";
@@ -108,6 +112,7 @@ const info = {
         linkedin: "https://www.linkedin.com/in/sinkaroid/",
         github: "https://github.com/sinkaroid",
         npm: "https://www.npmjs.com/~sinkaroid",
+        crates: "https://crates.io/users/sinkaroid",
         pypi: "https://pypi.org/user/sinkaroid/",
         docker: "https://github.com/sinkaroid?tab=packages",
         paypal: "https://paypal.me/sinkaroid",
@@ -596,6 +601,30 @@ const info = {
         },
     ] as PortfolioItem[],
     portfolio_standalone: [
+        {
+            name: "ScathachGrip",
+            title: "@ScathachGrip/tune",
+            pictures: [{ img: imgTune, title: "tune" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://tune.scathachbot.xyz/",
+            description: tuneDescription,
+            isMarkdown: true,
+        },
+        {
+            name: "ScathachGrip",
+            title: "@ScathachGrip/lavafork",
+            pictures: [{ img: imgLavafork, title: "lavafork" }],
+            technologies: ["Microservices"],
+            category: "App",
+            github: "https://github.com/ScathachGrip",
+            date: "2026 - Present",
+            visit: "https://lavafork.scathach.id",
+            description: lavaforkDescription,
+            isMarkdown: true,
+        },
         {
             name: "ScathachGrip",
             title: "@ScathachGrip/tristan",
