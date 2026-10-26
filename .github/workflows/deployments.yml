@@ -1,0 +1,27 @@
+name: deployment
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  deploy-sinkaroid_org:
+    name: Deploy sinkaroid.org
+    runs-on: ubuntu-latest
+    environment:
+      name: sinkaroid.org
+      url: https://sinkaroid.org
+    steps:
+      - name: Update aliases
+        run: echo "Deployment status updated for sinkaroid.org"
+
+  deploy-sinkaroid_scathach_id:
+    name: Deploy sinkaroid.scathach.id
+    runs-on: ubuntu-latest
+    environment:
+      name: sinkaroid.scathach.id
+      url: https://sinkaroid.scathach.id
+    steps:
+      - name: Update aliases
+        run: echo "Deployment status updated for sinkaroid.scathach.id"

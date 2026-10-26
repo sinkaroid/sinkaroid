@@ -4,7 +4,7 @@
 
 <a href="https://sinkaroid.org"><img align="right" src="ci/static/41eb506c06b7ce74cba7cef056d0b1dd.webp" width="130"></a>
 
-Don't expect me to recite every ancient algorithm or obscure incantation from memory. Hand me the grimoire instead, and I'll study its runes and patiently forge the right spell for the challenge before me. I believe true mastery is measured not by what one has memorized, but by the determination to understand, adapt, and create.
+Don't expect me to recite every ancient algorithm or obscure incantation from memory. Hand me the grimoire instead, and I'll study its runes. I believe true mastery is measured not by what one has memorized, but by the determination to understand, adapt, and create.
 
 Every lesson within my tome was earned through unwavering perseverance, countless experiments, and the courage to learn from every failed spell. Each success is another rune etched upon its pages, and every failure another step toward mastering the craft I have chosen to pursue.
 
