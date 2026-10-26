@@ -13,11 +13,13 @@
     "fetch:anime": "bun run ci/getAnime.ts",
     "fetch:manga": "bun run ci/getManga.ts",
     "fetch:steam": "bun run ci/getGame.ts",
+    "fetch:wakatime": "bun run ci/getWakaTime.ts",
     "typecheck": "tsc --noEmit",
     "build:fresh": "rm -rf dist && rm -rf node_modules && bun run build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "apexcharts": "^8.1.0",
     "marked": "^12.0.1",
     "vue": "^3.5.13",
     "vue-router": "^5.2.0"
@@ -28,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^8.65.0",
     "@typescript-eslint/parser": "^8.65.0",
     "@vitejs/plugin-vue": "^6.0.8",
-    "bun-types": "^1.3.14",
+    "@types/bun": "^1.4.4",
     "dotenv": "^17.4.2",
     "eslint": "^10.8.0",
     "eslint-plugin-vue": "^10.10.0",
@@ -39,7 +41,7 @@
     "vite": "^8.1.5"
   },
   "engines": {
-    "bun": ">=1.3.14"
+    "bun": ">=1.4.4"
   },
-  "packageManager": "bun@1.3.14"
+  "packageManager": "bun@1.4.4"
 }

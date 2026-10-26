@@ -1,5 +1,5 @@
 ##  build stage
-FROM oven/bun:1.3.14-alpine AS build-stage
+FROM oven/bun:1.4.4-alpine AS build-stage
 WORKDIR /app
 
 ## copy dependencies file

@@ -30,7 +30,7 @@ This document outlines the coding standards, styling conventions, and architectu
   - **Semicolons**: Always end statements with semicolons (enforced by `semi: ["error", "always"]`).
   - **Verification**: Whenever any code changes are made, you **MUST** run the lint verification command (`bun run lint`) to ensure ESLint compliance.
 - **Directory Layouts & Image Logic**:
-  - OSS assets go to `assets/oss` / `public/assets/oss`, outputs save to `ci/data_oss.json`.
+  - OSS assets go to `assets/oss` / `public/assets/oss`, outputs save to `ci/data_oss.json`. **Strictly DO NOT use local fallbacks**. OSS images MUST always be fetched fresh from OpenGraph to keep stargazers counts accurate and up to date. Never add legacy local fallback logic.
   - SAS assets go to `assets/sas` / `public/assets/sas`, outputs save to `ci/data_oss_sas.json`. Exclude `stargazers_count`.
   - Private repositories must skip Open Graph downloads to preserve local images (as GitHub's CDN returns a generic logo anonymously).
   - If a private repository lacks a local image, dynamically generate an SVG preview card (featuring custom background gradients, name, wrapped description, private badge, and language indicator) and convert it to WebP via `sharp`.
