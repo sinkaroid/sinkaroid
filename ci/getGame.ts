@@ -18,19 +18,20 @@ interface RecentlyPlayed {
     playtime_2weeks: number;
     playtime_forever: number;
     img_icon_url: string;
-    img_logo_url: string;
-    last_playtime: number;
+    img_logo_url?: string;
+    last_playtime?: number;
+    rtime_last_played?: number;
 }
 
 interface OwnedGame {
     appid: number;
     name: string;
     playtime_forever: number;
-    playtime_windows_forever: number;
-    playtime_mac_forever: number;
-    playtime_linux_forever: number;
+    playtime_windows_forever?: number;
+    playtime_mac_forever?: number;
+    playtime_linux_forever?: number;
     img_icon_url: string;
-    img_logo_url: string;
+    img_logo_url?: string;
     rtime_last_played: number;
 }
 
@@ -46,6 +47,52 @@ interface RecentlyPlayedResponse {
         total_count: number;
         games: RecentlyPlayed[];
     };
+}
+
+interface SchemaAchievement {
+    name: string;
+    displayName: string;
+    hidden: number;
+    description?: string;
+    icon: string;
+    icongray: string;
+}
+
+interface GameSchemaResponse {
+    game?: {
+        availableGameStats?: {
+            achievements?: SchemaAchievement[];
+        };
+    };
+}
+
+interface PlayerAchievement {
+    apiname: string;
+    achieved: number;
+    unlocktime: number;
+}
+
+interface PlayerAchievementsResponse {
+    playerstats?: {
+        error?: string;
+        success?: boolean;
+        achievements?: PlayerAchievement[];
+    };
+}
+
+interface AchievementItem {
+    name: string;
+    description: string;
+    icon: string;
+    icongray: string;
+    achieved: boolean;
+}
+
+interface GameAchievementsData {
+    total: number;
+    unlocked: number;
+    percent: number;
+    list: AchievementItem[];
 }
 
 interface AppDetails {
@@ -81,6 +128,91 @@ const fetchRecentlyPlayed = async (): Promise<RecentlyPlayed[]> => {
     }
     const body = (await response.json()) as RecentlyPlayedResponse;
     return body.response.games ?? [];
+};
+
+
+
+const formatAchievementIconUrl = (
+    url: string | undefined,
+    appid: number
+): string => {
+    if (!url) return "";
+    const filename = url.split("/").pop();
+    if (!filename) return "";
+    return `https://shared.akamai.steamstatic.com/community_assets/images/apps/${appid}/${filename}`;
+};
+
+const fetchGameAchievements = async (
+    appid: number
+): Promise<GameAchievementsData | null> => {
+    try {
+        const playerUrl = `${STEAM_API_BASE}/ISteamUserStats/GetPlayerAchievements/v1/?appid=${appid}&key=${STEAM_API_KEY}&steamid=${STEAM_ID}`;
+        const res = await fetch(playerUrl);
+        if (!res.ok) {
+            return null;
+        }
+        const playerBody = (await res.json()) as PlayerAchievementsResponse;
+        const playerAchievements = playerBody.playerstats?.achievements;
+        if (!playerAchievements || playerAchievements.length === 0) {
+            return null;
+        }
+
+        const schemaUrl = `${STEAM_API_BASE}/ISteamUserStats/GetSchemaForGame/v2/?key=${STEAM_API_KEY}&appid=${appid}&l=english`;
+        const schemaRes = await fetch(schemaUrl);
+        if (!schemaRes.ok) {
+            return null;
+        }
+        const schemaBody = (await schemaRes.json()) as GameSchemaResponse;
+        const schemaAchievements =
+            schemaBody.game?.availableGameStats?.achievements ?? [];
+
+        const schemaMap = new Map<string, SchemaAchievement>();
+        for (const item of schemaAchievements) {
+            schemaMap.set(item.name, item);
+        }
+
+        const rawList = playerAchievements.map((p) => {
+            const schema = schemaMap.get(p.apiname);
+            return {
+                name: schema?.displayName || p.apiname,
+                description: schema?.description || "",
+                icon: formatAchievementIconUrl(schema?.icon, appid),
+                icongray: formatAchievementIconUrl(schema?.icongray, appid),
+                achieved: p.achieved === 1,
+                unlocktime: p.unlocktime || 0,
+            };
+        });
+
+        rawList.sort((a, b) => {
+            if (a.achieved && b.achieved) {
+                return b.unlocktime - a.unlocktime;
+            }
+            if (a.achieved) return -1;
+            if (b.achieved) return 1;
+            return 0;
+        });
+
+        const list: AchievementItem[] = rawList.map((item) => ({
+            name: item.name,
+            description: item.description,
+            icon: item.icon,
+            icongray: item.icongray,
+            achieved: item.achieved,
+        }));
+
+        const total = list.length;
+        const unlocked = list.filter((a) => a.achieved).length;
+        const percent = total > 0 ? Math.round((unlocked / total) * 100) : 0;
+
+        return {
+            total,
+            unlocked,
+            percent,
+            list,
+        };
+    } catch {
+        return null;
+    }
 };
 
 const fetchAppDetails = async (
@@ -156,6 +288,7 @@ interface GameItemInfo {
     playtime2weeks: number;
     playtimeForever: number;
     lastPlayed: number;
+    achievements: GameAchievementsData | null;
 }
 
 // Categories to skip (meta/utility, not gameplay-defining).
@@ -192,17 +325,83 @@ if (!isAutoRefresh) {
                 fetchRecentlyPlayed(),
             ]);
 
-            const played = owned.filter((game) => game.playtime_forever > 0);
+            const gameMap = new Map<number, OwnedGame>();
+
+            // Seed from existing data_game.json so any previously fetched games are preserved
+            try {
+                if (fs.existsSync("ci/data_game.json")) {
+                    const existingRaw = JSON.parse(
+                        fs.readFileSync("ci/data_game.json", "utf-8")
+                    );
+                    const existingList: GameItemInfo[] = existingRaw.data ?? [];
+                    for (const g of existingList) {
+                        gameMap.set(g.appID, {
+                            appid: g.appID,
+                            name: g.name,
+                            playtime_forever: g.playtimeForever,
+                            playtime_windows_forever: 0,
+                            playtime_mac_forever: 0,
+                            playtime_linux_forever: 0,
+                            img_icon_url: g.icon,
+                            img_logo_url: g.logo ?? "",
+                            rtime_last_played: g.lastPlayed,
+                        });
+                    }
+                }
+            } catch {
+                // If missing or invalid, start fresh from owned and recent
+            }
+
+            for (const game of owned) {
+                if (game.playtime_forever > 0) {
+                    const existing = gameMap.get(game.appid);
+                    if (existing) {
+                        if (game.playtime_forever > existing.playtime_forever) {
+                            existing.playtime_forever = game.playtime_forever;
+                        }
+                        if (game.rtime_last_played > existing.rtime_last_played) {
+                            existing.rtime_last_played = game.rtime_last_played;
+                        }
+                    } else {
+                        gameMap.set(game.appid, { ...game });
+                    }
+                }
+            }
+
+            // Sync recent games (for 2-week playtime and games not in owned)
+            const playtime2weeksByApp = new Map<number, number>();
+            for (const game of recent) {
+                playtime2weeksByApp.set(game.appid, game.playtime_2weeks);
+
+                const existing = gameMap.get(game.appid);
+                if (existing) {
+                    if (game.playtime_forever > existing.playtime_forever) {
+                        existing.playtime_forever = game.playtime_forever;
+                    }
+                } else if (
+                    game.playtime_forever > 0 ||
+                    game.playtime_2weeks > 0
+                ) {
+                    gameMap.set(game.appid, {
+                        appid: game.appid,
+                        name: game.name,
+                        playtime_forever: game.playtime_forever,
+                        playtime_windows_forever: 0,
+                        playtime_mac_forever: 0,
+                        playtime_linux_forever: 0,
+                        img_icon_url: game.img_icon_url,
+                        img_logo_url: game.img_logo_url ?? "",
+                        rtime_last_played: 0,
+                    });
+                }
+            }
+
+            const played = Array.from(gameMap.values()).filter(
+                (game) => game.playtime_forever > 0 || game.rtime_last_played > 0
+            );
             console.log(
                 `[getGame] owned=${owned.length} played=${played.length} recent=${recent.length}`
             );
-
-            const lastPlayedByApp = new Map<number, number>();
-            const playtime2weeksByApp = new Map<number, number>();
-            for (const game of recent) {
-                lastPlayedByApp.set(game.appid, game.last_playtime);
-                playtime2weeksByApp.set(game.appid, game.playtime_2weeks);
-            }
 
             const CONCURRENCY = 5;
             const CHUNK_GAP_MS = 1000;
@@ -211,20 +410,31 @@ if (!isAutoRefresh) {
                 AppDetails[string]["data"] | null
             >();
             const userTagsByApp = new Map<number, string[]>();
+            const achievementsByApp = new Map<
+                number,
+                GameAchievementsData | null
+            >();
 
             for (let i = 0; i < played.length; i += CONCURRENCY) {
                 const chunk = played.slice(i, i + CONCURRENCY);
-                const [detailResults, tagResults] = await Promise.all([
-                    Promise.allSettled(
-                        chunk.map((game) => fetchAppDetails(game.appid))
-                    ),
-                    Promise.allSettled(
-                        chunk.map((game) => fetchUserTags(game.appid))
-                    )
-                ]);
+                const [detailResults, tagResults, achievementResults] =
+                    await Promise.all([
+                        Promise.allSettled(
+                            chunk.map((game) => fetchAppDetails(game.appid))
+                        ),
+                        Promise.allSettled(
+                            chunk.map((game) => fetchUserTags(game.appid))
+                        ),
+                        Promise.allSettled(
+                            chunk.map((game) =>
+                                fetchGameAchievements(game.appid)
+                            )
+                        )
+                    ]);
                 chunk.forEach((game, idx) => {
                     const detailRes = detailResults[idx];
                     const tagRes = tagResults[idx];
+                    const achRes = achievementResults[idx];
                     if (detailRes.status === "fulfilled") {
                         detailsByApp.set(game.appid, detailRes.value);
                     } else {
@@ -234,6 +444,11 @@ if (!isAutoRefresh) {
                         userTagsByApp.set(game.appid, tagRes.value);
                     } else {
                         userTagsByApp.set(game.appid, []);
+                    }
+                    if (achRes.status === "fulfilled") {
+                        achievementsByApp.set(game.appid, achRes.value);
+                    } else {
+                        achievementsByApp.set(game.appid, null);
                     }
                 });
                 console.log(
@@ -269,17 +484,16 @@ if (!isAutoRefresh) {
                             .filter((c) => !SKIP_CATEGORIES.has(c))
                     ];
 
-                const recentLast = lastPlayedByApp.get(game.appid) ?? 0;
-                const lastPlayed =
-                    recentLast || game.rtime_last_played || 0;
+                const lastPlayed = game.rtime_last_played || 0;
                 const playtime2weeks =
                     playtime2weeksByApp.get(game.appid) ?? 0;
+                const achievements = achievementsByApp.get(game.appid) ?? null;
 
                 return {
                     appID: game.appid,
                     name: details?.name ?? game.name,
                     icon: game.img_icon_url,
-                    logo: game.img_logo_url,
+                    logo: game.img_logo_url ?? "",
                     capsule,
                     header,
                     description,
@@ -289,10 +503,16 @@ if (!isAutoRefresh) {
                     playtime2weeks,
                     playtimeForever: game.playtime_forever,
                     lastPlayed,
+                    achievements,
                 };
             });
 
-            info.sort((a, b) => b.lastPlayed - a.lastPlayed);
+            info.sort((a, b) => {
+                if (b.lastPlayed !== a.lastPlayed) {
+                    return b.lastPlayed - a.lastPlayed;
+                }
+                return b.playtimeForever - a.playtimeForever;
+            });
 
             fs.writeFileSync(
                 "ci/data_game.json",

@@ -71,7 +71,7 @@
               <textarea
                 id="message"
                 v-model="text"
-                placeholder="Whut"
+                placeholder="Hey"
                 class="form-input form-textarea"
                 rows="5"
                 required

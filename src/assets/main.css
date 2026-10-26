@@ -34,6 +34,7 @@
   /* Font Families */
   --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-display: 'Poppins', var(--font-sans);
+  --font-mono: 'Poppins', var(--font-sans);
 }
 
 /* 2. Semantic Tokens (Purpose Mapping) */

@@ -264,18 +264,31 @@ watch(() => props.nightMode, () => {
 
 const animeList = animeData.data || [];
 const mangaList = mangaData.data_manga || [];
-const gameList = (gameData.data || []).map((game) => ({
-    ...game,
-    title: game.name,
-    link: game.storeLink,
-    image: game.header,
-    pictures: [{ img: game.header }],
-    description: game.shortDescription || game.description,
-    tag: [
-        `${Math.floor(game.playtimeForever / 60)}h played`,
+const formatPlaytime = (minutes) => {
+    const m = Number(minutes) || 0;
+    if (m <= 0) return "0m";
+    if (m < 60) return `${m}m`;
+    return `${Math.floor(m / 60)}h`;
+};
+
+const gameList = (gameData.data || []).map((game) => {
+    const tags = [
+        `${formatPlaytime(game.playtimeForever)} played`,
         `last ${timeAgo(game.lastPlayed)}`
-    ]
-}));
+    ];
+    if (game.achievements && game.achievements.total > 0) {
+        tags.push(`${game.achievements.unlocked}/${game.achievements.total} trophies`);
+    }
+    return {
+        ...game,
+        title: game.name,
+        link: game.storeLink,
+        image: game.header,
+        pictures: [{ img: game.header }],
+        description: game.shortDescription || game.description,
+        tag: tags
+    };
+});
 
 const activeTab = ref("game");
 const showActionSheet = ref(false);

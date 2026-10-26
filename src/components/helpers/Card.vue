@@ -18,6 +18,28 @@
           <i class="fas fa-star" /> {{ portfolio.score }}
         </div>
 
+        <!-- Game Badges Stack (bottom-right: playtime above, achievement below) -->
+        <div
+          v-else-if="hoursPlayed || (portfolio.achievements && portfolio.achievements.total > 0)"
+          class="game-badges-stack"
+        >
+          <div
+            v-if="hoursPlayed"
+            class="playtime-badge"
+          >
+            <i class="fas fa-hourglass-half" /> Playtime {{ hoursPlayed }}
+          </div>
+          <div
+            v-if="portfolio.achievements && portfolio.achievements.total > 0"
+            class="achievement-badge"
+            :class="{ 'completed': portfolio.achievements.percent === 100 }"
+          >
+            <i :class="portfolio.achievements.percent === 100 ? 'fas fa-award' : 'fas fa-trophy'" />
+            <span>Trophy {{ portfolio.achievements.unlocked }}/{{ portfolio.achievements.total }}</span>
+            <span class="ach-percent-tag">({{ portfolio.achievements.percent }}%)</span>
+          </div>
+        </div>
+
         <!-- Language icon overlay (for Repositories) -->
         <img
           v-if="portfolio.bahasa"
@@ -134,6 +156,13 @@ const dateLabel = computed(() => {
 
 const isRepo = computed(() => !!props.portfolio.last_commit_date);
 
+const hoursPlayed = computed(() => {
+  const m = Number(props.portfolio.playtimeForever) || 0;
+  if (m <= 0) return null;
+  if (m < 60) return `${m}m`;
+  return `${Math.floor(m / 60)}h`;
+});
+
 const truncatedDescription = computed(() => {
   const rawDesc = props.portfolio.synopsis || props.portfolio.description || "";
   const desc = props.portfolio.isMarkdown ? stripMarkdown(rawDesc) : rawDesc;
@@ -197,6 +226,55 @@ const showModal = () => {
   display: flex;
   align-items: center;
   gap: var(--space-1);
+}
+
+.game-badges-stack {
+  position: absolute;
+  bottom: var(--space-2);
+  right: var(--space-2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  z-index: 2;
+}
+
+.playtime-badge,
+.achievement-badge {
+  background: rgba(9, 9, 11, 0.82);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #f1f5f9;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+.playtime-badge i {
+  color: #38bdf8;
+  font-size: 0.85rem;
+}
+
+.achievement-badge i {
+  color: #fbbf24;
+  font-size: 0.85rem;
+}
+
+.achievement-badge.completed {
+  background: linear-gradient(135deg, rgba(234, 179, 8, 0.4) 0%, rgba(245, 158, 11, 0.5) 100%);
+  border-color: rgba(250, 204, 21, 0.7);
+  color: #fef08a;
+}
+
+.achievement-badge .ach-percent-tag {
+  font-size: 0.74rem;
+  opacity: 0.85;
 }
 
 .lang-icon {

@@ -1,6 +1,32 @@
 {
-    "last_sync": "2026-10-13, 17:51:24",
+    "last_sync": "2026-10-27, 03:20:30",
     "data": [
+        {
+            "name": "nikkePwned",
+            "pictures": [
+                {
+                    "img": "/assets/oss/nikkePwned_master.webp"
+                }
+            ],
+            "technologies": [
+                "Rust",
+                "Svelte",
+                "TypeScript",
+                "HTML",
+                "JavaScript",
+                "nikke"
+            ],
+            "category": "Rust",
+            "github": "https://github.com/ScathachGrip/nikkePwned",
+            "bahasa": "https://skillicons.dev/icons?i=rust",
+            "visit": "https://github.com/ScathachGrip/nikkePwned",
+            "description": "Password Manager for NIKKE",
+            "commit": "501d951d256dae00f3c01658b24520b12c456af8",
+            "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/501d951d256dae00f3c01658b24520b12c456af8",
+            "release": "v6.0.1",
+            "stargazers_count": 4,
+            "last_commit_date": 1792919195
+        },
         {
             "name": "sinkaroid",
             "pictures": [
@@ -23,11 +49,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "2544fe6cf7b63548705b8328bf6e6ed4270da3e9",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/2544fe6cf7b63548705b8328bf6e6ed4270da3e9",
+            "commit": "6b87d4ab2109495a77ab14d4bf4f20c31a376e6d",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/6b87d4ab2109495a77ab14d4bf4f20c31a376e6d",
             "release": "v6.0.7-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1791835675
+            "last_commit_date": 1791914191
         },
         {
             "name": "lustpress",
@@ -57,34 +83,8 @@
             "commit": "75092f046a07d0381f077965256cb5dd9fe38128",
             "link_commit": "https://github.com/sinkaroid/lustpress/commit/75092f046a07d0381f077965256cb5dd9fe38128",
             "release": "v8.5.1-alpha",
-            "stargazers_count": 128,
+            "stargazers_count": 132,
             "last_commit_date": 1789641104
-        },
-        {
-            "name": "nikkePwned",
-            "pictures": [
-                {
-                    "img": "/assets/oss/nikkePwned_master.webp"
-                }
-            ],
-            "technologies": [
-                "Rust",
-                "Svelte",
-                "TypeScript",
-                "HTML",
-                "JavaScript",
-                "nikke"
-            ],
-            "category": "Rust",
-            "github": "https://github.com/ScathachGrip/nikkePwned",
-            "bahasa": "https://skillicons.dev/icons?i=rust",
-            "visit": "https://github.com/ScathachGrip/nikkePwned",
-            "description": "Password Manager for NIKKE",
-            "commit": "1aa0dd088352c8ac9a3ae615300a10f2c75c90f2",
-            "link_commit": "https://github.com/scathachgrip/nikkePwned/commit/1aa0dd088352c8ac9a3ae615300a10f2c75c90f2",
-            "release": "v5.0.16",
-            "stargazers_count": 4,
-            "last_commit_date": 1789612782
         },
         {
             "name": "jandapress",
@@ -187,7 +187,7 @@
             "name": "pixivHono",
             "pictures": [
                 {
-                    "img": "/assets/oss/pixivhono_master.webp"
+                    "img": "/assets/oss/pixivHono_master.webp"
                 }
             ],
             "technologies": [
@@ -202,7 +202,7 @@
             "visit": "https://sinkaroid.github.io/pixivHono",
             "description": "Unified REST and GraphQL gateway for Pixiv",
             "commit": "6c4271e4360294c5aa54850eaa513820e1bf276f",
-            "link_commit": "https://github.com/sinkaroid/pixivhono/commit/6c4271e4360294c5aa54850eaa513820e1bf276f",
+            "link_commit": "https://github.com/sinkaroid/pixivHono/commit/6c4271e4360294c5aa54850eaa513820e1bf276f",
             "release": "v1.3.3-alpha",
             "stargazers_count": 3,
             "last_commit_date": 1786640721
@@ -1273,5 +1273,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "2544fe6cf7b63548705b8328bf6e6ed4270da3e9"
+    "sha_commit": "6b87d4ab2109495a77ab14d4bf4f20c31a376e6d"
 }
