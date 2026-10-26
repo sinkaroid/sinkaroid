@@ -25,7 +25,6 @@ const suffix = match[4] ?? "";
 // Increment patch
 patch += 1;
 
-// If patch is 100 or more, increment minor and reset patch to 0
 if (patch > 99) {
     minor += 1;
     patch = 0;
@@ -33,7 +32,7 @@ if (patch > 99) {
 
 const newVersion = `${major}.${minor}.${patch}${suffix}`;
 
-// Rewrite package.json
+// auto release
 const pkgUpdated = pkgRaw.replace(
     `"version": "${currentVersion}"`,
     `"version": "${newVersion}"`
