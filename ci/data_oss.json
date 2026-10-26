@@ -1,6 +1,31 @@
 {
-    "last_sync": "2026-10-27, 03:20:30",
+    "last_sync": "2026-10-26, 20:44:23",
     "data": [
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "TypeScript",
+                "Dockerfile",
+                "minimalist-design",
+                "vuejs"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "Vue portfolio template with minimalist-design in mind.",
+            "commit": "c01a514ce3b6f6cd195165f836c295f04742ef1b",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/c01a514ce3b6f6cd195165f836c295f04742ef1b",
+            "release": "v6.0.7-alpha",
+            "stargazers_count": 6,
+            "last_commit_date": 1793047379
+        },
         {
             "name": "nikkePwned",
             "pictures": [
@@ -26,34 +51,6 @@
             "release": "v6.0.1",
             "stargazers_count": 4,
             "last_commit_date": 1792919195
-        },
-        {
-            "name": "sinkaroid",
-            "pictures": [
-                {
-                    "img": "/assets/oss/sinkaroid_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "TypeScript",
-                "CSS",
-                "JavaScript",
-                "HTML",
-                "Dockerfile",
-                "minimalist-design",
-                "vuejs"
-            ],
-            "category": "Vue",
-            "github": "https://github.com/sinkaroid/sinkaroid",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://sinkaroid.org",
-            "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "6b87d4ab2109495a77ab14d4bf4f20c31a376e6d",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/6b87d4ab2109495a77ab14d4bf4f20c31a376e6d",
-            "release": "v6.0.7-alpha",
-            "stargazers_count": 6,
-            "last_commit_date": 1791914191
         },
         {
             "name": "lustpress",
@@ -1273,5 +1270,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "6b87d4ab2109495a77ab14d4bf4f20c31a376e6d"
+    "sha_commit": "c01a514ce3b6f6cd195165f836c295f04742ef1b"
 }
