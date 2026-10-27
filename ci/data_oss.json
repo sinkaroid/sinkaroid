@@ -1,6 +1,31 @@
 {
-    "last_sync": "2026-10-26, 20:44:23",
+    "last_sync": "2026-10-27, 16:19:36",
     "data": [
+        {
+            "name": "shiftypad-extension",
+            "pictures": [
+                {
+                    "img": "/assets/oss/shiftypad-extension_master.webp"
+                }
+            ],
+            "technologies": [
+                "TypeScript",
+                "Astro",
+                "JavaScript",
+                "blablalink",
+                "nikke"
+            ],
+            "category": "TypeScript",
+            "github": "https://github.com/ScathachGrip/shiftypad-extension",
+            "bahasa": "https://skillicons.dev/icons?i=typescript",
+            "visit": "https://shiftypad.scathach.id",
+            "description": "Blablalink extension with Union Raid data focused.",
+            "commit": "c4672493579fa39530f7a194629fd55402f8f90c",
+            "link_commit": "https://github.com/scathachgrip/shiftypad-extension/commit/c4672493579fa39530f7a194629fd55402f8f90c",
+            "release": "v0.0.1",
+            "stargazers_count": 2,
+            "last_commit_date": 1793065453
+        },
         {
             "name": "sinkaroid",
             "pictures": [
@@ -11,20 +36,18 @@
             "technologies": [
                 "Vue",
                 "TypeScript",
-                "Dockerfile",
-                "minimalist-design",
-                "vuejs"
+                "Dockerfile"
             ],
             "category": "Vue",
             "github": "https://github.com/sinkaroid/sinkaroid",
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
-            "description": "Vue portfolio template with minimalist-design in mind.",
-            "commit": "c01a514ce3b6f6cd195165f836c295f04742ef1b",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/c01a514ce3b6f6cd195165f836c295f04742ef1b",
-            "release": "v6.0.7-alpha",
+            "description": "sinkaroid.org @vuejs",
+            "commit": "d1a91ec7ceb5c3b9d09ee682c5aa3739bc6b4bd8",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/d1a91ec7ceb5c3b9d09ee682c5aa3739bc6b4bd8",
+            "release": "v6.0.11-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1793047379
+            "last_commit_date": 1793049875
         },
         {
             "name": "nikkePwned",
@@ -109,7 +132,7 @@
             "commit": "6893639d26818fb4f05b43bda5cf5295112f4869",
             "link_commit": "https://github.com/sinkaroid/jandapress/commit/6893639d26818fb4f05b43bda5cf5295112f4869",
             "release": "v10.6.8",
-            "stargazers_count": 77,
+            "stargazers_count": 76,
             "last_commit_date": 1789604207
         },
         {
@@ -252,32 +275,6 @@
             "release": "v15.7.0-alpha",
             "stargazers_count": 7,
             "last_commit_date": 1784659713
-        },
-        {
-            "name": "shiftypad-extension",
-            "pictures": [
-                {
-                    "img": "/assets/oss/shiftypad-extension_master.webp"
-                }
-            ],
-            "technologies": [
-                "TypeScript",
-                "Astro",
-                "CSS",
-                "JavaScript",
-                "blablalink",
-                "nikke"
-            ],
-            "category": "TypeScript",
-            "github": "https://github.com/ScathachGrip/shiftypad-extension",
-            "bahasa": "https://skillicons.dev/icons?i=typescript",
-            "visit": "https://shiftypad.scathach.id",
-            "description": "Blablalink extension with Union Raid data focused.",
-            "commit": "7c28b23e5960f37755b4a8aba049a5b30f03e732",
-            "link_commit": "https://github.com/scathachgrip/shiftypad-extension/commit/7c28b23e5960f37755b4a8aba049a5b30f03e732",
-            "release": "v0.0.1",
-            "stargazers_count": 2,
-            "last_commit_date": 1779262219
         },
         {
             "name": "booru",
@@ -1270,5 +1267,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "c01a514ce3b6f6cd195165f836c295f04742ef1b"
+    "sha_commit": "d1a91ec7ceb5c3b9d09ee682c5aa3739bc6b4bd8"
 }
