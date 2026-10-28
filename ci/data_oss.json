@@ -1,6 +1,29 @@
 {
-    "last_sync": "2026-10-27, 16:19:36",
+    "last_sync": "2026-10-28, 17:04:14",
     "data": [
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "TypeScript",
+                "Dockerfile"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "sinkaroid.org @vuejs",
+            "commit": "4cc9ac3af7ca95af1140a97c78a6f70e4f195b16",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/4cc9ac3af7ca95af1140a97c78a6f70e4f195b16",
+            "release": "v6.0.11-alpha",
+            "stargazers_count": 6,
+            "last_commit_date": 1793118765
+        },
         {
             "name": "shiftypad-extension",
             "pictures": [
@@ -25,29 +48,6 @@
             "release": "v0.0.1",
             "stargazers_count": 2,
             "last_commit_date": 1793065453
-        },
-        {
-            "name": "sinkaroid",
-            "pictures": [
-                {
-                    "img": "/assets/oss/sinkaroid_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "TypeScript",
-                "Dockerfile"
-            ],
-            "category": "Vue",
-            "github": "https://github.com/sinkaroid/sinkaroid",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://sinkaroid.org",
-            "description": "sinkaroid.org @vuejs",
-            "commit": "d1a91ec7ceb5c3b9d09ee682c5aa3739bc6b4bd8",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/d1a91ec7ceb5c3b9d09ee682c5aa3739bc6b4bd8",
-            "release": "v6.0.11-alpha",
-            "stargazers_count": 6,
-            "last_commit_date": 1793049875
         },
         {
             "name": "nikkePwned",
@@ -849,7 +849,7 @@
             "commit": "6588013f3f126635c6c82a9fb2d6ee270213285d",
             "link_commit": "https://github.com/sinkaroid/antk/commit/6588013f3f126635c6c82a9fb2d6ee270213285d",
             "release": "redcolumn",
-            "stargazers_count": 13,
+            "stargazers_count": 0,
             "last_commit_date": 1606689180
         },
         {
@@ -950,33 +950,6 @@
             "release": "pre-release",
             "stargazers_count": 2,
             "last_commit_date": 1569406259
-        },
-        {
-            "name": "webNovelCrawler",
-            "pictures": [
-                {
-                    "img": "/assets/oss/webNovelCrawler_master.webp"
-                }
-            ],
-            "technologies": [
-                "PHP",
-                "JavaScript",
-                "CSS",
-                "HTML",
-                "crawler",
-                "dompdf",
-                "webnovel"
-            ],
-            "category": "PHP",
-            "github": "https://github.com/sinkaroid/webNovelCrawler",
-            "bahasa": "https://skillicons.dev/icons?i=php",
-            "visit": "https://github.com/sinkaroid/webNovelCrawler",
-            "description": "Simple PHPcurl and getRequest to grab Light Novel and WebNovel, then create parser with DOMpdf.",
-            "commit": "983732879b9d40410e1cbf31e3d1d15e10682f10",
-            "link_commit": "https://github.com/sinkaroid/webNovelCrawler/commit/983732879b9d40410e1cbf31e3d1d15e10682f10",
-            "release": "pre-release",
-            "stargazers_count": 1,
-            "last_commit_date": 1564163861
         },
         {
             "name": "localroot",
@@ -1267,5 +1240,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "d1a91ec7ceb5c3b9d09ee682c5aa3739bc6b4bd8"
+    "sha_commit": "4cc9ac3af7ca95af1140a97c78a6f70e4f195b16"
 }
