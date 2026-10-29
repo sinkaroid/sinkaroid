@@ -1,36 +1,36 @@
 {
     "range": {
-        "start": "2026-08-29",
-        "end": "2026-10-28",
+        "start": "2026-08-30",
+        "end": "2026-10-29",
         "days": 60
     },
     "cumulative_total": {
-        "seconds": 554414.973177,
-        "text": "154 hrs",
-        "digital": "154:00"
+        "seconds": 515671.247177,
+        "text": "143 hrs 14 mins",
+        "digital": "143:14"
     },
     "daily_average": {
-        "seconds": 11347,
-        "text": "3 hrs 9 mins"
+        "seconds": 10558,
+        "text": "2 hrs 55 mins"
     },
     "ai_overview": {
-        "total_spend": 157.27,
-        "total_spend_text": "$157.27",
-        "total_tokens": 117976671,
-        "total_tokens_text": "118M",
-        "total_prompts": 2405,
-        "total_sessions": 188,
-        "total_line_changes": 113386,
-        "ai_line_changes": 63237,
-        "human_line_changes": 50149,
-        "ai_percent": 55.77,
-        "human_percent": 44.23
+        "total_spend": 156.95,
+        "total_spend_text": "$156.95",
+        "total_tokens": 117875263,
+        "total_tokens_text": "117.9M",
+        "total_prompts": 2123,
+        "total_sessions": 173,
+        "total_line_changes": 107720,
+        "ai_line_changes": 61798,
+        "human_line_changes": 45922,
+        "ai_percent": 57.37,
+        "human_percent": 42.63
     },
     "projects": [
         {
             "name": "scathach-next",
             "total_seconds": 156397,
-            "percent": 28.21,
+            "percent": 30.33,
             "digital": "43:26",
             "text": "43 hrs 26 mins",
             "primary_language": "Rust",
@@ -191,7 +191,7 @@
         {
             "name": "scathachbot.xyz",
             "total_seconds": 75236,
-            "percent": 13.57,
+            "percent": 14.59,
             "digital": "20:53",
             "text": "20 hrs 53 mins",
             "primary_language": "JavaScript",
@@ -336,155 +336,141 @@
         },
         {
             "name": "nikkepwned",
-            "total_seconds": 74555,
-            "percent": 13.45,
-            "digital": "20:42",
-            "text": "20 hrs 42 mins",
+            "total_seconds": 46427,
+            "percent": 9,
+            "digital": "12:53",
+            "text": "12 hrs 53 mins",
             "primary_language": "Svelte",
             "languages": [
                 {
                     "name": "Svelte",
-                    "total_seconds": 17809,
-                    "percent": 23.89,
-                    "digital": "4:56",
-                    "text": "4 hrs 56 mins"
+                    "total_seconds": 11848,
+                    "percent": 25.52,
+                    "digital": "3:17",
+                    "text": "3 hrs 17 mins"
                 },
                 {
                     "name": "Markdown",
-                    "total_seconds": 13258,
-                    "percent": 17.78,
-                    "digital": "3:40",
-                    "text": "3 hrs 40 mins"
+                    "total_seconds": 9361,
+                    "percent": 20.16,
+                    "digital": "2:36",
+                    "text": "2 hrs 36 mins"
                 },
                 {
                     "name": "Rust",
-                    "total_seconds": 12100,
-                    "percent": 16.23,
-                    "digital": "3:21",
-                    "text": "3 hrs 21 mins"
+                    "total_seconds": 8553,
+                    "percent": 18.42,
+                    "digital": "2:22",
+                    "text": "2 hrs 22 mins"
                 },
                 {
                     "name": "JSON",
-                    "total_seconds": 8908,
-                    "percent": 11.95,
-                    "digital": "2:28",
-                    "text": "2 hrs 28 mins"
-                },
-                {
-                    "name": "TypeScript",
-                    "total_seconds": 4800,
-                    "percent": 6.44,
-                    "digital": "1:20",
-                    "text": "1 hr 20 mins"
-                },
-                {
-                    "name": "YAML",
-                    "total_seconds": 3894,
-                    "percent": 5.22,
-                    "digital": "1:04",
-                    "text": "1 hr 4 mins"
+                    "total_seconds": 4563,
+                    "percent": 9.83,
+                    "digital": "1:16",
+                    "text": "1 hr 16 mins"
                 },
                 {
                     "name": "PowerShell",
                     "total_seconds": 3040,
-                    "percent": 4.08,
+                    "percent": 6.55,
                     "digital": "0:50",
                     "text": "50 mins"
                 },
                 {
-                    "name": "JavaScript",
-                    "total_seconds": 2797,
-                    "percent": 3.75,
-                    "digital": "0:46",
-                    "text": "46 mins"
+                    "name": "YAML",
+                    "total_seconds": 2406,
+                    "percent": 5.18,
+                    "digital": "0:40",
+                    "text": "40 mins"
                 },
                 {
                     "name": "Git",
-                    "total_seconds": 1630,
-                    "percent": 2.19,
-                    "digital": "0:27",
-                    "text": "27 mins"
-                },
-                {
-                    "name": "Other",
-                    "total_seconds": 1488,
-                    "percent": 2,
-                    "digital": "0:24",
-                    "text": "24 mins"
+                    "total_seconds": 1386,
+                    "percent": 2.99,
+                    "digital": "0:23",
+                    "text": "23 mins"
                 },
                 {
                     "name": "Bash",
                     "total_seconds": 1315,
-                    "percent": 1.76,
+                    "percent": 2.83,
                     "digital": "0:21",
                     "text": "21 mins"
                 },
                 {
-                    "name": "HTML",
-                    "total_seconds": 958,
-                    "percent": 1.28,
-                    "digital": "0:15",
-                    "text": "15 mins"
+                    "name": "TypeScript",
+                    "total_seconds": 1122,
+                    "percent": 2.42,
+                    "digital": "0:18",
+                    "text": "18 mins"
                 },
                 {
-                    "name": "TOML",
-                    "total_seconds": 866,
-                    "percent": 1.16,
+                    "name": "Other",
+                    "total_seconds": 988,
+                    "percent": 2.13,
+                    "digital": "0:16",
+                    "text": "16 mins"
+                },
+                {
+                    "name": "JavaScript",
+                    "total_seconds": 859,
+                    "percent": 1.85,
                     "digital": "0:14",
                     "text": "14 mins"
                 },
                 {
-                    "name": "CSS",
-                    "total_seconds": 770,
-                    "percent": 1.03,
-                    "digital": "0:12",
-                    "text": "12 mins"
+                    "name": "TOML",
+                    "total_seconds": 547,
+                    "percent": 1.18,
+                    "digital": "0:09",
+                    "text": "9 mins"
                 },
                 {
                     "name": "Git Config",
-                    "total_seconds": 700,
-                    "percent": 0.94,
-                    "digital": "0:11",
-                    "text": "11 mins"
-                },
-                {
-                    "name": "TSConfig",
-                    "total_seconds": 221,
-                    "percent": 0.3,
+                    "total_seconds": 238,
+                    "percent": 0.51,
                     "digital": "0:03",
                     "text": "3 mins"
                 },
                 {
-                    "name": "Vue",
-                    "total_seconds": 0,
-                    "percent": 0,
+                    "name": "TSConfig",
+                    "total_seconds": 180,
+                    "percent": 0.39,
+                    "digital": "0:03",
+                    "text": "3 mins"
+                },
+                {
+                    "name": "CSS",
+                    "total_seconds": 22,
+                    "percent": 0.05,
                     "digital": "0:00",
                     "text": "0 mins"
                 }
             ],
-            "ai_percent": 42,
-            "human_percent": 58,
-            "total_line_changes": 13712,
-            "ai_line_changes": 5702,
-            "human_line_changes": 8010,
-            "line_changes_text": "5.7K of 13.7K line changes",
-            "ai_changes_text": "5.7K (42%)",
-            "human_changes_text": "8K (58%)",
-            "ai_prompts": 431,
-            "ai_sessions": 24,
+            "ai_percent": 58,
+            "human_percent": 42,
+            "total_line_changes": 8386,
+            "ai_line_changes": 4831,
+            "human_line_changes": 3555,
+            "line_changes_text": "4.8K of 8.4K line changes",
+            "ai_changes_text": "4.8K (58%)",
+            "human_changes_text": "3.6K (42%)",
+            "ai_prompts": 207,
+            "ai_sessions": 19,
             "total_tokens": 3063800,
             "tokens_text": "3.1M",
             "ai_spend": 8.23,
             "ai_spend_text": "$8.23",
             "ai_models": [
-                "Gemini",
-                "Opus"
+                "Opus",
+                "Gemini"
             ]
         },
         {
             "name": "Charon",
             "total_seconds": 39685,
-            "percent": 7.16,
+            "percent": 7.7,
             "digital": "11:01",
             "text": "11 hrs 1 min",
             "primary_language": "JSON",
@@ -594,81 +580,81 @@
         },
         {
             "name": "sinkaroid",
-            "total_seconds": 30254,
-            "percent": 5.46,
-            "digital": "8:24",
-            "text": "8 hrs 24 mins",
+            "total_seconds": 29892,
+            "percent": 5.8,
+            "digital": "8:18",
+            "text": "8 hrs 18 mins",
             "primary_language": "TypeScript",
             "languages": [
                 {
                     "name": "TypeScript",
                     "total_seconds": 9186,
-                    "percent": 30.36,
+                    "percent": 30.73,
                     "digital": "2:33",
                     "text": "2 hrs 33 mins"
                 },
                 {
                     "name": "Vue",
-                    "total_seconds": 8578,
-                    "percent": 28.35,
+                    "total_seconds": 8535,
+                    "percent": 28.55,
                     "digital": "2:22",
                     "text": "2 hrs 22 mins"
                 },
                 {
                     "name": "JSON",
                     "total_seconds": 5149,
-                    "percent": 17.02,
+                    "percent": 17.22,
                     "digital": "1:25",
                     "text": "1 hr 25 mins"
                 },
                 {
                     "name": "Markdown",
-                    "total_seconds": 3864,
-                    "percent": 12.77,
-                    "digital": "1:04",
-                    "text": "1 hr 4 mins"
+                    "total_seconds": 3801,
+                    "percent": 12.71,
+                    "digital": "1:03",
+                    "text": "1 hr 3 mins"
                 },
                 {
                     "name": "Other",
                     "total_seconds": 894,
-                    "percent": 2.96,
+                    "percent": 2.99,
                     "digital": "0:14",
                     "text": "14 mins"
                 },
                 {
                     "name": "Git",
                     "total_seconds": 774,
-                    "percent": 2.56,
+                    "percent": 2.59,
                     "digital": "0:12",
                     "text": "12 mins"
                 },
                 {
                     "name": "YAML",
                     "total_seconds": 709,
-                    "percent": 2.34,
+                    "percent": 2.37,
                     "digital": "0:11",
                     "text": "11 mins"
                 },
                 {
                     "name": "CSS",
-                    "total_seconds": 460,
-                    "percent": 1.52,
-                    "digital": "0:07",
-                    "text": "7 mins"
+                    "total_seconds": 230,
+                    "percent": 0.77,
+                    "digital": "0:03",
+                    "text": "3 mins"
                 },
                 {
                     "name": "Bash",
                     "total_seconds": 206,
-                    "percent": 0.68,
+                    "percent": 0.69,
                     "digital": "0:03",
                     "text": "3 mins"
                 },
                 {
                     "name": "JavaScript",
-                    "total_seconds": 191,
-                    "percent": 0.63,
-                    "digital": "0:03",
-                    "text": "3 mins"
+                    "total_seconds": 165,
+                    "percent": 0.55,
+                    "digital": "0:02",
+                    "text": "2 mins"
                 },
                 {
                     "name": "TSConfig",
@@ -735,123 +721,12 @@
             "line_changes_text": "11.3K of 12.2K line changes",
             "ai_changes_text": "11.3K (92%)",
             "human_changes_text": "941 (8%)",
-            "ai_prompts": 163,
-            "ai_sessions": 17,
-            "total_tokens": 7956773,
-            "tokens_text": "8M",
-            "ai_spend": 23.2,
-            "ai_spend_text": "$23.20",
-            "ai_models": [
-                "Gemini"
-            ]
-        },
-        {
-            "name": "jandapress",
-            "total_seconds": 29049,
-            "percent": 5.24,
-            "digital": "8:04",
-            "text": "8 hrs 4 mins",
-            "primary_language": "Markdown",
-            "languages": [
-                {
-                    "name": "Markdown",
-                    "total_seconds": 10567,
-                    "percent": 36.38,
-                    "digital": "2:56",
-                    "text": "2 hrs 56 mins"
-                },
-                {
-                    "name": "Rust",
-                    "total_seconds": 7980,
-                    "percent": 27.47,
-                    "digital": "2:12",
-                    "text": "2 hrs 12 mins"
-                },
-                {
-                    "name": "TOML",
-                    "total_seconds": 2976,
-                    "percent": 10.24,
-                    "digital": "0:49",
-                    "text": "49 mins"
-                },
-                {
-                    "name": "Git",
-                    "total_seconds": 2084,
-                    "percent": 7.18,
-                    "digital": "0:34",
-                    "text": "34 mins"
-                },
-                {
-                    "name": "Docker",
-                    "total_seconds": 1399,
-                    "percent": 4.82,
-                    "digital": "0:23",
-                    "text": "23 mins"
-                },
-                {
-                    "name": "Git Config",
-                    "total_seconds": 1199,
-                    "percent": 4.13,
-                    "digital": "0:19",
-                    "text": "19 mins"
-                },
-                {
-                    "name": "YAML",
-                    "total_seconds": 1170,
-                    "percent": 4.03,
-                    "digital": "0:19",
-                    "text": "19 mins"
-                },
-                {
-                    "name": "Bash",
-                    "total_seconds": 629,
-                    "percent": 2.17,
-                    "digital": "0:10",
-                    "text": "10 mins"
-                },
-                {
-                    "name": "Other",
-                    "total_seconds": 565,
-                    "percent": 1.94,
-                    "digital": "0:09",
-                    "text": "9 mins"
-                },
-                {
-                    "name": "JavaScript",
-                    "total_seconds": 463,
-                    "percent": 1.59,
-                    "digital": "0:07",
-                    "text": "7 mins"
-                },
-                {
-                    "name": "TypeScript",
-                    "total_seconds": 13,
-                    "percent": 0.04,
-                    "digital": "0:00",
-                    "text": "0 mins"
-                },
-                {
-                    "name": "Text",
-                    "total_seconds": 5,
-                    "percent": 0.02,
-                    "digital": "0:00",
-                    "text": "0 mins"
-                }
-            ],
-            "ai_percent": 77,
-            "human_percent": 23,
-            "total_line_changes": 1264,
-            "ai_line_changes": 979,
-            "human_line_changes": 285,
-            "line_changes_text": "979 of 1.3K line changes",
-            "ai_changes_text": "979 (77%)",
-            "human_changes_text": "285 (23%)",
-            "ai_prompts": 94,
-            "ai_sessions": 12,
-            "total_tokens": 0,
-            "tokens_text": "0",
-            "ai_spend": 0,
-            "ai_spend_text": "$0.00",
+            "ai_prompts": 153,
+            "ai_sessions": 14,
+            "total_tokens": 7855365,
+            "tokens_text": "7.9M",
+            "ai_spend": 22.88,
+            "ai_spend_text": "$22.88",
             "ai_models": [
                 "Gemini"
             ]
@@ -859,7 +734,7 @@
         {
             "name": "charon-fiber",
             "total_seconds": 25579,
-            "percent": 4.61,
+            "percent": 4.96,
             "digital": "7:06",
             "text": "7 hrs 6 mins",
             "primary_language": "Go",
@@ -963,7 +838,7 @@
         {
             "name": "lavafork",
             "total_seconds": 23562,
-            "percent": 4.25,
+            "percent": 4.57,
             "digital": "6:32",
             "text": "6 hrs 32 mins",
             "primary_language": "Go",
@@ -1046,7 +921,7 @@
         {
             "name": "hensuki",
             "total_seconds": 17247,
-            "percent": 3.11,
+            "percent": 3.34,
             "digital": "4:47",
             "text": "4 hrs 47 mins",
             "primary_language": "Rust",
@@ -1136,7 +1011,7 @@
         {
             "name": "dockerized",
             "total_seconds": 15241,
-            "percent": 2.75,
+            "percent": 2.96,
             "digital": "4:14",
             "text": "4 hrs 14 mins",
             "primary_language": "Markdown",
@@ -1240,7 +1115,7 @@
         {
             "name": "shiftypad-extension",
             "total_seconds": 14379,
-            "percent": 2.59,
+            "percent": 2.79,
             "digital": "3:59",
             "text": "3 hrs 59 mins",
             "primary_language": "TypeScript",
@@ -1351,7 +1226,7 @@
         {
             "name": "statusflare",
             "total_seconds": 13718,
-            "percent": 2.47,
+            "percent": 2.66,
             "digital": "3:48",
             "text": "3 hrs 48 mins",
             "primary_language": "YAML",
@@ -1467,9 +1342,99 @@
             ]
         },
         {
+            "name": "jandapress",
+            "total_seconds": 10838,
+            "percent": 2.1,
+            "digital": "3:00",
+            "text": "3 hrs",
+            "primary_language": "Rust",
+            "languages": [
+                {
+                    "name": "Rust",
+                    "total_seconds": 4589,
+                    "percent": 42.34,
+                    "digital": "1:16",
+                    "text": "1 hr 16 mins"
+                },
+                {
+                    "name": "Markdown",
+                    "total_seconds": 2735,
+                    "percent": 25.23,
+                    "digital": "0:45",
+                    "text": "45 mins"
+                },
+                {
+                    "name": "TOML",
+                    "total_seconds": 969,
+                    "percent": 8.94,
+                    "digital": "0:16",
+                    "text": "16 mins"
+                },
+                {
+                    "name": "Git Config",
+                    "total_seconds": 898,
+                    "percent": 8.28,
+                    "digital": "0:14",
+                    "text": "14 mins"
+                },
+                {
+                    "name": "YAML",
+                    "total_seconds": 521,
+                    "percent": 4.81,
+                    "digital": "0:08",
+                    "text": "8 mins"
+                },
+                {
+                    "name": "Bash",
+                    "total_seconds": 488,
+                    "percent": 4.51,
+                    "digital": "0:08",
+                    "text": "8 mins"
+                },
+                {
+                    "name": "Docker",
+                    "total_seconds": 429,
+                    "percent": 3.96,
+                    "digital": "0:07",
+                    "text": "7 mins"
+                },
+                {
+                    "name": "Other",
+                    "total_seconds": 168,
+                    "percent": 1.55,
+                    "digital": "0:02",
+                    "text": "2 mins"
+                },
+                {
+                    "name": "Git",
+                    "total_seconds": 41,
+                    "percent": 0.38,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                }
+            ],
+            "ai_percent": 98,
+            "human_percent": 2,
+            "total_line_changes": 418,
+            "ai_line_changes": 411,
+            "human_line_changes": 7,
+            "line_changes_text": "411 of 418 line changes",
+            "ai_changes_text": "411 (98%)",
+            "human_changes_text": "7 (2%)",
+            "ai_prompts": 46,
+            "ai_sessions": 5,
+            "total_tokens": 0,
+            "tokens_text": "0",
+            "ai_spend": 0,
+            "ai_spend_text": "$0.00",
+            "ai_models": [
+                "Gemini"
+            ]
+        },
+        {
             "name": "@dispatcher",
             "total_seconds": 9042,
-            "percent": 1.63,
+            "percent": 1.75,
             "digital": "2:30",
             "text": "2 hrs 30 mins",
             "primary_language": "YAML",
@@ -1559,7 +1524,7 @@
         {
             "name": "scathach-next-pro",
             "total_seconds": 8436,
-            "percent": 1.52,
+            "percent": 1.64,
             "digital": "2:20",
             "text": "2 hrs 20 mins",
             "primary_language": "YAML",
@@ -1642,7 +1607,7 @@
         {
             "name": "dockex",
             "total_seconds": 8105,
-            "percent": 1.46,
+            "percent": 1.57,
             "digital": "2:15",
             "text": "2 hrs 15 mins",
             "primary_language": "Rust",
@@ -1730,9 +1695,125 @@
             ]
         },
         {
+            "name": "lustpress-rs",
+            "total_seconds": 7667,
+            "percent": 1.49,
+            "digital": "2:07",
+            "text": "2 hrs 7 mins",
+            "primary_language": "Markdown",
+            "languages": [
+                {
+                    "name": "Markdown",
+                    "total_seconds": 2779,
+                    "percent": 36.25,
+                    "digital": "0:46",
+                    "text": "46 mins"
+                },
+                {
+                    "name": "Rust",
+                    "total_seconds": 2275,
+                    "percent": 29.68,
+                    "digital": "0:37",
+                    "text": "37 mins"
+                },
+                {
+                    "name": "TOML",
+                    "total_seconds": 670,
+                    "percent": 8.74,
+                    "digital": "0:11",
+                    "text": "11 mins"
+                },
+                {
+                    "name": "Bash",
+                    "total_seconds": 637,
+                    "percent": 8.31,
+                    "digital": "0:10",
+                    "text": "10 mins"
+                },
+                {
+                    "name": "YAML",
+                    "total_seconds": 377,
+                    "percent": 4.92,
+                    "digital": "0:06",
+                    "text": "6 mins"
+                },
+                {
+                    "name": "Docker",
+                    "total_seconds": 334,
+                    "percent": 4.35,
+                    "digital": "0:05",
+                    "text": "5 mins"
+                },
+                {
+                    "name": "JSON",
+                    "total_seconds": 292,
+                    "percent": 3.81,
+                    "digital": "0:04",
+                    "text": "4 mins"
+                },
+                {
+                    "name": "PowerShell",
+                    "total_seconds": 202,
+                    "percent": 2.64,
+                    "digital": "0:03",
+                    "text": "3 mins"
+                },
+                {
+                    "name": "Git Config",
+                    "total_seconds": 67,
+                    "percent": 0.87,
+                    "digital": "0:01",
+                    "text": "1 min"
+                },
+                {
+                    "name": "TypeScript",
+                    "total_seconds": 25,
+                    "percent": 0.32,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                },
+                {
+                    "name": "Other",
+                    "total_seconds": 5,
+                    "percent": 0.06,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                },
+                {
+                    "name": "JavaScript",
+                    "total_seconds": 2,
+                    "percent": 0.03,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                },
+                {
+                    "name": "TSConfig",
+                    "total_seconds": 2,
+                    "percent": 0.02,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                }
+            ],
+            "ai_percent": 0,
+            "human_percent": 100,
+            "total_line_changes": 506,
+            "ai_line_changes": 0,
+            "human_line_changes": 506,
+            "line_changes_text": "0 of 506 line changes",
+            "ai_changes_text": "0 (0%)",
+            "human_changes_text": "506 (100%)",
+            "ai_prompts": 0,
+            "ai_sessions": 0,
+            "total_tokens": 0,
+            "tokens_text": "0",
+            "ai_spend": 0,
+            "ai_spend_text": "$0.00",
+            "ai_models": []
+        },
+        {
             "name": "devops",
             "total_seconds": 5226,
-            "percent": 0.94,
+            "percent": 1.01,
             "digital": "1:27",
             "text": "1 hr 27 mins",
             "primary_language": "TypeScript",
@@ -1822,7 +1903,7 @@
         {
             "name": "lustpress",
             "total_seconds": 3846,
-            "percent": 0.69,
+            "percent": 0.75,
             "digital": "1:04",
             "text": "1 hr 4 mins",
             "primary_language": "JSON",
@@ -1919,7 +2000,7 @@
         {
             "name": "koburi",
             "total_seconds": 2300,
-            "percent": 0.41,
+            "percent": 0.45,
             "digital": "0:38",
             "text": "38 mins",
             "primary_language": "Rust",
@@ -2007,7 +2088,7 @@
         {
             "name": "tempek",
             "total_seconds": 924,
-            "percent": 0.17,
+            "percent": 0.18,
             "digital": "0:15",
             "text": "15 mins",
             "primary_language": "YAML",
@@ -2046,7 +2127,7 @@
         {
             "name": "Unknown Project",
             "total_seconds": 459,
-            "percent": 0.08,
+            "percent": 0.09,
             "digital": "0:07",
             "text": "7 mins",
             "primary_language": "Other",
@@ -2104,7 +2185,7 @@
         {
             "name": "brain",
             "total_seconds": 298,
-            "percent": 0.05,
+            "percent": 0.06,
             "digital": "0:04",
             "text": "4 mins",
             "primary_language": "Markdown",
@@ -2148,9 +2229,48 @@
             "ai_models": []
         },
         {
+            "name": "spike",
+            "total_seconds": 291,
+            "percent": 0.06,
+            "digital": "0:04",
+            "text": "4 mins",
+            "primary_language": "TOML",
+            "languages": [
+                {
+                    "name": "TOML",
+                    "total_seconds": 252,
+                    "percent": 86.6,
+                    "digital": "0:04",
+                    "text": "4 mins"
+                },
+                {
+                    "name": "Rust",
+                    "total_seconds": 39,
+                    "percent": 13.4,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                }
+            ],
+            "ai_percent": 0,
+            "human_percent": 0,
+            "total_line_changes": 0,
+            "ai_line_changes": 0,
+            "human_line_changes": 0,
+            "line_changes_text": "0 of 0 line changes",
+            "ai_changes_text": "0 (0%)",
+            "human_changes_text": "0 (0%)",
+            "ai_prompts": 0,
+            "ai_sessions": 0,
+            "total_tokens": 0,
+            "tokens_text": "0",
+            "ai_spend": 0,
+            "ai_spend_text": "$0.00",
+            "ai_models": []
+        },
+        {
             "name": "microsoft vs code",
             "total_seconds": 249,
-            "percent": 0.04,
+            "percent": 0.05,
             "digital": "0:04",
             "text": "4 mins",
             "primary_language": "Other",
@@ -2215,148 +2335,148 @@
     "languages": [
         {
             "name": "Markdown",
-            "total_seconds": 98697,
-            "percent": 17.8,
-            "digital": "27:24",
-            "text": "27 hrs 24 mins"
+            "total_seconds": 89683,
+            "percent": 17.39,
+            "digital": "24:54",
+            "text": "24 hrs 54 mins"
         },
         {
             "name": "JSON",
-            "total_seconds": 67009,
-            "percent": 12.09,
-            "digital": "18:36",
-            "text": "18 hrs 36 mins"
+            "total_seconds": 62956,
+            "percent": 12.21,
+            "digital": "17:29",
+            "text": "17 hrs 29 mins"
         },
         {
             "name": "Rust",
-            "total_seconds": 65922,
+            "total_seconds": 61298,
             "percent": 11.89,
-            "digital": "18:18",
-            "text": "18 hrs 18 mins"
+            "digital": "17:01",
+            "text": "17 hrs 1 min"
         },
         {
             "name": "TypeScript",
-            "total_seconds": 56293,
-            "percent": 10.15,
-            "digital": "15:38",
-            "text": "15 hrs 38 mins"
-        },
-        {
-            "name": "YAML",
-            "total_seconds": 42142,
-            "percent": 7.6,
-            "digital": "11:42",
-            "text": "11 hrs 42 mins"
+            "total_seconds": 52626,
+            "percent": 10.21,
+            "digital": "14:37",
+            "text": "14 hrs 37 mins"
         },
         {
             "name": "Go",
             "total_seconds": 41104,
-            "percent": 7.41,
+            "percent": 7.97,
             "digital": "11:25",
             "text": "11 hrs 25 mins"
         },
         {
+            "name": "YAML",
+            "total_seconds": 40382,
+            "percent": 7.83,
+            "digital": "11:13",
+            "text": "11 hrs 13 mins"
+        },
+        {
             "name": "JavaScript",
-            "total_seconds": 32361,
-            "percent": 5.84,
-            "digital": "8:59",
-            "text": "8 hrs 59 mins"
+            "total_seconds": 29936,
+            "percent": 5.81,
+            "digital": "8:18",
+            "text": "8 hrs 18 mins"
         },
         {
             "name": "Vue",
-            "total_seconds": 26448,
-            "percent": 4.77,
+            "total_seconds": 26405,
+            "percent": 5.12,
             "digital": "7:20",
             "text": "7 hrs 20 mins"
         },
         {
-            "name": "Svelte",
-            "total_seconds": 26313,
-            "percent": 4.75,
-            "digital": "7:18",
-            "text": "7 hrs 18 mins"
+            "name": "Bash",
+            "total_seconds": 23510,
+            "percent": 4.56,
+            "digital": "6:31",
+            "text": "6 hrs 31 mins"
         },
         {
-            "name": "Bash",
-            "total_seconds": 23013,
-            "percent": 4.15,
-            "digital": "6:23",
-            "text": "6 hrs 23 mins"
+            "name": "Svelte",
+            "total_seconds": 20351,
+            "percent": 3.95,
+            "digital": "5:39",
+            "text": "5 hrs 39 mins"
         },
         {
             "name": "Git",
-            "total_seconds": 20912,
-            "percent": 3.77,
-            "digital": "5:48",
-            "text": "5 hrs 48 mins"
+            "total_seconds": 18625,
+            "percent": 3.61,
+            "digital": "5:10",
+            "text": "5 hrs 10 mins"
         },
         {
             "name": "Docker",
-            "total_seconds": 11890,
-            "percent": 2.14,
-            "digital": "3:18",
-            "text": "3 hrs 18 mins"
-        },
-        {
-            "name": "TOML",
-            "total_seconds": 11259,
-            "percent": 2.03,
+            "total_seconds": 11253,
+            "percent": 2.18,
             "digital": "3:07",
             "text": "3 hrs 7 mins"
         },
         {
+            "name": "TOML",
+            "total_seconds": 9855,
+            "percent": 1.91,
+            "digital": "2:44",
+            "text": "2 hrs 44 mins"
+        },
+        {
             "name": "Other",
-            "total_seconds": 9771,
-            "percent": 1.76,
-            "digital": "2:42",
-            "text": "2 hrs 42 mins"
+            "total_seconds": 8878,
+            "percent": 1.72,
+            "digital": "2:27",
+            "text": "2 hrs 27 mins"
         },
         {
             "name": "Git Config",
-            "total_seconds": 5780,
-            "percent": 1.04,
-            "digital": "1:36",
-            "text": "1 hr 36 mins"
-        },
-        {
-            "name": "CSS",
-            "total_seconds": 3478,
-            "percent": 0.63,
-            "digital": "0:57",
-            "text": "57 mins"
+            "total_seconds": 5084,
+            "percent": 0.99,
+            "digital": "1:24",
+            "text": "1 hr 24 mins"
         },
         {
             "name": "PowerShell",
-            "total_seconds": 3040,
-            "percent": 0.55,
-            "digital": "0:50",
-            "text": "50 mins"
+            "total_seconds": 3243,
+            "percent": 0.63,
+            "digital": "0:54",
+            "text": "54 mins"
         },
         {
             "name": "Text",
-            "total_seconds": 2954,
-            "percent": 0.53,
+            "total_seconds": 2950,
+            "percent": 0.57,
             "digital": "0:49",
             "text": "49 mins"
         },
         {
-            "name": "HTML",
-            "total_seconds": 2378,
-            "percent": 0.43,
-            "digital": "0:39",
-            "text": "39 mins"
+            "name": "CSS",
+            "total_seconds": 2499,
+            "percent": 0.48,
+            "digital": "0:41",
+            "text": "41 mins"
         },
         {
             "name": "Astro",
             "total_seconds": 1781,
-            "percent": 0.32,
+            "percent": 0.35,
             "digital": "0:29",
             "text": "29 mins"
         },
         {
+            "name": "HTML",
+            "total_seconds": 1420,
+            "percent": 0.28,
+            "digital": "0:23",
+            "text": "23 mins"
+        },
+        {
             "name": "TSConfig",
-            "total_seconds": 1006,
-            "percent": 0.18,
+            "total_seconds": 966,
+            "percent": 0.19,
             "digital": "0:16",
             "text": "16 mins"
         },
@@ -2370,7 +2490,7 @@
         {
             "name": "Python",
             "total_seconds": 130,
-            "percent": 0.02,
+            "percent": 0.03,
             "digital": "0:02",
             "text": "2 mins"
         },
@@ -2427,17 +2547,17 @@
     "editors": [
         {
             "name": "Antigravity IDE",
-            "total_seconds": 549189,
-            "percent": 99.06,
-            "digital": "152:33",
-            "text": "152 hrs 33 mins"
+            "total_seconds": 510625,
+            "percent": 99.02,
+            "digital": "141:50",
+            "text": "141 hrs 50 mins"
         },
         {
             "name": "VS Code",
-            "total_seconds": 5174,
-            "percent": 0.93,
-            "digital": "1:26",
-            "text": "1 hr 26 mins"
+            "total_seconds": 4994,
+            "percent": 0.97,
+            "digital": "1:23",
+            "text": "1 hr 23 mins"
         },
         {
             "name": "Opencode Cli",
@@ -2457,146 +2577,13 @@
     "operating_systems": [
         {
             "name": "Windows",
-            "total_seconds": 554415,
+            "total_seconds": 515671,
             "percent": 100,
-            "digital": "154:00",
-            "text": "154 hrs"
+            "digital": "143:14",
+            "text": "143 hrs 14 mins"
         }
     ],
     "daily_summaries": [
-        {
-            "date": "2026-08-29",
-            "total_seconds": 46702,
-            "text": "12 hrs 58 mins",
-            "languages": [
-                {
-                    "name": "Markdown",
-                    "total_seconds": 11793,
-                    "percent": 25.25,
-                    "digital": "3:16",
-                    "text": "3 hrs 16 mins"
-                },
-                {
-                    "name": "Rust",
-                    "total_seconds": 6939,
-                    "percent": 14.86,
-                    "digital": "1:55",
-                    "text": "1 hr 55 mins"
-                },
-                {
-                    "name": "Svelte",
-                    "total_seconds": 5961,
-                    "percent": 12.76,
-                    "digital": "1:39",
-                    "text": "1 hr 39 mins"
-                },
-                {
-                    "name": "JSON",
-                    "total_seconds": 4345,
-                    "percent": 9.3,
-                    "digital": "1:12",
-                    "text": "1 hr 12 mins"
-                },
-                {
-                    "name": "TypeScript",
-                    "total_seconds": 3691,
-                    "percent": 7.9,
-                    "digital": "1:01",
-                    "text": "1 hr 1 min"
-                },
-                {
-                    "name": "JavaScript",
-                    "total_seconds": 2427,
-                    "percent": 5.2,
-                    "digital": "0:40",
-                    "text": "40 mins"
-                },
-                {
-                    "name": "TOML",
-                    "total_seconds": 2326,
-                    "percent": 4.98,
-                    "digital": "0:38",
-                    "text": "38 mins"
-                },
-                {
-                    "name": "Git",
-                    "total_seconds": 2286,
-                    "percent": 4.9,
-                    "digital": "0:38",
-                    "text": "38 mins"
-                },
-                {
-                    "name": "YAML",
-                    "total_seconds": 2137,
-                    "percent": 4.58,
-                    "digital": "0:35",
-                    "text": "35 mins"
-                },
-                {
-                    "name": "CSS",
-                    "total_seconds": 979,
-                    "percent": 2.1,
-                    "digital": "0:16",
-                    "text": "16 mins"
-                },
-                {
-                    "name": "Docker",
-                    "total_seconds": 971,
-                    "percent": 2.08,
-                    "digital": "0:16",
-                    "text": "16 mins"
-                },
-                {
-                    "name": "HTML",
-                    "total_seconds": 958,
-                    "percent": 2.05,
-                    "digital": "0:15",
-                    "text": "15 mins"
-                },
-                {
-                    "name": "Other",
-                    "total_seconds": 897,
-                    "percent": 1.92,
-                    "digital": "0:14",
-                    "text": "14 mins"
-                },
-                {
-                    "name": "Git Config",
-                    "total_seconds": 762,
-                    "percent": 1.63,
-                    "digital": "0:12",
-                    "text": "12 mins"
-                },
-                {
-                    "name": "Bash",
-                    "total_seconds": 141,
-                    "percent": 0.3,
-                    "digital": "0:02",
-                    "text": "2 mins"
-                },
-                {
-                    "name": "Vue",
-                    "total_seconds": 43,
-                    "percent": 0.09,
-                    "digital": "0:00",
-                    "text": "0 mins"
-                },
-                {
-                    "name": "TSConfig",
-                    "total_seconds": 41,
-                    "percent": 0.09,
-                    "digital": "0:00",
-                    "text": "0 mins"
-                },
-                {
-                    "name": "Text",
-                    "total_seconds": 5,
-                    "percent": 0.01,
-                    "digital": "0:00",
-                    "text": "0 mins"
-                }
-            ]
-        },
         {
             "date": "2026-08-30",
             "total_seconds": 0,
@@ -6382,6 +6369,104 @@
                     "name": "Bash",
                     "total_seconds": 9,
                     "percent": 0.05,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                }
+            ]
+        },
+        {
+            "date": "2026-10-29",
+            "total_seconds": 7958,
+            "text": "2 hrs 12 mins",
+            "languages": [
+                {
+                    "name": "Markdown",
+                    "total_seconds": 2779,
+                    "percent": 34.92,
+                    "digital": "0:46",
+                    "text": "46 mins"
+                },
+                {
+                    "name": "Rust",
+                    "total_seconds": 2314,
+                    "percent": 29.08,
+                    "digital": "0:38",
+                    "text": "38 mins"
+                },
+                {
+                    "name": "TOML",
+                    "total_seconds": 922,
+                    "percent": 11.59,
+                    "digital": "0:15",
+                    "text": "15 mins"
+                },
+                {
+                    "name": "Bash",
+                    "total_seconds": 637,
+                    "percent": 8.01,
+                    "digital": "0:10",
+                    "text": "10 mins"
+                },
+                {
+                    "name": "YAML",
+                    "total_seconds": 377,
+                    "percent": 4.74,
+                    "digital": "0:06",
+                    "text": "6 mins"
+                },
+                {
+                    "name": "Docker",
+                    "total_seconds": 334,
+                    "percent": 4.19,
+                    "digital": "0:05",
+                    "text": "5 mins"
+                },
+                {
+                    "name": "JSON",
+                    "total_seconds": 292,
+                    "percent": 3.67,
+                    "digital": "0:04",
+                    "text": "4 mins"
+                },
+                {
+                    "name": "PowerShell",
+                    "total_seconds": 202,
+                    "percent": 2.54,
+                    "digital": "0:03",
+                    "text": "3 mins"
+                },
+                {
+                    "name": "Git Config",
+                    "total_seconds": 67,
+                    "percent": 0.84,
+                    "digital": "0:01",
+                    "text": "1 min"
+                },
+                {
+                    "name": "TypeScript",
+                    "total_seconds": 25,
+                    "percent": 0.31,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                },
+                {
+                    "name": "Other",
+                    "total_seconds": 5,
+                    "percent": 0.06,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                },
+                {
+                    "name": "JavaScript",
+                    "total_seconds": 2,
+                    "percent": 0.03,
+                    "digital": "0:00",
+                    "text": "0 mins"
+                },
+                {
+                    "name": "TSConfig",
+                    "total_seconds": 2,
+                    "percent": 0.02,
                     "digital": "0:00",
                     "text": "0 mins"
                 }
