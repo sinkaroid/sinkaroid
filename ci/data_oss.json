@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-10-29, 17:22:22",
+    "last_sync": "2026-10-30, 16:58:40",
     "data": [
         {
             "name": "sinkaroid",
@@ -18,11 +18,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "sinkaroid.org @vuejs",
-            "commit": "99e4e6849f89c9a04112afe7d09ad5a545466544",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/99e4e6849f89c9a04112afe7d09ad5a545466544",
+            "commit": "859e60b2c5a02e6da702cbca80c93319b0eeb063",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/859e60b2c5a02e6da702cbca80c93319b0eeb063",
             "release": "v6.0.11-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1793207297
+            "last_commit_date": 1793294783
         },
         {
             "name": "shiftypad-extension",
@@ -1240,5 +1240,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "99e4e6849f89c9a04112afe7d09ad5a545466544"
+    "sha_commit": "859e60b2c5a02e6da702cbca80c93319b0eeb063"
 }

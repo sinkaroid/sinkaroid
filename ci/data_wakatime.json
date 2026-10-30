@@ -1,7 +1,7 @@
 {
     "range": {
-        "start": "2026-08-30",
-        "end": "2026-10-29",
+        "start": "2026-08-31",
+        "end": "2026-10-30",
         "days": 60
     },
     "cumulative_total": {
@@ -2584,12 +2584,6 @@
         }
     ],
     "daily_summaries": [
-        {
-            "date": "2026-08-30",
-            "total_seconds": 0,
-            "text": "0 secs",
-            "languages": []
-        },
         {
             "date": "2026-08-31",
             "total_seconds": 16653,
@@ -6471,6 +6465,12 @@
                     "text": "0 mins"
                 }
             ]
+        },
+        {
+            "date": "2026-10-30",
+            "total_seconds": 0,
+            "text": "0 secs",
+            "languages": []
         }
     ]
 }
