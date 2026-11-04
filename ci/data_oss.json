@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-11-03, 18:19:43",
+    "last_sync": "2026-11-04, 18:32:47",
     "data": [
         {
             "name": "lustpress",
@@ -25,11 +25,11 @@
             "bahasa": "https://skillicons.dev/icons?i=rust",
             "visit": "https://sinkaroid.github.io/lustpress",
             "description": "Unified REST + GraphQL API for PornHub and other R18 platform",
-            "commit": "2dabbc0a19f47b350860a59ac6e10fb39eb3508b",
-            "link_commit": "https://github.com/sinkaroid/lustpress/commit/2dabbc0a19f47b350860a59ac6e10fb39eb3508b",
-            "release": "v9.1.7",
+            "commit": "1ac6173e0475d81a6e2ae17cea6d1f7f40b6cd34",
+            "link_commit": "https://github.com/sinkaroid/lustpress/commit/1ac6173e0475d81a6e2ae17cea6d1f7f40b6cd34",
+            "release": "v9.1.10",
             "stargazers_count": 133,
-            "last_commit_date": 1793684774
+            "last_commit_date": 1793815624
         },
         {
             "name": "sinkaroid",
@@ -48,11 +48,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "sinkaroid.org @vuejs",
-            "commit": "951123369f33969e2620b4d4c7cb4445e58d6d52",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/951123369f33969e2620b4d4c7cb4445e58d6d52",
+            "commit": "cb4d4c8a2de3de09cec6ed3cbe9f3a14b61ca42d",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/cb4d4c8a2de3de09cec6ed3cbe9f3a14b61ca42d",
             "release": "v6.0.11-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1793652361
+            "last_commit_date": 1793730368
         },
         {
             "name": "shiftypad-extension",
@@ -1239,5 +1239,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "951123369f33969e2620b4d4c7cb4445e58d6d52"
+    "sha_commit": "cb4d4c8a2de3de09cec6ed3cbe9f3a14b61ca42d"
 }

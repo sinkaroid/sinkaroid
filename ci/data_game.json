@@ -432,7 +432,7 @@
                 "Co-op"
             ],
             "storeLink": "https://store.steampowered.com/app/1110910",
-            "playtime2weeks": 8632,
+            "playtime2weeks": 7224,
             "playtimeForever": 52583,
             "lastPlayed": 1793041505,
             "achievements": {
@@ -730,11 +730,11 @@
                 "Online Co-Op",
                 "Co-op",
                 "Singleplayer",
-                "Massively Multiplayer",
-                "Open World"
+                "Open World",
+                "Massively Multiplayer"
             ],
             "storeLink": "https://store.steampowered.com/app/3950020",
-            "playtime2weeks": 1,
+            "playtime2weeks": 0,
             "playtimeForever": 50196,
             "lastPlayed": 1792598957,
             "achievements": {
@@ -1876,8 +1876,8 @@
                 "Violent",
                 "Assassins",
                 "Atmospheric",
-                "Dark Fantasy",
                 "Hack and Slash",
+                "Dark Fantasy",
                 "RPG",
                 "Gore",
                 "Great Soundtrack",
