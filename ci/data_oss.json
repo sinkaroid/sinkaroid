@@ -1,6 +1,29 @@
 {
-    "last_sync": "2026-11-04, 18:32:47",
+    "last_sync": "2026-11-05, 18:38:06",
     "data": [
+        {
+            "name": "sinkaroid",
+            "pictures": [
+                {
+                    "img": "/assets/oss/sinkaroid_master.webp"
+                }
+            ],
+            "technologies": [
+                "Vue",
+                "TypeScript",
+                "Dockerfile"
+            ],
+            "category": "Vue",
+            "github": "https://github.com/sinkaroid/sinkaroid",
+            "bahasa": "https://skillicons.dev/icons?i=vuejs",
+            "visit": "https://sinkaroid.org",
+            "description": "sinkaroid.org @vuejs",
+            "commit": "0c9e7574a171a07df34b2b84453e446b50ac6a7c",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/0c9e7574a171a07df34b2b84453e446b50ac6a7c",
+            "release": "v6.0.11-alpha",
+            "stargazers_count": 6,
+            "last_commit_date": 1793817407
+        },
         {
             "name": "lustpress",
             "pictures": [
@@ -30,29 +53,6 @@
             "release": "v9.1.10",
             "stargazers_count": 133,
             "last_commit_date": 1793815624
-        },
-        {
-            "name": "sinkaroid",
-            "pictures": [
-                {
-                    "img": "/assets/oss/sinkaroid_master.webp"
-                }
-            ],
-            "technologies": [
-                "Vue",
-                "TypeScript",
-                "Dockerfile"
-            ],
-            "category": "Vue",
-            "github": "https://github.com/sinkaroid/sinkaroid",
-            "bahasa": "https://skillicons.dev/icons?i=vuejs",
-            "visit": "https://sinkaroid.org",
-            "description": "sinkaroid.org @vuejs",
-            "commit": "cb4d4c8a2de3de09cec6ed3cbe9f3a14b61ca42d",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/cb4d4c8a2de3de09cec6ed3cbe9f3a14b61ca42d",
-            "release": "v6.0.11-alpha",
-            "stargazers_count": 6,
-            "last_commit_date": 1793730368
         },
         {
             "name": "shiftypad-extension",
@@ -1239,5 +1239,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "cb4d4c8a2de3de09cec6ed3cbe9f3a14b61ca42d"
+    "sha_commit": "0c9e7574a171a07df34b2b84453e446b50ac6a7c"
 }
