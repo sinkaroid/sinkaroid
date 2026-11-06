@@ -1,6 +1,35 @@
 {
-    "last_sync": "2026-11-05, 18:38:06",
+    "last_sync": "2026-11-06, 17:52:47",
     "data": [
+        {
+            "name": "jandapress",
+            "pictures": [
+                {
+                    "img": "/assets/oss/jandapress_master.webp"
+                }
+            ],
+            "technologies": [
+                "Rust",
+                "Dockerfile",
+                "3hentai",
+                "asmhentai",
+                "hentai2read",
+                "hentaifox",
+                "nhentai",
+                "pururin",
+                "simply-hentai"
+            ],
+            "category": "Rust",
+            "github": "https://github.com/sinkaroid/jandapress",
+            "bahasa": "https://skillicons.dev/icons?i=rust",
+            "visit": "https://sinkaroid.github.io/jandapress",
+            "description": "Unified REST + GraphQL API for nhentai and other doujinshi",
+            "commit": "a8e2c1a9f1718abf8e59fe681a37467b47761dec",
+            "link_commit": "https://github.com/sinkaroid/jandapress/commit/a8e2c1a9f1718abf8e59fe681a37467b47761dec",
+            "release": "v10.7.0",
+            "stargazers_count": 76,
+            "last_commit_date": 1793937210
+        },
         {
             "name": "sinkaroid",
             "pictures": [
@@ -18,11 +47,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "sinkaroid.org @vuejs",
-            "commit": "0c9e7574a171a07df34b2b84453e446b50ac6a7c",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/0c9e7574a171a07df34b2b84453e446b50ac6a7c",
+            "commit": "b015bd31265ad457822103a20fb38af91d6314a3",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/b015bd31265ad457822103a20fb38af91d6314a3",
             "release": "v6.0.11-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1793817407
+            "last_commit_date": 1793904615
         },
         {
             "name": "lustpress",
@@ -104,35 +133,6 @@
             "release": "v6.0.1",
             "stargazers_count": 4,
             "last_commit_date": 1792919195
-        },
-        {
-            "name": "jandapress",
-            "pictures": [
-                {
-                    "img": "/assets/oss/jandapress_master.webp"
-                }
-            ],
-            "technologies": [
-                "Rust",
-                "Dockerfile",
-                "3hentai",
-                "asmhentai",
-                "hentai2read",
-                "hentaifox",
-                "nhentai",
-                "pururin",
-                "simply-hentai"
-            ],
-            "category": "Rust",
-            "github": "https://github.com/sinkaroid/jandapress",
-            "bahasa": "https://skillicons.dev/icons?i=rust",
-            "visit": "https://sinkaroid.github.io/jandapress",
-            "description": "Unified REST + GraphQL API for nhentai and other doujinshi",
-            "commit": "6893639d26818fb4f05b43bda5cf5295112f4869",
-            "link_commit": "https://github.com/sinkaroid/jandapress/commit/6893639d26818fb4f05b43bda5cf5295112f4869",
-            "release": "v10.6.8",
-            "stargazers_count": 76,
-            "last_commit_date": 1789604207
         },
         {
             "name": "hensuki",
@@ -601,7 +601,7 @@
             "commit": "095f14810f3b9714ff69e73184df88fd5ca645c3",
             "link_commit": "https://github.com/sinkaroid/cabul/commit/095f14810f3b9714ff69e73184df88fd5ca645c3",
             "release": "0.0.22.dev",
-            "stargazers_count": 61,
+            "stargazers_count": 62,
             "last_commit_date": 1656633020
         },
         {
@@ -626,7 +626,7 @@
             "commit": "b9a8c5108a59225e0fa1f524a124b39cde047ac5",
             "link_commit": "https://github.com/sinkaroid/cabul/commit/b9a8c5108a59225e0fa1f524a124b39cde047ac5",
             "release": "0.0.22.dev",
-            "stargazers_count": 61,
+            "stargazers_count": 62,
             "last_commit_date": 1656632848
         },
         {
@@ -1239,5 +1239,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "0c9e7574a171a07df34b2b84453e446b50ac6a7c"
+    "sha_commit": "b015bd31265ad457822103a20fb38af91d6314a3"
 }
