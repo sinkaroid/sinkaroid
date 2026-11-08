@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-11-07, 16:47:20",
+    "last_sync": "2026-11-08, 16:58:15",
     "data": [
         {
             "name": "sinkaroid",
@@ -18,11 +18,11 @@
             "bahasa": "https://skillicons.dev/icons?i=vuejs",
             "visit": "https://sinkaroid.org",
             "description": "sinkaroid.org @vuejs",
-            "commit": "f29045edf3785a8067f09b09f509bd50064925fe",
-            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/f29045edf3785a8067f09b09f509bd50064925fe",
+            "commit": "1311a583f8364b7fb3889bca745cb3306b21cc1f",
+            "link_commit": "https://github.com/sinkaroid/sinkaroid/commit/1311a583f8364b7fb3889bca745cb3306b21cc1f",
             "release": "v6.0.11-alpha",
             "stargazers_count": 6,
-            "last_commit_date": 1793988177
+            "last_commit_date": 1794070320
         },
         {
             "name": "jandapress",
@@ -1239,5 +1239,5 @@
             "last_commit_date": 1546673354
         }
     ],
-    "sha_commit": "f29045edf3785a8067f09b09f509bd50064925fe"
+    "sha_commit": "1311a583f8364b7fb3889bca745cb3306b21cc1f"
 }

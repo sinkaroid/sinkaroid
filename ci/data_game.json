@@ -32,9 +32,9 @@
                 "Sexual Content"
             ],
             "storeLink": "https://store.steampowered.com/app/1174180",
-            "playtime2weeks": 73,
-            "playtimeForever": 12881,
-            "lastPlayed": 1794060456,
+            "playtime2weeks": 88,
+            "playtimeForever": 12896,
+            "lastPlayed": 1794072596,
             "achievements": {
                 "total": 51,
                 "unlocked": 5,
@@ -432,7 +432,7 @@
                 "Co-op"
             ],
             "storeLink": "https://store.steampowered.com/app/1110910",
-            "playtime2weeks": 3013,
+            "playtime2weeks": 1565,
             "playtimeForever": 52583,
             "lastPlayed": 1793041505,
             "achievements": {
@@ -8035,8 +8035,8 @@
                 "RPG",
                 "Mythology",
                 "Assassins",
-                "Exploration",
                 "Singleplayer",
+                "Exploration",
                 "Multiple Endings",
                 "Historical",
                 "Action",
