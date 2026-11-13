@@ -32,9 +32,9 @@
                 "Sexual Content"
             ],
             "storeLink": "https://store.steampowered.com/app/1174180",
-            "playtime2weeks": 35,
-            "playtimeForever": 12908,
-            "lastPlayed": 1794317240,
+            "playtime2weeks": 88,
+            "playtimeForever": 12961,
+            "lastPlayed": 1794593362,
             "achievements": {
                 "total": 51,
                 "unlocked": 5,
@@ -395,6 +395,420 @@
                         "description": "Red Dead Online: Complete a Free Roam mission as part of a Posse with at least 2 members.",
                         "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1174180/85e8caa42574e16fa1778fd690d483a5950c8913.jpg",
                         "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1174180/568f85f53b033f055842013c775ed57d813e3c8f.jpg",
+                        "achieved": false
+                    }
+                ]
+            }
+        },
+        {
+            "appID": 892970,
+            "name": "Valheim",
+            "icon": "2f64c9a826e2c6cf3253fea4834c2e612db09143",
+            "logo": "",
+            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/cc4520a33c5a7c4d9d8df5f48598c0817d781514/capsule_231x87.jpg?t=1791544831",
+            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/df65cafab20dae97a243c7cc988e8bf959e4b906/header.jpg?t=1791544831",
+            "description": "Valheim is a collaborative exploration and survival game for 1-10 players set in a procedurally generated world inspired by Norse mythology. Craft powerful weapons, construct elaborate halls, and slay mighty foes to prove yourself to Odin! Discover an immersive procedurally generated world, with different biomes that each have their distinct environments, unique resources and dangerous enemies. Become a Viking and sail the open seas in search of lands unknown, alone or with up to nine friends! The Tenth World has been corrupted by hateful forces, in the shape of mighty regional bosses known as the Forsaken. Hone your skills with axes, blades and bows, and prepare yourself by crafting the very best equipment – for it is only by defeating these Forsaken that you will advance in your progress and prove yourself to the Allfather. Raise Viking longhouses and build bases that offer reprieve from the dangers ahead. Whether you build a small shelter, an entire village or a mountain-side fortress, defence and structural integrity are important, as is decorating it for maximum comfort! As you discover new materials, you will learn new recipes for crafting, building and cooking – all that a Viking might need! The food system is rewarding rather than punishing, granting you boons and benefits depending on what you eat, and is directly tied to the combat system, where your health and stamina might be just the thing that makes a difference between life and death. Community-translated languages In addition to the officially supported languages, Valheim has several community-translated languages. As the name would suggest, these are all translated by fans and members of the community, and the process is frequently ongoing. Thus, we cannot guarantee the quality or completeness of any specific translation.",
+            "shortDescription": "A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+            "tags": [
+                "Open World Survival Craft",
+                "Survival",
+                "Online Co-Op",
+                "Open World",
+                "Multiplayer",
+                "Building",
+                "Crafting",
+                "Base Building",
+                "Exploration",
+                "Co-op",
+                "Adventure",
+                "Difficult",
+                "Mythology",
+                "Sandbox",
+                "PvE",
+                "Third Person",
+                "Action",
+                "Singleplayer",
+                "Indie",
+                "Early Access"
+            ],
+            "storeLink": "https://store.steampowered.com/app/892970",
+            "playtime2weeks": 13,
+            "playtimeForever": 31231,
+            "lastPlayed": 1794582091,
+            "achievements": {
+                "total": 53,
+                "unlocked": 0,
+                "percent": 0,
+                "list": [
+                    {
+                        "name": "Mighty Halls",
+                        "description": "Raise a very tall structure.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/c67946326d7a3cfa190e23c092abcb6203d4b48d.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8e46b6e1784e128370410d2bb920acba490bbeb5.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Top of the World",
+                        "description": "Build something very high up.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/80dcbeb36d0a38c48b59366c65a510607b2f3976.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/3b29618734b98a22c962b85fd4b81b7743296eb3.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Are You Alright?",
+                        "description": "Die in every way possible.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/df80631637ec0de3c4d7017f3d25a7a0f9c2a4e4.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Viking",
+                        "description": "Defeat all bosses on any difficulty.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/190dea63a8f7f82a7688f764416e7843b36062c2.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Odin is Pleased",
+                        "description": "Defeat all minibosses.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7f3f3cd06e079bc2a00507f97429a81c4bda6ddf.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "I Have Arrived!",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/63534b06771e32d358b7f7aa40cadbfcce7e6a6d.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The First of Many",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/35b3d161c17d9b09ed002c5d0c5ab243ecc9b8d1.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Eikthyr",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7e1cf56c4043d2b2aad0274942709f29acba6f62.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Elder",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/4310afd3ed9fffa67496b56bbe994ac8743ca51c.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Bonemass",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/31b3b3e61e213de6416b931544da4f14f3293323.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8e46b6e1784e128370410d2bb920acba490bbeb5.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Moder",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/b9e103c6f8a09b2fdb8ab53f706d94bc7ca7e5e3.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/3b29618734b98a22c962b85fd4b81b7743296eb3.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Yagluth",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/d201109e8ef7c602d5dc936450ea4d44f86f8c07.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8f746951410b3a2cfeec5e7b2f119dffb59715e9.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Seeker Queen",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/0b336642eccde21d742ead58b6eb247d2d68e62e.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/1cf07ea6c7fbf6b20b178a2ee5b6332c14a4c2b4.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Fader",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/b8181d590f8b3d1da0272970a19d665119ee3973.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Kall Fimbulbringer",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/859c585b71eee0129b048b7353af58bb52860332.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Obliterated",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/4a94d21386836a552646d1335263fb328549f8a6.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8e46b6e1784e128370410d2bb920acba490bbeb5.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Accidents Happen",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/b1e4855f64c66a40975becd8a7fe20aeca102cc8.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "That Can't Be an Accident",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/3f2e42c825489bb7f13226e5f3a30a692ac6b511.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Lumberjack",
+                        "description": "Cut down 500 trees.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/5cc78c6f05026bafc88fff71f7f4c9590f79db8a.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Cook",
+                        "description": "Cook 100 dishes.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/9cbb176d3a0e5fbf1f6d411f5245ba848a921e73.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Farmer",
+                        "description": "Harvest 500 crops.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/90fa8302a69223ba7361c0872ba2a2f80e1c2e1c.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Forager",
+                        "description": "Pick 250 berries and 250 mushrooms.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/26fb83790d3a2a95bffc0d300f604cd48a2720a3.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Hunter",
+                        "description": "Kill every kind of creature.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/bb5543406cc8bbf45db64a7a344aed2bc18fc3d3.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Master Hunter",
+                        "description": "Kill every kind of creature on hard difficulty.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/9bbc7144542cefabac6b05d2bb7b8f0f341ede11.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Trophy Collector",
+                        "description": "Collect all trophies.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/d2b64655d5dd898ef38841cee094a9885ac65a87.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Homesteader",
+                        "description": "Build a house.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8123144c57291c8528150704740f38932abd4afb.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Architect",
+                        "description": "Build a village.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/671fedd891f5f64dbf4e1da9a8a0bf18131249de.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Beekeeper",
+                        "description": "Harvest 500 honey.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/2bf7a0bee78059a2a12e7fc542414f5eae3b1d5f.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "No Adventuring On an Empty Stomach",
+                        "description": "Eat 500 items of food.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/61f88c7ebfade8edb46d99ea16a94ac59d59d240.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Tough Viking",
+                        "description": "Defeat all bosses on normal difficulty or higher.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/049dc17e46e24bb217573fb155dc5e2cdce41d10.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Toughest Viking",
+                        "description": "Defeat all bosses on hard difficulty.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/626c08c4cb9a67c6a79c52df666225325acc02a5.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Survivor",
+                        "description": "Survive for 30 consecutive days.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/060f01d8ae180d61f10cd224caaae003487fd5ad.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Comfort is King",
+                        "description": "Reach a comfort level of 20.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/d770fee523b33a7c52a6a1a5c8d8f26c016ae1ae.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Legends Are True",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f451691aca010fff0ca5f60d01438793f2e0e085.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Treasure Hunter",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/ba35ab17366761e2a2a5e3d79474b6ca2d3ee53b.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "No Time For Snoozing",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/00eda85c2ba32ffb3cf455b8c107144d4ee8c591.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Fisherman",
+                        "description": "Catch every kind of fish.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/6ed85097507ec73156e66eacf38d3870aa8fcf13.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Explorer",
+                        "description": "Travel far in all four directions.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/971bd1594d4ebf2a8a73dec786b104c78476056e.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Pathfinder",
+                        "description": "Travel far in all four directions, without using a map.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/d27519014d7ca453a948bc81e267b4508e85d0f0.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Chosen One",
+                        "description": "",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/2a1286c658aa8bb8f34c0c2f1f4e30a4688ad496.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Blacksmith",
+                        "description": "Craft every kind of weapon.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/48e2c3ede71a32749e880d944ed916ce90ef2744.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Master Chef",
+                        "description": "Cook every kind of dish.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/329a4ed1067563736e4a36abf52b05940ba11f8a.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Artisan",
+                        "description": "Craft every kind of item.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/9a4736aed8b7e955ca22b9014a65d1a5c9dcd749.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Gourmet",
+                        "description": "Eat every kind of edible item.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/76b473c09437e425550a915a403b14d8695d21a6.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Carpenter",
+                        "description": "Build everything.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/250ad8718bd2107f4d6292e9ec5e6bc2dbae3a1a.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Kings and Queens of Valheim",
+                        "description": "Embody the spirits of the Viking, Hunter, Artisan, Master Chef, Carpenter and the Explorer.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/0fb3d6b23603a4a3baf8fd672e476243f0b207fe.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/dffb830126cc386ff0f46d46290a7c8de92a86b7.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Child of Odin",
+                        "description": "Embody the spirits of the Toughest Viking, Master Hunter, Survivor and Pathfinder.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/017a82e2f986d540466119aeacb50be1eae7e532.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Stronger Together",
+                        "description": "Kill a boss together with a friend.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/adcfc8d86d8b4acaf53a83047ffb776cdff1ad44.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "Lone Wolf",
+                        "description": "Kill a boss all by yourself.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/abbca6d6f472cc3e47af7769d077b69ef6a74eea.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "A Catch Worthy of Njord",
+                        "description": "Catch a four star fish.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/eb00cd5fef98c095ea33f3a3e03daa621d4dd122.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Builder",
+                        "description": "Build 500 pieces.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/282cdb73be83710285b2614ec42f74eb78ab9e7b.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Sailor",
+                        "description": "Sail far enough to circle the world twice.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/ba7b54f167619f1a646b8f298955ad8e7716a7dd.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
+                        "achieved": false
+                    },
+                    {
+                        "name": "The Captain",
+                        "description": "Sail far enough to circle the world, while manning the helm.",
+                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/1456505d3f097ed5b7c7f863d5f683133af51304.jpg",
+                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
                         "achieved": false
                     }
                 ]
@@ -1435,420 +1849,6 @@
                         "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1325200/ac06b658d22eb362d0cad1719295de25b1eb07e2.jpg",
                         "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1325200/b48e21762d11c2f721be09654335da1b9e28acee.jpg",
                         "achieved": true
-                    }
-                ]
-            }
-        },
-        {
-            "appID": 892970,
-            "name": "Valheim",
-            "icon": "2f64c9a826e2c6cf3253fea4834c2e612db09143",
-            "logo": "",
-            "capsule": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/cc4520a33c5a7c4d9d8df5f48598c0817d781514/capsule_231x87.jpg?t=1791544831",
-            "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/df65cafab20dae97a243c7cc988e8bf959e4b906/header.jpg?t=1791544831",
-            "description": "Valheim is a collaborative exploration and survival game for 1-10 players set in a procedurally generated world inspired by Norse mythology. Craft powerful weapons, construct elaborate halls, and slay mighty foes to prove yourself to Odin! Discover an immersive procedurally generated world, with different biomes that each have their distinct environments, unique resources and dangerous enemies. Become a Viking and sail the open seas in search of lands unknown, alone or with up to nine friends! The Tenth World has been corrupted by hateful forces, in the shape of mighty regional bosses known as the Forsaken. Hone your skills with axes, blades and bows, and prepare yourself by crafting the very best equipment – for it is only by defeating these Forsaken that you will advance in your progress and prove yourself to the Allfather. Raise Viking longhouses and build bases that offer reprieve from the dangers ahead. Whether you build a small shelter, an entire village or a mountain-side fortress, defence and structural integrity are important, as is decorating it for maximum comfort! As you discover new materials, you will learn new recipes for crafting, building and cooking – all that a Viking might need! The food system is rewarding rather than punishing, granting you boons and benefits depending on what you eat, and is directly tied to the combat system, where your health and stamina might be just the thing that makes a difference between life and death. Community-translated languages In addition to the officially supported languages, Valheim has several community-translated languages. As the name would suggest, these are all translated by fans and members of the community, and the process is frequently ongoing. Thus, we cannot guarantee the quality or completeness of any specific translation.",
-            "shortDescription": "A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
-            "tags": [
-                "Open World Survival Craft",
-                "Survival",
-                "Online Co-Op",
-                "Open World",
-                "Multiplayer",
-                "Building",
-                "Crafting",
-                "Base Building",
-                "Exploration",
-                "Co-op",
-                "Adventure",
-                "Difficult",
-                "Mythology",
-                "Sandbox",
-                "PvE",
-                "Third Person",
-                "Action",
-                "Singleplayer",
-                "Indie",
-                "Early Access"
-            ],
-            "storeLink": "https://store.steampowered.com/app/892970",
-            "playtime2weeks": 0,
-            "playtimeForever": 31217,
-            "lastPlayed": 1791703452,
-            "achievements": {
-                "total": 53,
-                "unlocked": 0,
-                "percent": 0,
-                "list": [
-                    {
-                        "name": "Mighty Halls",
-                        "description": "Raise a very tall structure.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/c67946326d7a3cfa190e23c092abcb6203d4b48d.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8e46b6e1784e128370410d2bb920acba490bbeb5.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Top of the World",
-                        "description": "Build something very high up.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/80dcbeb36d0a38c48b59366c65a510607b2f3976.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/3b29618734b98a22c962b85fd4b81b7743296eb3.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Are You Alright?",
-                        "description": "Die in every way possible.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/df80631637ec0de3c4d7017f3d25a7a0f9c2a4e4.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Viking",
-                        "description": "Defeat all bosses on any difficulty.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/190dea63a8f7f82a7688f764416e7843b36062c2.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Odin is Pleased",
-                        "description": "Defeat all minibosses.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7f3f3cd06e079bc2a00507f97429a81c4bda6ddf.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "I Have Arrived!",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/63534b06771e32d358b7f7aa40cadbfcce7e6a6d.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The First of Many",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/35b3d161c17d9b09ed002c5d0c5ab243ecc9b8d1.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Eikthyr",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7e1cf56c4043d2b2aad0274942709f29acba6f62.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Elder",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/4310afd3ed9fffa67496b56bbe994ac8743ca51c.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Bonemass",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/31b3b3e61e213de6416b931544da4f14f3293323.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8e46b6e1784e128370410d2bb920acba490bbeb5.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Moder",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/b9e103c6f8a09b2fdb8ab53f706d94bc7ca7e5e3.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/3b29618734b98a22c962b85fd4b81b7743296eb3.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Yagluth",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/d201109e8ef7c602d5dc936450ea4d44f86f8c07.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8f746951410b3a2cfeec5e7b2f119dffb59715e9.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Seeker Queen",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/0b336642eccde21d742ead58b6eb247d2d68e62e.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/1cf07ea6c7fbf6b20b178a2ee5b6332c14a4c2b4.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Fader",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/b8181d590f8b3d1da0272970a19d665119ee3973.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Kall Fimbulbringer",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/859c585b71eee0129b048b7353af58bb52860332.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Obliterated",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/4a94d21386836a552646d1335263fb328549f8a6.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8e46b6e1784e128370410d2bb920acba490bbeb5.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Accidents Happen",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/b1e4855f64c66a40975becd8a7fe20aeca102cc8.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "That Can't Be an Accident",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/3f2e42c825489bb7f13226e5f3a30a692ac6b511.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Lumberjack",
-                        "description": "Cut down 500 trees.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/5cc78c6f05026bafc88fff71f7f4c9590f79db8a.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Cook",
-                        "description": "Cook 100 dishes.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/9cbb176d3a0e5fbf1f6d411f5245ba848a921e73.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Farmer",
-                        "description": "Harvest 500 crops.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/90fa8302a69223ba7361c0872ba2a2f80e1c2e1c.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Forager",
-                        "description": "Pick 250 berries and 250 mushrooms.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/26fb83790d3a2a95bffc0d300f604cd48a2720a3.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Hunter",
-                        "description": "Kill every kind of creature.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/bb5543406cc8bbf45db64a7a344aed2bc18fc3d3.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Master Hunter",
-                        "description": "Kill every kind of creature on hard difficulty.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/9bbc7144542cefabac6b05d2bb7b8f0f341ede11.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Trophy Collector",
-                        "description": "Collect all trophies.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/d2b64655d5dd898ef38841cee094a9885ac65a87.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Homesteader",
-                        "description": "Build a house.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8123144c57291c8528150704740f38932abd4afb.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Architect",
-                        "description": "Build a village.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/671fedd891f5f64dbf4e1da9a8a0bf18131249de.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Beekeeper",
-                        "description": "Harvest 500 honey.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/2bf7a0bee78059a2a12e7fc542414f5eae3b1d5f.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "No Adventuring On an Empty Stomach",
-                        "description": "Eat 500 items of food.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/61f88c7ebfade8edb46d99ea16a94ac59d59d240.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Tough Viking",
-                        "description": "Defeat all bosses on normal difficulty or higher.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/049dc17e46e24bb217573fb155dc5e2cdce41d10.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Toughest Viking",
-                        "description": "Defeat all bosses on hard difficulty.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/626c08c4cb9a67c6a79c52df666225325acc02a5.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Survivor",
-                        "description": "Survive for 30 consecutive days.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/060f01d8ae180d61f10cd224caaae003487fd5ad.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Comfort is King",
-                        "description": "Reach a comfort level of 20.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/d770fee523b33a7c52a6a1a5c8d8f26c016ae1ae.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Legends Are True",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f451691aca010fff0ca5f60d01438793f2e0e085.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Treasure Hunter",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/ba35ab17366761e2a2a5e3d79474b6ca2d3ee53b.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "No Time For Snoozing",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/00eda85c2ba32ffb3cf455b8c107144d4ee8c591.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Fisherman",
-                        "description": "Catch every kind of fish.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/6ed85097507ec73156e66eacf38d3870aa8fcf13.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Explorer",
-                        "description": "Travel far in all four directions.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/971bd1594d4ebf2a8a73dec786b104c78476056e.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Pathfinder",
-                        "description": "Travel far in all four directions, without using a map.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/d27519014d7ca453a948bc81e267b4508e85d0f0.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Chosen One",
-                        "description": "",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/2a1286c658aa8bb8f34c0c2f1f4e30a4688ad496.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/f7e675a9150b884ac85687f6d83eb70fce4ac415.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Blacksmith",
-                        "description": "Craft every kind of weapon.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/48e2c3ede71a32749e880d944ed916ce90ef2744.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Master Chef",
-                        "description": "Cook every kind of dish.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/329a4ed1067563736e4a36abf52b05940ba11f8a.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Artisan",
-                        "description": "Craft every kind of item.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/9a4736aed8b7e955ca22b9014a65d1a5c9dcd749.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Gourmet",
-                        "description": "Eat every kind of edible item.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/76b473c09437e425550a915a403b14d8695d21a6.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Carpenter",
-                        "description": "Build everything.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/250ad8718bd2107f4d6292e9ec5e6bc2dbae3a1a.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Kings and Queens of Valheim",
-                        "description": "Embody the spirits of the Viking, Hunter, Artisan, Master Chef, Carpenter and the Explorer.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/0fb3d6b23603a4a3baf8fd672e476243f0b207fe.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/dffb830126cc386ff0f46d46290a7c8de92a86b7.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Child of Odin",
-                        "description": "Embody the spirits of the Toughest Viking, Master Hunter, Survivor and Pathfinder.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/017a82e2f986d540466119aeacb50be1eae7e532.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/60371fbb4fd8e0b0f7938d6a63717a87c9ecac95.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Stronger Together",
-                        "description": "Kill a boss together with a friend.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/adcfc8d86d8b4acaf53a83047ffb776cdff1ad44.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "Lone Wolf",
-                        "description": "Kill a boss all by yourself.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/abbca6d6f472cc3e47af7769d077b69ef6a74eea.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "A Catch Worthy of Njord",
-                        "description": "Catch a four star fish.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/eb00cd5fef98c095ea33f3a3e03daa621d4dd122.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Builder",
-                        "description": "Build 500 pieces.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/282cdb73be83710285b2614ec42f74eb78ab9e7b.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Sailor",
-                        "description": "Sail far enough to circle the world twice.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/ba7b54f167619f1a646b8f298955ad8e7716a7dd.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
-                    },
-                    {
-                        "name": "The Captain",
-                        "description": "Sail far enough to circle the world, while manning the helm.",
-                        "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/1456505d3f097ed5b7c7f863d5f683133af51304.jpg",
-                        "icongray": "https://shared.akamai.steamstatic.com/community_assets/images/apps/892970/7bca03728b35215c129a5781533982a7b5aca81e.jpg",
-                        "achieved": false
                     }
                 ]
             }
@@ -11877,8 +11877,8 @@
                 "RPG",
                 "Simulation",
                 "Agriculture",
-                "Crafting",
                 "Sandbox",
+                "Crafting",
                 "Indie",
                 "Building",
                 "Open World",
