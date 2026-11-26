@@ -1,5 +1,5 @@
 {
-    "last_sync": "2026-11-25, 20:28:05",
+    "last_sync": "2026-11-26, 20:05:32",
     "data": [
         {
             "name": "scathach-next",
@@ -21,10 +21,10 @@
             "bahasa": "https://skillicons.dev/icons?i=typescript",
             "visit": "https://next.scathach.id",
             "description": "scathach-next @discordeno, @tokio-rs",
-            "commit": "9db6b07298352c0a2020388b63c6ca2bca70680c",
-            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/9db6b07298352c0a2020388b63c6ca2bca70680c",
-            "release": "v7.0.64-alpha",
-            "last_commit_date": 1795637203
+            "commit": "1f96e651a57cfa3424dfa3adaca453c4953b4864",
+            "link_commit": "https://github.com/ScathachGrip/scathach-next/commit/1f96e651a57cfa3424dfa3adaca453c4953b4864",
+            "release": "v7.0.65-alpha",
+            "last_commit_date": 1795654699
         },
         {
             "name": "scathach-next-pro",
@@ -537,5 +537,5 @@
             "last_commit_date": 1563258162
         }
     ],
-    "sha_commit": "ac8d856ebf9107e2ec53b6878204c4fc3a617723"
+    "sha_commit": "3023b86eb3335a6d70f8d903d6ae25d053e9be13"
 }
